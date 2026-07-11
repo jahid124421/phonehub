@@ -29,8 +29,8 @@
   <main class="container" style="max-width:640px">
     <p class="crumb"><a href="index.html">Home</a> / Contact</p>
     <h1>Contact us</h1>
-    <p>Questions, corrections, or advertising enquiries? Email us at
-    <strong>[your-email@your-domain.com]</strong> or use the form below.</p>
+    <p>Questions, corrections, or advertising enquiries? Send us a message
+    below — it opens a ticket on our GitHub so we can reply.</p>
 
     <form id="contactForm" style="display:grid;gap:12px;margin-top:18px">
       <input required type="text" name="name" placeholder="Your name"
@@ -44,8 +44,8 @@
     <p id="contactNote" style="color:var(--muted);margin-top:12px"></p>
 
     <p style="color:var(--muted);font-size:13px;margin-top:24px">
-      The form opens your email app. To accept messages directly on the site,
-      connect a form service (e.g. Formspree, Netlify Forms) later.</p>
+      Prefer email later? Connect a form service (e.g. Formspree, Netlify Forms)
+      and swap the handler in this page.</p>
   </main>
 
   <footer class="site-footer">
@@ -59,10 +59,10 @@
     document.getElementById("contactForm").addEventListener("submit", function(e){
       e.preventDefault();
       var f=e.target;
-      var subject=encodeURIComponent("PhoneHub contact from "+f.name.value);
+      var title=encodeURIComponent("Contact: "+f.name.value);
       var body=encodeURIComponent(f.message.value+"\n\nFrom: "+f.name.value+" <"+f.email.value+">");
-      window.location.href="mailto:[your-email@your-domain.com]?subject="+subject+"&body="+body;
-      document.getElementById("contactNote").textContent="Opening your email app…";
+      window.open("https://github.com/jahid124421/phonehub/issues/new?title="+title+"&body="+body,"_blank");
+      document.getElementById("contactNote").textContent="Opening a ticket on GitHub…";
     });
   </script>
 </body>
