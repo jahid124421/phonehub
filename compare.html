@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compare Phones — PhoneHub</title>
+  <meta name="description" content="Compare phones side by side: specs, prices and ratings.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Phone<span>Hub</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="search.html">All Phones</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html" class="active">Compare</a>
+        <a href="news.html">News</a>
+      </nav>
+      <form class="search-form" id="searchForm">
+        <input type="text" placeholder="Search phones..." aria-label="Search phones">
+        <button type="submit">Search</button>
+      </form>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <p class="crumb"><a href="index.html">Home</a> / Compare</p>
+    <h1 style="margin:14px 0 4px">Compare phones</h1>
+    <p style="color:var(--muted);margin-top:0">Add up to 4 phones from any listing, then compare them here.</p>
+    <div id="compareArea"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom">© <span id="year"></span> PhoneHub. Sample data for demo purposes.</div></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/compare.js"></script>
+</body>
+</html>

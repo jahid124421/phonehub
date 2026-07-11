@@ -1,0 +1,152 @@
+{
+  "apple-iphone-15-pro-max": {
+    "basePrice": 159900,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 159900,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 158990,
+        "url": "#"
+      },
+      {
+        "store": "Croma",
+        "price": 161900,
+        "url": "#"
+      },
+      {
+        "store": "Official Store",
+        "price": 159900,
+        "url": "#"
+      }
+    ]
+  },
+  "samsung-galaxy-s24-ultra": {
+    "basePrice": 129999,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 129999,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 127999,
+        "url": "#"
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 131999,
+        "url": "#"
+      },
+      {
+        "store": "Official Store",
+        "price": 129999,
+        "url": "#"
+      }
+    ]
+  },
+  "google-pixel-8-pro": {
+    "basePrice": 106999,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 106999,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 104999,
+        "url": "#"
+      },
+      {
+        "store": "Croma",
+        "price": 108999,
+        "url": "#"
+      }
+    ]
+  },
+  "oneplus-12": {
+    "basePrice": 64999,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 64999,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 64999,
+        "url": "#"
+      },
+      {
+        "store": "Reliance Digital",
+        "price": 66999,
+        "url": "#"
+      }
+    ]
+  },
+  "nothing-phone-2": {
+    "basePrice": 44999,
+    "prices": [
+      {
+        "store": "Flipkart",
+        "price": 44999,
+        "url": "#"
+      },
+      {
+        "store": "Amazon",
+        "price": 43999,
+        "url": "#"
+      }
+    ]
+  },
+  "xiaomi-14": {
+    "basePrice": 69999,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 69999,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 69999,
+        "url": "#"
+      }
+    ]
+  },
+  "realme-gt-6": {
+    "basePrice": 40999,
+    "prices": [
+      {
+        "store": "Flipkart",
+        "price": 40999,
+        "url": "#"
+      },
+      {
+        "store": "Amazon",
+        "price": 40999,
+        "url": "#"
+      }
+    ]
+  },
+  "vivo-x100-pro": {
+    "basePrice": 89999,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": 89999,
+        "url": "#"
+      },
+      {
+        "store": "Flipkart",
+        "price": 89999,
+        "url": "#"
+      }
+    ]
+  }
+}

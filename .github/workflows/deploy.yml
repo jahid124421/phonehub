@@ -1,0 +1,119 @@
+name: Build data & deploy to GitHub Pages
+
+# FULLY FREE — no external server. GitHub Actions spins up the specs API
+# inside the runner for a few minutes during each build, pulls the data,
+# writes AI reviews + affiliate prices, builds the site + static phone pages,
+# commits the result, and deploys to GitHub Pages.
+#
+# Push the CONTENTS of the phonehub folder as the repo root.
+#
+# Repo settings to do once:
+#   Settings > Pages > Build and deployment > Source = "GitHub Actions"
+#   Settings > Secrets and variables > Actions > add the secrets below.
+#
+# Secrets:
+#   OPENROUTER_API_KEY  (required)  your working LLM key
+#   SITE_URL            (required)  your Pages URL, e.g. https://USER.github.io/REPO
+#   AMAZON_PARTNER_TAG  (optional)  Amazon Associates tag
+#   FLIPKART_AFFILIATE_ID (optional)
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # daily 03:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build config.json from secrets
+        working-directory: tools
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          FLIPKART_AFFILIATE_ID: ${{ secrets.FLIPKART_AFFILIATE_ID }}
+        run: |
+          python - <<'PY'
+          import json, os
+          cfg = {
+            "site_url": os.environ.get("SITE_URL", "https://your-domain.example"),
+            "specs_api_base": "http://localhost:3000",
+            "brands": ["apple","samsung","google","xiaomi","oneplus","nothing","vivo","realme"],
+            "max_phones_per_brand": 12,
+            "llm": {"provider":"openrouter","model":"meta-llama/llama-3.3-70b-instruct","keys_env_path":"env_from_secrets.env"},
+            "affiliate": {
+              "amazon_partner_tag": os.environ.get("AMAZON_PARTNER_TAG",""),
+              "amazon_marketplace": "www.amazon.in",
+              "flipkart_affiliate_id": os.environ.get("FLIPKART_AFFILIATE_ID","")
+            },
+            "stores": ["Amazon","Flipkart"]
+          }
+          open("config.json","w").write(json.dumps(cfg, indent=2))
+          PY
+
+      - name: Write LLM key file
+        working-directory: tools
+        run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" > env_from_secrets.env
+
+      - name: Refresh data (start specs API in-runner, then run pipeline)
+        working-directory: tools
+        continue-on-error: true      # if scraping is blocked, keep last good data & still deploy
+        run: |
+          echo "Cloning specs API..."
+          git clone --depth 1 https://github.com/azharimm/phone-specs-api.git /tmp/specs-api
+          ( cd /tmp/specs-api && npm install --no-audit --no-fund && PORT=3000 npm start ) &
+          echo "Waiting for specs API to respond..."
+          for i in $(seq 1 45); do
+            if curl -sf http://localhost:3000/v2/brands > /dev/null; then echo "specs API up"; break; fi
+            sleep 2
+          done
+          python run_all.py
+
+      - name: Commit refreshed data (persists specs + AI-content cache)
+        run: |
+          git config user.name "phonehub-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add js/data.js phone/ sitemap.xml robots.txt tools/data/*.json 2>/dev/null || true
+          git commit -m "auto: refresh phone data" || echo "no changes"
+          git push || echo "push skipped"
+
+      - name: Remove secret files before publishing (SECURITY)
+        run: |
+          rm -f tools/env_from_secrets.env tools/config.json
+          rm -rf tools/__pycache__
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

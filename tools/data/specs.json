@@ -1,0 +1,520 @@
+{
+  "brands": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "logo": "🍎"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "logo": "📱"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "logo": "🔵"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "logo": "🟠"
+    },
+    {
+      "id": "oneplus",
+      "name": "OnePlus",
+      "logo": "🔴"
+    },
+    {
+      "id": "nothing",
+      "name": "Nothing",
+      "logo": "⚪"
+    },
+    {
+      "id": "vivo",
+      "name": "Vivo",
+      "logo": "🔷"
+    },
+    {
+      "id": "realme",
+      "name": "Realme",
+      "logo": "🟡"
+    }
+  ],
+  "phones": [
+    {
+      "id": "apple-iphone-15-pro-max",
+      "brand": "apple",
+      "name": "Apple iPhone 15 Pro Max",
+      "image": "https://via.placeholder.com/300x400?text=iPhone+15+Pro+Max",
+      "releaseDate": "2023-09-22",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Apple A17 Pro",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "camera": "48 MP triple",
+        "battery": "4441 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, September",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "159.9 x 76.7 x 8.3 mm",
+          "Weight": "221 g",
+          "Build": "Titanium frame",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO Super Retina XDR OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1290 x 2796",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "iOS 17",
+          "Chipset": "Apple A17 Pro (3 nm)",
+          "CPU": "Hexa-core",
+          "GPU": "Apple GPU (6-core)"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB / 1TB",
+          "RAM": "8 GB"
+        },
+        "Main Camera": {
+          "Triple": "48 MP + 12 MP + 12 MP",
+          "Features": "Dual-LED, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "12 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 4441 mAh",
+          "Charging": "27W wired, 15W MagSafe"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 Ultra",
+      "image": "https://via.placeholder.com/300x400?text=Galaxy+S24+Ultra",
+      "releaseDate": "2024-01-24",
+      "quickSpecs": {
+        "display": "6.8\" QHD+ AMOLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "200 MP quad",
+        "battery": "5000 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, January",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.3 x 79 x 8.6 mm",
+          "Weight": "232 g",
+          "Build": "Titanium frame",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "Dynamic LTPO AMOLED 2X",
+          "Size": "6.8 inches",
+          "Resolution": "1440 x 3120",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, One UI 6.1",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB / 1TB",
+          "RAM": "12 GB"
+        },
+        "Main Camera": {
+          "Quad": "200 MP + 50 MP + 12 MP + 10 MP",
+          "Features": "LED flash, HDR",
+          "Video": "8K@30fps"
+        },
+        "Selfie Camera": {
+          "Single": "12 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5000 mAh",
+          "Charging": "45W wired, 15W wireless"
+        }
+      }
+    },
+    {
+      "id": "google-pixel-8-pro",
+      "brand": "google",
+      "name": "Google Pixel 8 Pro",
+      "image": "https://via.placeholder.com/300x400?text=Pixel+8+Pro",
+      "releaseDate": "2023-10-12",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Google Tensor G3",
+        "ram": "12 GB",
+        "storage": "128 GB",
+        "camera": "50 MP triple",
+        "battery": "5050 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, October",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.6 x 76.5 x 8.8 mm",
+          "Weight": "213 g",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1344 x 2992",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14",
+          "Chipset": "Google Tensor G3",
+          "CPU": "Nona-core",
+          "GPU": "Immortalis-G715s MC10"
+        },
+        "Memory": {
+          "Internal": "128GB / 256GB / 512GB",
+          "RAM": "12 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 48 MP + 48 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "10.5 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5050 mAh",
+          "Charging": "30W wired, 23W wireless"
+        }
+      }
+    },
+    {
+      "id": "oneplus-12",
+      "brand": "oneplus",
+      "name": "OnePlus 12",
+      "image": "https://via.placeholder.com/300x400?text=OnePlus+12",
+      "releaseDate": "2024-01-23",
+      "quickSpecs": {
+        "display": "6.82\" QHD+ AMOLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple",
+        "battery": "5400 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, January",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "164.3 x 75.8 x 9.2 mm",
+          "Weight": "220 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP65"
+        },
+        "Display": {
+          "Type": "LTPO AMOLED",
+          "Size": "6.82 inches",
+          "Resolution": "1440 x 3168",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, OxygenOS 14",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 64 MP + 48 MP",
+          "Features": "LED flash, HDR",
+          "Video": "8K@24fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5400 mAh",
+          "Charging": "100W wired, 50W wireless"
+        }
+      }
+    },
+    {
+      "id": "nothing-phone-2",
+      "brand": "nothing",
+      "name": "Nothing Phone (2)",
+      "image": "https://via.placeholder.com/300x400?text=Nothing+Phone+2",
+      "releaseDate": "2023-07-11",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "camera": "50 MP dual",
+        "battery": "4700 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, July",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.1 x 76.4 x 8.6 mm",
+          "Weight": "201 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP54"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1080 x 2412",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 13, Nothing OS 2.0",
+          "Chipset": "Snapdragon 8+ Gen 1",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 730"
+        },
+        "Memory": {
+          "Internal": "128GB / 256GB / 512GB",
+          "RAM": "8 GB / 12 GB"
+        },
+        "Main Camera": {
+          "Dual": "50 MP + 50 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "1080p@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 4700 mAh",
+          "Charging": "45W wired, 15W wireless"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-14",
+      "brand": "xiaomi",
+      "name": "Xiaomi 14",
+      "image": "https://via.placeholder.com/300x400?text=Xiaomi+14",
+      "releaseDate": "2024-02-25",
+      "quickSpecs": {
+        "display": "6.36\" LTPO OLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple (Leica)",
+        "battery": "4610 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, February",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "152.8 x 71.5 x 8.2 mm",
+          "Weight": "193 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.36 inches",
+          "Resolution": "1200 x 2670",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, HyperOS",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 50 MP + 50 MP",
+          "Features": "Leica optics, LED flash",
+          "Video": "8K@24fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 4610 mAh",
+          "Charging": "90W wired, 50W wireless"
+        }
+      }
+    },
+    {
+      "id": "realme-gt-6",
+      "brand": "realme",
+      "name": "Realme GT 6",
+      "image": "https://via.placeholder.com/300x400?text=Realme+GT+6",
+      "releaseDate": "2024-06-20",
+      "quickSpecs": {
+        "display": "6.78\" AMOLED, 120Hz",
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple",
+        "battery": "5500 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, June",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "161.4 x 75.1 x 8.6 mm",
+          "Weight": "199 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP65"
+        },
+        "Display": {
+          "Type": "AMOLED",
+          "Size": "6.78 inches",
+          "Resolution": "1264 x 2780",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, Realme UI 5.0",
+          "Chipset": "Snapdragon 8s Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 735"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "8 GB / 12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 8 MP + 2 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "1080p@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 5500 mAh",
+          "Charging": "120W wired"
+        }
+      }
+    },
+    {
+      "id": "vivo-x100-pro",
+      "brand": "vivo",
+      "name": "Vivo X100 Pro",
+      "image": "https://via.placeholder.com/300x400?text=Vivo+X100+Pro",
+      "releaseDate": "2024-02-06",
+      "quickSpecs": {
+        "display": "6.78\" LTPO AMOLED, 120Hz",
+        "processor": "Dimensity 9300",
+        "ram": "16 GB",
+        "storage": "512 GB",
+        "camera": "50 MP triple (Zeiss)",
+        "battery": "5400 mAh"
+      },
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, February",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "164.1 x 75.3 x 8.9 mm",
+          "Weight": "225 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO AMOLED",
+          "Size": "6.78 inches",
+          "Resolution": "1260 x 2800",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, Funtouch 14",
+          "Chipset": "Dimensity 9300",
+          "CPU": "Octa-core",
+          "GPU": "Immortalis-G720 MC12"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 50 MP + 50 MP",
+          "Features": "Zeiss optics, LED flash",
+          "Video": "8K@30fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 5400 mAh",
+          "Charging": "100W wired, 50W wireless"
+        }
+      }
+    }
+  ]
+}

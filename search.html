@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Phones — PhoneHub</title>
+  <meta name="description" content="Browse and filter all phones by brand, price and rating.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Phone<span>Hub</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="search.html" class="active">All Phones</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html">Compare</a>
+        <a href="news.html">News</a>
+      </nav>
+      <form class="search-form" id="searchForm">
+        <input type="text" placeholder="Search phones..." aria-label="Search phones">
+        <button type="submit">Search</button>
+      </form>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <p class="crumb"><a href="index.html">Home</a> / <span id="crumbLabel">All Phones</span></p>
+
+    <div class="layout" style="margin-top:14px">
+      <aside class="filters">
+        <h3>Filters</h3>
+        <div class="filter-group">
+          <strong>Brand</strong>
+          <div id="brandFilters"></div>
+        </div>
+        <div class="filter-group">
+          <strong>Max price</strong>
+          <input type="range" id="priceRange" min="20000" max="170000" step="5000" value="170000">
+          <div style="color:var(--muted);font-size:13px">Up to <span id="priceLabel">₹1,70,000</span></div>
+        </div>
+        <div class="filter-group">
+          <strong>Min rating</strong>
+          <label><input type="radio" name="rating" value="0" checked> Any</label>
+          <label><input type="radio" name="rating" value="4"> 4★ &amp; up</label>
+          <label><input type="radio" name="rating" value="4.5"> 4.5★ &amp; up</label>
+        </div>
+        <button class="btn btn-ghost" id="resetFilters" style="width:100%">Reset filters</button>
+      </aside>
+
+      <div>
+        <div class="results-head">
+          <h2 id="resultCount"></h2>
+          <select id="sortSelect">
+            <option value="popularity">Sort: Popularity</option>
+            <option value="newest">Sort: Newest</option>
+            <option value="priceLow">Sort: Price low → high</option>
+            <option value="priceHigh">Sort: Price high → low</option>
+            <option value="rating">Sort: Rating</option>
+          </select>
+        </div>
+        <div class="grid" id="resultsGrid"></div>
+        <div class="ad-slot">Advertisement <small>in-feed responsive unit</small></div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom">© <span id="year"></span> PhoneHub. Sample data for demo purposes.</div></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

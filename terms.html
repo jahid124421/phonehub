@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use — PhoneHub</title>
+  <meta name="description" content="Terms and conditions for using PhoneHub.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Phone<span>Hub</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="search.html">All Phones</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html">Compare</a>
+        <a href="news.html">News</a>
+      </nav>
+      <form class="search-form" id="searchForm">
+        <input type="text" placeholder="Search phones..." aria-label="Search phones">
+        <button type="submit">Search</button>
+      </form>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" style="max-width:820px">
+    <p class="crumb"><a href="index.html">Home</a> / Terms of Use</p>
+    <h1>Terms of Use</h1>
+
+    <p>By accessing <strong>PhoneHub</strong> ("the Site") you agree to these terms.</p>
+
+    <h2>Information accuracy</h2>
+    <p>We work to keep specifications and prices accurate, but provide the Site
+    "as is" without warranties. Specifications may contain errors and prices
+    change constantly — verify details on the manufacturer or retailer site
+    before purchasing.</p>
+
+    <h2>External links</h2>
+    <p>The Site links to third-party stores and sources. We are not responsible
+    for their content, prices, availability, or policies.</p>
+
+    <h2>Intellectual property</h2>
+    <p>Site design, original written reviews and layout are owned by PhoneHub.
+    Brand names, logos and product images are the property of their respective
+    owners and are used for identification only.</p>
+
+    <h2>Limitation of liability</h2>
+    <p>We are not liable for any loss arising from use of the Site, including
+    purchasing decisions based on information shown here.</p>
+
+    <h2>Changes</h2>
+    <p>We may update these terms at any time. Continued use means you accept the
+    updated terms.</p>
+
+    <p style="color:var(--muted);font-size:13px;margin-top:30px;border-top:1px solid var(--border);padding-top:14px">
+      Template only, not legal advice. Have it reviewed for your jurisdiction.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom">© <span id="year"></span> PhoneHub.</div></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script>var y=document.getElementById("year"); if(y) y.textContent=new Date().getFullYear();</script>
+</body>
+</html>

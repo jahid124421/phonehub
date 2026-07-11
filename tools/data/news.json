@@ -1,0 +1,30 @@
+[
+  {
+    "id": "n1",
+    "title": "Best phones under ₹50,000 in 2024",
+    "excerpt": "Our top picks balancing performance, camera and battery for the mid-premium segment.",
+    "date": "2024-07-01",
+    "tag": "Buying Guide"
+  },
+  {
+    "id": "n2",
+    "title": "Snapdragon 8 Gen 3 vs Dimensity 9300: which is faster?",
+    "excerpt": "We break down CPU, GPU and efficiency differences between the two flagship chips.",
+    "date": "2024-06-24",
+    "tag": "Comparison"
+  },
+  {
+    "id": "n3",
+    "title": "iPhone 16 rumors: everything we know so far",
+    "excerpt": "Leaks point to a bigger Pro display, new capture button and A18 chip.",
+    "date": "2024-06-18",
+    "tag": "News"
+  },
+  {
+    "id": "n4",
+    "title": "How we test phone cameras",
+    "excerpt": "A look behind the scenes at our standardized camera testing methodology.",
+    "date": "2024-06-10",
+    "tag": "Editorial"
+  }
+]

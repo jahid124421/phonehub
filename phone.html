@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Phone Details — PhoneHub</title>
+  <meta name="description" id="pageDesc" content="Full specifications, prices and reviews.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Phone<span>Hub</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="search.html">All Phones</a>
+        <a href="brands.html">Brands</a>
+        <a href="compare.html">Compare</a>
+        <a href="news.html">News</a>
+      </nav>
+      <form class="search-form" id="searchForm">
+        <input type="text" placeholder="Search phones..." aria-label="Search phones">
+        <button type="submit">Search</button>
+      </form>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container" id="phoneMain">
+    <!-- rendered by phone.js -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><div class="footer-bottom">© <span id="year"></span> PhoneHub. Sample data for demo purposes.</div></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/phone.js"></script>
+</body>
+</html>

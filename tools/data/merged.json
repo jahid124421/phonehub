@@ -1,0 +1,788 @@
+{
+  "brands": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "logo": "🍎"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "logo": "📱"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "logo": "🔵"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "logo": "🟠"
+    },
+    {
+      "id": "oneplus",
+      "name": "OnePlus",
+      "logo": "🔴"
+    },
+    {
+      "id": "nothing",
+      "name": "Nothing",
+      "logo": "⚪"
+    },
+    {
+      "id": "vivo",
+      "name": "Vivo",
+      "logo": "🔷"
+    },
+    {
+      "id": "realme",
+      "name": "Realme",
+      "logo": "🟡"
+    }
+  ],
+  "phones": [
+    {
+      "id": "apple-iphone-15-pro-max",
+      "brand": "apple",
+      "name": "Apple iPhone 15 Pro Max",
+      "image": "img/apple-iphone-15-pro-max.svg",
+      "releaseDate": "2023-09-22",
+      "basePrice": 159900,
+      "popularity": 98,
+      "rating": 4.7,
+      "reviewCount": 1176,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Apple A17 Pro",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "camera": "48 MP triple",
+        "battery": "4441 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 159900,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 158990,
+          "url": "#"
+        },
+        {
+          "store": "Croma",
+          "price": 161900,
+          "url": "#"
+        },
+        {
+          "store": "Official Store",
+          "price": 159900,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Best-in-class performance",
+        "Titanium build",
+        "Excellent cameras"
+      ],
+      "cons": [
+        "Very expensive",
+        "Slow charging"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, September",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "159.9 x 76.7 x 8.3 mm",
+          "Weight": "221 g",
+          "Build": "Titanium frame",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO Super Retina XDR OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1290 x 2796",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "iOS 17",
+          "Chipset": "Apple A17 Pro (3 nm)",
+          "CPU": "Hexa-core",
+          "GPU": "Apple GPU (6-core)"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB / 1TB",
+          "RAM": "8 GB"
+        },
+        "Main Camera": {
+          "Triple": "48 MP + 12 MP + 12 MP",
+          "Features": "Dual-LED, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "12 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 4441 mAh",
+          "Charging": "27W wired, 15W MagSafe"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s24-ultra",
+      "brand": "samsung",
+      "name": "Samsung Galaxy S24 Ultra",
+      "image": "img/samsung-galaxy-s24-ultra.svg",
+      "releaseDate": "2024-01-24",
+      "basePrice": 129999,
+      "popularity": 96,
+      "rating": 4.6,
+      "reviewCount": 1152,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.8\" QHD+ AMOLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "200 MP quad",
+        "battery": "5000 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 129999,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 127999,
+          "url": "#"
+        },
+        {
+          "store": "Reliance Digital",
+          "price": 131999,
+          "url": "#"
+        },
+        {
+          "store": "Official Store",
+          "price": 129999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Superb display",
+        "S Pen included",
+        "Long software support"
+      ],
+      "cons": [
+        "Bulky",
+        "Pricey"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, January",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.3 x 79 x 8.6 mm",
+          "Weight": "232 g",
+          "Build": "Titanium frame",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "Dynamic LTPO AMOLED 2X",
+          "Size": "6.8 inches",
+          "Resolution": "1440 x 3120",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, One UI 6.1",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB / 1TB",
+          "RAM": "12 GB"
+        },
+        "Main Camera": {
+          "Quad": "200 MP + 50 MP + 12 MP + 10 MP",
+          "Features": "LED flash, HDR",
+          "Video": "8K@30fps"
+        },
+        "Selfie Camera": {
+          "Single": "12 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5000 mAh",
+          "Charging": "45W wired, 15W wireless"
+        }
+      }
+    },
+    {
+      "id": "google-pixel-8-pro",
+      "brand": "google",
+      "name": "Google Pixel 8 Pro",
+      "image": "img/google-pixel-8-pro.svg",
+      "releaseDate": "2023-10-12",
+      "basePrice": 106999,
+      "popularity": 88,
+      "rating": 4.5,
+      "reviewCount": 1056,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Google Tensor G3",
+        "ram": "12 GB",
+        "storage": "128 GB",
+        "camera": "50 MP triple",
+        "battery": "5050 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 106999,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 104999,
+          "url": "#"
+        },
+        {
+          "store": "Croma",
+          "price": 108999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Best-in-class camera software",
+        "Clean Android",
+        "7 years updates"
+      ],
+      "cons": [
+        "Tensor runs warm",
+        "Average charging speed"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, October",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.6 x 76.5 x 8.8 mm",
+          "Weight": "213 g",
+          "SIM": "Nano-SIM + eSIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1344 x 2992",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14",
+          "Chipset": "Google Tensor G3",
+          "CPU": "Nona-core",
+          "GPU": "Immortalis-G715s MC10"
+        },
+        "Memory": {
+          "Internal": "128GB / 256GB / 512GB",
+          "RAM": "12 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 48 MP + 48 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "10.5 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5050 mAh",
+          "Charging": "30W wired, 23W wireless"
+        }
+      }
+    },
+    {
+      "id": "oneplus-12",
+      "brand": "oneplus",
+      "name": "OnePlus 12",
+      "image": "img/oneplus-12.svg",
+      "releaseDate": "2024-01-23",
+      "basePrice": 64999,
+      "popularity": 90,
+      "rating": 4.5,
+      "reviewCount": 1080,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.82\" QHD+ AMOLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple",
+        "battery": "5400 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 64999,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 64999,
+          "url": "#"
+        },
+        {
+          "store": "Reliance Digital",
+          "price": 66999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Fast 100W charging",
+        "Great value flagship",
+        "Bright display"
+      ],
+      "cons": [
+        "No wireless charging on base",
+        "Bloatware"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, January",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "164.3 x 75.8 x 9.2 mm",
+          "Weight": "220 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP65"
+        },
+        "Display": {
+          "Type": "LTPO AMOLED",
+          "Size": "6.82 inches",
+          "Resolution": "1440 x 3168",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, OxygenOS 14",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 64 MP + 48 MP",
+          "Features": "LED flash, HDR",
+          "Video": "8K@24fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Ion 5400 mAh",
+          "Charging": "100W wired, 50W wireless"
+        }
+      }
+    },
+    {
+      "id": "nothing-phone-2",
+      "brand": "nothing",
+      "name": "Nothing Phone (2)",
+      "image": "img/nothing-phone-2.svg",
+      "releaseDate": "2023-07-11",
+      "basePrice": 44999,
+      "popularity": 82,
+      "rating": 4.3,
+      "reviewCount": 984,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.7\" LTPO OLED, 120Hz",
+        "processor": "Snapdragon 8+ Gen 1",
+        "ram": "8 GB",
+        "storage": "128 GB",
+        "camera": "50 MP dual",
+        "battery": "4700 mAh"
+      },
+      "prices": [
+        {
+          "store": "Flipkart",
+          "price": 44999,
+          "url": "#"
+        },
+        {
+          "store": "Amazon",
+          "price": 43999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Unique Glyph design",
+        "Clean software",
+        "Good value"
+      ],
+      "cons": [
+        "Only dual cameras",
+        "Average low-light photos"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2023, July",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "162.1 x 76.4 x 8.6 mm",
+          "Weight": "201 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP54"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.7 inches",
+          "Resolution": "1080 x 2412",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 13, Nothing OS 2.0",
+          "Chipset": "Snapdragon 8+ Gen 1",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 730"
+        },
+        "Memory": {
+          "Internal": "128GB / 256GB / 512GB",
+          "RAM": "8 GB / 12 GB"
+        },
+        "Main Camera": {
+          "Dual": "50 MP + 50 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "1080p@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 4700 mAh",
+          "Charging": "45W wired, 15W wireless"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-14",
+      "brand": "xiaomi",
+      "name": "Xiaomi 14",
+      "image": "img/xiaomi-14.svg",
+      "releaseDate": "2024-02-25",
+      "basePrice": 69999,
+      "popularity": 85,
+      "rating": 4.4,
+      "reviewCount": 1020,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.36\" LTPO OLED, 120Hz",
+        "processor": "Snapdragon 8 Gen 3",
+        "ram": "12 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple (Leica)",
+        "battery": "4610 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 69999,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 69999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Compact flagship",
+        "Leica cameras",
+        "Fast charging"
+      ],
+      "cons": [
+        "MIUI ads",
+        "No IP68 on all variants"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, February",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "152.8 x 71.5 x 8.2 mm",
+          "Weight": "193 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO OLED",
+          "Size": "6.36 inches",
+          "Resolution": "1200 x 2670",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, HyperOS",
+          "Chipset": "Snapdragon 8 Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 750"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 50 MP + 50 MP",
+          "Features": "Leica optics, LED flash",
+          "Video": "8K@24fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@60fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 4610 mAh",
+          "Charging": "90W wired, 50W wireless"
+        }
+      }
+    },
+    {
+      "id": "realme-gt-6",
+      "brand": "realme",
+      "name": "Realme GT 6",
+      "image": "img/realme-gt-6.svg",
+      "releaseDate": "2024-06-20",
+      "basePrice": 40999,
+      "popularity": 79,
+      "rating": 4.2,
+      "reviewCount": 948,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.78\" AMOLED, 120Hz",
+        "processor": "Snapdragon 8s Gen 3",
+        "ram": "8 GB",
+        "storage": "256 GB",
+        "camera": "50 MP triple",
+        "battery": "5500 mAh"
+      },
+      "prices": [
+        {
+          "store": "Flipkart",
+          "price": 40999,
+          "url": "#"
+        },
+        {
+          "store": "Amazon",
+          "price": 40999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Very bright display",
+        "Big battery",
+        "Fast charging"
+      ],
+      "cons": [
+        "Design divides opinion",
+        "Bloatware"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, June",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "161.4 x 75.1 x 8.6 mm",
+          "Weight": "199 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP65"
+        },
+        "Display": {
+          "Type": "AMOLED",
+          "Size": "6.78 inches",
+          "Resolution": "1264 x 2780",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, Realme UI 5.0",
+          "Chipset": "Snapdragon 8s Gen 3",
+          "CPU": "Octa-core",
+          "GPU": "Adreno 735"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "8 GB / 12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 8 MP + 2 MP",
+          "Features": "LED flash, HDR",
+          "Video": "4K@60fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "1080p@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 5500 mAh",
+          "Charging": "120W wired"
+        }
+      }
+    },
+    {
+      "id": "vivo-x100-pro",
+      "brand": "vivo",
+      "name": "Vivo X100 Pro",
+      "image": "img/vivo-x100-pro.svg",
+      "releaseDate": "2024-02-06",
+      "basePrice": 89999,
+      "popularity": 81,
+      "rating": 4.4,
+      "reviewCount": 972,
+      "review": "",
+      "quickSpecs": {
+        "display": "6.78\" LTPO AMOLED, 120Hz",
+        "processor": "Dimensity 9300",
+        "ram": "16 GB",
+        "storage": "512 GB",
+        "camera": "50 MP triple (Zeiss)",
+        "battery": "5400 mAh"
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": 89999,
+          "url": "#"
+        },
+        {
+          "store": "Flipkart",
+          "price": 89999,
+          "url": "#"
+        }
+      ],
+      "pros": [
+        "Excellent telephoto",
+        "Zeiss optics",
+        "Bright display"
+      ],
+      "cons": [
+        "Heavy",
+        "Funtouch OS quirks"
+      ],
+      "specs": {
+        "Network": {
+          "Technology": "GSM / HSPA / LTE / 5G"
+        },
+        "Launch": {
+          "Announced": "2024, February",
+          "Status": "Available"
+        },
+        "Body": {
+          "Dimensions": "164.1 x 75.3 x 8.9 mm",
+          "Weight": "225 g",
+          "SIM": "Dual Nano-SIM",
+          "Water resistance": "IP68"
+        },
+        "Display": {
+          "Type": "LTPO AMOLED",
+          "Size": "6.78 inches",
+          "Resolution": "1260 x 2800",
+          "Refresh rate": "120Hz"
+        },
+        "Platform": {
+          "OS": "Android 14, Funtouch 14",
+          "Chipset": "Dimensity 9300",
+          "CPU": "Octa-core",
+          "GPU": "Immortalis-G720 MC12"
+        },
+        "Memory": {
+          "Internal": "256GB / 512GB",
+          "RAM": "12 GB / 16 GB"
+        },
+        "Main Camera": {
+          "Triple": "50 MP + 50 MP + 50 MP",
+          "Features": "Zeiss optics, LED flash",
+          "Video": "8K@30fps"
+        },
+        "Selfie Camera": {
+          "Single": "32 MP",
+          "Video": "4K@30fps"
+        },
+        "Battery": {
+          "Type": "Li-Po 5400 mAh",
+          "Charging": "100W wired, 50W wireless"
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Best phones under ₹50,000 in 2024",
+      "excerpt": "Our top picks balancing performance, camera and battery for the mid-premium segment.",
+      "date": "2024-07-01",
+      "tag": "Buying Guide"
+    },
+    {
+      "id": "n2",
+      "title": "Snapdragon 8 Gen 3 vs Dimensity 9300: which is faster?",
+      "excerpt": "We break down CPU, GPU and efficiency differences between the two flagship chips.",
+      "date": "2024-06-24",
+      "tag": "Comparison"
+    },
+    {
+      "id": "n3",
+      "title": "iPhone 16 rumors: everything we know so far",
+      "excerpt": "Leaks point to a bigger Pro display, new capture button and A18 chip.",
+      "date": "2024-06-18",
+      "tag": "News"
+    },
+    {
+      "id": "n4",
+      "title": "How we test phone cameras",
+      "excerpt": "A look behind the scenes at our standardized camera testing methodology.",
+      "date": "2024-06-10",
+      "tag": "Editorial"
+    }
+  ]
+}

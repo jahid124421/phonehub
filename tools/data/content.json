@@ -1,0 +1,114 @@
+{
+  "apple-iphone-15-pro-max": {
+    "review": "",
+    "pros": [
+      "Best-in-class performance",
+      "Titanium build",
+      "Excellent cameras"
+    ],
+    "cons": [
+      "Very expensive",
+      "Slow charging"
+    ],
+    "rating": 4.7,
+    "popularity": 98
+  },
+  "samsung-galaxy-s24-ultra": {
+    "review": "",
+    "pros": [
+      "Superb display",
+      "S Pen included",
+      "Long software support"
+    ],
+    "cons": [
+      "Bulky",
+      "Pricey"
+    ],
+    "rating": 4.6,
+    "popularity": 96
+  },
+  "google-pixel-8-pro": {
+    "review": "",
+    "pros": [
+      "Best-in-class camera software",
+      "Clean Android",
+      "7 years updates"
+    ],
+    "cons": [
+      "Tensor runs warm",
+      "Average charging speed"
+    ],
+    "rating": 4.5,
+    "popularity": 88
+  },
+  "oneplus-12": {
+    "review": "",
+    "pros": [
+      "Fast 100W charging",
+      "Great value flagship",
+      "Bright display"
+    ],
+    "cons": [
+      "No wireless charging on base",
+      "Bloatware"
+    ],
+    "rating": 4.5,
+    "popularity": 90
+  },
+  "nothing-phone-2": {
+    "review": "",
+    "pros": [
+      "Unique Glyph design",
+      "Clean software",
+      "Good value"
+    ],
+    "cons": [
+      "Only dual cameras",
+      "Average low-light photos"
+    ],
+    "rating": 4.3,
+    "popularity": 82
+  },
+  "xiaomi-14": {
+    "review": "",
+    "pros": [
+      "Compact flagship",
+      "Leica cameras",
+      "Fast charging"
+    ],
+    "cons": [
+      "MIUI ads",
+      "No IP68 on all variants"
+    ],
+    "rating": 4.4,
+    "popularity": 85
+  },
+  "realme-gt-6": {
+    "review": "",
+    "pros": [
+      "Very bright display",
+      "Big battery",
+      "Fast charging"
+    ],
+    "cons": [
+      "Design divides opinion",
+      "Bloatware"
+    ],
+    "rating": 4.2,
+    "popularity": 79
+  },
+  "vivo-x100-pro": {
+    "review": "",
+    "pros": [
+      "Excellent telephoto",
+      "Zeiss optics",
+      "Bright display"
+    ],
+    "cons": [
+      "Heavy",
+      "Funtouch OS quirks"
+    ],
+    "rating": 4.4,
+    "popularity": 81
+  }
+}
