@@ -1,9 +1,9 @@
 name: Build data & deploy to GitHub Pages
 
-# FULLY FREE — no external server. GitHub Actions spins up the specs API
-# inside the runner for a few minutes during each build, pulls the data,
-# writes AI reviews + affiliate prices, builds the site + static phone pages,
-# commits the result, and deploys to GitHub Pages.
+# FULLY FREE — no external server, no scraping. Specs come from the committed
+# dataset (tools/data/specs.json, produced by seed_dataset.py). Each run writes
+# AI reviews + affiliate prices, builds the site + static phone pages, commits
+# the result, and deploys to GitHub Pages.
 #
 # Push the CONTENTS of the phonehub folder as the repo root.
 #
@@ -43,10 +43,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - name: Build config.json from secrets
         working-directory: tools
         env:
@@ -76,19 +72,10 @@ jobs:
         working-directory: tools
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" > env_from_secrets.env
 
-      - name: Refresh data (start specs API in-runner, then run pipeline)
+      - name: Refresh data (AI reviews + prices + build; specs come from committed dataset)
         working-directory: tools
-        continue-on-error: true      # if scraping is blocked, keep last good data & still deploy
-        run: |
-          echo "Cloning specs API..."
-          git clone --depth 1 https://github.com/azharimm/phone-specs-api.git /tmp/specs-api
-          ( cd /tmp/specs-api && npm install --no-audit --no-fund && PORT=3000 npm start ) &
-          echo "Waiting for specs API to respond..."
-          for i in $(seq 1 45); do
-            if curl -sf http://localhost:3000/v2/brands > /dev/null; then echo "specs API up"; break; fi
-            sleep 2
-          done
-          python run_all.py
+        continue-on-error: true      # if the LLM is unreachable, keep last good data & still deploy
+        run: python run_all.py --no-import
 
       - name: Commit refreshed data (persists specs + AI-content cache)
         run: |

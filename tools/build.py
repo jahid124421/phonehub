@@ -37,11 +37,13 @@ def main():
         pr = prices.get(cid, {})
         popularity = c.get("popularity", 55)
         rating = c.get("rating", 0)
+        image, fallback = gen_images.resolve(p)
         merged.append({
             "id": cid,
             "brand": p["brand"],
             "name": p["name"],
-            "image": gen_images.ensure_image(p),
+            "image": image,
+            "fallbackImg": fallback,
             "releaseDate": p.get("releaseDate", ""),
             "basePrice": pr.get("basePrice", 0),
             "popularity": popularity,

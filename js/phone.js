@@ -63,7 +63,7 @@
     <p class="crumb"><a href="index.html">Home</a> / <a href="search.html?brand=${phone.brand}">${b.name}</a> / ${phone.name}</p>
 
     <div class="phone-top">
-      <div class="phone-gallery"><img src="${PH.imgUrl(phone.image)}" alt="${phone.name}" onerror="this.onerror=null;this.src=PH.IMG_FALLBACK"></div>
+      <div class="phone-gallery"><img src="${PH.imgUrl(phone.image)}" alt="${phone.name}" data-fb="${phone.fallbackImg || ""}" onerror="this.onerror=null;this.src=PH.imgUrl(this.dataset.fb)"></div>
       <div class="phone-info">
         <h1>${phone.name}</h1>
         <div class="phone-meta">${b.logo} ${b.name} · Released ${new Date(phone.releaseDate).toLocaleDateString("en-IN", { month: "short", year: "numeric" })}</div>

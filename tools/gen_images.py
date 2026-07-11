@@ -71,16 +71,26 @@ def good_image(url):
         not any(h in url for h in DEAD_HOSTS)
 
 
-def ensure_image(phone):
-    """Return a usable image path for the phone, creating a local SVG if needed."""
-    img = phone.get("image", "")
-    if good_image(img):
-        return img
+def local_svg(phone):
+    """Always create the branded SVG tile for a phone; return its relative path."""
     os.makedirs(IMG_DIR, exist_ok=True)
     fname = f"{phone['id']}.svg"
     with open(os.path.join(IMG_DIR, fname), "w", encoding="utf-8") as f:
         f.write(make_svg(phone.get("name", "Phone"), phone.get("brand", "")))
     return "img/" + fname
+
+
+def resolve(phone):
+    """Return (primary_image, fallback_image). Real photo if usable, else the tile.
+    The local SVG tile is always generated so it can serve as an onerror fallback."""
+    fb = local_svg(phone)
+    img = phone.get("image", "")
+    return (img if good_image(img) else fb), fb
+
+
+def ensure_image(phone):
+    """Backwards-compatible single-value helper (returns the primary image)."""
+    return resolve(phone)[0]
 
 
 if __name__ == "__main__":

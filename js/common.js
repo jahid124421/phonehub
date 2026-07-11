@@ -72,7 +72,7 @@
     return `
       <article class="card">
         <a class="card-link" href="${PH.phoneUrl(phone.id)}">
-          <div class="card-img"><img src="${PH.imgUrl(phone.image)}" alt="${phone.name}" loading="lazy" onerror="this.onerror=null;this.src=PH.IMG_FALLBACK"></div>
+          <div class="card-img"><img src="${PH.imgUrl(phone.image)}" alt="${phone.name}" loading="lazy" data-fb="${phone.fallbackImg || ""}" onerror="this.onerror=null;this.src=PH.imgUrl(this.dataset.fb)"></div>
           <div class="card-body">
             <span class="card-brand">${b.logo} ${b.name}</span>
             <h3 class="card-title">${phone.name}</h3>

@@ -24,7 +24,8 @@ def step(script, args=None):
 
 def main():
     flags = sys.argv[1:]
-    step("import_specs.py")
+    if "--no-import" not in flags:      # dataset-seed mode skips live scraping
+        step("import_specs.py")
     if "--skip-content" not in flags:
         step("content_agent.py")
     step("price_job.py")

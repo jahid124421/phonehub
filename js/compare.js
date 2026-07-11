@@ -31,7 +31,7 @@
 
     const headCells = phones.map((p) =>
       `<th>
-         <a href="${PH.phoneUrl(p.id)}"><img src="${PH.imgUrl(p.image)}" alt="${p.name}" onerror="this.onerror=null;this.src=PH.IMG_FALLBACK" style="height:120px;object-fit:contain;background:#fff;border-radius:8px;padding:6px"></a>
+         <a href="${PH.phoneUrl(p.id)}"><img src="${PH.imgUrl(p.image)}" alt="${p.name}" data-fb="${p.fallbackImg || ""}" onerror="this.onerror=null;this.src=PH.imgUrl(this.dataset.fb)" style="height:120px;object-fit:contain;background:#fff;border-radius:8px;padding:6px"></a>
          <div style="margin-top:8px">${p.name}</div>
          <button class="btn btn-ghost" data-remove="${p.id}" style="margin-top:8px;padding:4px 10px">Remove</button>
        </th>`).join("");

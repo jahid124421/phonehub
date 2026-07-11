@@ -105,9 +105,10 @@ def card_html(phone, brands):
     rating_html = (f'\u2605 {rating} <span>({phone.get("reviewCount", 0)})</span>'
                    if rating else "<span>Not yet rated</span>")
     img = img_rel(phone.get("image") or "")
+    fb = img_rel(phone.get("fallbackImg") or "")
     return f"""      <article class="card">
         <a class="card-link" href="{esc(phone['id'])}.html">
-          <div class="card-img"><img src="{esc(img)}" alt="{esc(phone['name'])}" loading="lazy" onerror="this.onerror=null;this.src=PH.IMG_FALLBACK"></div>
+          <div class="card-img"><img src="{esc(img)}" alt="{esc(phone['name'])}" loading="lazy" onerror="this.onerror=null;this.src='{esc(fb)}'"></div>
           <div class="card-body">
             <span class="card-brand">{esc(b['logo'])} {esc(b['name'])}</span>
             <h3 class="card-title">{esc(phone['name'])}</h3>
@@ -199,6 +200,7 @@ def render_phone(phone, brands, phones_all, base):
             f"{phone.get('quickSpecs',{}).get('processor','')}, "
             f"{phone.get('quickSpecs',{}).get('camera','')}.").strip()
     img = img_rel(phone.get("image") or "")
+    fb_img = img_rel(phone.get("fallbackImg") or "")
     og_img = img_abs(phone.get("image") or "", base)
 
     return f"""<!DOCTYPE html>
@@ -223,7 +225,7 @@ def render_phone(phone, brands, phones_all, base):
     <p class="crumb"><a href="../index.html">Home</a> / <a href="../search.html?brand={esc(phone['brand'])}">{esc(b['name'])}</a> / {esc(name)}</p>
 
     <div class="phone-top">
-      <div class="phone-gallery"><img src="{esc(img)}" alt="{esc(name)}" onerror="this.onerror=null;this.src=PH.IMG_FALLBACK"></div>
+      <div class="phone-gallery"><img src="{esc(img)}" alt="{esc(name)}" onerror="this.onerror=null;this.src='{esc(fb_img)}'"></div>
       <div class="phone-info">
         <h1>{esc(name)}</h1>
         <div class="phone-meta">{esc(b['logo'])} {esc(b['name'])} · Released {esc(phone.get('releaseDate',''))}</div>

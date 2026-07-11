@@ -1,151 +1,2026 @@
 {
-  "apple-iphone-15-pro-max": {
-    "basePrice": 159900,
+  "apple-iphone-xs-max": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 159900,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XS%20Max"
       },
       {
         "store": "Flipkart",
-        "price": 158990,
-        "url": "#"
-      },
-      {
-        "store": "Croma",
-        "price": 161900,
-        "url": "#"
-      },
-      {
-        "store": "Official Store",
-        "price": 159900,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XS%20Max"
       }
     ]
   },
-  "samsung-galaxy-s24-ultra": {
-    "basePrice": 129999,
+  "apple-iphone-xs": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 129999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XS"
       },
       {
         "store": "Flipkart",
-        "price": 127999,
-        "url": "#"
-      },
-      {
-        "store": "Reliance Digital",
-        "price": 131999,
-        "url": "#"
-      },
-      {
-        "store": "Official Store",
-        "price": 129999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XS"
       }
     ]
   },
-  "google-pixel-8-pro": {
-    "basePrice": 106999,
+  "apple-iphone-xr": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 106999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XR"
       },
       {
         "store": "Flipkart",
-        "price": 104999,
-        "url": "#"
-      },
-      {
-        "store": "Croma",
-        "price": 108999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XR"
       }
     ]
   },
-  "oneplus-12": {
-    "basePrice": 64999,
+  "apple-iphone-x": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 64999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20X"
       },
       {
         "store": "Flipkart",
-        "price": 64999,
-        "url": "#"
-      },
-      {
-        "store": "Reliance Digital",
-        "price": 66999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20X"
       }
     ]
   },
-  "nothing-phone-2": {
-    "basePrice": 44999,
+  "apple-iphone-8-plus": {
+    "basePrice": 0,
     "prices": [
       {
-        "store": "Flipkart",
-        "price": 44999,
-        "url": "#"
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%208%20Plus"
       },
       {
-        "store": "Amazon",
-        "price": 43999,
-        "url": "#"
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%208%20Plus"
       }
     ]
   },
-  "xiaomi-14": {
-    "basePrice": 69999,
+  "apple-iphone-8": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 69999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%208"
       },
       {
         "store": "Flipkart",
-        "price": 69999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%208"
       }
     ]
   },
-  "realme-gt-6": {
-    "basePrice": 40999,
+  "apple-iphone-7-plus": {
+    "basePrice": 0,
     "prices": [
       {
-        "store": "Flipkart",
-        "price": 40999,
-        "url": "#"
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%207%20Plus"
       },
       {
-        "store": "Amazon",
-        "price": 40999,
-        "url": "#"
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%207%20Plus"
       }
     ]
   },
-  "vivo-x100-pro": {
-    "basePrice": 89999,
+  "apple-iphone-7": {
+    "basePrice": 0,
     "prices": [
       {
         "store": "Amazon",
-        "price": 89999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%207"
       },
       {
         "store": "Flipkart",
-        "price": 89999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%207"
+      }
+    ]
+  },
+  "apple-iphone-se": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20SE"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20SE"
+      }
+    ]
+  },
+  "apple-iphone-6s-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206s%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206s%20Plus"
+      }
+    ]
+  },
+  "apple-iphone-6s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206s"
+      }
+    ]
+  },
+  "apple-iphone-6-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206%20Plus"
+      }
+    ]
+  },
+  "samsung-galaxy-fold": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Fold"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Fold"
+      }
+    ]
+  },
+  "samsung-galaxy-s10-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-s10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10%2B"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10%2B"
+      }
+    ]
+  },
+  "samsung-galaxy-s10e": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10e"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10e"
+      }
+    ]
+  },
+  "samsung-galaxy-m30": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M30"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M30"
+      }
+    ]
+  },
+  "samsung-galaxy-a50": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A50"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A50"
+      }
+    ]
+  },
+  "samsung-galaxy-a30": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A30"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A30"
+      }
+    ]
+  },
+  "samsung-galaxy-m20": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M20"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M20"
+      }
+    ]
+  },
+  "samsung-galaxy-a8s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A8s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A8s"
+      }
+    ]
+  },
+  "samsung-galaxy-a9--2018": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A9%20%282018%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A9%20%282018%29"
+      }
+    ]
+  },
+  "samsung-galaxy-note9": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Note9"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Note9"
+      }
+    ]
+  },
+  "google-pixel-3-xl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%203%20XL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%203%20XL"
+      }
+    ]
+  },
+  "google-pixel-3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%203"
+      }
+    ]
+  },
+  "google-pixel-2-xl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%202%20XL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%202%20XL"
+      }
+    ]
+  },
+  "google-pixel-2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%202"
+      }
+    ]
+  },
+  "google-pixel-xl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%20XL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%20XL"
+      }
+    ]
+  },
+  "google-pixel": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel"
+      }
+    ]
+  },
+  "xiaomi-redmi-note-7-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%207%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%207%20Pro"
+      }
+    ]
+  },
+  "xiaomi-mi-mix-3-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Mix%203%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Mix%203%205G"
+      }
+    ]
+  },
+  "xiaomi-mi-9-explorer": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209%20Explorer"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209%20Explorer"
+      }
+    ]
+  },
+  "xiaomi-mi-9-se": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209%20SE"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209%20SE"
+      }
+    ]
+  },
+  "xiaomi-mi-9": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209"
+      }
+    ]
+  },
+  "xiaomi-redmi-note-7": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%207"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%207"
+      }
+    ]
+  },
+  "xiaomi-mi-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Play"
+      }
+    ]
+  },
+  "xiaomi-mi-mix-3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Mix%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Mix%203"
+      }
+    ]
+  },
+  "xiaomi-black-shark-helo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Black%20Shark%20Helo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Black%20Shark%20Helo"
+      }
+    ]
+  },
+  "xiaomi-redmi-note-6-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%206%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%206%20Pro"
+      }
+    ]
+  },
+  "xiaomi-mi-8-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%208%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%208%20Pro"
+      }
+    ]
+  },
+  "xiaomi-mi-8-lite": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%208%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%208%20Lite"
+      }
+    ]
+  },
+  "oneplus-6t-mclaren": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206T%20McLaren"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206T%20McLaren"
+      }
+    ]
+  },
+  "oneplus-6t": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206T"
+      }
+    ]
+  },
+  "oneplus-6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206"
+      }
+    ]
+  },
+  "oneplus-5t": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%205T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%205T"
+      }
+    ]
+  },
+  "oneplus-5": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%205"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%205"
+      }
+    ]
+  },
+  "oneplus-3t": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%203T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%203T"
+      }
+    ]
+  },
+  "oneplus-3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%203"
+      }
+    ]
+  },
+  "oppo-f11": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F11"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F11"
+      }
+    ]
+  },
+  "oppo-f11-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F11%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F11%20Pro"
+      }
+    ]
+  },
+  "oppo-r15x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20R15x"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20R15x"
+      }
+    ]
+  },
+  "oppo-rx17-neo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20RX17%20Neo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20RX17%20Neo"
+      }
+    ]
+  },
+  "oppo-k1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20K1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20K1"
+      }
+    ]
+  },
+  "oppo-a7x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20A7x"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20A7x"
+      }
+    ]
+  },
+  "oppo-rx17-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20RX17%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20RX17%20Pro"
+      }
+    ]
+  },
+  "oppo-r17": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20R17"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20R17"
+      }
+    ]
+  },
+  "oppo-f9--f9-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F9%20%28F9%20Pro%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F9%20%28F9%20Pro%29"
+      }
+    ]
+  },
+  "oppo-a3s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20A3s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20A3s"
+      }
+    ]
+  },
+  "oppo-find-x-lamborghini": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20Find%20X%20Lamborghini"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20Find%20X%20Lamborghini"
+      }
+    ]
+  },
+  "oppo-find-x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20Find%20X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20Find%20X"
+      }
+    ]
+  },
+  "vivo-v15": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V15"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V15"
+      }
+    ]
+  },
+  "vivo-iqoo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20iQOO"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20iQOO"
+      }
+    ]
+  },
+  "vivo-v15-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V15%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V15%20Pro"
+      }
+    ]
+  },
+  "vivo-nex-dual-display": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20Dual%20Display"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20Dual%20Display"
+      }
+    ]
+  },
+  "vivo-z3i": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20Z3i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20Z3i"
+      }
+    ]
+  },
+  "vivo-v11i": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V11i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V11i"
+      }
+    ]
+  },
+  "vivo-x23": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X23"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X23"
+      }
+    ]
+  },
+  "vivo-v11--v11-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V11%20%28V11%20Pro%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V11%20%28V11%20Pro%29"
+      }
+    ]
+  },
+  "vivo-nex-s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20S"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20S"
+      }
+    ]
+  },
+  "vivo-nex-a": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20A"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20A"
+      }
+    ]
+  },
+  "vivo-x21i": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X21i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X21i"
+      }
+    ]
+  },
+  "vivo-x21-ud": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X21%20UD"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X21%20UD"
+      }
+    ]
+  },
+  "realme-3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%203"
+      }
+    ]
+  },
+  "realme-u1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%20U1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%20U1"
+      }
+    ]
+  },
+  "realme-2-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%202%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%202%20Pro"
+      }
+    ]
+  },
+  "motorola-moto-g7-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Plus"
+      }
+    ]
+  },
+  "motorola-moto-g7": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7"
+      }
+    ]
+  },
+  "motorola-moto-g7-power": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Power"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Power"
+      }
+    ]
+  },
+  "motorola-moto-g7-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Play"
+      }
+    ]
+  },
+  "motorola-one--p30-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20One%20%28P30%20Play%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20One%20%28P30%20Play%29"
+      }
+    ]
+  },
+  "motorola-one-power--p30-note": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20One%20Power%20%28P30%20Note%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20One%20Power%20%28P30%20Note%29"
+      }
+    ]
+  },
+  "motorola-moto-z3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20Z3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20Z3"
+      }
+    ]
+  },
+  "motorola-moto-z3-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20Z3%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20Z3%20Play"
+      }
+    ]
+  },
+  "motorola-moto-e5-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5%20Play"
+      }
+    ]
+  },
+  "motorola-moto-e5-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5%20Plus"
+      }
+    ]
+  },
+  "motorola-moto-e5": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5"
+      }
+    ]
+  },
+  "motorola-moto-g6-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G6%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G6%20Play"
+      }
+    ]
+  },
+  "asus-zenfone-max-pro--m2--zb631kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Pro%20%28M2%29%20ZB631KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Pro%20%28M2%29%20ZB631KL"
+      }
+    ]
+  },
+  "asus-zenfone-max--m1--zb556kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20%28M1%29%20ZB556KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20%28M1%29%20ZB556KL"
+      }
+    ]
+  },
+  "asus-rog-phone": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20ROG%20Phone"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20ROG%20Phone"
+      }
+    ]
+  },
+  "asus-zenfone-max-pro--m1--zb601kl-zb602k": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Pro%20%28M1%29%20ZB601KL/ZB602K"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Pro%20%28M1%29%20ZB601KL/ZB602K"
+      }
+    ]
+  },
+  "asus-zenfone-5z-zs620kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205z%20ZS620KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205z%20ZS620KL"
+      }
+    ]
+  },
+  "asus-zenfone-5-ze620kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205%20ZE620KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205%20ZE620KL"
+      }
+    ]
+  },
+  "asus-zenfone-5-lite-zc600kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205%20Lite%20ZC600KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205%20Lite%20ZC600KL"
+      }
+    ]
+  },
+  "asus-zenfone-max--m1--zb555kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20%28M1%29%20ZB555KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20%28M1%29%20ZB555KL"
+      }
+    ]
+  },
+  "asus-zenfone-max-plus--m1--zb570tl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Plus%20%28M1%29%20ZB570TL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Plus%20%28M1%29%20ZB570TL"
+      }
+    ]
+  },
+  "asus-zenfone-v-v520kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20V%20V520KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20V%20V520KL"
+      }
+    ]
+  },
+  "asus-zenfone-4-pro-zs551kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%204%20Pro%20ZS551KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%204%20Pro%20ZS551KL"
+      }
+    ]
+  },
+  "asus-zenfone-4-ze554kl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%204%20ZE554KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%204%20ZE554KL"
+      }
+    ]
+  },
+  "sony-xperia-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%201"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%201"
+      }
+    ]
+  },
+  "sony-xperia-10-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%2010%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%2010%20Plus"
+      }
+    ]
+  },
+  "sony-xperia-10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%2010"
+      }
+    ]
+  },
+  "sony-xperia-l3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20L3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20L3"
+      }
+    ]
+  },
+  "sony-xperia-xz3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ3"
+      }
+    ]
+  },
+  "sony-xperia-xa2-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2%20Plus"
+      }
+    ]
+  },
+  "sony-xperia-xz2-premium": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2%20Premium"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2%20Premium"
+      }
+    ]
+  },
+  "sony-xperia-xz2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2"
+      }
+    ]
+  },
+  "sony-xperia-xz2-compact": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2%20Compact"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2%20Compact"
+      }
+    ]
+  },
+  "sony-xperia-xa2-ultra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2%20Ultra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2%20Ultra"
+      }
+    ]
+  },
+  "sony-xperia-xa2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2"
+      }
+    ]
+  },
+  "sony-xperia-xz1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ1"
+      }
+    ]
+  },
+  "nokia-9-pureview": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%209%20PureView"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%209%20PureView"
+      }
+    ]
+  },
+  "nokia-3-2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%203.2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%203.2"
+      }
+    ]
+  },
+  "nokia-8-1--nokia-x7": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208.1%20%28Nokia%20X7%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208.1%20%28Nokia%20X7%29"
+      }
+    ]
+  },
+  "nokia-106--2018": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%20106%20%282018%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%20106%20%282018%29"
+      }
+    ]
+  },
+  "nokia-7-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%207.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%207.1"
+      }
+    ]
+  },
+  "nokia-6-1-plus--nokia-x6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%206.1%20Plus%20%28Nokia%20X6%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%206.1%20Plus%20%28Nokia%20X6%29"
+      }
+    ]
+  },
+  "nokia-5-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%205.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%205.1"
+      }
+    ]
+  },
+  "nokia-3-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%203.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%203.1"
+      }
+    ]
+  },
+  "nokia-2-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%202.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%202.1"
+      }
+    ]
+  },
+  "nokia-8110-4g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208110%204G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208110%204G"
+      }
+    ]
+  },
+  "nokia-8-sirocco": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208%20Sirocco"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208%20Sirocco"
+      }
+    ]
+  },
+  "nokia-7-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%207%20plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%207%20plus"
+      }
+    ]
+  },
+  "honor-magic-2-3d": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Magic%202%203D"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Magic%202%203D"
+      }
+    ]
+  },
+  "honor-view-20": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20View%2020"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20View%2020"
+      }
+    ]
+  },
+  "honor-magic-2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Magic%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Magic%202"
+      }
+    ]
+  },
+  "honor-10-lite": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%2010%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%2010%20Lite"
+      }
+    ]
+  },
+  "honor-8c": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208C"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208C"
+      }
+    ]
+  },
+  "honor-8x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208X"
+      }
+    ]
+  },
+  "honor-8x-max": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208X%20Max"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208X%20Max"
+      }
+    ]
+  },
+  "honor-note-10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Note%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Note%2010"
+      }
+    ]
+  },
+  "honor-play": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Play"
+      }
+    ]
+  },
+  "honor-10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%2010"
+      }
+    ]
+  },
+  "honor-7x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%207X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%207X"
+      }
+    ]
+  },
+  "honor-view-10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20View%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20View%2010"
       }
     ]
   }

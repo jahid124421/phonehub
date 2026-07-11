@@ -26,9 +26,9 @@ window.BRANDS = [
     "logo": "🔴"
   },
   {
-    "id": "nothing",
-    "name": "Nothing",
-    "logo": "⚪"
+    "id": "oppo",
+    "name": "Oppo",
+    "logo": "🟢"
   },
   {
     "id": "vivo",
@@ -39,719 +39,16634 @@ window.BRANDS = [
     "id": "realme",
     "name": "Realme",
     "logo": "🟡"
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "logo": "🔶"
+  },
+  {
+    "id": "asus",
+    "name": "Asus",
+    "logo": "🟣"
+  },
+  {
+    "id": "sony",
+    "name": "Sony",
+    "logo": "⬛"
+  },
+  {
+    "id": "nokia",
+    "name": "Nokia",
+    "logo": "🔵"
+  },
+  {
+    "id": "honor",
+    "name": "Honor",
+    "logo": "🔵"
   }
 ];
 window.STORES = ["Amazon", "Flipkart", "Croma", "Reliance Digital", "Official Store"];
 window.PHONES = [
   {
-    "id": "apple-iphone-15-pro-max",
+    "id": "apple-iphone-xs-max",
     "brand": "apple",
-    "name": "Apple iPhone 15 Pro Max",
-    "image": "img/apple-iphone-15-pro-max.svg",
-    "releaseDate": "2023-09-22",
-    "basePrice": 159900,
-    "popularity": 98,
-    "rating": 4.7,
-    "reviewCount": 1176,
+    "name": "Apple iPhone XS Max",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
+    "fallbackImg": "img/apple-iphone-xs-max.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
     "review": "",
     "quickSpecs": {
-      "display": "6.7\" LTPO OLED, 120Hz",
-      "processor": "Apple A17 Pro",
-      "ram": "8 GB",
-      "storage": "256 GB",
-      "camera": "48 MP triple",
-      "battery": "4441 mAh"
+      "display": "6.5 inches, 102.9 cm2(~84.4% screen-to-body ratio)",
+      "processor": "Apple A12 Bionic (7 nm)",
+      "ram": "64/256/512 GB, 4 GB RAM",
+      "storage": "64/256/512 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
     },
     "prices": [
       {
         "store": "Amazon",
-        "price": 159900,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XS%20Max"
       },
       {
         "store": "Flipkart",
-        "price": 158990,
-        "url": "#"
-      },
-      {
-        "store": "Croma",
-        "price": 161900,
-        "url": "#"
-      },
-      {
-        "store": "Official Store",
-        "price": 159900,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XS%20Max"
       }
     ],
-    "pros": [
-      "Best-in-class performance",
-      "Titanium build",
-      "Excellent cameras"
-    ],
-    "cons": [
-      "Very expensive",
-      "Slow charging"
-    ],
+    "pros": [],
+    "cons": [],
     "specs": {
       "Network": {
-        "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G"
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM) - for China",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 14(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 46, 66(1700/2100) - A2101",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
       },
       "Launch": {
-        "Announced": "2023, September",
-        "Status": "Available"
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
       },
       "Body": {
-        "Dimensions": "159.9 x 76.7 x 8.3 mm",
-        "Weight": "221 g",
-        "Build": "Titanium frame",
-        "SIM": "Nano-SIM + eSIM",
-        "Water resistance": "IP68"
+        "Dimensions": "157.5 x 77.4 x 7.7 mm (6.20 x 3.05 x 0.30 in)",
+        "Weight": "208 g (7.34 oz)",
+        "Build": "Front/back glass, stainless steel frame",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by) - for China"
       },
       "Display": {
-        "Type": "LTPO Super Retina XDR OLED",
-        "Size": "6.7 inches",
-        "Resolution": "1290 x 2796",
-        "Refresh rate": "120Hz"
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.5 inches, 102.9 cm2(~84.4% screen-to-body ratio)",
+        "Resolution": "1242 x 2688 pixels, 19.5:9 ratio (~458 ppi density)",
+        "Protection": "Scratch-resistant glass, oleophobic coating"
       },
       "Platform": {
-        "OS": "iOS 17",
-        "Chipset": "Apple A17 Pro (3 nm)",
-        "CPU": "Hexa-core",
-        "GPU": "Apple GPU (6-core)"
+        "OS": "iOS 12, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A12 Bionic (7 nm)",
+        "CPU": "Hexa-core (2x2.5 GHz Vortex + 4x1.6 GHz Tempest)",
+        "GPU": "Apple GPU (4-core graphics)"
       },
       "Memory": {
-        "Internal": "256GB / 512GB / 1TB",
-        "RAM": "8 GB"
+        "Card slot": "No",
+        "Internal": "64/256/512 GB, 4 GB RAM"
       },
       "Main Camera": {
-        "Triple": "48 MP + 12 MP + 12 MP",
-        "Features": "Dual-LED, HDR",
-        "Video": "4K@60fps"
+        "Dual": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+        "Features": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps, HDR, stereo sound rec."
       },
-      "Selfie Camera": {
-        "Single": "12 MP",
-        "Video": "4K@60fps"
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "HDR",
+        "Video": "1080p@60fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer"
       },
       "Battery": {
-        "Type": "Li-Ion 4441 mAh",
-        "Charging": "27W wired, 15W MagSafe"
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 25 h (3G)",
+        "Music play": "Up to 65 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold",
+        "Price": "About 1250 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 4915",
+        "Display": "Contrast ratio: Infinite (nominal), 4.516 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 74dB / Ring 84dB",
+        "Audio quality": "Noise -93.7dB / Crosstalk -82.8dB",
+        "Battery life": "Endurance rating 79h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "208g, 7.7mm thickness",
+        "os-hl": "iOS 12, up to iOS 12.1.3",
+        "storage-hl": "64/256/512GB storage, no card slot",
+        "device_popularity": "21%",
+        "device_hits": "3,632,276 hits",
+        "displaysize-hl": "6.5\"",
+        "displayres-hl": "1242x2688 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Apple A12 Bionic",
+        "batsize-hl": "3174",
+        "battype-hl": "Li-Ion"
       }
     }
   },
   {
-    "id": "samsung-galaxy-s24-ultra",
+    "id": "apple-iphone-xs",
+    "brand": "apple",
+    "name": "Apple iPhone XS",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg",
+    "fallbackImg": "img/apple-iphone-xs.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.8 inches, 84.4 cm2(~82.9% screen-to-body ratio)",
+      "processor": "Apple A12 Bionic (7 nm)",
+      "ram": "64/256/512 GB, 4 GB RAM",
+      "storage": "64/256/512 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XS"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 14(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 46, 66(1700/2100) - A2097",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)",
+        "Weight": "177 g (6.24 oz)",
+        "Build": "Front/back glass, stainless steel frame",
+        "SIM": "Nano-SIM, Electronic SIM card (eSIM)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.8 inches, 84.4 cm2(~82.9% screen-to-body ratio)",
+        "Resolution": "1125 x 2436 pixels, 19.5:9 ratio (~458 ppi density)",
+        "Protection": "Scratch-resistant glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 12, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A12 Bionic (7 nm)",
+        "CPU": "Hexa-core (2x2.5 GHz Vortex + 4x1.6 GHz Tempest)",
+        "GPU": "Apple GPU (4-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/256/512 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+        "Features": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps, HDR, stereo sound rec."
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "HDR",
+        "Video": "1080p@60fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 20 h (3G)",
+        "Music play": "Up to 60 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold",
+        "Price": "About 1150 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 6060",
+        "Display": "Contrast ratio: Infinite (nominal), 5.171 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 75dB / Ring 78dB",
+        "Audio quality": "Noise -93.7dB / Crosstalk -82.8dB",
+        "Battery life": "Endurance rating 72h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "177g, 7.7mm thickness",
+        "os-hl": "iOS 12, up to iOS 12.1.3",
+        "storage-hl": "64/256/512GB storage, no card slot",
+        "device_popularity": "12%",
+        "device_hits": "2,426,550 hits",
+        "displaysize-hl": "5.8\"",
+        "displayres-hl": "1125x2436 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Apple A12 Bionic",
+        "batsize-hl": "2658",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-xr",
+    "brand": "apple",
+    "name": "Apple iPhone XR",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg",
+    "fallbackImg": "img/apple-iphone-xr.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.1 inches, 90.3 cm2(~79.0% screen-to-body ratio)",
+      "processor": "Apple A12 Bionic (7 nm)",
+      "ram": "64/128/256 GB, 3 GB RAM",
+      "storage": "64/128/256 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20XR"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20XR"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 14(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100), 71(600)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "150.9 x 75.7 x 8.3 mm (5.94 x 2.98 x 0.33 in)",
+        "Weight": "194 g (6.84 oz)",
+        "Build": "Front/back glass, aluminum frame (7000 series)",
+        "SIM": "Nano-SIM, Electronic SIM card (eSIM)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.1 inches, 90.3 cm2(~79.0% screen-to-body ratio)",
+        "Resolution": "828 x 1792 pixels, 19.5:9 ratio (~326 ppi density)",
+        "Protection": "Scratch-resistant glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 12, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A12 Bionic (7 nm)",
+        "CPU": "Hexa-core (2x2.5 GHz Vortex + 4x1.6 GHz Tempest)",
+        "GPU": "Apple GPU (4-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128/256 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/1.8, 26mm (wide), 1/2.55\", 1.4µm, OIS, PDAF",
+        "Features": "Quad-LED dual-tone flash, HDR (photo/panorama)",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps, HDR, stereo sound rec."
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "HDR",
+        "Video": "1080p@60fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 25 h (3G)",
+        "Music play": "Up to 65 h"
+      },
+      "Misc": {
+        "Colors": "Black, Red, Yellow, Blue, Coral, White",
+        "Price": "About 850 EUR"
+      },
+      "Tests": {
+        "Battery life": "Endurance rating 78h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "194g, 8.3mm thickness",
+        "os-hl": "iOS 12, up to iOS 12.1.3",
+        "storage-hl": "64/128/256GB storage, no card slot",
+        "device_popularity": "13%",
+        "device_hits": "2,541,307 hits",
+        "displaysize-hl": "6.1\"",
+        "displayres-hl": "828x1792 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Apple A12 Bionic",
+        "batsize-hl": "2942",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-x",
+    "brand": "apple",
+    "name": "Apple iPhone X",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg",
+    "fallbackImg": "img/apple-iphone-x.svg",
+    "releaseDate": "2017, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.8 inches, 84.4 cm2(~82.9% screen-to-body ratio)",
+      "processor": "Apple A11 Bionic (10 nm)",
+      "ram": "64/256 GB, 3 GB RAM",
+      "storage": "64/256 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 28mm (wide), 1/3\", 1.22µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20X"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, September",
+        "Status": "Available. Released 2017, October"
+      },
+      "Body": {
+        "Dimensions": "143.6 x 70.9 x 7.7 mm (5.65 x 2.79 x 0.30 in)",
+        "Weight": "174 g (6.14 oz)",
+        "Build": "Front/back glass, stainless steel frame",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.8 inches, 84.4 cm2(~82.9% screen-to-body ratio)",
+        "Resolution": "1125 x 2436 pixels, 19.5:9 ratio (~458 ppi density)",
+        "Protection": "Scratch-resistant glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 11.1.1, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A11 Bionic (10 nm)",
+        "CPU": "Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral)",
+        "GPU": "Apple GPU (three-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/256 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 28mm (wide), 1/3\", 1.22µm, OIS, PDAF12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, OIS, PDAF, 2x optical zoom",
+        "Features": "Quad-LED dual-tone flash, HDR (photo/panorama), panorama, HDR",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps"
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 21 h (3G)",
+        "Music play": "Up to 60 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver",
+        "SAR": "1.09 W/kg (head)     1.17 W/kg (body)",
+        "Price": "About 1000 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 4708",
+        "Display": "Contrast ratio: Infinity (nominal), 5.013 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 74dB / Ring 76dB",
+        "Audio quality": "Noise -93.7dB / Crosstalk -82.8dB",
+        "Battery life": "Endurance rating 74h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, October",
+        "body-hl": "174g, 7.7mm thickness",
+        "os-hl": "iOS 11.1.1, up to iOS 12.1.3",
+        "storage-hl": "64/256GB storage, no card slot",
+        "device_popularity": "16%",
+        "device_hits": "14,975,339 hits",
+        "displaysize-hl": "5.8\"",
+        "displayres-hl": "1125x2436 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Apple A11 Bionic",
+        "batsize-hl": "2716",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-8-plus",
+    "brand": "apple",
+    "name": "Apple iPhone 8 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus-new.jpg",
+    "fallbackImg": "img/apple-iphone-8-plus.svg",
+    "releaseDate": "2017, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~67.4% screen-to-body ratio)",
+      "processor": "Apple A11 Bionic (10 nm)",
+      "ram": "64/256 GB, 3 GB RAM",
+      "storage": "64/256 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 28mm (wide), OIS, PDAF12 MP, f/2.8, 57mm (telephoto), 2x optical zoom, PDAF",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%208%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%208%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, September",
+        "Status": "Available. Released 2017, September"
+      },
+      "Body": {
+        "Dimensions": "158.4 x 78.1 x 7.5 mm (6.24 x 3.07 x 0.30 in)",
+        "Weight": "202 g (7.13 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~67.4% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 11, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A11 Bionic (10 nm)",
+        "CPU": "Hexa-core (2x Monsoon + 4x Mistral)",
+        "GPU": "Apple GPU (three-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/256 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 28mm (wide), OIS, PDAF12 MP, f/2.8, 57mm (telephoto), 2x optical zoom, PDAF",
+        "Features": "Quad-LED dual-tone flash, HDR",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps"
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "Face detection, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 21 h (3G)",
+        "Music play": "Up to 60 h"
+      },
+      "Misc": {
+        "Colors": "Gold, Space Gray, Silver, Red",
+        "SAR": "1.19 W/kg (head)     1.19 W/kg (body)",
+        "SAR EU": "0.99 W/kg (head)     0.99 W/kg (body)",
+        "Price": "About 770 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3806",
+        "Display": "Contrast ratio: 1395:1 (nominal), 3.957 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 76dB / Noise 74dB / Ring 79dB",
+        "Audio quality": "Noise -93.5dB / Crosstalk -80.2dB",
+        "Battery life": "Endurance rating 81h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, September",
+        "body-hl": "202g, 7.5mm thickness",
+        "os-hl": "iOS 11, up to iOS 12.1.3",
+        "storage-hl": "64/256GB storage, no card slot",
+        "device_popularity": "19%",
+        "device_hits": "10,154,518 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Apple A11 Bionic",
+        "batsize-hl": "2691",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-8",
+    "brand": "apple",
+    "name": "Apple iPhone 8",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg",
+    "fallbackImg": "img/apple-iphone-8.svg",
+    "releaseDate": "2017, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "4.7 inches, 60.9 cm2(~65.4% screen-to-body ratio)",
+      "processor": "Apple A11 Bionic (10 nm)",
+      "ram": "64/256 GB, 2 GB RAM",
+      "storage": "64/256 GB, 2 GB RAM",
+      "camera": "12 MP, f/1.8, 28mm (wide), OIS, PDAF",
+      "battery": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%208"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%208"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, September",
+        "Status": "Available. Released 2017, September"
+      },
+      "Body": {
+        "Dimensions": "138.4 x 67.3 x 7.3 mm (5.45 x 2.65 x 0.29 in)",
+        "Weight": "148 g (5.22 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "4.7 inches, 60.9 cm2(~65.4% screen-to-body ratio)",
+        "Resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 11, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A11 Bionic (10 nm)",
+        "CPU": "Hexa-core (2x Monsoon + 4x Mistral)",
+        "GPU": "Apple GPU (three-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/256 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/1.8, 28mm (wide), OIS, PDAF",
+        "Features": "Quad-LED dual-tone flash, HDR",
+        "Video": "2160p@24/30/60fps, 1080p@30/60/120/240fps"
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2",
+        "Features": "Face detection, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W: 50% in 30 minUSB Power Delivery 2.0Qi wireless charging",
+        "Talk time": "Up to 14 h (3G)",
+        "Music play": "Up to 40 h"
+      },
+      "Misc": {
+        "Colors": "Silver, Space Gray, Gold, Red",
+        "SAR": "1.32 W/kg (head)     1.36 W/kg (body)",
+        "SAR EU": "1.19 W/kg (head)     1.17 W/kg (body)",
+        "Price": "About 700 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3934",
+        "Display": "Contrast ratio: 1395:1 (nominal), 3.957 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 77dB / Ring 80dB",
+        "Audio quality": "Noise -93.5dB / Crosstalk -80.4dB",
+        "Battery life": "Endurance rating 66h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, September",
+        "body-hl": "148g, 7.3mm thickness",
+        "os-hl": "iOS 11, up to iOS 12.1.3",
+        "storage-hl": "64/256GB storage, no card slot",
+        "device_popularity": "7.8%",
+        "device_hits": "9,026,206 hits",
+        "displaysize-hl": "4.7\"",
+        "displayres-hl": "750x1334 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Apple A11 Bionic",
+        "batsize-hl": "1821",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-7-plus",
+    "brand": "apple",
+    "name": "Apple iPhone 7 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7-plus-r2.jpg",
+    "fallbackImg": "img/apple-iphone-7-plus.svg",
+    "releaseDate": "2016, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~67.7% screen-to-body ratio)",
+      "processor": "Apple A10 Fusion (16 nm)",
+      "ram": "32/128/256 GB, 3 GB RAM",
+      "storage": "32/128/256 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 28mm (wide), 1/3\", OIS, PDAF12 MP, f/2.8, 56mm (telephoto), 1/3.6\", 2x optical zoom, AF",
+      "battery": "Up to 384 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%207%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%207%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - A1661, A1784",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1661, A1784",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 27(800), 28(700), 29(700), 30(2300), 38(2600), 39(1900), 40(2300), 41(2500) - A1661, A1784",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, September",
+        "Status": "Available. Released 2016, September"
+      },
+      "Body": {
+        "Dimensions": "158.2 x 77.9 x 7.3 mm (6.23 x 3.07 x 0.29 in)",
+        "Weight": "188 g (6.63 oz)",
+        "Build": "Front glass, body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~67.7% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 10.0.1, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A10 Fusion (16 nm)",
+        "CPU": "Quad-core 2.34 GHz (2x Hurricane + 2x Zephyr)",
+        "GPU": "PowerVR Series7XT Plus (six-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "32/128/256 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 28mm (wide), 1/3\", OIS, PDAF12 MP, f/2.8, 56mm (telephoto), 1/3.6\", 2x optical zoom, AF",
+        "Features": "Quad-LED dual-tone flash, HDR",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "Face detection, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Stand-by": "Up to 384 h (3G)",
+        "Talk time": "Up to 21 h (3G)",
+        "Music play": "Up to 60 h"
+      },
+      "Misc": {
+        "Colors": "Jet Black, Black, Silver, Gold, Rose Gold, Red",
+        "SAR": "1.19 W/kg (head)     1.19 W/kg (body)",
+        "SAR EU": "1.24 W/kg (head)     1.00 W/kg (body)",
+        "Price": "About 690 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3796",
+        "Display": "Contrast ratio: 1398:1 (nominal), 3.588 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 72dB / Ring 72dB",
+        "Audio quality": "Noise -93.1dB / Crosstalk -80.5dB",
+        "Battery life": "Endurance rating 75h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, September",
+        "body-hl": "188g, 7.3mm thickness",
+        "os-hl": "iOS 10.0.1, up to iOS 12.1.3",
+        "storage-hl": "32/128/256GB storage, no card slot",
+        "device_popularity": "30%",
+        "device_hits": "25,075,220 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Apple A10 Fusion",
+        "batsize-hl": "2900",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-7",
+    "brand": "apple",
+    "name": "Apple iPhone 7",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg",
+    "fallbackImg": "img/apple-iphone-7.svg",
+    "releaseDate": "2016, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "4.7 inches, 60.9 cm2(~65.6% screen-to-body ratio)",
+      "processor": "Apple A10 Fusion (16 nm)",
+      "ram": "32/128/256 GB, 2 GB RAM",
+      "storage": "32/128/256 GB, 2 GB RAM",
+      "camera": "12 MP, f/1.8, 28mm (wide), 1/3\", OIS, PDAF",
+      "battery": "Up to 14 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%207"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%207"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - A1660, A1778",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - A1660, A1778",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 27(800), 28(700), 29(700), 30(2300), 38(2600), 39(1900), 40(2300), 41(2500) - A1660, A1778",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, September",
+        "Status": "Available. Released 2016, September"
+      },
+      "Body": {
+        "Dimensions": "138.3 x 67.1 x 7.1 mm (5.44 x 2.64 x 0.28 in)",
+        "Weight": "138 g (4.87 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "4.7 inches, 60.9 cm2(~65.6% screen-to-body ratio)",
+        "Resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 10.0.1, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A10 Fusion (16 nm)",
+        "CPU": "Quad-core 2.34 GHz (2x Hurricane + 2x Zephyr)",
+        "GPU": "PowerVR Series7XT Plus (six-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "32/128/256 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/1.8, 28mm (wide), 1/3\", OIS, PDAF",
+        "Features": "Quad-LED dual-tone flash, HDR",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "7 MP, f/2.2, 32mm (standard)",
+        "Features": "Face detection, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Talk time": "Up to 14 h (3G)",
+        "Music play": "Up to 40 h"
+      },
+      "Misc": {
+        "Colors": "Jet Black, Black, Silver, Gold, Rose Gold, Red",
+        "SAR": "1.19 W/kg (head)     1.19 W/kg (body)",
+        "SAR EU": "1.38 W/kg (head)     1.34 W/kg (body)",
+        "Price": "About 550 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3416",
+        "Display": "Contrast ratio: 1603:1 (nominal), 3.964 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 73dB / Ring 75dB",
+        "Audio quality": "Noise -92.4dB / Crosstalk -80.9dB",
+        "Battery life": "Endurance rating 61h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, September",
+        "body-hl": "138g, 7.1mm thickness",
+        "os-hl": "iOS 10.0.1, up to iOS 12.1.3",
+        "storage-hl": "32/128/256GB storage, no card slot",
+        "device_popularity": "28%",
+        "device_hits": "34,300,246 hits",
+        "displaysize-hl": "4.7\"",
+        "displayres-hl": "750x1334 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Apple A10 Fusion",
+        "batsize-hl": "1960",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-se",
+    "brand": "apple",
+    "name": "Apple iPhone SE",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-5se-ofic.jpg",
+    "fallbackImg": "img/apple-iphone-se.svg",
+    "releaseDate": "2016, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "4.0 inches, 44.1 cm2(~60.8% screen-to-body ratio)",
+      "processor": "Apple A9 (14 nm)",
+      "ram": "16/32/64/128 GB, 2 GB RAM",
+      "storage": "16/32/64/128 GB, 2 GB RAM",
+      "camera": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, PDAF",
+      "battery": "Up to 240 h (2G) / Up to 240 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%20SE"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%20SE"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - A1662, A1723",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 - A1662, A1723",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 29(700) - A1662",
+        "Speed": "HSPA, LTE-A Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, March",
+        "Status": "Available. Released 2016, March"
+      },
+      "Body": {
+        "Dimensions": "123.8 x 58.6 x 7.6 mm (4.87 x 2.31 x 0.30 in)",
+        "Weight": "113 g (3.99 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "4.0 inches, 44.1 cm2(~60.8% screen-to-body ratio)",
+        "Resolution": "640 x 1136 pixels, 16:9 ratio (~326 ppi density)"
+      },
+      "Platform": {
+        "OS": "iOS 9.3.2, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A9 (14 nm)",
+        "CPU": "Dual-core 1.84 GHz Twister",
+        "GPU": "PowerVR GT7600 (six-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "16/32/64/128 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, PDAF",
+        "Features": "Dual-LED dual-tone flash, HDR",
+        "Video": "2160p@30fps, 1080p@30/60fps, 1080p@120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "1.2 MP, f/2.4, 31mm (standard)",
+        "Features": "Face detection, HDR, panorama",
+        "Video": "720p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes (Apple Pay only)",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Stand-by": "Up to 240 h (2G) / Up to 240 h (3G)",
+        "Talk time": "Up to 14 h (3G)",
+        "Music play": "Up to 50 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold, Rose Gold",
+        "SAR": "1.17 W/kg (head)     1.19 W/kg (body)",
+        "SAR EU": "0.72 W/kg (head)     0.97 W/kg (body)",
+        "Price": "About 300 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 2163",
+        "Display": "Contrast ratio: 804:1 (nominal), 3.681 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 65dB / Ring 69dB",
+        "Audio quality": "Noise -93.0dB / Crosstalk -72.9dB",
+        "Battery life": "Endurance rating 73h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, March",
+        "body-hl": "113g, 7.6mm thickness",
+        "os-hl": "iOS 9.3.2, up to iOS 12.1.3",
+        "storage-hl": "16/32/64/128GB storage, no card slot",
+        "device_popularity": "12%",
+        "device_hits": "18,410,510 hits",
+        "displaysize-hl": "4.0\"",
+        "displayres-hl": "640x1136 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Apple A9",
+        "batsize-hl": "1624",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-6s-plus",
+    "brand": "apple",
+    "name": "Apple iPhone 6s Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-6s-plus.jpg",
+    "fallbackImg": "img/apple-iphone-6s-plus.svg",
+    "releaseDate": "2015, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~67.7% screen-to-body ratio)",
+      "processor": "Apple A9 (14 nm)",
+      "ram": "16/32/64/128 GB, 2 GB RAM",
+      "storage": "16/32/64/128 GB, 2 GB RAM",
+      "camera": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, OIS, PDAF",
+      "battery": "Up to 384 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206s%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206s%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300) - A1633",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2015, September",
+        "Status": "Available. Released 2015, September"
+      },
+      "Body": {
+        "Dimensions": "158.2 x 77.9 x 7.3 mm (6.23 x 3.07 x 0.29 in)",
+        "Weight": "192 g (6.77 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~67.7% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 9, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A9 (14 nm)",
+        "CPU": "Dual-core 1.84 GHz Twister",
+        "GPU": "PowerVR GT7600 (six-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "16/32/64/128 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, OIS, PDAF",
+        "Features": "Dual-LED dual-tone flash, HDR",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2, 31mm (standard)",
+        "Features": "Face detection, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes (Apple Pay only)",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Stand-by": "Up to 384 h (3G)",
+        "Talk time": "Up to 24 h (3G)",
+        "Music play": "Up to 80 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold, Rose Gold",
+        "SAR": "1.12 W/kg (head)     1.14 W/kg (body)",
+        "SAR EU": "0.93 W/kg (head)     0.98 W/kg (body)",
+        "Price": "About 470 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 2261",
+        "Display": "Contrast ratio: 1382:1 (nominal), 3.530 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 65dB / Noise 65dB / Ring 64dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -71.1dB",
+        "Battery life": "Endurance rating 85h"
+      },
+      "Banner": {
+        "released-hl": "Released 2015, September",
+        "body-hl": "192g, 7.3mm thickness",
+        "os-hl": "iOS 9, up to iOS 12.1.3",
+        "storage-hl": "16/32/64/128GB storage, no card slot",
+        "device_popularity": "19%",
+        "device_hits": "21,202,851 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Apple A9",
+        "batsize-hl": "2750",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-6s",
+    "brand": "apple",
+    "name": "Apple iPhone 6s",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-6s1.jpg",
+    "fallbackImg": "img/apple-iphone-6s.svg",
+    "releaseDate": "2015, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "4.7 inches, 60.9 cm2(~65.6% screen-to-body ratio)",
+      "processor": "Apple A9 (14 nm)",
+      "ram": "16/32/64/128 GB, 2 GB RAM",
+      "storage": "16/32/64/128 GB, 2 GB RAM",
+      "camera": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, PDAF",
+      "battery": "Up to 240 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206s"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1688",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2015, September",
+        "Status": "Available. Released 2015, September"
+      },
+      "Body": {
+        "Dimensions": "138.3 x 67.1 x 7.1 mm (5.44 x 2.64 x 0.28 in)",
+        "Weight": "143 g (5.04 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "4.7 inches, 60.9 cm2(~65.6% screen-to-body ratio)",
+        "Resolution": "750 x 1334 pixels, 16:9 ratio (~326 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 9, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A9 (14 nm)",
+        "CPU": "Dual-core 1.84 GHz Twister",
+        "GPU": "PowerVR GT7600 (six-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "16/32/64/128 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/2.2, 29mm (standard), 1/3\", 1.22µm, PDAF",
+        "Features": "Dual-LED dual-tone flash, HDR",
+        "Video": "2160p@30fps, 1080p@60fps,1080p@120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2, 31mm (standard)",
+        "Features": "Face detection, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, QZSS",
+        "NFC": "Yes (Apple Pay only)",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Stand-by": "Up to 240 h (3G)",
+        "Talk time": "Up to 14 h (3G)",
+        "Music play": "Up to 50 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold, Rose Gold",
+        "SAR": "1.14 W/kg (head)     1.14 W/kg (body)",
+        "SAR EU": "0.87 W/kg (head)     0.98 W/kg (body)",
+        "Price": "About 500 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 2195",
+        "Display": "Contrast ratio: 1481 (nominal),  3.783 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 64dB / Ring 65dB",
+        "Audio quality": "Noise -93.8dB / Crosstalk -73.2dB",
+        "Battery life": "Endurance rating 62h"
+      },
+      "Banner": {
+        "released-hl": "Released 2015, September",
+        "body-hl": "143g, 7.1mm thickness",
+        "os-hl": "iOS 9, up to iOS 12.1.3",
+        "storage-hl": "16/32/64/128GB storage, no card slot",
+        "device_popularity": "31%",
+        "device_hits": "39,059,498 hits",
+        "displaysize-hl": "4.7\"",
+        "displayres-hl": "750x1334 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Apple A9",
+        "batsize-hl": "1715",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "apple-iphone-6-plus",
+    "brand": "apple",
+    "name": "Apple iPhone 6 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/apple-iphone-6-plus2.jpg",
+    "fallbackImg": "img/apple-iphone-6-plus.svg",
+    "releaseDate": "2014, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~67.8% screen-to-body ratio)",
+      "processor": "Apple A8 (20 nm)",
+      "ram": "16/64/128 GB, 1 GB RAM DDR3",
+      "storage": "16/64/128 GB, 1 GB RAM DDR3",
+      "camera": "8 MP, f/2.2, 29mm (standard), 1/3\", 1.5µm, OIS, PDAF",
+      "battery": "Up to 384 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Apple%20iPhone%206%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Apple%20iPhone%206%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - A1522 (GSM), A1522 (CDMA), A1524",
+        "3G bands": "HSDPA 850 / 900 / 1700 / 1900 / 2100 - A1522 (GSM), A1522 (CDMA), A1524",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700) - A1522 GSM, A1522 CDMA",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat4 150/50 Mbps, EV-DO Rev.A 3.1 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2014, September",
+        "Status": "Available. Released 2014, September"
+      },
+      "Body": {
+        "Dimensions": "158.1 x 77.8 x 7.1 mm (6.22 x 3.06 x 0.28 in)",
+        "Weight": "172 g (6.07 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "LED-backlit IPS LCD, capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~67.8% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Ion-strengthened glass, oleophobic coating"
+      },
+      "Platform": {
+        "OS": "iOS 8, upgradable to iOS 12.1.3",
+        "Chipset": "Apple A8 (20 nm)",
+        "CPU": "Dual-core 1.4 GHz Typhoon (ARM v8-based)",
+        "GPU": "PowerVR GX6450 (quad-core graphics)"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "16/64/128 GB, 1 GB RAM DDR3"
+      },
+      "Main Camera": {
+        "Single": "8 MP, f/2.2, 29mm (standard), 1/3\", 1.5µm, OIS, PDAF",
+        "Features": "Dual-LED dual-tone flash, HDR",
+        "Video": "1080p@60fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "1.2 MP, f/2.2, 31mm (standard)",
+        "Features": "face detection, HDR, FaceTime over Wi-Fi or Cellular",
+        "Video": "720p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, hotspot",
+        "Bluetooth": "4.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes (Apple Pay only)",
+        "Radio": "No",
+        "USB": "2.0, proprietary reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Stand-by": "Up to 384 h (3G)",
+        "Talk time": "Up to 24 h (3G)",
+        "Music play": "Up to 80 h"
+      },
+      "Misc": {
+        "Colors": "Space Gray, Silver, Gold",
+        "SAR": "1.19 W/kg (head)     1.19 W/kg (body)",
+        "SAR EU": "0.99 W/kg (head)     0.91 W/kg (body)",
+        "Price": "About 420 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1222",
+        "Display": "Contrast ratio: 1361 (nominal), 3.023 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 65dB / Ring 66dB",
+        "Audio quality": "Noise -94dB / Crosstalk -72dB",
+        "Battery life": "Endurance rating 79h"
+      },
+      "Banner": {
+        "released-hl": "Released 2014, September",
+        "body-hl": "172g, 7.1mm thickness",
+        "os-hl": "iOS 8, up to iOS 12.1.3",
+        "storage-hl": "16/64/128GB storage, no card slot",
+        "device_popularity": "13%",
+        "device_hits": "28,940,937 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "8",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "1",
+        "chipset-hl": "Apple A8",
+        "batsize-hl": "2915",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-fold",
     "brand": "samsung",
-    "name": "Samsung Galaxy S24 Ultra",
-    "image": "img/samsung-galaxy-s24-ultra.svg",
-    "releaseDate": "2024-01-24",
-    "basePrice": 129999,
-    "popularity": 96,
-    "rating": 4.6,
-    "reviewCount": 1152,
+    "name": "Samsung Galaxy Fold",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-fold.jpg",
+    "fallbackImg": "img/samsung-galaxy-fold.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
     "review": "",
     "quickSpecs": {
-      "display": "6.8\" QHD+ AMOLED, 120Hz",
-      "processor": "Snapdragon 8 Gen 3",
-      "ram": "12 GB",
-      "storage": "256 GB",
-      "camera": "200 MP quad",
-      "battery": "5000 mAh"
+      "display": "7.3 inches, 154.5 cm2",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "512 GB, 12 GB RAM",
+      "storage": "512 GB, 12 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide)",
+      "battery": "Fast battery charging 18W"
     },
     "prices": [
       {
         "store": "Amazon",
-        "price": 129999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Fold"
       },
       {
         "store": "Flipkart",
-        "price": 127999,
-        "url": "#"
-      },
-      {
-        "store": "Reliance Digital",
-        "price": 131999,
-        "url": "#"
-      },
-      {
-        "store": "Official Store",
-        "price": 129999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Fold"
       }
     ],
-    "pros": [
-      "Superb display",
-      "S Pen included",
-      "Long software support"
-    ],
-    "cons": [
-      "Bulky",
-      "Pricey"
-    ],
+    "pros": [],
+    "cons": [],
     "specs": {
       "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
       },
       "Launch": {
-        "Announced": "2024, January",
-        "Status": "Available"
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, Q2"
       },
       "Body": {
-        "Dimensions": "162.3 x 79 x 8.6 mm",
-        "Weight": "232 g",
-        "Build": "Titanium frame",
-        "SIM": "Nano-SIM + eSIM",
-        "Water resistance": "IP68"
+        "SIM": "Nano-SIM"
       },
       "Display": {
-        "Type": "Dynamic LTPO AMOLED 2X",
-        "Size": "6.8 inches",
-        "Resolution": "1440 x 3120",
-        "Refresh rate": "120Hz"
+        "Type": "Dynamic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "7.3 inches, 154.5 cm2",
+        "Resolution": "1536 x 2152 pixels, 16:10 ratio (~414 ppi density)"
       },
       "Platform": {
-        "OS": "Android 14, One UI 6.1",
-        "Chipset": "Snapdragon 8 Gen 3",
-        "CPU": "Octa-core",
-        "GPU": "Adreno 750"
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+        "GPU": "Adreno 640"
       },
       "Memory": {
-        "Internal": "256GB / 512GB / 1TB",
-        "RAM": "12 GB"
+        "Card slot": "No",
+        "Internal": "512 GB, 12 GB RAM"
       },
       "Main Camera": {
-        "Quad": "200 MP + 50 MP + 12 MP + 10 MP",
-        "Features": "LED flash, HDR",
-        "Video": "8K@30fps"
+        "Triple": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide)",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps"
       },
-      "Selfie Camera": {
-        "Single": "12 MP",
-        "Video": "4K@60fps"
+      "Selfie camera": {
+        "Dual": "10 MP, f/2.2, PDAF8 MP, f/1.9, depth sensorCover camera: 10 MP, f/2.2",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
       },
       "Battery": {
-        "Type": "Li-Ion 5000 mAh",
-        "Charging": "45W wired, 15W wireless"
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Space Silver, Cosmos Black, Martian Green, Astro Blue",
+        "Price": "About 2000 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, Q2",
+        "os-hl": "Android 9.0",
+        "storage-hl": "512GB storage, no card slot",
+        "device_popularity": "30%",
+        "device_hits": "1,045,207 hits",
+        "displaysize-hl": "7.3\"",
+        "displayres-hl": "1536x2152 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "12",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "4380",
+        "battype-hl": "Li-Po"
       }
     }
   },
   {
-    "id": "google-pixel-8-pro",
+    "id": "samsung-galaxy-s10-5g",
+    "brand": "samsung",
+    "name": "Samsung Galaxy S10 5G",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-5g.jpg",
+    "fallbackImg": "img/samsung-galaxy-s10-5g.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.7 inches, 112.0 cm2(~89.4% screen-to-body ratio)",
+      "processor": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+      "ram": "256 GB, 8 GB RAM",
+      "storage": "256 GB, 8 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide)TOF camera",
+      "battery": "Fast battery charging 25W (USB Power Delivery 3.0)Fast wireless charging 15WPower bank/Reverse wireless charging 9W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10%205G"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (7CA) Cat20 2000/150 Mbps; 5G",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019"
+      },
+      "Body": {
+        "Dimensions": "162.6 x 77.1 x 7.9 mm (6.40 x 3.04 x 0.31 in)",
+        "Weight": "198 g (6.98 oz)",
+        "Build": "Front/back glass (Gorilla Glass 6), aluminum frame",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "Dynamic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.7 inches, 112.0 cm2(~89.4% screen-to-body ratio)",
+        "Resolution": "1440 x 3040 pixels, 19:9 ratio (~502 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); One UI",
+        "Chipset": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+        "CPU": "Octa-core (2x2.73 GHz Mongoose M4 & 2x2.31 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55) - EMEAOcta-core (1x2.84 GHz Kryo 485 & 3x2.41 GHz Kryo 485 & 4x1.78 GHz Kryo 485) - USA/LATAM, China",
+        "GPU": "Mali-G76 MP12 - EMEAAdreno 640 - USA/LATAM, China"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Quad": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide)TOF camera",
+        "Features": "LED flash, auto-HDR, panorama",
+        "Video": "2160p@60fps, 1080p@240fps, 720p@960fps, HDR, dual-video rec."
+      },
+      "Selfie camera": {
+        "Dual": "10 MP, f/1.9, 26mm (wide), Dual Pixel PDAFTOF camera",
+        "Features": "Dual video call, Auto-HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio (USA & Canada only)",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass, barometer, heart rate, SpO2"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 25W (USB Power Delivery 3.0)Fast wireless charging 15WPower bank/Reverse wireless charging 9W"
+      },
+      "Misc": {
+        "Colors": "Prism White"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019",
+        "body-hl": "198g, 7.9mm thickness",
+        "os-hl": "Android 9.0; One UI",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "21%",
+        "device_hits": "701,454 hits",
+        "displaysize-hl": "6.7\"",
+        "displayres-hl": "1440x3040 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Exynos 9820 Octa",
+        "batsize-hl": "4500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s10",
+    "brand": "samsung",
+    "name": "Samsung Galaxy S10+",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10-plus-new.jpg",
+    "fallbackImg": "img/samsung-galaxy-s10.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 103.8 cm2(~88.9% screen-to-body ratio)",
+      "processor": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+      "ram": "1 TB, 12 GB RAM, 128/512 GB, 8 GB RAM",
+      "storage": "1 TB, 12 GB RAM, 128/512 GB, 8 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide), 1.0µm",
+      "battery": "Fast battery charging 15WFast wireless charging 15WPower bank/Reverse wireless charging 9W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10%2B"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10%2B"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global, USA",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (7CA) Cat20 2000/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March 8"
+      },
+      "Body": {
+        "Dimensions": "157.6 x 74.1 x 7.8 mm (6.20 x 2.92 x 0.31 in)",
+        "Weight": "175 g / 198 g (ceramic) (6.17 oz)",
+        "Build": "Front glass (Gorilla Glass 6), back glass (Gorilla Glass 5), aluminum frameFront glass (Gorilla Glass 6), ceramic body",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Dynamic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 103.8 cm2(~88.9% screen-to-body ratio)",
+        "Resolution": "1440 x 3040 pixels, 19:9 ratio (~522 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); One UI",
+        "Chipset": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+        "CPU": "Octa-core (2x2.73 GHz Mongoose M4 & 2x2.31 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55) - EMEAOcta-core (1x2.84 GHz Kryo 485 & 3x2.41 GHz Kryo 485 & 4x1.78 GHz Kryo 485) - USA/LATAM, China",
+        "GPU": "Mali-G76 MP12 - EMEAAdreno 640 - USA/LATAM, China"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "1 TB, 12 GB RAM, 128/512 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.6\", 1.0µm, AF, OIS, 2x optical zoom16 MP, f/2.2, 12mm (ultrawide), 1.0µm",
+        "Features": "LED flash, auto-HDR, panorama",
+        "Video": "2160p@60fps, 1080p@240fps, 720p@960fps, HDR, dual-video rec."
+      },
+      "Selfie camera": {
+        "Dual": "10 MP, f/1.9, 26mm (wide), 1.22µm, Dual Pixel PDAF8 MP, f/2.2, 22mm (wide), 1.12µm, depth sensor",
+        "Features": "Dual video call, Auto-HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio (USA & Canada only)",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass, barometer, heart rate, SpO2"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15WFast wireless charging 15WPower bank/Reverse wireless charging 9W"
+      },
+      "Misc": {
+        "Colors": "Prism White, Prism Black, Prism Green, Prism Blue, Canary Yellow, Flamingo Pink, Ceramic Black, Ceramic White",
+        "Price": "About 1050 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4426 / Basemark OS II 2.0: 4568Basemark X: 45017",
+        "Display": "Contrast ratio: Infinite (nominal), 4.514 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 74dB / Noise 74dB / Ring 93dB",
+        "Audio quality": "Noise -93.0dB / Crosstalk -94.3dB",
+        "Battery life": "Endurance rating 91h"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March 8",
+        "body-hl": "175g / 198g (ceramic), 7.8mm thickness",
+        "os-hl": "Android 9.0; One UI",
+        "storage-hl": "1 TB storage, microSD card slot",
+        "device_popularity": "76%",
+        "device_hits": "1,850,440 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1440x3040 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "12",
+        "chipset-hl": "Exynos 9820 Octa",
+        "batsize-hl": "4100",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-s10e",
+    "brand": "samsung",
+    "name": "Samsung Galaxy S10e",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s10e.jpg",
+    "fallbackImg": "img/samsung-galaxy-s10e.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.8 inches, 82.8 cm2(~83.3% screen-to-body ratio)",
+      "processor": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+      "ram": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM",
+      "storage": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS16 MP, f/2.2, 12mm (ultrawide), 1.0µm",
+      "battery": "Fast battery charging 15WFast wireless charging 15WPower bank/Reverse wireless charging 9W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10e"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10e"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global, USA",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (7CA) Cat20 2000/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March 8"
+      },
+      "Body": {
+        "Dimensions": "142.2 x 69.9 x 7.9 mm (5.60 x 2.75 x 0.31 in)",
+        "Weight": "150 g (5.29 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Dynamic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.8 inches, 82.8 cm2(~83.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~438 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); One UI",
+        "Chipset": "Exynos 9820 Octa (8 nm) - EMEAQualcomm SDM855 Snapdragon 855 (7 nm) - USA/LATAM, China",
+        "CPU": "Octa-core (2x2.73 GHz Mongoose M4 & 2x2.31 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55) - EMEAOcta-core (1x2.84 GHz Kryo 485 & 3x2.41 GHz Kryo 485 & 4x1.78 GHz Kryo 485) - USA/LATAM, China",
+        "GPU": "Mali-G76 MP12 - EMEAAdreno 640 - USA/LATAM, China"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS16 MP, f/2.2, 12mm (ultrawide), 1.0µm",
+        "Features": "LED flash, auto-HDR, panorama",
+        "Video": "2160p@60fps, 1080p@240fps, 720p@960fps, HDR, dual-video rec."
+      },
+      "Selfie camera": {
+        "Single": "10 MP, f/1.9, 26mm (wide), 1.22µm, Dual Pixel PDAF",
+        "Features": "Dual video call, Auto-HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ax, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio (USA & Canada only)",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15WFast wireless charging 15WPower bank/Reverse wireless charging 9W"
+      },
+      "Misc": {
+        "Colors": "Prism White, Prism Black, Prism Green, Prism Blue, Canary Yellow, Flamingo Pink",
+        "Price": "About 780 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March 8",
+        "body-hl": "150g, 7.9mm thickness",
+        "os-hl": "Android 9.0; One UI",
+        "storage-hl": "256GB storage, microSD card slot",
+        "device_popularity": "31%",
+        "device_hits": "921,376 hits",
+        "displaysize-hl": "5.8\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Exynos 9820 Octa",
+        "batsize-hl": "3100",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-m30",
+    "brand": "samsung",
+    "name": "Samsung Galaxy M30",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m30-.jpg",
+    "fallbackImg": "img/samsung-galaxy-m30.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 105.2 cm2(~88.1% screen-to-body ratio)",
+      "processor": "Exynos 7904 Octa (14 nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "13 MP, f/1.9, PDAF5 MP, f/2.2, 12mm (ultrawide)5 MP, f/2.2, depth sensor",
+      "battery": "- Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M30"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M30"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "159 x 75.1 x 8.4 mm (6.26 x 2.96 x 0.33 in)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 105.2 cm2(~88.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~394 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo)",
+        "Chipset": "Exynos 7904 Octa (14 nm)",
+        "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+        "GPU": "Mali-G71 MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "13 MP, f/1.9, PDAF5 MP, f/2.2, 12mm (ultrawide)5 MP, f/2.2, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "- Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Black, Blue",
+        "SAR": "0.41 W/kg (head)",
+        "Price": "About 250 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "8.4mm thickness",
+        "os-hl": "Android 8.1",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "78%",
+        "device_hits": "1,903,439 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Exynos 7904 Octa",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a50",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A50",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a50-.jpg",
+    "fallbackImg": "img/samsung-galaxy-a50.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 100.5 cm2(~84.9% screen-to-body ratio)",
+      "processor": "Exynos 9610 Octa (10nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "25 MP, f/1.7, PDAF8 MP, f/2.2, (ultrawide)5 MP, f/2.2, depth sensor",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A50"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A50"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, Q1"
+      },
+      "Body": {
+        "Dimensions": "158.5 x 74.7 x 7.7 mm (6.24 x 2.94 x 0.30 in)",
+        "Build": "Front glass, plastic body",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 100.5 cm2(~84.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Exynos 9610 Octa (10nm)",
+        "CPU": "Octa-core (4x2.3 GHz Cortex-A73 & 4x1.6 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "25 MP, f/1.7, PDAF8 MP, f/2.2, (ultrawide)5 MP, f/2.2, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (market dependent)",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Black, White, Blue, Coral"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, Q1",
+        "body-hl": "7.7mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "66%",
+        "device_hits": "692,224 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "25",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Exynos 9610 Octa",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a30",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A30",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a30.jpg",
+    "fallbackImg": "img/samsung-galaxy-a30.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 100.5 cm2(~85.1% screen-to-body ratio)",
+      "processor": "Exynos 7904 Octa (14 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "16 MP, f/1.7, PDAF5 MP, f/2.2, 12mm, (ultrawide)",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A30"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A30"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, Q1"
+      },
+      "Body": {
+        "Dimensions": "158.5 x 74.5 x 7.7 mm (6.24 x 2.93 x 0.30 in)",
+        "Build": "Front glass, plastic body",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 100.5 cm2(~85.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Exynos 7904 Octa (14 nm)",
+        "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+        "GPU": "Mali-G71 MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, PDAF5 MP, f/2.2, 12mm, (ultrawide)",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Yes",
+        "Bluetooth": "Yes",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Black, White, Blue"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, Q1",
+        "body-hl": "7.7mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "27%",
+        "device_hits": "338,808 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Exynos 7904 Octa",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-m20",
+    "brand": "samsung",
+    "name": "Samsung Galaxy M20",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m20-m205f.jpg",
+    "fallbackImg": "img/samsung-galaxy-m20.svg",
+    "releaseDate": "2019, January",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~83.6% screen-to-body ratio)",
+      "processor": "Exynos 7904 Octa (14 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "13 MP, f/1.9, 1/2.8\", 1.12μm, PDAF5 MP, f/2.2, 12mm (ultrawide), 1/6\", 1.12μm",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M20"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M20"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, January",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "156.4 x 74.5 x 8.8 mm (6.16 x 2.93 x 0.35 in)",
+        "Weight": "186 g (6.56 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "PLS TFT capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~83.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Experience 9.5",
+        "Chipset": "Exynos 7904 Octa (14 nm)",
+        "CPU": "Octa-core (2x1.8 GHz Cortex-A73 & 6x1.6 GHz Cortex-A53)",
+        "GPU": "Mali-G71 MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/1.9, 1/2.8\", 1.12μm, PDAF5 MP, f/2.2, 12mm (ultrawide), 1/6\", 1.12μm",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio, RDS, recording",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Ocean Blue, Charcoal Black",
+        "SAR EU": "0.25 W/kg (head)     1.59 W/kg (body)",
+        "Price": "About 200 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "186g, 8.8mm thickness",
+        "os-hl": "Android 8.1; Experience 9.5",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "62%",
+        "device_hits": "2,712,008 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Exynos 7904 Octa",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a8s",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A8s",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a8s-.jpg",
+    "fallbackImg": "img/samsung-galaxy-a8s.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 100.5 cm2(~84.7% screen-to-body ratio)",
+      "processor": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "ram": "128 GB, 6/8 GB RAM",
+      "storage": "128 GB, 6/8 GB RAM",
+      "camera": "24 MP, f/1.7, PDAF10 MP, AF5 MP, f/2.2, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A8s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A8s"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA, LTE",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "158.4 x 74.9 x 7.4 mm (6.24 x 2.95 x 0.29 in)",
+        "Weight": "173 g (6.10 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 100.5 cm2(~84.7% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+        "CPU": "Octa-core (2x2.2 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+        "GPU": "Adreno 616"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB",
+        "Internal": "128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "24 MP, f/1.7, PDAF10 MP, AF5 MP, f/2.2, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "24 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Blue, Gray, Black"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "173g, 7.4mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "8.4%",
+        "device_hits": "2,392,690 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "24",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 710",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-a9--2018",
+    "brand": "samsung",
+    "name": "Samsung Galaxy A9 (2018)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a9-2018.jpg",
+    "fallbackImg": "img/samsung-galaxy-a9--2018.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 100.2 cm2(~80.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64/128 GB, 6/8 GB RAM",
+      "storage": "64/128 GB, 6/8 GB RAM",
+      "camera": "24 MP, f/1.7, 27mm (wide), 1/2.8\", 0.9µm, PDAF8 MP, f/2.4, 12mm (ultrawide), 1/4.0\", 1.12µm10 MP f/2.4, 52mm, (telephoto), 1/3.9\", 1.0µm, 2x optical zoom5 MP, f/2.2, 24mm (wide), 1/5.0\", 1.12µm, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A9%20%282018%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A9%20%282018%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 20(800), 26(850), 28(700), 38(2600), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "162.5 x 77 x 7.8 mm (6.40 x 3.03 x 0.31 in)",
+        "Weight": "183 g (6.46 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 100.2 cm2(~80.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2220 pixels, 18.5:9 ratio (~393 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), planned upgrade to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64/128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Quad": "24 MP, f/1.7, 27mm (wide), 1/2.8\", 0.9µm, PDAF8 MP, f/2.4, 12mm (ultrawide), 1/4.0\", 1.12µm10 MP f/2.4, 52mm, (telephoto), 1/3.9\", 1.0µm, 2x optical zoom5 MP, f/2.2, 24mm (wide), 1/5.0\", 1.12µm, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "24 MP, f/2.0, 27mm (wide), 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Caviar Black, Lemonade Blue, Bubblegum Pink",
+        "SAR": "0.27 W/kg (head)     0.84 W/kg (body)",
+        "SAR EU": "0.35 W/kg (head)     1.59 W/kg (body)",
+        "Price": "About 600 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2768 / Basemark OS II 2.0: 2353Basemark X: 20322",
+        "Display": "Contrast ratio: Infinite (nominal), 4.220 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 69dB / Noise 72dB / Ring 77dB",
+        "Audio quality": "Noise -90.6dB / Crosstalk -93.8dB",
+        "Battery life": "Endurance rating 88h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "183g, 7.8mm thickness",
+        "os-hl": "Android 8.0, planned upgrade to Android 9.0",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "20%",
+        "device_hits": "3,888,572 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2220 pixels",
+        "camerapixels-hl": "24",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3800",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "samsung-galaxy-note9",
+    "brand": "samsung",
+    "name": "Samsung Galaxy Note9",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note9-r1.jpg",
+    "fallbackImg": "img/samsung-galaxy-note9.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 103.2 cm2(~83.4% screen-to-body ratio)",
+      "processor": "Exynos 9810 Octa (10 nm) - EMEAQualcomm SDM845 Snapdragon 845 (10 nm) - USA/LATAM, China",
+      "ram": "512 GB, 8 GB RAM or 128 GB, 6 GB RAM",
+      "storage": "512 GB, 8 GB RAM or 128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, AF, OIS, 2x optical zoom",
+      "battery": "Fast battery charging 15W (Quick Charge 2.0)Qi/PMA wireless charging (market dependent)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Note9"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Note9"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100), 71(600) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 1200/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "161.9 x 76.4 x 8.8 mm (6.37 x 3.01 x 0.35 in)",
+        "Weight": "201 g (7.09 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 103.2 cm2(~83.4% screen-to-body ratio)",
+        "Resolution": "1440 x 2960 pixels, 18.5:9 ratio (~516 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); One UI",
+        "Chipset": "Exynos 9810 Octa (10 nm) - EMEAQualcomm SDM845 Snapdragon 845 (10 nm) - USA/LATAM, China",
+        "CPU": "Octa-core (4x2.7 GHz Mongoose M3 & 4x1.8 GHz Cortex-A55) - EMEAOcta-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver) - USA/LATAM, China",
+        "GPU": "Mali-G72 MP18 - EMEAAdreno 630 - USA/LATAM, China"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "512 GB, 8 GB RAM or 128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF, OIS12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, AF, OIS, 2x optical zoom",
+        "Features": "LED flash, auto-HDR, panorama",
+        "Video": "2160p@60fps, 1080p@240fps, 720p@960fps, HDR, dual-video rec."
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/1.7, 25mm (wide), 1/3.6\", 1.22µm, AF",
+        "Features": "Dual video call, Auto-HDR",
+        "Video": "1440p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Iris scanner, fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer, heart rate, SpO2"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W (Quick Charge 2.0)Qi/PMA wireless charging (market dependent)"
+      },
+      "Misc": {
+        "Colors": "Metallic Copper, Lavender Purple, Ocean Blue, Midnight Black, Pure White, Alpine White",
+        "Price": "About 750 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3377 / Basemark OS II 2.0: 3064Basemark X: 41994",
+        "Display": "Contrast ratio: Infinite (nominal), 4.531 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 74dB / Ring 80dB",
+        "Audio quality": "Noise -93.7dB / Crosstalk -94.1dB",
+        "Battery life": "Endurance rating 97h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "201g, 8.8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0; One UI",
+        "storage-hl": "512GB storage, microSD card slot",
+        "device_popularity": "20%",
+        "device_hits": "6,195,690 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1440x2960 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Exynos 9810 Octa",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-3-xl",
     "brand": "google",
-    "name": "Google Pixel 8 Pro",
-    "image": "img/google-pixel-8-pro.svg",
-    "releaseDate": "2023-10-12",
-    "basePrice": 106999,
-    "popularity": 88,
-    "rating": 4.5,
-    "reviewCount": 1056,
+    "name": "Google Pixel 3 XL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel-3xl-.jpg",
+    "fallbackImg": "img/google-pixel-3-xl.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
     "review": "",
     "quickSpecs": {
-      "display": "6.7\" LTPO OLED, 120Hz",
-      "processor": "Google Tensor G3",
-      "ram": "12 GB",
-      "storage": "128 GB",
-      "camera": "50 MP triple",
-      "battery": "5050 mAh"
+      "display": "6.3 inches, 100.3 cm2(~82.8% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64/128 GB, 4 GB RAM",
+      "storage": "64/128 GB, 4 GB RAM",
+      "camera": "12.2 MP, f/1.8, 28mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF",
+      "battery": "Fast battery charging 9V/2A 18WUSB Power Delivery 2.0QI wireless charging"
     },
     "prices": [
       {
         "store": "Amazon",
-        "price": 106999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%203%20XL"
       },
       {
         "store": "Flipkart",
-        "price": 104999,
-        "url": "#"
-      },
-      {
-        "store": "Croma",
-        "price": 108999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%203%20XL"
       }
     ],
-    "pros": [
-      "Best-in-class camera software",
-      "Clean Android",
-      "7 years updates"
-    ],
-    "cons": [
-      "Tensor runs warm",
-      "Average charging speed"
-    ],
+    "pros": [],
+    "cons": [],
     "specs": {
       "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 42(3500), 46, 66(1700/2100), 71(600)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
       },
       "Launch": {
-        "Announced": "2023, October",
-        "Status": "Available"
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
       },
       "Body": {
-        "Dimensions": "162.6 x 76.5 x 8.8 mm",
-        "Weight": "213 g",
-        "SIM": "Nano-SIM + eSIM",
-        "Water resistance": "IP68"
+        "Dimensions": "158 x 76.7 x 7.9 mm (6.22 x 3.02 x 0.31 in)",
+        "Weight": "184 g (6.49 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Nano-SIM card & eSIM"
       },
       "Display": {
-        "Type": "LTPO OLED",
-        "Size": "6.7 inches",
-        "Resolution": "1344 x 2992",
-        "Refresh rate": "120Hz"
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 100.3 cm2(~82.8% screen-to-body ratio)",
+        "Resolution": "1440 x 2960 pixels, 18.5:9 ratio (~523 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
       },
       "Platform": {
-        "OS": "Android 14",
-        "Chipset": "Google Tensor G3",
-        "CPU": "Nona-core",
-        "GPU": "Immortalis-G715s MC10"
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.5 GHz Kryo 385 Gold & 4x1.6 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
       },
       "Memory": {
-        "Internal": "128GB / 256GB / 512GB",
-        "RAM": "12 GB"
+        "Card slot": "No",
+        "Internal": "64/128 GB, 4 GB RAM"
       },
       "Main Camera": {
-        "Triple": "50 MP + 48 MP + 48 MP",
-        "Features": "LED flash, HDR",
-        "Video": "4K@60fps"
+        "Single": "12.2 MP, f/1.8, 28mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF",
+        "Features": "Dual-LED flash, Auto-HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, 720p@240fps, 1080p@30fps (gyro-EIS)"
       },
-      "Selfie Camera": {
-        "Single": "10.5 MP",
-        "Video": "4K@30fps"
-      },
-      "Battery": {
-        "Type": "Li-Ion 5050 mAh",
-        "Charging": "30W wired, 23W wireless"
-      }
-    }
-  },
-  {
-    "id": "oneplus-12",
-    "brand": "oneplus",
-    "name": "OnePlus 12",
-    "image": "img/oneplus-12.svg",
-    "releaseDate": "2024-01-23",
-    "basePrice": 64999,
-    "popularity": 90,
-    "rating": 4.5,
-    "reviewCount": 1080,
-    "review": "",
-    "quickSpecs": {
-      "display": "6.82\" QHD+ AMOLED, 120Hz",
-      "processor": "Snapdragon 8 Gen 3",
-      "ram": "12 GB",
-      "storage": "256 GB",
-      "camera": "50 MP triple",
-      "battery": "5400 mAh"
-    },
-    "prices": [
-      {
-        "store": "Amazon",
-        "price": 64999,
-        "url": "#"
-      },
-      {
-        "store": "Flipkart",
-        "price": 64999,
-        "url": "#"
-      },
-      {
-        "store": "Reliance Digital",
-        "price": 66999,
-        "url": "#"
-      }
-    ],
-    "pros": [
-      "Fast 100W charging",
-      "Great value flagship",
-      "Bright display"
-    ],
-    "cons": [
-      "No wireless charging on base",
-      "Bloatware"
-    ],
-    "specs": {
-      "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
-      },
-      "Launch": {
-        "Announced": "2024, January",
-        "Status": "Available"
-      },
-      "Body": {
-        "Dimensions": "164.3 x 75.8 x 9.2 mm",
-        "Weight": "220 g",
-        "SIM": "Dual Nano-SIM",
-        "Water resistance": "IP65"
-      },
-      "Display": {
-        "Type": "LTPO AMOLED",
-        "Size": "6.82 inches",
-        "Resolution": "1440 x 3168",
-        "Refresh rate": "120Hz"
-      },
-      "Platform": {
-        "OS": "Android 14, OxygenOS 14",
-        "Chipset": "Snapdragon 8 Gen 3",
-        "CPU": "Octa-core",
-        "GPU": "Adreno 750"
-      },
-      "Memory": {
-        "Internal": "256GB / 512GB",
-        "RAM": "12 GB / 16 GB"
-      },
-      "Main Camera": {
-        "Triple": "50 MP + 64 MP + 48 MP",
-        "Features": "LED flash, HDR",
-        "Video": "8K@24fps"
-      },
-      "Selfie Camera": {
-        "Single": "32 MP",
-        "Video": "4K@30fps"
-      },
-      "Battery": {
-        "Type": "Li-Ion 5400 mAh",
-        "Charging": "100W wired, 50W wireless"
-      }
-    }
-  },
-  {
-    "id": "nothing-phone-2",
-    "brand": "nothing",
-    "name": "Nothing Phone (2)",
-    "image": "img/nothing-phone-2.svg",
-    "releaseDate": "2023-07-11",
-    "basePrice": 44999,
-    "popularity": 82,
-    "rating": 4.3,
-    "reviewCount": 984,
-    "review": "",
-    "quickSpecs": {
-      "display": "6.7\" LTPO OLED, 120Hz",
-      "processor": "Snapdragon 8+ Gen 1",
-      "ram": "8 GB",
-      "storage": "128 GB",
-      "camera": "50 MP dual",
-      "battery": "4700 mAh"
-    },
-    "prices": [
-      {
-        "store": "Flipkart",
-        "price": 44999,
-        "url": "#"
-      },
-      {
-        "store": "Amazon",
-        "price": 43999,
-        "url": "#"
-      }
-    ],
-    "pros": [
-      "Unique Glyph design",
-      "Clean software",
-      "Good value"
-    ],
-    "cons": [
-      "Only dual cameras",
-      "Average low-light photos"
-    ],
-    "specs": {
-      "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
-      },
-      "Launch": {
-        "Announced": "2023, July",
-        "Status": "Available"
-      },
-      "Body": {
-        "Dimensions": "162.1 x 76.4 x 8.6 mm",
-        "Weight": "201 g",
-        "SIM": "Dual Nano-SIM",
-        "Water resistance": "IP54"
-      },
-      "Display": {
-        "Type": "LTPO OLED",
-        "Size": "6.7 inches",
-        "Resolution": "1080 x 2412",
-        "Refresh rate": "120Hz"
-      },
-      "Platform": {
-        "OS": "Android 13, Nothing OS 2.0",
-        "Chipset": "Snapdragon 8+ Gen 1",
-        "CPU": "Octa-core",
-        "GPU": "Adreno 730"
-      },
-      "Memory": {
-        "Internal": "128GB / 256GB / 512GB",
-        "RAM": "8 GB / 12 GB"
-      },
-      "Main Camera": {
-        "Dual": "50 MP + 50 MP",
-        "Features": "LED flash, HDR",
-        "Video": "4K@60fps"
-      },
-      "Selfie Camera": {
-        "Single": "32 MP",
+      "Selfie camera": {
+        "Dual": "8 MP, f/1.8, 28mm (wide), PDAF8 MP, f/2.2, 19mm (ultrawide), no AF",
+        "Features": "Auto-HDR",
         "Video": "1080p@30fps"
       },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
       "Battery": {
-        "Type": "Li-Po 4700 mAh",
-        "Charging": "45W wired, 15W wireless"
+        "Charging": "Fast battery charging 9V/2A 18WUSB Power Delivery 2.0QI wireless charging"
+      },
+      "Misc": {
+        "Colors": "Clearly White, Just Black, Not Pink",
+        "Price": "About 960 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "184g, 7.9mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "7.4%",
+        "device_hits": "1,628,845 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1440x2960 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3430",
+        "battype-hl": "Li-Po"
       }
     }
   },
   {
-    "id": "xiaomi-14",
+    "id": "google-pixel-3",
+    "brand": "google",
+    "name": "Google Pixel 3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel-3-.jpg",
+    "fallbackImg": "img/google-pixel-3.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 76.7 cm2(~77.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64/128 GB, 4 GB RAM",
+      "storage": "64/128 GB, 4 GB RAM",
+      "camera": "12.2 MP, f/1.8, 28mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF",
+      "battery": "Fast battery charging 9V/2A 18WUSB Power Delivery 2.0QI wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%203"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 42(3500), 46, 66(1700/2100), 71(600)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "145.6 x 68.2 x 7.9 mm (5.73 x 2.69 x 0.31 in)",
+        "Weight": "148 g (5.22 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Nano-SIM card & eSIM"
+      },
+      "Display": {
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 76.7 cm2(~77.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~443 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.5 GHz Kryo 385 Gold & 4x1.6 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12.2 MP, f/1.8, 28mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF",
+        "Features": "Dual-LED flash, Auto-HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, 720p@240fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Dual": "8 MP, f/1.8, 28mm (wide), PDAF8 MP, f/2.2, 19mm (ultrawide), no AF",
+        "Features": "Auto-HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18WUSB Power Delivery 2.0QI wireless charging"
+      },
+      "Misc": {
+        "Colors": "Clearly White, Just Black, Not Pink",
+        "Price": "About 850 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3909 / Basemark X: 44369",
+        "Display": "Contrast ratio: Infinite (nominal), 4.350 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 77dB / Noise 71dB / Ring 81dB",
+        "Audio quality": "Noise -71.7dB / Crosstalk -70.1dB",
+        "Battery life": "Endurance rating 69h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "148g, 7.9mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "7.0%",
+        "device_hits": "1,341,286 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "2915",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-2-xl",
+    "brand": "google",
+    "name": "Google Pixel 2 XL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel-xl2-.jpg",
+    "fallbackImg": "img/google-pixel-2-xl.svg",
+    "releaseDate": "2017, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.6 cm2(~76.4% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "64/128 GB, 4 GB RAM",
+      "storage": "64/128 GB, 4 GB RAM",
+      "camera": "12.2 MP, f/1.8, 27mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF & laser AF",
+      "battery": "Fast battery charging (capped at 10.5 W)USB Power Delivery 2.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%202%20XL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%202%20XL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 38(2600), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat15 800/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, October",
+        "Status": "Available. Released 2017, October"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 76.7 x 7.9 mm (6.22 x 3.02 x 0.31 in)",
+        "Weight": "175 g (6.17 oz)",
+        "Build": "Front glass, aluminum body, partial glass back",
+        "SIM": "Nano-SIM card & eSIM"
+      },
+      "Display": {
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.6 cm2(~76.4% screen-to-body ratio)",
+        "Resolution": "1440 x 2880 pixels, 18:9 ratio (~538 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.35 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12.2 MP, f/1.8, 27mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF & laser AF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps (gyro-EIS), 1080p@30/60/120fps (gyro-EIS), 720p@240fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 25mm (wide), 1/3.2\", 1.4µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging (capped at 10.5 W)USB Power Delivery 2.0"
+      },
+      "Misc": {
+        "Colors": "Just Black, Black & White",
+        "Price": "About 530 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4167 / Basemark OS II 2.0: 3379Basemark X: 39143",
+        "Display": "Contrast ratio: ∞",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 70dB / Ring 78dB",
+        "Audio quality": "Noise - 93.7 / Crosstalk - 79.7",
+        "Battery life": "Endurance rating 88h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, October",
+        "body-hl": "175g, 7.9mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "3.7%",
+        "device_hits": "3,904,864 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1440x2880 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3520",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-2",
+    "brand": "google",
+    "name": "Google Pixel 2",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel-2.jpg",
+    "fallbackImg": "img/google-pixel-2.svg",
+    "releaseDate": "2017, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.0 inches, 68.9 cm2(~67.9% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "64/128 GB, 4 GB RAM",
+      "storage": "64/128 GB, 4 GB RAM",
+      "camera": "12.2 MP, f/1.8, 27mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF & laser AF",
+      "battery": "Fast battery charging (capped at 10.5 W)USB Power Delivery 2.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%202"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 38(2600), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat15 800/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, October",
+        "Status": "Available. Released 2017, October"
+      },
+      "Body": {
+        "Dimensions": "145.7 x 69.7 x 7.8 mm (5.74 x 2.74 x 0.31 in)",
+        "Weight": "143 g (5.04 oz)",
+        "Build": "Front glass, aluminum body, partial glass back",
+        "SIM": "Nano-SIM card & eSIM"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.0 inches, 68.9 cm2(~67.9% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0, upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.35 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12.2 MP, f/1.8, 27mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF & laser AF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps (gyro-EIS), 1080p@30/60/120fps (gyro-EIS), 720p@240fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 27mm (wide), 1/3.2\", 1.4µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging (capped at 10.5 W)USB Power Delivery 2.0"
+      },
+      "Misc": {
+        "Colors": "Kinda Blue, Just Black, Clearly White",
+        "Price": "About 550 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3387 / Basemark OS II 2.0: 4131Basemark X: 38794",
+        "Display": "Contrast ratio: Infinite (nominal), 4.023 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 77dB / Ring 81dB",
+        "Audio quality": "Noise -93.3dB / Crosstalk -66.2dB",
+        "Battery life": "Endurance rating 75h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, October",
+        "body-hl": "143g, 7.8mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "2.8%",
+        "device_hits": "4,578,517 hits",
+        "displaysize-hl": "5.0\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "2700",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "google-pixel-xl",
+    "brand": "google",
+    "name": "Google Pixel XL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel-xl.jpg",
+    "fallbackImg": "img/google-pixel-xl.svg",
+    "releaseDate": "2016, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~71.2% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+      "ram": "32/128 GB, 4 GB RAM",
+      "storage": "32/128 GB, 4 GB RAM",
+      "camera": "12.3 MP, f/2.0, 1/2.3\", 1.55µm, PDAF & laser AF",
+      "battery": "Fast battery charging 5V/3A 18WUSB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel%20XL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel%20XL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 21(1500), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps or LTE-A (3CA) Cat11 600/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, October",
+        "Status": "Available. Released 2016, October"
+      },
+      "Body": {
+        "Dimensions": "154.7 x 75.7 x 8.5 mm (6.09 x 2.98 x 0.33 in)",
+        "Weight": "168 g (5.93 oz)",
+        "Build": "Front glass, aluminum body, partial glass back",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~71.2% screen-to-body ratio)",
+        "Resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 7.1 (Nougat), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+        "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+        "GPU": "Adreno 530"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "32/128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12.3 MP, f/2.0, 1/2.3\", 1.55µm, PDAF & laser AF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60/120fps, 1080p@30fps (gyro-EIS), 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 1/3.2\", 1.4µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/3A 18WUSB Power Delivery",
+        "Stand-by": "Up to 552 h (3G)",
+        "Talk time": "Up to 32 h (3G)",
+        "Music play": "Up to 130 h"
+      },
+      "Misc": {
+        "Colors": "Quite Black, Very Silver, Really Blue",
+        "SAR": "0.89 W/kg (head)     0.56 W/kg (body)",
+        "SAR EU": "0.25 W/kg (head)     0.44 W/kg (body)",
+        "Price": "About 380 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 2281 / Basemark X: 30861",
+        "Display": "Contrast ratio: Infinite (nominal),  4.164 (sunlight)",
+        "Camera": "Photo/Video",
+        "Battery life": "Endurance rating 78h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, October",
+        "body-hl": "168g, 8.5mm thickness",
+        "os-hl": "Android 7.1, up to Android 9.0",
+        "storage-hl": "32/128GB storage, no card slot",
+        "device_popularity": "4.7%",
+        "device_hits": "6,872,413 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1440x2560 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 821",
+        "batsize-hl": "3450",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "google-pixel",
+    "brand": "google",
+    "name": "Google Pixel",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/google-pixel.jpg",
+    "fallbackImg": "img/google-pixel.svg",
+    "releaseDate": "2016, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.0 inches, 68.9 cm2(~69.0% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+      "ram": "32/128 GB, 4 GB RAM",
+      "storage": "32/128 GB, 4 GB RAM",
+      "camera": "12.3 MP, f/2.0, 1/2.3\", 1.55µm, PDAF & laser AF",
+      "battery": "Fast battery charging 5V/3A 18WUSB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Google%20Pixel"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Google%20Pixel"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 21(1500), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps or LTE-A (3CA) Cat11 600/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, October",
+        "Status": "Available. Released 2016, October"
+      },
+      "Body": {
+        "Dimensions": "143.8 x 69.5 x 8.5 mm (5.66 x 2.74 x 0.33 in)",
+        "Weight": "143 g (5.04 oz)",
+        "Build": "Front glass, aluminum body, partial glass back",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.0 inches, 68.9 cm2(~69.0% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~441 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 7.1 (Nougat), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+        "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+        "GPU": "Adreno 530"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "32/128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12.3 MP, f/2.0, 1/2.3\", 1.55µm, PDAF & laser AF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60/120fps, 1080p@30fps (gyro-EIS), 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 1/3.2\", 1.4µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/3A 18WUSB Power Delivery",
+        "Stand-by": "Up to 456 h (3G)",
+        "Talk time": "Up to 26 h (3G)",
+        "Music play": "Up to 110 h"
+      },
+      "Misc": {
+        "Colors": "Quite Black, Very Silver, Really Blue",
+        "SAR": "0.92 W/kg (head)     0.58 W/kg (body)",
+        "SAR EU": "0.33 W/kg (head)     0.61 W/kg (body)",
+        "Price": "About 290 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2901 / Basemark OS II 2.0: 2461Basemark X: 33023",
+        "Display": "Contrast ratio: ∞",
+        "Loudspeaker": "Voice 74dB / Noise 68dB / Ring 78dB",
+        "Audio quality": "Noise -93.0dB / Crosstalk -92.6dB",
+        "Battery life": "Endurance rating 64h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, October",
+        "body-hl": "143g, 8.5mm thickness",
+        "os-hl": "Android 7.1, up to Android 9.0",
+        "storage-hl": "32/128GB storage, no card slot",
+        "device_popularity": "8.0%",
+        "device_hits": "9,072,531 hits",
+        "displaysize-hl": "5.0\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 821",
+        "batsize-hl": "2770",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-7-pro",
     "brand": "xiaomi",
-    "name": "Xiaomi 14",
-    "image": "img/xiaomi-14.svg",
-    "releaseDate": "2024-02-25",
-    "basePrice": 69999,
-    "popularity": 85,
-    "rating": 4.4,
-    "reviewCount": 1020,
+    "name": "Xiaomi Redmi Note 7 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7-pro.jpg",
+    "fallbackImg": "img/xiaomi-redmi-note-7-pro.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
     "review": "",
     "quickSpecs": {
-      "display": "6.36\" LTPO OLED, 120Hz",
-      "processor": "Snapdragon 8 Gen 3",
-      "ram": "12 GB",
-      "storage": "256 GB",
-      "camera": "50 MP triple (Leica)",
-      "battery": "4610 mAh"
+      "display": "6.3 inches, 97.4 cm2(~81.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM675 Snapdragon 675 (11 nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 18W (Quick Charge 4)"
     },
     "prices": [
       {
         "store": "Amazon",
-        "price": 69999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%207%20Pro"
       },
       {
         "store": "Flipkart",
-        "price": 69999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%207%20Pro"
       }
     ],
-    "pros": [
-      "Compact flagship",
-      "Leica cameras",
-      "Fast charging"
-    ],
-    "cons": [
-      "MIUI ads",
-      "No IP68 on all variants"
-    ],
+    "pros": [],
+    "cons": [],
     "specs": {
       "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
       },
       "Launch": {
-        "Announced": "2024, February",
-        "Status": "Available"
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March 13"
       },
       "Body": {
-        "Dimensions": "152.8 x 71.5 x 8.2 mm",
-        "Weight": "193 g",
-        "SIM": "Dual Nano-SIM",
-        "Water resistance": "IP68"
+        "Dimensions": "159.2 x 75.2 x 8.1 mm (6.27 x 2.96 x 0.32 in)",
+        "Weight": "186 g (6.56 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
       },
       "Display": {
-        "Type": "LTPO OLED",
-        "Size": "6.36 inches",
-        "Resolution": "1200 x 2670",
-        "Refresh rate": "120Hz"
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~81.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
       },
       "Platform": {
-        "OS": "Android 14, HyperOS",
-        "Chipset": "Snapdragon 8 Gen 3",
-        "CPU": "Octa-core",
-        "GPU": "Adreno 750"
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM675 Snapdragon 675 (11 nm)",
+        "CPU": "Octa-core (2x2.0 GHz Kryo 460 Gold & 6x1.7 GHz Kryo 460 Silver)",
+        "GPU": "Adreno 612"
       },
       "Memory": {
-        "Internal": "256GB / 512GB",
-        "RAM": "12 GB / 16 GB"
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
       },
       "Main Camera": {
-        "Triple": "50 MP + 50 MP + 50 MP",
-        "Features": "Leica optics, LED flash",
-        "Video": "8K@24fps"
+        "Dual": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, depth sensor",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, (gyro-EIS)"
       },
-      "Selfie Camera": {
-        "Single": "32 MP",
-        "Video": "4K@60fps"
-      },
-      "Battery": {
-        "Type": "Li-Po 4610 mAh",
-        "Charging": "90W wired, 50W wireless"
-      }
-    }
-  },
-  {
-    "id": "realme-gt-6",
-    "brand": "realme",
-    "name": "Realme GT 6",
-    "image": "img/realme-gt-6.svg",
-    "releaseDate": "2024-06-20",
-    "basePrice": 40999,
-    "popularity": 79,
-    "rating": 4.2,
-    "reviewCount": 948,
-    "review": "",
-    "quickSpecs": {
-      "display": "6.78\" AMOLED, 120Hz",
-      "processor": "Snapdragon 8s Gen 3",
-      "ram": "8 GB",
-      "storage": "256 GB",
-      "camera": "50 MP triple",
-      "battery": "5500 mAh"
-    },
-    "prices": [
-      {
-        "store": "Flipkart",
-        "price": 40999,
-        "url": "#"
-      },
-      {
-        "store": "Amazon",
-        "price": 40999,
-        "url": "#"
-      }
-    ],
-    "pros": [
-      "Very bright display",
-      "Big battery",
-      "Fast charging"
-    ],
-    "cons": [
-      "Design divides opinion",
-      "Bloatware"
-    ],
-    "specs": {
-      "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
-      },
-      "Launch": {
-        "Announced": "2024, June",
-        "Status": "Available"
-      },
-      "Body": {
-        "Dimensions": "161.4 x 75.1 x 8.6 mm",
-        "Weight": "199 g",
-        "SIM": "Dual Nano-SIM",
-        "Water resistance": "IP65"
-      },
-      "Display": {
-        "Type": "AMOLED",
-        "Size": "6.78 inches",
-        "Resolution": "1264 x 2780",
-        "Refresh rate": "120Hz"
-      },
-      "Platform": {
-        "OS": "Android 14, Realme UI 5.0",
-        "Chipset": "Snapdragon 8s Gen 3",
-        "CPU": "Octa-core",
-        "GPU": "Adreno 735"
-      },
-      "Memory": {
-        "Internal": "256GB / 512GB",
-        "RAM": "8 GB / 12 GB / 16 GB"
-      },
-      "Main Camera": {
-        "Triple": "50 MP + 8 MP + 2 MP",
-        "Features": "LED flash, HDR",
-        "Video": "4K@60fps"
-      },
-      "Selfie Camera": {
-        "Single": "32 MP",
+      "Selfie camera": {
+        "Single": "13 MP",
+        "Features": "HDR",
         "Video": "1080p@30fps"
       },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Infrared port": "Yes",
+        "Radio": "FM radio, recording",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
       "Battery": {
-        "Type": "Li-Po 5500 mAh",
-        "Charging": "120W wired"
+        "Charging": "Fast battery charging 18W (Quick Charge 4)"
+      },
+      "Misc": {
+        "Colors": "Nebula Red, Neptune Blue, Space Black",
+        "Price": "About 200 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March 13",
+        "body-hl": "186g, 8.1mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "92%",
+        "device_hits": "1,991,728 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 675",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
       }
     }
   },
   {
-    "id": "vivo-x100-pro",
-    "brand": "vivo",
-    "name": "Vivo X100 Pro",
-    "image": "img/vivo-x100-pro.svg",
-    "releaseDate": "2024-02-06",
-    "basePrice": 89999,
-    "popularity": 81,
-    "rating": 4.4,
-    "reviewCount": 972,
+    "id": "xiaomi-mi-mix-3-5g",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi Mix 3 5G",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix3.jpg",
+    "fallbackImg": "img/xiaomi-mi-mix-3-5g.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
     "review": "",
     "quickSpecs": {
-      "display": "6.78\" LTPO AMOLED, 120Hz",
-      "processor": "Dimensity 9300",
-      "ram": "16 GB",
-      "storage": "512 GB",
-      "camera": "50 MP triple (Zeiss)",
-      "battery": "5400 mAh"
+      "display": "6.39 inches, 100.2 cm2(~85.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "12 MP (wide), f/1.8, 1/2.55\", 1.4µm, Dual Pixel PDAF, 4-axis OIS12 MP (telephoto), 1/3.4\", 1.0µm",
+      "battery": "Fast battery charging 18W (Quick Charge 4+)Wireless charging 10W"
     },
     "prices": [
       {
         "store": "Amazon",
-        "price": 89999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Mix%203%205G"
       },
       {
         "store": "Flipkart",
-        "price": 89999,
-        "url": "#"
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Mix%203%205G"
       }
     ],
-    "pros": [
-      "Excellent telephoto",
-      "Zeiss optics",
-      "Bright display"
-    ],
-    "cons": [
-      "Heavy",
-      "Funtouch OS quirks"
-    ],
+    "pros": [],
+    "cons": [],
     "specs": {
       "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G"
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 28(700), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE, 5G",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
       },
       "Launch": {
-        "Announced": "2024, February",
-        "Status": "Available"
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, May"
       },
       "Body": {
-        "Dimensions": "164.1 x 75.3 x 8.9 mm",
-        "Weight": "225 g",
-        "SIM": "Dual Nano-SIM",
-        "Water resistance": "IP68"
+        "Dimensions": "157.9 x 74.7 x 9.4 mm (6.22 x 2.94 x 0.37 in)",
+        "Build": "Front glass, aluminum frame (7000 series), ceramic back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
       },
       "Display": {
-        "Type": "LTPO AMOLED",
-        "Size": "6.78 inches",
-        "Resolution": "1260 x 2800",
-        "Refresh rate": "120Hz"
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~85.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
       },
       "Platform": {
-        "OS": "Android 14, Funtouch 14",
-        "Chipset": "Dimensity 9300",
-        "CPU": "Octa-core",
-        "GPU": "Immortalis-G720 MC12"
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+        "GPU": "Adreno 640"
       },
       "Memory": {
-        "Internal": "256GB / 512GB",
-        "RAM": "12 GB / 16 GB"
+        "Card slot": "No",
+        "Internal": "64/128 GB, 6 GB RAM"
       },
       "Main Camera": {
-        "Triple": "50 MP + 50 MP + 50 MP",
-        "Features": "Zeiss optics, LED flash",
-        "Video": "8K@30fps"
+        "Dual": "12 MP (wide), f/1.8, 1/2.55\", 1.4µm, Dual Pixel PDAF, 4-axis OIS12 MP (telephoto), 1/3.4\", 1.0µm",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/60fps, 1080p@960fps"
       },
-      "Selfie Camera": {
-        "Single": "32 MP",
-        "Video": "4K@30fps"
+      "Selfie camera": {
+        "Dual": "Mechanical pop-up 24 MP, 1/2.8\", 0.9µmMechanical pop-up 2 MP, depth sensor",
+        "Features": "LED flash, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
       },
       "Battery": {
-        "Type": "Li-Po 5400 mAh",
-        "Charging": "100W wired, 50W wireless"
+        "Charging": "Fast battery charging 18W (Quick Charge 4+)Wireless charging 10W"
+      },
+      "Misc": {
+        "Colors": "Sapphire Blue, Onyx Black",
+        "Price": "About 600 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, May",
+        "body-hl": "9.4mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "9.0%",
+        "device_hits": "134,269 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "3800",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-9-explorer",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi 9 Explorer",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-explore.jpg",
+    "fallbackImg": "img/xiaomi-mi-9-explorer.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~85.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "256 GB, 12 GB RAM",
+      "storage": "256 GB, 12 GB RAM",
+      "camera": "48 MP, f/1.5, 1/2\", 0.8µm, Laser/PDAF16 MP, f/2.2, 13mm (ultrawide), 1/3.0\", 1.0µm, Laser/PDAF12 MP, f/2.2, 54mm (telephoto), 1/3.6\", 1.0µm, Laser/PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 27W (Quick Charge 4+)Fast wireless charging 20W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209%20Explorer"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209%20Explorer"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 20(800), 28(700), 38(2600), 39(1900), 40(2300)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157.5 x 74.7 x 7.6 mm (6.20 x 2.94 x 0.30 in)",
+        "Weight": "173 g (6.10 oz)",
+        "Build": "Back glass (Gorilla Glass 5), aluminum frame (7000 series)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~85.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+        "GPU": "Adreno 640"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 12 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "48 MP, f/1.5, 1/2\", 0.8µm, Laser/PDAF16 MP, f/2.2, 13mm (ultrawide), 1/3.0\", 1.0µm, Laser/PDAF12 MP, f/2.2, 54mm (telephoto), 1/3.6\", 1.0µm, Laser/PDAF, 2x optical zoom",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/120/240fps, 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.0, 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 27W (Quick Charge 4+)Fast wireless charging 20W"
+      },
+      "Misc": {
+        "Colors": "Transparent Black",
+        "Price": "About 530 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "173g, 7.6mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "14%",
+        "device_hits": "269,297 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "12",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-9-se",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi 9 SE",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-se.jpg",
+    "fallbackImg": "img/xiaomi-mi-9-se.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.97 inches, 87.5 cm2(~84.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM712 Snapdragon 712 (10 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF13 MP, f/2.4, (ultrawide), 1.12µm8 MP, f/2.4, (telephoto), 1.12µm, PDAF",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209%20SE"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209%20SE"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "147.5 x 70.5 x 7.5 mm (5.81 x 2.78 x 0.30 in)",
+        "Weight": "155 g (5.47 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.97 inches, 87.5 cm2(~84.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~432 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM712 Snapdragon 712 (10 nm)",
+        "CPU": "Octa-core 2.3 GHz",
+        "GPU": "Adreno 616"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF13 MP, f/2.4, (ultrawide), 1.12µm8 MP, f/2.4, (telephoto), 1.12µm, PDAF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, 720p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.0, 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO, BDS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Violet, Blue, Gray",
+        "Price": "About 300 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "155g, 7.5mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "32%",
+        "device_hits": "425,157 hits",
+        "displaysize-hl": "5.97\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 712",
+        "batsize-hl": "3070",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-9",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi 9",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-9-.jpg",
+    "fallbackImg": "img/xiaomi-mi-9.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~85.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "64/128 GB, 6/8 GB RAM",
+      "storage": "64/128 GB, 6/8 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, Laser/PDAF16 MP, f/2.2, 13mm (ultrawide), 1/3.0\", 1.0µm, Laser/PDAF12 MP, f/2.2, 54mm (telephoto), 1/3.6\", 1.0µm, Laser/PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 27W (Quick Charge 4+)Fast wireless charging 20W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%209"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 20(800), 28(700), 38(2600), 39(1900), 40(2300) - Global",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157.5 x 74.7 x 7.6 mm (6.20 x 2.94 x 0.30 in)",
+        "Weight": "173 g (6.10 oz)",
+        "Build": "Back glass (Gorilla Glass 5), aluminum frame (7000 series)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~85.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+        "GPU": "Adreno 640"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "48 MP, f/1.8, 1/2\", 0.8µm, Laser/PDAF16 MP, f/2.2, 13mm (ultrawide), 1/3.0\", 1.0µm, Laser/PDAF12 MP, f/2.2, 54mm (telephoto), 1/3.6\", 1.0µm, Laser/PDAF, 2x optical zoom",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/120/240fps, 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.0, 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 27W (Quick Charge 4+)Fast wireless charging 20W"
+      },
+      "Misc": {
+        "Colors": "Lavender Violet, Ocean Blue, Piano Black",
+        "Price": "About 450 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 5074 / Basemark OS II 2.0: 5346Basemark X: 45089",
+        "Display": "Contrast ratio: Infinite (nominal), 3.921 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 74dB / Ring 81dB",
+        "Audio quality": "Noise -93.9dB / Crosstalk -91.9dB",
+        "Battery life": "Endurance rating 95h"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "173g, 7.6mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "46%",
+        "device_hits": "1,289,905 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-7",
+    "brand": "xiaomi",
+    "name": "Xiaomi Redmi Note 7",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-7.jpg",
+    "fallbackImg": "img/xiaomi-redmi-note-7.svg",
+    "releaseDate": "2019, January",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~81.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, depth sensoror12 MP, f/2.2, 1/2.9\", 1.25µm, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 9V/2A 18W (Quick Charge 4)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%207"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%207"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, January",
+        "Status": "Available. Released 2019, January"
+      },
+      "Body": {
+        "Dimensions": "159.2 x 75.2 x 8.1 mm (6.27 x 2.96 x 0.32 in)",
+        "Weight": "186 g (6.56 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), plastic frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~81.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, depth sensoror12 MP, f/2.2, 1/2.9\", 1.25µm, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "1080p@30/60/120fps, (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.2, 1.25µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Infrared port": "Yes",
+        "Radio": "FM radio, recording",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W (Quick Charge 4)"
+      },
+      "Misc": {
+        "Colors": "Blue, Black, Twilight Gold",
+        "Price": "About 150 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2716 / Basemark OS II 2.0: 2260Basemark X: 21201",
+        "Display": "Contrast ratio: 1338:1 (nominal), 2.893 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 69dB / Noise 71dB / Ring 90dB",
+        "Audio quality": "Noise -90.7dB / Crosstalk -94.5dB",
+        "Battery life": "Endurance rating 108h"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, January",
+        "body-hl": "186g, 8.1mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "64%",
+        "device_hits": "3,621,124 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-play",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-miplay.jpg",
+    "fallbackImg": "img/xiaomi-mi-play.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.84 inches, 85.1 cm2(~80.1% screen-to-body ratio)",
+      "processor": "Mediatek MT6765 Helio P35 (12nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "12 MP, f/2.2, 1.25 μm, PDAFSecondary camera, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "147.8 x 71.9 x 7.8 mm (5.82 x 2.83 x 0.31 in)",
+        "Weight": "150 g (5.29 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.84 inches, 85.1 cm2(~80.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Mediatek MT6765 Helio P35 (12nm)",
+        "CPU": "Octa-core (4x2.3 GHz Cortex-A53 & 4x1.8 GHz Cortex-A53)",
+        "GPU": "PowerVR GE8320"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/2.2, 1.25 μm, PDAFSecondary camera, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Dream Blue, Twilight Gold, Black",
+        "Price": "About 170 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "150g, 7.8mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "3.6%",
+        "device_hits": "589,775 hits",
+        "displaysize-hl": "5.84\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "MT6765 Helio P35",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-mix-3",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi Mix 3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-mix3.jpg",
+    "fallbackImg": "img/xiaomi-mi-mix-3.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~85.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "256 GB, 8/10 GB RAM or 128 GB, 6/8 GB RAM",
+      "storage": "256 GB, 8/10 GB RAM or 128 GB, 6/8 GB RAM",
+      "camera": "12 MP (wide), f/1.8, 1/2.55\", 1.4µm, Dual Pixel PDAF, 4-axis OIS12 MP (telephoto), 1/3.4\", 1.0µm",
+      "battery": "Fast battery charging 18W (Quick Charge 4+)Wireless charging 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%20Mix%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%20Mix%203"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 - Global",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100) - Global",
+        "Speed": "HSPA, LTE",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 74.7 x 8.5 mm (6.22 x 2.94 x 0.33 in)",
+        "Weight": "218 g (7.69 oz)",
+        "Build": "Front glass, aluminum frame (7000 series), ceramic back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~85.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); MIUI 10",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 8/10 GB RAM or 128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP (wide), f/1.8, 1/2.55\", 1.4µm, Dual Pixel PDAF, 4-axis OIS12 MP (telephoto), 1/3.4\", 1.0µm",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/60fps, 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Dual": "Mechanical pop-up 24 MP, 1/2.8\", 0.9µmMechanical pop-up 2 MP, depth sensor",
+        "Features": "LED flash, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 4+)Wireless charging 10W"
+      },
+      "Misc": {
+        "Colors": "Jade Green, Sapphire Blue, Onyx Black, Forbidden City Blue (10 GB only)",
+        "Price": "About 560 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4696 / Basemark OS II 2.0: 4034Basemark X: 43563",
+        "Display": "Contrast ratio: Infinite (nominal), 4.291(sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 71dB / Ring 73dB",
+        "Audio quality": "Noise -93.2dB / Crosstalk -90.6dB",
+        "Battery life": "Endurance rating 84h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "218g, 8.5mm thickness",
+        "os-hl": "Android 9.0; MIUI 10",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "8.6%",
+        "device_hits": "2,309,272 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "10",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3200",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-black-shark-helo",
+    "brand": "xiaomi",
+    "name": "Xiaomi Black Shark Helo",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-black-shark2.jpg",
+    "fallbackImg": "img/xiaomi-black-shark-helo.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.01 inches, 93.2 cm2(~77.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "256 GB, 10 GB RAM, 128 GB, 6/8 GB RAM",
+      "storage": "256 GB, 10 GB RAM, 128 GB, 6/8 GB RAM",
+      "camera": "12 MP, f/1.8, 1.25µm, dual pixel PDAF20 MP, f/1.8, 1.0µm, AF, 2x optical zoom",
+      "battery": "Fast battery charging 9V/2A 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Black%20Shark%20Helo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Black%20Shark%20Helo"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A (3CA)",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "160 x 75.2 x 8.7 mm (6.30 x 2.96 x 0.34 in)",
+        "Weight": "190 g (6.70 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.01 inches, 93.2 cm2(~77.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 10 GB RAM, 128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1.25µm, dual pixel PDAF20 MP, f/1.8, 1.0µm, AF, 2x optical zoom",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, 720p@120fps"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.2, 1.0µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Black",
+        "Price": "About 450 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "190g, 8.7mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "5.0%",
+        "device_hits": "920,296 hits",
+        "displaysize-hl": "6.01\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "10",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-redmi-note-6-pro",
+    "brand": "xiaomi",
+    "name": "Xiaomi Redmi Note 6 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-6-pro-r.jpg",
+    "fallbackImg": "img/xiaomi-redmi-note-6-pro.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.26 inches, 97.8 cm2(~81.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.2, 1.12µm, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%206%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%206%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 76.4 x 8.3 mm (6.22 x 3.01 x 0.33 in)",
+        "Weight": "182 g (6.42 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.26 inches, 97.8 cm2(~81.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); MIUI 9",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.2, 1.12µm, depth sensor",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Dual": "20 MP, f/2.0, 0.9µm2 MP, f/2.2, 1.75µm, depth sensor",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Infrared port": "Yes",
+        "Radio": "FM radio, recording",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Blue, Rose Gold, Red",
+        "Price": "About 190 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2363 / Basemark OS II 2.0: 1812Basemark X: 15025",
+        "Display": "Contrast ratio: 1532:1 (nominal), 2.966 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 73dB / Ring 85dB",
+        "Audio quality": "Noise -92.7dB / Crosstalk -93.6dB",
+        "Battery life": "Endurance rating 92h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "182g, 8.3mm thickness",
+        "os-hl": "Android 8.1; MIUI 9",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "33%",
+        "device_hits": "5,931,705 hits",
+        "displaysize-hl": "6.26\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-8-pro",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi 8 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-8-pro-.jpg",
+    "fallbackImg": "img/xiaomi-mi-8-pro.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.21 inches, 97.1 cm2(~83.8% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128 GB, 6/8 GB RAM",
+      "storage": "128 GB, 6/8 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF12 MP, f/2.4, 1/3.4\", 1.0µm, AF, 2x optical zoom",
+      "battery": "Fast battery charging 18W (Quick Charge 4+)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%208%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%208%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 20(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "154.9 x 74.8 x 7.6 mm (6.10 x 2.94 x 0.30 in)",
+        "Weight": "177 g (6.24 oz)",
+        "Build": "Front/back glass, aluminum frame (7000 series)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.21 inches, 97.1 cm2(~83.8% screen-to-body ratio)",
+        "Resolution": "1080 x 2248 pixels (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); MIUI 10",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.8 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF12 MP, f/2.4, 1/3.4\", 1.0µm, AF, 2x optical zoom",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@60fps, 1080p@30/240fps"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.0, 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Infrared face recognition, fingerprint (under display), accelerometer, gyro, proximity, barometer, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 4+)"
+      },
+      "Misc": {
+        "Colors": "Black (transparent back), Meteorite black, Twilight Gold",
+        "Price": "About 500 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "177g, 7.6mm thickness",
+        "os-hl": "Android 8.1; MIUI 10",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "6.3%",
+        "device_hits": "1,688,901 hits",
+        "displaysize-hl": "6.21\"",
+        "displayres-hl": "1080x2248 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "xiaomi-mi-8-lite",
+    "brand": "xiaomi",
+    "name": "Xiaomi Mi 8 Lite",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/xiaomi-mi-8-lite-.jpg",
+    "fallbackImg": "img/xiaomi-mi-8-lite.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.26 inches, 97.8 cm2(~82.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64/128 GB, 4/6 GB RAM",
+      "storage": "64/128 GB, 4/6 GB RAM",
+      "camera": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.0, 1/5\", 1.12µm, depth sensor",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%208%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%208%20Lite"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - Global",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "156.4 x 75.8 x 7.5 mm (6.16 x 2.98 x 0.30 in)",
+        "Weight": "169 g (5.96 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.26 inches, 97.8 cm2(~82.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); MIUI 10",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64/128 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.9, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.0, 1/5\", 1.12µm, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60/120fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "24 MP, 1/2.8\", 0.9µm",
+        "Features": "Auto HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Aurora Blue, Twilight Gold (China only)",
+        "Price": "About 230 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2769 / Basemark OS II 2.0: 2338Basemark X: 21269",
+        "Display": "Contrast ratio: 1453 (nominal), 2.862 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 77dB / Ring 77dB",
+        "Audio quality": "Noise -93.5dB / Crosstalk -35.4dB",
+        "Battery life": "Endurance rating 77h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "169g, 7.5mm thickness",
+        "os-hl": "Android 8.1; MIUI 10",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "18%",
+        "device_hits": "2,525,755 hits",
+        "displaysize-hl": "6.26\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3350",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-6t-mclaren",
+    "brand": "oneplus",
+    "name": "OnePlus 6T McLaren",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-6t-mclaren-edition.jpg",
+    "fallbackImg": "img/oneplus-6t-mclaren.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~85.6% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "256 GB, 10 GB RAM",
+      "storage": "256 GB, 10 GB RAM",
+      "camera": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+      "battery": "Fast battery charging 5V/6A 30W (Warp Charge 30) - 50% in 20 min"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206T%20McLaren"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206T%20McLaren"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "157.5 x 74.8 x 8.2 mm (6.20 x 2.94 x 0.32 in)",
+        "Weight": "185 g (6.53 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~85.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); OxygenOS 9.0.5",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 10 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/60/240fps, 720p@480fps, Auto HDR, gyro-EIS"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 25mm (wide), 1/3.1\", 1.0µm",
+        "Features": "Auto-HDR, gyro-EIS",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/6A 30W (Warp Charge 30) - 50% in 20 min"
+      },
+      "Misc": {
+        "Colors": "Speed Orange",
+        "Price": "About 700 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "185g, 8.2mm thickness",
+        "os-hl": "Android 9.0; OxygenOS 9.0.5",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "5.5%",
+        "device_hits": "464,242 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "10",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3700",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-6t",
+    "brand": "oneplus",
+    "name": "OnePlus 6T",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-6t-thunder-purple.jpg",
+    "fallbackImg": "img/oneplus-6t.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~85.6% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "256 GB, 8 GB RAM, 128 GB, 6/8 GB RAM",
+      "storage": "256 GB, 8 GB RAM, 128 GB, 6/8 GB RAM",
+      "camera": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+      "battery": "Fast battery charging 5V/4A 20W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206T"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 46, 66(1700/2100), 71(600) - Europe, North America",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "157.5 x 74.8 x 8.2 mm (6.20 x 2.94 x 0.32 in)",
+        "Weight": "185 g (6.53 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~85.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); OxygenOS 9.0.5",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 8 GB RAM, 128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/60/240fps, 720p@480fps, Auto HDR, gyro-EIS"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 25mm (wide), 1/3.1\", 1.0µm",
+        "Features": "Auto-HDR, gyro-EIS",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4A 20W"
+      },
+      "Misc": {
+        "Colors": "Thunder Purple, Mirror Black, Midnight Black",
+        "Price": "About 550 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4941 / Basemark OS II 2.0: 4452Basemark X: 43886",
+        "Display": "Contrast ratio: Infinite (nominal), 4.138 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 72dB / Ring 84dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -93.8dB",
+        "Battery life": "Endurance rating 90h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "185g, 8.2mm thickness",
+        "os-hl": "Android 9.0; OxygenOS 9.0.5",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "16%",
+        "device_hits": "2,616,423 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3700",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-6",
+    "brand": "oneplus",
+    "name": "OnePlus 6",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-6-red.jpg",
+    "fallbackImg": "img/oneplus-6.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.28 inches, 98.4 cm2(~83.8% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128/256 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "128/256 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+      "battery": "Fast battery charging 5V 4A 20W (Dash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%206"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%206"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100), 71(600) - Europe, North America",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "155.7 x 75.4 x 7.8 mm (6.13 x 2.97 x 0.31 in)",
+        "Weight": "177 g (6.24 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.28 inches, 98.4 cm2(~83.8% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); OxygenOS 9.0.2",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/256 GB, 8 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 25mm (wide), 1/2.6\", 1.22µm, OIS, PDAF20 MP (16 MP effective), f/1.7, 25mm (wide), 1/2.8\", 1.0µm, PDAF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30/60fps, 1080p@30/60/240fps, 720p@480fps, Auto HDR"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 25mm (wide), 1/3.1\", 1.0µm",
+        "Features": "Auto-HDR, gyro-EIS",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V 4A 20W (Dash Charge)"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Mirror Black, Silk White, Amber Red",
+        "Price": "About 520 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 5160 / Basemark OS II 2.0: 4440Basemark X: 44229",
+        "Display": "Contrast ratio: Infinite (nominal), 4.321 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 74dB / Ring 70dB",
+        "Audio quality": "Noise -93.0dB / Crosstalk -93.0dB",
+        "Battery life": "Endurance rating 76h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "177g, 7.8mm thickness",
+        "os-hl": "Android 8.1, up to 9.0; OxygenOS 9.0.2",
+        "storage-hl": "128/256GB storage, no card slot",
+        "device_popularity": "8.5%",
+        "device_hits": "7,385,034 hits",
+        "displaysize-hl": "6.28\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-5t",
+    "brand": "oneplus",
+    "name": "OnePlus 5T",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-5t.jpg",
+    "fallbackImg": "img/oneplus-5t.svg",
+    "releaseDate": "2017, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.01 inches, 93.7 cm2(~80.0% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.7, 27mm (wide), 1/2.8\", 1.12µm, PDAF20 MP, f/1.7, 27mm (wide), 1/2.8\", 1.0µm, AF, PDAF",
+      "battery": "Fast battery charging 5V 4A 20W (Dash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%205T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%205T"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA, LTE-A (3CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, November",
+        "Status": "Available. Released 2017, November"
+      },
+      "Body": {
+        "Dimensions": "156.1 x 75 x 7.3 mm (6.15 x 2.95 x 0.29 in)",
+        "Weight": "162 g (5.71 oz)",
+        "Build": "Front glass, aluminum frame, back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.01 inches, 93.7 cm2(~80.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie); OxygenOS 9.0.4",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 27mm (wide), 1/2.8\", 1.12µm, PDAF20 MP, f/1.7, 27mm (wide), 1/2.8\", 1.0µm, AF, PDAF",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps, 720p@30/120fps, Auto HDR"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 20mm, 1/3.1\", 1.0µm",
+        "Features": "Auto-HDR",
+        "Video": "1080p (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V 4A 20W (Dash Charge)"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Lava Red, Sandstone White (128/8GB only)",
+        "Price": "About 500 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4235 / Basemark OS II 2.0: 3632Basemark X: 38656",
+        "Display": "Contrast ratio: Infinite (nominal), 4.789 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 73dB / Ring 69dB",
+        "Audio quality": "Noise -94.0dB / Crosstalk -93.7dB",
+        "Battery life": "Endurance rating 82h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, November",
+        "body-hl": "162g, 7.3mm thickness",
+        "os-hl": "Android 7.1.1, up to 9.0; OxygenOS 9.0.4",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "5.0%",
+        "device_hits": "7,204,143 hits",
+        "displaysize-hl": "6.01\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-5",
+    "brand": "oneplus",
+    "name": "OnePlus 5",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-5.jpg",
+    "fallbackImg": "img/oneplus-5.svg",
+    "releaseDate": "2017, June. Released 2017, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~73.0% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.7, 24mm (wide), 1/2.8\", 1.12µm, PDAF20 MP, f/2.6, 36mm (standard), 1/2.8\", 1.0µm, 1.6x optical zoom, AF",
+      "battery": "Fast battery charging 5V 4A 20W (Dash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%205"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%205"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 38(2600), 39(1900), 40(2300), 41(2500), 66(1700/2100)",
+        "Speed": "HSPA, LTE-A (3CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, June. Released 2017, June",
+        "Status": "Discontinued"
+      },
+      "Body": {
+        "Dimensions": "154.2 x 74.1 x 7.3 mm (6.07 x 2.92 x 0.29 in)",
+        "Weight": "153 g (5.40 oz)",
+        "Build": "Front glass, aluminum frame & back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~73.0% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 7.1.1 (Nougat), upgradable to Android 9.0 (Pie); OxygenOS 9.0.4",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 8 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 24mm (wide), 1/2.8\", 1.12µm, PDAF20 MP, f/2.6, 36mm (standard), 1/2.8\", 1.0µm, 1.6x optical zoom, AF",
+        "Features": "HDR, panorama, dual-LED flash",
+        "Video": "2160p@30fps, 1080p@30/60fps, 720p@30/120/480fps, Auto HDR"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 20mm, 1/3.1\", 1.0µm",
+        "Features": "Auto-HDR",
+        "Video": "1080p (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V 4A 20W (Dash Charge)"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Slate Gray",
+        "Price": "About 500 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4300 / Basemark OS II 2.0: 3601Basemark X: 38844",
+        "Display": "Contrast ratio: Infinite (nominal), 3.914 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 69dB / Noise 72dB / Ring 77dB",
+        "Audio quality": "Noise -94.1dB / Crosstalk -94.2dB",
+        "Battery life": "Endurance rating 83h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, June",
+        "body-hl": "153g, 7.3mm thickness",
+        "os-hl": "Android 7.1.1, up to 9.0; OxygenOS 9.0.4",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "3.0%",
+        "device_hits": "12,025,680 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oneplus-3t",
+    "brand": "oneplus",
+    "name": "OnePlus 3T",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-3t-.jpg",
+    "fallbackImg": "img/oneplus-3t.svg",
+    "releaseDate": "2016, November. Released 2016, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~73.1% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "16 MP, f/2.0, 1/2.8\", 1.12µm, OIS, PDAF",
+      "battery": "Fast battery charging 5V 4A 20W (Dash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%203T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%203T"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 - North America",
+        "4G bands": "LTE band 1(2100), 2(1900), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 30(2300) - North America",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, November. Released 2016, November",
+        "Status": "Discontinued"
+      },
+      "Body": {
+        "Dimensions": "152.7 x 74.7 x 7.4 mm (6.01 x 2.94 x 0.29 in)",
+        "Weight": "158 g (5.57 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~73.1% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo); OxygenOS 5.0.4",
+        "Chipset": "Qualcomm MSM8996 Snapdragon 821 (14 nm)",
+        "CPU": "Quad-core (2x2.35 GHz Kryo & 2x1.6 GHz Kryo)",
+        "GPU": "Adreno 530"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "16 MP, f/2.0, 1/2.8\", 1.12µm, OIS, PDAF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30/60fps, 720p@120fps, Auto HDR"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 1/3.1\", 1.0µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "4.2, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V 4A 20W (Dash Charge)"
+      },
+      "Misc": {
+        "Colors": "Gunmetal, Soft Gold, Midnight Black",
+        "SAR": "0.99 W/kg (head)     0.65 W/kg (body)",
+        "Price": "About 440 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3328 / Basemark OS II 2.0: 2678Basemark X: 36958",
+        "Display": "Contrast ratio: Infinite (nominal), 4.232 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 61dB / Noise 69dB / Ring 78dB",
+        "Audio quality": "Noise-94.3dB / Crosstalk -93.4dB",
+        "Battery life": "Endurance rating 83h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, November",
+        "body-hl": "158g, 7.4mm thickness",
+        "os-hl": "Android 6.0.1, up to 8.0; OxygenOS 5.0.4",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "2.5%",
+        "device_hits": "9,727,132 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 821",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oneplus-3",
+    "brand": "oneplus",
+    "name": "OnePlus 3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oneplus-3-.jpg",
+    "fallbackImg": "img/oneplus-3.svg",
+    "releaseDate": "2016, June. Released 2016, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~73.1% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+      "ram": "64 GB, 6 GB RAM",
+      "storage": "64 GB, 6 GB RAM",
+      "camera": "16 MP, f/2.0, 1/2.8\", 1.12µm, OIS, PDAF",
+      "battery": "Fast battery charging 5V 4A 20W (Dash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=OnePlus%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=OnePlus%203"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2016, June. Released 2016, June",
+        "Status": "Discontinued"
+      },
+      "Body": {
+        "Dimensions": "152.7 x 74.7 x 7.4 mm (6.01 x 2.94 x 0.29 in)",
+        "Weight": "158 g (5.57 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Optic AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~73.1% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 6.0.1 (Marshmallow), upgradable to Android 8.0 (Oreo); OxygenOS 5.0.4",
+        "Chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+        "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+        "GPU": "Adreno 530"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "16 MP, f/2.0, 1/2.8\", 1.12µm, OIS, PDAF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30/60fps, 720p@120fps, Auto HDR"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 1/3.2\", 1.4µm"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V 4A 20W (Dash Charge)"
+      },
+      "Misc": {
+        "Colors": "Graphite, soft gold",
+        "SAR EU": "0.39 W/kg (head)     0.32 W/kg (body)",
+        "Price": "About 400 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2677 / Basemark OS II 2.0: 2365Basemark X: 32715",
+        "Display": "Contrast ratio: Infinite (nominal), 4.424(sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 62dB / Noise 71dB / Ring 77dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -94.4dB",
+        "Battery life": "Endurance rating 66h"
+      },
+      "Banner": {
+        "released-hl": "Released 2016, June",
+        "body-hl": "158g, 7.4mm thickness",
+        "os-hl": "Android 6.0.1, up to 8.0; OxygenOS 5.0.4",
+        "storage-hl": "64GB storage, no card slot",
+        "device_popularity": "4.7%",
+        "device_hits": "18,166,285 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 820",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-f11",
+    "brand": "oppo",
+    "name": "Oppo F11",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-f11-.jpg",
+    "fallbackImg": "img/oppo-f11.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.53 inches, 104.7 cm2(~85.3% screen-to-body ratio)",
+      "processor": "Mediatek Helio P70 (12nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, 1/5\", 1.12µm, depth sensor",
+      "battery": "Fast battery charging VOOC 3.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F11"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F11"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "161.3 x 76.1 x 8.8 mm (6.35 x 3.00 x 0.35 in)",
+        "Weight": "190 g (6.70 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.53 inches, 104.7 cm2(~85.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); ColorOS 6",
+        "Chipset": "Mediatek Helio P70 (12nm)",
+        "CPU": "Octa-core (4x2.1 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, 1/5\", 1.12µm, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 1/3.1\", 1.0µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging VOOC 3.0"
+      },
+      "Misc": {
+        "Colors": "Flourite Purple, Marble Green, Jewelry White",
+        "Price": "About 250 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "190g, 8.8mm thickness",
+        "os-hl": "Android 9.0; ColorOS 6",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "24%",
+        "device_hits": "84,996 hits",
+        "displaysize-hl": "6.53\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Helio P70",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-f11-pro",
+    "brand": "oppo",
+    "name": "Oppo F11 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-f11-pro-.jpg",
+    "fallbackImg": "img/oppo-f11-pro.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.53 inches, 103.6 cm2(~84.4% screen-to-body ratio)",
+      "processor": "Mediatek Helio P70 (12nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, 1/5\", 1.12µm, depth sensor",
+      "battery": "Fast battery charging VOOC 3.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F11%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F11%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300), 41(2500) - V1",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "161.3 x 76.1 x 8.8 mm (6.35 x 3.00 x 0.35 in)",
+        "Weight": "190 g (6.70 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.53 inches, 103.6 cm2(~84.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~397 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); ColorOS 6",
+        "Chipset": "Mediatek Helio P70 (12nm)",
+        "CPU": "Octa-core (4x2.1 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF5 MP, f/2.4, 1/5\", 1.12µm, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 16 MP, f/2.0, 1/3.1\", 1.0µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging VOOC 3.0"
+      },
+      "Misc": {
+        "Colors": "Thunder Black, Aurora Green",
+        "Price": "About 320 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "190g, 8.8mm thickness",
+        "os-hl": "Android 9.0; ColorOS 6",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "43%",
+        "device_hits": "578,597 hits",
+        "displaysize-hl": "6.53\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Helio P70",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-r15x",
+    "brand": "oppo",
+    "name": "Oppo R15x",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-r15x.jpg",
+    "fallbackImg": "img/oppo-r15x.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 101.0 cm2(~84.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20R15x"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20R15x"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 1700(AWS) / 2100 / 900",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "158.3 x 75.5 x 7.4 mm (6.23 x 2.97 x 0.29 in)",
+        "Weight": "156 g (5.50 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 101.0 cm2(~84.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 а/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Nebula, Silver Green",
+        "Price": "About 350 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "156g, 7.4mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "1.7%",
+        "device_hits": "380,086 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3600",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-rx17-neo",
+    "brand": "oppo",
+    "name": "Oppo RX17 Neo",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-k1-.jpg",
+    "fallbackImg": "img/oppo-rx17-neo.svg",
+    "releaseDate": "2018, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~84.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "128 GB, 4 GB RAM",
+      "storage": "128 GB, 4 GB RAM",
+      "camera": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20RX17%20Neo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20RX17%20Neo"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, November",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "158.3 x 75.5 x 7.4 mm (6.23 x 2.97 x 0.29 in)",
+        "Weight": "156 g (5.50 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~84.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Blue, Red",
+        "Price": "About 350 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "156g, 7.4mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "1.5%",
+        "device_hits": "236,657 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3600",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-k1",
+    "brand": "oppo",
+    "name": "Oppo K1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-k1-.jpg",
+    "fallbackImg": "img/oppo-k1.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 101.0 cm2(~84.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM",
+      "camera": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20K1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20K1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 18(800), 19(800), 20(800), 26(850), 28(700), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/11.5 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "158.3 x 75.5 x 7.4 mm (6.23 x 2.97 x 0.29 in)",
+        "Weight": "156 g (5.50 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 101.0 cm2(~84.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, 1/2.8\", 1.12µm, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 а/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Blue, Red, Silver Green",
+        "Price": "About 210 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "156g, 7.4mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "3.2%",
+        "device_hits": "554,783 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3600",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-a7x",
+    "brand": "oppo",
+    "name": "Oppo A7x",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-a7x-.jpg",
+    "fallbackImg": "img/oppo-a7x.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)",
+      "ram": "128 GB, 4 GB RAM",
+      "storage": "128 GB, 4 GB RAM",
+      "camera": "16 MP, f/1.8, 1/3.1, 1.0µm, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20A7x"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20A7x"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat13 600/100 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "156.7 x 74 x 8 mm (6.17 x 2.91 x 0.31 in)",
+        "Weight": "169 g (5.96 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "To be confirmed"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "128 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, 1/3.1, 1.0µm, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Starry Purple, Ice Flame Blue",
+        "Price": "About 270 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "169g, 8mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "1.2%",
+        "device_hits": "369,871 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-rx17-pro",
+    "brand": "oppo",
+    "name": "Oppo RX17 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-r17-pro.jpg",
+    "fallbackImg": "img/oppo-rx17-pro.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 101.0 cm2(~85.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "ram": "128 GB, 6/8 GB RAM",
+      "storage": "128 GB, 6/8 GB RAM",
+      "camera": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS20 MP, f/2.6, AFTOF 3D stereo camera",
+      "battery": "Fast battery charging 10V/5A 50W: 40% in 10 min(SuperVOOC Flash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20RX17%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20RX17%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat15 800/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "157.6 x 74.6 x 7.9 mm (6.20 x 2.94 x 0.31 in)",
+        "Weight": "183 g (6.46 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 101.0 cm2(~85.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+        "CPU": "Octa-core (2x2.2 GHz Kryo 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+        "GPU": "Adreno 616"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "12 MP, f/1.5-2.4, 26mm (wide), 1/2.55\", 1.4µm, Dual Pixel PDAF, OIS20 MP, f/2.6, AFTOF 3D stereo camera",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/5A 50W: 40% in 10 min(SuperVOOC Flash Charge)"
+      },
+      "Misc": {
+        "Colors": "Radiant Mist, Emerald Green",
+        "Price": "About 600 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4212 / Basemark OS II 2.0: 4106Basemark X: 43562",
+        "Display": "Contrast ratio: Infinite (nominal), 4.434 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 72dB / Ring 81dB",
+        "Battery life": "Endurance rating 80h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "183g, 7.9mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "4.1%",
+        "device_hits": "1,194,960 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 710",
+        "batsize-hl": "3700",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-r17",
+    "brand": "oppo",
+    "name": "Oppo R17",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-r17-.jpg",
+    "fallbackImg": "img/oppo-r17.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 102.2 cm2(~86.7% screen-to-body ratio)",
+      "processor": "Qualcomm SDM670 Snapdragon 670 (10 nm)",
+      "ram": "128 GB, 8 GB RAM",
+      "storage": "128 GB, 8 GB RAM",
+      "camera": "16 MP, f/1.8, 25mm (wide), 1/2.6\", 1.22µm, PDAF5 MP, depth sensor",
+      "battery": "Fast battery charging 5V/4A 20W (VOOC Flash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20R17"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20R17"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat15 800/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "157.5 x 74.9 x 7.5 mm (6.20 x 2.95 x 0.30 in)",
+        "Weight": "182 g (6.42 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 102.2 cm2(~86.7% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~394 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM670 Snapdragon 670 (10 nm)",
+        "CPU": "Octa-core (2x2.0 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+        "GPU": "Adreno 615"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, 25mm (wide), 1/2.6\", 1.22µm, PDAF5 MP, depth sensor",
+        "Features": "Dual-LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4A 20W (VOOC Flash Charge)"
+      },
+      "Misc": {
+        "Colors": "Stream Blue, Neon Purple",
+        "Price": "About 460 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "182g, 7.5mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "2.8%",
+        "device_hits": "836,655 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 670",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-f9--f9-pro",
+    "brand": "oppo",
+    "name": "Oppo F9 (F9 Pro)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-f9.jpg",
+    "fallbackImg": "img/oppo-f9--f9-pro.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)",
+      "ram": "64 GB, 6 GB or 4 GB RAM",
+      "storage": "64 GB, 6 GB or 4 GB RAM",
+      "camera": "16 MP, f/1.8, 1/3.1, 1.0µm, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/4A 20W (VOOC Flash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20F9%20%28F9%20Pro%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20F9%20%28F9%20Pro%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100 - all versions",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat13 600/100 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "156.7 x 74 x 8 mm (6.17 x 2.91 x 0.31 in)",
+        "Weight": "169 g (5.96 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 6 GB or 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, 1/3.1, 1.0µm, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4A 20W (VOOC Flash Charge)"
+      },
+      "Misc": {
+        "Colors": "Sunrise Red, Twilight Blue, Starry Purple",
+        "Price": "About 290 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1978 / Basemark OS II 2.0: 1904Basemark X: 10536",
+        "Display": "Contrast ratio: 1814:1 (nominal), 3.069 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 74dB / Ring 81dB",
+        "Audio quality": "Noise -92.8dB / Crosstalk -92.1dB",
+        "Battery life": "Endurance rating 94h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "169g, 8mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "20%",
+        "device_hits": "4,890,011 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "oppo-a3s",
+    "brand": "oppo",
+    "name": "Oppo A3s",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-a3s.jpg",
+    "fallbackImg": "img/oppo-a3s.svg",
+    "releaseDate": "2018, July",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 95.9 cm2(~81.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM450 Snapdragon 450 (14 nm)",
+      "ram": "16 GB, 2 GB RAM",
+      "storage": "16 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.2, AF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/4A 20W: (VOOC Flash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20A3s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20A3s"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, July",
+        "Status": "Available. Released 2018, July"
+      },
+      "Body": {
+        "Dimensions": "156.2 x 75.6 x 8.2 mm (6.15 x 2.98 x 0.32 in)",
+        "Weight": "168 g (5.93 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 95.9 cm2(~81.2% screen-to-body ratio)",
+        "Resolution": "720 x 1520 pixels, 19:9 ratio (~271 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.1",
+        "Chipset": "Qualcomm SDM450 Snapdragon 450 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Cortex-A53",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.2, AF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4A 20W: (VOOC Flash Charge)"
+      },
+      "Misc": {
+        "Colors": "Red, Dark Purple",
+        "Price": "About 11000 INR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, July",
+        "body-hl": "168g, 8.2mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.1",
+        "storage-hl": "16GB storage, microSD card slot",
+        "device_popularity": "24%",
+        "device_hits": "4,669,524 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "720x1520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Snapdragon 450",
+        "batsize-hl": "4230",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-find-x-lamborghini",
+    "brand": "oppo",
+    "name": "Oppo Find X Lamborghini",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-find-x-lamborgini-edition.jpg",
+    "fallbackImg": "img/oppo-find-x-lamborghini.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.42 inches, 101.2 cm2(~87.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "512 GB, 8 GB RAM",
+      "storage": "512 GB, 8 GB RAM",
+      "camera": "Motorized pop-up 16 MP, f/2.0, 1/2.6\", 1.22µm, PDAF, OIS20 MP, f/2.0, 1/2.8\", 1.0µm",
+      "battery": "Fast battery charging 10V/5A 50W: 100% in 35 min (SuperVOOC Flash Charge)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20Find%20X%20Lamborghini"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20Find%20X%20Lamborghini"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 32(1500), 66(1700/2100), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "156.7 x 74.2 x 9.4 mm (6.17 x 2.92 x 0.37 in)",
+        "Weight": "186 g (6.56 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.42 inches, 101.2 cm2(~87.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.1",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "512 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "Motorized pop-up 16 MP, f/2.0, 1/2.6\", 1.22µm, PDAF, OIS20 MP, f/2.0, 1/2.8\", 1.0µm",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@240fps, 720p@480fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 25 MP, f/2.0",
+        "Features": "Auto-HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/5A 50W: 100% in 35 min (SuperVOOC Flash Charge)"
+      },
+      "Misc": {
+        "Colors": "Black (carbon fiber texture back)",
+        "Price": "About 1700 EUR"
+      },
+      "Tests": {
+        "Battery life": "Endurance rating 82h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "186g, 9.4mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.1",
+        "storage-hl": "512GB storage, no card slot",
+        "device_popularity": "1.2%",
+        "device_hits": "530,311 hits",
+        "displaysize-hl": "6.42\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "oppo-find-x",
+    "brand": "oppo",
+    "name": "Oppo Find X",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-find-x.jpg",
+    "fallbackImg": "img/oppo-find-x.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.42 inches, 101.2 cm2(~87.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128/256 GB, 8 GB RAM",
+      "storage": "128/256 GB, 8 GB RAM",
+      "camera": "Motorized pop-up 16 MP, f/2.0, 1/2.6\", 1.22µm, PDAF, OIS20 MP, f/2.0, 1/2.8\", 1.0µm",
+      "battery": "Fast battery charging 5V/4A 20W (VOOC Flash Charge) - Standard modelFast battery charging 10V/5A 50W: 100% in 35 min (SuperVOOC Flash Charge) - Super Flash Edition"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oppo%20Find%20X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oppo%20Find%20X"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 32(1500), 66(1700/2100), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, July"
+      },
+      "Body": {
+        "Dimensions": "156.7 x 74.2 x 9.4 mm (6.17 x 2.92 x 0.37 in)",
+        "Weight": "186 g (6.56 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.42 inches, 101.2 cm2(~87.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.1",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/256 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "Motorized pop-up 16 MP, f/2.0, 1/2.6\", 1.22µm, PDAF, OIS20 MP, f/2.0, 1/2.8\", 1.0µm",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@240fps, 720p@480fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 25 MP, f/2.0",
+        "Features": "Auto-HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Face ID, accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4A 20W (VOOC Flash Charge) - Standard modelFast battery charging 10V/5A 50W: 100% in 35 min (SuperVOOC Flash Charge) - Super Flash Edition"
+      },
+      "Misc": {
+        "Colors": "Bordeaux Red, Glacier Blue",
+        "Price": "About 650 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4173 / Basemark OS II 2.0: 3636Basemark X: 40537",
+        "Display": "Contrast ratio: Infinite (nominal), 3.954 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 75dB / Ring 81dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -89.3dB",
+        "Battery life": "Endurance rating 90h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, July",
+        "body-hl": "186g, 9.4mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.1",
+        "storage-hl": "128/256GB storage, no card slot",
+        "device_popularity": "9.2%",
+        "device_hits": "6,717,961 hits",
+        "displaysize-hl": "6.42\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3730",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-v15",
+    "brand": "vivo",
+    "name": "Vivo V15",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-v15.jpg",
+    "fallbackImg": "img/vivo-v15.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.53 inches, 104.7 cm2(~85.6% screen-to-body ratio)",
+      "processor": "Mediatek Helio P70 (12nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, PDAF8 MP, f/2.2, 13mm (ultrawide)5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V15"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V15"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "161.2 x 75.9 x 8.5 mm (6.35 x 2.99 x 0.33 in)",
+        "Weight": "186 g (6.56 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.53 inches, 104.7 cm2(~85.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Funtouch 9",
+        "Chipset": "Mediatek Helio P70 (12nm)",
+        "CPU": "Octa-core (4x2.1 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "12 MP, f/1.8, PDAF8 MP, f/2.2, 13mm (ultrawide)5 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 32 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging"
+      },
+      "Misc": {
+        "Colors": "Topaz Blue, Glamour Red",
+        "Price": "About 310 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "186g, 8.5mm thickness",
+        "os-hl": "Android 9.0; Funtouch 9",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "20%",
+        "device_hits": "71,170 hits",
+        "displaysize-hl": "6.53\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Helio P70",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "vivo-iqoo",
+    "brand": "vivo",
+    "name": "Vivo iQOO",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-iqoo.jpg",
+    "fallbackImg": "img/vivo-iqoo.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~85.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "256 GB, 8/12 GB RAM or 128 GB, 6/8 GB RAM",
+      "storage": "256 GB, 8/12 GB RAM or 128 GB, 6/8 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF13 MP (ultrawide)2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 44W(50% in 15 min, 100% in 45 min)Fast battery charging 22.5W - 6/128 GB version"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20iQOO"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20iQOO"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (7CA) Cat20 2000/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157.7 x 75.2 x 8.5 mm (6.21 x 2.96 x 0.33 in)",
+        "Weight": "180 g (6.35 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~85.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Funtouch 9",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.41 GHz Kryo 485 & 4x1.78 GHz Kryo 485)",
+        "GPU": "Adreno 640"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 8/12 GB RAM or 128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF13 MP (ultrawide)2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "12 MP",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 44W(50% in 15 min, 100% in 45 min)Fast battery charging 22.5W - 6/128 GB version"
+      },
+      "Misc": {
+        "Colors": "Optic Blue, Lava Orange",
+        "Price": "About 400 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "180g, 8.5mm thickness",
+        "os-hl": "Android 9.0; Funtouch 9",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "23%",
+        "device_hits": "169,202 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "12",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-v15-pro",
+    "brand": "vivo",
+    "name": "Vivo V15 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-v15-pro-.jpg",
+    "fallbackImg": "img/vivo-v15-pro.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.9 cm2(~85.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM675 Snapdragon 675 (11 nm)",
+      "ram": "128 GB, 6/8 GB RAM",
+      "storage": "128 GB, 6/8 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF8 MP, 13mm (ultrawide)5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging (24% in 15 min)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V15%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V15%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157.3 x 74.7 x 8.2 mm (6.19 x 2.94 x 0.32 in)",
+        "Weight": "185 g (6.53 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.9 cm2(~85.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2316 pixels (~400 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Funtouch 9",
+        "Chipset": "Qualcomm SDM675 Snapdragon 675 (11 nm)",
+        "CPU": "Octa-core (2x2.0 GHz Kryo 460 Gold & 6x1.7 GHz Kryo 460 Silver)",
+        "GPU": "Adreno 612"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "48 MP, f/1.8, 1/2\", 0.8µm, PDAF8 MP, 13mm (ultrawide)5 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 32 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (market dependent)",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging (24% in 15 min)"
+      },
+      "Misc": {
+        "Colors": "Topaz Blue, Coral Red, Ruby Red",
+        "Price": "About 360 EUR"
+      },
+      "Tests": {
+        "Camera": "Photo/Video"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "185g, 8.2mm thickness",
+        "os-hl": "Android 9.0; Funtouch 9",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "41%",
+        "device_hits": "784,898 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2316 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 675",
+        "batsize-hl": "3700",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "vivo-nex-dual-display",
+    "brand": "vivo",
+    "name": "Vivo NEX Dual Display",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-nex2-.jpg",
+    "fallbackImg": "img/vivo-nex-dual-display.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~84.7% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128 GB, 10 GB RAM",
+      "storage": "128 GB, 10 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF2 MP, f/1.8, depth sensorTOF camera, f/1.3",
+      "battery": "Fast battery charging 10V/2.25A 22.5W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20Dual%20Display"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20Dual%20Display"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 19(800), 28(700), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "157.2 x 75.3 x 8.1 mm (6.19 x 2.96 x 0.32 in)",
+        "Weight": "199 g (7.02 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~84.7% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Funtouch 4.5",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 10 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF2 MP, f/1.8, depth sensorTOF camera, f/1.3",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, BDS, GNSS",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/2.25A 22.5W"
+      },
+      "Misc": {
+        "Colors": "Polar Blue",
+        "Price": "About 700 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 5133 / Basemark OS II 2.0: 4576Basemark X: 44443",
+        "Display": "Contrast ratio: Infinite (nominal), 4.108 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 72dB / Ring 88dB",
+        "Audio quality": "Noise -94.0dB / Crosstalk -88.1dB",
+        "Battery life": "Endurance rating 81h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "199g, 8.1mm thickness",
+        "os-hl": "Android 9.0; Funtouch 4.5",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "3.5%",
+        "device_hits": "806,300 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "10",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-z3i",
+    "brand": "vivo",
+    "name": "Vivo Z3i",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-z3i.jpg",
+    "fallbackImg": "img/vivo-z3i.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 99.1 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "16 MP, f/2.0, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20Z3i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20Z3i"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "156 x 75.6 x 8.1 mm (6.14 x 2.98 x 0.32 in)",
+        "Weight": "164 g (5.78 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 99.1 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo)",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.0, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "24 MP",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W"
+      },
+      "Misc": {
+        "Colors": "Aurora blue, Millenium Pink",
+        "Price": "About 350 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "164g, 8.1mm thickness",
+        "os-hl": "Android 8.1",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "0.4%",
+        "device_hits": "151,614 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "3315",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "vivo-v11i",
+    "brand": "vivo",
+    "name": "Vivo V11i",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-v11i-.jpg",
+    "fallbackImg": "img/vivo-v11i.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 99.1 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)",
+      "ram": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM (India)",
+      "storage": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM (India)",
+      "camera": "16 MP, f/2.0, PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V11i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V11i"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "156 x 75.6 x 8.1 mm (6.14 x 2.98 x 0.32 in)",
+        "Weight": "164 g (5.78 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 99.1 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~400 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4.5",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM (India)"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.0, PDAF5 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 26mm (wide), 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W"
+      },
+      "Misc": {
+        "Colors": "Starry Night, Nebula",
+        "Price": "About 280 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "164g, 8.1mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4.5",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "3.0%",
+        "device_hits": "611,737 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "3315",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "vivo-x23",
+    "brand": "vivo",
+    "name": "Vivo X23",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-x23.jpg",
+    "fallbackImg": "img/vivo-x23.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~86.3% screen-to-body ratio)",
+      "processor": "Qualcomm SDM670 Snapdragon 670 (10 nm)",
+      "ram": "128 GB, 8 GB RAM",
+      "storage": "128 GB, 8 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.4",
+      "battery": "Fast battery charging 10V/2.25A 22.5W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X23"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X23"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "157.7 x 74.1 x 7.5 mm (6.21 x 2.92 x 0.30 in)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~86.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4.5",
+        "Chipset": "Qualcomm SDM670 Snapdragon 670 (10 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Kryo 360 & 4x1.8 GHz Kryo 360)",
+        "GPU": "Adreno 615"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.4",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "12 MP",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/2.25A 22.5W"
+      },
+      "Misc": {
+        "Colors": "Phantom Purple, Magic Night, Phantom Red",
+        "Price": "About 500 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "7.5mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4.5",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "0.7%",
+        "device_hits": "309,368 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 670",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-v11--v11-pro",
+    "brand": "vivo",
+    "name": "Vivo V11 (V11 Pro)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-v11-pro-2.jpg",
+    "fallbackImg": "img/vivo-v11--v11-pro.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.41 inches, 100.9 cm2(~85.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.8\", dual pixel PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20V11%20%28V11%20Pro%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20V11%20%28V11%20Pro%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 75 x 7.9 mm (6.22 x 2.95 x 0.31 in)",
+        "Weight": "156 g (5.50 oz)",
+        "Build": "Plastic frame, glass body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.41 inches, 100.9 cm2(~85.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4.5",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64/128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.8\", dual pixel PDAF5 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Starry Night, Dazzling Gold, Nebula, Supernova Red",
+        "Price": "About 350 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2625 / Basemark OS II 2.0: 2218Basemark X: 18818",
+        "Display": "Contrast ratio: Infinite (nominal), 4.113 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 73dB / Ring 80dB",
+        "Audio quality": "Noise -92.7dB / Crosstalk -92.1dB",
+        "Battery life": "Endurance rating 98h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "156g, 7.9mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4.5",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "12%",
+        "device_hits": "3,201,685 hits",
+        "displaysize-hl": "6.41\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "vivo-nex-s",
+    "brand": "vivo",
+    "name": "Vivo NEX S",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-nex-s.jpg",
+    "fallbackImg": "img/vivo-nex-s.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.59 inches, 107.3 cm2(~86.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128/256 GB, 8 GB RAM",
+      "storage": "128/256 GB, 8 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 22.5W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20S"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20S"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, June"
+      },
+      "Body": {
+        "Dimensions": "162 x 77 x 8 mm (6.38 x 3.03 x 0.31 in)",
+        "Weight": "199 g (7.02 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.59 inches, 107.3 cm2(~86.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2316 pixels (~388 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/256 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF5 MP, f/2.4, depth sensor",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 8 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, BDS, GNSS",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 22.5W"
+      },
+      "Misc": {
+        "Colors": "Black, Red",
+        "Price": "About 700 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4632 / Basemark OS II 2.0: 4167Basemark X: 43810",
+        "Display": "Contrast ratio: Infinite (nominal), 4.012 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 74dB / Ring 91dB",
+        "Audio quality": "Noise -93.6dB / Crosstalk -93.8dB",
+        "Battery life": "Endurance rating 101h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, June",
+        "body-hl": "199g, 8mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4",
+        "storage-hl": "128/256GB storage, no card slot",
+        "device_popularity": "1.8%",
+        "device_hits": "1,584,809 hits",
+        "displaysize-hl": "6.59\"",
+        "displayres-hl": "1080x2316 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-nex-a",
+    "brand": "vivo",
+    "name": "Vivo NEX A",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-nex-r1.jpg",
+    "fallbackImg": "img/vivo-nex-a.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.59 inches, 107.3 cm2(~86.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 22W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20NEX%20A"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20NEX%20A"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat15 800/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, June"
+      },
+      "Body": {
+        "Dimensions": "162 x 77 x 8 mm (6.38 x 3.03 x 0.31 in)",
+        "Weight": "199 g (7.02 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.59 inches, 107.3 cm2(~86.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2316 pixels (~388 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4",
+        "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+        "CPU": "Octa-core (2x2.2 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+        "GPU": "Adreno 616"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF5 MP, f/2.4, depth sensor",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "Motorized pop-up 8 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, BDS, GNSS",
+        "Radio": "To be confirmed",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 22W"
+      },
+      "Misc": {
+        "Colors": "Black, Red",
+        "Price": "About 600 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, June",
+        "body-hl": "199g, 8mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "0.5%",
+        "device_hits": "469,268 hits",
+        "displaysize-hl": "6.59\"",
+        "displayres-hl": "1080x2316 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 710",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-x21i",
+    "brand": "vivo",
+    "name": "Vivo X21i",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-x21i-.jpg",
+    "fallbackImg": "img/vivo-x21i.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.28 inches, 98.4 cm2(~85.0% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)",
+      "ram": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.0, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X21i"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X21i"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 8(900), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "154.4 x 75 x 7 mm (6.08 x 2.95 x 0.28 in)",
+        "Weight": "159 g (5.61 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.28 inches, 98.4 cm2(~85.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 4 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.0, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "24 MP"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Black, Aurora White, Ruby Red, Night Purple",
+        "Price": "About 430 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "159g, 7mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "0.2%",
+        "device_hits": "233,768 hits",
+        "displaysize-hl": "6.28\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "3425",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "vivo-x21-ud",
+    "brand": "vivo",
+    "name": "Vivo X21 UD",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/vivo-x21ud.jpg",
+    "fallbackImg": "img/vivo-x21-ud.svg",
+    "releaseDate": "2018, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.28 inches, 98.4 cm2(~85.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Vivo%20X21%20UD"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Vivo%20X21%20UD"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, March",
+        "Status": "Available. Released 2018, March"
+      },
+      "Body": {
+        "Dimensions": "154.5 x 74.8 x 7.4 mm (6.08 x 2.94 x 0.29 in)",
+        "Weight": "156.2 g (5.50 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.28 inches, 98.4 cm2(~85.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); Funtouch 4",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "12 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Black, Ruby Red",
+        "Price": "About 550 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, March",
+        "body-hl": "156.2g, 7.4mm thickness",
+        "os-hl": "Android 8.1; Funtouch 4",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "0.3%",
+        "device_hits": "602,573 hits",
+        "displaysize-hl": "6.28\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3200",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "realme-3",
+    "brand": "realme",
+    "name": "Realme 3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/realme-3.jpg",
+    "fallbackImg": "img/realme-3.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.22 inches, 96.6 cm2(~81.8% screen-to-body ratio)",
+      "processor": "Mediatek MT6771 Helio P60 (12 nm)Mediatek Helio P70 (12nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "13 MP, f/1.8, 1/3\", 1.12µm, PDAF2 MP, depth sensor",
+      "battery": "Fast battery charging 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%203"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Coming soon. Exp. release 2019, March 12"
+      },
+      "Body": {
+        "Dimensions": "156.1 x 75.6 x 8.3 mm (6.15 x 2.98 x 0.33 in)",
+        "Weight": "175 g (6.17 oz)",
+        "Build": "Front glass, plastic body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.22 inches, 96.6 cm2(~81.8% screen-to-body ratio)",
+        "Resolution": "720 x 1520 pixels, 19:9 ratio (~270 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); ColorOS 6",
+        "Chipset": "Mediatek MT6771 Helio P60 (12 nm)Mediatek Helio P70 (12nm)",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)Octa-core (4x2.1 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/1.8, 1/3\", 1.12µm, PDAF2 MP, depth sensor",
+        "Features": "LED flash, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.0, 1/3\", 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Dynamic Black, Radiant Blue",
+        "Price": "About 9000 INR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2104 / Basemark OS II 2.0: 2020Basemark X: 19157",
+        "Display": "Contrast ratio: 1464:1 (nominal), 2.918 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 71dB / Ring 81dB",
+        "Audio quality": "Noise -93.5dB / Crosstalk -91.6dB",
+        "Battery life": "Endurance rating 108h"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March 12",
+        "body-hl": "175g, 8.3mm thickness",
+        "os-hl": "Android 9.0; ColorOS 6",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "26%",
+        "device_hits": "125,612 hits",
+        "displaysize-hl": "6.22\"",
+        "displayres-hl": "720x1520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "MT6771 Helio P60",
+        "batsize-hl": "4230",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "realme-u1",
+    "brand": "realme",
+    "name": "Realme U1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/realme-u1.jpg",
+    "fallbackImg": "img/realme-u1.svg",
+    "releaseDate": "2018, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~83.9% screen-to-body ratio)",
+      "processor": "Mediatek Helio P70 (12nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "13 MP, f/2.2, AF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%20U1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%20U1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, November",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "157 x 74 x 8 mm (6.18 x 2.91 x 0.31 in)",
+        "Weight": "168 g (5.93 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~83.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); ColorOS 5.2",
+        "Chipset": "Mediatek Helio P70 (12nm)",
+        "CPU": "Octa-core (4x2.1 GHz Cortex-A73 & 4x2.0 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP3"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.2, AF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps, 720p@90fps"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 1/2.8\", 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Ambitious Black, Brave Blue, Fiery Gold",
+        "Price": "About 140 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2353 / Basemark OS II 2.0: 2307Basemark X: 17290",
+        "Display": "Contrast ratio: 1830:1 (nominal), 2.815 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 73dB / Ring 72dB",
+        "Audio quality": "Noise -92.8dB / Crosstalk -93.3dB",
+        "Battery life": "Endurance rating 93h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "168g, 8mm thickness",
+        "os-hl": "Android 8.1; ColorOS 5.2",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "5.3%",
+        "device_hits": "735,699 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Helio P70",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "realme-2-pro",
+    "brand": "realme",
+    "name": "Realme 2 Pro",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/oppo-realme-2-pro.jpg",
+    "fallbackImg": "img/realme-2-pro.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "128 GB, 8 GB RAM or 64 GB, 4/6 GB RAM",
+      "storage": "128 GB, 8 GB RAM or 64 GB, 4/6 GB RAM",
+      "camera": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Realme%202%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Realme%202%20Pro"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300), 41(2500) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "156.7 x 74 x 8.5 mm (6.17 x 2.91 x 0.33 in)",
+        "Weight": "174 g (6.14 oz)",
+        "Build": "Plastic body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), planned upgrade to Android 9.0 (Pie); ColorOS 5.2",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.0 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "128 GB, 8 GB RAM or 64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 1/2.8\", 1.12µm, PDAF2 MP, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 а/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Deep Blue, Light Blue",
+        "Price": "About 210 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2335 / Basemark OS II 2.0: 1911Basemark X: 14576",
+        "Display": "Contrast ratio: 1755:1 (nominal), 3.235 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 69dB / Noise 74dB / Ring 81dB",
+        "Audio quality": "Noise -93.3dB / Crosstalk -92.7dB",
+        "Battery life": "Endurance rating 97h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "174g, 8.5mm thickness",
+        "os-hl": "Android 8.1, planned upgrade to 9.0",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "12%",
+        "device_hits": "2,552,756 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-g7-plus",
+    "brand": "motorola",
+    "name": "Motorola Moto G7 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-plus.jpg",
+    "fallbackImg": "img/motorola-moto-g7-plus.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 96.2 cm2(~81.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "16 MP, f/1.7, 1.22µm, PDAF, OIS5 MP, f/2.2, depth sensor",
+      "battery": "Fast battery charging 27WQuick Charge 4, USB Power Delivery 3.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 18(800), 19(800), 20(800), 26(850), 28(700), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat13 600/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157 x 75.3 x 8.3 mm (6.18 x 2.96 x 0.33 in)",
+        "Weight": "176 g (6.21 oz)",
+        "Build": "Front/back glass (Gorilla Glass 3), aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 96.2 cm2(~81.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2270 pixels, 19:9 ratio (~405 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.7, 1.22µm, PDAF, OIS5 MP, f/2.2, depth sensor",
+        "Features": "Dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30/60/120fps, gyro-EIS"
+      },
+      "Selfie camera": {
+        "Single": "12 MP, 1.25µm",
+        "Features": "HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO",
+        "NFC": "Yes (Europe model)",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 27WQuick Charge 4, USB Power Delivery 3.0"
+      },
+      "Misc": {
+        "Colors": "Deep Indigo, Viva Red",
+        "Price": "About 300 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2422 / Basemark OS II 2.0: 1999Basemark X: 15004",
+        "Display": "Contrast ratio: 1425 (nominal), 3.010 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 72dB / Ring 84dB",
+        "Audio quality": "Noise -93.3dB / Crosstalk -93.8dB",
+        "Battery life": "Endurance rating 59h"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "176g, 8.3mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "8.2%",
+        "device_hits": "335,731 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "1080x2270 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-g7",
+    "brand": "motorola",
+    "name": "Motorola Moto G7",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-g7.jpg",
+    "fallbackImg": "img/motorola-moto-g7.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 96.2 cm2(~81.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.8, 1.25µm, PDAF5 MP, f/2.2, depth sensor",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 18(800), 19(800), 20(800), 26(850), 28(700), 38(2600), 40(2300), 41(2500) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat7 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157 x 75.3 x 8 mm (6.18 x 2.96 x 0.31 in)",
+        "Weight": "172 g (6.07 oz)",
+        "Build": "Front/back glass (Gorilla Glass 3), plastic frame",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 96.2 cm2(~81.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2270 pixels, 19:9 ratio (~405 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+        "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1.25µm, PDAF5 MP, f/2.2, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30/60fps, gyro-EIS"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, GALILEO",
+        "NFC": "Yes (Europe model)",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass (market dependent)"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Ceramic Black, Clear White",
+        "Price": "About 250 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 1685 / Basemark X: 11173",
+        "Display": "Contrast ratio: 1565:1 (nominal), 3.011 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 71dB / Ring 84dB",
+        "Audio quality": "Noise -93.6dB / Crosstalk -94.8dB",
+        "Battery life": "Endurance rating 66h"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "172g, 8mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "6.5%",
+        "device_hits": "479,601 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "1080x2270 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 632",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-g7-power",
+    "brand": "motorola",
+    "name": "Motorola Moto G7 Power",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-power.jpg",
+    "fallbackImg": "img/motorola-moto-g7-power.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 94.0 cm2(~77.6% screen-to-body ratio)",
+      "processor": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "ram": "64 GB, 4 GB RAM (Europe); 32 GB, 3 GB RAM (USA)",
+      "storage": "64 GB, 4 GB RAM (Europe); 32 GB, 3 GB RAM (USA)",
+      "camera": "12 MP, f2.0, 1.25µm, PDAF",
+      "battery": "Fast battery charging 15W (Global)/ 18W (Germany)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Power"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Power"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 19(800), 20(800), 28(700), 38(2600), 40(2300), 41(2500) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat7 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "159.4 x 76 x 9.3 mm (6.28 x 2.99 x 0.37 in)",
+        "Weight": "193 g (6.81 oz)",
+        "Build": "Front glass, plastic body",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 94.0 cm2(~77.6% screen-to-body ratio)",
+        "Resolution": "720 x 1570 pixels, 19.5:9 ratio (~279 ppi density)",
+        "Protection": "Corning Gorilla Glass 3 (market dependent)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+        "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM (Europe); 32 GB, 3 GB RAM (USA)"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f2.0, 1.25µm, PDAF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2, 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes (market dependent)",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass (market dependent)"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W (Global)/ 18W (Germany)"
+      },
+      "Misc": {
+        "Colors": "Ceramic Black, Marine Blue, Iced Violet",
+        "Price": "About 210 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1929 / Basemark OS II 2.0: 1831Basemark X: 11525",
+        "Display": "Contrast ratio: 1674:1 (nominal), 3.176 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 75dB / Noise 75dB / Ring 82dB",
+        "Audio quality": "Noise -90.6dB / Crosstalk -89.9dB",
+        "Battery life": "Endurance rating 147h"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "193g, 9.3mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "8.1%",
+        "device_hits": "291,444 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "720x1570 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 632",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-g7-play",
+    "brand": "motorola",
+    "name": "Motorola Moto G7 Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-g7-play.jpg",
+    "fallbackImg": "img/motorola-moto-g7-play.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 81.4 cm2(~77.3% screen-to-body ratio)",
+      "processor": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "ram": "32 GB, 2 GB RAM",
+      "storage": "32 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.0, 1.12µm, PDAF",
+      "battery": "Fast battery charging 10W (market dependent)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G7%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G7%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300), 41(2500) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat7 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, March"
+      },
+      "Body": {
+        "Dimensions": "147.3 x 71.5 x 8 mm (5.80 x 2.81 x 0.31 in)",
+        "Weight": "149 g (5.26 oz)",
+        "Build": "Front glass, plastic back",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 81.4 cm2(~77.3% screen-to-body ratio)",
+        "Resolution": "720 x 1512 pixels, 19:9 ratio (~294 ppi density)",
+        "Protection": "Corning Gorilla Glass 3 (market dependent)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+        "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "32 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/2.0, 1.12µm, PDAF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2, 1.12µm",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10W (market dependent)"
+      },
+      "Misc": {
+        "Colors": "Deep indigo, Fine Gold, Starry Black",
+        "Price": "About 150 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1597 / Basemark OS II 2.0: 1449Basemark X: 11016",
+        "Display": "Contrast ratio: 1468:1 (nominal), 3.180 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 74dB / Ring 81dB",
+        "Audio quality": "Noise -90.0dB / Crosstalk -92.9dB",
+        "Battery life": "Endurance rating 103h"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, March",
+        "body-hl": "149g, 8mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "2.5%",
+        "device_hits": "88,928 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "720x1512 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Snapdragon 632",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-one--p30-play",
+    "brand": "motorola",
+    "name": "Motorola One (P30 Play)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-one-.jpg",
+    "fallbackImg": "img/motorola-one--p30-play.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.9 inches, 85.7 cm2(~79.2% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "13 MP, f/2.0, 1.12µm, PDAF2 MP, f/2.4, 1.75µm, depth sensor",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20One%20%28P30%20Play%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20One%20%28P30%20Play%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "149.9 x 72.2 x 8 mm (5.90 x 2.84 x 0.31 in)",
+        "Weight": "162 g (5.71 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.9 inches, 85.7 cm2(~79.2% screen-to-body ratio)",
+        "Resolution": "720 x 1520 pixels, 19:9 ratio (~287 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); Android One; ZUI 4 (China version only)",
+        "Chipset": "Qualcomm MSM8953 Snapdragon 625 (14 nm)",
+        "CPU": "Octa-core 2.0 GHz Cortex-A53",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.0, 1.12µm, PDAF2 MP, f/2.4, 1.75µm, depth sensor",
+        "Features": "LED flash, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2, 1.12µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Black, White",
+        "Price": "About 220 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1430 / Basemark OS II 2.0: 1324Basemark X: 10524",
+        "Display": "Contrast ratio: 1760 (nominal), 3.026 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 79dB / Noise 74dB / Ring 85dB",
+        "Audio quality": "Noise -87.9dB / Crosstalk -90.2dB",
+        "Battery life": "Endurance rating 102h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "162g, 8mm thickness",
+        "os-hl": "Android 8.1, up to 9.0; Android One; ZUI 4",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "3.3%",
+        "device_hits": "892,149 hits",
+        "displaysize-hl": "5.9\"",
+        "displayres-hl": "720x1520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 625",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-one-power--p30-note",
+    "brand": "motorola",
+    "name": "Motorola One Power (P30 Note)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-one-power-.jpg",
+    "fallbackImg": "img/motorola-one-power--p30-note.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 96.4 cm2(~81.3% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 64 GB, 6 GB RAM (China only)",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 64 GB, 6 GB RAM (China only)",
+      "camera": "16 MP, f/1.8, 1.12µm, PDAF5 MP, f/2.2, 1.0µm, depth sensor",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20One%20Power%20%28P30%20Note%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20One%20Power%20%28P30%20Note%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "156 x 76 x 8.4 mm (6.14 x 2.99 x 0.33 in)",
+        "Weight": "205 g (6.98 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 96.4 cm2(~81.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2246 pixels, 18.7:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); Android One; ZUI 4 (China version only)",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 64 GB, 6 GB RAM (China only)"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, 1.12µm, PDAF5 MP, f/2.2, 1.0µm, depth sensor",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "12 MP, f/2.0, 1.25µm",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Midnight Black",
+        "Price": "About 270 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "205g, 8.4mm thickness",
+        "os-hl": "Android 8.1, up to 9.0; Android One; ZUI 4",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "4.1%",
+        "device_hits": "1,742,586 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "1080x2246 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-z3",
+    "brand": "motorola",
+    "name": "Motorola Moto Z3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-z3-play-.jpg",
+    "fallbackImg": "img/motorola-moto-z3.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.01 inches, 93.2 cm2(~77.9% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "12 MP, f/2.0, 1.25µm, PDAF & laser AF12 MP B/W, PDAF & laser AF",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20Z3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20Z3"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 26(850), 28(700), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "156.5 x 76.5 x 6.8 mm (6.16 x 3.01 x 0.27 in)",
+        "Weight": "156 g (5.50 oz)",
+        "Build": "Front/back glass (Gorilla Glass 3), aluminum frame (6000 series)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.01 inches, 93.2 cm2(~77.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.35 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/2.0, 1.25µm, PDAF & laser AF12 MP B/W, PDAF & laser AF",
+        "Features": "Dual-LED dual-tone flash, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 1/4\", 24mm (wide), 1.12µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "3.1, Type-C 1.0 reversible connector, magnetic connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Ceramic Black",
+        "Price": "About 480 USD"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3981 / Basemark OS II 2.0: 3432Basemark X: 34848",
+        "Loudspeaker": "Voice 80dB / Noise 73dB / Ring 85dB",
+        "Audio quality": "Noise -92.9dB / Crosstalk -92.8dB",
+        "Battery life": "Endurance rating 86h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "156g, 6.8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "2.1%",
+        "device_hits": "607,448 hits",
+        "displaysize-hl": "6.01\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-z3-play",
+    "brand": "motorola",
+    "name": "Motorola Moto Z3 Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-z3-play-.jpg",
+    "fallbackImg": "img/motorola-moto-z3-play.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.01 inches, 93.2 cm2(~77.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "128 GB, 6 GB RAM (Brazil only) or 32/64 GB, 4 GB RAM",
+      "storage": "128 GB, 6 GB RAM (Brazil only) or 32/64 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.7, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, depth sensor",
+      "battery": "Fast battery charging 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20Z3%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20Z3%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 14(700), 17(700), 18(800), 19(800), 20(800), 25(1900), 26(850), 28(700), 29(700), 30(2300), 38(2600), 40(2300), 41(2500), 66(1700/2100), 71(600)",
+        "Speed": "HSPA, LTE",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, June"
+      },
+      "Body": {
+        "Dimensions": "156.5 x 76.5 x 6.8 mm (6.16 x 3.01 x 0.27 in)",
+        "Weight": "156 g (5.50 oz)",
+        "Build": "Front/back glass (Gorilla Glass 3), aluminum frame (6000 series)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.01 inches, 93.2 cm2(~77.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "128 GB, 6 GB RAM (Brazil only) or 32/64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.7, 1/2.55\", 1.4µm, dual pixel PDAF5 MP, depth sensor",
+        "Features": "Dual-LED dual-tone flash, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 1/4\", 24mm (wide), 1.12µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "3.1, Type-C 1.0 reversible connector, magnetic connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 15W"
+      },
+      "Misc": {
+        "Colors": "Deep Indigo, Onyx Black (128/6GB only)",
+        "Price": "About 400 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, June",
+        "body-hl": "156g, 6.8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "1.7%",
+        "device_hits": "1,090,220 hits",
+        "displaysize-hl": "6.01\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-e5-play",
+    "brand": "motorola",
+    "name": "Motorola Moto E5 Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-e5-play.jpg",
+    "fallbackImg": "img/motorola-moto-e5-play.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.2 inches, 74.5 cm2(~66.7% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8917 Snapdragon 425 (28 nm) (28 nm)/ Qualcomm MSM8920 Snapdragon 427 (28 nm)",
+      "ram": "16 GB, 2 GB RAM",
+      "storage": "16 GB, 2 GB RAM",
+      "camera": "8 MP, f/2.0, 1.12 µm, AF",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 14(700), 17(700), 25(1900), 26(850), 29(700), 30(2300), 38(2600), 41(2500), 66(1700/2100), 71(600)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, July"
+      },
+      "Body": {
+        "Dimensions": "151 x 74 x 9 mm (5.94 x 2.91 x 0.35 in)",
+        "Weight": "150 g (5.29 oz)",
+        "SIM": "Nano-SIM"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.2 inches, 74.5 cm2(~66.7% screen-to-body ratio)",
+        "Resolution": "720 x 1280 pixels, 16:9 ratio (~282 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm) (28 nm)/ Qualcomm MSM8920 Snapdragon 427 (28 nm)",
+        "CPU": "Quad-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 308"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "8 MP, f/2.0, 1.12 µm, AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP",
+        "Features": "LED flash"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Dark lake, Flash gray",
+        "Price": "About 80 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, July",
+        "body-hl": "150g, 9mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "16GB storage, microSD card slot",
+        "device_popularity": "1.3%",
+        "device_hits": "371,292 hits",
+        "displaysize-hl": "5.2\"",
+        "displayres-hl": "720x1280 pixels",
+        "camerapixels-hl": "8",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Snapdragon 425",
+        "batsize-hl": "2800",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-e5-plus",
+    "brand": "motorola",
+    "name": "Motorola Moto E5 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-e5-plus.jpg",
+    "fallbackImg": "img/motorola-moto-e5-plus.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.9 cm2(~76.7% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "ram": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "storage": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "camera": "12 MP, f/2.0, 1.25µm, PDAF & laser AF",
+      "battery": "Fast battery charging 10W or 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps or LTE-A (2CA) Cat6 300/50 Mbps - USA only",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "160.9 x 75.3 x 9.4 mm (6.33 x 2.96 x 0.37 in)",
+        "Weight": "196.6 g (6.95 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.9 cm2(~76.7% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 18:9 ratio (~268 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+        "CPU": "Quad-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 308"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "32 GB, 3 RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "12 MP, f/2.0, 1.25µm, PDAF & laser AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.0",
+        "Features": "LED flash"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspotWi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot - USA",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10W or 15W"
+      },
+      "Misc": {
+        "Colors": "Black, Flash gray, Mineral blue, Fine Gold",
+        "Price": "About 160 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "196.6g, 9.4mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "2.2%",
+        "device_hits": "991,636 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 425",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-e5",
+    "brand": "motorola",
+    "name": "Motorola Moto E5",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-e5.jpg",
+    "fallbackImg": "img/motorola-moto-e5.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 83.8 cm2(~75.2% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "ram": "16 GB, 2 GB RAM",
+      "storage": "16 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.0, 1.12µm, PDAF",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20E5"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20E5"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "154.4 x 72.2 x 9 mm (6.08 x 2.84 x 0.35 in)",
+        "Weight": "174 g (6.14 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 83.8 cm2(~75.2% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+        "CPU": "Quad-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 308"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/2.0, 1.12µm, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2",
+        "Features": "LED flash"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (Single SIM model)",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Flash gray, Fine Gold",
+        "Price": "About 150 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "174g, 9mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "16GB storage, microSD card slot",
+        "device_popularity": "1.6%",
+        "device_hits": "627,819 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "2",
+        "chipset-hl": "Snapdragon 425",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "motorola-moto-g6-play",
+    "brand": "motorola",
+    "name": "Motorola Moto G6 Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/motorola-moto-g6-play-r1.jpg",
+    "fallbackImg": "img/motorola-moto-g6-play.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 83.8 cm2(~75.2% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8937 Snapdragon 430 (28 nm)Qualcomm MSM8920 Snapdragon 427 (28 nm) - USA",
+      "ram": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "storage": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.0, 1.12µm, PDAF",
+      "battery": "Fast battery charging 10W or 15W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G6%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G6%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Europe, Brazil",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "154.4 x 72.2 x 9 mm (6.08 x 2.84 x 0.35 in)",
+        "Weight": "175 g (6.17 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 83.8 cm2(~75.2% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 18:9 ratio (~282 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8937 Snapdragon 430 (28 nm)Qualcomm MSM8920 Snapdragon 427 (28 nm) - USA",
+        "CPU": "Octa-core 1.4 GHz Cortex-A53Quad-core 1.4 GHz Cortex-A53 - USA",
+        "GPU": "Adreno 505Adreno 308 - USA"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "32 GB, 3 RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/2.0, 1.12µm, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP (USA)8 MP (other markets)",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspotWi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot - USA",
+        "Bluetooth": "4.2, A2DP, LE, EDR",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (Europe)",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10W or 15W"
+      },
+      "Misc": {
+        "Colors": "Deep Indigo, Silver, Flash Gray, Gold",
+        "Price": "About 150 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 994 / Basemark OS II 2.0: 922Basemark X: 7620",
+        "Display": "Contrast ratio: 1404 (nominal), 3.419 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 70dB / Ring 76dB",
+        "Audio quality": "Noise -89.0dB / Crosstalk -87.3dB",
+        "Battery life": "Endurance rating 92h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "175g, 9mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "2.1%",
+        "device_hits": "1,046,656 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 430",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-max-pro--m2--zb631kl",
+    "brand": "asus",
+    "name": "Asus Zenfone Max Pro (M2) ZB631KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m2r1.jpg",
+    "fallbackImg": "img/asus-zenfone-max-pro--m2--zb631kl.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.26 inches, 97.8 cm2(~82.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 1/2.9\", 1.25μm, PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Pro%20%28M2%29%20ZB631KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Pro%20%28M2%29%20ZB631KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 40(2300)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat9 450/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 75.5 x 8.5 mm (6.22 x 2.97 x 0.33 in)",
+        "Weight": "175 g (6.17 oz)",
+        "Build": "Front glass, plastic body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.26 inches, 97.8 cm2(~82.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo)",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4/6 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.9\", 1.25μm, PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps, gyro-EIS"
+      },
+      "Selfie camera": {
+        "Single": "13MP, f/2.0, 1.12µm",
+        "Features": "LED flash, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Blue, Titanium"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "175g, 8.5mm thickness",
+        "os-hl": "Android 8.1",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "18%",
+        "device_hits": "1,636,226 hits",
+        "displaysize-hl": "6.26\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-max--m1--zb556kl",
+    "brand": "asus",
+    "name": "Asus Zenfone Max (M1) ZB556KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-m1-zb556kl.jpg",
+    "fallbackImg": "img/asus-zenfone-max--m1--zb556kl.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.45 inches, 86.5 cm2(~82.8% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+      "ram": "32 GB, 3 GB RAM",
+      "storage": "32 GB, 3 GB RAM",
+      "camera": "13 MP, f/2.0, 1/3\", 1.12µm, PDAF",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20%28M1%29%20ZB556KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20%28M1%29%20ZB556KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "147.3 x 70.9 x 8.7 mm (5.80 x 2.79 x 0.34 in)",
+        "Weight": "150 g (5.29 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.45 inches, 86.5 cm2(~82.8% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 16:10 ratio (~247 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8 (Oreo); ZenUI 5",
+        "Chipset": "Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+        "CPU": "Octa-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 505"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.0, 1/3\", 1.12µm, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 25mm (wide), 1.12µm",
+        "Features": "LED flash"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Deepsea Black, Sunlight Gold",
+        "Price": "About 120 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "150g, 8.7mm thickness",
+        "os-hl": "Android 8; ZenUI 5",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "1.0%",
+        "device_hits": "205,493 hits",
+        "displaysize-hl": "5.45\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 430",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "asus-rog-phone",
+    "brand": "asus",
+    "name": "Asus ROG Phone",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-rog-phone.jpg",
+    "fallbackImg": "img/asus-rog-phone.svg",
+    "releaseDate": "2018, June",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.9 cm2(~76.8% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128/512 GB, 8 GB RAM",
+      "storage": "128/512 GB, 8 GB RAM",
+      "camera": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF8 MP, 12mm, no AF",
+      "battery": "Fast battery charging 10V/3A 30W (Quick Charge 4+)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20ROG%20Phone"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20ROG%20Phone"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 - A version, B version",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 28(700), 29(700), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500), 46 - A version, B version",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 1200/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, June",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "158.8 x 76.2 x 8.3 mm (6.25 x 3.00 x 0.33 in)",
+        "Weight": "200 g (7.05 oz)",
+        "Build": "Front glass (Gorilla Glass 6) /back glass (Gorilla Glass 5) & aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.9 cm2(~76.8% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), planned upgrade to Android 9.0 (Pie); ROG Gaming X UI",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.96 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/512 GB, 8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF8 MP, 12mm, no AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30/60fps, 1080p@30/60/240fps, (3-axis gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide)",
+        "Features": "Panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ad, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "3.1, Type-C 1.0 reversible connector; accessory connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/3A 30W (Quick Charge 4+)"
+      },
+      "Misc": {
+        "Colors": "Black",
+        "Price": "About 950 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 5225 / Basemark OS II 2.0: 4702Basemark X: 60171",
+        "Display": "Contrast ratio: Infinite (nominal), 4.765 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 79dB / Noise 77dB / Ring 84dB",
+        "Audio quality": "Noise -93.8dB / Crosstalk -62.5dB",
+        "Battery life": "Endurance rating 78h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "200g, 8.3mm thickness",
+        "os-hl": "Android 8.1, planned upgrade to 9.0",
+        "storage-hl": "128/512GB storage, no card slot",
+        "device_popularity": "5.0%",
+        "device_hits": "1,695,940 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-max-pro--m1--zb601kl-zb602k",
+    "brand": "asus",
+    "name": "Asus Zenfone Max Pro (M1) ZB601KL/ZB602K",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-pro-m1-zb601kl-.jpg",
+    "fallbackImg": "img/asus-zenfone-max-pro--m1--zb601kl-zb602k.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.99 inches, 92.1 cm2(~76.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64/128 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64/128 GB, 4/6 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "13 MP, f/2.2, 25mm (wide), 1.12µm, PDAF5 MP, f/2.4, 1.12µm, depth sensoror16 MP, f/2.0, PDAF5 MP, f/2.4, 1.12µm, depth sensor (6 GB RAM model only)",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Pro%20%28M1%29%20ZB601KL/ZB602K"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Pro%20%28M1%29%20ZB601KL/ZB602K"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "159 x 76 x 8.5 mm (6.26 x 2.99 x 0.33 in)",
+        "Weight": "180 g (6.35 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.99 inches, 92.1 cm2(~76.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~404 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo)",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64/128 GB, 4/6 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.2, 25mm (wide), 1.12µm, PDAF5 MP, f/2.4, 1.12µm, depth sensoror16 MP, f/2.0, PDAF5 MP, f/2.4, 1.12µm, depth sensor (6 GB RAM model only)",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2, 26mm (wide), 1.0µm16 MP (6 GB RAM model only)",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (market dependent)",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass, gyroscope, ambient light sensor"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W",
+        "Stand-by": "Up to 840 h (3G)",
+        "Talk time": "Up to 42 h (3G)",
+        "Music play": "Up to 199 h"
+      },
+      "Misc": {
+        "Colors": "Meteor Silver, Deepsea Black",
+        "Price": "About 160 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "180g, 8.5mm thickness",
+        "os-hl": "Android 8.1",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "9.4%",
+        "device_hits": "5,063,327 hits",
+        "displaysize-hl": "5.99\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-5z-zs620kl",
+    "brand": "asus",
+    "name": "Asus Zenfone 5z ZS620KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-5-ze620kl-5z-zs620kl.jpg",
+    "fallbackImg": "img/asus-zenfone-5z-zs620kl.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 96.9 cm2(~83.6% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, PDAF8 MP, f/2.0, 12mm, 1/4\", 1.12µm, no AF",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205z%20ZS620KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205z%20ZS620KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 - B version, C version",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 18(800), 19(800), 20(800), 26(850), 28(700), 29(700), 30(2300), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500) - B version, C version",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 1200/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, June"
+      },
+      "Body": {
+        "Dimensions": "153 x 75.7 x 7.9 mm (6.02 x 2.98 x 0.31 in)",
+        "Weight": "155 g (5.47 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 96.9 cm2(~83.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2246 pixels, 18.7:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); ZenUI 5",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "256 GB, 8 GB RAM or 128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, PDAF8 MP, f/2.0, 12mm, 1/4\", 1.12µm, no AF",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60/120fps, 1080p@30fps (gyro-EIS), 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with dual speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, WiFi Direct, hotspot",
+        "Bluetooth": "v5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W"
+      },
+      "Misc": {
+        "Colors": "Midnight Blue, Meteor Silver",
+        "Price": "About 500 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, June",
+        "body-hl": "155g, 7.9mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0; ZenUI 5",
+        "storage-hl": "256GB storage, microSD card slot",
+        "device_popularity": "3.0%",
+        "device_hits": "2,436,816 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "1080x2246 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-5-ze620kl",
+    "brand": "asus",
+    "name": "Asus Zenfone 5 ZE620KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-5-ze620kl-5z-zs620kl.jpg",
+    "fallbackImg": "img/asus-zenfone-5-ze620kl.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.2 inches, 96.9 cm2(~83.6% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM",
+      "camera": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, PDAF, 4-axis OIS8 MP, f/2.0, 12mm, 1/4\", 1.12µm, no AF",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205%20ZE620KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205%20ZE620KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1900 / 2100 - A version, B version",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 18(800), 19(800), 20(800), 26(850), 28(700), 32(1500), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500) - A version",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 400/75 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "153 x 75.7 x 7.7 mm (6.02 x 2.98 x 0.30 in)",
+        "Weight": "165 g (5.82 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.2 inches, 96.9 cm2(~83.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2246 pixels, 18.7:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); ZenUI 5",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 24mm (wide), 1/2.55\", 1.4µm, PDAF, 4-axis OIS8 MP, f/2.0, 12mm, 1/4\", 1.12µm, no AF",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12µm",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with dual speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, WiFi Direct, hotspot",
+        "Bluetooth": "v5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Midnight Blue, Meteor Silver",
+        "Price": "About 400 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "165g, 7.7mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0; ZenUI 5",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "4.3%",
+        "device_hits": "3,083,832 hits",
+        "displaysize-hl": "6.2\"",
+        "displayres-hl": "1080x2246 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-5-lite-zc600kl",
+    "brand": "asus",
+    "name": "Asus Zenfone 5 Lite ZC600KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-5-lite-r.jpg",
+    "fallbackImg": "img/asus-zenfone-5-lite-zc600kl.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.9 cm2(~75.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "16 MP, f/2.2, 26mm (wide), PDAFUnknown MP, 13mm, no AF",
+      "battery": "Up to 30 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%205%20Lite%20ZC600KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%205%20Lite%20ZC600KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 40(2300) - Europe",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 400/75 Mbps (SDM630)HSPA 42.2/5.76 Mbps, LTE Cat4 150/75 Mbps (MSM8937)",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "160.6 x 76.2 x 7.8 mm (6.32 x 3.00 x 0.31 in)",
+        "Weight": "168 g (5.93 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.9 cm2(~75.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 7.1 (Nougat), planned upgrade to Android 8 (Oreo); ZenUI 5",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+        "CPU": "Octa-core 2.2 GHz Cortex-A53Octa-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 508Adreno 505"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.2, 26mm (wide), PDAFUnknown MP, 13mm, no AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps (SDM630 only), 1080p@60fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Dual": "20 MP, f/2.0, 23mm (wide), 1/2.8\", 1.0 μmUnknown MP, 13mm",
+        "Features": "LED flash",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot (SDM630)Wi-Fi 802.11, b/g/n, WiFi Direct, hotspot (MSM8937)",
+        "Bluetooth": "4.1 or 4.2 (SDM630 only), A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Talk time": "Up to 30 h (3G)"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Moonlight White, Rouge Red",
+        "Price": "About 250 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "168g, 7.8mm thickness",
+        "os-hl": "Android 7.1, planned upgrade to 8; ZenUI 5",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "1.1%",
+        "device_hits": "736,967 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-max--m1--zb555kl",
+    "brand": "asus",
+    "name": "Asus Zenfone Max (M1) ZB555KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-m1-zb555kl.jpg",
+    "fallbackImg": "img/asus-zenfone-max--m1--zb555kl.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 88.1 cm2(~84.4% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8917 Snapdragon 425 (28 nm)Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+      "ram": "32 GB, 3 GB RAM or 16/32 GB, 2 GB RAM",
+      "storage": "32 GB, 3 GB RAM or 16/32 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.08 MP, 17mm (ultrawide), no AF, PDAF",
+      "battery": "Up to 36 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20%28M1%29%20ZB555KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20%28M1%29%20ZB555KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "147.3 x 70.9 x 8.7 mm (5.80 x 2.79 x 0.34 in)",
+        "Weight": "150 g (5.29 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 88.1 cm2(~84.4% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 16:10 ratio (~245 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8 (Oreo); ZenUI 5",
+        "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)Qualcomm MSM8937 Snapdragon 430 (28 nm)",
+        "CPU": "Quad-core 1.4 GHz Cortex-A53Octa-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 308Adreno 505"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32 GB, 3 GB RAM or 16/32 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.08 MP, 17mm (ultrawide), no AF, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.2, 25mm (wide)",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Talk time": "Up to 36 h (3G)"
+      },
+      "Misc": {
+        "Colors": "Deepsea Black, Sunlight Gold, Ruby Red",
+        "Price": "About 160 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "150g, 8.7mm thickness",
+        "os-hl": "Android 8; ZenUI 5",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "1.7%",
+        "device_hits": "740,691 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 425",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-max-plus--m1--zb570tl",
+    "brand": "asus",
+    "name": "Asus Zenfone Max Plus (M1) ZB570TL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-max-m1.jpg",
+    "fallbackImg": "img/asus-zenfone-max-plus--m1--zb570tl.svg",
+    "releaseDate": "2017, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 83.8 cm2(~75.3% screen-to-body ratio)",
+      "processor": "Mediatek MT6750T (28 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 16 GB, 2 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 16 GB, 2 GB RAM",
+      "camera": "16 MP, f/2.0, 35mm (standard), PDAF8 MP, 17mm (ultrawide), no AF",
+      "battery": "Fast battery charging 5V/2A 10WPower Bank/Reverse charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20Max%20Plus%20%28M1%29%20ZB570TL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20Max%20Plus%20%28M1%29%20ZB570TL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - Global, China",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 20(800), 40(2300) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, November",
+        "Status": "Available. Released 2017, December"
+      },
+      "Body": {
+        "Dimensions": "152.6 x 73 x 8.8 mm (6.01 x 2.87 x 0.35 in)",
+        "Weight": "160 g (5.64 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 83.8 cm2(~75.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~424 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 7 (Nougat); ZenUI 4",
+        "Chipset": "Mediatek MT6750T (28 nm)",
+        "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
+        "GPU": "Mali-T860MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.0, 35mm (standard), PDAF8 MP, 17mm (ultrawide), no AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 25mm (wide)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10WPower Bank/Reverse charging"
+      },
+      "Misc": {
+        "Colors": "Sunlight Gold, Azure Silver, Deepsea Black",
+        "Price": "About 250 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, December",
+        "body-hl": "160g, 8.8mm thickness",
+        "os-hl": "Android 7; ZenUI 4",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "1.4%",
+        "device_hits": "2,585,630 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "MT6750T",
+        "batsize-hl": "4130",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-v-v520kl",
+    "brand": "asus",
+    "name": "Asus Zenfone V V520KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-v-v520kl.jpg",
+    "fallbackImg": "img/asus-zenfone-v-v520kl.svg",
+    "releaseDate": "2017, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.2 inches, 74.5 cm2(~70.0% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+      "ram": "32 GB, 4 GB RAM",
+      "storage": "32 GB, 4 GB RAM",
+      "camera": "23 MP, f/2.0, 1/2.6\", 1.0µm, 4-axis OIS, PDAF & laser AF",
+      "battery": "Fast battery charging 18W: 60% in 37 min (Quick Charge 2.0)USB Power Delivery 2.0"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%20V%20V520KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%20V%20V520KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 2(1900), 4(1700/2100), 5(850), 13(700)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 400/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, September",
+        "Status": "Available. Released 2017, September"
+      },
+      "Body": {
+        "Dimensions": "146.6 x 72.6 x 7.6 mm (5.77 x 2.86 x 0.30 in)",
+        "Weight": "147.1 g (5.19 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.2 inches, 74.5 cm2(~70.0% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 7 (Nougat); ZenUI 3",
+        "Chipset": "Qualcomm MSM8996 Snapdragon 820 (14 nm)",
+        "CPU": "Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)",
+        "GPU": "Adreno 530"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "32 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "23 MP, f/2.0, 1/2.6\", 1.0µm, 4-axis OIS, PDAF & laser AF",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0",
+        "Features": "HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, EDR, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "3.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W: 60% in 37 min (Quick Charge 2.0)USB Power Delivery 2.0",
+        "Stand-by": "Up to 210 h (3G)",
+        "Talk time": "Up to 18 h (3G)"
+      },
+      "Misc": {
+        "Colors": "Sapphire Black",
+        "Price": "About 380 USD"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, September",
+        "body-hl": "147.1g, 7.6mm thickness",
+        "os-hl": "Android 7; ZenUI 3",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "0.3%",
+        "device_hits": "354,190 hits",
+        "displaysize-hl": "5.2\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "23",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 820",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-4-pro-zs551kl",
+    "brand": "asus",
+    "name": "Asus Zenfone 4 Pro ZS551KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-4-pro-zs551kl.jpg",
+    "fallbackImg": "img/asus-zenfone-4-pro-zs551kl.svg",
+    "releaseDate": "2017, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~70.3% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.7, 25mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF & laser AF16 MP, 50mm (telephoto), 1/3.1\", 1.0µm, 2x optical zoom, AF",
+      "battery": "Fast battery charging 18W: 50% in 32 min"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%204%20Pro%20ZS551KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%204%20Pro%20ZS551KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700), 19(800), 20(800), 28(700), 38(2600), 39(1900), 40(2300), 41(2500) - Global, Taiwan",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 or 100 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, August",
+        "Status": "Available. Released 2017, October"
+      },
+      "Body": {
+        "Dimensions": "156.9 x 75.6 x 7.6 mm (6.18 x 2.98 x 0.30 in)",
+        "Weight": "175 g (6.17 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5) & aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~70.3% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 7.1.1 (Nougat), upgradable to Android 8 (Oreo); ZenUI 4",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "64/128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.7, 25mm (wide), 1/2.55\", 1.4µm, 4-axis OIS, dual pixel PDAF & laser AF16 MP, 50mm (telephoto), 1/3.1\", 1.0µm, 2x optical zoom, AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps, 1080p@120fps, 720p@240fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/1.9, 1/3.2\", 22mm (wide), 1.4µm, PDAF",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, dual speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "FM radio",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W: 50% in 32 min",
+        "Talk time": "Up to 27 h 30 min (3G)"
+      },
+      "Misc": {
+        "Colors": "Moonlight white, Pure Black",
+        "Price": "About 390 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, October",
+        "body-hl": "175g, 7.6mm thickness",
+        "os-hl": "Android 7.1.1, up to Android 8; ZenUI 4",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "0.6%",
+        "device_hits": "1,380,281 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3600",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "asus-zenfone-4-ze554kl",
+    "brand": "asus",
+    "name": "Asus Zenfone 4 ZE554KL",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/asus-zenfone-4-ze554kl.jpg",
+    "fallbackImg": "img/asus-zenfone-4-ze554kl.svg",
+    "releaseDate": "2017, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~71.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM",
+      "camera": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF8 MP, 12mm, no AF",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%204%20ZE554KL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%204%20ZE554KL"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1800 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 18(800), 19(800), 20(800), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, August",
+        "Status": "Available. Released 2017, October"
+      },
+      "Body": {
+        "Dimensions": "155.4 x 75.2 x 7.7 mm (6.12 x 2.96 x 0.30 in)",
+        "Weight": "165 g (5.82 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5), aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~71.4% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~401 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 7.1.1 (Nougat); ZenUI 4",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Cortex-A53 & 4x1.8 GHz Cortex A53)Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 508Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, OIS, dual pixel PDAF8 MP, 12mm, no AF",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide)",
+        "Features": "HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, dual speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Moonlight white, Mint Green, Midnight Black",
+        "Price": "About 400 EUR"
+      },
+      "Tests": {
+        "Camera": "Photo/Video"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, October",
+        "body-hl": "165g, 7.7mm thickness",
+        "os-hl": "Android 7.1.1; ZenUI 4",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "0.6%",
+        "device_hits": "1,442,195 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-1",
+    "brand": "sony",
+    "name": "Sony Xperia 1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-1.jpg",
+    "fallbackImg": "img/sony-xperia-1.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.5 inches, 98.6 cm2(~82.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+      "ram": "64/128 GB, 6 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.6, 26mm (wide), 1/2.6\", 1.4µm, predictive Dual Pixel PDAF, 5-axis OIS12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, predictive Dual Pixel PDAF, 2x optical zoom, 5-axis OIS12 MP, f/2.4, 16mm (ultrawide), 1/3.4\", 1.0µm",
+      "battery": "Fast battery charging 18W (USB Power Delivery 2.0)USB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%201"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%201"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 19(800), 20(800), 26(850), 28(700), 29(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500), 46, 66(1700/2100)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat19 1600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, May"
+      },
+      "Body": {
+        "Dimensions": "167 x 72 x 8.2 mm (6.57 x 2.83 x 0.32 in)",
+        "Weight": "180 g (6.35 oz)",
+        "Build": "Front/back glass (Gorilla Glass 6) & aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "OLED capacitive touchscreen, 16M colors",
+        "Size": "6.5 inches, 98.6 cm2(~82.0% screen-to-body ratio)",
+        "Resolution": "1644 x 3840 pixels (~643 ppi density)",
+        "Protection": "Corning Gorilla Glass 6"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM855 Snapdragon 855 (7 nm)",
+        "CPU": "Octa-core (1x2.84 GHz Kryo 485 & 3x2.42 GHz Kryo 485 & 4x1.8 GHz Kryo 485)",
+        "GPU": "Adreno 640"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64/128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "12 MP, f/1.6, 26mm (wide), 1/2.6\", 1.4µm, predictive Dual Pixel PDAF, 5-axis OIS12 MP, f/2.4, 52mm (telephoto), 1/3.4\", 1.0µm, predictive Dual Pixel PDAF, 2x optical zoom, 5-axis OIS12 MP, f/2.4, 16mm (ultrawide), 1/3.4\", 1.0µm",
+        "Features": "LED flash, panorama, HDR, eye tracking",
+        "Video": "2160p@24/30fps HDR, 1080p@60fps, 1080p@30fps (5-axis gyro-EIS), 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.0µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps (5-axis gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (USB Power Delivery 2.0)USB Power Delivery"
+      },
+      "Misc": {
+        "Colors": "Black, Gray, Purple, White",
+        "Price": "About 1000 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, May",
+        "body-hl": "180g, 8.2mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "32%",
+        "device_hits": "594,314 hits",
+        "displaysize-hl": "6.5\"",
+        "displayres-hl": "1644x3840 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 855",
+        "batsize-hl": "3330",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-10-plus",
+    "brand": "sony",
+    "name": "Sony Xperia 10 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-10-plus-.jpg",
+    "fallbackImg": "img/sony-xperia-10-plus.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.5 inches, 98.7 cm2(~81.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4 GB RAM or 6 GB (for China only)",
+      "storage": "64 GB, 4 GB RAM or 6 GB (for China only)",
+      "camera": "12 MP, f/1.8, 27mm (wide), 1/2.8\", 1.25µm, PDAF8 MP, f/2.4, 53mm (telephoto), 1/4\", 1.12µm, PDAF, 2x optical zoom",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)USB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%2010%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%2010%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - I3213, I4213, I4293",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 32(1500), 38(2600) - I3213, I4213",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "167 x 73 x 8.3 mm (6.57 x 2.87 x 0.33 in)",
+        "Weight": "180 g (6.35 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.5 inches, 98.7 cm2(~81.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2520 pixels (~422 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM or 6 GB (for China only)"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 27mm (wide), 1/2.8\", 1.25µm, PDAF8 MP, f/2.4, 53mm (telephoto), 1/4\", 1.12µm, PDAF, 2x optical zoom",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)USB Power Delivery"
+      },
+      "Misc": {
+        "Colors": "Black, Navy, Silver, Gold",
+        "Price": "About 430 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "180g, 8.3mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "20%",
+        "device_hits": "251,406 hits",
+        "displaysize-hl": "6.5\"",
+        "displayres-hl": "1080x2520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-10",
+    "brand": "sony",
+    "name": "Sony Xperia 10",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-10-.jpg",
+    "fallbackImg": "img/sony-xperia-10.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 84.1 cm2(~79.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+      "ram": "64 GB, 3 GB RAM or 4 GB (for China only)",
+      "storage": "64 GB, 3 GB RAM or 4 GB (for China only)",
+      "camera": "13 MP, f/2.0, 27mm (wide), 1/3\", 1.12µm, PDAF5 MP, f/2.4, 22mm (wide), 1/4\", 1.4µm",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)USB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%2010"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - I3113, I4113, I4193",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 32(1500), 38(2600) - I3113, I4113",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat12 600/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "155.7 x 68 x 8.4 mm (6.13 x 2.68 x 0.33 in)",
+        "Weight": "162 g (5.71 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 84.1 cm2(~79.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2520 pixels (~457 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+        "CPU": "Octa-core 2.2 GHz Cortex-A53",
+        "GPU": "Adreno 508"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 3 GB RAM or 4 GB (for China only)"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.0, 27mm (wide), 1/3\", 1.12µm, PDAF5 MP, f/2.4, 22mm (wide), 1/4\", 1.4µm",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)USB Power Delivery"
+      },
+      "Misc": {
+        "Colors": "Black, Navy, Silver, Pink",
+        "Price": "About 350 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "162g, 8.4mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "15%",
+        "device_hits": "393,979 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x2520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "2870",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-l3",
+    "brand": "sony",
+    "name": "Sony Xperia L3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-l3.jpg",
+    "fallbackImg": "img/sony-xperia-l3.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 79.4 cm2(~71.6% screen-to-body ratio)",
+      "processor": "Mediatek MT6762 Helio P22 (12 nm)",
+      "ram": "32 GB, 3 GB RAM",
+      "storage": "32 GB, 3 GB RAM",
+      "camera": "13 MP, f/2.2, 26mm (wide), 1/3\", 1.12µm, PDAF2 MP, depth sensor",
+      "battery": "Fast battery chargingUSB Power Delivery"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20L3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20L3"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100 - I3312, I4312, I4332",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600) - I3312, I4312",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "154 x 72 x 8.9 mm (6.06 x 2.83 x 0.35 in)",
+        "Weight": "156 g (5.50 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 79.4 cm2(~71.6% screen-to-body ratio)",
+        "Resolution": "720 x 1570 pixels, 19.5:9 ratio (~303 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Mediatek MT6762 Helio P22 (12 nm)",
+        "CPU": "Octa-core 2.0 GHz Cortex-A53",
+        "GPU": "PowerVR GE8320"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/2.2, 26mm (wide), 1/3\", 1.12µm, PDAF2 MP, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm (wide), 1/4\", 1.12µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery chargingUSB Power Delivery"
+      },
+      "Misc": {
+        "Colors": "Black, Gold, Silver",
+        "Price": "About 200 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "156g, 8.9mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "8.8%",
+        "device_hits": "109,137 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "720x1570 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "MT6762 Helio P22",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xz3",
+    "brand": "sony",
+    "name": "Sony Xperia XZ3",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xz3-.jpg",
+    "fallbackImg": "img/sony-xperia-xz3.svg",
+    "releaseDate": "2018, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.9 cm2(~80.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64 GB, 4 GB RAM or 64 GB, 6 GB RAM (Taiwan only)",
+      "storage": "64 GB, 4 GB RAM or 64 GB, 6 GB RAM (Taiwan only)",
+      "camera": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+      "battery": "Fast battery charging 18W (USB Power Delivery 2.0)Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ3"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 1200/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, August",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "158 x 73 x 9.9 mm (6.22 x 2.87 x 0.39 in)",
+        "Weight": "193 g (6.81 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5) & aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.9 cm2(~80.5% screen-to-body ratio)",
+        "Resolution": "1440 x 2880 pixels, 18:9 ratio (~537 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64 GB, 4 GB RAM or 64 GB, 6 GB RAM (Taiwan only)"
+      },
+      "Main Camera": {
+        "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (5-axis gyro-EIS), 1080p@960fps, HDR"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/1.9, 23mm (wide), 1/3\", 1.12µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps (5-axis gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (USB Power Delivery 2.0)Qi wireless charging"
+      },
+      "Misc": {
+        "Colors": "Black, Silver White, Forest Green, Bordeaux Red",
+        "Price": "About 500 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 3700 / Basemark X: 43843",
+        "Display": "Contrast ratio: Infinite (nominal), 4.502 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 71dB / Noise 75dB / Ring 82dB",
+        "Audio quality": "Noise -91.2dB / Crosstalk -88.7dB",
+        "Battery life": "Endurance rating 90h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "193g, 9.9mm thickness",
+        "os-hl": "Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "7.5%",
+        "device_hits": "2,264,302 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1440x2880 pixels",
+        "camerapixels-hl": "19",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xa2-plus",
+    "brand": "sony",
+    "name": "Sony Xperia XA2 Plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xa2-plus-.jpg",
+    "fallbackImg": "img/sony-xperia-xa2-plus.svg",
+    "releaseDate": "2018, July",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.9 cm2(~78.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+      "ram": "64 GB, 6 GB RAM or 32 GB, 4 GB RAM",
+      "storage": "64 GB, 6 GB RAM or 32 GB, 4 GB RAM",
+      "camera": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2%20Plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, July",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "157 x 75 x 9.6 mm (6.18 x 2.95 x 0.38 in)",
+        "Weight": "205 g (7.23 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.9 cm2(~78.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~402 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+        "CPU": "Octa-core 2.2 GHz Cortex-A53",
+        "GPU": "Adreno 508"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 6 GB RAM or 32 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, stereo sound rec., HDR"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 1/4\"",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Silver, Black, Gold, Green",
+        "Price": "About 380 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1646 / Basemark OS II 2.0: 1523Basemark X: 14119",
+        "Display": "Contrast ratio: 1522:1 (nominal), 3.445 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 73dB / Ring 79dB",
+        "Audio quality": "Noise -93.6dB / Crosstalk -93.1dB",
+        "Battery life": "Endurance rating 104h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "205g, 9.6mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "2.0%",
+        "device_hits": "986,110 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "23",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "3580",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xz2-premium",
+    "brand": "sony",
+    "name": "Sony Xperia XZ2 Premium",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xz2-premium.jpg",
+    "fallbackImg": "img/sony-xperia-xz2-premium.svg",
+    "releaseDate": "2018, April",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.8 inches, 91.5 cm2(~72.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64 GB, 6 GB RAM",
+      "storage": "64 GB, 6 GB RAM",
+      "camera": "19 MP, f/1.8, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF12 MP B/W, f/1.6, 1/2.3\", 1.55µm, predictive PDAF & laser AF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2%20Premium"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2%20Premium"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (6CA) Cat18 1200/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, April",
+        "Status": "Available. Released 2018, July"
+      },
+      "Body": {
+        "Dimensions": "158 x 80 x 11.9 mm (6.22 x 3.15 x 0.47 in)",
+        "Weight": "236 g (8.32 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.8 inches, 91.5 cm2(~72.4% screen-to-body ratio)",
+        "Resolution": "3840 x 2160 pixels, 16:9 ratio (~765 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "19 MP, f/1.8, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF12 MP B/W, f/1.6, 1/2.3\", 1.55µm, predictive PDAF & laser AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30/60fps (5-axis gyro-EIS), 1080p@960fps, HDR"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.0, 22mm (wide), 1/3\", 1.12µm",
+        "Video": "1080p@30fps (5-axis gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)Qi wireless charging"
+      },
+      "Misc": {
+        "Colors": "Chrome Black, Chrome Silver",
+        "Price": "About 900 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4589 / Basemark OS II 2.0: 4152Basemark X: 43596",
+        "Display": "Contrast ratio: 1411:1 (nominal), 2.867 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 73dB / Ring 73dB",
+        "Audio quality": "Noise -91.0dB / Crosstalk -87.6dB",
+        "Battery life": "Endurance rating 77h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, July",
+        "body-hl": "236g, 11.9mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "2.0%",
+        "device_hits": "1,484,500 hits",
+        "displaysize-hl": "5.8\"",
+        "displayres-hl": "3840x2160 pixels",
+        "camerapixels-hl": "19",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3540",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xz2",
+    "brand": "sony",
+    "name": "Sony Xperia XZ2",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xz2-.jpg",
+    "fallbackImg": "img/sony-xperia-xz2.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.7 inches, 83.8 cm2(~76.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64 GB, 4/6 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM",
+      "camera": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat18 1200/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, April"
+      },
+      "Body": {
+        "Dimensions": "153 x 72 x 11.1 mm (6.02 x 2.83 x 0.44 in)",
+        "Weight": "198 g (6.98 oz)",
+        "Build": "Front/back glass (Gorilla Glass 5) & aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.7 inches, 83.8 cm2(~76.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~424 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2, 1/5\"",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)Qi wireless charging"
+      },
+      "Misc": {
+        "Colors": "Liquid Black, Liquid Silver, Deep Green, Ash Pink",
+        "Price": "About 460 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4234 / Basemark OS II 2.0: 3859Basemark X: 44097",
+        "Display": "Contrast ratio: 1434 (nominal), 3.58 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 71dB / Ring 78dB",
+        "Audio quality": "Noise -90.6dB / Crosstalk -89.2dB",
+        "Battery life": "Endurance rating 88h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, April",
+        "body-hl": "198g, 11.1mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "3.2%",
+        "device_hits": "2,102,345 hits",
+        "displaysize-hl": "5.7\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "19",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3180",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xz2-compact",
+    "brand": "sony",
+    "name": "Sony Xperia XZ2 Compact",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xz2-compact-.jpg",
+    "fallbackImg": "img/sony-xperia-xz2-compact.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.0 inches, 64.5 cm2(~73.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ2%20Compact"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ2%20Compact"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat15 800/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, April"
+      },
+      "Body": {
+        "Dimensions": "135 x 65 x 12.1 mm (5.31 x 2.56 x 0.48 in)",
+        "Weight": "168 g (5.93 oz)",
+        "Build": "Front glass, aluminum frame, plastic back",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.0 inches, 64.5 cm2(~73.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~483 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 1080p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2, 23mm (wide), 1/5\"",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Black, White Silver, Moss Green, Coral Pink",
+        "Price": "About 470 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4266 / Basemark OS II 2.0: 3681Basemark X: 44058",
+        "Display": "Contrast ratio: 1315:1 (nominal), 3.765 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 73dB / Ring 83dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -92.7dB",
+        "Battery life": "Endurance rating 88h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, April",
+        "body-hl": "168g, 12.1mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "2.3%",
+        "device_hits": "1,157,457 hits",
+        "displaysize-hl": "5.0\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "19",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "2870",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xa2-ultra",
+    "brand": "sony",
+    "name": "Sony Xperia XA2 Ultra",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xa2-ultra-.jpg",
+    "fallbackImg": "img/sony-xperia-xa2-ultra.svg",
+    "releaseDate": "2018, January",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 99.2 cm2(~76.1% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+      "ram": "32/64 GB, 4 GB RAM",
+      "storage": "32/64 GB, 4 GB RAM",
+      "camera": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2%20Ultra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2%20Ultra"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat13 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, January",
+        "Status": "Available. Released 2018, February"
+      },
+      "Body": {
+        "Dimensions": "163 x 80 x 9.5 mm (6.42 x 3.15 x 0.37 in)",
+        "Weight": "221 g (7.80 oz)",
+        "Build": "Aluminum frame, plastic back",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 99.2 cm2(~76.1% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~367 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+        "CPU": "Octa-core 2.2 GHz Cortex-A53",
+        "GPU": "Adreno 508"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32/64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, stereo sound rec., HDR"
+      },
+      "Selfie camera": {
+        "Dual": "16 MP, f/2.0, 23mm (wide), 1/2.6\", OIS, AF8 MP, f/2.4, 1/4\"",
+        "Video": "1080p@30ps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Silver, Black, Blue, Gold",
+        "Price": "About 330 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1677 / Basemark OS II 2.0: 1548Basemark X: 14328",
+        "Display": "Contrast ratio: 1562:1 (nominal), 3.445 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 73dB / Ring 80dB",
+        "Audio quality": "Noise -67.7dB / Crosstalk -92.7dB",
+        "Battery life": "Endurance rating 100h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, February",
+        "body-hl": "221g, 9.5mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "32/64GB storage, microSD card slot",
+        "device_popularity": "2.2%",
+        "device_hits": "1,804,902 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "23",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "3580",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xa2",
+    "brand": "sony",
+    "name": "Sony Xperia XA2",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xa2-.jpg",
+    "fallbackImg": "img/sony-xperia-xa2.svg",
+    "releaseDate": "2018, January",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.2 inches, 74.5 cm2(~75.0% screen-to-body ratio)",
+      "processor": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+      "ram": "32 GB, 3 GB RAM",
+      "storage": "32 GB, 3 GB RAM",
+      "camera": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XA2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XA2"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat13 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, January",
+        "Status": "Available. Released 2018, February"
+      },
+      "Body": {
+        "Dimensions": "142 x 70 x 9.7 mm (5.59 x 2.76 x 0.38 in)",
+        "Weight": "171 g (6.03 oz)",
+        "Build": "Aluminum frame, plastic back",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.2 inches, 74.5 cm2(~75.0% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+        "Protection": "Corning Gorilla Glass 4"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo)",
+        "Chipset": "Qualcomm SDM630 Snapdragon 630 (14 nm)",
+        "CPU": "Octa-core 2.2 GHz Cortex-A53",
+        "GPU": "Adreno 508"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "23 MP, f/2.0, 24mm (wide), 1/2.3\", PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, stereo sound rec., HDR"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.4, 1/4\"",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Silver, Black, Blue, Pink",
+        "Price": "About 270 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1690 / Basemark OS II 2.0: 1548Basemark X: 14312",
+        "Display": "Contrast ratio: 1327:1 (nominal), 2.938 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 72dB / Ring 78dB",
+        "Audio quality": "Noise -92.8dB / Crosstalk -87.8dB",
+        "Battery life": "Endurance rating 92h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, February",
+        "body-hl": "171g, 9.7mm thickness",
+        "os-hl": "Android 8.0",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "2.5%",
+        "device_hits": "1,667,781 hits",
+        "displaysize-hl": "5.2\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "23",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 630",
+        "batsize-hl": "3300",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "sony-xperia-xz1",
+    "brand": "sony",
+    "name": "Sony Xperia XZ1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/sony-xperia-xz1-ofic.jpg",
+    "fallbackImg": "img/sony-xperia-xz1.svg",
+    "releaseDate": "2017, August",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.2 inches, 74.5 cm2(~68.6% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20XZ1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20XZ1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 - F8341, F8342",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (4CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, August",
+        "Status": "Available. Released 2017, September"
+      },
+      "Body": {
+        "Dimensions": "148 x 73.4 x 7.4 mm (5.83 x 2.89 x 0.29 in)",
+        "Weight": "155 g (5.47 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.2 inches, 74.5 cm2(~68.6% screen-to-body ratio)",
+        "Resolution": "1080 x 1920 pixels, 16:9 ratio (~424 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie)",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.45 GHz Kryo & 4x1.9 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot) - dual SIM model only",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "19 MP, f/2.0, 25mm (wide), 1/2.3\", 1.22µm, predictive PDAF & laser AF",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS), 720p@960fps"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.0, 22mm (wide), 1/3\"",
+        "Video": "1080p@30fps (gyro-EIS)"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS, GALILEO",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector; USB Host"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, barometer, compass, color spectrum"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Black, Warm Silver, Venus Pink, Moonlit Blue",
+        "Price": "About 260 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3484 / Basemark OS II 2.0: 2986Basemark X: 38583",
+        "Display": "Contrast ratio: 1406 (nominal), 3.765 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 65dB / Noise 68dB / Ring 69dB",
+        "Audio quality": "Noise -93.3dB / Crosstalk -90.2dB",
+        "Battery life": "Endurance rating 82h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, September",
+        "body-hl": "155g, 7.4mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "2.9%",
+        "device_hits": "3,139,838 hits",
+        "displaysize-hl": "5.2\"",
+        "displayres-hl": "1080x1920 pixels",
+        "camerapixels-hl": "19",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "2700",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-9-pureview",
+    "brand": "nokia",
+    "name": "Nokia 9 PureView",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-9-pureview-.jpg",
+    "fallbackImg": "img/nokia-9-pureview.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.99 inches, 92.6 cm2(~79.7% screen-to-body ratio)",
+      "processor": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "5x 12 MP, f/1.8, 28mm (wide), 1/2.9\", 1.25µm(2x RGB & 3x B/W cameras, working simultaneously)TOF camera",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)USB Power DeliveryFast wireless charging 10W (Qi); 5W (PMA)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%209%20PureView"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%209%20PureView"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (5CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Available. Released 2019, February"
+      },
+      "Body": {
+        "Dimensions": "155 x 75 x 8 mm (6.10 x 2.95 x 0.31 in)",
+        "Weight": "172 g (6.07 oz)",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "5.99 inches, 92.6 cm2(~79.7% screen-to-body ratio)",
+        "Resolution": "1440 x 2880 pixels, 18:9 ratio (~538 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM845 Snapdragon 845 (10 nm)",
+        "CPU": "Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)",
+        "GPU": "Adreno 630"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Five": "5x 12 MP, f/1.8, 28mm (wide), 1/2.9\", 1.25µm(2x RGB & 3x B/W cameras, working simultaneously)TOF camera",
+        "Features": "Zeiss optics, dual-LED dual-tone flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps, HDR"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, 1.0µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (under display), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)USB Power DeliveryFast wireless charging 10W (Qi); 5W (PMA)"
+      },
+      "Misc": {
+        "Colors": "Midnight Blue",
+        "Price": "About 620 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, February",
+        "body-hl": "172g, 8mm thickness",
+        "os-hl": "Android 9.0; Android One",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "26%",
+        "device_hits": "2,820,878 hits",
+        "displaysize-hl": "5.99\"",
+        "displayres-hl": "1440x2880 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 845",
+        "batsize-hl": "3320",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "nokia-3-2",
+    "brand": "nokia",
+    "name": "Nokia 3.2",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-32.jpg",
+    "fallbackImg": "img/nokia-3-2.svg",
+    "releaseDate": "2019, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.26 inches, 97.8 cm2(~80.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM429 Snapdragon 429",
+      "ram": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "storage": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.2, 1/3\", 1.12µm, AF",
+      "battery": "Fast battery charging 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%203.2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%203.2"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300) - EMEA, APAC, MENA",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, February",
+        "Status": "Coming soon. Exp. release 2019, May"
+      },
+      "Body": {
+        "Dimensions": "159.4 x 76.2 x 8.6 mm (6.28 x 3.00 x 0.34 in)",
+        "Weight": "181 g (6.38 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.26 inches, 97.8 cm2(~80.5% screen-to-body ratio)",
+        "Resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM429 Snapdragon 429",
+        "CPU": "Quad-core 1.8 GHz Cortex-A53",
+        "GPU": "Adreno 504"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB",
+        "Internal": "32 GB, 3 RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/2.2, 1/3\", 1.12µm, AF",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.2, 27mm (wide), 1.12µm"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted, 32/3GB only), accelerometer, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Steel",
+        "Price": "About 130 EUR"
+      },
+      "Banner": {
+        "released-hl": "Exp. release 2019, May",
+        "body-hl": "181g, 8.6mm thickness",
+        "os-hl": "Android 9.0; Android One",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "5.6%",
+        "device_hits": "87,648 hits",
+        "displaysize-hl": "6.26\"",
+        "displayres-hl": "720x1520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "Snapdragon 429",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-8-1--nokia-x7",
+    "brand": "nokia",
+    "name": "Nokia 8.1 (Nokia X7)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-81-r.jpg",
+    "fallbackImg": "img/nokia-8-1--nokia-x7.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.18 inches, 95.3 cm2(~81.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+      "ram": "64 GB, 4 GB RAM - Nokia 8.164/128 GB, 4/6 GB RAM - Nokia X7Y",
+      "storage": "64 GB, 4 GB RAM - Nokia 8.164/128 GB, 4/6 GB RAM - Nokia X7Y",
+      "camera": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, OIS13 MP",
+      "battery": "Fast battery charging 2A/9V (18W)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208.1%20%28Nokia%20X7%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208.1%20%28Nokia%20X7%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "154.8 x 75.8 x 8 mm (6.09 x 2.98 x 0.31 in)",
+        "Weight": "180 g (6.35 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.18 inches, 95.3 cm2(~81.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~408 ppi density)",
+        "Protection": "NEG"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM710 Snapdragon 710 (10 nm)",
+        "CPU": "Octa-core (2x2.2 GHz 360 Gold & 6x1.7 GHz Kryo 360 Silver)",
+        "GPU": "Adreno 616"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM - Nokia 8.164/128 GB, 4/6 GB RAM - Nokia X7Y"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1/2.55\", 1.4µm, dual pixel PDAF, OIS13 MP",
+        "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "20 MP, f/2.0, 0.9µm"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 2A/9V (18W)"
+      },
+      "Misc": {
+        "Colors": "Blue, Silver, Steel, Copper, Iron, Steel",
+        "Price": "About 400 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "180g, 8mm thickness",
+        "os-hl": "Android 9.0; Android One",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "12%",
+        "device_hits": "2,298,429 hits",
+        "displaysize-hl": "6.18\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 710",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-106--2018",
+    "brand": "nokia",
+    "name": "Nokia 106 (2018)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-106-2018-.jpg",
+    "fallbackImg": "img/nokia-106--2018.svg",
+    "releaseDate": "2018, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "1.8 inches, 10.0 cm2(~18.2% screen-to-body ratio)",
+      "processor": "Mediatek MT6261D",
+      "ram": "4 MB, 4 MB RAM",
+      "storage": "4 MB, 4 MB RAM",
+      "camera": "",
+      "battery": "Up to 504 h"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%20106%20%282018%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%20106%20%282018%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM",
+        "2G bands": "GSM 900 / 1800 - SIM 1 & SIM 2",
+        "GPRS": "No",
+        "EDGE": "No"
+      },
+      "Launch": {
+        "Announced": "2018, November",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "111.2 x 49.5 x 14.4 mm (4.38 x 1.95 x 0.57 in)",
+        "Weight": "70.2 g (2.47 oz)",
+        "Build": "Plastic body",
+        "SIM": "Dual SIM (Mini-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "TFT, 65K colors",
+        "Size": "1.8 inches, 10.0 cm2(~18.2% screen-to-body ratio)",
+        "Resolution": "120 x 160 pixels, 4:3 ratio (~111 ppi density)"
+      },
+      "Platform": {
+        "Chipset": "Mediatek MT6261D"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Phonebook": "Yes",
+        "Call records": "Yes",
+        "Internal": "4 MB, 4 MB RAM"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "TBC"
+      },
+      "Comms": {
+        "WLAN": "No",
+        "Bluetooth": "No",
+        "GPS": "No",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0 (charging only)"
+      },
+      "Features": {
+        "Messaging": "SMS",
+        "Games": "Yes",
+        "Java": "No"
+      },
+      "Battery": {
+        "Stand-by": "Up to 504 h",
+        "Talk time": "Up to 16 h"
+      },
+      "Misc": {
+        "Colors": "Black",
+        "SAR EU": "1.49 W/kg (head)     1.23 W/kg (body)",
+        "Price": "About 20 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "70.2g, 14.4mm thickness",
+        "os-hl": "Feature phone",
+        "storage-hl": "4MB storage, no card slot",
+        "device_popularity": "1.6%",
+        "device_hits": "258,110 hits",
+        "displaysize-hl": "1.8\"",
+        "displayres-hl": "120x160 pixels",
+        "ramsize-hl": "4",
+        "chipset-hl": "MT6261D",
+        "batsize-hl": "800",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-7-1",
+    "brand": "nokia",
+    "name": "Nokia 7.1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-71-plus.jpg",
+    "fallbackImg": "img/nokia-7-1.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.84 inches, 85.1 cm2(~79.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "12 MP, f/1.8, 1.28µm, Dual Pixel PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%207.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%207.1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "149.7 x 71.2 x 8 mm (5.89 x 2.80 x 0.31 in)",
+        "Weight": "160 g (5.64 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Single SIM (Nano-SIM) or Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.84 inches, 85.1 cm2(~79.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 1.28µm, Dual Pixel PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+        "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 24mm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, EDR, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W",
+        "Stand-by": "Up to 408 h (3G)",
+        "Talk time": "Up to 19 h 30 min (3G)"
+      },
+      "Misc": {
+        "Colors": "Gloss midnight blue, gloss steel",
+        "SAR EU": "0.26 W/kg (head)     1.74 W/kg (body)",
+        "Price": "About 330 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2394 / Basemark OS II 2.0: 1940Basemark X: 14963",
+        "Display": "Contrast ratio: 1300:1 (nominal), 2.804 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 75dB / Noise 76dB / Ring 81dB",
+        "Audio quality": "Noise -91.0dB / Crosstalk -94.4dB",
+        "Battery life": "Endurance rating 80h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "160g, 8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0; Android One",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "8.3%",
+        "device_hits": "1,559,523 hits",
+        "displaysize-hl": "5.84\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3060",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-6-1-plus--nokia-x6",
+    "brand": "nokia",
+    "name": "Nokia 6.1 Plus (Nokia X6)",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-61-plus.jpg",
+    "fallbackImg": "img/nokia-6-1-plus--nokia-x6.svg",
+    "releaseDate": "2018, July",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.8 inches, 85.1 cm2(~81.5% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64 GB, 4/6 GB RAM or 32 GB, 4 GB RAM (X6 only)",
+      "storage": "64 GB, 4/6 GB RAM or 32 GB, 4 GB RAM (X6 only)",
+      "camera": "16 MP, f/2.0, 1.0µm, PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+      "battery": "Fast battery charging 18W (Quick Charge 3.0)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%206.1%20Plus%20%28Nokia%20X6%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%206.1%20Plus%20%28Nokia%20X6%29"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, July",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "147.2 x 71 x 8 mm (5.80 x 2.80 x 0.31 in)",
+        "Weight": "151 g (5.33 oz)",
+        "Build": "Front/back glass (Gorilla Glass 3), aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.8 inches, 85.1 cm2(~81.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM or 32 GB, 4 GB RAM (X6 only)"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.0, 1.0µm, PDAF5 MP, f/2.4, 1.12µm, depth sensor",
+        "Features": "Dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 1/3.1\", 1.0µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 3.0)"
+      },
+      "Misc": {
+        "Colors": "Black, Blue, White",
+        "SAR EU": "0.94 W/kg (head)     1.82 W/kg (body)",
+        "Price": "About 250 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II 2.0: 1951 / Basemark X: 14903"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "151g, 8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0; Android One",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "10%",
+        "device_hits": "7,116,185 hits",
+        "displaysize-hl": "5.8\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "3060",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-5-1",
+    "brand": "nokia",
+    "name": "Nokia 5.1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-51.jpg",
+    "fallbackImg": "img/nokia-5-1.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 78.1 cm2(~73.1% screen-to-body ratio)",
+      "processor": "MediaTek Helio P18",
+      "ram": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "storage": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "camera": "16 MP, PDAF",
+      "battery": "Up to 19 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%205.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%205.1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100 - APAC, EMEA, HK",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) - APAC, EMEA, HK",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "151.1 x 70.7 x 8.2 mm (5.95 x 2.78 x 0.32 in)",
+        "Build": "Front glass, aluminum body (6000 series)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 78.1 cm2(~73.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~439 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo); Android One",
+        "Chipset": "MediaTek Helio P18",
+        "CPU": "Octa-core (4x2.0 GHz Cortex-A53 & 4x1.2 GHz Cortex-A53)",
+        "GPU": "Mali-T860MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32 GB, 3 RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "16 MP, PDAF",
+        "Features": "Dual-LED dual-tone flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Talk time": "Up to 19 h (3G)",
+        "Music play": "Up to 53 h"
+      },
+      "Misc": {
+        "Colors": "Copper, Tempered Blue, Black",
+        "SAR EU": "0.29 W/kg (head)     0.61 W/kg (body)",
+        "Price": "About 180 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "8.2mm thickness",
+        "os-hl": "Android 8.0; Android One",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "3.0%",
+        "device_hits": "1,105,360 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "MediaTek Helio P18",
+        "batsize-hl": "2970",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-3-1",
+    "brand": "nokia",
+    "name": "Nokia 3.1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-31.jpg",
+    "fallbackImg": "img/nokia-3-1.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.2 inches, 69.8 cm2(~69.4% screen-to-body ratio)",
+      "processor": "Mediatek MT6750 (28 nm)",
+      "ram": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "storage": "32 GB, 3 RAM or 16 GB, 2 GB RAM",
+      "camera": "13 MP, f/2.0, AF",
+      "battery": "Up to 18 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%203.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%203.1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100 - APAC, EMEA, India",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) - APAC, EMEA",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "146.3 x 68.7 x 8.7 mm (5.76 x 2.70 x 0.34 in)",
+        "Weight": "138.3 g (4.87 oz)",
+        "Build": "Front glass, aluminum frame, plastic back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.2 inches, 69.8 cm2(~69.4% screen-to-body ratio)",
+        "Resolution": "720 x 1440 pixels, 18:9 ratio (~310 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); Android One",
+        "Chipset": "Mediatek MT6750 (28 nm)",
+        "CPU": "Octa-core (4x1.5 GHz Cortex-A53 & 4x1.0 GHz Cortex-A53)",
+        "GPU": "Mali-T860MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32 GB, 3 RAM or 16 GB, 2 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "13 MP, f/2.0, AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "720p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "NFC": "Yes (APAC & EMEA only)",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Talk time": "Up to 18 h (3G)",
+        "Music play": "Up to 84 h"
+      },
+      "Misc": {
+        "Colors": "Blue/Copper, Black/Chrome, White/Iron",
+        "SAR EU": "0.64 W/kg (head)     1.79 W/kg (body)",
+        "Price": "About 150 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 980 / Basemark OS II 2.0: 934Basemark X: 4984",
+        "Display": "Contrast ratio: 1490:1 (nominal), 2.837 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 70dB / Ring 78dB",
+        "Audio quality": "Noise -84.3dB / Crosstalk -88.9dB",
+        "Battery life": "Endurance rating 56h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "138.3g, 8.7mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0; Android One",
+        "storage-hl": "32GB storage, microSD card slot",
+        "device_popularity": "3.7%",
+        "device_hits": "1,006,576 hits",
+        "displaysize-hl": "5.2\"",
+        "displayres-hl": "720x1440 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "3",
+        "chipset-hl": "MT6750",
+        "batsize-hl": "2990",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-2-1",
+    "brand": "nokia",
+    "name": "Nokia 2.1",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-21-.jpg",
+    "fallbackImg": "img/nokia-2-1.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~70.0% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+      "ram": "8 GB, 1 GB RAM",
+      "storage": "8 GB, 1 GB RAM",
+      "camera": "8 MP, AF",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%202.1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%202.1"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100 - APAC, EMEA, India",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) - APAC, EMEA",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "153.6 x 77.6 x 9.7 mm (6.05 x 3.06 x 0.38 in)",
+        "Weight": "174 g (6.14 oz)",
+        "Build": "Aluminum frame, plastic back",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~70.0% screen-to-body ratio)",
+        "Resolution": "720 x 1280 pixels, 16:9 ratio (~267 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 Oreo (Go edition), upgradable to Android 9.0 Pie (Go edition); Android One",
+        "Chipset": "Qualcomm MSM8917 Snapdragon 425 (28 nm)",
+        "CPU": "Quad-core 1.4 GHz Cortex-A53",
+        "GPU": "Adreno 308"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 128 GB (dedicated slot)",
+        "Internal": "8 GB, 1 GB RAM"
+      },
+      "Main Camera": {
+        "Single": "8 MP, AF",
+        "Features": "LED flash",
+        "Video": "720p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Accelerometer, proximity"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W",
+        "Talk time": "Up to 19 h (3G)",
+        "Music play": "Up to 128 h"
+      },
+      "Misc": {
+        "Colors": "Blue/Copper, Blue/Silver, Grey/Silver",
+        "SAR EU": "0.83 W/kg (head)     1.67 W/kg (body)",
+        "Price": "About 100 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "174g, 9.7mm thickness",
+        "os-hl": "Android 8.1 Oreo, up to 9.0 Pie; Android One",
+        "storage-hl": "8GB storage, microSD card slot",
+        "device_popularity": "3.4%",
+        "device_hits": "741,840 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "720x1280 pixels",
+        "camerapixels-hl": "8",
+        "videopixels-hl": "720p",
+        "ramsize-hl": "1",
+        "chipset-hl": "Snapdragon 425",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-8110-4g",
+    "brand": "nokia",
+    "name": "Nokia 8110 4G",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-8110-4g-.jpg",
+    "fallbackImg": "img/nokia-8110-4g.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "2.4 inches, 17.8 cm2(~27.1% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8905 Snapdragon 205 (28 nm)",
+      "ram": "4GB, 512 MB RAM",
+      "storage": "4GB, 512 MB RAM",
+      "camera": "2 MP",
+      "battery": "Up to 600 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208110%204G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208110%204G"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 900 / 1800 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 2100 - Europe",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800) - Europe",
+        "Speed": "HSPA, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, July"
+      },
+      "Body": {
+        "Dimensions": "133.5 x 49.3 x 14.9 mm (5.26 x 1.94 x 0.59 in)",
+        "Weight": "117 g (4.13 oz)",
+        "Build": "Plastic body",
+        "SIM": "Single SIM (Micro-SIM) or Dual SIM (Micro-SIM/Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "TFT",
+        "Size": "2.4 inches, 17.8 cm2(~27.1% screen-to-body ratio)",
+        "Resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+      },
+      "Platform": {
+        "OS": "KaiOS",
+        "Chipset": "Qualcomm MSM8905 Snapdragon 205 (28 nm)",
+        "CPU": "Dual-core (2x1.1 GHz Cortex-A7)",
+        "GPU": "Adreno 304"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 32 GB (dedicated slot)",
+        "Internal": "4GB, 512 MB RAM"
+      },
+      "Main Camera": {
+        "Single": "2 MP",
+        "Features": "LED flash",
+        "Video": "Yes"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n",
+        "Bluetooth": "4.1, A2DP, LE",
+        "GPS": "Yes, with A-GPS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Battery": {
+        "Stand-by": "Up to 600 h (3G)",
+        "Talk time": "Up to 11 h (3G)",
+        "Music play": "Up to 48 h"
+      },
+      "Misc": {
+        "Colors": "Traditional Black, Banana Yellow",
+        "SAR EU": "0.95 W/kg (head)     1.48 W/kg (body)",
+        "Price": "About 90 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, July",
+        "body-hl": "117g, 14.9mm thickness",
+        "os-hl": "KaiOS",
+        "storage-hl": "4GB storage, microSD card slot",
+        "device_popularity": "2.0%",
+        "device_hits": "1,172,398 hits",
+        "displaysize-hl": "2.4\"",
+        "displayres-hl": "240x320 pixels",
+        "camerapixels-hl": "2",
+        "videopixels-hl": "Video recorder",
+        "ramsize-hl": "512",
+        "chipset-hl": "Snapdragon 205",
+        "batsize-hl": "1500",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-8-sirocco",
+    "brand": "nokia",
+    "name": "Nokia 8 Sirocco",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-8-sirocco-.jpg",
+    "fallbackImg": "img/nokia-8-sirocco.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.5 inches, 83.4 cm2(~81.1% screen-to-body ratio)",
+      "processor": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+      "ram": "128 GB, 6 GB RAM",
+      "storage": "128 GB, 6 GB RAM",
+      "camera": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.6, 1/3.4\", 1.0µm, 2x optical zoom, AF",
+      "battery": "Fast battery charging 18W (Quick Charge 4)Qi wireless charging"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%208%20Sirocco"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%208%20Sirocco"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM model only)",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 20(800), 28(700), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat12 600/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, April"
+      },
+      "Body": {
+        "Dimensions": "140.9 x 73 x 7.5 mm (5.55 x 2.87 x 0.30 in)",
+        "Weight": "177 g (6.24 oz)",
+        "Build": "Front/back Gorilla Glass 5, stainless steel frame",
+        "SIM": "Single SIM (Nano-SIM) or Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "P-OLED capacitive touchscreen, 16M colors",
+        "Size": "5.5 inches, 83.4 cm2(~81.1% screen-to-body ratio)",
+        "Resolution": "1440 x 2560 pixels, 16:9 ratio (~534 ppi density)",
+        "Protection": "Corning Gorilla Glass 5"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm MSM8998 Snapdragon 835 (10 nm)",
+        "CPU": "Octa-core (4x2.5 GHz Kryo & 4x1.8 GHz Kryo)",
+        "GPU": "Adreno 540"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.6, 1/3.4\", 1.0µm, 2x optical zoom, AF",
+        "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "5 MP, f/2.0, 1/4\", 1.4µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass, barometer"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W (Quick Charge 4)Qi wireless charging",
+        "Stand-by": "Up to 495 h (3G)",
+        "Talk time": "Up to 22 h (3G)",
+        "Music play": "Up to 11 h"
+      },
+      "Misc": {
+        "Colors": "Black",
+        "SAR EU": "0.59 W/kg (head)     1.54 W/kg (body)",
+        "Price": "About 550 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4156 / Basemark OS II 2.0: 3460Basemark X: 38476",
+        "Display": "Contrast ratio: Infinite (nominal), 3.745 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 83dB / Noise 76dB / Ring 80dB",
+        "Audio quality": "Noise -90.1dB / Crosstalk -88.7dB",
+        "Battery life": "Endurance rating 77h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, April",
+        "body-hl": "177g, 7.5mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0; Android One",
+        "storage-hl": "128GB storage, no card slot",
+        "device_popularity": "2.5%",
+        "device_hits": "2,137,436 hits",
+        "displaysize-hl": "5.5\"",
+        "displayres-hl": "1440x2560 pixels",
+        "camerapixels-hl": "12",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 835",
+        "batsize-hl": "3260",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "nokia-7-plus",
+    "brand": "nokia",
+    "name": "Nokia 7 plus",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/nokia-7-plus-.jpg",
+    "fallbackImg": "img/nokia-7-plus.svg",
+    "releaseDate": "2018, February",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.0 inches, 92.4 cm2(~77.2% screen-to-body ratio)",
+      "processor": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+      "ram": "64 GB, 4 GB RAM",
+      "storage": "64 GB, 4 GB RAM",
+      "camera": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.6, 1/3.4\", 1.0µm, 2x optical zoom, AF",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nokia%207%20plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nokia%207%20plus"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 28(700), 38(2600), 40(2300), 41(2500) - Global",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (2CA) Cat6 300/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, February",
+        "Status": "Available. Released 2018, March"
+      },
+      "Body": {
+        "Dimensions": "158.4 x 75.6 x 8 mm (6.24 x 2.98 x 0.31 in)",
+        "Weight": "183 g (6.46 oz)",
+        "Build": "Front glass, aluminum body (6000 series) with copper edges",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.0 inches, 92.4 cm2(~77.2% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~403 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); Android One",
+        "Chipset": "Qualcomm SDM660 Snapdragon 660 (14 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)",
+        "GPU": "Adreno 512"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "12 MP, f/1.8, 25mm (wide), 1/2.55\", 1.4µm, dual pixel PDAF13 MP, f/2.6, 1/3.4\", 1.0µm, 2x optical zoom, AF",
+        "Features": "Zeiss optics, dual-LED dual-tone flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 1/3.1\", 1.0µm",
+        "Features": "Zeiss optics",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W",
+        "Stand-by": "Up to 723 h (3G)",
+        "Talk time": "Up to 19 h (3G)",
+        "Music play": "Up to 126 h"
+      },
+      "Misc": {
+        "Colors": "Black/Copper, White/Copper",
+        "SAR EU": "0.36 W/kg (head)     1.78 W/kg (body)",
+        "Price": "About 280 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1612 / Basemark OS II 2.0: 2376Basemark X: 21063",
+        "Display": "Contrast ratio: 1701:1 (nominal), 3.479 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 71dB / Ring 79dB",
+        "Audio quality": "Noise -38.8dB / Crosstalk -95.9dB",
+        "Battery life": "Endurance rating 87h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, March",
+        "body-hl": "183g, 8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0; Android One",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "6.8%",
+        "device_hits": "5,486,501 hits",
+        "displaysize-hl": "6.0\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 660",
+        "batsize-hl": "3800",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "honor-magic-2-3d",
+    "brand": "honor",
+    "name": "Honor Magic 2 3D",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/honor-magic-2-3d.jpg",
+    "fallbackImg": "img/honor-magic-2-3d.svg",
+    "releaseDate": "2019, March",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~84.8% screen-to-body ratio)",
+      "processor": "HiSilicon Kirin 980 (7 nm)",
+      "ram": "128/256/512 GB, 8 GB RAM, 128 GB, 6 GB RAM",
+      "storage": "128/256/512 GB, 8 GB RAM, 128 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.8, PDAF16 MP, f/2.224 MP B/W, f/1.8",
+      "battery": "Fast battery charging 10V/4A 40W: 50% in 15min; 85% in 30min"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Magic%202%203D"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Magic%202%203D"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 6(900), 7(2600), 8(900), 12(700), 17(700), 19(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat21 1400/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2019, March",
+        "Status": "Available. Released 2019, March"
+      },
+      "Body": {
+        "Dimensions": "157.3 x 75.1 x 8.3 mm (6.19 x 2.96 x 0.33 in)",
+        "Weight": "206 g (7.27 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~84.8% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); EMUI 9 or Magic UI 2",
+        "Chipset": "HiSilicon Kirin 980 (7 nm)",
+        "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+        "GPU": "Mali-G76 MP10"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/256/512 GB, 8 GB RAM, 128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "16 MP, f/1.8, PDAF16 MP, f/2.224 MP B/W, f/1.8",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps, 720p@480fps"
+      },
+      "Selfie camera": {
+        "Dual": "Mechanical pop-up 16 MP, f/2.0Mechanical pop-up 3D TOF cameraMechanical pop-up 2 MP, f/2.4, depth sensor",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Face ID, fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/4A 40W: 50% in 15min; 85% in 30min"
+      },
+      "Misc": {
+        "Colors": "Gradient Black, Gradient Red, Gradient Blue",
+        "Price": "About 500 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2019, March",
+        "body-hl": "206g, 8.3mm thickness",
+        "os-hl": "Android 9.0; EMUI 9 or Magic UI 2",
+        "storage-hl": "128/256/512GB storage, no card slot",
+        "device_popularity": "26%",
+        "device_hits": "36,721 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "24",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "HiSilicon Kirin 980",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-view-20",
+    "brand": "honor",
+    "name": "Honor View 20",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-view-20-ofic.jpg",
+    "fallbackImg": "img/honor-view-20.svg",
+    "releaseDate": "2018, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.4 inches, 101.4 cm2(~85.7% screen-to-body ratio)",
+      "processor": "HiSilicon Kirin 980 (7 nm)",
+      "ram": "256 GB, 8 GB RAM or 128 GB, 6/8 GB RAM",
+      "storage": "256 GB, 8 GB RAM or 128 GB, 6/8 GB RAM",
+      "camera": "48 MP, f/1.8, 1/2\", 0.8µm, PDAFTOF 3D stereo camera",
+      "battery": "Fast battery charging 5V/4.5A 22.5W (55% in 30 min) - for Global marketFast battery charging 9V/2A 18W - India only"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20View%2020"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20View%2020"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 4(1700/2100), 5(850), 6(900), 8(900), 19(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, December",
+        "Status": "Available. Released 2018, December"
+      },
+      "Body": {
+        "Dimensions": "156.9 x 75.4 x 8.1 mm (6.18 x 2.97 x 0.32 in)",
+        "Weight": "180 g (6.35 oz)",
+        "Build": "Front glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.4 inches, 101.4 cm2(~85.7% screen-to-body ratio)",
+        "Resolution": "1080 x 2310 pixels (~398 ppi density)",
+        "Protection": "Yes"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); Magic UI 2",
+        "Chipset": "HiSilicon Kirin 980 (7 nm)",
+        "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+        "GPU": "Mali-G76 MP10"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "256 GB, 8 GB RAM or 128 GB, 6/8 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "48 MP, f/1.8, 1/2\", 0.8µm, PDAFTOF 3D stereo camera",
+        "Features": "Panorama, HDR, LED flash",
+        "Video": "2160p@30fps, 1080p@30fps, 720p@960fps, (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "25 MP, f/2.0, 27mm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "3.1, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4.5A 22.5W (55% in 30 min) - for Global marketFast battery charging 9V/2A 18W - India only"
+      },
+      "Misc": {
+        "Colors": "Saphire Blue, Phantom Blue, Phantom Red, Midnight Black",
+        "Price": "About 570 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4363 / Basemark OS II 2.0: 4281Basemark X: 43637",
+        "Display": "Contrast ratio: Infinite (1313), 3.597 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 74dB / Ring 82dB",
+        "Audio quality": "Noise -93.1dB / Crosstalk -64.5dB",
+        "Battery life": "Endurance rating 96h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, December",
+        "body-hl": "180g, 8.1mm thickness",
+        "os-hl": "Android 9.0; Magic UI 2",
+        "storage-hl": "256GB storage, no card slot",
+        "device_popularity": "13%",
+        "device_hits": "1,272,995 hits",
+        "displaysize-hl": "6.4\"",
+        "displayres-hl": "1080x2310 pixels",
+        "camerapixels-hl": "48",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "HiSilicon Kirin 980",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-magic-2",
+    "brand": "honor",
+    "name": "Honor Magic 2",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/honor-magic-2-.jpg",
+    "fallbackImg": "img/honor-magic-2.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.39 inches, 100.2 cm2(~84.8% screen-to-body ratio)",
+      "processor": "HiSilicon Kirin 980 (7 nm)",
+      "ram": "128/256 GB, 8 GB RAM, 128 GB, 6 GB RAM",
+      "storage": "128/256 GB, 8 GB RAM, 128 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.8, PDAF16 MP, f/2.224 MP B/W, f/1.8",
+      "battery": "Fast battery charging 10V/4A 40W: 50% in 15min; 85% in 30min"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Magic%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Magic%202"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 6(900), 7(2600), 8(900), 12(700), 17(700), 19(800), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A Cat21 1400/200 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "157.3 x 75.1 x 8.3 mm (6.19 x 2.96 x 0.33 in)",
+        "Weight": "206 g (7.27 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.39 inches, 100.2 cm2(~84.8% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); EMUI 9 or Magic UI 2",
+        "Chipset": "HiSilicon Kirin 980 (7 nm)",
+        "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 2x1.92 GHz Cortex-A76 & 4x1.8 GHz Cortex-A55)",
+        "GPU": "Mali-G76 MP10"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "128/256 GB, 8 GB RAM, 128 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Triple": "16 MP, f/1.8, PDAF16 MP, f/2.224 MP B/W, f/1.8",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "2160p@30fps, 1080p@30fps, 720p@480fps"
+      },
+      "Selfie camera": {
+        "Dual": "Mechanical pop-up 16 MP, f/2.0Mechanical pop-up 2 MP, f/2.4, depth sensorMechanical pop-up 2 MP, f/2.4, depth sensor",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "5.0, A2DP, aptX HD, LE",
+        "GPS": "Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO, QZSS",
+        "NFC": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Face ID, fingerprint (under display), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 10V/4A 40W: 50% in 15min; 85% in 30min"
+      },
+      "Misc": {
+        "Colors": "Gradient Black, Gradient Red, Gradient Blue",
+        "Price": "About 550 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 4212 / Basemark OS II 2.0: 4106Basemark X: 43562",
+        "Display": "Contrast ratio: Infinite (nominal), 4.010 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 72dB / Noise 73dB / Ring 85dB",
+        "Audio quality": "Noise -93.4dB / Crosstalk -61.3dB",
+        "Battery life": "Endurance rating 89h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "206g, 8.3mm thickness",
+        "os-hl": "Android 9.0; EMUI 9 or Magic UI 2",
+        "storage-hl": "128/256GB storage, no card slot",
+        "device_popularity": "3.8%",
+        "device_hits": "1,080,495 hits",
+        "displaysize-hl": "6.39\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "24",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "HiSilicon Kirin 980",
+        "batsize-hl": "3500",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-10-lite",
+    "brand": "honor",
+    "name": "Honor 10 Lite",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-10-lite.jpg",
+    "fallbackImg": "img/honor-10-lite.svg",
+    "releaseDate": "2018, November",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.21 inches, 94.7 cm2(~83.1% screen-to-body ratio)",
+      "processor": "Hisilicon Kirin 710 (12 nm)",
+      "ram": "64/128 GB, 6 GB RAM or 64 GB, 3/4 GB RAM or 32 GB, 3 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM or 64 GB, 3/4 GB RAM or 32 GB, 3 GB RAM",
+      "camera": "13 MP, f/1.8, 26mm (wide), PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%2010%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%2010%20Lite"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, November",
+        "Status": "Available. Released 2018, November"
+      },
+      "Body": {
+        "Dimensions": "154.8 x 73.6 x 8 mm (6.09 x 2.90 x 0.31 in)",
+        "Weight": "162 g (5.71 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.21 inches, 94.7 cm2(~83.1% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~415 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 9.0 (Pie); EMUI 9",
+        "Chipset": "Hisilicon Kirin 710 (12 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+        "GPU": "Mali-G51 MP4"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 512 GB (uses SIM 2 slot)",
+        "Internal": "64/128 GB, 6 GB RAM or 64 GB, 3/4 GB RAM or 32 GB, 3 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/1.8, 26mm (wide), PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30/60fps"
+      },
+      "Selfie camera": {
+        "Single": "24 MP, f/2.0, 26mm (wide), 0.9µm",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot - GlobalWi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot - China",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (market dependent)",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Sky Blue, Sapphire Blue, White, Red",
+        "Price": "About 210 EUR"
+      },
+      "Tests": {
+        "Display": "Contrast ratio: 1282 (nominal), 2.497 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 70dB / Noise 73dB / Ring 87dB",
+        "Audio quality": "Noise -90.2dB / Crosstalk -82.7dB",
+        "Battery life": "Endurance rating 89h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, November",
+        "body-hl": "162g, 8mm thickness",
+        "os-hl": "Android 9.0; EMUI 9",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "12%",
+        "device_hits": "1,310,944 hits",
+        "displaysize-hl": "6.21\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Hisilicon Kirin 710",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-8c",
+    "brand": "honor",
+    "name": "Honor 8C",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-8c.jpg",
+    "fallbackImg": "img/honor-8c.svg",
+    "releaseDate": "2018, October",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.26 inches, 97.8 cm2(~81.9% screen-to-body ratio)",
+      "processor": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+      "ram": "32/64 GB, 4 GB RAM",
+      "storage": "32/64 GB, 4 GB RAM",
+      "camera": "13 MP, f/1.8, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208C"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208C"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, October",
+        "Status": "Available. Released 2018, October"
+      },
+      "Body": {
+        "Dimensions": "157.2 x 76 x 0 mm (6.19 x 2.99 x 0.0 in)",
+        "Weight": "167 g (5.89 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.26 inches, 97.8 cm2(~81.9% screen-to-body ratio)",
+        "Resolution": "720 x 1520 pixels, 19:9 ratio (~269 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); EMUI 8.2",
+        "Chipset": "Qualcomm SDM632 Snapdragon 632 (14 nm)",
+        "CPU": "Octa-core (4x1.8 GHz Kryo 250 Gold & 4x1.8 GHz Kryo 250 Silver)",
+        "GPU": "Adreno 506"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (dedicated slot)",
+        "Internal": "32/64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "13 MP, f/1.8, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "No",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Aurora Blue, Platinum Gold",
+        "Price": "About 170 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, October",
+        "body-hl": "167 g",
+        "os-hl": "Android 8.1; EMUI 8.2",
+        "storage-hl": "32/64GB storage, microSD card slot",
+        "device_popularity": "8.0%",
+        "device_hits": "505,080 hits",
+        "displaysize-hl": "6.26\"",
+        "displayres-hl": "720x1520 pixels",
+        "camerapixels-hl": "13",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "Snapdragon 632",
+        "batsize-hl": "4000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-8x",
+    "brand": "honor",
+    "name": "Honor 8X",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-8x.jpg",
+    "fallbackImg": "img/honor-8x.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.5 inches, 103.2 cm2(~84.0% screen-to-body ratio)",
+      "processor": "Hisilicon Kirin 710 (12 nm)",
+      "ram": "64/128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "storage": "64/128 GB, 6 GB RAM or 64 GB, 4 GB RAM",
+      "camera": "20 MP, f/1.8, 27 mm (wide), PDAF2 MP, depth sensor",
+      "battery": "Fast battery charging 5V/2A 10W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208X"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "160.4 x 76.6 x 7.8 mm (6.31 x 3.02 x 0.31 in)",
+        "Weight": "175 g (6.17 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.5 inches, 103.2 cm2(~84.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~397 ppi density)",
+        "Protection": "Corning Gorilla Glass 3"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo), upgradable to Android 9.0 (Pie); EMUI 9.0",
+        "Chipset": "Hisilicon Kirin 710 (12 nm)",
+        "CPU": "Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)",
+        "GPU": "Mali-G51 MP4"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 400 GB (dedicated slot)",
+        "Internal": "64/128 GB, 6 GB RAM or 64 GB, 4 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "20 MP, f/1.8, 27 mm (wide), PDAF2 MP, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30/60fps, 480fps, stereo sound rec."
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 26 mm (wide)",
+        "Features": "HDR",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, aptX",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/2A 10W"
+      },
+      "Misc": {
+        "Colors": "Black, Blue, Red, Pink",
+        "SAR EU": "0.72 W/kg (head)",
+        "Price": "About 270 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 2493 / Basemark OS II 2.0: 2341Basemark X: 20416",
+        "Display": "Contrast ratio: 1234:1 (nominal), 3.113 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 67dB / Noise 72dB / Ring 81dB",
+        "Audio quality": "Noise -92.3dB / Crosstalk -80.7dB",
+        "Battery life": "Endurance rating 96h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "175g, 7.8mm thickness",
+        "os-hl": "Android 8.1, up to Android 9.0; EMUI 9.0",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "22%",
+        "device_hits": "4,028,848 hits",
+        "displaysize-hl": "6.5\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Hisilicon Kirin 710",
+        "batsize-hl": "3750",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-8x-max",
+    "brand": "honor",
+    "name": "Honor 8X Max",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-8x-max.jpg",
+    "fallbackImg": "img/honor-8x-max.svg",
+    "releaseDate": "2018, September",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "7.12 inches, 127.8 cm2(~83.4% screen-to-body ratio)",
+      "processor": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+      "ram": "64/128 GB, 4 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "64/128 GB, 4 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "16 MP, f/2.0, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 9V/2A 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%208X%20Max"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%208X%20Max"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA, LTE-A",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, September",
+        "Status": "Available. Released 2018, September"
+      },
+      "Body": {
+        "Dimensions": "177.6 x 86.3 x 8.1 mm (6.99 x 3.40 x 0.32 in)",
+        "Weight": "210 g (7.41 oz)",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "7.12 inches, 127.8 cm2(~83.4% screen-to-body ratio)",
+        "Resolution": "1080 x 2244 pixels, 18.7:9 ratio (~350 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); EMUI 8.2",
+        "Chipset": "Qualcomm SDM636 Snapdragon 636 (14 nm)",
+        "CPU": "Octa-core 1.8 GHz Kryo 260",
+        "GPU": "Adreno 509"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB",
+        "Internal": "64/128 GB, 4 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.0, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, panorama, HDR",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0",
+        "Features": "HDR",
+        "Video": "720p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with stereo speakers",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 9V/2A 18W"
+      },
+      "Misc": {
+        "Colors": "Black, Blue, Red",
+        "Price": "About 250 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, September",
+        "body-hl": "210g, 8.1mm thickness",
+        "os-hl": "Android 8.1; EMUI 8.2",
+        "storage-hl": "64/128GB storage, microSD card slot",
+        "device_popularity": "3.5%",
+        "device_hits": "1,048,695 hits",
+        "displaysize-hl": "7.12\"",
+        "displayres-hl": "1080x2244 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Snapdragon 636",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-note-10",
+    "brand": "honor",
+    "name": "Honor Note 10",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-note10-cn.jpg",
+    "fallbackImg": "img/honor-note-10.svg",
+    "releaseDate": "2018, July",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.95 inches, 122.6 cm2(~81.5% screen-to-body ratio)",
+      "processor": "Hisilicon Kirin 970 (10 nm)",
+      "ram": "128 GB, 6/8 GB RAM or 64 GB, 6 GB RAM",
+      "storage": "128 GB, 6/8 GB RAM or 64 GB, 6 GB RAM",
+      "camera": "16 MP, f/1.8, PDAF24 MP B/W, f/1.8, PDAF",
+      "battery": "Fast battery charging 4.5V/5A 22.5W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Note%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Note%2010"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / EVDO / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 34(2000), 38(2600), 39(1900), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, July",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "177 x 85 x 7.7 mm (6.97 x 3.35 x 0.30 in)",
+        "Weight": "230 g (8.11 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "AMOLED capacitive touchscreen, 16M colors",
+        "Size": "6.95 inches, 122.6 cm2(~81.5% screen-to-body ratio)",
+        "Resolution": "1080 x 2220 pixels, 18.5:9 ratio (~355 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); EMUI 8.2",
+        "Chipset": "Hisilicon Kirin 970 (10 nm)",
+        "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP12"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 6/8 GB RAM or 64 GB, 6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, PDAF24 MP B/W, f/1.8, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes, with dual speakers",
+        "3.5mm jack": "No"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, EDR, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Radio": "FM radio",
+        "USB": "3.1, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 4.5V/5A 22.5W"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Phantom Blue",
+        "Price": "About 400 EUR"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "230g, 7.7mm thickness",
+        "os-hl": "Android 8.1; EMUI 8.2",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "2.0%",
+        "device_hits": "1,518,592 hits",
+        "displaysize-hl": "6.95\"",
+        "displayres-hl": "1080x2220 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Hisilicon Kirin 970",
+        "batsize-hl": "5000",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-play",
+    "brand": "honor",
+    "name": "Honor Play",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-play-ofic.jpg",
+    "fallbackImg": "img/honor-play.svg",
+    "releaseDate": "2018, July",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "6.3 inches, 97.4 cm2(~83.0% screen-to-body ratio)",
+      "processor": "Hisilicon Kirin 970 (10 nm)",
+      "ram": "64 GB, 4/6 GB RAM",
+      "storage": "64 GB, 4/6 GB RAM",
+      "camera": "16 MP, f/2.2, PDAF2 MP, f/2.4, depth sensor",
+      "battery": "Fast battery charging 18W"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20Play"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20Play"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / CDMA / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 39(1900), 40(2300), 41(2500) - China",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, July",
+        "Status": "Available. Released 2018, August"
+      },
+      "Body": {
+        "Dimensions": "157.9 x 74.3 x 7.5 mm (6.22 x 2.93 x 0.30 in)",
+        "Weight": "176 g (6.21 oz)",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "6.3 inches, 97.4 cm2(~83.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~409 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); EMUI 8.2",
+        "Chipset": "Hisilicon Kirin 970 (10 nm)",
+        "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP12"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.2, PDAF2 MP, f/2.4, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@60fps, 1080p@30fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "16 MP, f/2.0, 1.0µm",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, LE, EDR, aptX HD",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes (market dependent)",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 18W"
+      },
+      "Misc": {
+        "Colors": "Midnight Black, Navy Blue, Violet, Player Edition Red, Player Edition Black",
+        "SAR": "1.10 W/kg (head)",
+        "Price": "About 320 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3693 / Basemark OS II 2.0: 3294Basemark X: 32238",
+        "Display": "Contrast ratio: 1135:1 (nominal), 3.349 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 73dB / Ring 75dB",
+        "Battery life": "Endurance rating 94h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, August",
+        "body-hl": "176g, 7.5mm thickness",
+        "os-hl": "Android 8.1; EMUI 8.2",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "8.9%",
+        "device_hits": "3,149,246 hits",
+        "displaysize-hl": "6.3\"",
+        "displayres-hl": "1080x2340 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "Hisilicon Kirin 970",
+        "batsize-hl": "3750",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-10",
+    "brand": "honor",
+    "name": "Honor 10",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-10-.jpg",
+    "fallbackImg": "img/honor-10.svg",
+    "releaseDate": "2018, May",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.84 inches, 85.1 cm2(~79.9% screen-to-body ratio)",
+      "processor": "Hisilicon Kirin 970 (10 nm)",
+      "ram": "64/128 GB, 4/6 GB RAM or 8 GB RAM (GT version)",
+      "storage": "64/128 GB, 4/6 GB RAM or 8 GB RAM (GT version)",
+      "camera": "16 MP, f/1.8, PDAF24 MP B/W, f/1.8, PDAF",
+      "battery": "Fast battery charging: 50% in 24 min (5V/4.5A 22.5W)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%2010"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 19(800), 20(800), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat16 1024/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2018, May",
+        "Status": "Available. Released 2018, May"
+      },
+      "Body": {
+        "Dimensions": "149.6 x 71.2 x 7.7 mm (5.89 x 2.80 x 0.30 in)",
+        "Weight": "153 g (5.40 oz)",
+        "Build": "Front/back glass, aluminum frame",
+        "SIM": "Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.84 inches, 85.1 cm2(~79.9% screen-to-body ratio)",
+        "Resolution": "1080 x 2280 pixels, 19:9 ratio (~432 ppi density)",
+        "Protection": "Corning Gorilla Glass (unspecified version)"
+      },
+      "Platform": {
+        "OS": "Android 8.1 (Oreo); EMUI 8.1",
+        "Chipset": "Hisilicon Kirin 970 (10 nm)",
+        "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP12"
+      },
+      "Memory": {
+        "Card slot": "No",
+        "Internal": "64/128 GB, 4/6 GB RAM or 8 GB RAM (GT version)"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, PDAF24 MP B/W, f/1.8, PDAF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "2160p@30fps, 1080p@30/60fps (gyro-EIS)"
+      },
+      "Selfie camera": {
+        "Single": "24 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging: 50% in 24 min (5V/4.5A 22.5W)"
+      },
+      "Misc": {
+        "Colors": "Phantom Blue, Phantom Green, Midnight Black, Glacier Grey, Lily White (GT version only)",
+        "Price": "About 400 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3536 / Basemark OS II 2.0: 3337Basemark X: 29435",
+        "Display": "Contrast ratio: 1558:1 (nominal), 2.757 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 69dB / Noise 72dB / Ring 87dB",
+        "Audio quality": "Noise -95.6dB / Crosstalk -94.6dB",
+        "Battery life": "Endurance rating 74h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, May",
+        "body-hl": "153g, 7.7mm thickness",
+        "os-hl": "Android 8.1; EMUI 8.1",
+        "storage-hl": "64/128GB storage, no card slot",
+        "device_popularity": "5.3%",
+        "device_hits": "3,438,729 hits",
+        "displaysize-hl": "5.84\"",
+        "displayres-hl": "1080x2280 pixels",
+        "camerapixels-hl": "24",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "8",
+        "chipset-hl": "Hisilicon Kirin 970",
+        "batsize-hl": "3400",
+        "battype-hl": "Li-Po"
+      }
+    }
+  },
+  {
+    "id": "honor-7x",
+    "brand": "honor",
+    "name": "Honor 7X",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-7x.jpg",
+    "fallbackImg": "img/honor-7x.svg",
+    "releaseDate": "2017, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.93 inches, 90.7 cm2(~77.0% screen-to-body ratio)",
+      "processor": "HiSilicon Kirin 659 (16 nm)",
+      "ram": "64 GB, 4 GB RAM (L21) or 32/64 GB, 4 GB RAM (L22) or 32/64 GB, 3/4 GB RAM (L24)",
+      "storage": "64 GB, 4 GB RAM (L21) or 32/64 GB, 4 GB RAM (L22) or 32/64 GB, 3/4 GB RAM (L24)",
+      "camera": "16 MP, f/2.2, 26mm (wide), 1/2.9\", 1.25µm, PDAF2 MP, depth sensor",
+      "battery": "Up to 647 h (3G)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%207X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%207X"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 40(2300)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, December",
+        "Status": "Available. Released 2017, December"
+      },
+      "Body": {
+        "Dimensions": "156.5 x 75.3 x 7.6 mm (6.16 x 2.96 x 0.30 in)",
+        "Weight": "165 g (5.82 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.93 inches, 90.7 cm2(~77.0% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~407 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 7.0 (Nougat), upgradable to Android 8.0 (Oreo); EMUI 5.1",
+        "Chipset": "HiSilicon Kirin 659 (16 nm)",
+        "CPU": "Octa-core (4x2.36 GHz Cortex-A53 & 4x1.7 GHz Cortex-A53)",
+        "GPU": "Mali-T830 MP2"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "64 GB, 4 GB RAM (L21) or 32/64 GB, 4 GB RAM (L22) or 32/64 GB, 3/4 GB RAM (L24)"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/2.2, 26mm (wide), 1/2.9\", 1.25µm, PDAF2 MP, depth sensor",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "8 MP, f/2.0, 27mm (wide)",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot",
+        "Bluetooth": "4.1, A2DP, EDR, LE",
+        "GPS": "Yes, with A-GPS, GLONASS",
+        "Radio": "FM radio",
+        "USB": "microUSB 2.0"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (rear-mounted), accelerometer, proximity, compass"
+      },
+      "Battery": {
+        "Stand-by": "Up to 647 h (3G)",
+        "Talk time": "Up to 21 h (3G)"
+      },
+      "Misc": {
+        "Colors": "Black, Blue, Gold, Red, Gray",
+        "Price": "About 290 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 1529 / Basemark OS II 2.0: 1398Basemark X: 8616",
+        "Display": "Contrast ratio: 1941 (nominal), 2.734 (sunlight)",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 66dB / Noise 71dB / Ring 85dB",
+        "Audio quality": "Noise -89.5dB / Crosstalk -86.6dB",
+        "Battery life": "Endurance rating 77h"
+      },
+      "Banner": {
+        "released-hl": "Released 2017, December",
+        "body-hl": "165g, 7.6mm thickness",
+        "os-hl": "Android 7.0, up to Android 8.0; EMUI 5.1",
+        "storage-hl": "64GB storage, microSD card slot",
+        "device_popularity": "2.4%",
+        "device_hits": "6,527,653 hits",
+        "displaysize-hl": "5.93\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "16",
+        "videopixels-hl": "1080p",
+        "ramsize-hl": "4",
+        "chipset-hl": "HiSilicon Kirin 659",
+        "batsize-hl": "3340",
+        "battype-hl": "Li-Ion"
+      }
+    }
+  },
+  {
+    "id": "honor-view-10",
+    "brand": "honor",
+    "name": "Honor View 10",
+    "image": "https://cdn2.gsmarena.com/vv/bigpic/huawei-honor-view-10.jpg",
+    "fallbackImg": "img/honor-view-10.svg",
+    "releaseDate": "2017, December",
+    "basePrice": 0,
+    "popularity": 55,
+    "rating": 0,
+    "reviewCount": 0,
+    "review": "",
+    "quickSpecs": {
+      "display": "5.99 inches, 92.6 cm2(~78.6% screen-to-body ratio)",
+      "processor": "HiSilicon Kirin 970 (10 nm)",
+      "ram": "128 GB, 6 GB RAM or 64 GB, 4/6 GB RAM",
+      "storage": "128 GB, 6 GB RAM or 64 GB, 4/6 GB RAM",
+      "camera": "16 MP, f/1.8, PDAF20 MP B/W, 2x lossless zoom",
+      "battery": "Fast battery charging 5V/4.5A 22.5W (58% in 30 min)"
+    },
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honor%20View%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honor%20View%2010"
+      }
+    ],
+    "pros": [],
+    "cons": [],
+    "specs": {
+      "Network": {
+        "Technology": "GSM / HSPA / LTE",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2",
+        "3G bands": "HSDPA 850 / 900 / 1900 / 2100",
+        "4G bands": "LTE band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300), 41(2500)",
+        "Speed": "HSPA 42.2/5.76 Mbps, LTE-A (3CA) Cat18 1200/150 Mbps",
+        "GPRS": "Yes",
+        "EDGE": "Yes"
+      },
+      "Launch": {
+        "Announced": "2017, December",
+        "Status": "Available. Released 2018, January"
+      },
+      "Body": {
+        "Dimensions": "157 x 75 x 7 mm (6.18 x 2.95 x 0.28 in)",
+        "Weight": "172 g (6.07 oz)",
+        "Build": "Front glass, aluminum body",
+        "SIM": "Hybrid Dual SIM (Nano-SIM, dual stand-by)"
+      },
+      "Display": {
+        "Type": "LTPS IPS LCD capacitive touchscreen, 16M colors",
+        "Size": "5.99 inches, 92.6 cm2(~78.6% screen-to-body ratio)",
+        "Resolution": "1080 x 2160 pixels, 18:9 ratio (~403 ppi density)"
+      },
+      "Platform": {
+        "OS": "Android 8.0 (Oreo), upgradable to Android 9.0 (Pie); EMUI 8",
+        "Chipset": "HiSilicon Kirin 970 (10 nm)",
+        "CPU": "Octa-core (4x2.4 GHz Cortex-A73 & 4x1.8 GHz Cortex-A53)",
+        "GPU": "Mali-G72 MP12"
+      },
+      "Memory": {
+        "Card slot": "microSD, up to 256 GB (uses SIM 2 slot)",
+        "Internal": "128 GB, 6 GB RAM or 64 GB, 4/6 GB RAM"
+      },
+      "Main Camera": {
+        "Dual": "16 MP, f/1.8, PDAF20 MP B/W, 2x lossless zoom",
+        "Features": "Panorama, HDR, LED flash",
+        "Video": "2160p@30fps, 1080p@30fps"
+      },
+      "Selfie camera": {
+        "Single": "13 MP, f/2.0",
+        "Video": "1080p@30fps"
+      },
+      "Sound": {
+        "Loudspeaker": "Yes",
+        "3.5mm jack": "Yes"
+      },
+      "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot",
+        "Bluetooth": "4.2, A2DP, aptX HD, LE",
+        "GPS": "Yes, with A-GPS, GLONASS, BDS",
+        "NFC": "Yes",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "2.0, Type-C 1.0 reversible connector, USB On-The-Go"
+      },
+      "Features": {
+        "Sensors": "Fingerprint (front-mounted), accelerometer, gyro, proximity, compass"
+      },
+      "Battery": {
+        "Charging": "Fast battery charging 5V/4.5A 22.5W (58% in 30 min)",
+        "Stand-by": "Up to 528 h (3G)",
+        "Talk time": "Up to 23 h (3G)"
+      },
+      "Misc": {
+        "Colors": "Navy Blue, Midnight Black, Beach Gold, Aurora Blue, Charm Red",
+        "Price": "About 370 EUR"
+      },
+      "Tests": {
+        "Performance": "Basemark OS II: 3604 / Basemark OS II 2.0: 3164Basemark X: 33499",
+        "Camera": "Photo/Video",
+        "Loudspeaker": "Voice 68dB / Noise 69dB / Ring 77dB",
+        "Battery life": "Endurance rating 74h"
+      },
+      "Banner": {
+        "released-hl": "Released 2018, January",
+        "body-hl": "172g, 7mm thickness",
+        "os-hl": "Android 8.0, up to Android 9.0; EMUI 8",
+        "storage-hl": "128GB storage, microSD card slot",
+        "device_popularity": "1.7%",
+        "device_hits": "2,899,562 hits",
+        "displaysize-hl": "5.99\"",
+        "displayres-hl": "1080x2160 pixels",
+        "camerapixels-hl": "20",
+        "videopixels-hl": "2160p",
+        "ramsize-hl": "6",
+        "chipset-hl": "HiSilicon Kirin 970",
+        "batsize-hl": "3750",
+        "battype-hl": "Li-Po"
       }
     }
   }
