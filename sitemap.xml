@@ -1,792 +1,792 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-domain.example/</loc>
+    <loc>https://jahid124421.github.io/phonehub/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/brands.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/brands.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/compare.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/compare.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/news.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/news.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/about.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/contact.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/privacy.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/terms.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/terms.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/disclosure.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/disclosure.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=apple</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=apple</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=samsung</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=samsung</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=google</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=google</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=xiaomi</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=xiaomi</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=oneplus</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=oneplus</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=oppo</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=oppo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=vivo</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=vivo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=realme</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=realme</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=motorola</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=motorola</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=asus</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=asus</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=sony</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=sony</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=nokia</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=nokia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/search.html?brand=honor</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=honor</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-xs-max.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xs-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-xs.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-xr.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xr.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-8-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-8-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-8.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-8.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-7-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-se.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-se.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-6s-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6s-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-6s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/apple-iphone-6-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-fold.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-fold.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-s10-5g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10-5g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-s10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-s10e.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-m30.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-m30.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-a50.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a50.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-a30.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a30.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-m20.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-m20.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-a8s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a8s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-a9--2018.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a9--2018.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/samsung-galaxy-note9.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-note9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel-3-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-3-xl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel-2-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-2-xl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-xl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/google-pixel.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-redmi-note-7-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-7-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-mix-3-5g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-mix-3-5g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-9-explorer.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9-explorer.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-9-se.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9-se.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-9.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-redmi-note-7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-mix-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-mix-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-black-shark-helo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-black-shark-helo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-redmi-note-6-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-6-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-8-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-8-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/xiaomi-mi-8-lite.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-8-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-6t-mclaren.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6t-mclaren.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-6t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-6.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-5t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-5t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-5.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-5.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-3t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-3t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oneplus-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-f11.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f11.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-f11-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f11-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-r15x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-r15x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-rx17-neo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-rx17-neo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-k1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-k1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-a7x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-a7x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-rx17-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-rx17-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-r17.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-r17.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-f9--f9-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f9--f9-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-a3s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-a3s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-find-x-lamborghini.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-find-x-lamborghini.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/oppo-find-x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/oppo-find-x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-v15.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v15.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-iqoo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-iqoo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-v15-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v15-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-nex-dual-display.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-dual-display.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-z3i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-z3i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-v11i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v11i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-x23.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x23.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-v11--v11-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v11--v11-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-nex-s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-nex-a.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-x21i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x21i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/vivo-x21-ud.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x21-ud.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/realme-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/realme-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/realme-u1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/realme-u1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/realme-2-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/realme-2-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-g7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-g7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-g7-power.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-power.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-g7-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-one--p30-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-one--p30-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-one-power--p30-note.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-one-power--p30-note.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-z3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-z3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-z3-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-z3-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-e5-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-e5-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-e5.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/motorola-moto-g6-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g6-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-max-pro--m2--zb631kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-pro--m2--zb631kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-max--m1--zb556kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max--m1--zb556kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-rog-phone.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-rog-phone.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-max-pro--m1--zb601kl-zb602k.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-pro--m1--zb601kl-zb602k.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-5z-zs620kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5z-zs620kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-5-ze620kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5-ze620kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-5-lite-zc600kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5-lite-zc600kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-max--m1--zb555kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max--m1--zb555kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-max-plus--m1--zb570tl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-plus--m1--zb570tl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-v-v520kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-v-v520kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-4-pro-zs551kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-4-pro-zs551kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/asus-zenfone-4-ze554kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-4-ze554kl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-10-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-10-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-l3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-l3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xz3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xa2-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xz2-premium.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2-premium.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xz2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xz2-compact.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2-compact.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xa2-ultra.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xa2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/sony-xperia-xz1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-9-pureview.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-9-pureview.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-3-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-3-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-8-1--nokia-x7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8-1--nokia-x7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-106--2018.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-106--2018.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-7-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-7-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-6-1-plus--nokia-x6.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-6-1-plus--nokia-x6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-5-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-5-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-3-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-3-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-2-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-2-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-8110-4g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8110-4g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-8-sirocco.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8-sirocco.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/nokia-7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nokia-7-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-magic-2-3d.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-magic-2-3d.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-view-20.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-view-20.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-magic-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-magic-2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-10-lite.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-10-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-8c.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-8c.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-8x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-8x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-8x-max.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-8x-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-note-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-note-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-play.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-7x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-7x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://your-domain.example/phone/honor-view-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/honor-view-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
