@@ -27,14 +27,108 @@
     return PH.linkPrefix() + src;
   };
 
+  /* ---------- premium brand monograms ---------- */
+  PH.BRAND_COLORS = {
+    apple: "#7d7d7d", samsung: "#1428a0", google: "#1a73e8", xiaomi: "#ff6900",
+    oneplus: "#eb0028", nothing: "#111111", vivo: "#4d5bff", realme: "#ffc915",
+    oppo: "#1ba784", motorola: "#5c92fc", asus: "#31009c", sony: "#0b0b0b",
+    nokia: "#124191", honor: "#00b0e9", huawei: "#c7000b"
+  };
+  PH.brandBadge = (brandId, name, big) => {
+    const color = PH.BRAND_COLORS[brandId] || "var(--primary)";
+    const letter = ((name || brandId || "?").trim()[0] || "?").toUpperCase();
+    return `<span class="brand-badge${big ? " brand-badge-lg" : ""}" style="--bc:${color}">${letter}</span>`;
+  };
+
+  /* ================= multi-currency ================= */
+  PH.CCY = {
+    USD: { s: "$", n: "US Dollar" }, EUR: { s: "\u20ac", n: "Euro" }, GBP: { s: "\u00a3", n: "British Pound" },
+    INR: { s: "\u20b9", n: "Indian Rupee" }, NGN: { s: "\u20a6", n: "Nigerian Naira" }, JPY: { s: "\u00a5", n: "Japanese Yen" },
+    CNY: { s: "\u00a5", n: "Chinese Yuan" }, AUD: { s: "A$", n: "Australian Dollar" }, CAD: { s: "C$", n: "Canadian Dollar" },
+    AED: { s: "\u062f.\u0625", n: "UAE Dirham" }, PKR: { s: "\u20a8", n: "Pakistani Rupee" }, BDT: { s: "\u09f3", n: "Bangladeshi Taka" },
+    BRL: { s: "R$", n: "Brazilian Real" }, ZAR: { s: "R", n: "South African Rand" }, RUB: { s: "\u20bd", n: "Russian Ruble" },
+    KRW: { s: "\u20a9", n: "Korean Won" }, IDR: { s: "Rp", n: "Indonesian Rupiah" }, TRY: { s: "\u20ba", n: "Turkish Lira" },
+    SAR: { s: "\ufdfc", n: "Saudi Riyal" }, MXN: { s: "MX$", n: "Mexican Peso" }, PHP: { s: "\u20b1", n: "Philippine Peso" }
+  };
+  PH._ccy = { code: "USD", rate: 1 };
+
+  PH.money = (usd) => {
+    if (!usd) return "Check price";
+    const c = PH._ccy, info = PH.CCY[c.code] || { s: "$" };
+    const val = usd * (c.rate || 1);
+    const dec = ["JPY", "KRW", "IDR", "NGN"].includes(c.code) ? 0 : (val >= 1000 ? 0 : 2);
+    return info.s + val.toLocaleString("en-US", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+  };
+
+  PH._loadCcyCache = () => {
+    try {
+      const saved = JSON.parse(localStorage.getItem("ph_ccy") || "null");
+      if (saved && saved.code && PH.CCY[saved.code]) PH._ccy = saved;
+    } catch (e) {}
+  };
+  PH._saveCcy = () => localStorage.setItem("ph_ccy", JSON.stringify(PH._ccy));
+
+  PH._fetchRates = async () => {
+    const cached = JSON.parse(localStorage.getItem("ph_rates") || "null");
+    const fresh = cached && (Date.now() - cached.t < 24 * 3600 * 1000);
+    if (fresh) return cached.rates;
+    try {
+      const r = await fetch("https://open.er-api.com/v6/latest/USD");
+      const d = await r.json();
+      if (d && d.rates) { localStorage.setItem("ph_rates", JSON.stringify({ t: Date.now(), rates: d.rates })); return d.rates; }
+    } catch (e) {}
+    return cached ? cached.rates : null;
+  };
+
+  PH._detectCountryCcy = async () => {
+    try {
+      const r = await fetch("https://ipwho.is/?fields=currency_code");
+      const d = await r.json();
+      if (d && d.currency_code && PH.CCY[d.currency_code]) return d.currency_code;
+    } catch (e) {}
+    return "USD";
+  };
+
+  PH.setCurrency = (code, rates) => {
+    if (!PH.CCY[code]) code = "USD";
+    PH._ccy = { code, rate: (rates && rates[code]) ? rates[code] : (code === "USD" ? 1 : PH._ccy.rate) };
+    PH._saveCcy();
+  };
+
+  PH.initCurrency = async () => {
+    PH._loadCcyCache();               // returning visitors keep their choice; new visitors default to USD
+    PH.renderCurrencyPicker();        // show the switcher immediately
+    const rates = await PH._fetchRates();   // refresh rates in the background for accurate conversion
+    if (rates && PH._ccy.code !== "USD") { PH.setCurrency(PH._ccy.code, rates); }
+  };
+
+  PH.renderCurrencyPicker = () => {
+    const header = document.querySelector(".header-inner");
+    if (!header) return;
+    let sel = document.getElementById("ccyPicker");
+    if (!sel) {
+      sel = document.createElement("select");
+      sel.id = "ccyPicker";
+      sel.className = "ccy-picker";
+      sel.setAttribute("aria-label", "Currency");
+      header.insertBefore(sel, document.getElementById("navToggle") || null);
+      sel.addEventListener("change", () => {
+        const rates = JSON.parse(localStorage.getItem("ph_rates") || "null");
+        PH.setCurrency(sel.value, rates && rates.rates);
+        location.reload();
+      });
+    }
+    sel.innerHTML = Object.keys(PH.CCY).map((c) =>
+      `<option value="${c}" ${c === PH._ccy.code ? "selected" : ""}>${c} ${PH.CCY[c].s}</option>`).join("");
+  };
+
   /* ---------- data access ---------- */
   PH.getPhones = () => window.PHONES || [];
   PH.getPhone = (id) => PH.getPhones().find((p) => p.id === id) || null;
   PH.getBrand = (id) => (window.BRANDS || []).find((b) => b.id === id) || { name: id, logo: "📱" };
 
-  /* ---------- formatting ---------- */
-  PH.formatPrice = (n) =>
-    n ? "₹" + Number(n).toLocaleString("en-IN") : "Check price";
+  /* ---------- formatting (prices are stored in USD, shown in chosen currency) ---------- */
+  PH.formatPrice = (n) => PH.money(n);
 
   PH.lowestPrice = (phone) => {
     const known = (phone.prices || []).map((p) => p.price).filter((x) => x);
@@ -74,7 +168,7 @@
         <a class="card-link" href="${PH.phoneUrl(phone.id)}">
           <div class="card-img"><img src="${PH.imgUrl(phone.image)}" alt="${phone.name}" loading="lazy" data-fb="${phone.fallbackImg || ""}" onerror="this.onerror=null;this.src=PH.imgUrl(this.dataset.fb)"></div>
           <div class="card-body">
-            <span class="card-brand">${b.logo} ${b.name}</span>
+            <span class="card-brand">${PH.brandBadge(phone.brand, b.name)} ${b.name}</span>
             <h3 class="card-title">${phone.name}</h3>
             <div class="card-rating">${phone.rating ? `★ ${phone.rating} <span>(${phone.reviewCount})</span>` : "<span>Not yet rated</span>"}</div>
             <div class="card-price">${price}</div>
@@ -91,15 +185,21 @@
     const date = n.date
       ? new Date(n.date).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })
       : "";
-    const meta = [n.source, date].filter(Boolean).join(" · ");
+    const meta = [n.source, date].filter(Boolean).join(" \u00b7 ");
+    const thumb = n.image
+      ? `<div class="news-thumb"><img src="${n.image}" alt="" loading="lazy" onerror="this.closest('.news-thumb').style.display='none'"></div>`
+      : "";
     const inner = `
-       <span class="tag">${n.tag || "News"}</span>
-       <h3>${n.title}</h3>
-       <p>${n.excerpt || ""}</p>
-       <span class="date">${meta}</span>`;
+       ${thumb}
+       <div class="news-body">
+         <span class="tag">${n.tag || "News"}</span>
+         <h3>${n.title}</h3>
+         <p>${n.excerpt || ""}</p>
+         <span class="date">${meta}</span>
+       </div>`;
     return n.url
-      ? `<a class="news-card" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
-      : `<article class="news-card">${inner}</article>`;
+      ? `<a class="news-card${n.image ? " has-thumb" : ""}" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
+      : `<article class="news-card${n.image ? " has-thumb" : ""}">${inner}</article>`;
   };
 
   /* ---------- floating compare bar ---------- */
@@ -214,6 +314,7 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     PH.initTheme();
+    PH.initCurrency();
     PH.renderCompareBar();
     PH.wireSearch();
     PH.renderFooterLegal();

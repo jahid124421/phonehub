@@ -53,7 +53,7 @@ Return JSON with exactly these fields:
   "review": "2-3 original sentences summarizing who this phone is for",
   "pros": ["3 to 5 short pros"],
   "cons": ["2 to 4 short cons"],
-  "rating": 4.3,          // number between 3.4 and 4.9, one decimal
+  "rating": 4.3,          // number between 3.0 and 5.0, one decimal
   "popularity": 78         // integer 40-99 reflecting mainstream appeal
 }}"""
 
@@ -171,7 +171,7 @@ def main():
                 "review": str(out.get("review", "")).strip(),
                 "pros": [str(x) for x in (out.get("pros") or [])][:5],
                 "cons": [str(x) for x in (out.get("cons") or [])][:4],
-                "rating": round(clamp(out.get("rating"), 3.4, 4.9, 4.2), 1),
+                "rating": round(clamp(out.get("rating"), 3.0, 5.0, 4.2), 1),
                 "popularity": int(clamp(out.get("popularity"), 40, 99, 60)),
             }
             done += 1

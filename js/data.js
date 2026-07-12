@@ -78,6 +78,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 17e",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17e-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-17e.svg",
     "releaseDate": "Released 2026, March 11",
     "basePrice": 0,
@@ -97,7 +98,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2017e"
+        "url": "https://www.amazon.com/s?k=iPhone%2017e"
       },
       {
         "store": "Flipkart",
@@ -199,6 +200,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 17 Pro Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-17-pro-max.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
@@ -218,7 +220,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2017%20Pro%20Max"
+        "url": "https://www.amazon.com/s?k=iPhone%2017%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -319,6 +321,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 17 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-17-pro.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
@@ -338,7 +341,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2017%20Pro"
+        "url": "https://www.amazon.com/s?k=iPhone%2017%20Pro"
       },
       {
         "store": "Flipkart",
@@ -440,6 +443,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone Air",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-air-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-air.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
@@ -459,7 +463,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%20Air"
+        "url": "https://www.amazon.com/s?k=iPhone%20Air"
       },
       {
         "store": "Flipkart",
@@ -559,6 +563,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 17",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-17.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
@@ -578,7 +583,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2017"
+        "url": "https://www.amazon.com/s?k=iPhone%2017"
       },
       {
         "store": "Flipkart",
@@ -680,6 +685,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 16e",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-16e.svg",
     "releaseDate": "Released 2025, February 28",
     "basePrice": 0,
@@ -699,7 +705,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2016e"
+        "url": "https://www.amazon.com/s?k=iPhone%2016e"
       },
       {
         "store": "Flipkart",
@@ -797,6 +803,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 16 Pro Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-16-pro-max.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
@@ -816,7 +823,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2016%20Pro%20Max"
+        "url": "https://www.amazon.com/s?k=iPhone%2016%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -917,6 +924,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 16 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-16-pro.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
@@ -936,7 +944,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2016%20Pro"
+        "url": "https://www.amazon.com/s?k=iPhone%2016%20Pro"
       },
       {
         "store": "Flipkart",
@@ -1036,6 +1044,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 16 Plus",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-plus-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-16-plus.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
@@ -1055,7 +1064,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2016%20Plus"
+        "url": "https://www.amazon.com/s?k=iPhone%2016%20Plus"
       },
       {
         "store": "Flipkart",
@@ -1154,6 +1163,7 @@ window.PHONES = [
     "brand": "apple",
     "name": "iPhone 16",
     "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-1.jpg",
+    "images": [],
     "fallbackImg": "img/iphone-16.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
@@ -1173,7 +1183,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iPhone%2016"
+        "url": "https://www.amazon.com/s?k=iPhone%2016"
       },
       {
         "store": "Flipkart",
@@ -1271,6 +1281,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy M47",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m47-11.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-m47.svg",
     "releaseDate": "Released 2026, July 04",
     "basePrice": 0,
@@ -1290,7 +1301,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20M47"
+        "url": "https://www.amazon.com/s?k=Galaxy%20M47"
       },
       {
         "store": "Flipkart",
@@ -1388,6 +1399,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy A27",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a27-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-a27.svg",
     "releaseDate": "Released 2026, July 03",
     "basePrice": 0,
@@ -1407,7 +1419,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20A27"
+        "url": "https://www.amazon.com/s?k=Galaxy%20A27"
       },
       {
         "store": "Flipkart",
@@ -1506,6 +1518,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy A57",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a57-4.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-a57.svg",
     "releaseDate": "Released 2026, April 9",
     "basePrice": 0,
@@ -1525,7 +1538,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20A57"
+        "url": "https://www.amazon.com/s?k=Galaxy%20A57"
       },
       {
         "store": "Flipkart",
@@ -1622,6 +1635,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy A37",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a37-4.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-a37.svg",
     "releaseDate": "Released 2026, April 9",
     "basePrice": 0,
@@ -1641,7 +1655,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20A37"
+        "url": "https://www.amazon.com/s?k=Galaxy%20A37"
       },
       {
         "store": "Flipkart",
@@ -1741,6 +1755,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy M17e",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m17e-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-m17e.svg",
     "releaseDate": "Released 2026, March 17",
     "basePrice": 0,
@@ -1760,7 +1775,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20M17e"
+        "url": "https://www.amazon.com/s?k=Galaxy%20M17e"
       },
       {
         "store": "Flipkart",
@@ -1856,6 +1871,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy S26 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s26-ultra-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-s26-ultra.svg",
     "releaseDate": "Released 2026, March 06",
     "basePrice": 0,
@@ -1875,7 +1891,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20S26%20Ultra"
+        "url": "https://www.amazon.com/s?k=Galaxy%20S26%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -1977,6 +1993,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy S26+",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s26-plus-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-s26.svg",
     "releaseDate": "Released 2026, March 06",
     "basePrice": 0,
@@ -1996,7 +2013,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20S26"
+        "url": "https://www.amazon.com/s?k=Galaxy%20S26"
       },
       {
         "store": "Flipkart",
@@ -2097,6 +2114,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy S26",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s26-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-s26.svg",
     "releaseDate": "Released 2026, March 06",
     "basePrice": 0,
@@ -2116,7 +2134,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20S26"
+        "url": "https://www.amazon.com/s?k=Galaxy%20S26"
       },
       {
         "store": "Flipkart",
@@ -2217,6 +2235,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy F70e",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-f70e-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-f70e.svg",
     "releaseDate": "Released 2026, February 17",
     "basePrice": 0,
@@ -2236,7 +2255,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20F70e"
+        "url": "https://www.amazon.com/s?k=Galaxy%20F70e"
       },
       {
         "store": "Flipkart",
@@ -2333,6 +2352,7 @@ window.PHONES = [
     "brand": "samsung",
     "name": "Galaxy A07",
     "image": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a07-5g-1.jpg",
+    "images": [],
     "fallbackImg": "img/galaxy-a07.svg",
     "releaseDate": "Released 2026, January 13",
     "basePrice": 0,
@@ -2352,7 +2372,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Galaxy%20A07"
+        "url": "https://www.amazon.com/s?k=Galaxy%20A07"
       },
       {
         "store": "Flipkart",
@@ -2448,6 +2468,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 10a",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-10a-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-10a.svg",
     "releaseDate": "Released 2026, March 05",
     "basePrice": 0,
@@ -2467,7 +2488,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%2010a"
+        "url": "https://www.amazon.com/s?k=Pixel%2010a"
       },
       {
         "store": "Flipkart",
@@ -2564,6 +2585,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 10 Pro Fold",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-10-pro-fold-00.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-10-pro-fold.svg",
     "releaseDate": "Released 2025, October 09",
     "basePrice": 0,
@@ -2583,7 +2605,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro%20Fold"
+        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro%20Fold"
       },
       {
         "store": "Flipkart",
@@ -2684,6 +2706,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 10 Pro XL",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-10-pro-xl-11.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-10-pro-xl.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
@@ -2703,7 +2726,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro%20XL"
+        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro%20XL"
       },
       {
         "store": "Flipkart",
@@ -2802,6 +2825,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 10 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-10-pro-11.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-10-pro.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
@@ -2821,7 +2845,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro"
+        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro"
       },
       {
         "store": "Flipkart",
@@ -2922,6 +2946,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 10",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-10-11.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-10.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
@@ -2941,7 +2966,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%2010"
+        "url": "https://www.amazon.com/s?k=Pixel%2010"
       },
       {
         "store": "Flipkart",
@@ -3042,6 +3067,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 9a",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9a-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-9a.svg",
     "releaseDate": "Released 2025, April 10",
     "basePrice": 0,
@@ -3061,7 +3087,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%209a"
+        "url": "https://www.amazon.com/s?k=Pixel%209a"
       },
       {
         "store": "Flipkart",
@@ -3160,6 +3186,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 9 Pro XL",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-xl-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-9-pro-xl.svg",
     "releaseDate": "Released 2024, August 22",
     "basePrice": 0,
@@ -3179,7 +3206,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro%20XL"
+        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro%20XL"
       },
       {
         "store": "Flipkart",
@@ -3279,6 +3306,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 9 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-9-pro.svg",
     "releaseDate": "Released 2024, September 09",
     "basePrice": 0,
@@ -3298,7 +3326,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro"
+        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro"
       },
       {
         "store": "Flipkart",
@@ -3396,6 +3424,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 9",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-9.svg",
     "releaseDate": "Released 2024, August 22",
     "basePrice": 0,
@@ -3415,7 +3444,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%209"
+        "url": "https://www.amazon.com/s?k=Pixel%209"
       },
       {
         "store": "Flipkart",
@@ -3514,6 +3543,7 @@ window.PHONES = [
     "brand": "google",
     "name": "Pixel 9 Pro Fold",
     "image": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-9-pro-fold-1.jpg",
+    "images": [],
     "fallbackImg": "img/pixel-9-pro-fold.svg",
     "releaseDate": "Released 2024, September 04",
     "basePrice": 0,
@@ -3533,7 +3563,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro%20Fold"
+        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro%20Fold"
       },
       {
         "store": "Flipkart",
@@ -3633,6 +3663,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Redmi K90 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-k90-ultra-1.jpg",
+    "images": [],
     "fallbackImg": "img/redmi-k90-ultra.svg",
     "releaseDate": "Released 2026, June 30",
     "basePrice": 0,
@@ -3652,7 +3683,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Redmi%20K90%20Ultra"
+        "url": "https://www.amazon.com/s?k=Redmi%20K90%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -3749,6 +3780,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Redmi 17C",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-17c-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/redmi-17c.svg",
     "releaseDate": "Released 2026, June 23",
     "basePrice": 0,
@@ -3768,7 +3800,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Redmi%2017C"
+        "url": "https://www.amazon.com/s?k=Redmi%2017C"
       },
       {
         "store": "Flipkart",
@@ -3860,6 +3892,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "17T Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-17t-pro-0.jpg",
+    "images": [],
     "fallbackImg": "img/17t-pro.svg",
     "releaseDate": "Released 2026, May 28",
     "basePrice": 0,
@@ -3879,7 +3912,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=17T%20Pro"
+        "url": "https://www.amazon.com/s?k=17T%20Pro"
       },
       {
         "store": "Flipkart",
@@ -3979,6 +4012,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "17T",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-17t-0.jpg",
+    "images": [],
     "fallbackImg": "img/17t.svg",
     "releaseDate": "Released 2026, May 28",
     "basePrice": 0,
@@ -3998,7 +4032,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=17T"
+        "url": "https://www.amazon.com/s?k=17T"
       },
       {
         "store": "Flipkart",
@@ -4097,6 +4131,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "17 Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-17-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/17-max.svg",
     "releaseDate": "Released 2026, May 21",
     "basePrice": 0,
@@ -4116,7 +4151,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=17%20Max"
+        "url": "https://www.amazon.com/s?k=17%20Max"
       },
       {
         "store": "Flipkart",
@@ -4214,6 +4249,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Poco C81 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-c81-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/poco-c81-pro.svg",
     "releaseDate": "Released 2026, April 27",
     "basePrice": 0,
@@ -4233,7 +4269,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Poco%20C81%20Pro"
+        "url": "https://www.amazon.com/s?k=Poco%20C81%20Pro"
       },
       {
         "store": "Flipkart",
@@ -4328,6 +4364,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Poco C81",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-c81-1.jpg",
+    "images": [],
     "fallbackImg": "img/poco-c81.svg",
     "releaseDate": "Released 2026, April 23",
     "basePrice": 0,
@@ -4347,7 +4384,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Poco%20C81"
+        "url": "https://www.amazon.com/s?k=Poco%20C81"
       },
       {
         "store": "Flipkart",
@@ -4441,6 +4478,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Poco C81x",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-c81x-2.jpg",
+    "images": [],
     "fallbackImg": "img/poco-c81x.svg",
     "releaseDate": "Released 2026, April 23",
     "basePrice": 0,
@@ -4460,7 +4498,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Poco%20C81x"
+        "url": "https://www.amazon.com/s?k=Poco%20C81x"
       },
       {
         "store": "Flipkart",
@@ -4553,6 +4591,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Redmi K90 Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-k90-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/redmi-k90-max.svg",
     "releaseDate": "Released 2026, April 21",
     "basePrice": 0,
@@ -4572,7 +4611,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Redmi%20K90%20Max"
+        "url": "https://www.amazon.com/s?k=Redmi%20K90%20Max"
       },
       {
         "store": "Flipkart",
@@ -4671,6 +4710,7 @@ window.PHONES = [
     "brand": "xiaomi",
     "name": "Redmi A7 Pro",
     "image": "img/redmi-a7-pro.svg",
+    "images": [],
     "fallbackImg": "img/redmi-a7-pro.svg",
     "releaseDate": "Released 2026, April 15",
     "basePrice": 0,
@@ -4690,7 +4730,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Redmi%20A7%20Pro"
+        "url": "https://www.amazon.com/s?k=Redmi%20A7%20Pro"
       },
       {
         "store": "Flipkart",
@@ -4785,6 +4825,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "N6",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-n6-1.jpg",
+    "images": [],
     "fallbackImg": "img/n6.svg",
     "releaseDate": "Released 2026, July 04",
     "basePrice": 0,
@@ -4804,7 +4845,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=N6"
+        "url": "https://www.amazon.com/s?k=N6"
       },
       {
         "store": "Flipkart",
@@ -4898,6 +4939,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Turbo 6X Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6x-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/turbo-6x-pro.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
@@ -4917,7 +4959,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Turbo%206X%20Pro"
+        "url": "https://www.amazon.com/s?k=Turbo%206X%20Pro"
       },
       {
         "store": "Flipkart",
@@ -5010,6 +5052,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Turbo 6X",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6x-1.jpg",
+    "images": [],
     "fallbackImg": "img/turbo-6x.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
@@ -5029,7 +5072,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Turbo%206X"
+        "url": "https://www.amazon.com/s?k=Turbo%206X"
       },
       {
         "store": "Flipkart",
@@ -5122,6 +5165,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Nord CE6",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6v-11.jpg",
+    "images": [],
     "fallbackImg": "img/nord-ce6.svg",
     "releaseDate": "Released 2026, May 08",
     "basePrice": 0,
@@ -5141,7 +5185,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Nord%20CE6"
+        "url": "https://www.amazon.com/s?k=Nord%20CE6"
       },
       {
         "store": "Flipkart",
@@ -5235,6 +5279,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Nord CE6 Lite",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-6-lite-1.jpg",
+    "images": [],
     "fallbackImg": "img/nord-ce6-lite.svg",
     "releaseDate": "Released 2026, May 12",
     "basePrice": 0,
@@ -5254,7 +5299,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Nord%20CE6%20Lite"
+        "url": "https://www.amazon.com/s?k=Nord%20CE6%20Lite"
       },
       {
         "store": "Flipkart",
@@ -5349,6 +5394,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Ace 6 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-ace-6-ultra-1.jpg",
+    "images": [],
     "fallbackImg": "img/ace-6-ultra.svg",
     "releaseDate": "Released 2026, April 28",
     "basePrice": 0,
@@ -5368,7 +5414,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Ace%206%20Ultra"
+        "url": "https://www.amazon.com/s?k=Ace%206%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -5466,6 +5512,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Nord 6",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6-1.jpg",
+    "images": [],
     "fallbackImg": "img/nord-6.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
@@ -5485,7 +5532,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Nord%206"
+        "url": "https://www.amazon.com/s?k=Nord%206"
       },
       {
         "store": "Flipkart",
@@ -5585,6 +5632,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "15T",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-15t-1.jpg",
+    "images": [],
     "fallbackImg": "img/15t.svg",
     "releaseDate": "Released 2026, March 29",
     "basePrice": 0,
@@ -5604,7 +5652,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=15T"
+        "url": "https://www.amazon.com/s?k=15T"
       },
       {
         "store": "Flipkart",
@@ -5702,6 +5750,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Turbo 6",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6-1.jpg",
+    "images": [],
     "fallbackImg": "img/turbo-6.svg",
     "releaseDate": "Released 2026, January 09",
     "basePrice": 0,
@@ -5721,7 +5770,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Turbo%206"
+        "url": "https://www.amazon.com/s?k=Turbo%206"
       },
       {
         "store": "Flipkart",
@@ -5818,6 +5867,7 @@ window.PHONES = [
     "brand": "oneplus",
     "name": "Turbo 6V",
     "image": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-turbo-6v-11.jpg",
+    "images": [],
     "fallbackImg": "img/turbo-6v.svg",
     "releaseDate": "Released 2026, January 09",
     "basePrice": 0,
@@ -5837,7 +5887,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Turbo%206V"
+        "url": "https://www.amazon.com/s?k=Turbo%206V"
       },
       {
         "store": "Flipkart",
@@ -5934,6 +5984,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (4b)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-4b-1.jpg",
+    "images": [],
     "fallbackImg": "img/phone--4b.svg",
     "releaseDate": "Exp. release 2026, July 17",
     "basePrice": 0,
@@ -5953,7 +6004,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%284b%29"
+        "url": "https://www.amazon.com/s?k=Phone%20%284b%29"
       },
       {
         "store": "Flipkart",
@@ -6049,6 +6100,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (4a) Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-4a-pro-2.jpg",
+    "images": [],
     "fallbackImg": "img/phone--4a--pro.svg",
     "releaseDate": "Released 2026, March 05",
     "basePrice": 0,
@@ -6068,7 +6120,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%284a%29%20Pro"
+        "url": "https://www.amazon.com/s?k=Phone%20%284a%29%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6166,6 +6218,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (4a)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-4a-2.jpg",
+    "images": [],
     "fallbackImg": "img/phone--4a.svg",
     "releaseDate": "Released 2026, March 05",
     "basePrice": 0,
@@ -6185,7 +6238,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%284a%29"
+        "url": "https://www.amazon.com/s?k=Phone%20%284a%29"
       },
       {
         "store": "Flipkart",
@@ -6281,6 +6334,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (3a) Lite",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-3a-lite-1.jpg",
+    "images": [],
     "fallbackImg": "img/phone--3a--lite.svg",
     "releaseDate": "Released 2025, October 29",
     "basePrice": 0,
@@ -6300,7 +6354,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%283a%29%20Lite"
+        "url": "https://www.amazon.com/s?k=Phone%20%283a%29%20Lite"
       },
       {
         "store": "Flipkart",
@@ -6398,6 +6452,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (3)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-3-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/phone--3.svg",
     "releaseDate": "Released 2025, July 15",
     "basePrice": 0,
@@ -6417,7 +6472,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%283%29"
+        "url": "https://www.amazon.com/s?k=Phone%20%283%29"
       },
       {
         "store": "Flipkart",
@@ -6515,6 +6570,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "CMF Phone 2 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-cmf-phone-2-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/cmf-phone-2-pro.svg",
     "releaseDate": "Released 2025, May 05",
     "basePrice": 0,
@@ -6534,7 +6590,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=CMF%20Phone%202%20Pro"
+        "url": "https://www.amazon.com/s?k=CMF%20Phone%202%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6630,6 +6686,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (3a) Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-3a-pro-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/phone--3a--pro.svg",
     "releaseDate": "Released 2025, March 25",
     "basePrice": 0,
@@ -6649,7 +6706,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%283a%29%20Pro"
+        "url": "https://www.amazon.com/s?k=Phone%20%283a%29%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6744,6 +6801,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (3a)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-3a-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/phone--3a.svg",
     "releaseDate": "Released 2025, March 11",
     "basePrice": 0,
@@ -6763,7 +6821,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%283a%29"
+        "url": "https://www.amazon.com/s?k=Phone%20%283a%29"
       },
       {
         "store": "Flipkart",
@@ -6859,6 +6917,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "Phone (2a) Plus",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-2a-plus-00.jpg",
+    "images": [],
     "fallbackImg": "img/phone--2a--plus.svg",
     "releaseDate": "Released 2024, August 03",
     "basePrice": 0,
@@ -6878,7 +6937,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Phone%20%282a%29%20Plus"
+        "url": "https://www.amazon.com/s?k=Phone%20%282a%29%20Plus"
       },
       {
         "store": "Flipkart",
@@ -6975,6 +7034,7 @@ window.PHONES = [
     "brand": "nothing",
     "name": "CMF Phone 1",
     "image": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-cmf-phone-1-01.jpg",
+    "images": [],
     "fallbackImg": "img/cmf-phone-1.svg",
     "releaseDate": "Released 2024, July 09",
     "basePrice": 0,
@@ -6994,7 +7054,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=CMF%20Phone%201"
+        "url": "https://www.amazon.com/s?k=CMF%20Phone%201"
       },
       {
         "store": "Flipkart",
@@ -7089,6 +7149,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "Y500",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y500-4g-1.jpg",
+    "images": [],
     "fallbackImg": "img/y500.svg",
     "releaseDate": "Released 2026, July 07",
     "basePrice": 0,
@@ -7108,7 +7169,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Y500"
+        "url": "https://www.amazon.com/s?k=Y500"
       },
       {
         "store": "Flipkart",
@@ -7202,6 +7263,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "iQOO Z11i",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-iqoo-z11i-1.jpg",
+    "images": [],
     "fallbackImg": "img/iqoo-z11i.svg",
     "releaseDate": "Released 2026, April 06",
     "basePrice": 0,
@@ -7221,7 +7283,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iQOO%20Z11i"
+        "url": "https://www.amazon.com/s?k=iQOO%20Z11i"
       },
       {
         "store": "Flipkart",
@@ -7318,6 +7380,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "X Fold6",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x-fold6-11.jpg",
+    "images": [],
     "fallbackImg": "img/x-fold6.svg",
     "releaseDate": "Released 2026, July 01",
     "basePrice": 0,
@@ -7337,7 +7400,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=X%20Fold6"
+        "url": "https://www.amazon.com/s?k=X%20Fold6"
       },
       {
         "store": "Flipkart",
@@ -7437,6 +7500,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "IQOO Pad5c",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-iqoo-pad5c-1.jpg",
+    "images": [],
     "fallbackImg": "img/iqoo-pad5c.svg",
     "releaseDate": "Released 2026, June 01",
     "basePrice": 0,
@@ -7456,7 +7520,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=IQOO%20Pad5c"
+        "url": "https://www.amazon.com/s?k=IQOO%20Pad5c"
       },
       {
         "store": "Flipkart",
@@ -7548,6 +7612,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "V70 Lite",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-v70-lite-2.jpg",
+    "images": [],
     "fallbackImg": "img/v70-lite.svg",
     "releaseDate": "Released 2026, June 05",
     "basePrice": 0,
@@ -7567,7 +7632,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=V70%20Lite"
+        "url": "https://www.amazon.com/s?k=V70%20Lite"
       },
       {
         "store": "Flipkart",
@@ -7662,6 +7727,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "S60",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-s60-1.jpg",
+    "images": [],
     "fallbackImg": "img/s60.svg",
     "releaseDate": "Released 2026, June 03",
     "basePrice": 0,
@@ -7681,7 +7747,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=S60"
+        "url": "https://www.amazon.com/s?k=S60"
       },
       {
         "store": "Flipkart",
@@ -7778,6 +7844,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "S60e",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-s60e-1.jpg",
+    "images": [],
     "fallbackImg": "img/s60e.svg",
     "releaseDate": "Released 2026, June 03",
     "basePrice": 0,
@@ -7797,7 +7864,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=S60e"
+        "url": "https://www.amazon.com/s?k=S60e"
       },
       {
         "store": "Flipkart",
@@ -7894,6 +7961,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "T5",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-t5-1-.jpg",
+    "images": [],
     "fallbackImg": "img/t5.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
@@ -7913,7 +7981,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=T5"
+        "url": "https://www.amazon.com/s?k=T5"
       },
       {
         "store": "Flipkart",
@@ -8007,6 +8075,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "Y600 Turbo",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-y600-turbo-1.jpg",
+    "images": [],
     "fallbackImg": "img/y600-turbo.svg",
     "releaseDate": "Released 2026, May 27",
     "basePrice": 0,
@@ -8026,7 +8095,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Y600%20Turbo"
+        "url": "https://www.amazon.com/s?k=Y600%20Turbo"
       },
       {
         "store": "Flipkart",
@@ -8121,6 +8190,7 @@ window.PHONES = [
     "brand": "vivo",
     "name": "iQOO 15T",
     "image": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-iqoo-15t-r1.jpg",
+    "images": [],
     "fallbackImg": "img/iqoo-15t.svg",
     "releaseDate": "Released 2026, May 20",
     "basePrice": 0,
@@ -8140,7 +8210,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=iQOO%2015T"
+        "url": "https://www.amazon.com/s?k=iQOO%2015T"
       },
       {
         "store": "Flipkart",
@@ -8238,6 +8308,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "P4x 4G",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-p4x-4g-1.jpg",
+    "images": [],
     "fallbackImg": "img/p4x-4g.svg",
     "releaseDate": "Released 2026, June 23",
     "basePrice": 0,
@@ -8257,7 +8328,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=P4x%204G"
+        "url": "https://www.amazon.com/s?k=P4x%204G"
       },
       {
         "store": "Flipkart",
@@ -8350,6 +8421,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "P4R",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-p4r-1.jpg",
+    "images": [],
     "fallbackImg": "img/p4r.svg",
     "releaseDate": "Released 2026, June 17",
     "basePrice": 0,
@@ -8369,7 +8441,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=P4R"
+        "url": "https://www.amazon.com/s?k=P4R"
       },
       {
         "store": "Flipkart",
@@ -8463,6 +8535,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "16T",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-16t-1.jpg",
+    "images": [],
     "fallbackImg": "img/16t.svg",
     "releaseDate": "Released 2026, May 26",
     "basePrice": 0,
@@ -8482,7 +8555,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=16T"
+        "url": "https://www.amazon.com/s?k=16T"
       },
       {
         "store": "Flipkart",
@@ -8577,6 +8650,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "C100x",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-c100x-1.jpg",
+    "images": [],
     "fallbackImg": "img/c100x.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
@@ -8596,7 +8670,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=C100x"
+        "url": "https://www.amazon.com/s?k=C100x"
       },
       {
         "store": "Flipkart",
@@ -8691,6 +8765,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "C100i",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-c100i-1.jpg",
+    "images": [],
     "fallbackImg": "img/c100i.svg",
     "releaseDate": "Released 2026, May 07",
     "basePrice": 0,
@@ -8710,7 +8785,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=C100i"
+        "url": "https://www.amazon.com/s?k=C100i"
       },
       {
         "store": "Flipkart",
@@ -8804,6 +8879,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "Narzo 100 Lite",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-narzo-100-lite-1.jpg",
+    "images": [],
     "fallbackImg": "img/narzo-100-lite.svg",
     "releaseDate": "Released 2026, April 21",
     "basePrice": 0,
@@ -8823,7 +8899,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Narzo%20100%20Lite"
+        "url": "https://www.amazon.com/s?k=Narzo%20100%20Lite"
       },
       {
         "store": "Flipkart",
@@ -8919,6 +8995,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "C100 4G",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-c100-4g-1.jpg",
+    "images": [],
     "fallbackImg": "img/c100-4g.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
@@ -8938,7 +9015,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=C100%204G"
+        "url": "https://www.amazon.com/s?k=C100%204G"
       },
       {
         "store": "Flipkart",
@@ -9034,6 +9111,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "C100",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-c100-5g-1.jpg",
+    "images": [],
     "fallbackImg": "img/c100.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
@@ -9053,7 +9131,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=C100"
+        "url": "https://www.amazon.com/s?k=C100"
       },
       {
         "store": "Flipkart",
@@ -9148,6 +9226,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "P4 Lite",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-p4-lite-5g-1.jpg",
+    "images": [],
     "fallbackImg": "img/p4-lite.svg",
     "releaseDate": "Released 2026, March 19",
     "basePrice": 0,
@@ -9167,7 +9246,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=P4%20Lite"
+        "url": "https://www.amazon.com/s?k=P4%20Lite"
       },
       {
         "store": "Flipkart",
@@ -9261,6 +9340,7 @@ window.PHONES = [
     "brand": "realme",
     "name": "Note 80",
     "image": "https://fdn2.gsmarena.com/vv/pics/realme/realme-note80-1.jpg",
+    "images": [],
     "fallbackImg": "img/note-80.svg",
     "releaseDate": "Released 2026, March 10",
     "basePrice": 0,
@@ -9280,7 +9360,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Note%2080"
+        "url": "https://www.amazon.com/s?k=Note%2080"
       },
       {
         "store": "Flipkart",
@@ -9376,6 +9456,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16c",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-f-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16c.svg",
     "releaseDate": "Released 2026, July 09",
     "basePrice": 0,
@@ -9395,7 +9476,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16c"
+        "url": "https://www.amazon.com/s?k=Reno16c"
       },
       {
         "store": "Flipkart",
@@ -9492,6 +9573,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16-pro.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
@@ -9511,7 +9593,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16%20Pro"
+        "url": "https://www.amazon.com/s?k=Reno16%20Pro"
       },
       {
         "store": "Flipkart",
@@ -9610,6 +9692,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16.svg",
     "releaseDate": "Released 2026, July 09",
     "basePrice": 0,
@@ -9629,7 +9712,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16"
+        "url": "https://www.amazon.com/s?k=Reno16"
       },
       {
         "store": "Flipkart",
@@ -9728,6 +9811,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16 FS",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-f-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16-fs.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
@@ -9747,7 +9831,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16%20FS"
+        "url": "https://www.amazon.com/s?k=Reno16%20FS"
       },
       {
         "store": "Flipkart",
@@ -9843,6 +9927,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16 F",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-f-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16-f.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
@@ -9862,7 +9947,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16%20F"
+        "url": "https://www.amazon.com/s?k=Reno16%20F"
       },
       {
         "store": "Flipkart",
@@ -9960,6 +10045,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16 Pro (China)",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-pro-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16-pro--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
@@ -9979,7 +10065,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16%20Pro%20%28China%29"
+        "url": "https://www.amazon.com/s?k=Reno16%20Pro%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -10077,6 +10163,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Reno16 (China)",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-reno16-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/reno16--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
@@ -10096,7 +10183,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Reno16%20%28China%29"
+        "url": "https://www.amazon.com/s?k=Reno16%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -10194,6 +10281,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Find X9 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x9-ultra-5.jpg",
+    "images": [],
     "fallbackImg": "img/find-x9-ultra.svg",
     "releaseDate": "Released 2026, May 02",
     "basePrice": 0,
@@ -10213,7 +10301,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Find%20X9%20Ultra"
+        "url": "https://www.amazon.com/s?k=Find%20X9%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -10313,6 +10401,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Find X9s Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x9s-pro-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/find-x9s-pro.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
@@ -10332,7 +10421,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Find%20X9s%20Pro"
+        "url": "https://www.amazon.com/s?k=Find%20X9s%20Pro"
       },
       {
         "store": "Flipkart",
@@ -10429,6 +10518,7 @@ window.PHONES = [
     "brand": "oppo",
     "name": "Find X9s",
     "image": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x9s-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/find-x9s.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
@@ -10448,7 +10538,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Find%20X9s"
+        "url": "https://www.amazon.com/s?k=Find%20X9s"
       },
       {
         "store": "Flipkart",
@@ -10547,6 +10637,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G77 Power",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g77-power-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g77-power.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
@@ -10566,7 +10657,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G77%20Power"
+        "url": "https://www.amazon.com/s?k=Moto%20G77%20Power"
       },
       {
         "store": "Flipkart",
@@ -10664,6 +10755,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-g87-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g-max.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
@@ -10683,7 +10775,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G%20Max"
+        "url": "https://www.amazon.com/s?k=Moto%20G%20Max"
       },
       {
         "store": "Flipkart",
@@ -10778,6 +10870,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Edge (2026)",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-2026-1.jpg",
+    "images": [],
     "fallbackImg": "img/edge--2026.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
@@ -10797,7 +10890,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Edge%20%282026%29"
+        "url": "https://www.amazon.com/s?k=Edge%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -10894,6 +10987,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Edge 70 Pro+",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-70-pro-plus-1.jpg",
+    "images": [],
     "fallbackImg": "img/edge-70-pro.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
@@ -10913,7 +11007,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Edge%2070%20Pro%2B"
+        "url": "https://www.amazon.com/s?k=Edge%2070%20Pro%2B"
       },
       {
         "store": "Flipkart",
@@ -11012,6 +11106,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G87",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-g87-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g87.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
@@ -11031,7 +11126,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G87"
+        "url": "https://www.amazon.com/s?k=Moto%20G87"
       },
       {
         "store": "Flipkart",
@@ -11129,6 +11224,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G47",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-g47-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g47.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
@@ -11148,7 +11244,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G47"
+        "url": "https://www.amazon.com/s?k=Moto%20G47"
       },
       {
         "store": "Flipkart",
@@ -11245,6 +11341,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G37 Power",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-g37-power-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g37-power.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
@@ -11264,7 +11361,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G37%20Power"
+        "url": "https://www.amazon.com/s?k=Moto%20G37%20Power"
       },
       {
         "store": "Flipkart",
@@ -11360,6 +11457,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Moto G37",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-g37-1.jpg",
+    "images": [],
     "fallbackImg": "img/moto-g37.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
@@ -11379,7 +11477,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Moto%20G37"
+        "url": "https://www.amazon.com/s?k=Moto%20G37"
       },
       {
         "store": "Flipkart",
@@ -11474,6 +11572,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Razr Ultra 2026",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-ultra-2026-1.jpg",
+    "images": [],
     "fallbackImg": "img/razr-ultra-2026.svg",
     "releaseDate": "Released 2026, May 14",
     "basePrice": 0,
@@ -11493,7 +11592,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Razr%20Ultra%202026"
+        "url": "https://www.amazon.com/s?k=Razr%20Ultra%202026"
       },
       {
         "store": "Flipkart",
@@ -11587,6 +11686,7 @@ window.PHONES = [
     "brand": "motorola",
     "name": "Razr 70 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-ultra-2026-1.jpg",
+    "images": [],
     "fallbackImg": "img/razr-70-ultra.svg",
     "releaseDate": "Released 2026, April 29",
     "basePrice": 0,
@@ -11606,7 +11706,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Razr%2070%20Ultra"
+        "url": "https://www.amazon.com/s?k=Razr%2070%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -11704,6 +11804,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 1 VIII",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-viii-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-1-viii.svg",
     "releaseDate": "Released 2026, June 19",
     "basePrice": 0,
@@ -11723,7 +11824,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%201%20VIII"
+        "url": "https://www.amazon.com/s?k=Xperia%201%20VIII"
       },
       {
         "store": "Flipkart",
@@ -11822,6 +11923,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 10 VII",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-10-vii-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-10-vii.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
@@ -11841,7 +11943,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%2010%20VII"
+        "url": "https://www.amazon.com/s?k=Xperia%2010%20VII"
       },
       {
         "store": "Flipkart",
@@ -11941,6 +12043,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 1 VII",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-vii-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-1-vii.svg",
     "releaseDate": "Released 2025, June 04",
     "basePrice": 0,
@@ -11960,7 +12063,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%201%20VII"
+        "url": "https://www.amazon.com/s?k=Xperia%201%20VII"
       },
       {
         "store": "Flipkart",
@@ -12060,6 +12163,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 1 VI",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-vi-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-1-vi.svg",
     "releaseDate": "Released 2024, June 03",
     "basePrice": 0,
@@ -12079,7 +12183,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%201%20VI"
+        "url": "https://www.amazon.com/s?k=Xperia%201%20VI"
       },
       {
         "store": "Flipkart",
@@ -12179,6 +12283,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 10 VI",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-10mvi-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-10-vi.svg",
     "releaseDate": "Released 2024, June 13",
     "basePrice": 0,
@@ -12198,7 +12303,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%2010%20VI"
+        "url": "https://www.amazon.com/s?k=Xperia%2010%20VI"
       },
       {
         "store": "Flipkart",
@@ -12298,6 +12403,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 5 V",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-v-new-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-5-v.svg",
     "releaseDate": "Released 2023, September 25",
     "basePrice": 0,
@@ -12317,7 +12423,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%205%20V"
+        "url": "https://www.amazon.com/s?k=Xperia%205%20V"
       },
       {
         "store": "Flipkart",
@@ -12417,6 +12523,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 1 V",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-v-0.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-1-v.svg",
     "releaseDate": "Released 2023, July 28",
     "basePrice": 0,
@@ -12436,7 +12543,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%201%20V"
+        "url": "https://www.amazon.com/s?k=Xperia%201%20V"
       },
       {
         "store": "Flipkart",
@@ -12535,6 +12642,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 10 V",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-10-v-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-10-v.svg",
     "releaseDate": "Released 2023, June 21",
     "basePrice": 0,
@@ -12554,7 +12662,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%2010%20V"
+        "url": "https://www.amazon.com/s?k=Xperia%2010%20V"
       },
       {
         "store": "Flipkart",
@@ -12654,6 +12762,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 5 IV",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-5-iv-ecru-white.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-5-iv.svg",
     "releaseDate": "Released 2022, September 22",
     "basePrice": 0,
@@ -12673,7 +12782,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%205%20IV"
+        "url": "https://www.amazon.com/s?k=Xperia%205%20IV"
       },
       {
         "store": "Flipkart",
@@ -12772,6 +12881,7 @@ window.PHONES = [
     "brand": "sony",
     "name": "Xperia 1 IV",
     "image": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-iv-1.jpg",
+    "images": [],
     "fallbackImg": "img/xperia-1-iv.svg",
     "releaseDate": "Released 2022, June 11",
     "basePrice": 0,
@@ -12791,7 +12901,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Xperia%201%20IV"
+        "url": "https://www.amazon.com/s?k=Xperia%201%20IV"
       },
       {
         "store": "Flipkart",
@@ -12892,6 +13002,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "235 4G (2026)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-235-4g-2nd-edition-1.jpg",
+    "images": [],
     "fallbackImg": "img/235-4g--2026.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
@@ -12911,7 +13022,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=235%204G%20%282026%29"
+        "url": "https://www.amazon.com/s?k=235%204G%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -13000,6 +13111,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "215 4G (2026)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-215-4g-2nd-edition-1.jpg",
+    "images": [],
     "fallbackImg": "img/215-4g--2026.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
@@ -13019,7 +13131,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=215%204G%20%282026%29"
+        "url": "https://www.amazon.com/s?k=215%204G%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -13106,6 +13218,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "210 4G",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-210-4g-1.jpg",
+    "images": [],
     "fallbackImg": "img/210-4g.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
@@ -13125,7 +13238,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=210%204G"
+        "url": "https://www.amazon.com/s?k=210%204G"
       },
       {
         "store": "Flipkart",
@@ -13213,6 +13326,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "200 4G",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-200-4g-1.jpg",
+    "images": [],
     "fallbackImg": "img/200-4g.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
@@ -13232,7 +13346,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=200%204G"
+        "url": "https://www.amazon.com/s?k=200%204G"
       },
       {
         "store": "Flipkart",
@@ -13317,6 +13431,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "110 Power",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-110-power-1.jpg",
+    "images": [],
     "fallbackImg": "img/110-power.svg",
     "releaseDate": "Released 2026, February",
     "basePrice": 0,
@@ -13336,7 +13451,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=110%20Power"
+        "url": "https://www.amazon.com/s?k=110%20Power"
       },
       {
         "store": "Flipkart",
@@ -13421,6 +13536,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "150 Music",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-150-music-2025-1.jpg",
+    "images": [],
     "fallbackImg": "img/150-music.svg",
     "releaseDate": "Released 2025, March",
     "basePrice": 0,
@@ -13440,7 +13556,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=150%20Music"
+        "url": "https://www.amazon.com/s?k=150%20Music"
       },
       {
         "store": "Flipkart",
@@ -13530,6 +13646,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "130 Music",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-130-music-2025-1.jpg",
+    "images": [],
     "fallbackImg": "img/130-music.svg",
     "releaseDate": "Released 2025, March",
     "basePrice": 0,
@@ -13549,7 +13666,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=130%20Music"
+        "url": "https://www.amazon.com/s?k=130%20Music"
       },
       {
         "store": "Flipkart",
@@ -13634,6 +13751,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "110 4G 2nd Edition",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-110-4g-2nd-edition-0.jpg",
+    "images": [],
     "fallbackImg": "img/110-4g-2nd-edition.svg",
     "releaseDate": "Released 2024, December",
     "basePrice": 0,
@@ -13653,7 +13771,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=110%204G%202nd%20Edition"
+        "url": "https://www.amazon.com/s?k=110%204G%202nd%20Edition"
       },
       {
         "store": "Flipkart",
@@ -13741,6 +13859,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "105 4G 2nd Edition",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-105-4g-2nd-edition-1.jpg",
+    "images": [],
     "fallbackImg": "img/105-4g-2nd-edition.svg",
     "releaseDate": "Released 2024, December",
     "basePrice": 0,
@@ -13760,7 +13879,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=105%204G%202nd%20Edition"
+        "url": "https://www.amazon.com/s?k=105%204G%202nd%20Edition"
       },
       {
         "store": "Flipkart",
@@ -13844,6 +13963,7 @@ window.PHONES = [
     "brand": "nokia",
     "name": "108 4G (2024)",
     "image": "https://fdn2.gsmarena.com/vv/pics/nokia/nokia-108-4g-2024-1.jpg",
+    "images": [],
     "fallbackImg": "img/108-4g--2024.svg",
     "releaseDate": "Released 2024, November",
     "basePrice": 0,
@@ -13863,7 +13983,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=108%204G%20%282024%29"
+        "url": "https://www.amazon.com/s?k=108%204G%20%282024%29"
       },
       {
         "store": "Flipkart",
@@ -13945,6 +14065,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "X80 Pro Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-x80-pro-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/x80-pro-max.svg",
     "releaseDate": "Released 2026, June 22",
     "basePrice": 0,
@@ -13964,7 +14085,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=X80%20Pro%20Max"
+        "url": "https://www.amazon.com/s?k=X80%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -14060,6 +14181,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "600 Smart",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-600-smart-5g-1.jpg",
+    "images": [],
     "fallbackImg": "img/600-smart.svg",
     "releaseDate": "Released 2026, July",
     "basePrice": 0,
@@ -14079,7 +14201,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=600%20Smart"
+        "url": "https://www.amazon.com/s?k=600%20Smart"
       },
       {
         "store": "Flipkart",
@@ -14175,6 +14297,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "X70 Pro Max",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-x70-pro-max-1.jpg",
+    "images": [],
     "fallbackImg": "img/x70-pro-max.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
@@ -14194,7 +14317,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=X70%20Pro%20Max"
+        "url": "https://www.amazon.com/s?k=X70%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -14292,6 +14415,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "Play10",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-play10-5g-1.jpg",
+    "images": [],
     "fallbackImg": "img/play10.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
@@ -14311,7 +14435,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Play10"
+        "url": "https://www.amazon.com/s?k=Play10"
       },
       {
         "store": "Flipkart",
@@ -14406,6 +14530,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "Win Turbo",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-win-turbo-1.jpg",
+    "images": [],
     "fallbackImg": "img/win-turbo.svg",
     "releaseDate": "Released 2026, May 30",
     "basePrice": 0,
@@ -14425,7 +14550,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Win%20Turbo"
+        "url": "https://www.amazon.com/s?k=Win%20Turbo"
       },
       {
         "store": "Flipkart",
@@ -14523,6 +14648,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "600 Pro (China)",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-600-pro-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/600-pro--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
@@ -14542,7 +14668,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=600%20Pro%20%28China%29"
+        "url": "https://www.amazon.com/s?k=600%20Pro%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -14640,6 +14766,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "600 (China)",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-600-cn-1.jpg",
+    "images": [],
     "fallbackImg": "img/600--china.svg",
     "releaseDate": "Released 2026, June 01",
     "basePrice": 0,
@@ -14659,7 +14786,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=600%20%28China%29"
+        "url": "https://www.amazon.com/s?k=600%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -14757,6 +14884,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "600e",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-600-lite-1.jpg",
+    "images": [],
     "fallbackImg": "img/600e.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
@@ -14776,7 +14904,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=600e"
+        "url": "https://www.amazon.com/s?k=600e"
       },
       {
         "store": "Flipkart",
@@ -14870,6 +14998,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "X7e",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-x7e-3.jpg",
+    "images": [],
     "fallbackImg": "img/x7e.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
@@ -14889,7 +15018,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=X7e"
+        "url": "https://www.amazon.com/s?k=X7e"
       },
       {
         "store": "Flipkart",
@@ -14983,6 +15112,7 @@ window.PHONES = [
     "brand": "honor",
     "name": "500 Smart",
     "image": "https://fdn2.gsmarena.com/vv/pics/honor/honor-500-smart-1.jpg",
+    "images": [],
     "fallbackImg": "img/500-smart.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
@@ -15002,7 +15132,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=500%20Smart"
+        "url": "https://www.amazon.com/s?k=500%20Smart"
       },
       {
         "store": "Flipkart",
@@ -15095,6 +15225,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "Zenfone 12 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-12-ultra-1.jpg",
+    "images": [],
     "fallbackImg": "img/zenfone-12-ultra.svg",
     "releaseDate": "Released 2025, February 28",
     "basePrice": 0,
@@ -15114,7 +15245,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Zenfone%2012%20Ultra"
+        "url": "https://www.amazon.com/s?k=Zenfone%2012%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -15213,6 +15344,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 9 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-9-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-9-pro.svg",
     "releaseDate": "Released 2024, November 20",
     "basePrice": 0,
@@ -15232,7 +15364,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%209%20Pro"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%209%20Pro"
       },
       {
         "store": "Flipkart",
@@ -15331,6 +15463,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 9 FE",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-9-fe-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-9-fe.svg",
     "releaseDate": "Released 2025, February 04",
     "basePrice": 0,
@@ -15350,7 +15483,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%209%20FE"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%209%20FE"
       },
       {
         "store": "Flipkart",
@@ -15449,6 +15582,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 9",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-9-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-9.svg",
     "releaseDate": "Released 2024, November 20",
     "basePrice": 0,
@@ -15468,7 +15602,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%209"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%209"
       },
       {
         "store": "Flipkart",
@@ -15565,6 +15699,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "Zenfone 11 Ultra",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone-11-ultra-1.jpg",
+    "images": [],
     "fallbackImg": "img/zenfone-11-ultra.svg",
     "releaseDate": "Released 2024, April 14",
     "basePrice": 0,
@@ -15584,7 +15719,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Zenfone%2011%20Ultra"
+        "url": "https://www.amazon.com/s?k=Zenfone%2011%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -15683,6 +15818,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 8 Pro",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-pro-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-8-pro.svg",
     "releaseDate": "Released 2024, January 18",
     "basePrice": 0,
@@ -15702,7 +15838,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%208%20Pro"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%208%20Pro"
       },
       {
         "store": "Flipkart",
@@ -15801,6 +15937,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 8",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-8.svg",
     "releaseDate": "Released 2024, January 18",
     "basePrice": 0,
@@ -15820,7 +15957,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%208"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%208"
       },
       {
         "store": "Flipkart",
@@ -15919,6 +16056,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "Zenfone 10",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-zenfone10-0.jpg",
+    "images": [],
     "fallbackImg": "img/zenfone-10.svg",
     "releaseDate": "Released 2023, July 10",
     "basePrice": 0,
@@ -15938,7 +16076,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=Zenfone%2010"
+        "url": "https://www.amazon.com/s?k=Zenfone%2010"
       },
       {
         "store": "Flipkart",
@@ -16037,6 +16175,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 7 Ultimate",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-7-ultimate-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-7-ultimate.svg",
     "releaseDate": "Released 2023, May",
     "basePrice": 0,
@@ -16056,7 +16195,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%207%20Ultimate"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%207%20Ultimate"
       },
       {
         "store": "Flipkart",
@@ -16154,6 +16293,7 @@ window.PHONES = [
     "brand": "asus",
     "name": "ROG Phone 7",
     "image": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-7-1.jpg",
+    "images": [],
     "fallbackImg": "img/rog-phone-7.svg",
     "releaseDate": "Released 2023, May",
     "basePrice": 0,
@@ -16173,7 +16313,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.in/s?k=ROG%20Phone%207"
+        "url": "https://www.amazon.com/s?k=ROG%20Phone%207"
       },
       {
         "store": "Flipkart",
@@ -16268,408 +16408,453 @@ window.PHONES = [
 ];
 window.NEWS = [
   {
-    "id": "n981138122",
+    "id": "n319240956",
+    "title": "Ask HN: Can anyone explain this Gsearch rabbit-hole?",
+    "excerpt": "Okay this is very weird and even weirder to post to HN, but I don t know where else to share it (and I don t use most social media ) and I m really quite intrigued with what I ve …",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://news.ycombinator.com/item?id=48878919",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n7199222482",
+    "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
+    "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://wanderinghorse.net/gaming/paperback/solo.html",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n2258764276",
+    "title": "This ESP32-powered Pokedex connects to your emulator and shows stats in real time",
+    "excerpt": "Never use an uneffective move ever again.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.xda-developers.com/this-esp32-powered-pokedex-connects-to-your-emulator-and-shows-stats-in-real-time/",
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/esp32-pokedex-featured.jpg"
+  },
+  {
+    "id": "n3840898378",
+    "title": "Pop!_OS's COSMIC just got a frosted glass desktop style, and it looks amazing",
+    "excerpt": "I might need to give it a try.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.xda-developers.com/pop-oss-cosmic-just-got-a-frosted-glass-desktop-style-and-it-looks-amazing/",
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/pop-os-4-1.jpg"
+  },
+  {
+    "id": "n7984819679",
     "title": "Reed Jobs would rather talk about curing cancer than his last name",
     "excerpt": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the …",
     "date": "2026-07-12",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/11/reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n1801412268",
+    "id": "n3367006631",
     "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
     "excerpt": "A great app is getting even better.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/kde-plasma-68-will-finally-fix-the-worst-part-of-spectacle/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/03/kde-plasma-laptop.jpg"
   },
   {
-    "id": "n4438727198",
+    "id": "n5379281483",
     "title": "What If It's Not the Phones?",
     "excerpt": "What If It's Not the Phones?",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.theatlantic.com/technology/2026/07/phones-haidt-play-gray/687846/",
-    "source": "Hacker News"
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n2223120828",
+    "id": "n7614767511",
     "title": "This slushie machine was a lifesaver during NYC’s heat wave",
     "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n7526289655",
+    "id": "n1575669935",
     "title": "ICE are heavily armed killers. They’re also huge losers",
     "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
-    "source": "Theverge"
+    "source": "Theverge",
+    "image": ""
   },
   {
-    "id": "n6557120881",
+    "id": "n4839804105",
     "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
     "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
-    "source": "Theverge"
+    "source": "Theverge",
+    "image": ""
   },
   {
-    "id": "n2639978769",
+    "id": "n1289968084",
     "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
     "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2212973/phoebe-gates-ai-shopping-app-phia-affiliate-sales-fake-clicks/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/phoebe-gates-ai-shopping-app-phia-reportedly-claimed-unearned-affiliate-sales-through-fake-clicks/l-intro-1783801413.jpg"
   },
   {
-    "id": "n8399492305",
+    "id": "n574331506",
     "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
     "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
-    "source": "Theverge"
+    "source": "Theverge",
+    "image": ""
   },
   {
-    "id": "n8255952434",
+    "id": "n8989766769",
     "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
     "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2209518/eclipsa-video-explained-dolby-vision-hdr10-comparison/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/what-is-eclipsa-video-and-how-does-it-compare-to-dolby-vision-and-hdr10/l-intro-1783433207.jpg"
   },
   {
-    "id": "n5538765448",
+    "id": "n5276168986",
     "title": "Linux containers do what my Proxmox VMs couldn't: run a dozen services without wasting half my memory",
     "excerpt": "Linux containers replaced most of my Proxmox VMs, cutting memory use, speeding up restarts, and making a dozen services easier to manage.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/linux-containers-proxmox-vms-memory/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/linux-containers-do-what-my-proxmox-vms-couldnt.jpeg"
   },
   {
-    "id": "n4359271396",
+    "id": "n4541743532",
     "title": "Philips offers free replacements after update bricked smart lighting hubs",
     "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2212954/philips-free-replacements-hue-bridge-pro-update-bricked-smart-lighting-hubs/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/philips-offers-free-replacements-after-update-bricked-smart-lighting-hubs/l-intro-1783788631.jpg"
   },
   {
-    "id": "n3327834350",
+    "id": "n3317517747",
     "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
     "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n3056477779",
+    "id": "n7335328425",
     "title": "I love my dual-monitor setup, but these surprises caught me completely off guard",
     "excerpt": "I thought it would have only upside",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/problems-nobody-told-me-about-owning-a-two-monitor-setup/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/dual-monitor-setup-on-desk-with-gaming-chair.jpg"
   },
   {
-    "id": "n1678870284",
+    "id": "n6433331930",
     "title": "My AI coding workflow runs entirely through Discord, and it's faster than using an editor",
     "excerpt": "You can thank OpenClaw for this.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/ai-coding-workflow-runs-discord-faster-than-editor/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783369086854.jpg"
   },
   {
-    "id": "n1367421195",
+    "id": "n7677571297",
     "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
     "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/openais-head-of-safety-is-reportedly-leaving-as-part-of-company-reorganization/l-intro-1783783514.jpg"
   },
   {
-    "id": "n47021972",
+    "id": "n4865157413",
     "title": "Windows has too many backup tools, but this free app beats them all",
     "excerpt": "I stopped trusting Windows backups after learning what actually works",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/windows-has-too-many-backup-tools-but-this-app-beats-them-all/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/kopia-2.jpg"
   },
   {
-    "id": "n5693080946",
+    "id": "n4098149116",
     "title": "Which USB port should you use for your mouse and keyboard?",
     "excerpt": "Save your best ports for your most demanding devices.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2211086/which-usb-port-for-mouse-keyboard/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/which-usb-port-should-you-use-for-your-mouse-and-keyboard/l-intro-1783550097.jpg"
   },
   {
-    "id": "n6993720511",
+    "id": "n4519099087",
     "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
     "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.runaether.dev/",
-    "source": "Hacker News"
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n4111359624",
+    "id": "n3755966591",
     "title": "I didn't know my SSD was dying until Windows stopped booting",
     "excerpt": "Hardware failure isn't always easy to spot.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/pc-blue-screened-this-week-taught-me-to-monitor-ssd-health/",
-    "source": "Xda-Developers"
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/whatsapp-image-2026-07-09-at-15-06-34-4.jpeg"
   },
   {
-    "id": "n7380956236",
-    "title": "I used my calendar as a notes and task hub, and my workflow finally made sense",
-    "excerpt": "Why use separate apps when one will do?",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.xda-developers.com/used-my-calendar-as-notes-task-hub-workflow-finally-makes-sense/",
-    "source": "Xda-Developers"
-  },
-  {
-    "id": "n4689881812",
+    "id": "n1396870039",
     "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
     "excerpt": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the F…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.theverge.com/science/964478/white-house-avi-loeb-aliens-ufo-uap-council",
-    "source": "Theverge"
+    "source": "Theverge",
+    "image": ""
   },
   {
-    "id": "n2544842140",
+    "id": "n8553995344",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "excerpt": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n4409911811",
-    "title": "Show HN: Agent World – an open standard and live market for personal AI agents",
-    "excerpt": "Show HN: Agent World – an open standard and live market for personal AI agents",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://github.com/macrokit/agent-world",
-    "source": "Hacker News"
-  },
-  {
-    "id": "n6963882559",
+    "id": "n6977801479",
     "title": "Google deleting all recently inactive accounts without phone number",
     "excerpt": "Google is now deleting all accounts that do not, and have never had, phone numbers associated with them if they haven t logged in within a year or so. Urgent: Sign in to your Goog…",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://news.ycombinator.com/item?id=48872175",
-    "source": "Hacker News"
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n1665158019",
-    "title": "This single launcher does the work of 6 Windows utilities, and it's better than any optimization hack",
-    "excerpt": "Debloating can help your PC move a little faster, but if you really want to speed up your workflow, Raycast is where it's at.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.xda-developers.com/single-launcher-does-work-windows-utilities-better-than-optimization-hack/",
-    "source": "Xda-Developers"
-  },
-  {
-    "id": "n3808482300",
+    "id": "n1670271692",
     "title": "Engadget review recap: Steam Machine, Samsung Music Studio 7, Oura Ring 5 and more",
     "excerpt": "A roundup of recent reviews published by Engadget.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2212709/engadget-review-recap-steam-machine-samsung-music-studio-7/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/engadget-review-recap-steam-machine-samsung-music-studio-7-oura-ring-5-and-more/l-intro-1783713182.jpg"
   },
   {
-    "id": "n3310028800",
+    "id": "n210574729",
     "title": "Your Samsung Gallery won't be able to sync with Microsoft OneDrive soon",
     "excerpt": "Your photos don t have to go home, but they can t stay here.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2211948/samsung-gallery-no-longer-syncing-microsoft-onedrive-september-2026/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/your-samsung-gallery-wont-be-able-to-sync-with-microsoft-onedrive-soon/l-intro-1783629483.jpg"
   },
   {
-    "id": "n4501280581",
+    "id": "n5050387290",
     "title": "Bluesky has an official CEO again",
     "excerpt": "Toni Schneider, who took over after Jay Graber stepped down, is now Bluesky s official CEO.",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.engadget.com/2212928/bluesky-official-ceo-toni-schneider/",
-    "source": "Engadget"
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/bluesky-has-a-permanent-ceo-again/l-intro-1783774958.jpg"
   },
   {
-    "id": "n2011316375",
+    "id": "n5056747973",
     "title": "A tasty RPG that will make you very hungry",
     "excerpt": "Roleplaying games are often defined by excess. Storylines that span dozens of hours, side quests so big they could be their own game, massive worlds that require complex maps to e…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://www.theverge.com/entertainment/964061/dosa-divas-review-ps5-steam-switch",
-    "source": "Theverge"
+    "source": "Theverge",
+    "image": ""
   },
   {
-    "id": "n9962613872",
+    "id": "n9186628480",
     "title": "I tried DuckDuckGo’s new and free YouTube ad blocker. Here’s how it works",
     "excerpt": "No Premium? No problem. DuckDuckGo-t your back!",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/duckduckgo-youtube-ad-blocker-how-use-3686151/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n4150456047",
+    "id": "n5402048214",
     "title": "Show HN: Axletic – a local-first workout tracker for iPhone",
     "excerpt": "Hi HN,I built Axletic, a native iPhone workout tracker focused on making workout logging feel quick and uncomplicated. I drew a lot of inspiration from clean, dark themed apps suc…",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.axletic.app",
-    "source": "Hacker News"
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n5073497471",
+    "id": "n4562113339",
     "title": "The Dreame X60 Max Ultra Complete has the recipe for success, but it’s a little needy",
     "excerpt": "The Dreame X60 Max Ultra Complete is an ultra-premium floor-cleaning system that requires a little too much intervention.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/dreame-x60-max-ultra-review-3684554/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n8035853992",
+    "id": "n8730146234",
     "title": "I used to love Claude, but the latest models are slowly ruining it",
     "excerpt": "This isn't the Claude I used to love.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/the-claude-app-on-a-smartphone-scaled.jpg"
   },
   {
-    "id": "n5472515548",
+    "id": "n2011610054",
     "title": "I wish someone told me about these 5 Android Auto settings before I bought my new car",
     "excerpt": "A few Android Auto settings go a long way.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/first-car-android-auto-most-important-settings-3684583/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n4715165718",
+    "id": "n7176490438",
     "title": "How I turned my Pixel into the ultimate Home Assistant smart home companion",
     "excerpt": "I can't imagine smart home life without my Pixel now.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/pixel-home-assistant-smart-home-companion-3684122/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n2972727685",
+    "id": "n8368758320",
     "title": "I tried the new Google Photos Android app redesign, and now I want it in every Google app",
     "excerpt": "It's a small change, but a welcome one.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/google-photos-redesigned-navigation-bar-good-3686008/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n7641047278",
+    "id": "n7308913595",
     "title": "Duolingo is breaking users’ language courses — and it’s exactly why I quit",
     "excerpt": "What's the point of a language learning app that won't let you keep learning?",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/duolingo-broken-updated-courses-why-i-quit-3686405/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n7590097489",
+    "id": "n9868615024",
     "title": "NVIDIA clarifies why you can’t find a Shield TV anywhere",
     "excerpt": "It hasn't been discontinued, but it might never come back in stock.",
     "date": "2026-07-11",
     "tag": "Phones",
     "url": "https://www.androidauthority.com/nvidia-clarifies-shield-tv-availability-3686597/",
-    "source": "Androidauthority"
+    "source": "Androidauthority",
+    "image": ""
   },
   {
-    "id": "n7965297302",
+    "id": "n2723080902",
     "title": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
     "excerpt": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed passwords stored in a publi…",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/10/us-cyber-agency-cisa-had-to-build-its-incident-playbook-during-the-incident-agency-reveals/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n7153792457",
+    "id": "n3685802113",
     "title": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
     "excerpt": "Phia, the shopping startup founded by Bill Gates’ daughter, Phoebe, and her friend Sophia Kianni is under fire for a practice known as “cookie stuffing,” which helped the product …",
     "date": "2026-07-11",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/10/phia-accused-of-cookie-stuffing-taking-affiliate-credit-on-purchases-it-didnt-earn/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n813627147",
-    "title": "Ask HN: How has the internet devolved in recent years?",
-    "excerpt": "I ll start with 10:1. Verifying you are human delays&#x2F;redirects2. Invasive Sign in with Google[1] prompts on every website, often taking over the UI3. Phone number based ident…",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://news.ycombinator.com/item?id=48866959",
-    "source": "Hacker News"
-  },
-  {
-    "id": "n9075521364",
+    "id": "n6075714539",
     "title": "Meta removes controversial AI feature on Instagram after backlash",
     "excerpt": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"…",
     "date": "2026-07-10",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n7675503792",
+    "id": "n6587698591",
     "title": "Bluesky’s interim CEO, Toni Schneider, drops the ‘interim’",
     "excerpt": "Schneider, who formerly served as the CEO of Automattic and is a partner at True Ventures, says he is \"all in\" on the unconventional social media platform.",
     "date": "2026-07-10",
     "tag": "Tech",
     "url": "https://techcrunch.com/2026/07/10/blueskys-interim-ceo-toni-schneider-drops-the-interim/",
-    "source": "Techcrunch"
+    "source": "Techcrunch",
+    "image": ""
   },
   {
-    "id": "n4427423586",
+    "id": "n8174542657",
     "title": "Tool to use signal without a smartphone",
     "excerpt": "Tool to use signal without a smartphone",
     "date": "2026-07-10",
     "tag": "Phones",
     "url": "https://github.com/almet/signal-without-smartphone",
-    "source": "Hacker News"
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n1332022597",
+    "id": "n5086730077",
     "title": "Friday Android app deals and freebies: ScourgeBringer, Greak, Egg Journey, more",
     "excerpt": "Your afternoon lineup of the best Android game and app deals is now here, including titles like ScourgeBringer, Greak: Memories of Azur, Tower Defense Legend 5 Pro, Escape Alive, …",
     "date": "2026-07-10",
     "tag": "Phones",
     "url": "https://9to5toys.com/2026/07/10/friday-android-app-deals-free-scourgebringer-greak/",
-    "source": "9To5Google"
+    "source": "9To5Google",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/Google-Play-Jul-10.webp?w=1600"
   }
 ];

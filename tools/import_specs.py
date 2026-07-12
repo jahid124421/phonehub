@@ -74,7 +74,8 @@ def map_phone(detail, brand_slug):
     data = detail.get("data", detail)
     name = data.get("phone_name") or data.get("name") or "Unknown"
     images = data.get("phone_images") or ([data["thumbnail"]] if data.get("thumbnail") else [])
-    image = images[0] if images else "https://via.placeholder.com/300x400?text=" + urllib.parse.quote(name)
+    images = [i for i in images if i][:6]
+    image = images[0] if images else ""
     specs = dig_specs(data.get("specifications"))
     quick = {
         "display": first_spec(specs, "Display", "Size") or first_spec(specs, "Display"),
@@ -89,6 +90,7 @@ def map_phone(detail, brand_slug):
         "brand": brand_slug.split("-")[0].lower(),
         "name": name,
         "image": image,
+        "images": images,
         "releaseDate": data.get("release_date", ""),
         "quickSpecs": quick,
         "specs": specs,
@@ -154,9 +156,10 @@ def main():
                 phone = map_phone(detail, brand)
                 phone["brand"] = brand
                 phones_out.append(phone)
-                time.sleep(0.3)
+                time.sleep(float(cfg.get("scrape_delay", 1.4)))   # be gentle: GSMArena rate-limits
         except Exception as e:  # noqa
             print(f"  ! error on '{brand}': {e}")
+        time.sleep(float(cfg.get("scrape_brand_delay", 4)))       # pause between brands
 
     if not phones_out:
         print("No phones imported. Check specs_api_base and try --dry-run.")

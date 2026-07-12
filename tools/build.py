@@ -43,6 +43,7 @@ def main():
             "brand": p["brand"],
             "name": p["name"],
             "image": image,
+            "images": p.get("images", []),
             "fallbackImg": fallback,
             "releaseDate": p.get("releaseDate", ""),
             "basePrice": pr.get("basePrice", 0),

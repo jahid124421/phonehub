@@ -202,6 +202,14 @@ def render_phone(phone, brands, phones_all, base):
     img = img_rel(phone.get("image") or "")
     fb_img = img_rel(phone.get("fallbackImg") or "")
     og_img = img_abs(phone.get("image") or "", base)
+    gallery_imgs = phone.get("images") or ([phone.get("image")] if phone.get("image") else [])
+    thumbs = "".join(
+        f'<img src="{esc(img_rel(u))}" alt="" loading="lazy" '
+        f'onclick="var m=document.getElementById(\'mainImg\');if(m)m.src=this.src" '
+        f'onerror="this.style.display=\'none\'">'
+        for u in gallery_imgs[:6]
+    )
+    thumbs_html = f'<div class="thumbs">{thumbs}</div>' if len(gallery_imgs) > 1 else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -226,7 +234,7 @@ def render_phone(phone, brands, phones_all, base):
     <p class="crumb"><a href="../index.html">Home</a> / <a href="../search.html?brand={esc(phone['brand'])}">{esc(b['name'])}</a> / {esc(name)}</p>
 
     <div class="phone-top">
-      <div class="phone-gallery"><img src="{esc(img)}" alt="{esc(name)}" onerror="this.onerror=null;this.src='{esc(fb_img)}'"></div>
+      <div class="phone-gallery"><img id="mainImg" src="{esc(img)}" alt="{esc(name)}" onerror="this.onerror=null;this.src='{esc(fb_img)}'"></div>{thumbs_html}
       <div class="phone-info">
         <h1>{esc(name)}</h1>
         <div class="phone-meta">{esc(b['logo'])} {esc(b['name'])} · Released {esc(phone.get('releaseDate',''))}</div>

@@ -79,7 +79,7 @@ def clip(s, n=180):
     return (s[: n - 1] + "\u2026") if len(s) > n else s
 
 
-def add(items, seen, title, url, excerpt, tag, source, ts):
+def add(items, seen, title, url, excerpt, tag, source, ts, image=""):
     title = strip_html(title)
     if not title or not url:
         return
@@ -95,8 +95,31 @@ def add(items, seen, title, url, excerpt, tag, source, ts):
         "tag": tag,
         "url": url,
         "source": source,
+        "image": image or "",
         "_ts": ts,
     })
+
+
+MEDIA_NS = "{http://search.yahoo.com/mrss/}"
+CONTENT_NS = "{http://purl.org/rss/1.0/modules/content/}"
+
+
+def rss_image(e):
+    for tag in ("content", "thumbnail"):
+        el = e.find(MEDIA_NS + tag)
+        if el is not None and el.get("url"):
+            return el.get("url")
+    enc = e.find("enclosure")
+    if enc is not None:
+        u = enc.get("url", "")
+        if enc.get("type", "").startswith("image") or re.search(r"\.(jpg|jpeg|png|webp)", u, re.I):
+            return u
+    for field in ("description", CONTENT_NS + "encoded"):
+        txt = e.findtext(field) or ""
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)', txt)
+        if m:
+            return m.group(1)
+    return ""
 
 
 def fetch_hn(items, seen):
@@ -143,7 +166,7 @@ def fetch_rss(items, seen):
                     link = le.get("href") if le is not None else ""
                 desc = (e.findtext("description") or e.findtext("atom:summary", "", ns) or "")
                 pub = (e.findtext("pubDate") or e.findtext("atom:updated", "", ns) or "")
-                add(items, seen, title, link, desc, tag, source.title(), int(_parse_date(pub)))
+                add(items, seen, title, link, desc, tag, source.title(), int(_parse_date(pub)), rss_image(e))
                 count += 1
             print(f"  rss {source}: {count}")
         except Exception as e:  # noqa
@@ -158,8 +181,11 @@ def fetch_reddit(items, seen):
             for c in data.get("data", {}).get("children", []):
                 d = c.get("data", {})
                 url = "https://www.reddit.com" + d.get("permalink", "")
+                thumb = d.get("thumbnail", "")
+                if not (isinstance(thumb, str) and thumb.startswith("http")):
+                    thumb = ""
                 add(items, seen, d.get("title", ""), url, d.get("selftext", ""),
-                    tag, "Reddit r/" + sub, int(d.get("created_utc") or time.time()))
+                    tag, "Reddit r/" + sub, int(d.get("created_utc") or time.time()), thumb)
             time.sleep(0.3)
         except Exception as e:  # noqa
             print(f"  ! reddit r/{sub}: {e}")
