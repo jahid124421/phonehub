@@ -99,8 +99,8 @@ def main():
     print(f"[build] wrote js/data.js — {len(merged)} phones "
           f"({reviewed} with AI reviews, {priced} with live prices)")
 
-    # pre-render static phone pages, then regenerate sitemap.xml + robots.txt
-    for mod_name in ("prerender", "gen_seo"):
+    # pre-render static pages, regenerate sitemap/robots, then ping IndexNow
+    for mod_name in ("prerender", "gen_seo", "indexnow"):
         try:
             mod = __import__(mod_name)
             mod.main()

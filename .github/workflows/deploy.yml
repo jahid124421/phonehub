@@ -74,10 +74,10 @@ jobs:
         working-directory: tools
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" > env_from_secrets.env
 
-      - name: Grow catalog from Wikidata (free, no rate limit, current phones + images)
+      - name: Grow catalog from Wikidata — all categories (free, no rate limit)
         working-directory: tools
         continue-on-error: true
-        run: python wikidata_seed.py --per-brand 40 --limit 900
+        run: python wikidata_seed.py --all
 
       - name: Refresh data (AI reviews + prices + news + build; no scraping)
         working-directory: tools

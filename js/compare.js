@@ -61,7 +61,6 @@
     }).join("");
 
     area.innerHTML = `
-      <div class="ad-slot">Advertisement <small>above-the-fold unit</small></div>
       <div class="compare-scroll">
         <table class="compare-table">
           <thead><tr><th></th>${headCells}</tr></thead>

@@ -248,8 +248,6 @@ def render_phone(phone, brands, phones_all, base):
       </div>
     </div>
 
-    <div class="ad-slot">Advertisement <small>in-content responsive unit</small></div>
-
     <section>
       <h2>\U0001F4B0 Price comparison</h2>
       <table class="price-table">

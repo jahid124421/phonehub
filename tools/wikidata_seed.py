@@ -32,11 +32,16 @@ UA = "PhoneHubBot/1.0 (https://github.com/jahid124421/phonehub)"
 # category -> (Wikidata QID, per-brand cap, restrict to known phone brands?)
 CATEGORIES = {
     "phone":      ("Q19723451", 40, True),
-    "tablet":     ("Q155972",   25, False),
-    "laptop":     ("Q3962",     25, False),
-    "tv":         ("Q564635",   20, False),
-    "smartwatch": ("Q5362345",  20, False),
-    "earbuds":    ("Q113711206", 15, False),
+    "tablet":     ("Q155972",   20, False),
+    "laptop":     ("Q3962",     20, False),
+    "tv":         ("Q8075",     15, False),
+    "smartwatch": ("Q5362345",  15, False),
+    "earbuds":    ("Q113711206", 12, False),
+    "headphones": ("Q957147",   12, False),
+    "camera":     ("Q62927",    15, False),
+    "console":    ("Q8076",     12, False),
+    "appliance":  ("Q212920",   12, False),
+    "auto":       ("Q3231690",  10, False),
 }
 
 # known phone brands (used when restrict=True)
@@ -102,7 +107,7 @@ def thumb(img_url):
     return u + ("&" if "?" in u else "?") + "width=500"
 
 
-def seed_category(cat, qid, per_brand, restrict, existing, ids, names, brand_ids):
+def seed_category(cat, qid, per_brand, restrict, existing, ids, names, brand_ids, max_total=0):
     print(f"[wikidata] {cat} (qid {qid})...")
     data = sparql(qid, per_brand * 50 + 300, require_image=(cat == "phone"))
     rows = data.get("results", {}).get("bindings", [])
@@ -120,6 +125,8 @@ def seed_category(cat, qid, per_brand, restrict, existing, ids, names, brand_ids
             continue
         if per_brand_count.get(slug, 0) >= per_brand:
             continue
+        if max_total and added >= max_total:
+            break
         pid = C.slugify(cat + "-" + name) if cat != "phone" else C.slugify(name)
         norm = re.sub(r"[^a-z0-9]", "", (cat + name).lower())
         if pid in ids or norm in names:
@@ -154,19 +161,23 @@ def main():
     names = {re.sub(r"[^a-z0-9]", "", ((p.get("category", "phone")) + p["name"]).lower()) for p in existing["phones"]}
     brand_ids = {b["id"] for b in existing["brands"]}
 
+    max_total = int(args[args.index("--max-total") + 1]) if "--max-total" in args else 0
+    # sensible per-category total caps so no single category floods the catalog
+    CAT_MAX = {"auto": 70, "appliance": 60, "camera": 60, "console": 40, "tv": 60, "headphones": 50}
+
     if "--all" in args:
-        jobs = [(c, q, pb, r) for c, (q, pb, r) in CATEGORIES.items()]
+        jobs = [(c, q, pb, r, CAT_MAX.get(c, 0)) for c, (q, pb, r) in CATEGORIES.items()]
     else:
         cat = args[args.index("--category") + 1] if "--category" in args else "phone"
         qid = args[args.index("--qid") + 1] if "--qid" in args else CATEGORIES.get(cat, ("Q19723451",))[0]
         pb = int(args[args.index("--per-brand") + 1]) if "--per-brand" in args else CATEGORIES.get(cat, (None, 25))[1]
         restrict = ("--any-brand" not in args) and CATEGORIES.get(cat, (None, None, True))[2]
-        jobs = [(cat, qid, pb, restrict)]
+        jobs = [(cat, qid, pb, restrict, max_total or CAT_MAX.get(cat, 0))]
 
     total = 0
-    for cat, qid, pb, restrict in jobs:
+    for cat, qid, pb, restrict, mt in jobs:
         try:
-            total += seed_category(cat, qid, pb, restrict, existing, ids, names, brand_ids)
+            total += seed_category(cat, qid, pb, restrict, existing, ids, names, brand_ids, mt)
         except Exception as e:  # noqa
             print(f"  ! {cat}: {e}")
 

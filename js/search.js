@@ -7,7 +7,8 @@
   const sortSelect = document.getElementById("sortSelect");
 
   const CAT_LABELS = { phone: "Phones", tablet: "Tablets", laptop: "Laptops",
-    tv: "TVs", smartwatch: "Watches", earbuds: "Audio" };
+    tv: "TVs", smartwatch: "Watches", earbuds: "Earbuds", headphones: "Headphones",
+    camera: "Cameras", console: "Consoles", appliance: "Appliances", auto: "Auto" };
 
   const state = {
     q: (PH.param("q") || "").toLowerCase(),
