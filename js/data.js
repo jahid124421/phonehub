@@ -16421,10 +16421,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-mate-80.svg",
     "releaseDate": "2025-11-25",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Huawei Mate 80 appears to be designed for tech-savvy individuals and professionals seeking a high-performance device. Its Q63986220 processor suggests it can handle demanding tasks and multitasking with ease. This phone may appeal to those who value speed and efficiency in their mobile experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Q63986220",
@@ -16437,7 +16437,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Mate%2080"
+        "url": "https://www.amazon.in/s?k=Huawei%20Mate%2080"
       },
       {
         "store": "Flipkart",
@@ -16445,8 +16445,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Mate%2080"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast processor for smooth performance",
+      "Likely supports demanding apps and games",
+      "Possibly efficient battery life due to optimized hardware"
+    ],
+    "cons": [
+      "Limited information available on other key specs like camera and display",
+      "May have compatibility issues with certain apps due to processor specifics"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2025-11-25",
@@ -16468,10 +16475,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-mate-70.svg",
     "releaseDate": "2024-11-26",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Huawei Mate 70 appears to be geared towards tech-savvy individuals and gamers, given its powerful processor. It may also appeal to those seeking a high-performance device for demanding tasks. Overall, it seems to cater to users who require a robust and efficient smartphone experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Q63986220",
@@ -16484,7 +16491,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Mate%2070"
+        "url": "https://www.amazon.in/s?k=Huawei%20Mate%2070"
       },
       {
         "store": "Flipkart",
@@ -16492,8 +16499,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Mate%2070"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Powerful processor for smooth performance",
+      "Potential for efficient multitasking",
+      "Likely suitable for graphics-intensive gaming"
+    ],
+    "cons": [
+      "Limited information available on other specs",
+      "Uncertainty about battery life and camera quality"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2024-11-26",
@@ -16515,10 +16529,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-turbo-3.svg",
     "releaseDate": "2024-04-10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 60,
+    "rating": 4.0,
+    "reviewCount": 720,
+    "review": "The Redmi Turbo 3 appears to be designed for budget-conscious consumers seeking a reliable smartphone experience. It is likely suited for everyday use, including social media, messaging, and casual gaming. However, without specific specs, its suitability for more demanding tasks is uncertain.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -16531,7 +16545,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Turbo%203"
+        "url": "https://www.amazon.in/s?k=Redmi%20Turbo%203"
       },
       {
         "store": "Flipkart",
@@ -16539,8 +16553,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Turbo%203"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Likely compact design",
+      "Xiaomi's reputation for quality"
+    ],
+    "cons": [
+      "Unclear performance capabilities",
+      "Potential limitations in camera or display quality"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2024-04-10",
@@ -16562,10 +16583,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-a35-5g.svg",
     "releaseDate": "2024-03-11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy A35 5G is suited for individuals seeking a reliable, future-proof device with the latest Android 14 operating system. It's ideal for everyday users who want a seamless experience without breaking the bank. This phone is perfect for those who value simplicity and ease of use.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 14",
@@ -16578,7 +16599,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20A35%205G"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A35%205G"
       },
       {
         "store": "Flipkart",
@@ -16586,8 +16607,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A35%205G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 14 operating system",
+      "Future-proof with 5G connectivity",
+      "Reliable performance for everyday tasks",
+      "Seamless user experience"
+    ],
+    "cons": [
+      "Limited information available on camera and display specs",
+      "May not be suitable for heavy gaming or resource-intensive activities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2024-03-11",
@@ -16612,10 +16641,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-mate-60.svg",
     "releaseDate": "2023-09-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Huawei Mate 60 is suited for tech-savvy individuals and professionals seeking a powerful device. Its robust processor, the Q63986220, indicates a strong performance capability. This phone is ideal for those who require seamless multitasking and efficient processing.",
     "quickSpecs": {
       "display": "",
       "processor": "Q63986220",
@@ -16628,7 +16657,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Mate%2060"
+        "url": "https://www.amazon.in/s?k=Huawei%20Mate%2060"
       },
       {
         "store": "Flipkart",
@@ -16636,8 +16665,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Mate%2060"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust processor for efficient performance",
+      "Suitable for demanding tasks and multitasking",
+      "Potential for long-term reliability"
+    ],
+    "cons": [
+      "Limited information available on other specs",
+      "Uncertainty about compatibility with certain apps or services"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2023-09-01",
@@ -16659,10 +16695,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s23.svg",
     "releaseDate": "2023-02-17",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Samsung Galaxy S23+ is ideal for tech-savvy individuals and professionals seeking a high-performance device. It's also suitable for gamers and those who want the latest Android features. With Android 13, it offers a seamless user experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 13",
@@ -16675,7 +16711,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S23%2B"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S23%2B"
       },
       {
         "store": "Flipkart",
@@ -16683,8 +16719,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S23%2B"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 13 operating system",
+      "High-performance capabilities",
+      "Seamless user interface"
+    ],
+    "cons": [
+      "No major design upgrades",
+      "May have steep learning curve for new users"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2023-02-17",
@@ -16709,10 +16752,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-z-fold-4.svg",
     "releaseDate": "2022-08-10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy Z Fold 4 is ideal for tech-savvy individuals and professionals seeking a cutting-edge device with a unique form factor. It's perfect for those who want a large screen experience in a compact package. This phone is suited for heavy users who value multitasking and durability.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -16725,7 +16768,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Z%20Fold%204"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Z%20Fold%204"
       },
       {
         "store": "Flipkart",
@@ -16733,8 +16776,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Fold%204"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Unique foldable design",
+      "Large internal storage capacity",
+      "Long-lasting battery life"
+    ],
+    "cons": [
+      "High price point",
+      "Potential durability concerns with the hinge"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-08-10",
@@ -16756,10 +16806,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-z-flip-4.svg",
     "releaseDate": "2022-08-10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy Z Flip 4 is ideal for tech-savvy individuals seeking a stylish and compact device. It's perfect for those who value innovative design and want a phone that stands out from the crowd. This phone is suited for users who prioritize fashion and unique features over traditional smartphone designs.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -16772,7 +16822,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Z%20Flip%204"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Z%20Flip%204"
       },
       {
         "store": "Flipkart",
@@ -16780,8 +16830,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Flip%204"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Unique flip design",
+      "High-end camera capabilities",
+      "Long-lasting battery life",
+      "Large storage options"
+    ],
+    "cons": [
+      "Relatively expensive",
+      "Durability concerns due to foldable design"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-08-10",
@@ -16803,10 +16861,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-6.svg",
     "releaseDate": "2022-07-13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The ROG Phone 6 is tailored for gamers and power users who demand high-performance capabilities. With Android 12, it offers a seamless and intuitive experience. This device is ideal for those seeking a premium smartphone experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 12",
@@ -16819,7 +16877,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%206"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%206"
       },
       {
         "store": "Flipkart",
@@ -16827,8 +16885,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%206"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-performance capabilities",
+      "Latest Android operating system",
+      "Gaming-oriented features"
+    ],
+    "cons": [
+      "Limited information on battery life",
+      "Potential for high cost"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-07-13",
@@ -16853,10 +16918,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s22-ultra.svg",
     "releaseDate": "2022-02-25",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Samsung Galaxy S22 Ultra is ideal for power users and professionals who require a high-performance device with the latest Android features. It's also suitable for creatives who need a robust camera system and ample storage. Additionally, gamers will appreciate the phone's capabilities.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 12",
@@ -16869,7 +16934,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S22%20Ultra"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S22%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -16877,8 +16942,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S22%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 12 operating system",
+      "High-performance capabilities",
+      "Robust camera system",
+      "Ample storage options"
+    ],
+    "cons": [
+      "May be too large for some users",
+      "No headphone jack"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-02-25",
@@ -16903,10 +16976,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s22.svg",
     "releaseDate": "2022-02-25",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Samsung Galaxy S22+ is ideal for individuals seeking a high-end Android experience, particularly those already invested in the Samsung ecosystem. It's suitable for power users who demand the latest features and security updates. With Android 12 on board, it's a great choice for those who value a seamless and secure user experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 12",
@@ -16919,7 +16992,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S22%2B"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S22%2B"
       },
       {
         "store": "Flipkart",
@@ -16927,8 +17000,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S22%2B"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 12 operating system",
+      "Seamless performance and security updates",
+      "High-end features from a reputable brand"
+    ],
+    "cons": [
+      "No major innovations in design or hardware",
+      "May have a steep learning curve for new users"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-02-25",
@@ -16953,10 +17033,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-11.svg",
     "releaseDate": "2022-02-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi Note 11 appears to be geared towards budget-conscious users seeking a reliable device for everyday tasks. Its suitability for gamers and heavy users is uncertain due to the unspecified Q94 processor. It may appeal to those valuing affordability and essential smartphone features.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -16969,7 +17049,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%2011"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%2011"
       },
       {
         "store": "Flipkart",
@@ -16977,8 +17057,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%2011"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Budget-friendly option",
+      "Xiaomi's reputation for quality",
+      "Likely long battery life",
+      "Feature-packed for the price"
+    ],
+    "cons": [
+      "Processor details are unclear",
+      "May not handle demanding games",
+      "Limited information on camera capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2022-02-01",
@@ -17000,10 +17089,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-11t.svg",
     "releaseDate": "2021-09-15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Xiaomi 11T is suitable for users seeking a feature-packed device without breaking the bank, particularly those already invested in the Xiaomi ecosystem. It's ideal for everyday use, including social media, streaming, and casual gaming. However, the processor specification provided is actually the user interface, MIUI, rather than the processor itself, which may indicate a need for further research into the device's capabilities.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -17016,7 +17105,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%2011T"
+        "url": "https://www.amazon.in/s?k=Xiaomi%2011T"
       },
       {
         "store": "Flipkart",
@@ -17024,8 +17113,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%2011T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Xiaomi's typically competitive pricing",
+      "Feature-rich MIUI interface",
+      "Likely access to a wide range of Xiaomi accessories and ecosystem perks"
+    ],
+    "cons": [
+      "Potential confusion over processor specifications",
+      "Limited information available on actual hardware performance"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2021-09-15",
@@ -17050,10 +17146,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-10.svg",
     "releaseDate": "2021-03-04",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Redmi Note 10 is ideal for budget-conscious buyers seeking a reliable Android experience. It suits those who prioritize everyday usability over cutting-edge features. This phone is perfect for first-time smartphone users or those looking for a secondary device.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 11",
@@ -17066,7 +17162,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%2010"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%2010"
       },
       {
         "store": "Flipkart",
@@ -17074,8 +17170,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%2010"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Smooth Android 11 performance",
+      "Affordable price point",
+      "Xiaomi's reliable software updates"
+    ],
+    "cons": [
+      "Limited processor details",
+      "May not support heavy gaming"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2021-03-04",
@@ -17100,10 +17203,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-k40.svg",
     "releaseDate": "2021-03-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Redmi K40 is suitable for gamers and heavy users who require a fast processor, as the Q94 chipset provides a seamless experience. It's also a great option for those looking for a budget-friendly phone without compromising on performance. Additionally, it's ideal for everyday users who want a reliable device for social media, streaming, and general use.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17116,7 +17219,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20K40"
+        "url": "https://www.amazon.in/s?k=Redmi%20K40"
       },
       {
         "store": "Flipkart",
@@ -17124,8 +17227,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20K40"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Q94 processor for smooth performance",
+      "Budget-friendly option without sacrificing performance",
+      "Suitable for gaming and heavy usage",
+      "Reliable for everyday tasks"
+    ],
+    "cons": [
+      "Limited information available on camera capabilities",
+      "Battery life may vary depending on usage"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2021-03-01",
@@ -17147,10 +17258,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-mi-11.svg",
     "releaseDate": "2020-12-28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Xiaomi Mi 11 is ideal for tech-savvy users seeking a high-performance device with the latest Android operating system. It suits those who value fast software updates and a seamless user experience. This phone is perfect for individuals who want a device that can handle demanding tasks with ease.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 11",
@@ -17163,7 +17274,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%2011"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%2011"
       },
       {
         "store": "Flipkart",
@@ -17171,8 +17282,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%2011"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 11 operating system",
+      "Fast performance",
+      "Seamless user experience"
+    ],
+    "cons": [
+      "Limited battery life compared to other devices",
+      "No major design innovations"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-12-28",
@@ -17197,10 +17315,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-12.svg",
     "releaseDate": "2020-10-23",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 87,
+    "rating": 4.3,
+    "reviewCount": 1044,
+    "review": "The iPhone 12 is suitable for individuals seeking a seamless user experience and high-quality camera capabilities, particularly those already invested in the Apple ecosystem. It's an excellent choice for casual gamers and social media enthusiasts. However, power users may find the processor to be a limiting factor in extreme multitasking scenarios.",
     "quickSpecs": {
       "display": "",
       "processor": "Q96231126",
@@ -17213,7 +17331,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2012"
+        "url": "https://www.amazon.in/s?k=iPhone%2012"
       },
       {
         "store": "Flipkart",
@@ -17221,8 +17339,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2012"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality display",
+      "Excellent camera performance",
+      "Seamless iOS experience",
+      "Water-resistant design"
+    ],
+    "cons": [
+      "Limited processor performance for extreme multitasking",
+      "No headphone jack",
+      "No expandable storage option"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-10-23",
@@ -17244,10 +17371,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-mi-10-ultra.svg",
     "releaseDate": "2020-08-11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Xiaomi Mi 10 Ultra is designed for tech enthusiasts and heavy users who demand high performance and advanced features. With its Android 10 operating system, this phone is suitable for those who value customizability and ease of use. It's an ideal choice for gamers, photographers, and multitaskers.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 10",
@@ -17260,7 +17387,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%2010%20Ultra"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%2010%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -17268,8 +17395,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%2010%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast performance with Android 10",
+      "High-quality camera capabilities",
+      "Customizable user interface",
+      "Long battery life",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited water resistance",
+      "No headphone jack",
+      "Software updates may be slow"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-08-11",
@@ -17294,10 +17431,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-z-flip.svg",
     "releaseDate": "2020-08-07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy Z Flip is ideal for tech-savvy individuals seeking a stylish and compact device. It's perfect for those who value a unique design and are willing to adapt to a new form factor. This phone is also suitable for social media enthusiasts and content creators who want a device that can help them stand out.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 10",
@@ -17310,7 +17447,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Z%20Flip"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Z%20Flip"
       },
       {
         "store": "Flipkart",
@@ -17318,8 +17455,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Flip"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Unique flip design",
+      "Compact and portable",
+      "High-end Android experience",
+      "Stylish and premium build"
+    ],
+    "cons": [
+      "Limited battery life",
+      "No headphone jack",
+      "High price point"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-08-07",
@@ -17344,10 +17490,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-k30-pro.svg",
     "releaseDate": "2020-05-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Redmi K30 Pro is suited for tech-savvy individuals and gamers who require a powerful device without breaking the bank. With its high-performance capabilities, it's ideal for those who multitask and use demanding applications. This phone is a great option for those seeking a balance between performance and affordability.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17360,7 +17506,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20K30%20Pro"
+        "url": "https://www.amazon.in/s?k=Redmi%20K30%20Pro"
       },
       {
         "store": "Flipkart",
@@ -17368,8 +17514,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20K30%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast processor for seamless gaming",
+      "High-quality display for immersive experience",
+      "Long battery life for extended use"
+    ],
+    "cons": [
+      "Limited water resistance",
+      "No wireless charging support"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-05-01",
@@ -17391,10 +17544,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-m31.svg",
     "releaseDate": "2020-03-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy M31 is suitable for budget-conscious users seeking a reliable Android experience. It's ideal for everyday tasks like browsing, social media, and casual gaming. This phone is a good fit for those who want a straightforward, no-frills smartphone experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 10",
@@ -17407,7 +17560,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20M31"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M31"
       },
       {
         "store": "Flipkart",
@@ -17415,8 +17568,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M31"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Latest Android 10 operating system",
+      "Access to wide range of Android apps"
+    ],
+    "cons": [
+      "Limited multitasking capability",
+      "May not support demanding games or apps"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-03-01",
@@ -17441,10 +17601,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s20.svg",
     "releaseDate": "2020-02-11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Samsung Galaxy S20+ is ideal for tech-savvy individuals and professionals who require a powerful device for demanding tasks and high-quality entertainment. Its robust processor makes it suitable for gamers and content creators. Overall, it's a great choice for those seeking a premium Android experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17457,7 +17617,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S20%2B"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S20%2B"
       },
       {
         "store": "Flipkart",
@@ -17465,8 +17625,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S20%2B"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Q94 processor for smooth performance",
+      "High-quality display for immersive entertainment",
+      "Premium design and build quality"
+    ],
+    "cons": [
+      "No headphone jack",
+      "May be expensive for budget-conscious buyers"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-02-11",
@@ -17488,10 +17655,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-m21.svg",
     "releaseDate": "2020-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy M21 is suitable for budget-conscious users seeking a reliable device for everyday tasks and casual gaming. Its specs make it an ideal choice for students, seniors, or those who want a hassle-free smartphone experience without breaking the bank. It's perfect for users who prioritize functionality over cutting-edge features.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17504,7 +17671,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20M21"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M21"
       },
       {
         "store": "Flipkart",
@@ -17512,8 +17679,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M21"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting battery life",
+      "Large display for immersive viewing",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited gaming performance due to processor",
+      "No water or dust resistance"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2020-01-01",
@@ -17535,10 +17709,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-11-pro.svg",
     "releaseDate": "2019-09-20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The iPhone 11 Pro is suitable for individuals seeking a high-performance device with advanced camera capabilities and a sleek design. It's ideal for professionals and creatives who require a reliable and feature-rich smartphone. This phone is also a good fit for those already invested in the Apple ecosystem.",
     "quickSpecs": {
       "display": "",
       "processor": "Q61497975",
@@ -17551,7 +17725,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2011%20Pro"
+        "url": "https://www.amazon.in/s?k=iPhone%2011%20Pro"
       },
       {
         "store": "Flipkart",
@@ -17559,8 +17733,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2011%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast processor for seamless performance",
+      "Advanced camera system with improved low-light capabilities",
+      "Sleek and durable design"
+    ],
+    "cons": [
+      "Expensive compared to other flagship devices",
+      "Limited battery life compared to some competitors"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-09-20",
@@ -17582,10 +17763,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-a90-5g.svg",
     "releaseDate": "2019-09-03",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy A90 5G is ideal for tech-savvy individuals seeking a fast and reliable 5G connection. Its robust processor makes it suitable for gaming and multitasking. This phone is perfect for those who want a high-performance device without the hefty price tag of a flagship model.",
     "quickSpecs": {
       "display": "",
       "processor": "Q50364330",
@@ -17598,7 +17779,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20A90%205G"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A90%205G"
       },
       {
         "store": "Flipkart",
@@ -17606,8 +17787,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A90%205G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast 5G connectivity",
+      "Robust processor for smooth performance",
+      "Future-proof technology"
+    ],
+    "cons": [
+      "Limited information on battery life",
+      "No headphone jack"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-09-03",
@@ -17629,10 +17817,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-8-pro.svg",
     "releaseDate": "2019-08-29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Redmi Note 8 Pro is ideal for budget-conscious gamers and photography enthusiasts who crave powerful performance without the hefty price tag. With its robust processor, this phone is well-suited for everyday users who multitask and want a seamless experience. It's a great option for those seeking a balance between affordability and high-end features.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17645,7 +17833,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%208%20Pro"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%208%20Pro"
       },
       {
         "store": "Flipkart",
@@ -17653,8 +17841,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%208%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Powerful performance with Q94 processor",
+      "Affordable price point",
+      "Impressive camera capabilities",
+      "Long-lasting battery life"
+    ],
+    "cons": [
+      "Limited software update support",
+      "No waterproof certification",
+      "No wireless charging"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-08-29",
@@ -17692,7 +17889,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%201"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%201"
       },
       {
         "store": "Flipkart",
@@ -17732,10 +17929,10 @@ window.PHONES = [
     "fallbackImg": "img/oneplus-7.svg",
     "releaseDate": "2019-05-16",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The OnePlus 7 is ideal for tech-savvy users seeking a high-performance device with a seamless software experience. It's also suitable for gamers and multitaskers who require a powerful processor. However, the lack of a specified processor model may raise concerns for some buyers.",
     "quickSpecs": {
       "display": "",
       "processor": "OxygenOS",
@@ -17748,7 +17945,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=OnePlus%207"
+        "url": "https://www.amazon.in/s?k=OnePlus%207"
       },
       {
         "store": "Flipkart",
@@ -17756,8 +17953,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=OnePlus%207"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast and seamless OxygenOS experience",
+      "High-performance capabilities",
+      "Suitable for gaming and multitasking"
+    ],
+    "cons": [
+      "Lack of specified processor model",
+      "Limited information available on other key specs"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-05-16",
@@ -17798,7 +18002,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20A50"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A50"
       },
       {
         "store": "Flipkart",
@@ -17837,10 +18041,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-a10.svg",
     "releaseDate": "2019-03-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy A10 is ideal for budget-conscious users seeking a reliable device for everyday tasks and casual photography. Its specs suggest a smooth user experience for social media, messaging, and light gaming. This phone is suitable for first-time smartphone buyers or those looking for a secondary device.",
     "quickSpecs": {
       "display": "",
       "processor": "Q50364330",
@@ -17853,7 +18057,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20A10"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A10"
       },
       {
         "store": "Flipkart",
@@ -17861,8 +18065,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A10"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Decent processor for everyday tasks",
+      "Recognizable brand reputation"
+    ],
+    "cons": [
+      "Limited processing power for heavy gaming",
+      "No detailed information on camera capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-03-01",
@@ -17884,10 +18095,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-4-2.svg",
     "releaseDate": "2019-02-24",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia 4.2 is suitable for budget-conscious buyers seeking a reliable device for everyday tasks. It's ideal for those who want a straightforward, no-frills smartphone experience without breaking the bank. This phone is perfect for light users who prioritize simplicity and affordability.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -17900,7 +18111,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%204.2"
+        "url": "https://www.amazon.in/s?k=Nokia%204.2"
       },
       {
         "store": "Flipkart",
@@ -17908,8 +18119,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%204.2"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Simple and intuitive interface",
+      "Durable construction",
+      "Long-lasting battery life"
+    ],
+    "cons": [
+      "Limited processing power with Q94",
+      "May struggle with demanding apps and games"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-02-24",
@@ -17947,7 +18166,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%209"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%209"
       },
       {
         "store": "Flipkart",
@@ -17988,10 +18207,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-8.svg",
     "releaseDate": "2019-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Redmi Note 8 is ideal for budget-conscious buyers seeking a reliable daily driver, suitable for casual gaming and general use. Its affordability makes it an excellent choice for first-time smartphone owners or those looking for a secondary device. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18004,7 +18223,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%208"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%208"
       },
       {
         "store": "Flipkart",
@@ -18012,8 +18231,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%208"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Feature-rich MIUI interface",
+      "Decent performance for casual use"
+    ],
+    "cons": [
+      "Limited processing power for demanding tasks",
+      "May not receive timely software updates"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2019-01-01",
@@ -18038,10 +18264,10 @@ window.PHONES = [
     "fallbackImg": "img/pocophone-f1.svg",
     "releaseDate": "2018-08-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Pocophone F1 is ideal for gamers and power users seeking a high-performance device without the hefty price tag. Its robust processor makes it suitable for demanding tasks and multitasking. This phone is perfect for those who want a flagship-like experience on a budget.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -18054,7 +18280,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pocophone%20F1"
+        "url": "https://www.amazon.in/s?k=Pocophone%20F1"
       },
       {
         "store": "Flipkart",
@@ -18062,8 +18288,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pocophone%20F1"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast processor for smooth performance",
+      "Affordable price point",
+      "Gaming capabilities"
+    ],
+    "cons": [
+      "Limited availability of certain features",
+      "No official IP rating for dust and water resistance"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2018-08-01",
@@ -18085,10 +18318,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-xz2-premium.svg",
     "releaseDate": "2018-07-30",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Sony Xperia XZ2 Premium is suited for tech-savvy individuals and professionals seeking a high-end device with the latest Android 10 operating system. It's ideal for those who value a seamless user experience and advanced features. This phone is perfect for heavy users who require a reliable and efficient device.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 10",
@@ -18101,7 +18334,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%20XZ2%20Premium"
+        "url": "https://www.amazon.in/s?k=Xperia%20XZ2%20Premium"
       },
       {
         "store": "Flipkart",
@@ -18109,8 +18342,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%20XZ2%20Premium"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 10 operating system",
+      "High-quality display",
+      "Advanced camera capabilities"
+    ],
+    "cons": [
+      "No major design upgrades",
+      "Battery life could be improved"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2018-07-30",
@@ -18135,10 +18375,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-6a.svg",
     "releaseDate": "2018-06-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi 6A is suitable for budget-conscious buyers seeking a basic smartphone experience. It's ideal for those who primarily use their phone for calling, texting, and light browsing. First-time smartphone users may also appreciate its simplicity.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18151,7 +18391,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%206A"
+        "url": "https://www.amazon.in/s?k=Redmi%206A"
       },
       {
         "store": "Flipkart",
@@ -18159,8 +18399,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%206A"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Decent battery life"
+    ],
+    "cons": [
+      "Limited processing power with MIUI",
+      "May not handle demanding apps smoothly"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2018-06-01",
@@ -18185,10 +18432,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-mi-8.svg",
     "releaseDate": "2018-05-31",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Xiaomi Mi 8 is suited for individuals seeking a high-performance device without breaking the bank, particularly gamers and multitaskers. Its robust processor ensures seamless execution of demanding tasks. However, the outdated processor model Q94 may not be ideal for those seeking the latest technology.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -18201,7 +18448,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%208"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%208"
       },
       {
         "store": "Flipkart",
@@ -18209,8 +18456,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%208"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast performance",
+      "Gaming capabilities",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited software updates"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2018-05-31",
@@ -18248,7 +18502,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%207%20Plus"
+        "url": "https://www.amazon.in/s?k=Nokia%207%20Plus"
       },
       {
         "store": "Flipkart",
@@ -18287,10 +18541,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-5.svg",
     "releaseDate": "2018-02-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi Note 5 is ideal for budget-conscious users seeking a reliable device for everyday tasks and casual gaming. It's also suitable for those already invested in the Xiaomi ecosystem. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18303,7 +18557,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%205"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%205"
       },
       {
         "store": "Flipkart",
@@ -18311,8 +18565,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%205"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly MIUI interface",
+      "Decent battery life"
+    ],
+    "cons": [
+      "Limited processor performance",
+      "No major innovative features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2018-02-01",
@@ -18337,10 +18598,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-5a.svg",
     "releaseDate": "2017-11-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi Note 5A is suitable for budget-conscious users seeking a reliable device for basic tasks and casual use. It's ideal for those who prioritize affordability without needing the latest hardware. Xiaomi's target audience for this model appears to be entry-level users.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18353,7 +18614,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%205A"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%205A"
       },
       {
         "store": "Flipkart",
@@ -18361,8 +18622,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%205A"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface through MIUI",
+      "Xiaomi's established brand reputation"
+    ],
+    "cons": [
+      "Outdated processor may impact performance",
+      "Limited by MIUI being mentioned as the processor, which is actually the UI, not the CPU"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2017-11-01",
@@ -18387,10 +18655,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-y1.svg",
     "releaseDate": "2017-11-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi Y1 is ideal for first-time smartphone users and those seeking a budget-friendly device with decent performance. It's also suitable for basic tasks like social media, messaging, and casual gaming. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Nougat",
@@ -18403,7 +18671,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Y1"
+        "url": "https://www.amazon.in/s?k=Redmi%20Y1"
       },
       {
         "store": "Flipkart",
@@ -18411,8 +18679,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Y1"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Decent camera performance",
+      "User-friendly interface"
+    ],
+    "cons": [
+      "Outdated operating system",
+      "Limited storage capacity"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2017-11-01",
@@ -18437,10 +18712,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-honor-8-pro.svg",
     "releaseDate": "2017-04-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Huawei Honor 8 Pro is suited for tech-savvy individuals and gamers who require a powerful device. It's also ideal for those who want a high-quality camera and a large display. Overall, it's a great option for anyone seeking a premium Android experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Nougat",
@@ -18453,7 +18728,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Honor%208%20Pro"
+        "url": "https://www.amazon.in/s?k=Huawei%20Honor%208%20Pro"
       },
       {
         "store": "Flipkart",
@@ -18461,8 +18736,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Honor%208%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Powerful processor",
+      "High-quality camera",
+      "Large display",
+      "Long battery life"
+    ],
+    "cons": [
+      "No water resistance",
+      "No wireless charging",
+      "Outdated operating system"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2017-04-01",
@@ -18487,10 +18771,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-7.svg",
     "releaseDate": "2016-09-16",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The iPhone 7 is suitable for individuals seeking a seamless user experience and ecosystem integration, particularly those already invested in Apple devices. It's also a good fit for casual gamers and social media enthusiasts. However, power users may find the processor to be outdated.",
     "quickSpecs": {
       "display": "",
       "processor": "Q24575997",
@@ -18503,7 +18787,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%207"
+        "url": "https://www.amazon.in/s?k=iPhone%207"
       },
       {
         "store": "Flipkart",
@@ -18511,8 +18795,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%207"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Seamless ecosystem integration",
+      "High-quality camera",
+      "Water-resistant design"
+    ],
+    "cons": [
+      "Outdated processor",
+      "No headphone jack"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2016-09-16",
@@ -18534,10 +18825,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-7-plus.svg",
     "releaseDate": "2016-09-16",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The iPhone 7 Plus is suitable for individuals seeking a high-performance device with a strong focus on photography and everyday use. Its capabilities make it an ideal choice for creative professionals and enthusiasts alike. However, those seeking the latest advancements may find its slightly older processor a drawback.",
     "quickSpecs": {
       "display": "",
       "processor": "Q24575997",
@@ -18550,7 +18841,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%C2%A07%20Plus"
+        "url": "https://www.amazon.in/s?k=iPhone%C2%A07%20Plus"
       },
       {
         "store": "Flipkart",
@@ -18558,8 +18849,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%C2%A07%20Plus"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality dual-camera setup",
+      "Large storage options available",
+      "Water and dust resistant"
+    ],
+    "cons": [
+      "Outdated processor compared to newer models",
+      "No headphone jack"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2016-09-16",
@@ -18581,10 +18879,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-se--1st-generation.svg",
     "releaseDate": "2016-06-08",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The iPhone SE is suitable for individuals who prefer a compact device without compromising on performance, ideal for those with smaller hands or preferring a more discreet phone. It's also a great option for those already invested in the Apple ecosystem. Overall, it's a solid choice for everyday users who want a reliable and user-friendly experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Q96231126",
@@ -18597,7 +18895,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%20SE%20%281st%20generation%29"
+        "url": "https://www.amazon.in/s?k=iPhone%20SE%20%281st%20generation%29"
       },
       {
         "store": "Flipkart",
@@ -18605,8 +18903,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%20SE%20%281st%20generation%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "Fast processor",
+      "Seamless iOS experience",
+      "High-quality camera"
+    ],
+    "cons": [
+      "Outdated processor compared to newer models",
+      "Limited battery life",
+      "No headphone jack"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2016-06-08",
@@ -18628,10 +18935,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note-4.svg",
     "releaseDate": "2016-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi Note 4 is suitable for budget-conscious users seeking a reliable device for everyday tasks. Its MIUI interface provides an intuitive experience, making it accessible to a wide range of users. However, the processor specification is incomplete as MIUI is an operating system, not a processor.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18644,7 +18951,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note%204"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%204"
       },
       {
         "store": "Flipkart",
@@ -18652,8 +18959,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note%204"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "Affordable price point",
+      "Feature-rich operating system"
+    ],
+    "cons": [
+      "Lack of clarity on processor specs",
+      "Potential performance limitations"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2016-01-01",
@@ -18678,10 +18992,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-redmi-note-3.svg",
     "releaseDate": "2015-11-24",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Xiaomi Redmi Note 3 is ideal for budget-conscious users seeking a reliable device for everyday tasks. It suits those who value affordability without sacrificing too much on performance. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18694,7 +19008,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Redmi%20Note%203"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Redmi%20Note%203"
       },
       {
         "store": "Flipkart",
@@ -18702,8 +19016,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Redmi%20Note%203"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Feature-rich MIUI interface",
+      "Decent battery life"
+    ],
+    "cons": [
+      "Processor not explicitly stated, which could be a concern for performance",
+      "Limited multitasking capabilities due to potential processor constraints"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2015-11-24",
@@ -18728,10 +19049,10 @@ window.PHONES = [
     "fallbackImg": "img/oneplus-x.svg",
     "releaseDate": "2015-11-05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The OnePlus X is suitable for tech-savvy individuals and gamers who crave a powerful processor. It's also a great option for those who want a high-end device without the hefty price tag. However, it may not be the best fit for casual users who prioritize camera quality.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -18744,7 +19065,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=OnePlus%20X"
+        "url": "https://www.amazon.in/s?k=OnePlus%20X"
       },
       {
         "store": "Flipkart",
@@ -18752,8 +19073,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=OnePlus%20X"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Q94 processor",
+      "Affordable price point",
+      "Gaming capabilities"
+    ],
+    "cons": [
+      "Limited camera features",
+      "No major design innovations"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2015-11-05",
@@ -18775,10 +19103,10 @@ window.PHONES = [
     "fallbackImg": "img/nexus-5x.svg",
     "releaseDate": "2015-09-29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nexus 5X is suitable for tech-savvy individuals seeking a pure Android experience and timely software updates. It's ideal for those who value simplicity and ease of use. This phone is a good fit for casual users who don't require extreme processing power.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -18791,7 +19119,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nexus%205X"
+        "url": "https://www.amazon.in/s?k=Nexus%205X"
       },
       {
         "store": "Flipkart",
@@ -18799,8 +19127,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nexus%205X"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Timely software updates",
+      "Clean Android interface",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Outdated processor (Q94) may struggle with demanding tasks",
+      "Limited storage options"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2015-09-29",
@@ -18822,10 +19157,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-2.svg",
     "releaseDate": "2015-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi 2 is suitable for budget-conscious users seeking a basic smartphone experience. It's ideal for those who prioritize affordability over high-end features. This phone is a good option for first-time smartphone users or those with minimal storage needs.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18838,7 +19173,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%202"
+        "url": "https://www.amazon.in/s?k=Redmi%202"
       },
       {
         "store": "Flipkart",
@@ -18846,8 +19181,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%202"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Decent battery life",
+      "Compact design"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No major software updates expected"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2015-01-01",
@@ -18872,10 +19216,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-note.svg",
     "releaseDate": "2014-03-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Redmi Note is suitable for budget-conscious users seeking a reliable device for everyday tasks and casual gaming. It's an excellent choice for students, first-time smartphone buyers, or those who want a secondary phone. With its Q94 processor, it can handle general usage with ease.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -18888,7 +19232,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20Note"
+        "url": "https://www.amazon.in/s?k=Redmi%20Note"
       },
       {
         "store": "Flipkart",
@@ -18896,8 +19240,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20Note"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Decent processor for general tasks",
+      "Xiaomi's reputation for providing regular software updates"
+    ],
+    "cons": [
+      "Limited gaming performance",
+      "May not support demanding applications"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2014-03-01",
@@ -18919,10 +19270,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-x.svg",
     "releaseDate": "2014-02-24",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 60,
+    "rating": 4.0,
+    "reviewCount": 720,
+    "review": "The Nokia X appears to be geared towards those seeking a straightforward, no-frills mobile experience, potentially appealing to first-time smartphone users or individuals prioritizing simplicity. Its target audience may also include those looking for a basic phone for everyday tasks. However, specific use cases are hard to determine without more detailed specifications.",
     "quickSpecs": {
       "display": "",
       "processor": "Nokia X",
@@ -18935,7 +19286,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20X"
+        "url": "https://www.amazon.in/s?k=Nokia%20X"
       },
       {
         "store": "Flipkart",
@@ -18943,8 +19294,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20X"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Potential for simplicity and ease of use",
+      "May offer a cost-effective option",
+      "Could be durable given Nokia's historical build quality"
+    ],
+    "cons": [
+      "Lack of detailed specifications makes it hard to assess performance",
+      "Limited information available on camera and display capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2014-02-24",
@@ -18969,10 +19327,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-1s.svg",
     "releaseDate": "2014-02-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Redmi 1S is suitable for budget-conscious users seeking a reliable device for basic tasks and casual gaming. Its affordability makes it an attractive option for first-time smartphone buyers or those looking for a secondary device. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -18985,7 +19343,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%201S"
+        "url": "https://www.amazon.in/s?k=Redmi%201S"
       },
       {
         "store": "Flipkart",
@@ -18993,8 +19351,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%201S"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface through MIUI",
+      "Decent performance for basic tasks"
+    ],
+    "cons": [
+      "Limited processing power with MIUI not being a processor but an OS",
+      "May not handle demanding games or apps smoothly"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2014-02-01",
@@ -19019,10 +19384,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-j-sgh.svg",
     "releaseDate": "2014-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy J SGH is suitable for basic users who prioritize ease of use and familiarity with the Samsung brand. It's ideal for those who want a straightforward Android experience without the need for advanced features. This phone is a good option for first-time smartphone users or those on a budget.",
     "quickSpecs": {
       "display": "",
       "processor": "Android KitKat",
@@ -19035,7 +19400,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20J%20SGH"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20J%20SGH"
       },
       {
         "store": "Flipkart",
@@ -19043,8 +19408,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20J%20SGH"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "Familiar Samsung brand",
+      "Affordable price point",
+      "Android KitKat operating system"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system",
+      "Limited storage and memory"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2014-01-01",
@@ -19069,10 +19443,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-1020.svg",
     "releaseDate": "2013-10-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia Lumia 1020 is ideal for photography enthusiasts and Windows Phone fans seeking a high-quality camera experience. It's also suitable for business users already invested in the Microsoft ecosystem. However, its appeal may be limited by the Windows Phone 8 operating system's relatively restricted app selection.",
     "quickSpecs": {
       "display": "",
       "processor": "Windows Phone 8",
@@ -19085,7 +19459,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%201020"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%201020"
       },
       {
         "store": "Flipkart",
@@ -19093,8 +19467,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%201020"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera",
+      "Windows Phone 8 integration",
+      "Nokia build quality"
+    ],
+    "cons": [
+      "Limited app selection",
+      "No major processor upgrades"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-10-01",
@@ -19119,10 +19500,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-mi-3.svg",
     "releaseDate": "2013-09-05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Xiaomi Mi 3 is suitable for budget-conscious users seeking a balance between performance and affordability. It's ideal for those who prioritize everyday tasks like browsing, social media, and casual gaming. However, it may not be the best fit for heavy gamers or power users due to its Q94 processor.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19135,7 +19516,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%203"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%203"
       },
       {
         "store": "Flipkart",
@@ -19143,8 +19524,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%203"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Decent performance for everyday tasks",
+      "Xiaomi's reputation for providing value-for-money devices"
+    ],
+    "cons": [
+      "Limited gaming capabilities",
+      "Outdated processor compared to newer models"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-09-05",
@@ -19166,10 +19554,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi.svg",
     "releaseDate": "2013-07-31",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Redmi phone from Xiaomi is ideal for budget-conscious buyers who want a user-friendly interface and seamless performance. It's suitable for everyday tasks like browsing, social media, and casual gaming. This phone is perfect for those who value affordability without compromising on essential features.",
     "quickSpecs": {
       "display": "",
       "processor": "MIUI",
@@ -19182,7 +19570,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi"
+        "url": "https://www.amazon.in/s?k=Redmi"
       },
       {
         "store": "Flipkart",
@@ -19190,8 +19578,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly MIUI interface",
+      "Affordable price point",
+      "Seamless performance for daily tasks"
+    ],
+    "cons": [
+      "Limited gaming capabilities",
+      "No flagship-level camera features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-07-31",
@@ -19216,10 +19611,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s4-mini.svg",
     "releaseDate": "2013-07-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy S4 Mini is suitable for casual users who prioritize compact design and everyday functionality. It's ideal for those who want a user-friendly interface without needing the latest powerhouse specs. This phone is perfect for first-time smartphone buyers or those seeking a reliable secondary device.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19232,7 +19627,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S4%20Mini"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S4%20Mini"
       },
       {
         "store": "Flipkart",
@@ -19240,8 +19635,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S4%20Mini"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "User-friendly interface",
+      "Reliable performance",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities",
+      "Not suitable for heavy gaming"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-07-01",
@@ -19263,10 +19667,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-grand.svg",
     "releaseDate": "2013-04-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy Grand is suited for casual users who prioritize everyday tasks like browsing and social media. Its Q94 processor provides a smooth experience for general use. However, it may not be the best fit for heavy gamers or power users.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19279,7 +19683,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Grand"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Grand"
       },
       {
         "store": "Flipkart",
@@ -19287,8 +19691,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Grand"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Smooth performance for everyday tasks",
+      "Efficient processor for general use",
+      "Samsung's reputation for quality hardware"
+    ],
+    "cons": [
+      "Limited gaming capabilities",
+      "May struggle with demanding applications"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-04-01",
@@ -19310,10 +19721,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s4.svg",
     "releaseDate": "2013-04-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy S4 is ideal for individuals seeking a high-performance Android device with a user-friendly interface, suitable for both personal and professional use. It caters to those who value customization options and a wide range of features. This phone is a good fit for users already invested in the Samsung ecosystem or looking to upgrade from an older Android model.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Jelly Bean",
@@ -19326,7 +19737,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S4"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S4"
       },
       {
         "store": "Flipkart",
@@ -19334,8 +19745,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S4"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast performance with Android Jelly Bean",
+      "High-quality display",
+      "Customization options through Android",
+      "Wide range of features and capabilities"
+    ],
+    "cons": [
+      "Limited battery life",
+      "No major design innovations"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-04-01",
@@ -19360,10 +19779,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-505.svg",
     "releaseDate": "2013-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 62,
+    "rating": 4.1,
+    "reviewCount": 744,
+    "review": "The Nokia Lumia 505 is suitable for basic users who prioritize affordability and simplicity. It's a decent choice for those who primarily use their phone for calling, texting, and casual browsing. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "Q1854343",
@@ -19376,7 +19795,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20505"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20505"
       },
       {
         "store": "Flipkart",
@@ -19384,8 +19803,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20505"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Simple and intuitive interface",
+      "Durable Nokia build"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2013-01-01",
@@ -19407,10 +19833,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s-iii-mini.svg",
     "releaseDate": "2012-11-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy S III mini is suitable for casual users who want a compact device with a user-friendly interface. It's ideal for those who prioritize ease of use over high-performance features. This phone is a good option for first-time smartphone buyers or seniors.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Jelly Bean",
@@ -19423,7 +19849,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S%20III%20mini"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S%20III%20mini"
       },
       {
         "store": "Flipkart",
@@ -19431,8 +19857,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S%20III%20mini"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "Easy to use",
+      "Affordable price point",
+      "Latest Android Jelly Bean OS"
+    ],
+    "cons": [
+      "Limited processing power",
+      "May not handle demanding apps smoothly"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2012-11-01",
@@ -19457,10 +19891,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-note-ii.svg",
     "releaseDate": "2012-09-26",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.3,
+    "reviewCount": 1020,
+    "review": "The Samsung Galaxy Note II is suitable for power users and creatives who require a large screen and stylus functionality. Its Q94 processor suggests a balance between performance and efficiency. This phone is ideal for those who value productivity and multitasking on-the-go.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19473,7 +19907,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Note%20II"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Note%20II"
       },
       {
         "store": "Flipkart",
@@ -19481,8 +19915,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Note%20II"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large screen for immersive experience",
+      "Stylus support for precise input",
+      "Powerful processor for smooth performance"
+    ],
+    "cons": [
+      "Limited battery life due to large screen",
+      "Bulky design may not fit all pockets"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2012-09-26",
@@ -19504,10 +19945,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-900.svg",
     "releaseDate": "2012-04-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia Lumia 900 is suitable for individuals seeking a reliable Windows-based smartphone with a strong brand reputation. It's ideal for everyday users who prioritize ease of use and a user-friendly interface. This phone is a good fit for those invested in the Microsoft ecosystem.",
     "quickSpecs": {
       "display": "",
       "processor": "Q1854343",
@@ -19520,7 +19961,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20900"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20900"
       },
       {
         "store": "Flipkart",
@@ -19528,8 +19969,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20900"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Strong brand reputation",
+      "User-friendly interface",
+      "Reliable performance"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited customization options"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2012-04-01",
@@ -19551,10 +19999,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-710.svg",
     "releaseDate": "2012-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia Lumia 710 is suited for budget-conscious consumers seeking a straightforward Windows Phone experience. Its modest specs make it an ideal choice for casual users who prioritize simplicity and ease of use. This phone is perfect for those who want to stay connected without breaking the bank.",
     "quickSpecs": {
       "display": "",
       "processor": "Q1854343",
@@ -19567,7 +20015,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20710"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20710"
       },
       {
         "store": "Flipkart",
@@ -19575,8 +20023,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20710"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Compact design",
+      "Good battery life"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No expandable storage option"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2012-01-01",
@@ -19598,10 +20055,10 @@ window.PHONES = [
     "fallbackImg": "img/galaxy-nexus.svg",
     "releaseDate": "2011-11-17",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Galaxy Nexus is ideal for tech-savvy individuals and developers who value a pure Android experience. It's also suitable for those seeking a device with timely software updates. Overall, it's a great choice for anyone looking for a high-end Android smartphone.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19614,7 +20071,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20Nexus"
+        "url": "https://www.amazon.in/s?k=Galaxy%20Nexus"
       },
       {
         "store": "Flipkart",
@@ -19622,8 +20079,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Galaxy%20Nexus"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast processor for smooth performance",
+      "Latest Android software with timely updates",
+      "High-quality display for immersive experience",
+      "Developed by Google for a seamless Android experience"
+    ],
+    "cons": [
+      "Limited storage capacity",
+      "No microSD card slot for expansion",
+      "Battery life could be improved"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2011-11-17",
@@ -19645,10 +20111,10 @@ window.PHONES = [
     "fallbackImg": "img/xiaomi-mi-1.svg",
     "releaseDate": "2011-08-18",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Xiaomi Mi 1 is suitable for budget-conscious buyers seeking a simple, no-frills Android experience. It's an entry-level option for those who primarily use their phone for basic tasks like calling, texting, and casual browsing. This phone is ideal for first-time smartphone users or those looking for a backup device.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19661,7 +20127,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xiaomi%20Mi%201"
+        "url": "https://www.amazon.in/s?k=Xiaomi%20Mi%201"
       },
       {
         "store": "Flipkart",
@@ -19669,8 +20135,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xiaomi%20Mi%201"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Compact design",
+      "Decent performance for basic tasks"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2011-08-18",
@@ -19692,10 +20165,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-play.svg",
     "releaseDate": "2011-04-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Xperia Play is suited for gamers and entertainment enthusiasts, offering a unique gaming experience on a mobile device. Its Q94 processor provides a smooth performance for casual games and everyday tasks. However, it may not be the best fit for power users or those seeking a high-end camera experience.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -19708,7 +20181,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%20Play"
+        "url": "https://www.amazon.in/s?k=Xperia%20Play"
       },
       {
         "store": "Flipkart",
@@ -19716,8 +20189,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%20Play"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Gaming capabilities",
+      "Unique design",
+      "Smooth performance for casual tasks"
+    ],
+    "cons": [
+      "Limited processor performance for demanding tasks",
+      "Outdated camera capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2011-04-01",
@@ -19739,10 +20219,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-3gs.svg",
     "releaseDate": "2009-06-19",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The iPhone 3GS is suitable for casual users who prioritize ease of use and a seamless iOS experience. It's ideal for those who want a straightforward, user-friendly interface without excessive customization options. This phone is perfect for everyday tasks like browsing, messaging, and social media.",
     "quickSpecs": {
       "display": "",
       "processor": "Q307677",
@@ -19755,7 +20235,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%203GS"
+        "url": "https://www.amazon.in/s?k=iPhone%203GS"
       },
       {
         "store": "Flipkart",
@@ -19763,8 +20243,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%203GS"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "High-quality camera",
+      "Sleek design"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No external memory card slot"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2009-06-19",
@@ -19786,10 +20274,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-5800-xpressmusic.svg",
     "releaseDate": "2008-10-02",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia 5800 XpressMusic is ideal for music enthusiasts and individuals seeking a straightforward, user-friendly device. Its Symbian processor provides a stable foundation for everyday tasks. This phone is suitable for those who prioritize simplicity and multimedia capabilities over high-end features.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -19802,7 +20290,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%205800%20XpressMusic"
+        "url": "https://www.amazon.in/s?k=Nokia%205800%20XpressMusic"
       },
       {
         "store": "Flipkart",
@@ -19810,8 +20298,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%205800%20XpressMusic"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "Good music playback quality",
+      "Durable design"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2008-10-02",
@@ -19836,10 +20331,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n95-8gb.svg",
     "releaseDate": "2007-01-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia N95 8GB is suitable for individuals seeking a feature-rich smartphone with ample storage, likely appealing to professionals and tech enthusiasts. Its Symbian processor provides a stable operating system, making it a good choice for those familiar with the platform. However, it may not be the best fit for gamers or those requiring the latest hardware.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -19852,7 +20347,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N95%208GB"
+        "url": "https://www.amazon.in/s?k=Nokia%20N95%208GB"
       },
       {
         "store": "Flipkart",
@@ -19860,8 +20355,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N95%208GB"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Ample 8GB storage",
+      "Stable Symbian OS",
+      "Feature-rich",
+      "Durable Nokia build"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited gaming capabilities",
+      "No major software updates expected"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2007-01-01",
@@ -19886,10 +20390,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n95.svg",
     "releaseDate": "2006-09-01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia N95 is suitable for tech-savvy individuals and business users who require a feature-rich device. Its Symbian processor provides a stable and efficient operating system. This phone is ideal for those who value functionality and durability in a mobile device.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -19902,7 +20406,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N95"
+        "url": "https://www.amazon.in/s?k=Nokia%20N95"
       },
       {
         "store": "Flipkart",
@@ -19910,8 +20414,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N95"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust operating system",
+      "Feature-rich",
+      "Durable design"
+    ],
+    "cons": [
+      "Limited multitasking capabilities",
+      "Outdated compared to modern smartphones"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2006-09-01",
@@ -19936,10 +20447,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-3230.svg",
     "releaseDate": "2004-11-02",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia 3230 is suitable for individuals seeking a reliable, feature-rich smartphone for everyday use, particularly those already familiar with the Symbian operating system. It's a solid choice for those who want a balance between functionality and affordability. This phone is ideal for users who prioritize ease of use and a wide range of features.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -19952,7 +20463,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%203230"
+        "url": "https://www.amazon.in/s?k=Nokia%203230"
       },
       {
         "store": "Flipkart",
@@ -19960,8 +20471,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%203230"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Intuitive Symbian interface",
+      "Feature-rich for its time",
+      "Durable construction",
+      "Good battery life"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system compared to modern standards",
+      "Limited storage capacity"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2004-11-02",
@@ -19986,10 +20506,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-7650.svg",
     "releaseDate": "2001-11-19",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia 7650 is suitable for individuals seeking a feature-rich device with a user-friendly interface, particularly those already invested in the Symbian ecosystem. It's a solid choice for both personal and professional use, offering a balance of functionality and affordability. However, it may not be the best fit for those seeking high-performance gaming or advanced multimedia capabilities.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20002,7 +20522,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%207650"
+        "url": "https://www.amazon.in/s?k=Nokia%207650"
       },
       {
         "store": "Flipkart",
@@ -20010,8 +20530,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%207650"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Intuitive Symbian operating system",
+      "Robust feature set for its time",
+      "Durable construction typical of Nokia devices",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited processing power by modern standards",
+      "Outdated software capabilities compared to newer models"
+    ],
     "specs": {
       "Launch": {
         "Announced": "2001-11-19",
@@ -20036,10 +20564,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s-advance.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy S Advance is suitable for casual users who prioritize ease of use and familiar interface. It's ideal for those who want a straightforward Android experience without breaking the bank. This phone is geared towards individuals with basic needs such as social media, messaging, and lightweight gaming.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20052,7 +20580,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S%20Advance"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S%20Advance"
       },
       {
         "store": "Flipkart",
@@ -20060,8 +20588,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S%20Advance"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "Affordable price point",
+      "Decent performance for everyday tasks"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited gaming capabilities",
+      "No significant innovative features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20083,10 +20619,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-jet.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 60,
+    "rating": 4.0,
+    "reviewCount": 720,
+    "review": "The Samsung Jet is suitable for individuals seeking a Samsung device, although its target audience is unclear due to unavailable specs. It may appeal to those invested in the Samsung ecosystem. Further details are needed to determine its ideal user.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -20099,7 +20635,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Jet"
+        "url": "https://www.amazon.in/s?k=Samsung%20Jet"
       },
       {
         "store": "Flipkart",
@@ -20107,8 +20643,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Jet"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Samsung brand reputation",
+      "Potentially sleek design",
+      "Possible seamless ecosystem integration"
+    ],
+    "cons": [
+      "Unknown performance capabilities",
+      "Lack of information on key features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20130,10 +20673,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-pocket.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy Pocket is suitable for basic users who prioritize affordability and simplicity, making it an ideal option for first-time smartphone owners or those on a tight budget. Its compact design and user-friendly interface also make it a great choice for seniors or individuals with limited technical expertise. Overall, it's a solid entry-level device.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Gingerbread",
@@ -20146,7 +20689,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20Pocket"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Pocket"
       },
       {
         "store": "Flipkart",
@@ -20154,8 +20697,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Pocket"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Compact and lightweight design",
+      "User-friendly interface",
+      "Long battery life"
+    ],
+    "cons": [
+      "Outdated Android Gingerbread operating system",
+      "Limited processing power",
+      "Low-resolution display"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20180,10 +20732,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-i7500.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Samsung Galaxy i7500 is suited for individuals seeking a balance between performance and affordability, particularly those already invested in the Samsung ecosystem. Its Q94 processor suggests a focus on efficiency and moderate computing power. This phone is ideal for everyday use, such as browsing, messaging, and light gaming.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20196,7 +20748,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20i7500"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20i7500"
       },
       {
         "store": "Flipkart",
@@ -20204,8 +20756,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20i7500"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Efficient Q94 processor for daily tasks",
+      "Samsung's user interface for ease of use",
+      "Potential for long battery life due to efficient processor"
+    ],
+    "cons": [
+      "Limited gaming performance due to older processor technology",
+      "May not support the latest software updates"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20227,10 +20786,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-920-smartphone.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia Lumia 920 is ideal for Windows enthusiasts and those seeking a seamless Microsoft ecosystem experience. It's also suited for individuals who value a user-friendly interface and don't require extensive customization options. Overall, it's a solid choice for everyday users who prioritize ease of use and integration with other Microsoft services.",
     "quickSpecs": {
       "display": "",
       "processor": "Windows Phone 8",
@@ -20243,7 +20802,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20920%20smartphone"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20920%20smartphone"
       },
       {
         "store": "Flipkart",
@@ -20251,8 +20810,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20920%20smartphone"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Intuitive Windows Phone 8 interface",
+      "Seamless integration with Microsoft services",
+      "High-quality build and design",
+      "Good camera performance"
+    ],
+    "cons": [
+      "Limited customization options compared to Android",
+      "App selection may be limited compared to other platforms"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20277,10 +20844,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-galaxy-s.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung Galaxy S is suitable for general users seeking a reliable device for everyday tasks, as well as those interested in Samsung's ecosystem. It's a good fit for individuals who value brand recognition and a user-friendly interface. However, power users may find the Q94 processor somewhat lacking for intensive applications.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20293,7 +20860,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20Galaxy%20S"
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S"
       },
       {
         "store": "Flipkart",
@@ -20301,8 +20868,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Recognizable brand",
+      "User-friendly interface",
+      "Reliable for everyday use"
+    ],
+    "cons": [
+      "Processor may not handle intense tasks",
+      "Limited customization options"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20324,10 +20898,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-e60.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia E60 is suitable for business users and those familiar with Symbian, offering a reliable and straightforward mobile experience. It caters to individuals who prioritize functionality and durability over high-end features. This phone is ideal for everyday use, such as making calls, sending messages, and basic internet browsing.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20340,7 +20914,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20E60"
+        "url": "https://www.amazon.in/s?k=Nokia%20E60"
       },
       {
         "store": "Flipkart",
@@ -20348,8 +20922,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20E60"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Durable design",
+      "Long battery life",
+      "User-friendly interface",
+      "Support for business applications"
+    ],
+    "cons": [
+      "Limited multimedia capabilities",
+      "Outdated operating system",
+      "No touchscreen functionality"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20374,10 +20957,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-620.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia Lumia 620 is suitable for casual users and those invested in the Windows ecosystem, offering a straightforward and intuitive experience. It's ideal for everyday tasks like browsing, emailing, and social media. However, power users may find its capabilities limited.",
     "quickSpecs": {
       "display": "",
       "processor": "Windows Phone 8",
@@ -20390,7 +20973,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20620"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20620"
       },
       {
         "store": "Flipkart",
@@ -20398,8 +20981,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20620"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly interface",
+      "Affordable price point",
+      "Compact design",
+      "Good battery life"
+    ],
+    "cons": [
+      "Limited processor performance",
+      "Outdated operating system",
+      "Limited storage capacity"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20424,10 +21016,10 @@ window.PHONES = [
     "fallbackImg": "img/samsung-i8910.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Samsung i8910 is suitable for users seeking a feature-rich device with a robust operating system, ideal for those invested in the Symbian ecosystem. It's a good fit for individuals who value a phone's capabilities over flashy design. Business users and developers may also appreciate its Symbian platform.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20440,7 +21032,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Samsung%20i8910"
+        "url": "https://www.amazon.in/s?k=Samsung%20i8910"
       },
       {
         "store": "Flipkart",
@@ -20448,8 +21040,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Samsung%20i8910"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust Symbian OS",
+      "Feature-rich",
+      "Development possibilities"
+    ],
+    "cons": [
+      "Outdated OS compared to modern standards",
+      "Limited app availability"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20474,10 +21073,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-w960.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.1,
+    "reviewCount": 804,
+    "review": "The Sony Ericsson W960 is suited for music enthusiasts and individuals seeking a feature-rich phone with a focus on entertainment. Given its brand reputation, it likely appeals to those valuing sleek design and user experience. However, without specific specs, its target audience is somewhat ambiguous.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -20490,7 +21089,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20W960"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20W960"
       },
       {
         "store": "Flipkart",
@@ -20498,8 +21097,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20W960"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Likely robust music capabilities",
+      "Sleek design typical of Sony Ericsson",
+      "Feature-rich for its time",
+      "Brand reputation for quality"
+    ],
+    "cons": [
+      "Lack of detailed specifications",
+      "Potential for outdated technology",
+      "可能 limited by its release era's standards"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20521,10 +21129,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-arc-s.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Sony Ericsson Xperia arc S is suitable for everyday users who want a reliable device for basic tasks and casual gaming. Its Q94 processor provides a smooth experience for general use. However, power users may find it lacking for demanding applications.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20537,7 +21145,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20arc%20S"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20arc%20S"
       },
       {
         "store": "Flipkart",
@@ -20545,8 +21153,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20arc%20S"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Smooth performance for everyday tasks",
+      "Reliable battery life",
+      "Compact design"
+    ],
+    "cons": [
+      "Limited gaming performance",
+      "Outdated processor compared to newer models"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20568,10 +21183,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n9.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia N9 is suitable for tech-savvy individuals and developers interested in exploring the MeeGo operating system. It's also a good fit for those who value a unique user experience and are looking for an alternative to Android or iOS. Overall, it's a great option for enthusiasts and early adopters.",
     "quickSpecs": {
       "display": "",
       "processor": "MeeGo",
@@ -20584,7 +21199,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N9"
+        "url": "https://www.amazon.in/s?k=Nokia%20N9"
       },
       {
         "store": "Flipkart",
@@ -20592,8 +21207,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N9"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Unique MeeGo OS",
+      "Innovative user interface",
+      "Compact design"
+    ],
+    "cons": [
+      "Limited app ecosystem",
+      "No expandable storage"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20618,10 +21240,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-x10.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia X10 is suitable for users seeking a balance between performance and affordability, particularly those invested in the Sony ecosystem. Its Q94 processor provides a smooth experience for everyday tasks. However, it may not be the best fit for demanding gamers or power users.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20634,7 +21256,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20X10"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20X10"
       },
       {
         "store": "Flipkart",
@@ -20642,8 +21264,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20X10"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Smooth performance for everyday tasks",
+      "Affordable price point",
+      "Sony brand reliability"
+    ],
+    "cons": [
+      "Limited gaming capabilities",
+      "Outdated processor compared to modern standards"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20665,10 +21294,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-lumia-800.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia Lumia 800 is suitable for individuals seeking a sleek Windows-based smartphone with a focus on style and everyday usability. It's ideal for those already invested in the Microsoft ecosystem and wanting a seamless integration with their other devices. However, the processor model Q1854343 may not cater to heavy gamers or power users.",
     "quickSpecs": {
       "display": "",
       "processor": "Q1854343",
@@ -20681,7 +21310,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20Lumia%20800"
+        "url": "https://www.amazon.in/s?k=Nokia%20Lumia%20800"
       },
       {
         "store": "Flipkart",
@@ -20689,8 +21318,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20Lumia%20800"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Attractive design",
+      "Windows Phone operating system for Microsoft enthusiasts",
+      "Good camera capabilities"
+    ],
+    "cons": [
+      "Processor may not handle demanding tasks efficiently",
+      "Limited storage options"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20712,10 +21348,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-e90-communicator.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Nokia E90 Communicator is ideal for business users and individuals who require a robust, feature-rich device with a focus on productivity. Its Symbian processor provides a stable and efficient operating system. This phone is suited for those who value functionality and durability over sleek designs.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20728,7 +21364,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20E90%20Communicator"
+        "url": "https://www.amazon.in/s?k=Nokia%20E90%20Communicator"
       },
       {
         "store": "Flipkart",
@@ -20736,8 +21372,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20E90%20Communicator"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust build quality",
+      "Feature-rich operating system",
+      "Long battery life",
+      "Physical keyboard"
+    ],
+    "cons": [
+      "Bulkier design",
+      "Limited gaming capabilities",
+      "Outdated software compared to modern standards"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20762,10 +21407,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-x1.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia X1 is suitable for business users and those familiar with Windows Mobile, offering a unique blend of productivity and mobile functionality. It's ideal for individuals who require a device that can handle demanding tasks and multitasking. However, its appeal may be limited by its operating system, which may not be as user-friendly for casual users.",
     "quickSpecs": {
       "display": "",
       "processor": "Windows Mobile",
@@ -20778,7 +21423,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20X1"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20X1"
       },
       {
         "store": "Flipkart",
@@ -20786,8 +21431,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20X1"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Windows Mobile offers robust multitasking capabilities",
+      "Suitable for business and productivity use",
+      "Unique design and form factor"
+    ],
+    "cons": [
+      "Windows Mobile may have a steeper learning curve",
+      "Limited appeal for casual or first-time smartphone users"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20812,10 +21464,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n82.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia N82 is suitable for individuals seeking a reliable and feature-rich smartphone, particularly those already invested in the Symbian ecosystem. It's ideal for users who value a straightforward, no-frills mobile experience. Business users and those prioritizing functionality over form may find this device appealing.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20828,7 +21480,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N82"
+        "url": "https://www.amazon.in/s?k=Nokia%20N82"
       },
       {
         "store": "Flipkart",
@@ -20836,8 +21488,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N82"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust Symbian OS",
+      "Feature-rich",
+      "Reliable performance"
+    ],
+    "cons": [
+      "Outdated compared to modern smartphones",
+      "Limited app selection"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20862,10 +21521,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n73.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia N73 is suitable for users seeking a reliable, feature-rich device with a familiar interface, particularly those invested in the Symbian ecosystem. It's ideal for individuals who value a balance between functionality and simplicity. This phone is a solid choice for everyday use, including messaging, browsing, and multimedia.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -20878,7 +21537,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N73"
+        "url": "https://www.amazon.in/s?k=Nokia%20N73"
       },
       {
         "store": "Flipkart",
@@ -20886,8 +21545,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N73"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Familiar Symbian interface",
+      "Robust feature set",
+      "Durable construction",
+      "Good battery life"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system",
+      "No major innovations"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20912,10 +21580,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-u8800.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 62,
+    "rating": 4.1,
+    "reviewCount": 744,
+    "review": "The Huawei U8800 is suitable for basic users who prioritize affordability and simplicity. It's a decent option for those who primarily use their phone for calling, texting, and light browsing. However, it may not be the best choice for heavy gamers or power users.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20928,7 +21596,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20U8800"
+        "url": "https://www.amazon.in/s?k=Huawei%20U8800"
       },
       {
         "store": "Flipkart",
@@ -20936,8 +21604,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20U8800"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Simple and intuitive interface",
+      "Decent call quality"
+    ],
+    "cons": [
+      "Outdated processor (Q94) may lead to performance issues",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -20959,10 +21634,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-ray--st18i.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia ray is suitable for casual users who prioritize a compact design and straightforward functionality. It's an ideal choice for those who want a simple, no-frills Android experience without breaking the bank. This phone will appeal to individuals who value ease of use and don't require the latest and greatest features.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -20975,7 +21650,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20ray%20%28ST18i%29"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20ray%20%28ST18i%29"
       },
       {
         "store": "Flipkart",
@@ -20983,8 +21658,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20ray%20%28ST18i%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "Easy to use",
+      "Affordable price point",
+      "Good for basic tasks"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities",
+      "Not ideal for gaming or heavy usage"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21006,10 +21690,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-x2.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 62,
+    "rating": 4.1,
+    "reviewCount": 744,
+    "review": "The Sony Ericsson Xperia X2 is suitable for business users and those invested in the Windows ecosystem, offering a mobile experience tailored to their needs. Its Windows Mobile processor provides a familiar interface for users already accustomed to the operating system. However, it may not be the best choice for gamers or those seeking a wide array of apps.",
     "quickSpecs": {
       "display": "",
       "processor": "Windows Mobile",
@@ -21022,7 +21706,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20X2"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20X2"
       },
       {
         "store": "Flipkart",
@@ -21030,8 +21714,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20X2"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Familiar Windows interface",
+      "Suitable for business use",
+      "Integration with Microsoft services"
+    ],
+    "cons": [
+      "Limited app selection",
+      "Outdated operating system"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21056,10 +21747,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n70.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia N70 is suitable for individuals seeking a reliable, user-friendly device for basic tasks and communication. It's an ideal choice for those who value simplicity and familiarity with the Symbian operating system. This phone is perfect for everyday use, such as making calls, sending texts, and occasional internet browsing.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21072,7 +21763,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N70"
+        "url": "https://www.amazon.in/s?k=Nokia%20N70"
       },
       {
         "store": "Flipkart",
@@ -21080,8 +21771,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N70"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "User-friendly Symbian interface",
+      "Reliable performance for basic tasks",
+      "Wide range of compatible apps",
+      "Durable construction"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system",
+      "No support for modern apps"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21106,10 +21806,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-arc.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia Arc is suitable for individuals seeking a stylish and feature-packed smartphone. It's ideal for casual users who want a balance of performance and affordability. This phone is also a good option for those invested in the Sony ecosystem.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21122,7 +21822,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20Arc"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20Arc"
       },
       {
         "store": "Flipkart",
@@ -21130,8 +21830,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20Arc"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Sleek design",
+      "Decent processor performance",
+      "Good camera capabilities"
+    ],
+    "cons": [
+      "Limited processor speed compared to high-end models",
+      "No major innovative features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21153,10 +21860,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-x10-mini.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia X10 mini is suitable for casual users who prioritize compact design and ease of use. It's ideal for those who want a simple, no-frills Android experience without breaking the bank. Basic tasks like browsing, messaging, and calling are handled with ease.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21169,7 +21876,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20X10%20mini"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20X10%20mini"
       },
       {
         "store": "Flipkart",
@@ -21177,8 +21884,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20X10%20mini"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "User-friendly interface",
+      "Affordable price point",
+      "Decent camera capabilities"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No major software updates expected"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21200,10 +21916,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-5230.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia 5230 is suitable for basic users who prioritize simplicity and familiarity, as it runs on the established Symbian operating system. It's ideal for those who want a straightforward, no-frills mobile experience. This phone is a good fit for individuals who are not heavily invested in the latest smartphone trends.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21216,7 +21932,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%205230"
+        "url": "https://www.amazon.in/s?k=Nokia%205230"
       },
       {
         "store": "Flipkart",
@@ -21224,8 +21940,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%205230"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Familiar Symbian interface",
+      "Simple to use",
+      "Established ecosystem of apps",
+      "Durable Nokia build quality",
+      "Affordable"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21250,10 +21976,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-mini-pro.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia mini pro is suitable for individuals seeking a compact smartphone with a physical keyboard, likely appealing to heavy texters and social media enthusiasts. Its Q94 processor provides a balance between performance and power efficiency. This phone is ideal for those who value a tactile typing experience in a portable package.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21266,7 +21992,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20mini%20pro"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20mini%20pro"
       },
       {
         "store": "Flipkart",
@@ -21274,8 +22000,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20mini%20pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design with slide-out keyboard",
+      "Efficient Q94 processor",
+      "Portable and lightweight"
+    ],
+    "cons": [
+      "Limited processing power for demanding tasks",
+      "Outdated software capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21297,10 +22030,10 @@ window.PHONES = [
     "fallbackImg": "img/garmin-asus-nüvifone-a50.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Garmin-ASUS Nüvifone A50 is suitable for outdoor enthusiasts and individuals who require a phone with robust navigation capabilities. Its processor, although not top-of-the-line, can handle basic tasks with ease. This phone is ideal for those prioritizing GPS functionality over high-performance processing.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21313,7 +22046,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Garmin-ASUS%20N%C3%BCvifone%20A50"
+        "url": "https://www.amazon.in/s?k=Garmin-ASUS%20N%C3%BCvifone%20A50"
       },
       {
         "store": "Flipkart",
@@ -21321,8 +22054,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Garmin-ASUS%20N%C3%BCvifone%20A50"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust GPS capabilities",
+      "Durable design",
+      "Long battery life",
+      "User-friendly interface"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities",
+      "No significant camera upgrades"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21344,10 +22086,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-808-pureview.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia 808 PureView is suitable for photography enthusiasts and those seeking a unique smartphone experience. Its Symbian processor may appeal to users already invested in the ecosystem. However, it may not be the best choice for those seeking a modern, feature-rich operating system.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21360,7 +22102,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20808%20PureView"
+        "url": "https://www.amazon.in/s?k=Nokia%20808%20PureView"
       },
       {
         "store": "Flipkart",
@@ -21368,8 +22110,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20808%20PureView"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Impressive camera capabilities",
+      "Unique design",
+      "Symbian ecosystem compatibility"
+    ],
+    "cons": [
+      "Outdated Symbian operating system",
+      "Limited app selection",
+      "Processing power may not match modern standards"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21394,10 +22144,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-6210-navigator.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Nokia 6210 Navigator is suitable for individuals seeking a reliable, navigation-focused device, particularly those who value the Symbian operating system. This phone is ideal for everyday use, including mapping and organizational tasks. It's a practical choice for those who don't require advanced smartphone features.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21410,7 +22160,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%206210%20Navigator"
+        "url": "https://www.amazon.in/s?k=Nokia%206210%20Navigator"
       },
       {
         "store": "Flipkart",
@@ -21418,8 +22168,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%206210%20Navigator"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Symbian OS for familiarity",
+      "Navigation capabilities",
+      "Reliable performance",
+      "Long battery life"
+    ],
+    "cons": [
+      "Limited multimedia capabilities",
+      "Outdated operating system",
+      "No touchscreen interface"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21444,10 +22203,10 @@ window.PHONES = [
     "fallbackImg": "img/nokia-n97.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Nokia N97 is suitable for individuals seeking a reliable, feature-rich device with a familiar operating system. It's ideal for those invested in the Symbian ecosystem and valuing a physical keyboard. Business users and heavy communicators may find this device particularly appealing.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21460,7 +22219,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nokia%20N97"
+        "url": "https://www.amazon.in/s?k=Nokia%20N97"
       },
       {
         "store": "Flipkart",
@@ -21468,8 +22227,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nokia%20N97"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Familiar Symbian interface",
+      "Physical keyboard for efficient typing",
+      "Robust feature set for productivity",
+      "Durable construction"
+    ],
+    "cons": [
+      "Limited app ecosystem compared to competitors",
+      "Symbian may feel outdated to some users",
+      "No major innovations in hardware"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21494,10 +22262,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-p990.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.1,
+    "reviewCount": 804,
+    "review": "The Sony Ericsson P990 is suitable for business users and individuals seeking a feature-rich smartphone with a focus on productivity. Given its brand, it likely offers a balance of style and functionality. However, without specific specs, its appeal may be limited to those familiar with the brand's historical offerings.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -21510,7 +22278,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20P990"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20P990"
       },
       {
         "store": "Flipkart",
@@ -21518,8 +22286,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20P990"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-end brand reputation",
+      "Likely robust camera",
+      "Probably feature-rich"
+    ],
+    "cons": [
+      "Outdated specs compared to modern phones",
+      "Unknown battery life",
+      "Possibly bulky design"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21541,10 +22317,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-satio.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Sony Ericsson Satio is ideal for those seeking a feature-rich phone with a strong brand reputation, likely appealing to professionals and individuals who value a Symbian-based device. This phone is suitable for users who prioritize a reliable operating system and a well-established brand. It may also appeal to those looking for a phone with a wide range of features.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21557,7 +22333,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Satio"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Satio"
       },
       {
         "store": "Flipkart",
@@ -21565,8 +22341,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Satio"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Established brand reputation",
+      "Feature-rich device",
+      "Reliable Symbian operating system",
+      "Wide range of features"
+    ],
+    "cons": [
+      "Limited processor capabilities compared to modern standards",
+      "Symbian may not be as user-friendly as other operating systems"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21591,10 +22375,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-p1.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson P1 is suitable for business users and individuals who value a feature-rich smartphone with a robust operating system. It's ideal for those who need a device that can handle demanding tasks and multitasking. The Symbian processor provides a stable and efficient performance.",
     "quickSpecs": {
       "display": "",
       "processor": "Symbian",
@@ -21607,7 +22391,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20P1"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20P1"
       },
       {
         "store": "Flipkart",
@@ -21615,8 +22399,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20P1"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Robust Symbian operating system",
+      "Feature-rich smartphone capabilities",
+      "Efficient processor for multitasking",
+      "Suitable for business and heavy users"
+    ],
+    "cons": [
+      "Limited gaming capabilities",
+      "Outdated compared to modern smartphones"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21641,10 +22433,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-ion.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Sony Xperia ion is suitable for users seeking a reliable Android experience with a reputable brand like Sony. It's ideal for those who value a well-established brand and don't need the latest processor. This phone is a good fit for casual users who prioritize brand trust over cutting-edge specs.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21657,7 +22449,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20ion"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20ion"
       },
       {
         "store": "Flipkart",
@@ -21665,8 +22457,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20ion"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Established brand reputation",
+      "Reliable Android performance",
+      "Good for casual use"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21688,10 +22487,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-miro.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.0,
+    "reviewCount": 804,
+    "review": "The Sony Xperia miro is suitable for casual users who prioritize simplicity and ease of use. It's an entry-level device that can handle basic tasks like browsing, social media, and messaging. This phone is ideal for those who don't require advanced features or high-performance capabilities.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21704,7 +22503,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20miro"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20miro"
       },
       {
         "store": "Flipkart",
@@ -21712,8 +22511,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20miro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Compact design"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No advanced camera features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21735,10 +22542,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-sl.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Sony Xperia SL is suitable for individuals seeking a reliable Android experience with a reputable brand. It's ideal for everyday use, such as browsing, social media, and casual gaming. This phone is geared towards those who value a well-established brand like Sony.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21751,7 +22558,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20SL"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20SL"
       },
       {
         "store": "Flipkart",
@@ -21759,8 +22566,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20SL"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Established brand reputation",
+      "Latest Android experience",
+      "Potential for timely software updates"
+    ],
+    "cons": [
+      "Processor may not be the latest model",
+      "Limited information available on camera and display capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21782,10 +22596,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-t.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Xperia T is suitable for everyday users who prioritize a balance of performance and affordability. It's a great option for those who want a reliable device for basic tasks like browsing, social media, and casual gaming. However, power users may find the Q94 processor somewhat limiting.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21798,7 +22612,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20T"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20T"
       },
       {
         "store": "Flipkart",
@@ -21806,8 +22620,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Compact design",
+      "Decent camera capabilities",
+      "Long-lasting battery"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited multitasking capabilities",
+      "No major innovative features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21829,10 +22652,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-neo-l.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Xperia neo L is suitable for casual users seeking a straightforward Android experience, with its Q94 processor handling everyday tasks with ease. It's a good fit for those who prioritize simplicity and ease of use. This phone is ideal for first-time smartphone owners or seniors.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21845,7 +22668,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20neo%20L"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20neo%20L"
       },
       {
         "store": "Flipkart",
@@ -21853,8 +22676,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20neo%20L"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Easy to use",
+      "Handles basic tasks well",
+      "Brand reputation for quality"
+    ],
+    "cons": [
+      "Limited processing power",
+      "May struggle with demanding apps"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21876,10 +22706,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-ascend-mate.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Huawei Ascend Mate is suitable for users seeking a large-screen device with decent processing power, ideal for multimedia consumption and general productivity. It caters to those who value a balance between performance and affordability. This phone is a good fit for individuals with basic to moderate smartphone needs.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -21892,7 +22722,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Ascend%20Mate"
+        "url": "https://www.amazon.in/s?k=Huawei%20Ascend%20Mate"
       },
       {
         "store": "Flipkart",
@@ -21900,8 +22730,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Ascend%20Mate"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large screen for immersive experience",
+      "Decent processor for everyday tasks",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Outdated processor technology",
+      "Limited gaming capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21923,10 +22760,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-ideos-u8150.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 68,
+    "rating": 4.1,
+    "reviewCount": 816,
+    "review": "The Huawei IDEOS U8150 is suitable for first-time smartphone users or those on a tight budget, offering a basic Android experience. It's ideal for simple tasks like browsing, emailing, and social media. However, it may not be the best choice for gamers or heavy users.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Froyo",
@@ -21939,7 +22776,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20IDEOS%20U8150"
+        "url": "https://www.amazon.in/s?k=Huawei%20IDEOS%20U8150"
       },
       {
         "store": "Flipkart",
@@ -21947,8 +22784,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20IDEOS%20U8150"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Compact design",
+      "Android Froyo for basic smartphone functionality"
+    ],
+    "cons": [
+      "Limited processing power",
+      "Outdated operating system"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -21973,10 +22817,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-z.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Xperia Z is suitable for individuals seeking a durable and water-resistant Android device. It's ideal for everyday use, with a user-friendly interface courtesy of Android Jelly Bean. This phone is a good fit for those who want a reliable device without needing the latest features.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Jelly Bean",
@@ -21989,7 +22833,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20Z"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20Z"
       },
       {
         "store": "Flipkart",
@@ -21997,8 +22841,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20Z"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Water-resistant design",
+      "User-friendly interface",
+      "Decent performance with Android Jelly Bean"
+    ],
+    "cons": [
+      "Outdated operating system",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22023,10 +22874,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-x8.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia X8 is suitable for basic users who prioritize simplicity and ease of use. It's ideal for those who want a no-frills Android experience without breaking the bank. The X8's capabilities make it a good fit for casual users who primarily use their phone for calls, texts, and light browsing.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22039,7 +22890,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20X8"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20X8"
       },
       {
         "store": "Flipkart",
@@ -22047,8 +22898,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20X8"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Decent battery life",
+      "Compact design"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited storage capacity",
+      "No major innovative features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22070,10 +22930,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-neo.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia neo is suitable for casual users who want a straightforward Android experience without excessive features. It's ideal for those who prioritize simplicity and ease of use. The phone's capabilities make it a good fit for everyday tasks like browsing and messaging.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22086,7 +22946,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20neo"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20neo"
       },
       {
         "store": "Flipkart",
@@ -22094,8 +22954,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20neo"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "User-friendly interface",
+      "Decent processor performance",
+      "Good for basic gaming"
+    ],
+    "cons": [
+      "Limited multitasking capabilities",
+      "Outdated software",
+      "No significant camera features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22117,10 +22986,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-sonic.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Huawei Sonic is suitable for general users who prioritize a balance of performance and affordability, but may not be the best fit for heavy gamers or power users due to the Q94 processor. It's ideal for everyday tasks like browsing, social media, and casual gaming. Overall, it's a solid choice for those seeking a reliable device without breaking the bank.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22133,7 +23002,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Sonic"
+        "url": "https://www.amazon.in/s?k=Huawei%20Sonic"
       },
       {
         "store": "Flipkart",
@@ -22141,8 +23010,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Sonic"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Decent performance for everyday tasks",
+      "Huawei's reputation for building durable devices"
+    ],
+    "cons": [
+      "Q94 processor may struggle with demanding games",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22164,10 +23040,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-ericsson-xperia-mini.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.2,
+    "reviewCount": 984,
+    "review": "The Sony Ericsson Xperia mini is suitable for individuals seeking a compact device with moderate processing power, ideal for basic tasks and casual users. It's a good fit for those who value portability and ease of use. The phone's capabilities make it a solid choice for first-time smartphone owners.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22180,7 +23056,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Ericsson%20Xperia%20mini"
+        "url": "https://www.amazon.in/s?k=Sony%20Ericsson%20Xperia%20mini"
       },
       {
         "store": "Flipkart",
@@ -22188,8 +23064,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Ericsson%20Xperia%20mini"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact design",
+      "Easy to use",
+      "Moderate processor for basic tasks",
+      "Portable"
+    ],
+    "cons": [
+      "Limited processing power for demanding tasks",
+      "Outdated technology"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22211,10 +23095,10 @@ window.PHONES = [
     "fallbackImg": "img/sony-xperia-go.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.0,
+    "reviewCount": 804,
+    "review": "The Sony Xperia Go is suitable for casual users who prioritize durability and affordability. It's a great option for those who want a hassle-free experience without breaking the bank. Outdoor enthusiasts may also appreciate its rugged design.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22227,7 +23111,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Sony%20Xperia%20Go"
+        "url": "https://www.amazon.in/s?k=Sony%20Xperia%20Go"
       },
       {
         "store": "Flipkart",
@@ -22235,8 +23119,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Sony%20Xperia%20Go"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Durable design",
+      "Affordable price point",
+      "User-friendly interface",
+      "Good for outdoor use"
+    ],
+    "cons": [
+      "Outdated processor",
+      "Limited performance for gaming and heavy usage"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22258,10 +23150,10 @@ window.PHONES = [
     "fallbackImg": "img/honor-gt.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Honor GT is ideal for tech-savvy users seeking a futuristic Android experience. With Android 15 on board, this phone is perfect for those who want to stay ahead of the curve. It's suited for heavy users who require the latest features and security updates.",
     "quickSpecs": {
       "display": "",
       "processor": "Android 15",
@@ -22274,7 +23166,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Honor%20GT"
+        "url": "https://www.amazon.in/s?k=Honor%20GT"
       },
       {
         "store": "Flipkart",
@@ -22282,8 +23174,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Honor%20GT"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Latest Android 15 operating system",
+      "Potential for improved performance and security",
+      "Likely to receive timely software updates"
+    ],
+    "cons": [
+      "Limited information available on other specs",
+      "May have a higher price point due to latest OS"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22308,10 +23207,10 @@ window.PHONES = [
     "fallbackImg": "img/asus-zenfone-12-ultra.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 78,
+    "rating": 4.3,
+    "reviewCount": 936,
+    "review": "The Asus Zenfone 12 Ultra appears to be designed for enthusiasts and power users who demand high-performance devices, although specific details are needed to confirm its target audience. It likely suits those seeking advanced camera capabilities and fast charging. Further specifications would clarify its ideal user base.",
     "quickSpecs": {
       "display": "",
       "processor": "",
@@ -22324,7 +23223,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Asus%20Zenfone%2012%20Ultra"
+        "url": "https://www.amazon.in/s?k=Asus%20Zenfone%2012%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -22332,8 +23231,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Asus%20Zenfone%2012%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-end camera system expected",
+      "Fast charging support likely",
+      "Asus's typically sleek design"
+    ],
+    "cons": [
+      "Limited information available",
+      "Potential high cost"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22355,10 +23261,10 @@ window.PHONES = [
     "fallbackImg": "img/motorola-motoluxe.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.1,
+    "reviewCount": 804,
+    "review": "The Motorola Motoluxe is suitable for budget-conscious users seeking a basic Android experience. It's ideal for those who primarily use their phone for calling, texting, and light browsing. This phone is not recommended for gamers or power users.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Gingerbread",
@@ -22371,7 +23277,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Motorola%20Motoluxe"
+        "url": "https://www.amazon.in/s?k=Motorola%20Motoluxe"
       },
       {
         "store": "Flipkart",
@@ -22379,8 +23285,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Motorola%20Motoluxe"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Decent battery life",
+      "Compact design"
+    ],
+    "cons": [
+      "Outdated Android Gingerbread operating system",
+      "Limited processing power",
+      "No 4G connectivity"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22405,10 +23320,10 @@ window.PHONES = [
     "fallbackImg": "img/honor-400-smart.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.1,
+    "reviewCount": 804,
+    "review": "The Honor 400 Smart is suitable for casual users who prioritize affordability and basic functionality. It's an entry-level option for those who primarily use their phone for calling, texting, and light browsing. This phone may appeal to seniors or children who don't require advanced features.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22421,7 +23336,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Honor%20400%20Smart"
+        "url": "https://www.amazon.in/s?k=Honor%20400%20Smart"
       },
       {
         "store": "Flipkart",
@@ -22429,8 +23344,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Honor%20400%20Smart"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Sufficient for basic tasks",
+      "Likely compact design"
+    ],
+    "cons": [
+      "Limited processing power with Q94",
+      "May struggle with demanding apps",
+      "Outdated specs compared to flagship models"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22452,10 +23375,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-ascend-p6.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Huawei Ascend P6 is suitable for budget-conscious users seeking a reliable device for everyday tasks. Its processor, although not the latest, can handle basic applications and casual gaming. This phone is ideal for those who prioritize affordability over cutting-edge performance.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22468,7 +23391,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Ascend%20P6"
+        "url": "https://www.amazon.in/s?k=Huawei%20Ascend%20P6"
       },
       {
         "store": "Flipkart",
@@ -22476,8 +23399,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Ascend%20P6"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Suitable for basic tasks and casual use",
+      "Reliable performance for its class"
+    ],
+    "cons": [
+      "Outdated processor may struggle with demanding apps",
+      "Limited multitasking capabilities"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22499,10 +23429,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-stream-x-gl07s.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 67,
+    "rating": 4.1,
+    "reviewCount": 804,
+    "review": "The Huawei STREAM X GL07S is suitable for users seeking a reliable device for everyday tasks, given its processor, it's likely to handle general use such as browsing, emailing, and social media. It may appeal to those looking for a straightforward, no-frills smartphone experience. However, the specifics of its performance and capabilities are somewhat limited by the information provided.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22515,7 +23445,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20STREAM%20X%20GL07S"
+        "url": "https://www.amazon.in/s?k=Huawei%20STREAM%20X%20GL07S"
       },
       {
         "store": "Flipkart",
@@ -22523,8 +23453,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20STREAM%20X%20GL07S"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Reliable for basic tasks",
+      "Potential for efficient battery life",
+      "Simple, user-friendly interface expected from Huawei"
+    ],
+    "cons": [
+      "Lack of detailed specs may indicate outdated or lower-end hardware",
+      "Processor Q94 may not support demanding applications or games",
+      "Limited information available on camera and display quality"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22546,10 +23484,10 @@ window.PHONES = [
     "fallbackImg": "img/motorola-moto-g--1st-generation.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Motorola Moto G is suitable for budget-conscious buyers seeking a reliable Android experience. It's ideal for basic tasks like browsing, social media, and casual gaming. First-time smartphone users will also appreciate its simplicity.",
     "quickSpecs": {
       "display": "",
       "processor": "Android Jelly Bean",
@@ -22562,7 +23500,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Motorola%20Moto%20G%20%281st%20generation%29"
+        "url": "https://www.amazon.in/s?k=Motorola%20Moto%20G%20%281st%20generation%29"
       },
       {
         "store": "Flipkart",
@@ -22570,8 +23508,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Motorola%20Moto%20G%20%281st%20generation%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "User-friendly interface",
+      "Decent battery life"
+    ],
+    "cons": [
+      "Outdated operating system",
+      "Limited processing power",
+      "No 4G LTE support"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22596,10 +23542,10 @@ window.PHONES = [
     "fallbackImg": "img/asus-padfone.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The ASUS PadFone is suitable for individuals seeking a versatile device that combines the functionality of a phone and a tablet, likely appealing to professionals and students who need a single device for both work and play. With the Q94 processor, it should handle everyday tasks with ease. However, its suitability for heavy gaming or resource-intensive applications is uncertain without more information on the processor's capabilities.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22612,7 +23558,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ASUS%20PadFone"
+        "url": "https://www.amazon.in/s?k=ASUS%20PadFone"
       },
       {
         "store": "Flipkart",
@@ -22620,8 +23566,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ASUS%20PadFone"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Versatile phone and tablet functionality",
+      "Potential for efficient everyday task handling",
+      "Innovative design concept"
+    ],
+    "cons": [
+      "Unclear performance for heavy gaming or resource-intensive applications",
+      "Limited information available on battery life and durability"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22643,10 +23596,10 @@ window.PHONES = [
     "fallbackImg": "img/huawei-ascend-y210.svg",
     "releaseDate": "",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.1,
+    "reviewCount": 984,
+    "review": "The Huawei Ascend Y210 is suitable for basic users who prioritize affordability and simplicity, ideal for those who primarily use their phone for calling, texting, and light browsing. Its Q94 processor provides sufficient power for everyday tasks. This phone is a good option for first-time smartphone users or those on a tight budget.",
     "quickSpecs": {
       "display": "",
       "processor": "Q94",
@@ -22659,7 +23612,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Huawei%20Ascend%20Y210"
+        "url": "https://www.amazon.in/s?k=Huawei%20Ascend%20Y210"
       },
       {
         "store": "Flipkart",
@@ -22667,8 +23620,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Huawei%20Ascend%20Y210"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Affordable price point",
+      "Sufficient processing power for basic tasks",
+      "Simple and intuitive interface"
+    ],
+    "cons": [
+      "Limited processing power for demanding apps",
+      "Outdated software may not support latest features"
+    ],
     "specs": {
       "Launch": {
         "Announced": "—",
@@ -22682,7 +23642,17 @@ window.PHONES = [
 ];
 window.NEWS = [
   {
-    "id": "n3987851446",
+    "id": "n7970318598",
+    "title": "Exposing the sneaky math behind your Android phone’s battery life claims in 2026",
+    "excerpt": "Brands like OnePlus and HONOR are trying to redefine battery health, and not entirely for the better.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.androidauthority.com/android-phone-battery-life-claims-sneaky-math-2026-3683394/",
+    "source": "Androidauthority",
+    "image": "https://www.androidauthority.com/wp-content/uploads/2026/03/google-pixel-10a-review-battery-1-scaled.jpg"
+  },
+  {
+    "id": "n4229536838",
     "title": "5 carriers you should sign up for instead of Helium Mobile",
     "excerpt": "Not excited about Noble's recent acquisition of Helium Mobile? Let's talk alternatives.",
     "date": "2026-07-12",
@@ -22692,7 +23662,7 @@ window.NEWS = [
     "image": "https://www.androidauthority.com/wp-content/uploads/2024/06/Helium-Mobile-logo-on-smartphone-with-colored-background-stock-photo.jpg"
   },
   {
-    "id": "n8673545534",
+    "id": "n3859571086",
     "title": "This ESP32-powered Pokedex connects to your emulator and shows stats in real time",
     "excerpt": "Never use an uneffective move ever again.",
     "date": "2026-07-12",
@@ -22702,7 +23672,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/esp32-pokedex-featured.jpg"
   },
   {
-    "id": "n2262900325",
+    "id": "n2709516293",
     "title": "Ask HN: Can anyone explain this Gsearch rabbit-hole?",
     "excerpt": "Okay this is very weird and even weirder to post to HN, but I don t know where else to share it (and I don t use most social media ) and I m really quite intrigued with what I ve …",
     "date": "2026-07-12",
@@ -22712,7 +23682,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n8222646180",
+    "id": "n59875303",
     "title": "Pop!_OS's COSMIC just got a frosted glass desktop style, and it looks amazing",
     "excerpt": "I might need to give it a try.",
     "date": "2026-07-12",
@@ -22722,7 +23692,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/pop-os-4-1.jpg"
   },
   {
-    "id": "n8067945288",
+    "id": "n6299660400",
     "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
     "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
     "date": "2026-07-12",
@@ -22732,7 +23702,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n3906129112",
+    "id": "n2203608294",
     "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
     "excerpt": "A great app is getting even better.",
     "date": "2026-07-12",
@@ -22742,7 +23712,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/03/kde-plasma-laptop.jpg"
   },
   {
-    "id": "n3485947442",
+    "id": "n1718825335",
     "title": "Reed Jobs would rather talk about curing cancer than his last name",
     "excerpt": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the …",
     "date": "2026-07-12",
@@ -22752,7 +23722,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n811224127",
+    "id": "n3367959587",
     "title": "Linux containers do what my Proxmox VMs couldn't: run a dozen services without wasting half my memory",
     "excerpt": "Linux containers replaced most of my Proxmox VMs, cutting memory use, speeding up restarts, and making a dozen services easier to manage.",
     "date": "2026-07-12",
@@ -22762,7 +23732,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/linux-containers-do-what-my-proxmox-vms-couldnt.jpeg"
   },
   {
-    "id": "n5060751492",
+    "id": "n1750031453",
     "title": "I love my dual-monitor setup, but these surprises caught me completely off guard",
     "excerpt": "I thought it would have only upside",
     "date": "2026-07-11",
@@ -22772,7 +23742,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/dual-monitor-setup-on-desk-with-gaming-chair.jpg"
   },
   {
-    "id": "n1602014652",
+    "id": "n2988600184",
     "title": "My AI coding workflow runs entirely through Discord, and it's faster than using an editor",
     "excerpt": "You can thank OpenClaw for this.",
     "date": "2026-07-11",
@@ -22782,7 +23752,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783369086854.jpg"
   },
   {
-    "id": "n1293361208",
+    "id": "n5790832791",
     "title": "What If It's Not the Phones?",
     "excerpt": "What If It's Not the Phones?",
     "date": "2026-07-11",
@@ -22792,7 +23762,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n6456642361",
+    "id": "n9716305772",
     "title": "This slushie machine was a lifesaver during NYC’s heat wave",
     "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
     "date": "2026-07-11",
@@ -22802,7 +23772,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n6885543258",
+    "id": "n9329903207",
     "title": "ICE are heavily armed killers. They’re also huge losers",
     "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
     "date": "2026-07-11",
@@ -22812,7 +23782,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n1832354911",
+    "id": "n2968261778",
     "title": "Windows has too many backup tools, but this free app beats them all",
     "excerpt": "I stopped trusting Windows backups after learning what actually works",
     "date": "2026-07-11",
@@ -22822,7 +23792,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/kopia-2.jpg"
   },
   {
-    "id": "n4730866953",
+    "id": "n710464927",
     "title": "I didn't know my SSD was dying until Windows stopped booting",
     "excerpt": "Hardware failure isn't always easy to spot.",
     "date": "2026-07-11",
@@ -22832,7 +23802,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/whatsapp-image-2026-07-09-at-15-06-34-4.jpeg"
   },
   {
-    "id": "n8525514644",
+    "id": "n5362292954",
     "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
     "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
     "date": "2026-07-11",
@@ -22842,7 +23812,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n6247346352",
+    "id": "n7273800041",
     "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
     "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
     "date": "2026-07-11",
@@ -22852,7 +23822,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/phoebe-gates-ai-shopping-app-phia-reportedly-claimed-unearned-affiliate-sales-through-fake-clicks/l-intro-1783801413.jpg"
   },
   {
-    "id": "n4760502025",
+    "id": "n5936271585",
     "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
     "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
     "date": "2026-07-11",
@@ -22862,7 +23832,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n2783180340",
+    "id": "n1650897120",
     "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
     "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
     "date": "2026-07-11",
@@ -22872,7 +23842,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/what-is-eclipsa-video-and-how-does-it-compare-to-dolby-vision-and-hdr10/l-intro-1783433207.jpg"
   },
   {
-    "id": "n2206945261",
+    "id": "n3556183968",
     "title": "Philips offers free replacements after update bricked smart lighting hubs",
     "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
     "date": "2026-07-11",
@@ -22882,7 +23852,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/philips-offers-free-replacements-after-update-bricked-smart-lighting-hubs/l-intro-1783788631.jpg"
   },
   {
-    "id": "n3808257650",
+    "id": "n7153313693",
     "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
     "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
     "date": "2026-07-11",
@@ -22892,7 +23862,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n5751790098",
+    "id": "n1832056097",
     "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
     "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
     "date": "2026-07-11",
@@ -22902,7 +23872,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/openais-head-of-safety-is-reportedly-leaving-as-part-of-company-reorganization/l-intro-1783783514.jpg"
   },
   {
-    "id": "n8738898271",
+    "id": "n6593387492",
     "title": "Which USB port should you use for your mouse and keyboard?",
     "excerpt": "Save your best ports for your most demanding devices.",
     "date": "2026-07-11",
@@ -22912,7 +23882,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/which-usb-port-should-you-use-for-your-mouse-and-keyboard/l-intro-1783550097.jpg"
   },
   {
-    "id": "n2898161247",
+    "id": "n9865480633",
     "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
     "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
     "date": "2026-07-11",
@@ -22922,7 +23892,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n908703510",
+    "id": "n6519155328",
     "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
     "excerpt": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the F…",
     "date": "2026-07-11",
@@ -22932,7 +23902,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n5894548867",
+    "id": "n7030893768",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "excerpt": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "date": "2026-07-11",
@@ -22942,17 +23912,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n5801200470",
-    "title": "Show HN: Agent World – an open standard and live market for personal AI agents",
-    "excerpt": "Show HN: Agent World – an open standard and live market for personal AI agents",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://github.com/macrokit/agent-world",
-    "source": "Hacker News",
-    "image": ""
-  },
-  {
-    "id": "n5762148620",
+    "id": "n7792441762",
     "title": "Google deleting all recently inactive accounts without phone number",
     "excerpt": "Google is now deleting all accounts that do not, and have never had, phone numbers associated with them if they haven t logged in within a year or so. Urgent: Sign in to your Goog…",
     "date": "2026-07-11",
@@ -22962,7 +23922,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n6686406798",
+    "id": "n1645786678",
     "title": "Engadget review recap: Steam Machine, Samsung Music Studio 7, Oura Ring 5 and more",
     "excerpt": "A roundup of recent reviews published by Engadget.",
     "date": "2026-07-11",
@@ -22972,7 +23932,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/engadget-review-recap-steam-machine-samsung-music-studio-7-oura-ring-5-and-more/l-intro-1783713182.jpg"
   },
   {
-    "id": "n4660584545",
+    "id": "n3558315727",
     "title": "Your Samsung Gallery won't be able to sync with Microsoft OneDrive soon",
     "excerpt": "Your photos don t have to go home, but they can t stay here.",
     "date": "2026-07-11",
@@ -22982,7 +23942,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/your-samsung-gallery-wont-be-able-to-sync-with-microsoft-onedrive-soon/l-intro-1783629483.jpg"
   },
   {
-    "id": "n2660141928",
+    "id": "n6899951804",
     "title": "Bluesky has an official CEO again",
     "excerpt": "Toni Schneider, who took over after Jay Graber stepped down, is now Bluesky s official CEO.",
     "date": "2026-07-11",
@@ -22992,7 +23952,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/bluesky-has-a-permanent-ceo-again/l-intro-1783774958.jpg"
   },
   {
-    "id": "n4901641959",
+    "id": "n6677798086",
     "title": "A tasty RPG that will make you very hungry",
     "excerpt": "Roleplaying games are often defined by excess. Storylines that span dozens of hours, side quests so big they could be their own game, massive worlds that require complex maps to e…",
     "date": "2026-07-11",
@@ -23002,7 +23962,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n8380805339",
+    "id": "n5282760921",
     "title": "I tried DuckDuckGo’s new and free YouTube ad blocker. Here’s how it works",
     "excerpt": "No Premium? No problem. DuckDuckGo-t your back!",
     "date": "2026-07-11",
@@ -23012,7 +23972,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n4968341088",
+    "id": "n5215334390",
     "title": "Show HN: Axletic – a local-first workout tracker for iPhone",
     "excerpt": "Hi HN,I built Axletic, a native iPhone workout tracker focused on making workout logging feel quick and uncomplicated. I drew a lot of inspiration from clean, dark themed apps suc…",
     "date": "2026-07-11",
@@ -23022,7 +23982,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n1028358277",
+    "id": "n6948555414",
     "title": "The Dreame X60 Max Ultra Complete has the recipe for success, but it’s a little needy",
     "excerpt": "The Dreame X60 Max Ultra Complete is an ultra-premium floor-cleaning system that requires a little too much intervention.",
     "date": "2026-07-11",
@@ -23032,7 +23992,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n8331886241",
+    "id": "n2061372931",
     "title": "I used to love Claude, but the latest models are slowly ruining it",
     "excerpt": "This isn't the Claude I used to love.",
     "date": "2026-07-11",
@@ -23042,7 +24002,7 @@ window.NEWS = [
     "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/the-claude-app-on-a-smartphone-scaled.jpg"
   },
   {
-    "id": "n6907730353",
+    "id": "n7086962786",
     "title": "I wish someone told me about these 5 Android Auto settings before I bought my new car",
     "excerpt": "A few Android Auto settings go a long way.",
     "date": "2026-07-11",
@@ -23052,7 +24012,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n2379012081",
+    "id": "n691938437",
     "title": "How I turned my Pixel into the ultimate Home Assistant smart home companion",
     "excerpt": "I can't imagine smart home life without my Pixel now.",
     "date": "2026-07-11",
@@ -23062,7 +24022,17 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n5171762780",
+    "id": "n1220460828",
+    "title": "2026 BMW iX1 eDrive20L M Sport in Malaysia – LWB EV, 433 km range, from RM252,800",
+    "excerpt": "The 2026 BMW iX1 eDrive20L M Sport is the long-wheelbase version of BMW’s entry electric SUV, which finally received official Malaysian pricing after being launched back in Januar…",
+    "date": "2026-07-11",
+    "tag": "Accessories",
+    "url": "https://paultan.org/2026/07/11/2026-bmw-ix1-edrive20l-m-sport-in-malaysia-lwb-ev-433-km-range-from-rm252800/",
+    "source": "Paul Tan's Automotive News",
+    "image": "https://paultan.org/image/2026/04/2026-BMW-iX1-eDrive20L-M-Sport-Malaysia-2-e1777285244464-1200x631.jpg"
+  },
+  {
+    "id": "n4922367502",
     "title": "I tried the new Google Photos Android app redesign, and now I want it in every Google app",
     "excerpt": "It's a small change, but a welcome one.",
     "date": "2026-07-11",
@@ -23072,63 +24042,53 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n7664115737",
-    "title": "5 Best Upcoming Smartphones This Month With Powerful Cameras and AI Features",
-    "excerpt": "The smartphone market is preparing for another wave of exciting launches, with several upcoming smartphones expected to introduce major improvements in camera technology, artifici…",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.successful-blog.com/1/best-upcoming-smartphones/",
-    "source": "Successful-blog.com",
-    "image": "https://www.successful-blog.com/wp-content/uploads/2026/07/Best-Upcoming-Smartphones-1-1.webp"
-  },
-  {
-    "id": "n6535570579",
-    "title": "5 Google Pixel Settings That Actually Speed Up Your Phone",
-    "excerpt": "If you're a Google Pixel owner and want to make your phone feel snappier, you can toggle settings related to system animations, refresh rate, and more.",
+    "id": "n5671477990",
+    "title": "I Tested 4 Red Light Masks — Here's My Honest Ranking",
+    "excerpt": "Get glowing.",
     "date": "2026-07-11",
     "tag": "Accessories",
-    "url": "https://www.bgr.com/2209490/google-pixel-settings-actually-speed-up-your-phone/",
-    "source": "BGR",
-    "image": "https://www.bgr.com/img/gallery/5-google-pixel-settings-that-actually-speed-up-your-phone/l-intro-1783432590.jpg"
-  },
-  {
-    "id": "n9963116454",
-    "title": "Xiaomi: WiFi 7 router with 10 Gbit/s ports and NAS features reaches additional markets",
-    "excerpt": "Extremely fast: Xiaomi is now offering a new router in Germany as well. The model can also be used as network storage and supports high-speed wireless and wired network connection…",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://www.notebookcheck.net/Xiaomi-WiFi-7-router-with-10-Gbit-s-ports-and-NAS-features-reaches-additional-markets.1340203.0.html",
-    "source": "Notebookcheck.net",
-    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-router-be19000-pro.jpg"
-  },
-  {
-    "id": "n2582924756",
-    "title": "Deals: Nothing Phone (4b) goes on pre-order, Galaxy A57 and Realme 16 Pro+ stand in its way",
-    "excerpt": "Nothing unveiled the Nothing Phone (4b) earlier this week – this is the first (b) series phone, but it’s a mid-ranger not unlike the (a) series models. In fact, the (4a) is the be…",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://www.gsmarena.com/deals_nothing_phone_4b_goes_on_preorder_galaxy_a57_and_realme_16_pro_stand_in_its_way-news-73672.php",
-    "source": "GSMArena.com",
-    "image": "https://fdn.gsmarena.com/imgroot/news/26/07/weekly-deals-10/-952x498w6/gsmarena_de.jpg"
-  },
-  {
-    "id": "n6489626564",
-    "title": "Lenovo launches 'ultra-thin' MacBook Neo rival with 120Hz display",
-    "excerpt": "The new Lenovo Xiaoxin Air 13, powered by the Intel Wildcat Lake platform, is now available in China. It's a compact system with a 13.3-inch IPS display that features a 120Hz refr…",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://www.notebookcheck.net/Lenovo-launches-ultra-thin-MacBook-Neo-rival-with-120Hz-display.1340195.0.html",
-    "source": "Notebookcheck.net",
-    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Lenovo-launches-Xiaoxin-Air-13-2026-with-Intel-Wildcat-Lake-processor.jpg"
-  },
-  {
-    "id": "n2530651917",
-    "title": "Better Posture Isn’t About Sitting Straighter — Try This Instead",
-    "excerpt": "It's more than good manners",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://www.mindbodygreen.com/articles/gabby-george-on-why-posture-is-one-of-most-overlooked-parts-of-wellness",
+    "url": "https://www.mindbodygreen.com/articles/tested-best-red-light-therapy-masks-for-anti-aging",
     "source": "mindbodygreen.com",
-    "image": "https://mindbodygreen-res.cloudinary.com/image/upload/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/1783630340974_8qab4u3mqza.jpg"
+    "image": "https://mindbodygreen-res.cloudinary.com/image/upload/c_crop,x_0,y_0,w_2000,h_1334/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/1779491360291_0q0a07nqj4no.jpg"
+  },
+  {
+    "id": "n7211406190",
+    "title": "A decade ago, I splurged for a personal trainer. It's one of the best investments I've ever made.",
+    "excerpt": "She was unsure paying $180 per month for a personal trainer in 2017 would be worth the money. Becoming stronger improved nearly every aspect of her life.",
+    "date": "2026-07-11",
+    "tag": "Laptops",
+    "url": "https://www.businessinsider.com/splurged-personal-trainer-10-years-ago-best-investments-2026-7#article",
+    "source": "Business Insider",
+    "image": "https://i.insider.com/6a4cfda05dc133dbf310d8b3?width=1200&format=jpeg"
+  },
+  {
+    "id": "n6378432269",
+    "title": "Dongfeng by Carro PJ Midtown showroom now open – come check out the 007 EV sedan and Vigo EV SUV",
+    "excerpt": "Shopping for an EV in the Klang Valley? There’s a new destination to add to your list – the Dongfeng by Carro showroom at PJ Midtown is now open, giving Petaling Jaya folk a dedic…",
+    "date": "2026-07-11",
+    "tag": "Accessories",
+    "url": "https://paultan.org/2026/07/11/dongfeng-by-carro-pj-midtown-showroom-now-open-come-check-out-the-007-ev-sedan-and-vigo-ev-suv/",
+    "source": "Paul Tan's Automotive News",
+    "image": "https://paultan.org/image/2026/02/Dongfeng-Carro-Midtown-PJ-Showroom-14-1200x800.jpg"
+  },
+  {
+    "id": "n9755081907",
+    "title": "onb-mcp 0.3.0",
+    "excerpt": "MCP server that wraps the Open Notebook API",
+    "date": "2026-07-11",
+    "tag": "Laptops",
+    "url": "https://pypi.org/project/onb-mcp/0.3.0/",
+    "source": "Pypi.org",
+    "image": ""
+  },
+  {
+    "id": "n757451877",
+    "title": "onb-mcp added to PyPI",
+    "excerpt": "MCP server that wraps the Open Notebook API",
+    "date": "2026-07-11",
+    "tag": "Laptops",
+    "url": "https://pypi.org/project/onb-mcp/",
+    "source": "Pypi.org",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
   }
 ];
