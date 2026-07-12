@@ -103,7 +103,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2017e"
+        "url": "https://www.amazon.in/s?k=iPhone%2017e"
       },
       {
         "store": "Flipkart",
@@ -225,7 +225,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2017%20Pro%20Max"
+        "url": "https://www.amazon.in/s?k=iPhone%2017%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -346,7 +346,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2017%20Pro"
+        "url": "https://www.amazon.in/s?k=iPhone%2017%20Pro"
       },
       {
         "store": "Flipkart",
@@ -468,7 +468,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%20Air"
+        "url": "https://www.amazon.in/s?k=iPhone%20Air"
       },
       {
         "store": "Flipkart",
@@ -588,7 +588,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2017"
+        "url": "https://www.amazon.in/s?k=iPhone%2017"
       },
       {
         "store": "Flipkart",
@@ -710,7 +710,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2016e"
+        "url": "https://www.amazon.in/s?k=iPhone%2016e"
       },
       {
         "store": "Flipkart",
@@ -828,7 +828,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2016%20Pro%20Max"
+        "url": "https://www.amazon.in/s?k=iPhone%2016%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -949,7 +949,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2016%20Pro"
+        "url": "https://www.amazon.in/s?k=iPhone%2016%20Pro"
       },
       {
         "store": "Flipkart",
@@ -1069,7 +1069,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2016%20Plus"
+        "url": "https://www.amazon.in/s?k=iPhone%2016%20Plus"
       },
       {
         "store": "Flipkart",
@@ -1188,7 +1188,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iPhone%2016"
+        "url": "https://www.amazon.in/s?k=iPhone%2016"
       },
       {
         "store": "Flipkart",
@@ -1306,7 +1306,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20M47"
+        "url": "https://www.amazon.in/s?k=Galaxy%20M47"
       },
       {
         "store": "Flipkart",
@@ -1424,7 +1424,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20A27"
+        "url": "https://www.amazon.in/s?k=Galaxy%20A27"
       },
       {
         "store": "Flipkart",
@@ -1543,7 +1543,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20A57"
+        "url": "https://www.amazon.in/s?k=Galaxy%20A57"
       },
       {
         "store": "Flipkart",
@@ -1660,7 +1660,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20A37"
+        "url": "https://www.amazon.in/s?k=Galaxy%20A37"
       },
       {
         "store": "Flipkart",
@@ -1780,7 +1780,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20M17e"
+        "url": "https://www.amazon.in/s?k=Galaxy%20M17e"
       },
       {
         "store": "Flipkart",
@@ -1896,7 +1896,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20S26%20Ultra"
+        "url": "https://www.amazon.in/s?k=Galaxy%20S26%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -2018,7 +2018,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20S26"
+        "url": "https://www.amazon.in/s?k=Galaxy%20S26"
       },
       {
         "store": "Flipkart",
@@ -2139,7 +2139,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20S26"
+        "url": "https://www.amazon.in/s?k=Galaxy%20S26"
       },
       {
         "store": "Flipkart",
@@ -2260,7 +2260,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20F70e"
+        "url": "https://www.amazon.in/s?k=Galaxy%20F70e"
       },
       {
         "store": "Flipkart",
@@ -2377,7 +2377,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Galaxy%20A07"
+        "url": "https://www.amazon.in/s?k=Galaxy%20A07"
       },
       {
         "store": "Flipkart",
@@ -2493,7 +2493,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%2010a"
+        "url": "https://www.amazon.in/s?k=Pixel%2010a"
       },
       {
         "store": "Flipkart",
@@ -2610,7 +2610,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro%20Fold"
+        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro%20Fold"
       },
       {
         "store": "Flipkart",
@@ -2731,7 +2731,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro%20XL"
+        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro%20XL"
       },
       {
         "store": "Flipkart",
@@ -2850,7 +2850,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%2010%20Pro"
+        "url": "https://www.amazon.in/s?k=Pixel%2010%20Pro"
       },
       {
         "store": "Flipkart",
@@ -2971,7 +2971,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%2010"
+        "url": "https://www.amazon.in/s?k=Pixel%2010"
       },
       {
         "store": "Flipkart",
@@ -3092,7 +3092,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%209a"
+        "url": "https://www.amazon.in/s?k=Pixel%209a"
       },
       {
         "store": "Flipkart",
@@ -3211,7 +3211,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro%20XL"
+        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro%20XL"
       },
       {
         "store": "Flipkart",
@@ -3331,7 +3331,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro"
+        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro"
       },
       {
         "store": "Flipkart",
@@ -3449,7 +3449,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%209"
+        "url": "https://www.amazon.in/s?k=Pixel%209"
       },
       {
         "store": "Flipkart",
@@ -3568,7 +3568,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Pixel%209%20Pro%20Fold"
+        "url": "https://www.amazon.in/s?k=Pixel%209%20Pro%20Fold"
       },
       {
         "store": "Flipkart",
@@ -3688,7 +3688,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20K90%20Ultra"
+        "url": "https://www.amazon.in/s?k=Redmi%20K90%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -3805,7 +3805,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%2017C"
+        "url": "https://www.amazon.in/s?k=Redmi%2017C"
       },
       {
         "store": "Flipkart",
@@ -3917,7 +3917,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=17T%20Pro"
+        "url": "https://www.amazon.in/s?k=17T%20Pro"
       },
       {
         "store": "Flipkart",
@@ -4037,7 +4037,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=17T"
+        "url": "https://www.amazon.in/s?k=17T"
       },
       {
         "store": "Flipkart",
@@ -4156,7 +4156,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=17%20Max"
+        "url": "https://www.amazon.in/s?k=17%20Max"
       },
       {
         "store": "Flipkart",
@@ -4274,7 +4274,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Poco%20C81%20Pro"
+        "url": "https://www.amazon.in/s?k=Poco%20C81%20Pro"
       },
       {
         "store": "Flipkart",
@@ -4389,7 +4389,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Poco%20C81"
+        "url": "https://www.amazon.in/s?k=Poco%20C81"
       },
       {
         "store": "Flipkart",
@@ -4503,7 +4503,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Poco%20C81x"
+        "url": "https://www.amazon.in/s?k=Poco%20C81x"
       },
       {
         "store": "Flipkart",
@@ -4616,7 +4616,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20K90%20Max"
+        "url": "https://www.amazon.in/s?k=Redmi%20K90%20Max"
       },
       {
         "store": "Flipkart",
@@ -4735,7 +4735,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Redmi%20A7%20Pro"
+        "url": "https://www.amazon.in/s?k=Redmi%20A7%20Pro"
       },
       {
         "store": "Flipkart",
@@ -4850,7 +4850,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=N6"
+        "url": "https://www.amazon.in/s?k=N6"
       },
       {
         "store": "Flipkart",
@@ -4964,7 +4964,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Turbo%206X%20Pro"
+        "url": "https://www.amazon.in/s?k=Turbo%206X%20Pro"
       },
       {
         "store": "Flipkart",
@@ -5077,7 +5077,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Turbo%206X"
+        "url": "https://www.amazon.in/s?k=Turbo%206X"
       },
       {
         "store": "Flipkart",
@@ -5190,7 +5190,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nord%20CE6"
+        "url": "https://www.amazon.in/s?k=Nord%20CE6"
       },
       {
         "store": "Flipkart",
@@ -5304,7 +5304,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nord%20CE6%20Lite"
+        "url": "https://www.amazon.in/s?k=Nord%20CE6%20Lite"
       },
       {
         "store": "Flipkart",
@@ -5419,7 +5419,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Ace%206%20Ultra"
+        "url": "https://www.amazon.in/s?k=Ace%206%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -5537,7 +5537,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Nord%206"
+        "url": "https://www.amazon.in/s?k=Nord%206"
       },
       {
         "store": "Flipkart",
@@ -5657,7 +5657,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=15T"
+        "url": "https://www.amazon.in/s?k=15T"
       },
       {
         "store": "Flipkart",
@@ -5775,7 +5775,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Turbo%206"
+        "url": "https://www.amazon.in/s?k=Turbo%206"
       },
       {
         "store": "Flipkart",
@@ -5892,7 +5892,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Turbo%206V"
+        "url": "https://www.amazon.in/s?k=Turbo%206V"
       },
       {
         "store": "Flipkart",
@@ -6009,7 +6009,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%284b%29"
+        "url": "https://www.amazon.in/s?k=Phone%20%284b%29"
       },
       {
         "store": "Flipkart",
@@ -6125,7 +6125,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%284a%29%20Pro"
+        "url": "https://www.amazon.in/s?k=Phone%20%284a%29%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6243,7 +6243,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%284a%29"
+        "url": "https://www.amazon.in/s?k=Phone%20%284a%29"
       },
       {
         "store": "Flipkart",
@@ -6359,7 +6359,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%283a%29%20Lite"
+        "url": "https://www.amazon.in/s?k=Phone%20%283a%29%20Lite"
       },
       {
         "store": "Flipkart",
@@ -6477,7 +6477,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%283%29"
+        "url": "https://www.amazon.in/s?k=Phone%20%283%29"
       },
       {
         "store": "Flipkart",
@@ -6595,7 +6595,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=CMF%20Phone%202%20Pro"
+        "url": "https://www.amazon.in/s?k=CMF%20Phone%202%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6711,7 +6711,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%283a%29%20Pro"
+        "url": "https://www.amazon.in/s?k=Phone%20%283a%29%20Pro"
       },
       {
         "store": "Flipkart",
@@ -6826,7 +6826,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%283a%29"
+        "url": "https://www.amazon.in/s?k=Phone%20%283a%29"
       },
       {
         "store": "Flipkart",
@@ -6942,7 +6942,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Phone%20%282a%29%20Plus"
+        "url": "https://www.amazon.in/s?k=Phone%20%282a%29%20Plus"
       },
       {
         "store": "Flipkart",
@@ -7059,7 +7059,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=CMF%20Phone%201"
+        "url": "https://www.amazon.in/s?k=CMF%20Phone%201"
       },
       {
         "store": "Flipkart",
@@ -7174,7 +7174,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Y500"
+        "url": "https://www.amazon.in/s?k=Y500"
       },
       {
         "store": "Flipkart",
@@ -7288,7 +7288,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iQOO%20Z11i"
+        "url": "https://www.amazon.in/s?k=iQOO%20Z11i"
       },
       {
         "store": "Flipkart",
@@ -7405,7 +7405,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=X%20Fold6"
+        "url": "https://www.amazon.in/s?k=X%20Fold6"
       },
       {
         "store": "Flipkart",
@@ -7525,7 +7525,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=IQOO%20Pad5c"
+        "url": "https://www.amazon.in/s?k=IQOO%20Pad5c"
       },
       {
         "store": "Flipkart",
@@ -7637,7 +7637,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=V70%20Lite"
+        "url": "https://www.amazon.in/s?k=V70%20Lite"
       },
       {
         "store": "Flipkart",
@@ -7752,7 +7752,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=S60"
+        "url": "https://www.amazon.in/s?k=S60"
       },
       {
         "store": "Flipkart",
@@ -7869,7 +7869,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=S60e"
+        "url": "https://www.amazon.in/s?k=S60e"
       },
       {
         "store": "Flipkart",
@@ -7986,7 +7986,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=T5"
+        "url": "https://www.amazon.in/s?k=T5"
       },
       {
         "store": "Flipkart",
@@ -8100,7 +8100,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Y600%20Turbo"
+        "url": "https://www.amazon.in/s?k=Y600%20Turbo"
       },
       {
         "store": "Flipkart",
@@ -8215,7 +8215,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=iQOO%2015T"
+        "url": "https://www.amazon.in/s?k=iQOO%2015T"
       },
       {
         "store": "Flipkart",
@@ -8333,7 +8333,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=P4x%204G"
+        "url": "https://www.amazon.in/s?k=P4x%204G"
       },
       {
         "store": "Flipkart",
@@ -8446,7 +8446,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=P4R"
+        "url": "https://www.amazon.in/s?k=P4R"
       },
       {
         "store": "Flipkart",
@@ -8560,7 +8560,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=16T"
+        "url": "https://www.amazon.in/s?k=16T"
       },
       {
         "store": "Flipkart",
@@ -8675,7 +8675,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=C100x"
+        "url": "https://www.amazon.in/s?k=C100x"
       },
       {
         "store": "Flipkart",
@@ -8790,7 +8790,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=C100i"
+        "url": "https://www.amazon.in/s?k=C100i"
       },
       {
         "store": "Flipkart",
@@ -8904,7 +8904,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Narzo%20100%20Lite"
+        "url": "https://www.amazon.in/s?k=Narzo%20100%20Lite"
       },
       {
         "store": "Flipkart",
@@ -9020,7 +9020,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=C100%204G"
+        "url": "https://www.amazon.in/s?k=C100%204G"
       },
       {
         "store": "Flipkart",
@@ -9136,7 +9136,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=C100"
+        "url": "https://www.amazon.in/s?k=C100"
       },
       {
         "store": "Flipkart",
@@ -9251,7 +9251,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=P4%20Lite"
+        "url": "https://www.amazon.in/s?k=P4%20Lite"
       },
       {
         "store": "Flipkart",
@@ -9365,7 +9365,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Note%2080"
+        "url": "https://www.amazon.in/s?k=Note%2080"
       },
       {
         "store": "Flipkart",
@@ -9481,7 +9481,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16c"
+        "url": "https://www.amazon.in/s?k=Reno16c"
       },
       {
         "store": "Flipkart",
@@ -9598,7 +9598,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16%20Pro"
+        "url": "https://www.amazon.in/s?k=Reno16%20Pro"
       },
       {
         "store": "Flipkart",
@@ -9717,7 +9717,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16"
+        "url": "https://www.amazon.in/s?k=Reno16"
       },
       {
         "store": "Flipkart",
@@ -9836,7 +9836,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16%20FS"
+        "url": "https://www.amazon.in/s?k=Reno16%20FS"
       },
       {
         "store": "Flipkart",
@@ -9952,7 +9952,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16%20F"
+        "url": "https://www.amazon.in/s?k=Reno16%20F"
       },
       {
         "store": "Flipkart",
@@ -10070,7 +10070,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16%20Pro%20%28China%29"
+        "url": "https://www.amazon.in/s?k=Reno16%20Pro%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -10188,7 +10188,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Reno16%20%28China%29"
+        "url": "https://www.amazon.in/s?k=Reno16%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -10306,7 +10306,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Find%20X9%20Ultra"
+        "url": "https://www.amazon.in/s?k=Find%20X9%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -10426,7 +10426,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Find%20X9s%20Pro"
+        "url": "https://www.amazon.in/s?k=Find%20X9s%20Pro"
       },
       {
         "store": "Flipkart",
@@ -10543,7 +10543,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Find%20X9s"
+        "url": "https://www.amazon.in/s?k=Find%20X9s"
       },
       {
         "store": "Flipkart",
@@ -10662,7 +10662,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G77%20Power"
+        "url": "https://www.amazon.in/s?k=Moto%20G77%20Power"
       },
       {
         "store": "Flipkart",
@@ -10780,7 +10780,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G%20Max"
+        "url": "https://www.amazon.in/s?k=Moto%20G%20Max"
       },
       {
         "store": "Flipkart",
@@ -10895,7 +10895,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Edge%20%282026%29"
+        "url": "https://www.amazon.in/s?k=Edge%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -11012,7 +11012,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Edge%2070%20Pro%2B"
+        "url": "https://www.amazon.in/s?k=Edge%2070%20Pro%2B"
       },
       {
         "store": "Flipkart",
@@ -11131,7 +11131,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G87"
+        "url": "https://www.amazon.in/s?k=Moto%20G87"
       },
       {
         "store": "Flipkart",
@@ -11249,7 +11249,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G47"
+        "url": "https://www.amazon.in/s?k=Moto%20G47"
       },
       {
         "store": "Flipkart",
@@ -11366,7 +11366,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G37%20Power"
+        "url": "https://www.amazon.in/s?k=Moto%20G37%20Power"
       },
       {
         "store": "Flipkart",
@@ -11482,7 +11482,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Moto%20G37"
+        "url": "https://www.amazon.in/s?k=Moto%20G37"
       },
       {
         "store": "Flipkart",
@@ -11597,7 +11597,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Razr%20Ultra%202026"
+        "url": "https://www.amazon.in/s?k=Razr%20Ultra%202026"
       },
       {
         "store": "Flipkart",
@@ -11711,7 +11711,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Razr%2070%20Ultra"
+        "url": "https://www.amazon.in/s?k=Razr%2070%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -11829,7 +11829,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%201%20VIII"
+        "url": "https://www.amazon.in/s?k=Xperia%201%20VIII"
       },
       {
         "store": "Flipkart",
@@ -11948,7 +11948,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%2010%20VII"
+        "url": "https://www.amazon.in/s?k=Xperia%2010%20VII"
       },
       {
         "store": "Flipkart",
@@ -12068,7 +12068,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%201%20VII"
+        "url": "https://www.amazon.in/s?k=Xperia%201%20VII"
       },
       {
         "store": "Flipkart",
@@ -12188,7 +12188,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%201%20VI"
+        "url": "https://www.amazon.in/s?k=Xperia%201%20VI"
       },
       {
         "store": "Flipkart",
@@ -12308,7 +12308,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%2010%20VI"
+        "url": "https://www.amazon.in/s?k=Xperia%2010%20VI"
       },
       {
         "store": "Flipkart",
@@ -12428,7 +12428,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%205%20V"
+        "url": "https://www.amazon.in/s?k=Xperia%205%20V"
       },
       {
         "store": "Flipkart",
@@ -12548,7 +12548,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%201%20V"
+        "url": "https://www.amazon.in/s?k=Xperia%201%20V"
       },
       {
         "store": "Flipkart",
@@ -12667,7 +12667,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%2010%20V"
+        "url": "https://www.amazon.in/s?k=Xperia%2010%20V"
       },
       {
         "store": "Flipkart",
@@ -12787,7 +12787,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%205%20IV"
+        "url": "https://www.amazon.in/s?k=Xperia%205%20IV"
       },
       {
         "store": "Flipkart",
@@ -12906,7 +12906,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Xperia%201%20IV"
+        "url": "https://www.amazon.in/s?k=Xperia%201%20IV"
       },
       {
         "store": "Flipkart",
@@ -13027,7 +13027,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=235%204G%20%282026%29"
+        "url": "https://www.amazon.in/s?k=235%204G%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -13136,7 +13136,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=215%204G%20%282026%29"
+        "url": "https://www.amazon.in/s?k=215%204G%20%282026%29"
       },
       {
         "store": "Flipkart",
@@ -13243,7 +13243,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=210%204G"
+        "url": "https://www.amazon.in/s?k=210%204G"
       },
       {
         "store": "Flipkart",
@@ -13351,7 +13351,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=200%204G"
+        "url": "https://www.amazon.in/s?k=200%204G"
       },
       {
         "store": "Flipkart",
@@ -13456,7 +13456,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=110%20Power"
+        "url": "https://www.amazon.in/s?k=110%20Power"
       },
       {
         "store": "Flipkart",
@@ -13561,7 +13561,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=150%20Music"
+        "url": "https://www.amazon.in/s?k=150%20Music"
       },
       {
         "store": "Flipkart",
@@ -13671,7 +13671,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=130%20Music"
+        "url": "https://www.amazon.in/s?k=130%20Music"
       },
       {
         "store": "Flipkart",
@@ -13776,7 +13776,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=110%204G%202nd%20Edition"
+        "url": "https://www.amazon.in/s?k=110%204G%202nd%20Edition"
       },
       {
         "store": "Flipkart",
@@ -13884,7 +13884,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=105%204G%202nd%20Edition"
+        "url": "https://www.amazon.in/s?k=105%204G%202nd%20Edition"
       },
       {
         "store": "Flipkart",
@@ -13988,7 +13988,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=108%204G%20%282024%29"
+        "url": "https://www.amazon.in/s?k=108%204G%20%282024%29"
       },
       {
         "store": "Flipkart",
@@ -14090,7 +14090,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=X80%20Pro%20Max"
+        "url": "https://www.amazon.in/s?k=X80%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -14206,7 +14206,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=600%20Smart"
+        "url": "https://www.amazon.in/s?k=600%20Smart"
       },
       {
         "store": "Flipkart",
@@ -14322,7 +14322,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=X70%20Pro%20Max"
+        "url": "https://www.amazon.in/s?k=X70%20Pro%20Max"
       },
       {
         "store": "Flipkart",
@@ -14440,7 +14440,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Play10"
+        "url": "https://www.amazon.in/s?k=Play10"
       },
       {
         "store": "Flipkart",
@@ -14555,7 +14555,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Win%20Turbo"
+        "url": "https://www.amazon.in/s?k=Win%20Turbo"
       },
       {
         "store": "Flipkart",
@@ -14673,7 +14673,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=600%20Pro%20%28China%29"
+        "url": "https://www.amazon.in/s?k=600%20Pro%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -14791,7 +14791,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=600%20%28China%29"
+        "url": "https://www.amazon.in/s?k=600%20%28China%29"
       },
       {
         "store": "Flipkart",
@@ -14909,7 +14909,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=600e"
+        "url": "https://www.amazon.in/s?k=600e"
       },
       {
         "store": "Flipkart",
@@ -15023,7 +15023,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=X7e"
+        "url": "https://www.amazon.in/s?k=X7e"
       },
       {
         "store": "Flipkart",
@@ -15137,7 +15137,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=500%20Smart"
+        "url": "https://www.amazon.in/s?k=500%20Smart"
       },
       {
         "store": "Flipkart",
@@ -15250,7 +15250,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Zenfone%2012%20Ultra"
+        "url": "https://www.amazon.in/s?k=Zenfone%2012%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -15369,7 +15369,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%209%20Pro"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%209%20Pro"
       },
       {
         "store": "Flipkart",
@@ -15488,7 +15488,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%209%20FE"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%209%20FE"
       },
       {
         "store": "Flipkart",
@@ -15607,7 +15607,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%209"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%209"
       },
       {
         "store": "Flipkart",
@@ -15724,7 +15724,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Zenfone%2011%20Ultra"
+        "url": "https://www.amazon.in/s?k=Zenfone%2011%20Ultra"
       },
       {
         "store": "Flipkart",
@@ -15843,7 +15843,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%208%20Pro"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%208%20Pro"
       },
       {
         "store": "Flipkart",
@@ -15962,7 +15962,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%208"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%208"
       },
       {
         "store": "Flipkart",
@@ -16081,7 +16081,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=Zenfone%2010"
+        "url": "https://www.amazon.in/s?k=Zenfone%2010"
       },
       {
         "store": "Flipkart",
@@ -16200,7 +16200,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%207%20Ultimate"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%207%20Ultimate"
       },
       {
         "store": "Flipkart",
@@ -16318,7 +16318,7 @@ window.PHONES = [
       {
         "store": "Amazon",
         "price": null,
-        "url": "https://www.amazon.com/s?k=ROG%20Phone%207"
+        "url": "https://www.amazon.in/s?k=ROG%20Phone%207"
       },
       {
         "store": "Flipkart",
@@ -22682,7 +22682,7 @@ window.PHONES = [
 ];
 window.NEWS = [
   {
-    "id": "n1870968063",
+    "id": "n3987851446",
     "title": "5 carriers you should sign up for instead of Helium Mobile",
     "excerpt": "Not excited about Noble's recent acquisition of Helium Mobile? Let's talk alternatives.",
     "date": "2026-07-12",
@@ -22692,27 +22692,7 @@ window.NEWS = [
     "image": "https://www.androidauthority.com/wp-content/uploads/2024/06/Helium-Mobile-logo-on-smartphone-with-colored-background-stock-photo.jpg"
   },
   {
-    "id": "n8516932752",
-    "title": "Ask HN: Can anyone explain this Gsearch rabbit-hole?",
-    "excerpt": "Okay this is very weird and even weirder to post to HN, but I don t know where else to share it (and I don t use most social media ) and I m really quite intrigued with what I ve …",
-    "date": "2026-07-12",
-    "tag": "Phones",
-    "url": "https://news.ycombinator.com/item?id=48878919",
-    "source": "Hacker News",
-    "image": ""
-  },
-  {
-    "id": "n8077069237",
-    "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
-    "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
-    "date": "2026-07-12",
-    "tag": "Phones",
-    "url": "https://wanderinghorse.net/gaming/paperback/solo.html",
-    "source": "Hacker News",
-    "image": ""
-  },
-  {
-    "id": "n71813917",
+    "id": "n8673545534",
     "title": "This ESP32-powered Pokedex connects to your emulator and shows stats in real time",
     "excerpt": "Never use an uneffective move ever again.",
     "date": "2026-07-12",
@@ -22722,7 +22702,17 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/esp32-pokedex-featured.jpg"
   },
   {
-    "id": "n5634488811",
+    "id": "n2262900325",
+    "title": "Ask HN: Can anyone explain this Gsearch rabbit-hole?",
+    "excerpt": "Okay this is very weird and even weirder to post to HN, but I don t know where else to share it (and I don t use most social media ) and I m really quite intrigued with what I ve …",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://news.ycombinator.com/item?id=48878919",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n8222646180",
     "title": "Pop!_OS's COSMIC just got a frosted glass desktop style, and it looks amazing",
     "excerpt": "I might need to give it a try.",
     "date": "2026-07-12",
@@ -22732,7 +22722,27 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/pop-os-4-1.jpg"
   },
   {
-    "id": "n7521536444",
+    "id": "n8067945288",
+    "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
+    "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://wanderinghorse.net/gaming/paperback/solo.html",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n3906129112",
+    "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
+    "excerpt": "A great app is getting even better.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.xda-developers.com/kde-plasma-68-will-finally-fix-the-worst-part-of-spectacle/",
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/03/kde-plasma-laptop.jpg"
+  },
+  {
+    "id": "n3485947442",
     "title": "Reed Jobs would rather talk about curing cancer than his last name",
     "excerpt": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the …",
     "date": "2026-07-12",
@@ -22742,117 +22752,17 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n7437680413",
-    "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
-    "excerpt": "A great app is getting even better.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.xda-developers.com/kde-plasma-68-will-finally-fix-the-worst-part-of-spectacle/",
-    "source": "Xda-Developers",
-    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/03/kde-plasma-laptop.jpg"
-  },
-  {
-    "id": "n4325063976",
-    "title": "What If It's Not the Phones?",
-    "excerpt": "What If It's Not the Phones?",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.theatlantic.com/technology/2026/07/phones-haidt-play-gray/687846/",
-    "source": "Hacker News",
-    "image": ""
-  },
-  {
-    "id": "n1056418112",
-    "title": "This slushie machine was a lifesaver during NYC’s heat wave",
-    "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
-    "source": "Techcrunch",
-    "image": ""
-  },
-  {
-    "id": "n5011038832",
-    "title": "ICE are heavily armed killers. They’re also huge losers",
-    "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
-    "source": "Theverge",
-    "image": ""
-  },
-  {
-    "id": "n6014488370",
-    "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
-    "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
-    "source": "Theverge",
-    "image": ""
-  },
-  {
-    "id": "n9291029986",
-    "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
-    "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.engadget.com/2212973/phoebe-gates-ai-shopping-app-phia-affiliate-sales-fake-clicks/",
-    "source": "Engadget",
-    "image": "https://www.engadget.com/img/gallery/phoebe-gates-ai-shopping-app-phia-reportedly-claimed-unearned-affiliate-sales-through-fake-clicks/l-intro-1783801413.jpg"
-  },
-  {
-    "id": "n1540191806",
-    "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
-    "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
-    "source": "Theverge",
-    "image": ""
-  },
-  {
-    "id": "n7207522931",
-    "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
-    "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.engadget.com/2209518/eclipsa-video-explained-dolby-vision-hdr10-comparison/",
-    "source": "Engadget",
-    "image": "https://www.engadget.com/img/gallery/what-is-eclipsa-video-and-how-does-it-compare-to-dolby-vision-and-hdr10/l-intro-1783433207.jpg"
-  },
-  {
-    "id": "n4243470787",
+    "id": "n811224127",
     "title": "Linux containers do what my Proxmox VMs couldn't: run a dozen services without wasting half my memory",
     "excerpt": "Linux containers replaced most of my Proxmox VMs, cutting memory use, speeding up restarts, and making a dozen services easier to manage.",
-    "date": "2026-07-11",
+    "date": "2026-07-12",
     "tag": "Phones",
     "url": "https://www.xda-developers.com/linux-containers-proxmox-vms-memory/",
     "source": "Xda-Developers",
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/linux-containers-do-what-my-proxmox-vms-couldnt.jpeg"
   },
   {
-    "id": "n4753049219",
-    "title": "Philips offers free replacements after update bricked smart lighting hubs",
-    "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.engadget.com/2212954/philips-free-replacements-hue-bridge-pro-update-bricked-smart-lighting-hubs/",
-    "source": "Engadget",
-    "image": "https://www.engadget.com/img/gallery/philips-offers-free-replacements-after-update-bricked-smart-lighting-hubs/l-intro-1783788631.jpg"
-  },
-  {
-    "id": "n8219393093",
-    "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
-    "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
-    "source": "Techcrunch",
-    "image": ""
-  },
-  {
-    "id": "n4961948039",
+    "id": "n5060751492",
     "title": "I love my dual-monitor setup, but these surprises caught me completely off guard",
     "excerpt": "I thought it would have only upside",
     "date": "2026-07-11",
@@ -22862,7 +22772,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/dual-monitor-setup-on-desk-with-gaming-chair.jpg"
   },
   {
-    "id": "n4838889467",
+    "id": "n1602014652",
     "title": "My AI coding workflow runs entirely through Discord, and it's faster than using an editor",
     "excerpt": "You can thank OpenClaw for this.",
     "date": "2026-07-11",
@@ -22872,17 +22782,37 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783369086854.jpg"
   },
   {
-    "id": "n7292976684",
-    "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
-    "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
+    "id": "n1293361208",
+    "title": "What If It's Not the Phones?",
+    "excerpt": "What If It's Not the Phones?",
     "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
-    "source": "Engadget",
-    "image": "https://www.engadget.com/img/gallery/openais-head-of-safety-is-reportedly-leaving-as-part-of-company-reorganization/l-intro-1783783514.jpg"
+    "tag": "Phones",
+    "url": "https://www.theatlantic.com/technology/2026/07/phones-haidt-play-gray/687846/",
+    "source": "Hacker News",
+    "image": ""
   },
   {
-    "id": "n6911890633",
+    "id": "n6456642361",
+    "title": "This slushie machine was a lifesaver during NYC’s heat wave",
+    "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://techcrunch.com/2026/07/11/this-slushie-machine-was-a-lifesaver-during-nycs-heat-wave/",
+    "source": "Techcrunch",
+    "image": ""
+  },
+  {
+    "id": "n6885543258",
+    "title": "ICE are heavily armed killers. They’re also huge losers",
+    "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.theverge.com/policy/964302/ice-donald-trump-killings",
+    "source": "Theverge",
+    "image": ""
+  },
+  {
+    "id": "n1832354911",
     "title": "Windows has too many backup tools, but this free app beats them all",
     "excerpt": "I stopped trusting Windows backups after learning what actually works",
     "date": "2026-07-11",
@@ -22892,27 +22822,7 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/kopia-2.jpg"
   },
   {
-    "id": "n4621384014",
-    "title": "Which USB port should you use for your mouse and keyboard?",
-    "excerpt": "Save your best ports for your most demanding devices.",
-    "date": "2026-07-11",
-    "tag": "Tech",
-    "url": "https://www.engadget.com/2211086/which-usb-port-for-mouse-keyboard/",
-    "source": "Engadget",
-    "image": "https://www.engadget.com/img/gallery/which-usb-port-should-you-use-for-your-mouse-and-keyboard/l-intro-1783550097.jpg"
-  },
-  {
-    "id": "n5165533007",
-    "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
-    "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.runaether.dev/",
-    "source": "Hacker News",
-    "image": ""
-  },
-  {
-    "id": "n8859432015",
+    "id": "n4730866953",
     "title": "I didn't know my SSD was dying until Windows stopped booting",
     "excerpt": "Hardware failure isn't always easy to spot.",
     "date": "2026-07-11",
@@ -22922,7 +22832,97 @@ window.NEWS = [
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/whatsapp-image-2026-07-09-at-15-06-34-4.jpeg"
   },
   {
-    "id": "n1422243860",
+    "id": "n8525514644",
+    "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
+    "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.theverge.com/gadgets/964499/nopia-viral-synth-finished-price-release-demo",
+    "source": "Theverge",
+    "image": ""
+  },
+  {
+    "id": "n6247346352",
+    "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
+    "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.engadget.com/2212973/phoebe-gates-ai-shopping-app-phia-affiliate-sales-fake-clicks/",
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/phoebe-gates-ai-shopping-app-phia-reportedly-claimed-unearned-affiliate-sales-through-fake-clicks/l-intro-1783801413.jpg"
+  },
+  {
+    "id": "n4760502025",
+    "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
+    "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.theverge.com/policy/964493/oregons-ag-delay-paramount-warner-bros-merger",
+    "source": "Theverge",
+    "image": ""
+  },
+  {
+    "id": "n2783180340",
+    "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
+    "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.engadget.com/2209518/eclipsa-video-explained-dolby-vision-hdr10-comparison/",
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/what-is-eclipsa-video-and-how-does-it-compare-to-dolby-vision-and-hdr10/l-intro-1783433207.jpg"
+  },
+  {
+    "id": "n2206945261",
+    "title": "Philips offers free replacements after update bricked smart lighting hubs",
+    "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.engadget.com/2212954/philips-free-replacements-hue-bridge-pro-update-bricked-smart-lighting-hubs/",
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/philips-offers-free-replacements-after-update-bricked-smart-lighting-hubs/l-intro-1783788631.jpg"
+  },
+  {
+    "id": "n3808257650",
+    "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
+    "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone/",
+    "source": "Techcrunch",
+    "image": ""
+  },
+  {
+    "id": "n5751790098",
+    "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
+    "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/openais-head-of-safety-is-reportedly-leaving-as-part-of-company-reorganization/l-intro-1783783514.jpg"
+  },
+  {
+    "id": "n8738898271",
+    "title": "Which USB port should you use for your mouse and keyboard?",
+    "excerpt": "Save your best ports for your most demanding devices.",
+    "date": "2026-07-11",
+    "tag": "Tech",
+    "url": "https://www.engadget.com/2211086/which-usb-port-for-mouse-keyboard/",
+    "source": "Engadget",
+    "image": "https://www.engadget.com/img/gallery/which-usb-port-should-you-use-for-your-mouse-and-keyboard/l-intro-1783550097.jpg"
+  },
+  {
+    "id": "n2898161247",
+    "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
+    "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
+    "date": "2026-07-11",
+    "tag": "Phones",
+    "url": "https://www.runaether.dev/",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n908703510",
     "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
     "excerpt": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the F…",
     "date": "2026-07-11",
@@ -22932,7 +22932,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n4708179944",
+    "id": "n5894548867",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "excerpt": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "date": "2026-07-11",
@@ -22942,7 +22942,17 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n9042342372",
+    "id": "n5801200470",
+    "title": "Show HN: Agent World – an open standard and live market for personal AI agents",
+    "excerpt": "Show HN: Agent World – an open standard and live market for personal AI agents",
+    "date": "2026-07-11",
+    "tag": "Laptops",
+    "url": "https://github.com/macrokit/agent-world",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n5762148620",
     "title": "Google deleting all recently inactive accounts without phone number",
     "excerpt": "Google is now deleting all accounts that do not, and have never had, phone numbers associated with them if they haven t logged in within a year or so. Urgent: Sign in to your Goog…",
     "date": "2026-07-11",
@@ -22952,7 +22962,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n4829618353",
+    "id": "n6686406798",
     "title": "Engadget review recap: Steam Machine, Samsung Music Studio 7, Oura Ring 5 and more",
     "excerpt": "A roundup of recent reviews published by Engadget.",
     "date": "2026-07-11",
@@ -22962,7 +22972,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/engadget-review-recap-steam-machine-samsung-music-studio-7-oura-ring-5-and-more/l-intro-1783713182.jpg"
   },
   {
-    "id": "n6592452399",
+    "id": "n4660584545",
     "title": "Your Samsung Gallery won't be able to sync with Microsoft OneDrive soon",
     "excerpt": "Your photos don t have to go home, but they can t stay here.",
     "date": "2026-07-11",
@@ -22972,7 +22982,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/your-samsung-gallery-wont-be-able-to-sync-with-microsoft-onedrive-soon/l-intro-1783629483.jpg"
   },
   {
-    "id": "n2735619923",
+    "id": "n2660141928",
     "title": "Bluesky has an official CEO again",
     "excerpt": "Toni Schneider, who took over after Jay Graber stepped down, is now Bluesky s official CEO.",
     "date": "2026-07-11",
@@ -22982,7 +22992,7 @@ window.NEWS = [
     "image": "https://www.engadget.com/img/gallery/bluesky-has-a-permanent-ceo-again/l-intro-1783774958.jpg"
   },
   {
-    "id": "n6332451952",
+    "id": "n4901641959",
     "title": "A tasty RPG that will make you very hungry",
     "excerpt": "Roleplaying games are often defined by excess. Storylines that span dozens of hours, side quests so big they could be their own game, massive worlds that require complex maps to e…",
     "date": "2026-07-11",
@@ -22992,7 +23002,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n9227940087",
+    "id": "n8380805339",
     "title": "I tried DuckDuckGo’s new and free YouTube ad blocker. Here’s how it works",
     "excerpt": "No Premium? No problem. DuckDuckGo-t your back!",
     "date": "2026-07-11",
@@ -23002,7 +23012,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n3662293897",
+    "id": "n4968341088",
     "title": "Show HN: Axletic – a local-first workout tracker for iPhone",
     "excerpt": "Hi HN,I built Axletic, a native iPhone workout tracker focused on making workout logging feel quick and uncomplicated. I drew a lot of inspiration from clean, dark themed apps suc…",
     "date": "2026-07-11",
@@ -23012,7 +23022,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n2683799043",
+    "id": "n1028358277",
     "title": "The Dreame X60 Max Ultra Complete has the recipe for success, but it’s a little needy",
     "excerpt": "The Dreame X60 Max Ultra Complete is an ultra-premium floor-cleaning system that requires a little too much intervention.",
     "date": "2026-07-11",
@@ -23022,7 +23032,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n5074976915",
+    "id": "n8331886241",
     "title": "I used to love Claude, but the latest models are slowly ruining it",
     "excerpt": "This isn't the Claude I used to love.",
     "date": "2026-07-11",
@@ -23032,7 +23042,7 @@ window.NEWS = [
     "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/the-claude-app-on-a-smartphone-scaled.jpg"
   },
   {
-    "id": "n4240155529",
+    "id": "n6907730353",
     "title": "I wish someone told me about these 5 Android Auto settings before I bought my new car",
     "excerpt": "A few Android Auto settings go a long way.",
     "date": "2026-07-11",
@@ -23042,7 +23052,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n2271007260",
+    "id": "n2379012081",
     "title": "How I turned my Pixel into the ultimate Home Assistant smart home companion",
     "excerpt": "I can't imagine smart home life without my Pixel now.",
     "date": "2026-07-11",
@@ -23052,7 +23062,7 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n2561945898",
+    "id": "n5171762780",
     "title": "I tried the new Google Photos Android app redesign, and now I want it in every Google app",
     "excerpt": "It's a small change, but a welcome one.",
     "date": "2026-07-11",
@@ -23062,7 +23072,37 @@ window.NEWS = [
     "image": ""
   },
   {
-    "id": "n34984188",
+    "id": "n7664115737",
+    "title": "5 Best Upcoming Smartphones This Month With Powerful Cameras and AI Features",
+    "excerpt": "The smartphone market is preparing for another wave of exciting launches, with several upcoming smartphones expected to introduce major improvements in camera technology, artifici…",
+    "date": "2026-07-11",
+    "tag": "Phones",
+    "url": "https://www.successful-blog.com/1/best-upcoming-smartphones/",
+    "source": "Successful-blog.com",
+    "image": "https://www.successful-blog.com/wp-content/uploads/2026/07/Best-Upcoming-Smartphones-1-1.webp"
+  },
+  {
+    "id": "n6535570579",
+    "title": "5 Google Pixel Settings That Actually Speed Up Your Phone",
+    "excerpt": "If you're a Google Pixel owner and want to make your phone feel snappier, you can toggle settings related to system animations, refresh rate, and more.",
+    "date": "2026-07-11",
+    "tag": "Accessories",
+    "url": "https://www.bgr.com/2209490/google-pixel-settings-actually-speed-up-your-phone/",
+    "source": "BGR",
+    "image": "https://www.bgr.com/img/gallery/5-google-pixel-settings-that-actually-speed-up-your-phone/l-intro-1783432590.jpg"
+  },
+  {
+    "id": "n9963116454",
+    "title": "Xiaomi: WiFi 7 router with 10 Gbit/s ports and NAS features reaches additional markets",
+    "excerpt": "Extremely fast: Xiaomi is now offering a new router in Germany as well. The model can also be used as network storage and supports high-speed wireless and wired network connection…",
+    "date": "2026-07-11",
+    "tag": "Accessories",
+    "url": "https://www.notebookcheck.net/Xiaomi-WiFi-7-router-with-10-Gbit-s-ports-and-NAS-features-reaches-additional-markets.1340203.0.html",
+    "source": "Notebookcheck.net",
+    "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/xiaomi-router-be19000-pro.jpg"
+  },
+  {
+    "id": "n2582924756",
     "title": "Deals: Nothing Phone (4b) goes on pre-order, Galaxy A57 and Realme 16 Pro+ stand in its way",
     "excerpt": "Nothing unveiled the Nothing Phone (4b) earlier this week – this is the first (b) series phone, but it’s a mid-ranger not unlike the (a) series models. In fact, the (4a) is the be…",
     "date": "2026-07-11",
@@ -23072,7 +23112,7 @@ window.NEWS = [
     "image": "https://fdn.gsmarena.com/imgroot/news/26/07/weekly-deals-10/-952x498w6/gsmarena_de.jpg"
   },
   {
-    "id": "n9783966445",
+    "id": "n6489626564",
     "title": "Lenovo launches 'ultra-thin' MacBook Neo rival with 120Hz display",
     "excerpt": "The new Lenovo Xiaoxin Air 13, powered by the Intel Wildcat Lake platform, is now available in China. It's a compact system with a 13.3-inch IPS display that features a 120Hz refr…",
     "date": "2026-07-11",
@@ -23082,7 +23122,7 @@ window.NEWS = [
     "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Lenovo-launches-Xiaoxin-Air-13-2026-with-Intel-Wildcat-Lake-processor.jpg"
   },
   {
-    "id": "n5149157717",
+    "id": "n2530651917",
     "title": "Better Posture Isn’t About Sitting Straighter — Try This Instead",
     "excerpt": "It's more than good manners",
     "date": "2026-07-11",
@@ -23090,45 +23130,5 @@ window.NEWS = [
     "url": "https://www.mindbodygreen.com/articles/gabby-george-on-why-posture-is-one-of-most-overlooked-parts-of-wellness",
     "source": "mindbodygreen.com",
     "image": "https://mindbodygreen-res.cloudinary.com/image/upload/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/1783630340974_8qab4u3mqza.jpg"
-  },
-  {
-    "id": "n603761146",
-    "title": "How to Create a Video Overview in NotebookLM (2026)",
-    "excerpt": "Learn how to create a Video Overview in NotebookLM. Open the Studio panel, pick a format and language, and generate a narrated video from your sources. The post How to Create a Vi…",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://chromestory.com/2026/07/notebooklm-video-overview/",
-    "source": "Chromestory.com",
-    "image": "https://i0.wp.com/chromestory.com/wp-content/uploads/2023/09/logo.webp?fit=248%2C248&ssl=1"
-  },
-  {
-    "id": "n844550002",
-    "title": "Duolingo is breaking users’ language courses — and it’s exactly why I quit",
-    "excerpt": "What's the point of a language learning app that won't let you keep learning?",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.androidauthority.com/duolingo-broken-updated-courses-why-i-quit-3686405/",
-    "source": "Androidauthority",
-    "image": ""
-  },
-  {
-    "id": "n3246268503",
-    "title": "Apple CEO Tim Cook Announces $30 Billion Broadcom Deal to Produce 15 Billion Chips",
-    "excerpt": "Apple's (NASDAQ: AAPL) outgoing CEO, Tim Cook, just announced a landmark partnership with custom-silicon specialist Broadcom (NASDAQ: AVGO). The agreement focuses on designing and…",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://biztoc.com/x/e13cd8146ca520f2",
-    "source": "Biztoc.com",
-    "image": "https://biztoc.com/cdn/e13cd8146ca520f2_s.webp"
-  },
-  {
-    "id": "n3469265947",
-    "title": "DJI Mic 3 (2 TX + 1 RX + Charging Case), Wireless Microphone $219 (0 replies)",
-    "excerpt": "Amazon.com: DJI Mic 3 (2 TX + 1 RX + Charging Case), Wireless Microphone for iPhone/Camera/Android, Ultralight, Adaptive Gain Control for Balanced Volume, Dual Band Anti-Interfere…",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://slickdeals.net/f/19747743-dji-mic-3-2-tx-1-rx-charging-case-wireless-microphone-219",
-    "source": "Slickdeals.net",
-    "image": "https://slickdeals.net/attachment/2/6/8/0/6/1/2/1/450x450/20955306.thumb"
   }
 ];
