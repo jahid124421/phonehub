@@ -86,6 +86,22 @@
       </article>`;
   };
 
+  /* ---------- reusable news card ---------- */
+  PH.newsCard = (n) => {
+    const date = n.date
+      ? new Date(n.date).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })
+      : "";
+    const meta = [n.source, date].filter(Boolean).join(" · ");
+    const inner = `
+       <span class="tag">${n.tag || "News"}</span>
+       <h3>${n.title}</h3>
+       <p>${n.excerpt || ""}</p>
+       <span class="date">${meta}</span>`;
+    return n.url
+      ? `<a class="news-card" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
+      : `<article class="news-card">${inner}</article>`;
+  };
+
   /* ---------- floating compare bar ---------- */
   PH.renderCompareBar = () => {
     let bar = document.getElementById("compareBar");
@@ -175,7 +191,29 @@
     bar.querySelector("#cookieDecline").addEventListener("click", () => close("declined"));
   };
 
+  /* ---------- light / dark theme toggle ---------- */
+  PH.initTheme = () => {
+    const root = document.documentElement;
+    if (!root.getAttribute("data-theme")) root.setAttribute("data-theme", "dark");
+    const header = document.querySelector(".header-inner");
+    if (!header || document.getElementById("themeToggle")) return;
+    const icon = () => (root.getAttribute("data-theme") === "light" ? "\u{1F319}" : "\u2600\uFE0F");
+    const btn = document.createElement("button");
+    btn.id = "themeToggle";
+    btn.className = "theme-toggle";
+    btn.setAttribute("aria-label", "Toggle light/dark theme");
+    btn.textContent = icon();
+    header.insertBefore(btn, document.getElementById("navToggle") || null);
+    btn.addEventListener("click", () => {
+      const now = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+      root.setAttribute("data-theme", now);
+      try { localStorage.setItem("ph_theme", now); } catch (e) {}
+      btn.textContent = icon();
+    });
+  };
+
   document.addEventListener("DOMContentLoaded", () => {
+    PH.initTheme();
     PH.renderCompareBar();
     PH.wireSearch();
     PH.renderFooterLegal();

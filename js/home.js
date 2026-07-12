@@ -20,15 +20,9 @@
     `<a class="brand-tile" href="search.html?brand=${b.id}"><span class="b-logo">${b.logo}</span>${b.name}</a>`
   ).join("");
 
-  // news
-  document.getElementById("newsGrid").innerHTML = (window.NEWS || []).map((n) =>
-    `<article class="news-card">
-       <span class="tag">${n.tag}</span>
-       <h3>${n.title}</h3>
-       <p>${n.excerpt}</p>
-       <span class="date">${new Date(n.date).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })}</span>
-     </article>`
-  ).join("");
+  // news (latest 6 on home)
+  document.getElementById("newsGrid").innerHTML =
+    (window.NEWS || []).slice(0, 6).map(PH.newsCard).join("");
 
   const y = document.getElementById("year"); if (y) y.textContent = new Date().getFullYear();
 })();

@@ -215,6 +215,7 @@ def render_phone(phone, brands, phones_all, base):
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:image" content="{esc(og_img)}">
   <meta property="og:type" content="product">
+  <script>(function(){{try{{var t=localStorage.getItem("ph_theme")||((window.matchMedia&&matchMedia("(prefers-color-scheme: light)").matches)?"light":"dark");document.documentElement.setAttribute("data-theme",t);}}catch(e){{document.documentElement.setAttribute("data-theme","dark");}}}})();</script>
   <link rel="stylesheet" href="../css/styles.css">
   {ld_script}
   {bc_script}

@@ -29,6 +29,8 @@ def main():
     if "--skip-content" not in flags:
         step("content_agent.py")
     step("price_job.py")
+    if "--skip-news" not in flags:
+        step("news_fetch.py")
     step("build.py")
     print("\n[run_all] done. Open index.html or serve the folder.")
 
