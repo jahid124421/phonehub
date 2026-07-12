@@ -47,6 +47,7 @@ jobs:
         working-directory: tools
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
           FLIPKART_AFFILIATE_ID: ${{ secrets.FLIPKART_AFFILIATE_ID }}
         run: |
@@ -54,6 +55,7 @@ jobs:
           import json, os
           cfg = {
             "site_url": os.environ.get("SITE_URL", "https://your-domain.example"),
+            "newsapi_key": os.environ.get("NEWSAPI_KEY", ""),
             "specs_api_base": "http://localhost:3000",
             "brands": ["apple","samsung","google","xiaomi","oneplus","nothing","vivo","realme"],
             "max_phones_per_brand": 12,

@@ -191,8 +191,37 @@ def fetch_reddit(items, seen):
             print(f"  ! reddit r/{sub}: {e}")
 
 
+def fetch_newsapi(items, seen):
+    import os
+    key = os.environ.get("NEWSAPI_KEY", "")
+    if not key:
+        try:
+            key = C.load_config().get("newsapi_key", "")
+        except SystemExit:
+            key = ""
+    if not key:
+        print("  (no NewsAPI key, skipping)")
+        return
+    topics = [("smartphone OR \"mobile phone\"", "Phones"), ("laptop OR notebook", "Laptops"),
+              ("wireless earbuds OR smartwatch OR charger", "Accessories")]
+    for q, tag in topics:
+        try:
+            u = ("https://newsapi.org/v2/everything?q=" + urllib.parse.quote(q)
+                 + "&language=en&sortBy=publishedAt&pageSize=8&apiKey=" + key)
+            data = json.loads(_get(u))
+            for a in data.get("articles", []):
+                ts = int(_parse_date(a.get("publishedAt", "")))
+                src = (a.get("source") or {}).get("name") or "NewsAPI"
+                add(items, seen, a.get("title", ""), a.get("url", ""),
+                    a.get("description", ""), tag, src, ts, a.get("urlToImage") or "")
+        except Exception as e:  # noqa
+            print(f"  ! NewsAPI '{q[:20]}': {e}")
+
+
 def main():
     items, seen = [], set()
+    print("[news] NewsAPI...")
+    fetch_newsapi(items, seen)
     print("[news] Hacker News...")
     fetch_hn(items, seen)
     print("[news] RSS feeds...")
