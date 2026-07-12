@@ -1,6 +1,86 @@
 [
   {
-    "id": "n7970318598",
+    "id": "n9874522082",
+    "title": "AI backlash hits university: laptops and phones banned for law students",
+    "excerpt": "AI backlash hits university: laptops and phones banned for law students",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.foxnews.com/media/ai-backlash-reaches-major-university-bold-ban-laptops-phones-students",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n5245611110",
+    "title": "Louis de Bernières children's childhood ended the moment they got smartphones",
+    "excerpt": "Louis de Bernières children's childhood ended the moment they got smartphones",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.rnz.co.nz/life/books/as-far-as-i-can-see-my-children-s-childhood-ended-the-moment-they-got-smartphones",
+    "source": "Hacker News",
+    "image": ""
+  },
+  {
+    "id": "n813115320",
+    "title": "The RTX 5080 is the first 80-class GPU in Nvidia's history that couldn't beat the last-gen flagship, and that says a lot",
+    "excerpt": "I wouldn't mind calling it the RTX 4080 Ti at this point.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.xda-developers.com/rtx-5080-first-80-class-gpu-nvidia-history-couldnt-beat-last-gen-flagship/",
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/geforce-rtx-gpu-inside-pc.jpg"
+  },
+  {
+    "id": "n5367758010",
+    "title": "Stop giving away your email address — use these 5 email alias services instead",
+    "excerpt": "A simple privacy upgrade to protect your personal email.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.androidauthority.com/best-email-alias-services-2026-3685703/",
+    "source": "Androidauthority",
+    "image": ""
+  },
+  {
+    "id": "n5576496798",
+    "title": "3 reasons why I want to ditch Google, and 3 reasons why I can’t",
+    "excerpt": "As much as I rage against Google services, the company also has me in a chokehold.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.androidauthority.com/reasons-to-ditch-google-but-why-i-cant-3684072/",
+    "source": "Androidauthority",
+    "image": ""
+  },
+  {
+    "id": "n5419384657",
+    "title": "The TCL NXTPAPER 11 Plus is a budget Android tablet that finally does something different",
+    "excerpt": "This budget slate has got more personality than any $250 tablet has a right to.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.androidauthority.com/tcl-nxtpaper-11-plus-review-3681246/",
+    "source": "Androidauthority",
+    "image": ""
+  },
+  {
+    "id": "n6076760244",
+    "title": "I couldn’t have been more wrong about the Fitbit Air — here’s what changed my mind",
+    "excerpt": "After three weeks with the Fitbit Air, I'm seriously questioning whether I still need my WHOOP subscription.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.androidauthority.com/i-couldnt-have-been-more-wrong-about-the-fitbit-air-3685038/",
+    "source": "Androidauthority",
+    "image": ""
+  },
+  {
+    "id": "n4228543393",
+    "title": "PowerToys just got 28% smaller and absorbed three separate apps I used to install",
+    "excerpt": "PowerToys has been a mainstay of my Windows PC for years, but it's just become even more useful, while also getting lighter.",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://www.xda-developers.com/powertoys-just-got-28-smaller-absorbed-three-separate-apps-used-install/",
+    "source": "Xda-Developers",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/powertoys-recent-features.jpg"
+  },
+  {
+    "id": "n2680583266",
     "title": "Exposing the sneaky math behind your Android phone’s battery life claims in 2026",
     "excerpt": "Brands like OnePlus and HONOR are trying to redefine battery health, and not entirely for the better.",
     "date": "2026-07-12",
@@ -10,7 +90,7 @@
     "image": "https://www.androidauthority.com/wp-content/uploads/2026/03/google-pixel-10a-review-battery-1-scaled.jpg"
   },
   {
-    "id": "n4229536838",
+    "id": "n4293460968",
     "title": "5 carriers you should sign up for instead of Helium Mobile",
     "excerpt": "Not excited about Noble's recent acquisition of Helium Mobile? Let's talk alternatives.",
     "date": "2026-07-12",
@@ -20,7 +100,7 @@
     "image": "https://www.androidauthority.com/wp-content/uploads/2024/06/Helium-Mobile-logo-on-smartphone-with-colored-background-stock-photo.jpg"
   },
   {
-    "id": "n3859571086",
+    "id": "n7799056574",
     "title": "This ESP32-powered Pokedex connects to your emulator and shows stats in real time",
     "excerpt": "Never use an uneffective move ever again.",
     "date": "2026-07-12",
@@ -30,7 +110,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/esp32-pokedex-featured.jpg"
   },
   {
-    "id": "n2709516293",
+    "id": "n9495769715",
     "title": "Ask HN: Can anyone explain this Gsearch rabbit-hole?",
     "excerpt": "Okay this is very weird and even weirder to post to HN, but I don t know where else to share it (and I don t use most social media ) and I m really quite intrigued with what I ve …",
     "date": "2026-07-12",
@@ -40,7 +120,7 @@
     "image": ""
   },
   {
-    "id": "n59875303",
+    "id": "n6126951211",
     "title": "Pop!_OS's COSMIC just got a frosted glass desktop style, and it looks amazing",
     "excerpt": "I might need to give it a try.",
     "date": "2026-07-12",
@@ -50,7 +130,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/pop-os-4-1.jpg"
   },
   {
-    "id": "n6299660400",
+    "id": "n7204466405",
     "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
     "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
     "date": "2026-07-12",
@@ -60,7 +140,7 @@
     "image": ""
   },
   {
-    "id": "n2203608294",
+    "id": "n1533370404",
     "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
     "excerpt": "A great app is getting even better.",
     "date": "2026-07-12",
@@ -70,7 +150,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/03/kde-plasma-laptop.jpg"
   },
   {
-    "id": "n1718825335",
+    "id": "n8886311174",
     "title": "Reed Jobs would rather talk about curing cancer than his last name",
     "excerpt": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the …",
     "date": "2026-07-12",
@@ -80,7 +160,7 @@
     "image": ""
   },
   {
-    "id": "n3367959587",
+    "id": "n9933626869",
     "title": "Linux containers do what my Proxmox VMs couldn't: run a dozen services without wasting half my memory",
     "excerpt": "Linux containers replaced most of my Proxmox VMs, cutting memory use, speeding up restarts, and making a dozen services easier to manage.",
     "date": "2026-07-12",
@@ -90,7 +170,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/linux-containers-do-what-my-proxmox-vms-couldnt.jpeg"
   },
   {
-    "id": "n1750031453",
+    "id": "n3907352875",
     "title": "I love my dual-monitor setup, but these surprises caught me completely off guard",
     "excerpt": "I thought it would have only upside",
     "date": "2026-07-11",
@@ -100,7 +180,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/dual-monitor-setup-on-desk-with-gaming-chair.jpg"
   },
   {
-    "id": "n2988600184",
+    "id": "n1243244384",
     "title": "My AI coding workflow runs entirely through Discord, and it's faster than using an editor",
     "excerpt": "You can thank OpenClaw for this.",
     "date": "2026-07-11",
@@ -110,7 +190,7 @@
     "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783369086854.jpg"
   },
   {
-    "id": "n5790832791",
+    "id": "n5636419434",
     "title": "What If It's Not the Phones?",
     "excerpt": "What If It's Not the Phones?",
     "date": "2026-07-11",
@@ -120,7 +200,7 @@
     "image": ""
   },
   {
-    "id": "n9716305772",
+    "id": "n1779875155",
     "title": "This slushie machine was a lifesaver during NYC’s heat wave",
     "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
     "date": "2026-07-11",
@@ -130,7 +210,7 @@
     "image": ""
   },
   {
-    "id": "n9329903207",
+    "id": "n8739626865",
     "title": "ICE are heavily armed killers. They’re also huge losers",
     "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
     "date": "2026-07-11",
@@ -140,27 +220,7 @@
     "image": ""
   },
   {
-    "id": "n2968261778",
-    "title": "Windows has too many backup tools, but this free app beats them all",
-    "excerpt": "I stopped trusting Windows backups after learning what actually works",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.xda-developers.com/windows-has-too-many-backup-tools-but-this-app-beats-them-all/",
-    "source": "Xda-Developers",
-    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/kopia-2.jpg"
-  },
-  {
-    "id": "n710464927",
-    "title": "I didn't know my SSD was dying until Windows stopped booting",
-    "excerpt": "Hardware failure isn't always easy to spot.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.xda-developers.com/pc-blue-screened-this-week-taught-me-to-monitor-ssd-health/",
-    "source": "Xda-Developers",
-    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/whatsapp-image-2026-07-09-at-15-06-34-4.jpeg"
-  },
-  {
-    "id": "n5362292954",
+    "id": "n489457126",
     "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
     "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
     "date": "2026-07-11",
@@ -170,7 +230,7 @@
     "image": ""
   },
   {
-    "id": "n7273800041",
+    "id": "n3492800218",
     "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
     "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
     "date": "2026-07-11",
@@ -180,7 +240,7 @@
     "image": "https://www.engadget.com/img/gallery/phoebe-gates-ai-shopping-app-phia-reportedly-claimed-unearned-affiliate-sales-through-fake-clicks/l-intro-1783801413.jpg"
   },
   {
-    "id": "n5936271585",
+    "id": "n5410552582",
     "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
     "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
     "date": "2026-07-11",
@@ -190,7 +250,7 @@
     "image": ""
   },
   {
-    "id": "n1650897120",
+    "id": "n4954199418",
     "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
     "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
     "date": "2026-07-11",
@@ -200,7 +260,7 @@
     "image": "https://www.engadget.com/img/gallery/what-is-eclipsa-video-and-how-does-it-compare-to-dolby-vision-and-hdr10/l-intro-1783433207.jpg"
   },
   {
-    "id": "n3556183968",
+    "id": "n9384494468",
     "title": "Philips offers free replacements after update bricked smart lighting hubs",
     "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
     "date": "2026-07-11",
@@ -210,7 +270,7 @@
     "image": "https://www.engadget.com/img/gallery/philips-offers-free-replacements-after-update-bricked-smart-lighting-hubs/l-intro-1783788631.jpg"
   },
   {
-    "id": "n7153313693",
+    "id": "n3679725937",
     "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
     "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
     "date": "2026-07-11",
@@ -220,7 +280,7 @@
     "image": ""
   },
   {
-    "id": "n1832056097",
+    "id": "n4790124124",
     "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
     "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
     "date": "2026-07-11",
@@ -230,7 +290,7 @@
     "image": "https://www.engadget.com/img/gallery/openais-head-of-safety-is-reportedly-leaving-as-part-of-company-reorganization/l-intro-1783783514.jpg"
   },
   {
-    "id": "n6593387492",
+    "id": "n9925841501",
     "title": "Which USB port should you use for your mouse and keyboard?",
     "excerpt": "Save your best ports for your most demanding devices.",
     "date": "2026-07-11",
@@ -240,7 +300,7 @@
     "image": "https://www.engadget.com/img/gallery/which-usb-port-should-you-use-for-your-mouse-and-keyboard/l-intro-1783550097.jpg"
   },
   {
-    "id": "n9865480633",
+    "id": "n7735555949",
     "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
     "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
     "date": "2026-07-11",
@@ -250,7 +310,7 @@
     "image": ""
   },
   {
-    "id": "n6519155328",
+    "id": "n2412213777",
     "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
     "excerpt": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the F…",
     "date": "2026-07-11",
@@ -260,7 +320,7 @@
     "image": ""
   },
   {
-    "id": "n7030893768",
+    "id": "n6444529228",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "excerpt": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "date": "2026-07-11",
@@ -270,7 +330,7 @@
     "image": ""
   },
   {
-    "id": "n7792441762",
+    "id": "n3868584402",
     "title": "Google deleting all recently inactive accounts without phone number",
     "excerpt": "Google is now deleting all accounts that do not, and have never had, phone numbers associated with them if they haven t logged in within a year or so. Urgent: Sign in to your Goog…",
     "date": "2026-07-11",
@@ -280,7 +340,7 @@
     "image": ""
   },
   {
-    "id": "n1645786678",
+    "id": "n2637637639",
     "title": "Engadget review recap: Steam Machine, Samsung Music Studio 7, Oura Ring 5 and more",
     "excerpt": "A roundup of recent reviews published by Engadget.",
     "date": "2026-07-11",
@@ -290,7 +350,7 @@
     "image": "https://www.engadget.com/img/gallery/engadget-review-recap-steam-machine-samsung-music-studio-7-oura-ring-5-and-more/l-intro-1783713182.jpg"
   },
   {
-    "id": "n3558315727",
+    "id": "n842844651",
     "title": "Your Samsung Gallery won't be able to sync with Microsoft OneDrive soon",
     "excerpt": "Your photos don t have to go home, but they can t stay here.",
     "date": "2026-07-11",
@@ -300,7 +360,7 @@
     "image": "https://www.engadget.com/img/gallery/your-samsung-gallery-wont-be-able-to-sync-with-microsoft-onedrive-soon/l-intro-1783629483.jpg"
   },
   {
-    "id": "n6899951804",
+    "id": "n7991909230",
     "title": "Bluesky has an official CEO again",
     "excerpt": "Toni Schneider, who took over after Jay Graber stepped down, is now Bluesky s official CEO.",
     "date": "2026-07-11",
@@ -310,7 +370,7 @@
     "image": "https://www.engadget.com/img/gallery/bluesky-has-a-permanent-ceo-again/l-intro-1783774958.jpg"
   },
   {
-    "id": "n6677798086",
+    "id": "n7384010688",
     "title": "A tasty RPG that will make you very hungry",
     "excerpt": "Roleplaying games are often defined by excess. Storylines that span dozens of hours, side quests so big they could be their own game, massive worlds that require complex maps to e…",
     "date": "2026-07-11",
@@ -320,7 +380,7 @@
     "image": ""
   },
   {
-    "id": "n5282760921",
+    "id": "n4735874807",
     "title": "I tried DuckDuckGo’s new and free YouTube ad blocker. Here’s how it works",
     "excerpt": "No Premium? No problem. DuckDuckGo-t your back!",
     "date": "2026-07-11",
@@ -330,17 +390,17 @@
     "image": ""
   },
   {
-    "id": "n5215334390",
-    "title": "Show HN: Axletic – a local-first workout tracker for iPhone",
-    "excerpt": "Hi HN,I built Axletic, a native iPhone workout tracker focused on making workout logging feel quick and uncomplicated. I drew a lot of inspiration from clean, dark themed apps suc…",
+    "id": "n4162125429",
+    "title": "Beats Fit Pro True Wireless Noise-Cancelling Earbuds (Various Colors) $50 + Free S&H",
+    "excerpt": "AT&T has Beats Fit Pro True Wireless Earbuds (Various Colors) for $50. Shipping is free. Thanks to Community Member IlikeDeals2000 for sharing this deal. Available Colors:WhiteSag…",
     "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.axletic.app",
-    "source": "Hacker News",
-    "image": ""
+    "tag": "Accessories",
+    "url": "https://slickdeals.net/f/19747842-beats-fit-pro-true-wireless-noise-cancelling-earbuds-various-colors-50-free-s-h",
+    "source": "Slickdeals.net",
+    "image": "https://slickdeals.net/attachment/3/0/2/2/8/9/3/1/450x450/20955705.thumb"
   },
   {
-    "id": "n6948555414",
+    "id": "n2476572784",
     "title": "The Dreame X60 Max Ultra Complete has the recipe for success, but it’s a little needy",
     "excerpt": "The Dreame X60 Max Ultra Complete is an ultra-premium floor-cleaning system that requires a little too much intervention.",
     "date": "2026-07-11",
@@ -350,103 +410,43 @@
     "image": ""
   },
   {
-    "id": "n2061372931",
-    "title": "I used to love Claude, but the latest models are slowly ruining it",
-    "excerpt": "This isn't the Claude I used to love.",
+    "id": "n100796929",
+    "title": "Samsung Galaxy Unpacked July 22: Galaxy Z Fold 8, Z Flip 8, Galaxy AI and Android XR Revealed",
+    "excerpt": "Samsung is preparing for a major technology showcase on July 22, 2026, with its upcoming Galaxy Unpacked event expected to highlight the company’s next-generation foldable smartph…",
     "date": "2026-07-11",
     "tag": "Phones",
-    "url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/",
-    "source": "Androidauthority",
-    "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/the-claude-app-on-a-smartphone-scaled.jpg"
+    "url": "https://www.successful-blog.com/1/samsung-galaxy-unpacked/",
+    "source": "Successful-blog.com",
+    "image": "https://www.successful-blog.com/wp-content/uploads/2026/07/Samsung-Galaxy-Unpacked.webp"
   },
   {
-    "id": "n7086962786",
-    "title": "I wish someone told me about these 5 Android Auto settings before I bought my new car",
-    "excerpt": "A few Android Auto settings go a long way.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.androidauthority.com/first-car-android-auto-most-important-settings-3684583/",
-    "source": "Androidauthority",
-    "image": ""
-  },
-  {
-    "id": "n691938437",
-    "title": "How I turned my Pixel into the ultimate Home Assistant smart home companion",
-    "excerpt": "I can't imagine smart home life without my Pixel now.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.androidauthority.com/pixel-home-assistant-smart-home-companion-3684122/",
-    "source": "Androidauthority",
-    "image": ""
-  },
-  {
-    "id": "n1220460828",
-    "title": "2026 BMW iX1 eDrive20L M Sport in Malaysia – LWB EV, 433 km range, from RM252,800",
-    "excerpt": "The 2026 BMW iX1 eDrive20L M Sport is the long-wheelbase version of BMW’s entry electric SUV, which finally received official Malaysian pricing after being launched back in Januar…",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://paultan.org/2026/07/11/2026-bmw-ix1-edrive20l-m-sport-in-malaysia-lwb-ev-433-km-range-from-rm252800/",
-    "source": "Paul Tan's Automotive News",
-    "image": "https://paultan.org/image/2026/04/2026-BMW-iX1-eDrive20L-M-Sport-Malaysia-2-e1777285244464-1200x631.jpg"
-  },
-  {
-    "id": "n4922367502",
-    "title": "I tried the new Google Photos Android app redesign, and now I want it in every Google app",
-    "excerpt": "It's a small change, but a welcome one.",
-    "date": "2026-07-11",
-    "tag": "Phones",
-    "url": "https://www.androidauthority.com/google-photos-redesigned-navigation-bar-good-3686008/",
-    "source": "Androidauthority",
-    "image": ""
-  },
-  {
-    "id": "n5671477990",
-    "title": "I Tested 4 Red Light Masks — Here's My Honest Ranking",
-    "excerpt": "Get glowing.",
-    "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://www.mindbodygreen.com/articles/tested-best-red-light-therapy-masks-for-anti-aging",
-    "source": "mindbodygreen.com",
-    "image": "https://mindbodygreen-res.cloudinary.com/image/upload/c_crop,x_0,y_0,w_2000,h_1334/c_fill,w_2000,h_1200,g_auto,fl_lossy,f_jpg/org/1779491360291_0q0a07nqj4no.jpg"
-  },
-  {
-    "id": "n7211406190",
-    "title": "A decade ago, I splurged for a personal trainer. It's one of the best investments I've ever made.",
-    "excerpt": "She was unsure paying $180 per month for a personal trainer in 2017 would be worth the money. Becoming stronger improved nearly every aspect of her life.",
+    "id": "n1592762024",
+    "title": "AMD Introduces Limited-Edition Valorant VCTCN 2026 Gaming Hardware Collection",
+    "excerpt": "Team Red has unveiled limited edition products for Valorant fans and eSports enthusiasts at BW2026. AMD Unveils VCTCN 2026 Collector's Edition, Including 9800X3D, RX 9070 XT, a Ga…",
     "date": "2026-07-11",
     "tag": "Laptops",
-    "url": "https://www.businessinsider.com/splurged-personal-trainer-10-years-ago-best-investments-2026-7#article",
-    "source": "Business Insider",
-    "image": "https://i.insider.com/6a4cfda05dc133dbf310d8b3?width=1200&format=jpeg"
+    "url": "https://wccftech.com/amd-introduces-limited-edition-valorant-vctcn-2026-gaming-hardware-collection/",
+    "source": "Wccftech",
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2026/07/AMD-VCTCN-BW2026-hardware.jpg"
   },
   {
-    "id": "n6378432269",
-    "title": "Dongfeng by Carro PJ Midtown showroom now open – come check out the 007 EV sedan and Vigo EV SUV",
-    "excerpt": "Shopping for an EV in the Klang Valley? There’s a new destination to add to your list – the Dongfeng by Carro showroom at PJ Midtown is now open, giving Petaling Jaya folk a dedic…",
+    "id": "n2183263629",
+    "title": "Apple Sues OpenAI Alleging Former Employees Stole Trade Secrets for AI Hardware Development",
+    "excerpt": "Apple has filed a lawsuit against OpenAI in the U. Thank you for being a Ghacks reader. The post Apple Sues OpenAI Alleging Former Employees Stole Trade Secrets for AI Hardware De…",
     "date": "2026-07-11",
-    "tag": "Accessories",
-    "url": "https://paultan.org/2026/07/11/dongfeng-by-carro-pj-midtown-showroom-now-open-come-check-out-the-007-ev-sedan-and-vigo-ev-suv/",
-    "source": "Paul Tan's Automotive News",
-    "image": "https://paultan.org/image/2026/02/Dongfeng-Carro-Midtown-PJ-Showroom-14-1200x800.jpg"
+    "tag": "Phones",
+    "url": "https://www.ghacks.net/2026/07/11/apple-sues-openai-alleging-former-employees-stole-trade-secrets-for-ai-hardware-development/",
+    "source": "Ghacks Technology News",
+    "image": "https://www.ghacks.net/wp-content/uploads/2026/07/gHacks-articles-2026-07-11T140211.173-1.png"
   },
   {
-    "id": "n9755081907",
-    "title": "onb-mcp 0.3.0",
-    "excerpt": "MCP server that wraps the Open Notebook API",
-    "date": "2026-07-11",
-    "tag": "Laptops",
-    "url": "https://pypi.org/project/onb-mcp/0.3.0/",
-    "source": "Pypi.org",
-    "image": ""
-  },
-  {
-    "id": "n757451877",
-    "title": "onb-mcp added to PyPI",
-    "excerpt": "MCP server that wraps the Open Notebook API",
+    "id": "n5142373975",
+    "title": "DAN GAINOR: We got Twitter/X as a platform 20 years ago and global censors still hate and fear it",
+    "excerpt": "From the Hunter Biden laptop suppression to Ofcom targeting U.S. companies, the global fight over online censorship and free speech is far from over.",
     "date": "2026-07-11",
     "tag": "Laptops",
-    "url": "https://pypi.org/project/onb-mcp/",
-    "source": "Pypi.org",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp"
+    "url": "https://www.foxnews.com/opinion/dan-gainor-twitter-x-platform-20-years-ago-global-censors-still-hate-fear-it",
+    "source": "Fox News",
+    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2022/07/GettyImages-1393786687.jpg"
   }
 ]
