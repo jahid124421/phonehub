@@ -9058,5 +9058,3455 @@
         "url": "https://www.flipkart.com/search?q=Huawei%20Nova%20Y61"
       }
     ]
+  },
+  "tv-mtv-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=MTV-1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=MTV-1"
+      }
+    ]
+  },
+  "tv-odyssey-4305": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Odyssey%204305"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Odyssey%204305"
+      }
+    ]
+  },
+  "tv-sega-vision": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Sega%20Vision"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Sega%20Vision"
+      }
+    ]
+  },
+  "tv-lg-lx9500": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=LG%20LX9500"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=LG%20LX9500"
+      }
+    ]
+  },
+  "tv-xl-100": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=XL-100"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=XL-100"
+      }
+    ]
+  },
+  "tv-videoton-ts-3301-sp-super-color": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Videoton%20TS%203301%20SP%20Super%20Color"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Videoton%20TS%203301%20SP%20Super%20Color"
+      }
+    ]
+  },
+  "tv-black-201-television-set": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Black%20201%20television%20set"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Black%20201%20television%20set"
+      }
+    ]
+  },
+  "tv-tesla-4001a": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Tesla%204001A"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Tesla%204001A"
+      }
+    ]
+  },
+  "tv-vg-6512-bw": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=VG-6512%20BW"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=VG-6512%20BW"
+      }
+    ]
+  },
+  "tv-12b-615-22": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=12B%20615-22"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=12B%20615-22"
+      }
+    ]
+  },
+  "tv-algol-11": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Algol%2011"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Algol%2011"
+      }
+    ]
+  },
+  "camera-fujifilm-x-m5": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Fujifilm%20X-M5"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Fujifilm%20X-M5"
+      }
+    ]
+  },
+  "camera-ruvi": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ruvi"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ruvi"
+      }
+    ]
+  },
+  "camera-logitech-fotoman-pixtura-musée-bolo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Logitech%20FotoMan%20Pixtura-Mus%C3%A9e%20Bolo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Logitech%20FotoMan%20Pixtura-Mus%C3%A9e%20Bolo"
+      }
+    ]
+  },
+  "camera-logitech-fotoman-musée-bolo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Logitech%20FotoMan-Mus%C3%A9e%20Bolo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Logitech%20FotoMan-Mus%C3%A9e%20Bolo"
+      }
+    ]
+  },
+  "camera-leaf-credo-80": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Leaf%20Credo%2080"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Leaf%20Credo%2080"
+      }
+    ]
+  },
+  "auto-renault-boreal": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Renault%20Boreal"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Renault%20Boreal"
+      }
+    ]
+  },
+  "auto-gac-aion-rt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=GAC%20Aion%20RT"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=GAC%20Aion%20RT"
+      }
+    ]
+  },
+  "auto-volkswagen-tera": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volkswagen%20Tera"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volkswagen%20Tera"
+      }
+    ]
+  },
+  "auto-rolls-royce-spectre": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Rolls-Royce%20Spectre"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Rolls-Royce%20Spectre"
+      }
+    ]
+  },
+  "auto-tesla-roadster": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Tesla%20Roadster"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Tesla%20Roadster"
+      }
+    ]
+  },
+  "auto-tesla-cybertruck": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Tesla%20Cybertruck"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Tesla%20Cybertruck"
+      }
+    ]
+  },
+  "auto-saipa-shahin": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Saipa%20Shahin"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Saipa%20Shahin"
+      }
+    ]
+  },
+  "auto-ferrari-f8-tributo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ferrari%20F8%20Tributo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ferrari%20F8%20Tributo"
+      }
+    ]
+  },
+  "auto-exeed-vx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Exeed%20VX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Exeed%20VX"
+      }
+    ]
+  },
+  "auto-exeed-lx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Exeed%20LX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Exeed%20LX"
+      }
+    ]
+  },
+  "auto-exeed-tx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Exeed%20TX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Exeed%20TX"
+      }
+    ]
+  },
+  "auto-peugeot-301": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20301"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20301"
+      }
+    ]
+  },
+  "auto-mitsubishi-minicab-miev": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mitsubishi%20Minicab%20MiEV"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mitsubishi%20Minicab%20MiEV"
+      }
+    ]
+  },
+  "auto-ferrari-ff": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ferrari%20FF"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ferrari%20FF"
+      }
+    ]
+  },
+  "auto-599-sa-aperta": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=599%20SA%20Aperta"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=599%20SA%20Aperta"
+      }
+    ]
+  },
+  "auto-chevrolet-volt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Chevrolet%20Volt"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Chevrolet%20Volt"
+      }
+    ]
+  },
+  "auto-skoda-yeti-roadster": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Skoda%20Yeti%20Roadster"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Skoda%20Yeti%20Roadster"
+      }
+    ]
+  },
+  "auto-subaru-impreza-wrx-sti": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Subaru%20Impreza%20WRX%20STI"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Subaru%20Impreza%20WRX%20STI"
+      }
+    ]
+  },
+  "auto-subaru-impreza-wrx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Subaru%20Impreza%20WRX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Subaru%20Impreza%20WRX"
+      }
+    ]
+  },
+  "auto-mitsubishi-starion": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mitsubishi%20Starion"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mitsubishi%20Starion"
+      }
+    ]
+  },
+  "auto-toyota-sprinter-trueno": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20Sprinter%20Trueno"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20Sprinter%20Trueno"
+      }
+    ]
+  },
+  "auto-porsche-cayman": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Porsche%20Cayman"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Porsche%20Cayman"
+      }
+    ]
+  },
+  "auto-jaguar-e-type": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Jaguar%20E-Type"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Jaguar%20E-Type"
+      }
+    ]
+  },
+  "auto-alfa-romeo-sprint": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Alfa%20Romeo%20Sprint"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Alfa%20Romeo%20Sprint"
+      }
+    ]
+  },
+  "auto-mazda-étude": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mazda%20%C3%89tude"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mazda%20%C3%89tude"
+      }
+    ]
+  },
+  "auto-hispano-suiza-h6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Hispano-Suiza%20H6"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Hispano-Suiza%20H6"
+      }
+    ]
+  },
+  "auto-pontiac-torrent": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pontiac%20Torrent"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pontiac%20Torrent"
+      }
+    ]
+  },
+  "auto-pontiac-g8": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pontiac%20G8"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pontiac%20G8"
+      }
+    ]
+  },
+  "auto-rolls-royce-phantom-iv": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Rolls-Royce%20Phantom%20IV"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Rolls-Royce%20Phantom%20IV"
+      }
+    ]
+  },
+  "auto-honda-cr-v": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honda%20CR-V"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honda%20CR-V"
+      }
+    ]
+  },
+  "auto-citroën-c25": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Citro%C3%ABn%20C25"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Citro%C3%ABn%20C25"
+      }
+    ]
+  },
+  "auto-dodge-avenger": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Dodge%20Avenger"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Dodge%20Avenger"
+      }
+    ]
+  },
+  "auto-la-jamais-contente": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=La%20Jamais%20Contente"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=La%20Jamais%20Contente"
+      }
+    ]
+  },
+  "auto-benz-viktoria": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Benz%20Viktoria"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Benz%20Viktoria"
+      }
+    ]
+  },
+  "auto-škoda-garde": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=%C5%A0koda%20Garde"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=%C5%A0koda%20Garde"
+      }
+    ]
+  },
+  "auto-packard-300": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Packard%20300"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Packard%20300"
+      }
+    ]
+  },
+  "auto-maserati-a6gcm": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Maserati%20A6GCM"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Maserati%20A6GCM"
+      }
+    ]
+  },
+  "auto-riley-10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Riley%2010"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Riley%2010"
+      }
+    ]
+  },
+  "auto-ford-shelby-gr-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20Shelby%20GR-1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20Shelby%20GR-1"
+      }
+    ]
+  },
+  "auto-daihatsu-feroza": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Daihatsu%20Feroza"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Daihatsu%20Feroza"
+      }
+    ]
+  },
+  "auto-audi-v8": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Audi%20V8"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Audi%20V8"
+      }
+    ]
+  },
+  "auto-bugatti-type-101": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Bugatti%20type%20101"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Bugatti%20type%20101"
+      }
+    ]
+  },
+  "auto-de-tomaso-vallelunga": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=De%20Tomaso%20Vallelunga"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=De%20Tomaso%20Vallelunga"
+      }
+    ]
+  },
+  "auto-subaru-justy": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Subaru%20Justy"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Subaru%20Justy"
+      }
+    ]
+  },
+  "auto-porsche-rs-spyder": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Porsche%20RS%20Spyder"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Porsche%20RS%20Spyder"
+      }
+    ]
+  },
+  "auto-benz-21-50-ps": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Benz%2021/50%20PS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Benz%2021/50%20PS"
+      }
+    ]
+  },
+  "auto-bmc-ado17": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=BMC%20ADO17"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=BMC%20ADO17"
+      }
+    ]
+  },
+  "auto-nissan-nv400": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20NV400"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20NV400"
+      }
+    ]
+  },
+  "auto-bmw-3200-cs": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=BMW%203200%20CS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=BMW%203200%20CS"
+      }
+    ]
+  },
+  "auto-mazda-121": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mazda%20121"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mazda%20121"
+      }
+    ]
+  },
+  "auto-nissan-350z": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20350Z"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20350Z"
+      }
+    ]
+  },
+  "auto-volkswagen-gol": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volkswagen%20Gol"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volkswagen%20Gol"
+      }
+    ]
+  },
+  "auto-audi-s2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Audi%20S2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Audi%20S2"
+      }
+    ]
+  },
+  "auto-ford-mondeo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20Mondeo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20Mondeo"
+      }
+    ]
+  },
+  "auto-lancia-dedra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lancia%20Dedra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lancia%20Dedra"
+      }
+    ]
+  },
+  "auto-opel-2-0-litre": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%202.0%20litre"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%202.0%20litre"
+      }
+    ]
+  },
+  "auto-tatra-603": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Tatra%20603"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Tatra%20603"
+      }
+    ]
+  },
+  "auto-daihatsu-storia": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Daihatsu%20Storia"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Daihatsu%20Storia"
+      }
+    ]
+  },
+  "auto-gibbs-humdinga": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Gibbs%20Humdinga"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Gibbs%20Humdinga"
+      }
+    ]
+  },
+  "auto-peugeot-type-3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20Type%203"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20Type%203"
+      }
+    ]
+  },
+  "auto-renault-vivastella": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Renault%20Vivastella"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Renault%20Vivastella"
+      }
+    ]
+  },
+  "auto-volkswagen-jetta-ii": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volkswagen%20Jetta%20II"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volkswagen%20Jetta%20II"
+      }
+    ]
+  },
+  "auto-shelby-mustang": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Shelby%20Mustang"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Shelby%20Mustang"
+      }
+    ]
+  },
+  "auto-aston-martin-db2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Aston%20Martin%20DB2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Aston%20Martin%20DB2"
+      }
+    ]
+  },
+  "auto-moskvitch-408": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Moskvitch%20408"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Moskvitch%20408"
+      }
+    ]
+  },
+  "auto-matra-murena": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Matra%20Murena"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Matra%20Murena"
+      }
+    ]
+  },
+  "auto-chrysler-nassau": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Chrysler%20Nassau"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Chrysler%20Nassau"
+      }
+    ]
+  },
+  "auto-mazda6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mazda6"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mazda6"
+      }
+    ]
+  },
+  "auto-lancia-prisma": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lancia%20Prisma"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lancia%20Prisma"
+      }
+    ]
+  },
+  "auto-ac-3000me": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=AC%203000ME"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=AC%203000ME"
+      }
+    ]
+  },
+  "samsung-galaxy-a05": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A05"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A05"
+      }
+    ]
+  },
+  "samsung-galaxy-a05s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A05s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A05s"
+      }
+    ]
+  },
+  "samsung-galaxy-a03": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A03"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A03"
+      }
+    ]
+  },
+  "samsung-galaxy-a13-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A13%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A13%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-m12": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M12"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M12"
+      }
+    ]
+  },
+  "samsung-galaxy-xcover-5": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Xcover%205"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Xcover%205"
+      }
+    ]
+  },
+  "samsung-galaxy-a23": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A23"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A23"
+      }
+    ]
+  },
+  "samsung-galaxy-a53-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A53%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A53%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a73-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A73%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A73%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a33-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A33%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A33%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-m53-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M53%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M53%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-m13": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M13"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M13"
+      }
+    ]
+  },
+  "samsung-galaxy-a54-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A54%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A54%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a34-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A34%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A34%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a24": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A24"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A24"
+      }
+    ]
+  },
+  "t-mobile-sidekick-4g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=T-Mobile%20Sidekick%204G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=T-Mobile%20Sidekick%204G"
+      }
+    ]
+  },
+  "samsung-galaxy-s24": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S24"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24"
+      }
+    ]
+  },
+  "samsung-galaxy-s24-ultra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S24%20Ultra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S24%20Ultra"
+      }
+    ]
+  },
+  "samsung-galaxy-a25-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A25%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A25%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a55-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A55%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A55%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-s7": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S7"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S7"
+      }
+    ]
+  },
+  "samsung-galaxy-a5--2016": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A5%20%282016%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A5%20%282016%29"
+      }
+    ]
+  },
+  "samsung-galaxy-s5-plus": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S5%20Plus"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S5%20Plus"
+      }
+    ]
+  },
+  "samsung-galaxy-grand-prime": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Grand%20Prime"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Grand%20Prime"
+      }
+    ]
+  },
+  "samsung-galaxy-a9-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A9%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A9%20Pro"
+      }
+    ]
+  },
+  "samsung-galaxy-j3--2016": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20J3%20%282016%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20J3%20%282016%29"
+      }
+    ]
+  },
+  "samsung-galaxy-z-flip-6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Z%20Flip%206"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Flip%206"
+      }
+    ]
+  },
+  "samsung-galaxy-z-fold-6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20Z%20Fold%206"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20Z%20Fold%206"
+      }
+    ]
+  },
+  "samsung-galaxy-m35-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20M35%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20M35%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-f15-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20F15%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20F15%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a16": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A16"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A16"
+      }
+    ]
+  },
+  "samsung-galaxy-s25": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S25%2B"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%2B"
+      }
+    ]
+  },
+  "samsung-galaxy-s25-ultra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S25%20Ultra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S25%20Ultra"
+      }
+    ]
+  },
+  "samsung-galaxy-a56-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A56%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A56%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-a36-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A36%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A36%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-s5-neo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S5%20neo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S5%20neo"
+      }
+    ]
+  },
+  "samsung-galaxy-a9--2016": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A9%20%282016%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A9%20%282016%29"
+      }
+    ]
+  },
+  "samsung-sm-g9198": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20SM-G9198"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20SM-G9198"
+      }
+    ]
+  },
+  "samsung-galaxy-a26-5g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20A26%205G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20A26%205G"
+      }
+    ]
+  },
+  "samsung-galaxy-s10": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Galaxy%20S10%2B"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Galaxy%20S10%2B"
+      }
+    ]
+  },
+  "redmi-note-9": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Redmi%20Note%209"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Redmi%20Note%209"
+      }
+    ]
+  },
+  "xiaomi-14t": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%2014T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%2014T"
+      }
+    ]
+  },
+  "xiaomi-13-lite": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Xiaomi%2013%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Xiaomi%2013%20Lite"
+      }
+    ]
+  },
+  "redmi-y1-lite": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Redmi%20Y1%20Lite"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Redmi%20Y1%20Lite"
+      }
+    ]
+  },
+  "redmi-13": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Redmi%2013"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Redmi%2013"
+      }
+    ]
+  },
+  "laptop-surface-laptop-go": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Surface%20Laptop%20Go"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Surface%20Laptop%20Go"
+      }
+    ]
+  },
+  "laptop-thinkpad-t495s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=ThinkPad%20T495s"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=ThinkPad%20T495s"
+      }
+    ]
+  },
+  "laptop-pedion": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pedion"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pedion"
+      }
+    ]
+  },
+  "laptop-powerbook-duo-2300c": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=PowerBook%20Duo%202300c"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=PowerBook%20Duo%202300c"
+      }
+    ]
+  },
+  "laptop-powerbook-520c": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=PowerBook%20520c"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=PowerBook%20520c"
+      }
+    ]
+  },
+  "laptop-ul20a": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=UL20A"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=UL20A"
+      }
+    ]
+  },
+  "laptop-matebook-x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=MateBook%20X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=MateBook%20X"
+      }
+    ]
+  },
+  "laptop-hp-envy-x2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=HP%20Envy%20X2"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=HP%20Envy%20X2"
+      }
+    ]
+  },
+  "laptop-thinkpad-r400": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=ThinkPad%20R400"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=ThinkPad%20R400"
+      }
+    ]
+  },
+  "laptop-thinkpad-w500": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=ThinkPad%20W500"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=ThinkPad%20W500"
+      }
+    ]
+  },
+  "laptop-thinkpad-x220": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=ThinkPad%20X220"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=ThinkPad%20X220"
+      }
+    ]
+  },
+  "laptop-macbook-pro-14-inch": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=MacBook%20Pro%2014-inch"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=MacBook%20Pro%2014-inch"
+      }
+    ]
+  },
+  "smartwatch-samsung-gear-s3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Gear%20S3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Gear%20S3"
+      }
+    ]
+  },
+  "smartwatch-samsung-gear-fit-2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Gear%20Fit%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Gear%20Fit%202"
+      }
+    ]
+  },
+  "smartwatch-samsung-gear-fit-2-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Gear%20Fit%202%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Gear%20Fit%202%20Pro"
+      }
+    ]
+  },
+  "smartwatch-forerunner--920xt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Forerunner%C2%AE%20920XT"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Forerunner%C2%AE%20920XT"
+      }
+    ]
+  },
+  "smartwatch-garmin-fēnix-6x-pro": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Garmin%20f%C4%93nix%206X%20Pro"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Garmin%20f%C4%93nix%206X%20Pro"
+      }
+    ]
+  },
+  "smartwatch-garmin-fēnix-6s-sapphire": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Garmin%20f%C4%93nix%206S%20Sapphire"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Garmin%20f%C4%93nix%206S%20Sapphire"
+      }
+    ]
+  },
+  "smartwatch-suunto-7": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Suunto%207"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Suunto%207"
+      }
+    ]
+  },
+  "smartwatch-polar-grit-x": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Polar%20Grit%20X"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Polar%20Grit%20X"
+      }
+    ]
+  },
+  "smartwatch-samsung-gear-2-neo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Samsung%20Gear%202%20Neo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Samsung%20Gear%202%20Neo"
+      }
+    ]
+  },
+  "smartwatch-garmin-instinct-solar": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Garmin%20Instinct%20Solar"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Garmin%20Instinct%20Solar"
+      }
+    ]
+  },
+  "smartwatch-garmin-venu-sq": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Garmin%20Venu%20Sq"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Garmin%20Venu%20Sq"
+      }
+    ]
+  },
+  "smartwatch-forerunner-955": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Forerunner%20955"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Forerunner%20955"
+      }
+    ]
+  },
+  "smartwatch-venu-sq-2": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Venu%20Sq%202"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Venu%20Sq%202"
+      }
+    ]
+  },
+  "smartwatch-fēnix-7-pro---sapphire-solar-edition": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=f%C4%93nix%207%20Pro%20%E2%80%93%20Sapphire%20Solar%20Edition"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=f%C4%93nix%207%20Pro%20%E2%80%93%20Sapphire%20Solar%20Edition"
+      }
+    ]
+  },
+  "smartwatch-fēnix-7-pro---solar-edition": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=f%C4%93nix%207%20Pro%20%E2%80%93%20Solar%20Edition"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=f%C4%93nix%207%20Pro%20%E2%80%93%20Solar%20Edition"
+      }
+    ]
+  },
+  "smartwatch-withings-steel-hr": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Withings%20Steel%20HR"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Withings%20Steel%20HR"
+      }
+    ]
+  },
+  "smartwatch-garmin-venu-x1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Garmin%20Venu%20X1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Garmin%20Venu%20X1"
+      }
+    ]
+  },
+  "auto-360-modena": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=360%20Modena"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=360%20Modena"
+      }
+    ]
+  },
+  "auto-456m": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=456M"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=456M"
+      }
+    ]
+  },
+  "auto-f55": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=F55"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=F55"
+      }
+    ]
+  },
+  "auto-348-ts": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=348%20TS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=348%20TS"
+      }
+    ]
+  },
+  "auto-328-gts": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=328%20GTS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=328%20GTS"
+      }
+    ]
+  },
+  "auto-512-bbi-turbo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=512%20BBi%20Turbo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=512%20BBi%20Turbo"
+      }
+    ]
+  },
+  "auto-512-bbi": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=512%20BBi"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=512%20BBi"
+      }
+    ]
+  },
+  "auto-365-gt4-bb": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=365%20GT4%20BB"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=365%20GT4%20BB"
+      }
+    ]
+  },
+  "auto-ferrari-3z": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ferrari%203Z"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ferrari%203Z"
+      }
+    ]
+  },
+  "auto-512-s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=512%20S"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=512%20S"
+      }
+    ]
+  },
+  "auto-bugatti-type-55": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Bugatti%20Type%2055"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Bugatti%20Type%2055"
+      }
+    ]
+  },
+  "auto-úvmv-1100-gt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=%C3%9AVMV%201100%20GT"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=%C3%9AVMV%201100%20GT"
+      }
+    ]
+  },
+  "auto-porsche-92a": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Porsche%2092A"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Porsche%2092A"
+      }
+    ]
+  },
+  "auto-lancia-kappa": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lancia%20Kappa"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lancia%20Kappa"
+      }
+    ]
+  },
+  "auto-facel-vega-facel-ii": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Facel%20Vega%20Facel%20II"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Facel%20Vega%20Facel%20II"
+      }
+    ]
+  },
+  "auto-nissan-z-car": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Z-car"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Z-car"
+      }
+    ]
+  },
+  "auto-standard-vanguard": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Standard%20Vanguard"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Standard%20Vanguard"
+      }
+    ]
+  },
+  "auto-ford-ecosport": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20EcoSport"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20EcoSport"
+      }
+    ]
+  },
+  "auto-dodge-400": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Dodge%20400"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Dodge%20400"
+      }
+    ]
+  },
+  "auto-acura-arx-01": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20ARX-01"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20ARX-01"
+      }
+    ]
+  },
+  "auto-acura-arx-02a": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20ARX-02a"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20ARX-02a"
+      }
+    ]
+  },
+  "auto-acura-el": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20EL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20EL"
+      }
+    ]
+  },
+  "auto-acura-rdx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20RDX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20RDX"
+      }
+    ]
+  },
+  "auto-acura-rl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20RL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20RL"
+      }
+    ]
+  },
+  "auto-honda-vigor": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honda%20Vigor"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honda%20Vigor"
+      }
+    ]
+  },
+  "auto-acura-tl": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20TL"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20TL"
+      }
+    ]
+  },
+  "auto-acura-zdx--2009": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Acura%20ZDX%20%282009%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Acura%20ZDX%20%282009%29"
+      }
+    ]
+  },
+  "auto-mercedes-benz-vito": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mercedes-Benz%20Vito"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mercedes-Benz%20Vito"
+      }
+    ]
+  },
+  "auto-pontiac-fiero": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pontiac%20Fiero"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pontiac%20Fiero"
+      }
+    ]
+  },
+  "auto-adam-revo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Adam%20Revo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Adam%20Revo"
+      }
+    ]
+  },
+  "auto-opel-tigra-twintop": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%20Tigra%20Twintop"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%20Tigra%20Twintop"
+      }
+    ]
+  },
+  "auto-peugeot-quark": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20Quark"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20Quark"
+      }
+    ]
+  },
+  "auto-ford-sierra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20Sierra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20Sierra"
+      }
+    ]
+  },
+  "auto-puch-500": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Puch%20500"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Puch%20500"
+      }
+    ]
+  },
+  "auto-wolseley-eight": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Wolseley%20Eight"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Wolseley%20Eight"
+      }
+    ]
+  },
+  "auto-morgan-lifecar": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Morgan%20LIFEcar"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Morgan%20LIFEcar"
+      }
+    ]
+  },
+  "auto-chrysler-cordoba": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Chrysler%20Cordoba"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Chrysler%20Cordoba"
+      }
+    ]
+  },
+  "auto-fiat-sedici": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Fiat%20Sedici"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Fiat%20Sedici"
+      }
+    ]
+  },
+  "auto-mercury-marquis": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mercury%20Marquis"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mercury%20Marquis"
+      }
+    ]
+  },
+  "auto-cadillac-calais": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Cadillac%20Calais"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Cadillac%20Calais"
+      }
+    ]
+  },
+  "auto-delorean-dmc-12": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=DeLorean%20DMC-12"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=DeLorean%20DMC-12"
+      }
+    ]
+  },
+  "auto-toyota-iq": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20iQ"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20iQ"
+      }
+    ]
+  },
+  "auto-citroën-zx": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Citro%C3%ABn%20ZX"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Citro%C3%ABn%20ZX"
+      }
+    ]
+  },
+  "auto-lincoln-continental-mark-vi": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lincoln%20Continental%20Mark%20VI"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lincoln%20Continental%20Mark%20VI"
+      }
+    ]
+  },
+  "auto-daewoo-tacuma": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Daewoo%20Tacuma"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Daewoo%20Tacuma"
+      }
+    ]
+  },
+  "auto-volkswagen-microbus-concept": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volkswagen%20Microbus%20Concept"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volkswagen%20Microbus%20Concept"
+      }
+    ]
+  },
+  "auto-uaz-469": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=UAZ-469"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=UAZ-469"
+      }
+    ]
+  },
+  "auto-lancia-ecv": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lancia%20ECV"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lancia%20ECV"
+      }
+    ]
+  },
+  "auto-lancia-jolly": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lancia%20Jolly"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lancia%20Jolly"
+      }
+    ]
+  },
+  "auto-standard-ten": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Standard%20Ten"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Standard%20Ten"
+      }
+    ]
+  },
+  "auto-nsu-spider": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=NSU%20Spider"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=NSU%20Spider"
+      }
+    ]
+  },
+  "auto-daewoo-matiz": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Daewoo%20Matiz"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Daewoo%20Matiz"
+      }
+    ]
+  },
+  "auto-nissan-violet": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Violet"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Violet"
+      }
+    ]
+  },
+  "auto-lotus-carlton": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lotus%20Carlton"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lotus%20Carlton"
+      }
+    ]
+  },
+  "auto-datsun-type-11": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Datsun%20Type%2011"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Datsun%20Type%2011"
+      }
+    ]
+  },
+  "auto-nissan-maxima": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Maxima"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Maxima"
+      }
+    ]
+  },
+  "auto-autozam-az-1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Autozam%20AZ-1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Autozam%20AZ-1"
+      }
+    ]
+  },
+  "auto-volvo-850": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volvo%20850"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volvo%20850"
+      }
+    ]
+  },
+  "auto-bandini-1100": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Bandini%201100"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Bandini%201100"
+      }
+    ]
+  },
+  "auto-tvr-m-series-3000m--taimar--and-3000s": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=TVR%20M%20Series%233000M%2C%20Taimar%2C%20and%203000S"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=TVR%20M%20Series%233000M%2C%20Taimar%2C%20and%203000S"
+      }
+    ]
+  },
+  "auto-benz-ideal": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Benz%20Ideal"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Benz%20Ideal"
+      }
+    ]
+  },
+  "auto-coda": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Coda"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Coda"
+      }
+    ]
+  },
+  "auto-toyota-vellfire": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20Vellfire"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20Vellfire"
+      }
+    ]
+  },
+  "auto-lifan-320": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lifan%20320"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lifan%20320"
+      }
+    ]
+  },
+  "auto-ford-scorpio": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20Scorpio"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20Scorpio"
+      }
+    ]
+  },
+  "auto-seat-arosa": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=SEAT%20Arosa"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=SEAT%20Arosa"
+      }
+    ]
+  },
+  "auto-bmw-5-series-gran-turismo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=BMW%205%20Series%20Gran%20Turismo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=BMW%205%20Series%20Gran%20Turismo"
+      }
+    ]
+  },
+  "auto-audi-80": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Audi%2080"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Audi%2080"
+      }
+    ]
+  },
+  "auto-bmw-340": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=BMW%20340"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=BMW%20340"
+      }
+    ]
+  },
+  "auto-maserati-mc12": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Maserati%20MC12"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Maserati%20MC12"
+      }
+    ]
   }
 }
