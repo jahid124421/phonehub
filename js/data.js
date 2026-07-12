@@ -16268,7 +16268,16 @@ window.PHONES = [
 ];
 window.NEWS = [
   {
-    "id": "n9412071430",
+    "id": "n133523098",
+    "title": "Show HN: Rules-free solo-only client for the Paperback tabletop game",
+    "excerpt": "My past couple of weeks were spent writing an app with which to play the word-spelling tabletop game Paperback in the browser.Tim Fowers, creator and publisher of the game, has gi…",
+    "date": "2026-07-12",
+    "tag": "Phones",
+    "url": "https://wanderinghorse.net/gaming/paperback/solo.html",
+    "source": "Hacker News"
+  },
+  {
+    "id": "n9390957961",
     "title": "KDE Plasma 6.8 will finally fix the worst part of Spectacle",
     "excerpt": "A great app is getting even better.",
     "date": "2026-07-12",
@@ -16277,7 +16286,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n1348272151",
+    "id": "n5450367018",
     "title": "Reed Jobs would rather talk about curing cancer than his last name",
     "excerpt": "When we last sat down with Jobs at TechCrunch Disrupt nearly three years ago, his firm Yosemite was brand new and biotech was still reeling from its post-pandemic crash. Now, the …",
     "date": "2026-07-12",
@@ -16286,7 +16295,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n3558138641",
+    "id": "n7561586776",
     "title": "Linux containers do what my Proxmox VMs couldn't: run a dozen services without wasting half my memory",
     "excerpt": "Linux containers replaced most of my Proxmox VMs, cutting memory use, speeding up restarts, and making a dozen services easier to manage.",
     "date": "2026-07-12",
@@ -16295,7 +16304,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n5408585792",
+    "id": "n6043349798",
     "title": "I love my dual-monitor setup, but these surprises caught me completely off guard",
     "excerpt": "I thought it would have only upside",
     "date": "2026-07-11",
@@ -16304,7 +16313,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n7409411154",
+    "id": "n823325195",
     "title": "My AI coding workflow runs entirely through Discord, and it's faster than using an editor",
     "excerpt": "You can thank OpenClaw for this.",
     "date": "2026-07-11",
@@ -16313,7 +16322,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n5224088297",
+    "id": "n3161868142",
     "title": "What If It's Not the Phones?",
     "excerpt": "What If It's Not the Phones?",
     "date": "2026-07-11",
@@ -16322,7 +16331,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n4348725182",
+    "id": "n6751343073",
     "title": "This slushie machine was a lifesaver during NYC’s heat wave",
     "excerpt": "Last weekend s brutal NYC heat wave had me craving a frozen drink almost every afternoon. Normally, that would mean sweating through a walk to 7-Eleven for a slurpee. This time, t…",
     "date": "2026-07-11",
@@ -16331,7 +16340,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n6702035388",
+    "id": "n8705385164",
     "title": "ICE are heavily armed killers. They’re also huge losers",
     "excerpt": "Donald Trump's Homeland Security regime has been at the center of two critical stories in the past two weeks. In the first, federal agents shot and killed a man and quickly got to…",
     "date": "2026-07-11",
@@ -16340,7 +16349,7 @@ window.NEWS = [
     "source": "Theverge"
   },
   {
-    "id": "n8212012574",
+    "id": "n3394398217",
     "title": "Windows has too many backup tools, but this free app beats them all",
     "excerpt": "I stopped trusting Windows backups after learning what actually works",
     "date": "2026-07-11",
@@ -16349,7 +16358,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n4861522591",
+    "id": "n2138046011",
     "title": "I didn't know my SSD was dying until Windows stopped booting",
     "excerpt": "Hardware failure isn't always easy to spot.",
     "date": "2026-07-11",
@@ -16358,7 +16367,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n9313759500",
+    "id": "n5294193653",
     "title": "After years of teasing, the viral Nopia synth is ‘basically finished’",
     "excerpt": "After setting the music gear corner of the internet on fire back in 2023 with the first glimpse at the Nopia, creators Martin Grieco and Roc o Gal are almost ready to bring it to …",
     "date": "2026-07-11",
@@ -16367,7 +16376,7 @@ window.NEWS = [
     "source": "Theverge"
   },
   {
-    "id": "n7604583770",
+    "id": "n4531698089",
     "title": "I used my calendar as a notes and task hub, and my workflow finally made sense",
     "excerpt": "Why use separate apps when one will do?",
     "date": "2026-07-11",
@@ -16376,7 +16385,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n3574307947",
+    "id": "n8870762881",
     "title": "Phoebe Gates' AI shopping app Phia reportedly claimed unearned affiliate sales through fake clicks",
     "excerpt": "Gates, who is Bill Gates' daughter, founded the app alongside Sophia Kianni.",
     "date": "2026-07-11",
@@ -16385,7 +16394,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n3763269869",
+    "id": "n9731149477",
     "title": "This single launcher does the work of 6 Windows utilities, and it's better than any optimization hack",
     "excerpt": "Debloating can help your PC move a little faster, but if you really want to speed up your workflow, Raycast is where it's at.",
     "date": "2026-07-11",
@@ -16394,7 +16403,7 @@ window.NEWS = [
     "source": "Xda-Developers"
   },
   {
-    "id": "n3081092888",
+    "id": "n572043981",
     "title": "Oregon’s Attorney General withdraws effort to delay Paramount and Warner Bros. merger",
     "excerpt": "Oregon Attorney General Dan Rayfield had been seeking documents from Paramount related to its takeover of Warner Bros. Discovery. Rayfield also asked a state circuit court judge t…",
     "date": "2026-07-11",
@@ -16403,7 +16412,7 @@ window.NEWS = [
     "source": "Theverge"
   },
   {
-    "id": "n7201744914",
+    "id": "n2789488657",
     "title": "What is Eclipsa Video, and how does it compare to Dolby Vision and HDR10?",
     "excerpt": "The new format is coming to a device near you -- Here s why it matters.",
     "date": "2026-07-11",
@@ -16412,7 +16421,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n5505996383",
+    "id": "n6712434124",
     "title": "Philips offers free replacements after update bricked smart lighting hubs",
     "excerpt": "The company also said a newer update is rolling out that should prevent the issue.",
     "date": "2026-07-11",
@@ -16421,7 +16430,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n3885117951",
+    "id": "n164167749",
     "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
     "excerpt": "The glasses are targeted at people who might be constantly in meetings, giving presentations, and traveling to countries where different languages are spoken.",
     "date": "2026-07-11",
@@ -16430,7 +16439,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n5327163831",
+    "id": "n5256549814",
     "title": "OpenAI's head of safety is reportedly leaving as part of company reorganization",
     "excerpt": "The role will be replaced by an executive in charge of both research and safety teams.",
     "date": "2026-07-11",
@@ -16439,7 +16448,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n8561775271",
+    "id": "n1360829643",
     "title": "Which USB port should you use for your mouse and keyboard?",
     "excerpt": "Save your best ports for your most demanding devices.",
     "date": "2026-07-11",
@@ -16448,7 +16457,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n3260107382",
+    "id": "n9387983262",
     "title": "Show HN: Aether – Run Claude Code, Codex, or OpenCode in devboxes you can watch",
     "excerpt": "Since coding agents like Claude Code and Codex came out, I ve been pretty obsessed with them. It s hard not to when you re getting a 20x discount on inference. I ve also been frus…",
     "date": "2026-07-11",
@@ -16457,7 +16466,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n218963844",
+    "id": "n3643750744",
     "title": "White House taps the guy who keeps crying ‘aliens’ to run UFO group",
     "excerpt": "Harvard astrophysicist Avi Loeb will head the UAP Science Advisory Council established by the White House, the Pentagon, the Office of the Director of National Intelligence, the F…",
     "date": "2026-07-11",
@@ -16466,7 +16475,7 @@ window.NEWS = [
     "source": "Theverge"
   },
   {
-    "id": "n8176775195",
+    "id": "n3971789445",
     "title": "OpenAI bets on families as ChatGPT goes deeper into households",
     "excerpt": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "date": "2026-07-11",
@@ -16475,7 +16484,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n4150870225",
+    "id": "n5887906367",
     "title": "Show HN: Agent World – an open standard and live market for personal AI agents",
     "excerpt": "Show HN: Agent World – an open standard and live market for personal AI agents",
     "date": "2026-07-11",
@@ -16484,7 +16493,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n1955317353",
+    "id": "n2942358104",
     "title": "Google deleting all recently inactive accounts without phone number",
     "excerpt": "Google is now deleting all accounts that do not, and have never had, phone numbers associated with them if they haven t logged in within a year or so. Urgent: Sign in to your Goog…",
     "date": "2026-07-11",
@@ -16493,7 +16502,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n8078783013",
+    "id": "n2208285121",
     "title": "Engadget review recap: Steam Machine, Samsung Music Studio 7, Oura Ring 5 and more",
     "excerpt": "A roundup of recent reviews published by Engadget.",
     "date": "2026-07-11",
@@ -16502,7 +16511,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n2861661401",
+    "id": "n5438477251",
     "title": "Your Samsung Gallery won't be able to sync with Microsoft OneDrive soon",
     "excerpt": "Your photos don t have to go home, but they can t stay here.",
     "date": "2026-07-11",
@@ -16511,7 +16520,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n7866311195",
+    "id": "n6242189157",
     "title": "Bluesky has an official CEO again",
     "excerpt": "Toni Schneider, who took over after Jay Graber stepped down, is now Bluesky s official CEO.",
     "date": "2026-07-11",
@@ -16520,7 +16529,7 @@ window.NEWS = [
     "source": "Engadget"
   },
   {
-    "id": "n4265044336",
+    "id": "n7516823633",
     "title": "A tasty RPG that will make you very hungry",
     "excerpt": "Roleplaying games are often defined by excess. Storylines that span dozens of hours, side quests so big they could be their own game, massive worlds that require complex maps to e…",
     "date": "2026-07-11",
@@ -16529,7 +16538,7 @@ window.NEWS = [
     "source": "Theverge"
   },
   {
-    "id": "n4091398290",
+    "id": "n9379556112",
     "title": "I tried DuckDuckGo’s new and free YouTube ad blocker. Here’s how it works",
     "excerpt": "No Premium? No problem. DuckDuckGo-t your back!",
     "date": "2026-07-11",
@@ -16538,7 +16547,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n5835725106",
+    "id": "n4960203364",
     "title": "Show HN: Axletic – a local-first workout tracker for iPhone",
     "excerpt": "Hi HN,I built Axletic, a native iPhone workout tracker focused on making workout logging feel quick and uncomplicated. I drew a lot of inspiration from clean, dark themed apps suc…",
     "date": "2026-07-11",
@@ -16547,7 +16556,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n4600341117",
+    "id": "n6589837370",
     "title": "The Dreame X60 Max Ultra Complete has the recipe for success, but it’s a little needy",
     "excerpt": "The Dreame X60 Max Ultra Complete is an ultra-premium floor-cleaning system that requires a little too much intervention.",
     "date": "2026-07-11",
@@ -16556,7 +16565,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n5307471224",
+    "id": "n2725025087",
     "title": "I used to love Claude, but the latest models are slowly ruining it",
     "excerpt": "This isn't the Claude I used to love.",
     "date": "2026-07-11",
@@ -16565,7 +16574,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n8841097238",
+    "id": "n6495879560",
     "title": "I wish someone told me about these 5 Android Auto settings before I bought my new car",
     "excerpt": "A few Android Auto settings go a long way.",
     "date": "2026-07-11",
@@ -16574,7 +16583,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n6695777450",
+    "id": "n9065957507",
     "title": "How I turned my Pixel into the ultimate Home Assistant smart home companion",
     "excerpt": "I can't imagine smart home life without my Pixel now.",
     "date": "2026-07-11",
@@ -16583,7 +16592,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n8348412195",
+    "id": "n6351381634",
     "title": "I tried the new Google Photos Android app redesign, and now I want it in every Google app",
     "excerpt": "It's a small change, but a welcome one.",
     "date": "2026-07-11",
@@ -16592,7 +16601,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n4675875288",
+    "id": "n2592296587",
     "title": "Duolingo is breaking users’ language courses — and it’s exactly why I quit",
     "excerpt": "What's the point of a language learning app that won't let you keep learning?",
     "date": "2026-07-11",
@@ -16601,7 +16610,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n1714184782",
+    "id": "n6949749856",
     "title": "NVIDIA clarifies why you can’t find a Shield TV anywhere",
     "excerpt": "It hasn't been discontinued, but it might never come back in stock.",
     "date": "2026-07-11",
@@ -16610,7 +16619,7 @@ window.NEWS = [
     "source": "Androidauthority"
   },
   {
-    "id": "n8672268683",
+    "id": "n286283170",
     "title": "US cybersecurity agency CISA had to build its incident playbook during the incident, agency reveals",
     "excerpt": "Independent cybersecurity journalist Brian Krebs reported in May that a security researcher with cyber firm GitGuardian alerted him to reams of exposed passwords stored in a publi…",
     "date": "2026-07-11",
@@ -16619,7 +16628,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n6533694739",
+    "id": "n3240114593",
     "title": "Phia accused of ‘cookie stuffing,’ taking affiliate credit on purchases it didn’t earn",
     "excerpt": "Phia, the shopping startup founded by Bill Gates’ daughter, Phoebe, and her friend Sophia Kianni is under fire for a practice known as “cookie stuffing,” which helped the product …",
     "date": "2026-07-11",
@@ -16628,7 +16637,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n6435812149",
+    "id": "n4390833842",
     "title": "Ask HN: How has the internet devolved in recent years?",
     "excerpt": "I ll start with 10:1. Verifying you are human delays&#x2F;redirects2. Invasive Sign in with Google[1] prompts on every website, often taking over the UI3. Phone number based ident…",
     "date": "2026-07-11",
@@ -16637,7 +16646,7 @@ window.NEWS = [
     "source": "Hacker News"
   },
   {
-    "id": "n7450992340",
+    "id": "n1240077867",
     "title": "Meta removes controversial AI feature on Instagram after backlash",
     "excerpt": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"…",
     "date": "2026-07-10",
@@ -16646,7 +16655,7 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n171450774",
+    "id": "n2868354665",
     "title": "Bluesky’s interim CEO, Toni Schneider, drops the ‘interim’",
     "excerpt": "Schneider, who formerly served as the CEO of Automattic and is a partner at True Ventures, says he is \"all in\" on the unconventional social media platform.",
     "date": "2026-07-10",
@@ -16655,21 +16664,12 @@ window.NEWS = [
     "source": "Techcrunch"
   },
   {
-    "id": "n6201592983",
+    "id": "n7287304181",
     "title": "Tool to use signal without a smartphone",
     "excerpt": "Tool to use signal without a smartphone",
     "date": "2026-07-10",
     "tag": "Phones",
     "url": "https://github.com/almet/signal-without-smartphone",
     "source": "Hacker News"
-  },
-  {
-    "id": "n4204149258",
-    "title": "Friday Android app deals and freebies: ScourgeBringer, Greak, Egg Journey, more",
-    "excerpt": "Your afternoon lineup of the best Android game and app deals is now here, including titles like ScourgeBringer, Greak: Memories of Azur, Tower Defense Legend 5 Pro, Escape Alive, …",
-    "date": "2026-07-10",
-    "tag": "Phones",
-    "url": "https://9to5toys.com/2026/07/10/friday-android-app-deals-free-scourgebringer-greak/",
-    "source": "9To5Google"
   }
 ];
