@@ -20,10 +20,13 @@
       return;
     }
 
+    // full specs live in window.SPECS (loaded via specs-data.js)
+    const specsOf = (p) => (window.SPECS && window.SPECS[p.id]) || p.specs || {};
+
     // collect every spec section+key across selected phones so rows align
     const sections = {};
     phones.forEach((p) => {
-      Object.entries(p.specs).forEach(([sec, rows]) => {
+      Object.entries(specsOf(p)).forEach(([sec, rows]) => {
         sections[sec] = sections[sec] || new Set();
         Object.keys(rows).forEach((k) => sections[sec].add(k));
       });
@@ -48,7 +51,7 @@
     const specRows = Object.entries(sections).map(([sec, keys]) => {
       const header = `<tr><th colspan="${phones.length + 1}" style="text-align:left;background:var(--surface-2)">${sec}</th></tr>`;
       const rows = [...keys].map((k) => {
-        const vals = phones.map((p) => (p.specs[sec] && p.specs[sec][k]) || "—");
+        const vals = phones.map((p) => { const s = specsOf(p); return (s[sec] && s[sec][k]) || "—"; });
         const allSame = vals.every((v) => v === vals[0]);
         const cells = vals.map((v) =>
           `<td style="${allSame ? "" : "background:rgba(76,125,255,.08)"}">${v}</td>`).join("");

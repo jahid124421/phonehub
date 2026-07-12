@@ -47,8 +47,8 @@
     ? `<p style="margin:0 0 16px;font-size:15px;line-height:1.6">${phone.review}</p>`
     : "";
 
-  // full specs
-  const specBlocks = Object.entries(phone.specs).map(([section, rows]) => {
+  // full specs (lite data.js may omit specs; static /phone/ pages have them baked)
+  const specBlocks = Object.entries(phone.specs || {}).map(([section, rows]) => {
     const trs = Object.entries(rows).map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`).join("");
     return `<div class="spec-block"><h3>${section}</h3><table class="spec-table">${trs}</table></div>`;
   }).join("");

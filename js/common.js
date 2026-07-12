@@ -173,6 +173,7 @@
   PH.inCompare = (id) => PH.getCompare().includes(id);
 
   /* ---------- reusable phone card ---------- */
+  PH.hasSpecs = (phone) => Object.values(phone.quickSpecs || {}).some((v) => v);
   PH.phoneCard = (phone) => {
     const b = PH.getBrand(phone.brand);
     const price = PH.formatPrice(PH.lowestPrice(phone));
@@ -347,10 +348,22 @@
     box.appendChild(s);
   };
 
+  /* ---------- scroll-to-top button ---------- */
+  PH.mountScrollTop = () => {
+    const btn = document.createElement("button");
+    btn.className = "to-top";
+    btn.setAttribute("aria-label", "Back to top");
+    btn.innerHTML = "\u2191";
+    btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+    document.body.appendChild(btn);
+    window.addEventListener("scroll", () => btn.classList.toggle("show", window.scrollY > 500), { passive: true });
+  };
+
   document.addEventListener("DOMContentLoaded", () => {
     PH.initTheme();
     PH.initCurrency();
     PH.mountDiscussion();
+    PH.mountScrollTop();
     PH.renderCompareBar();
     PH.wireSearch();
     PH.renderFooterLegal();

@@ -219,6 +219,9 @@ def render_phone(phone, brands, phones_all, base):
   <title>{esc(name)} — Specs, Price &amp; Review | PhoneHub</title>
   <meta name="description" content="{esc(desc)}">
   <link rel="canonical" href="{esc(canonical)}">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.json">
+  <meta name="theme-color" content="#5b8cff">
   <meta property="og:title" content="{esc(name)} — PhoneHub">
   <meta property="og:description" content="{esc(desc)}">
   <meta property="og:image" content="{esc(og_img)}">

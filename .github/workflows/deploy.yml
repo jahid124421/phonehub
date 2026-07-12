@@ -88,7 +88,7 @@ jobs:
         run: |
           git config user.name "phonehub-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add js/data.js phone/ sitemap.xml robots.txt tools/data/*.json 2>/dev/null || true
+          git add js/data.js js/specs-data.js phone/ img/ sitemap.xml robots.txt tools/data/*.json 2>/dev/null || true
           git commit -m "auto: refresh phone data" || echo "no changes"
           git push || echo "push skipped"
 

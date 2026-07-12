@@ -74,6 +74,76 @@
       "id": "huawei",
       "name": "Huawei",
       "logo": "📱"
+    },
+    {
+      "id": "medion",
+      "name": "Medion",
+      "logo": "📱"
+    },
+    {
+      "id": "zenith",
+      "name": "Zenith",
+      "logo": "📱"
+    },
+    {
+      "id": "toshiba",
+      "name": "Toshiba",
+      "logo": "📱"
+    },
+    {
+      "id": "compaq",
+      "name": "Compaq",
+      "logo": "📱"
+    },
+    {
+      "id": "lenovo",
+      "name": "Lenovo",
+      "logo": "📱"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "logo": "📱"
+    },
+    {
+      "id": "pine64",
+      "name": "Pine64",
+      "logo": "📱"
+    },
+    {
+      "id": "tandy",
+      "name": "Tandy",
+      "logo": "📱"
+    },
+    {
+      "id": "data",
+      "name": "Data",
+      "logo": "📱"
+    },
+    {
+      "id": "acer",
+      "name": "Acer",
+      "logo": "📱"
+    },
+    {
+      "id": "dell",
+      "name": "Dell",
+      "logo": "📱"
+    },
+    {
+      "id": "garmin",
+      "name": "Garmin",
+      "logo": "📱"
+    },
+    {
+      "id": "withings",
+      "name": "Withings",
+      "logo": "📱"
+    },
+    {
+      "id": "tcl",
+      "name": "TCL",
+      "logo": "📱"
     }
   ],
   "phones": [
@@ -15829,6 +15899,4456 @@
         },
         "Misc": {
           "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "nokia-e72",
+      "brand": "nokia",
+      "name": "Nokia E72",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20E72.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20E72.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-5530-xpressmusic",
+      "brand": "nokia",
+      "name": "Nokia 5530 XpressMusic",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/5530XM.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/5530XM.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-mini-2",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Mini 2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Mini%202.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Mini%202.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-sgh-i900",
+      "brand": "samsung",
+      "name": "Samsung SGH-i900",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%20i900.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%20i900.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Mobile",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Windows Mobile"
+        }
+      }
+    },
+    {
+      "id": "nokia-n86-8mp",
+      "brand": "nokia",
+      "name": "Nokia N86 8MP",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N86%208MP.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N86%208MP.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-c5-00",
+      "brand": "nokia",
+      "name": "Nokia C5-00",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20C5-00.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20C5-00.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "samsung-omnia-w",
+      "brand": "samsung",
+      "name": "Samsung Omnia W",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%20W%20Model%20no.GT-I8350.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%20W%20Model%20no.GT-I8350.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "nokia-603",
+      "brand": "nokia",
+      "name": "Nokia 603",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20603.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20603.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-3660",
+      "brand": "nokia",
+      "name": "Nokia 3660",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%203660.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%203660.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "samsung-wave-723",
+      "brand": "samsung",
+      "name": "Samsung Wave 723",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Wave%20723%20-%20Front%20%28splash%20screen%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Wave%20723%20-%20Front%20%28splash%20screen%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Bada",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Bada"
+        }
+      }
+    },
+    {
+      "id": "sony-ericsson-k550im",
+      "brand": "sony",
+      "name": "Sony Ericsson K550im",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Ericsson%20K550im.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Ericsson%20K550im.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "samsung-focus",
+      "brand": "samsung",
+      "name": "Samsung Focus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Focus%20Edited.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Focus%20Edited.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "nokia-e71",
+      "brand": "nokia",
+      "name": "Nokia E71",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokiae71.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokiae71.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n91",
+      "brand": "nokia",
+      "name": "Nokia N91",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/N91.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/N91.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-6630",
+      "brand": "nokia",
+      "name": "Nokia 6630",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%206630.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%206630.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n72",
+      "brand": "nokia",
+      "name": "Nokia N72",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N72.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N72.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n96",
+      "brand": "nokia",
+      "name": "Nokia N96",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N96%20screen%20landscape.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N96%20screen%20landscape.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n90",
+      "brand": "nokia",
+      "name": "Nokia N90",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N90%20Camera%20flickr%20178946625.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N90%20Camera%20flickr%20178946625.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n85",
+      "brand": "nokia",
+      "name": "Nokia N85",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N85%20Aperto%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N85%20Aperto%201.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        }
+      }
+    },
+    {
+      "id": "nokia-n93",
+      "brand": "nokia",
+      "name": "Nokia N93",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20n93-1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20n93-1.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-e62",
+      "brand": "nokia",
+      "name": "Nokia E62",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20E62.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20E62.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        }
+      }
+    },
+    {
+      "id": "nokia-5500-sport",
+      "brand": "nokia",
+      "name": "Nokia 5500 Sport",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%205500.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%205500.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-5700-xpressmusic",
+      "brand": "nokia",
+      "name": "Nokia 5700 XpressMusic",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%205700%20XpressMusic.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%205700%20XpressMusic.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-n92",
+      "brand": "nokia",
+      "name": "Nokia N92",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N92%20flip.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20N92%20flip.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "nokia-e50",
+      "brand": "nokia",
+      "name": "Nokia E50",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NokiaE50.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/NokiaE50.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Symbian",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Symbian"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-y",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Y",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Y%20S5360%20run%20Android%202.3.6.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Y%20S5360%20run%20Android%202.3.6.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android Gingerbread",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android Gingerbread"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-mini",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Mini",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Mini.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Mini.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-gio",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Gio",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Gio.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Gio.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-w",
+      "brand": "samsung",
+      "name": "Samsung Galaxy W",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20W%20%28GT-I8150%29%20front%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20W%20%28GT-I8150%29%20front%201.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-spica",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Spica",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20i5700.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20i5700.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-omnia-7",
+      "brand": "samsung",
+      "name": "Samsung Omnia 7",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%207.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Omnia%207.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q1854343",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-wave-ii",
+      "brand": "samsung",
+      "name": "Samsung Wave II",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20wave%20II.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20wave%20II.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Bada",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Bada"
+        }
+      }
+    },
+    {
+      "id": "samsung-i5500",
+      "brand": "samsung",
+      "name": "Samsung i5500",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%205.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%205.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-ativ-s",
+      "brand": "samsung",
+      "name": "Samsung Ativ S",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Ativ%20S.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Ativ%20S.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-note-n7000",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Note N7000",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-i5800",
+      "brand": "samsung",
+      "name": "Samsung i5800",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%203%20GT-I5800%20%283%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%203%20GT-I5800%20%283%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-ace",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Ace",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Ace.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Ace.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-wave-s8500",
+      "brand": "samsung",
+      "name": "Samsung Wave S8500",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20s8500.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20s8500.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Bada",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Bada"
+        }
+      }
+    },
+    {
+      "id": "samsung-i8000",
+      "brand": "samsung",
+      "name": "Samsung i8000",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20GT-i8000%208GB.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20GT-i8000%208GB.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android Cupcake",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android Cupcake"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-xcover-2",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Xcover 2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Xcover%202.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Xcover%202.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-mega-6-3",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Mega 6.3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/S-Mega.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/S-Mega.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-gt-s3370",
+      "brand": "samsung",
+      "name": "Samsung GT-S3370",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20GT-S3370-4338.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20GT-S3370-4338.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-m-style",
+      "brand": "samsung",
+      "name": "Samsung Galaxy M style",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%A4%EB%9F%AD%EC%8B%9Cm%EC%8A%A4%ED%83%80%EC%9D%BC%20%ED%99%94%EC%9D%B4%ED%8A%B8%202014-05-31%2016-06.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%EA%B0%A4%EB%9F%AD%EC%8B%9Cm%EC%8A%A4%ED%83%80%EC%9D%BC%20%ED%99%94%EC%9D%B4%ED%8A%B8%202014-05-31%2016-06.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android Gingerbread",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android Gingerbread"
+        }
+      }
+    },
+    {
+      "id": "samsung-wave-533",
+      "brand": "samsung",
+      "name": "Samsung Wave 533",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Wave%20533%20-%20Front%20%28Open%2C%20splash%20screen%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Wave%20533%20-%20Front%20%28Open%2C%20splash%20screen%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Bada",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Bada"
+        }
+      }
+    },
+    {
+      "id": "nokia-asha-501",
+      "brand": "nokia",
+      "name": "Nokia Asha 501",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Asha%20501.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Asha%20501.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-925",
+      "brand": "nokia",
+      "name": "Nokia Lumia 925",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumia%20925%20reverse.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lumia%20925%20reverse.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-928",
+      "brand": "nokia",
+      "name": "Nokia Lumia 928",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20928%20Windows%20Phone.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20928%20Windows%20Phone.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z-ultra",
+      "brand": "sony",
+      "name": "Sony Xperia Z Ultra",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z%20Ultra.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z%20Ultra.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-young",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Young",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20young.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20young.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-zr",
+      "brand": "sony",
+      "name": "Sony Xperia ZR",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SONY%20XPERIA%20A%20%28docomo%20SO-04E%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SONY%20XPERIA%20A%20%28docomo%20SO-04E%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-note-3",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Note 3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note%203.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note%203.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android Lollipop",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android Lollipop"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z1",
+      "brand": "sony",
+      "name": "Sony Xperia Z1",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z1%20front%20view.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z1%20front%20view.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-ace-3",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Ace 3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Ace%203.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Ace%203.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s4-active",
+      "brand": "samsung",
+      "name": "Samsung Galaxy S4 Active",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20S4%20Active.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20S4%20Active.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-1520",
+      "brand": "nokia",
+      "name": "Nokia Lumia 1520",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%201520.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%201520.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows 10 Mobile",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows 10 Mobile"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-1320",
+      "brand": "nokia",
+      "name": "Nokia Lumia 1320",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%201320.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%201320.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-core",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Core",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Core%20GT-I8262.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Core%20GT-I8262.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s5",
+      "brand": "samsung",
+      "name": "Samsung Galaxy S5",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20S5.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20S5.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android KitKat",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android KitKat"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-star",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Star",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxtStarGTS5282.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxtStarGTS5282.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "huawei-c8650",
+      "brand": "huawei",
+      "name": "Huawei C8650",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20C8650.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20C8650.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-win",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Win",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galazywin.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galazywin.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "huawei-p40-pro",
+      "brand": "huawei",
+      "name": "Huawei P40 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HUAWEI%20P40%20Pro%20Front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/HUAWEI%20P40%20Pro%20Front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "redmi-8",
+      "brand": "xiaomi",
+      "name": "Redmi 8",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Redmi%208.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Redmi%208.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q50364330",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-mi-10-pro",
+      "brand": "xiaomi",
+      "name": "Xiaomi Mi 10 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MIUI%2014%20About%20Phone.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MIUI%2014%20About%20Phone.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-1-ii",
+      "brand": "sony",
+      "name": "Sony Xperia 1 II",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xperia%201%20II.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xperia%201%20II.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a11",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A11",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20A11%20vector.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20A11%20vector.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "redmi-s2",
+      "brand": "xiaomi",
+      "name": "Redmi S2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Redmi%20S2.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Redmi%20S2.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "MIUI",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "MIUI"
+        }
+      }
+    },
+    {
+      "id": "redmi-k20-pro",
+      "brand": "xiaomi",
+      "name": "Redmi K20 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Redmi%20K20%20Pro%20%E6%AD%A3%E9%9D%A2%E6%81%AF%E5%B1%8F%E7%85%A7.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Redmi%20K20%20Pro%20%E6%AD%A3%E9%9D%A2%E6%81%AF%E5%B1%8F%E7%85%A7.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "huawei-mate-40",
+      "brand": "huawei",
+      "name": "Huawei Mate 40",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%2040%20White%20back.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%2040%20White%20back.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "realme-x50-pro",
+      "brand": "realme",
+      "name": "Realme X50 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone%20realme%20X50%20Pro%205G.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Smartphone%20realme%20X50%20Pro%205G.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Realme"
+        }
+      }
+    },
+    {
+      "id": "huawei-honor-3x",
+      "brand": "huawei",
+      "name": "Huawei Honor 3X",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%90%8D%E5%A3%9E%E7%9A%84%E6%89%8B%E6%A9%9F%E9%8B%B0%E9%9B%BB%E6%B1%A0.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android KitKat",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        },
+        "Platform": {
+          "OS": "Android KitKat"
+        }
+      }
+    },
+    {
+      "id": "redmi-9a",
+      "brand": "xiaomi",
+      "name": "Redmi 9A",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20MK%20%E6%97%BA%E8%A7%92%20Mongkok%20%E5%BD%8C%E6%95%A6%E9%81%93%20601%20Nathan%20Road%20%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4%20Chong%20Hing%20Square%20shop%20%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6%20%E6%97%97%E8%89%A6%E5%BA%97%20XiaoMi%20Store%20December%202021%20SS2%2006.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20MK%20%E6%97%BA%E8%A7%92%20Mongkok%20%E5%BD%8C%E6%95%A6%E9%81%93%20601%20Nathan%20Road%20%E5%89%B5%E8%88%88%E5%BB%A3%E5%A0%B4%20Chong%20Hing%20Square%20shop%20%E5%B0%8F%E7%B1%B3%E4%B9%8B%E5%AE%B6%20%E6%97%97%E8%89%A6%E5%BA%97%20XiaoMi%20Store%20December%202021%20SS2%2006.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "MIUI",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "MIUI"
+        }
+      }
+    },
+    {
+      "id": "black-shark-3",
+      "brand": "xiaomi",
+      "name": "Black Shark 3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20back%20of%20Blackshark%203.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/The%20back%20of%20Blackshark%203.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "oneplus-nord",
+      "brand": "oneplus",
+      "name": "OnePlus Nord",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oneplus%20Nord%202.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Oneplus%20Nord%202.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "OnePlus"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-mi-10-lite",
+      "brand": "xiaomi",
+      "name": "Xiaomi Mi 10 Lite",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%2010%20Youth%205G.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%2010%20Youth%205G.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a31",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A31",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA31.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA31.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a41",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A41",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA41.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA41.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "redmi-9",
+      "brand": "xiaomi",
+      "name": "Redmi 9",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Back%20of%20Redmi%209%20sample%20in%20China%2020210307.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Back%20of%20Redmi%209%20sample%20in%20China%2020210307.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "huawei-y6-2019",
+      "brand": "huawei",
+      "name": "Huawei Y6 2019",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/4%2C%20Huawei%20MRD-LX1%20%28Cropped%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/4%2C%20Huawei%20MRD-LX1%20%28Cropped%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q50364330",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a21s",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A21s",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20200903%20%EC%82%BC%EC%84%B1%20%EA%B0%A4%EB%9F%AD%EC%8B%9C%20A21.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20200903%20%EC%82%BC%EC%84%B1%20%EA%B0%A4%EB%9F%AD%EC%8B%9C%20A21.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-j6",
+      "brand": "samsung",
+      "name": "Samsung Galaxy J6+",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20J6%2B.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20J6%2B.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "oneplus-8-pro",
+      "brand": "oneplus",
+      "name": "OnePlus 8 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%208%20Pro.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%208%20Pro.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "OnePlus"
+        }
+      }
+    },
+    {
+      "id": "realme-6",
+      "brand": "realme",
+      "name": "realme 6",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Real%20me%206%20mobile%20phone.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Real%20me%206%20mobile%20phone.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Realme"
+        }
+      }
+    },
+    {
+      "id": "asus-zenfone-7",
+      "brand": "asus",
+      "name": "Asus ZenFone 7",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Zenfone-7.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20Zenfone-7.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Asus"
+        }
+      }
+    },
+    {
+      "id": "poco-x3",
+      "brand": "xiaomi",
+      "name": "POCO X3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Plasma%20Mobile%20on%20Xiaomi%20POCO%20X3%20NFC.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Plasma%20Mobile%20on%20Xiaomi%20POCO%20X3%20NFC.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-m11",
+      "brand": "samsung",
+      "name": "Samsung Galaxy M11",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20m11.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20m11.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "oppo-f11-pro",
+      "brand": "oppo",
+      "name": "Oppo F11 Pro",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oppo%20F11%20Pro%20%281%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Oppo%20F11%20Pro%20%281%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Oppo"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-m51",
+      "brand": "samsung",
+      "name": "Samsung Galaxy M51",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20m51%20phone.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20m51%20phone.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-5-ii",
+      "brand": "sony",
+      "name": "Sony Xperia 5 II",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%205%20II.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%205%20II.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "oneplus-8t",
+      "brand": "oneplus",
+      "name": "OnePlus 8T",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%208T.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%208T.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 11",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "OnePlus"
+        },
+        "Platform": {
+          "OS": "Android 11"
+        }
+      }
+    },
+    {
+      "id": "huawei-mate-40-rs-porsche-design",
+      "brand": "huawei",
+      "name": "Huawei Mate 40 RS Porsche Design",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%2040%20RS.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%2040%20RS.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "huawei-mate-xs",
+      "brand": "huawei",
+      "name": "Huawei Mate Xs",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%20Xs.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%20Xs.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "realme-7",
+      "brand": "realme",
+      "name": "Realme 7",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Realme7mistwhite.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Realme7mistwhite.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 10",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Realme"
+        },
+        "Platform": {
+          "OS": "Android 10"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a12",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A12",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20A12%20front%20and%20Back.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Galaxy%20A12%20front%20and%20Back.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Samsung"
+        }
+      }
+    },
+    {
+      "id": "huawei-y360",
+      "brand": "huawei",
+      "name": "Huawei Y360",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Y360%20Top.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Y360%20Top.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "redmi-8a",
+      "brand": "xiaomi",
+      "name": "Redmi 8A",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fastboot.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fastboot.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q50364330",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "oppo-find-x3",
+      "brand": "oppo",
+      "name": "Oppo Find X3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OPPO%20find%20x3%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/OPPO%20find%20x3%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Oppo"
+        }
+      }
+    },
+    {
+      "id": "poco-f4",
+      "brand": "xiaomi",
+      "name": "Poco F4",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Front%20of%20POCO%20F4.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Front%20of%20POCO%20F4.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 12",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 12"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-mi-11-ultra",
+      "brand": "xiaomi",
+      "name": "Xiaomi Mi 11 Ultra",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mi%2011%20Ultra%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mi%2011%20Ultra%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 11",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 11"
+        }
+      }
+    },
+    {
+      "id": "honor-play",
+      "brand": "huawei",
+      "name": "Honor Play",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Honor%20play.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Honor%20play.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "huawei-gr3",
+      "brand": "huawei",
+      "name": "Huawei GR3",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20GR3%20TAG-L03.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20GR3%20TAG-L03.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "EMUI",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        },
+        "Platform": {
+          "OS": "EMUI"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-mi-11-lite",
+      "brand": "xiaomi",
+      "name": "Xiaomi Mi 11 Lite",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mi%2011%20Lite%20camera%20lens%20group.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mi%2011%20Lite%20camera%20lens%20group.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "MIUI",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "MIUI"
+        }
+      }
+    },
+    {
+      "id": "iphone-13-mini",
+      "brand": "apple",
+      "name": "iPhone 13 mini",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20Kwun%20Tong%20Apm%20Apple%20Store%2013%20Pro%20December%202021%20IPhone%2033.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20Kwun%20Tong%20Apm%20Apple%20Store%2013%20Pro%20December%202021%20IPhone%2033.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q107139673",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Apple"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-civi",
+      "brand": "xiaomi",
+      "name": "Xiaomi Civi",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Civi%20Screen.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Civi%20Screen.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android 11",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        },
+        "Platform": {
+          "OS": "Android 11"
+        }
+      }
+    },
+    {
+      "id": "nokia-x2",
+      "brand": "nokia",
+      "name": "Nokia X2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20X2%20Android%20%2814309420090%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20X2%20Android%20%2814309420090%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Nokia X",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Nokia X"
+        }
+      }
+    },
+    {
+      "id": "xiaomi-mi-4",
+      "brand": "xiaomi",
+      "name": "Xiaomi Mi 4",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Mi%204.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xiaomi%20Mi%204.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Xiaomi"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-530",
+      "brand": "nokia",
+      "name": "Nokia Lumia 530",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20530.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20530.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8.1",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8.1"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-635",
+      "brand": "nokia",
+      "name": "Nokia Lumia 635",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20635%20White.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20635%20White.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-830",
+      "brand": "nokia",
+      "name": "Nokia Lumia 830",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20830.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20830.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8.1",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8.1"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z3-compact",
+      "brand": "sony",
+      "name": "Sony Xperia Z3 Compact",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Z3%20Compact.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Z3%20Compact.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "asus-zenfone-5--2018",
+      "brand": "asus",
+      "name": "ASUS ZenFone 5 (2018)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20ZE620KL%20face%2020181125a.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20ZE620KL%20face%2020181125a.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Asus"
+        }
+      }
+    },
+    {
+      "id": "microsoft-lumia-535",
+      "brand": "nokia",
+      "name": "Microsoft Lumia 535",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20Lumia%20535%20%2816131387047%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20Lumia%20535%20%2816131387047%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8.1",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8.1"
+        }
+      }
+    },
+    {
+      "id": "huawei-ascend-mate7",
+      "brand": "huawei",
+      "name": "Huawei Ascend Mate7",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%207.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20Mate%207.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Android KitKat",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        },
+        "Platform": {
+          "OS": "Android KitKat"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z2a",
+      "brand": "sony",
+      "name": "Sony Xperia Z2a",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z2a.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z2a.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-730",
+      "brand": "nokia",
+      "name": "Nokia Lumia 730",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20730%2C%20Startbildschirm.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20730%2C%20Startbildschirm.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-e4",
+      "brand": "sony",
+      "name": "Sony Xperia E4",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20E4G%20Front%20View.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20E4G%20Front%20View.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-m4-aqua",
+      "brand": "sony",
+      "name": "Sony Xperia M4 Aqua",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xperia%20M4%20Aqua%20Dual%20E2363%20White.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Xperia%20M4%20Aqua%20Dual%20E2363%20White.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "orange-gova",
+      "brand": "huawei",
+      "name": "Orange gova",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orange%20Gova.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Orange%20Gova.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z4",
+      "brand": "sony",
+      "name": "Sony Xperia Z4",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NTT%20docomo%20smartphone%20Xperia%20Z4%20SO-03G%20DSC%200094.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/NTT%20docomo%20smartphone%20Xperia%20Z4%20SO-03G%20DSC%200094.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "asus-zenfone-2",
+      "brand": "asus",
+      "name": "ASUS ZenFone 2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20ZenFone%202%20CHT%20face%2020150307.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ASUS%20ZenFone%202%20CHT%20face%2020150307.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Asus"
+        }
+      }
+    },
+    {
+      "id": "oneplus-2",
+      "brand": "oneplus",
+      "name": "OnePlus 2",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%202%20%28in%20packaging%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/OnePlus%202%20%28in%20packaging%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "OnePlus"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z3",
+      "brand": "sony",
+      "name": "Sony Xperia Z3+",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z3%2B.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z3%2B.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "huawei-p8",
+      "brand": "huawei",
+      "name": "Huawei P8",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20P8%20smartphone%20%2816975510790%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Huawei%20P8%20smartphone%20%2816975510790%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Huawei"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-c4",
+      "brand": "sony",
+      "name": "Sony Xperia C4",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20C4%2020160320.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20C4%2020160320.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-z5-premium",
+      "brand": "sony",
+      "name": "Sony Xperia Z5 Premium",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z5%20Premium%20PSD.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Z5%20Premium%20PSD.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-acro-s",
+      "brand": "sony",
+      "name": "Sony Xperia acro S",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Docomo%20XPERIA%20acro%20HD%20SO-03D%20Front%205.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Docomo%20XPERIA%20acro%20HD%20SO-03D%20Front%205.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-520",
+      "brand": "nokia",
+      "name": "Nokia Lumia 520",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20520%20blue%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20520%20blue%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone"
+        }
+      }
+    },
+    {
+      "id": "nokia-lumia-720",
+      "brand": "nokia",
+      "name": "Nokia Lumia 720",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20720%20on%20hands.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nokia%20Lumia%20720%20on%20hands.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Windows Phone 8",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Nokia"
+        },
+        "Platform": {
+          "OS": "Windows Phone 8"
+        }
+      }
+    },
+    {
+      "id": "sony-ericsson-xperia-neo-v",
+      "brand": "sony",
+      "name": "Sony Ericsson Xperia neo V",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Neo%20V%20Android%20Widgets.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperia%20Neo%20V%20Android%20Widgets.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "sony-xperia-sp",
+      "brand": "sony",
+      "name": "Sony Xperia SP",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperis%20SP%20Front.jpeg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sony%20Xperis%20SP%20Front.jpeg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "Q94",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—",
+          "Status": "Available"
+        },
+        "Misc": {
+          "Brand": "Sony"
+        }
+      }
+    },
+    {
+      "id": "laptop-macbook-pro-13--m1-2020",
+      "brand": "apple",
+      "name": "MacBook Pro 13\" M1 2020",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Macbook%20Pro%2013%22%20M1%202020.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Macbook%20Pro%2013%22%20M1%202020.jpg?width=500"
+      ],
+      "releaseDate": "2020-11-17",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "2020-11-17"
+        },
+        "Misc": {
+          "Brand": "Apple",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-medion-akoya-s6445",
+      "brand": "medion",
+      "name": "Medion Akoya S6445",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scho%C3%9Frechner%20Medion%20Akoya%20S6445%20MD61280%2020220821%20HOF01354.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Scho%C3%9Frechner%20Medion%20Akoya%20S6445%20MD61280%2020220821%20HOF01354.png?width=500"
+      ],
+      "releaseDate": "2019-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "2019-01-01"
+        },
+        "Misc": {
+          "Brand": "Medion",
+          "Category": "Laptop"
+        },
+        "Platform": {
+          "OS": "Windows 10 Home"
+        }
+      }
+    },
+    {
+      "id": "laptop-pixelbook",
+      "brand": "google",
+      "name": "Pixelbook",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Google%20Pixelbook.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Google%20Pixelbook.jpg?width=500"
+      ],
+      "releaseDate": "2017-10-30",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "2017-10-30"
+        },
+        "Misc": {
+          "Brand": "Google",
+          "Category": "Laptop"
+        },
+        "Platform": {
+          "OS": "ChromeOS"
+        }
+      }
+    },
+    {
+      "id": "laptop-zenith-minisport",
+      "brand": "zenith",
+      "name": "Zenith Minisport",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zenith%20miniSport.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zenith%20miniSport.jpg?width=500"
+      ],
+      "releaseDate": "1989-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1989-01-01"
+        },
+        "Misc": {
+          "Brand": "Zenith",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-toshiba-qosmio",
+      "brand": "toshiba",
+      "name": "Toshiba Qosmio",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Toshiba%20Qosmio%20X70-A-12N%20PSPLTE-2895.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Toshiba%20Qosmio%20X70-A-12N%20PSPLTE-2895.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Toshiba",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-compaq-contura",
+      "brand": "compaq",
+      "name": "Compaq Contura",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Compaq%20Contura%20430C%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Compaq%20Contura%20430C%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Compaq",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-sony-vaio-x-series",
+      "brand": "sony",
+      "name": "Sony VAIO X Series",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VAIO%20X%20Series%20-%203991871995.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VAIO%20X%20Series%20-%203991871995.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Sony",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-thinkpad-a-series",
+      "brand": "lenovo",
+      "name": "ThinkPad A series",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ThinkPad%20A21m.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ThinkPad%20A21m.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lenovo",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-thinkpad-t420",
+      "brand": "ibm",
+      "name": "ThinkPad T420",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lenovo%20ThinkPad%20T420%20Ubuntu%20Linux.jpeg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lenovo%20ThinkPad%20T420%20Ubuntu%20Linux.jpeg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "IBM",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-pinebook",
+      "brand": "pine64",
+      "name": "Pinebook",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinebook.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Pinebook.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Pine64",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-thinkpad-x60s",
+      "brand": "lenovo",
+      "name": "Thinkpad X60s",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ThinkPad%20X60s.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ThinkPad%20X60s.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lenovo",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-compaq-armada",
+      "brand": "compaq",
+      "name": "Compaq Armada",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Compaq%20Armada%201800c.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Compaq%20Armada%201800c.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Compaq",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-ibm-thinkpad-t30",
+      "brand": "ibm",
+      "name": "IBM ThinkPad T30",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20ThinkPad%20T30%20%281%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20ThinkPad%20T30%20%281%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "IBM",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-thinkpad-g-series",
+      "brand": "ibm",
+      "name": "ThinkPad G series",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20ThinkPad%20G40.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20ThinkPad%20G40.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "IBM",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-tandy-1400lt",
+      "brand": "tandy",
+      "name": "Tandy 1400LT",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tandy%201400%20LT%20off-angle%20view.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Tandy%201400%20LT%20off-angle%20view.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Tandy",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-colby-walkmac",
+      "brand": "apple",
+      "name": "Colby Walkmac",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/WalkMac.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/WalkMac.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Apple",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-walkabout",
+      "brand": "data",
+      "name": "Walkabout",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dg-walkabout-full.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Dg-walkabout-full.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Data",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-acer-aspire-4752",
+      "brand": "acer",
+      "name": "Acer Aspire 4752",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20Aspire%204752%20Laptop%20-%2002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20Aspire%204752%20Laptop%20-%2002.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Acer",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-acer-aspire-5710zg",
+      "brand": "acer",
+      "name": "Acer Aspire 5710ZG",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20Acer%20Aspire%205710ZG%2002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Notebook%20Acer%20Aspire%205710ZG%2002.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Acer",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-acer-aspire-s7",
+      "brand": "acer",
+      "name": "Acer Aspire S7",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20Aspire%20S7-391%2020140217.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Acer%20Aspire%20S7-391%2020140217.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Acer",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "laptop-dell-vostro-3360",
+      "brand": "dell",
+      "name": "Dell Vostro 3360",
+      "category": "laptop",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DELL%20Vostro%203360%20010.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/DELL%20Vostro%203360%20010.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dell",
+          "Category": "Laptop"
+        }
+      }
+    },
+    {
+      "id": "smartwatch-samsung-gear-sport",
+      "brand": "samsung",
+      "name": "Samsung Gear Sport",
+      "category": "smartwatch",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Gear%20Sport%20-%20On%20wrist.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Gear%20Sport%20-%20On%20wrist.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Smartwatch"
+        },
+        "Platform": {
+          "OS": "Tizen"
+        }
+      }
+    },
+    {
+      "id": "smartwatch-garmin-venu",
+      "brand": "garmin",
+      "name": "Garmin Venu",
+      "category": "smartwatch",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garmin%20Venu%203%20%28a%29.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Garmin%20Venu%203%20%28a%29.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Garmin",
+          "Category": "Smartwatch"
+        }
+      }
+    },
+    {
+      "id": "smartwatch-garmin-forerunner-255",
+      "brand": "garmin",
+      "name": "Garmin Forerunner 255",
+      "category": "smartwatch",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Garmin%20Forerunner%20245%20%26%20255%20Music%20Outer%20Box.jpeg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Garmin%20Forerunner%20245%20%26%20255%20Music%20Outer%20Box.jpeg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Garmin",
+          "Category": "Smartwatch"
+        }
+      }
+    },
+    {
+      "id": "smartwatch-withings-steel-hr-sport",
+      "brand": "withings",
+      "name": "Withings Steel HR Sport",
+      "category": "smartwatch",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Withings%20Steel%20HR%20Sport.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Withings%20Steel%20HR%20Sport.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Withings",
+          "Category": "Smartwatch"
+        }
+      }
+    },
+    {
+      "id": "smartwatch-withings-activité---pop",
+      "brand": "withings",
+      "name": "Withings Activité / Pop",
+      "category": "smartwatch",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Withings%20Activit%C3%A9%20Pop.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Withings%20Activit%C3%A9%20Pop.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Withings",
+          "Category": "Smartwatch"
+        }
+      }
+    },
+    {
+      "id": "tablet-tcl-note-a1-nxtpaper",
+      "brand": "tcl",
+      "name": "TCL Note A1 NXTPaper",
+      "category": "tablet",
+      "image": "",
+      "images": [],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "TCL",
+          "Category": "Tablet"
         }
       }
     }

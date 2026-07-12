@@ -89,6 +89,7 @@ def map_phone(detail, brand_slug):
         "id": C.slugify(name),
         "brand": brand_slug.split("-")[0].lower(),
         "name": name,
+        "category": "phone",
         "image": image,
         "images": images,
         "releaseDate": data.get("release_date", ""),
