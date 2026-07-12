@@ -275,6 +275,12 @@ def render_phone(phone, brands, phones_all, base):
 {similar_cards}
       </div>
     </section>
+
+    <section>
+      <h2>\U0001F4AC Discussion</h2>
+      <p style="color:var(--muted);margin-top:-6px">Ask questions or share your experience with the {esc(name)}.</p>
+      <div id="giscusBox"></div>
+    </section>
   </main>
 
   <footer class="site-footer">

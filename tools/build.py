@@ -13,8 +13,16 @@ Stdlib only.
 """
 import json
 import os
+import re
 
 import ph_common as C
+
+# drop lifestyle / in-hand / review images; keep clean product shots only
+_BAD_IMG = re.compile(r"/reviews/|lifestyle|gsmarena_\d|in-hand|hands-on|-hand", re.I)
+
+
+def product_images(imgs):
+    return [u for u in (imgs or []) if u and not _BAD_IMG.search(u)]
 
 DEFAULT_NEWS = [
     {"id": "n1", "title": "How we rate phones", "excerpt": "Our reviews are generated from verified specifications and updated automatically.", "date": "2024-07-01", "tag": "Editorial"},
@@ -37,13 +45,16 @@ def main():
         pr = prices.get(cid, {})
         popularity = c.get("popularity", 55)
         rating = c.get("rating", 0)
+        imgs = product_images(p.get("images", []))
+        if imgs:
+            p["image"] = imgs[0]
         image, fallback = gen_images.resolve(p)
         merged.append({
             "id": cid,
             "brand": p["brand"],
             "name": p["name"],
             "image": image,
-            "images": p.get("images", []),
+            "images": imgs,
             "fallbackImg": fallback,
             "releaseDate": p.get("releaseDate", ""),
             "basePrice": pr.get("basePrice", 0),

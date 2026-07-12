@@ -34,10 +34,24 @@
     oppo: "#1ba784", motorola: "#5c92fc", asus: "#31009c", sony: "#0b0b0b",
     nokia: "#124191", honor: "#00b0e9", huawei: "#c7000b"
   };
+  // brand -> Simple Icons slug (free official brand logos). null = no logo, use monogram.
+  PH.BRAND_ICON = {
+    apple: "apple", samsung: "samsung", google: "google", xiaomi: "xiaomi",
+    oneplus: "oneplus", vivo: "vivo", oppo: "oppo", realme: "realme",
+    motorola: "motorola", sony: "sony", nokia: "nokia", honor: "honor",
+    asus: "asus", huawei: "huawei", nothing: null, lenovo: "lenovo"
+  };
+  PH._monogram = (brandId, letter, big) => {
+    const color = PH.BRAND_COLORS[brandId] || "#5b8cff";
+    return `<span class="brand-badge${big ? " brand-badge-lg" : ""}" style="--bc:${color}">${(letter || "?").toUpperCase()}</span>`;
+  };
   PH.brandBadge = (brandId, name, big) => {
-    const color = PH.BRAND_COLORS[brandId] || "var(--primary)";
     const letter = ((name || brandId || "?").trim()[0] || "?").toUpperCase();
-    return `<span class="brand-badge${big ? " brand-badge-lg" : ""}" style="--bc:${color}">${letter}</span>`;
+    const slug = PH.BRAND_ICON[brandId];
+    if (!slug) return PH._monogram(brandId, letter, big);
+    return `<img class="brand-logo${big ? " brand-logo-lg" : ""}" src="https://cdn.simpleicons.org/${slug}" ` +
+      `alt="${name || brandId}" loading="lazy" ` +
+      `onerror="this.outerHTML=PH._monogram('${brandId}','${letter}',${big ? 1 : 0})">`;
   };
 
   /* ================= multi-currency ================= */
@@ -186,20 +200,20 @@
       ? new Date(n.date).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })
       : "";
     const meta = [n.source, date].filter(Boolean).join(" \u00b7 ");
-    const thumb = n.image
-      ? `<div class="news-thumb"><img src="${n.image}" alt="" loading="lazy" onerror="this.closest('.news-thumb').style.display='none'"></div>`
+    const hero = n.image
+      ? `<div class="news-hero"><img src="${n.image}" alt="" loading="lazy" onerror="this.closest('.news-card').classList.remove('has-hero');this.closest('.news-hero').remove()"><span class="news-hero-tag">${n.tag || "News"}</span></div>`
       : "";
     const inner = `
-       ${thumb}
+       ${hero}
        <div class="news-body">
-         <span class="tag">${n.tag || "News"}</span>
+         ${n.image ? "" : `<span class="tag">${n.tag || "News"}</span>`}
          <h3>${n.title}</h3>
          <p>${n.excerpt || ""}</p>
          <span class="date">${meta}</span>
        </div>`;
     return n.url
-      ? `<a class="news-card${n.image ? " has-thumb" : ""}" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
-      : `<article class="news-card${n.image ? " has-thumb" : ""}">${inner}</article>`;
+      ? `<a class="news-card${n.image ? " has-hero" : ""}" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
+      : `<article class="news-card${n.image ? " has-hero" : ""}">${inner}</article>`;
   };
 
   /* ---------- floating compare bar ---------- */
@@ -312,9 +326,31 @@
     });
   };
 
+  /* ---------- discussion box (Giscus, backed by GitHub Discussions) ---------- */
+  PH.GISCUS = { repo: "jahid124421/phonehub", repoId: "R_kgDOTVjQ_g", category: "General", categoryId: "DIC_kwDOTVjQ_s4DBB9a" };
+  PH.mountDiscussion = () => {
+    const box = document.getElementById("giscusBox");
+    if (!box || box.dataset.loaded) return;
+    box.dataset.loaded = "1";
+    const s = document.createElement("script");
+    s.src = "https://giscus.app/client.js";
+    const attrs = {
+      "data-repo": PH.GISCUS.repo, "data-repo-id": PH.GISCUS.repoId,
+      "data-category": PH.GISCUS.category, "data-category-id": PH.GISCUS.categoryId,
+      "data-mapping": "pathname", "data-strict": "0", "data-reactions-enabled": "1",
+      "data-emit-metadata": "0", "data-input-position": "top", "data-lang": "en",
+      "data-theme": document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark_dimmed"
+    };
+    Object.entries(attrs).forEach(([k, v]) => s.setAttribute(k, v));
+    s.crossOrigin = "anonymous";
+    s.async = true;
+    box.appendChild(s);
+  };
+
   document.addEventListener("DOMContentLoaded", () => {
     PH.initTheme();
     PH.initCurrency();
+    PH.mountDiscussion();
     PH.renderCompareBar();
     PH.wireSearch();
     PH.renderFooterLegal();

@@ -74,7 +74,12 @@ jobs:
         working-directory: tools
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" > env_from_secrets.env
 
-      - name: Refresh data (AI reviews + prices + build; specs come from committed dataset)
+      - name: Grow catalog from Wikidata (free, no rate limit, current phones + images)
+        working-directory: tools
+        continue-on-error: true
+        run: python wikidata_seed.py --per-brand 40 --limit 900
+
+      - name: Refresh data (AI reviews + prices + news + build; no scraping)
         working-directory: tools
         continue-on-error: true      # if the LLM is unreachable, keep last good data & still deploy
         run: python run_all.py --no-import

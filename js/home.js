@@ -17,7 +17,7 @@
 
   // brands
   document.getElementById("brandsGrid").innerHTML = (window.BRANDS || []).map((b) =>
-    `<a class="brand-tile" href="search.html?brand=${b.id}"><span class="b-logo">${b.logo}</span>${b.name}</a>`
+    `<a class="brand-tile" href="search.html?brand=${b.id}">${PH.brandBadge(b.id, b.name, true)}<div>${b.name}</div></a>`
   ).join("");
 
   // news (latest 6 on home)
