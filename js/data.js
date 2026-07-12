@@ -683,10 +683,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-16e.svg",
     "releaseDate": "Released 2025, February 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The iPhone 16e is suited for individuals seeking a high-performance device with exceptional camera capabilities and ample storage options. It's ideal for those who value a seamless user experience and are invested in the Apple ecosystem. This device is particularly well-suited for photography enthusiasts and power users.",
     "quickSpecs": {
       "display": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
       "processor": "Apple A18 (3 nm)",
@@ -707,8 +707,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2016e"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality 48 MP primary camera with optical image stabilization",
+      "Powerful Apple A18 processor for efficient performance",
+      "Generous storage options up to 512GB"
+    ],
+    "cons": [
+      "No significant upgrades in battery capacity compared to predecessors",
+      "Limited RAM options, with only 8GB available across all models"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -793,10 +800,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-16-pro-max.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The iPhone 16 Pro Max is ideal for professionals and enthusiasts who require a high-quality camera, fast performance, and ample storage. It's also suitable for those who value a large, immersive display and a long-lasting battery. Overall, it's a great choice for anyone seeking a premium smartphone experience.",
     "quickSpecs": {
       "display": "6.9 inches, 115.6 cm2 (~91.4% screen-to-body ratio)",
       "processor": "Apple A18 Pro (3 nm)",
@@ -817,8 +824,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2016%20Pro%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera with advanced features",
+      "Fast Apple A18 Pro processor",
+      "Large 6.9-inch display with high screen-to-body ratio",
+      "Long-lasting 4685 mAh battery",
+      "Ample storage options up to 1TB"
+    ],
+    "cons": [
+      "No major design changes or innovations",
+      "No headphone jack or expandable storage",
+      "High price point for the base model"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
@@ -903,10 +920,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-16-pro.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 92,
+    "rating": 4.5,
+    "reviewCount": 1104,
+    "review": "The iPhone 16 Pro is tailored for photography enthusiasts and power users who demand top-notch performance and sleek design. Its advanced camera system and robust processor make it an ideal choice for those who want a premium smartphone experience. Additionally, its ample storage options cater to users who require extensive storage for their files and apps.",
     "quickSpecs": {
       "display": "6.3 inches, 96.4 cm2 (~90.1% screen-to-body ratio)",
       "processor": "Apple A18 Pro (3 nm)",
@@ -927,8 +944,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2016%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with advanced features",
+      "Powerful Apple A18 Pro processor for seamless performance",
+      "Generous storage options to accommodate large files and apps",
+      "Sleek design with a high screen-to-body ratio for immersive viewing"
+    ],
+    "cons": [
+      "Battery capacity could be larger considering the phone's size and features",
+      "No major innovations in design compared to previous models",
+      "Storage options are limited to 8GB of RAM across all models"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
@@ -1013,10 +1039,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-16-plus.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 92,
+    "rating": 4.5,
+    "reviewCount": 1104,
+    "review": "The iPhone 16 Plus is ideal for individuals seeking a high-performance device with exceptional camera capabilities and a large, immersive display. It's particularly suited for creative professionals and enthusiasts who value advanced photography features. Additionally, its sizable battery ensures all-day usage for heavy users.",
     "quickSpecs": {
       "display": "6.7 inches, 110.2 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Apple A18 (3 nm)",
@@ -1037,8 +1063,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2016%20Plus"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with sensor-shift OIS",
+      "Large 6.7-inch display with a high screen-to-body ratio",
+      "Powerful Apple A18 processor",
+      "Long-lasting 4674 mAh battery"
+    ],
+    "cons": [
+      "No significant upgrades in battery capacity compared to predecessors",
+      "Limited storage options with no microSD card slot"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
@@ -1123,10 +1157,10 @@ window.PHONES = [
     "fallbackImg": "img/iphone-16.svg",
     "releaseDate": "Released 2024, September 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The iPhone 16 is ideal for individuals seeking a high-quality camera experience and seamless performance, making it suitable for photography enthusiasts and heavy users. Its compact design and large display also cater to those who value convenience and immersion. Overall, it's a great choice for anyone invested in the Apple ecosystem.",
     "quickSpecs": {
       "display": "6.1 inches, 91.7 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Apple A18 (3 nm)",
@@ -1147,8 +1181,15 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iPhone%2016"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with advanced features",
+      "Fast performance courtesy of the Apple A18 processor",
+      "Compact design with a large, high-screen-to-body-ratio display"
+    ],
+    "cons": [
+      "Limited storage expansion options",
+      "Battery capacity could be larger for heavy users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
@@ -2526,10 +2567,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-10-pro-fold.svg",
     "releaseDate": "Released 2025, October 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 10 Pro Fold is ideal for tech-savvy individuals and professionals who value a large, high-quality display and advanced camera capabilities. Its foldable design and powerful processor also make it suitable for gamers and content creators. Overall, it's a great option for those seeking a premium Android experience.",
     "quickSpecs": {
       "display": "8.0 inches, 206.3 cm2 (~88.4% screen-to-body ratio)",
       "processor": "Google Tensor G5 (3 nm)",
@@ -2550,8 +2591,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%2010%20Pro%20Fold"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-resolution display with excellent screen-to-body ratio",
+      "Powerful Google Tensor G5 processor for smooth performance",
+      "Advanced camera system with 5x optical zoom and wide-angle lens",
+      "Long-lasting 5015 mAh battery",
+      "Generous storage options up to 1TB"
+    ],
+    "cons": [
+      "No headphone jack or expandable storage",
+      "High price point due to premium features and foldable design",
+      "Limited color options and no official IP rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -2636,10 +2687,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-10-pro-xl.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 10 Pro XL is ideal for photography enthusiasts and power users who require a large display and ample storage. Its advanced camera system and robust processor make it suitable for those who want a high-end smartphone experience. Additionally, its large battery and generous RAM ensure seamless multitasking and all-day usage.",
     "quickSpecs": {
       "display": "6.8 inches, 109.7 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Google Tensor G5 (3 nm)",
@@ -2660,8 +2711,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%2010%20Pro%20XL"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Large 6.8-inch display with 88% screen-to-body ratio",
+      "Fast Google Tensor G5 processor",
+      "Long-lasting 5200 mAh battery"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No microSD card slot for expandable storage"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -2746,10 +2805,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-10-pro.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 10 Pro is ideal for photography enthusiasts and power users who value a seamless Android experience. With its high-quality camera system and robust processor, it's perfect for those who want a device that can keep up with their active lifestyle. Additionally, the generous storage options make it suitable for individuals who need ample space for their files and apps.",
     "quickSpecs": {
       "display": "6.3 inches, 96.3 cm2 (~87.6% screen-to-body ratio)",
       "processor": "Google Tensor G5 (3 nm)",
@@ -2770,8 +2829,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%2010%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Powerful Google Tensor G5 processor",
+      "Generous storage options up to 1TB",
+      "Long-lasting 4870 mAh battery",
+      "Sleek design with 87.6% screen-to-body ratio"
+    ],
+    "cons": [
+      "Limited RAM options, only 16GB available",
+      "No headphone jack or microSD card slot",
+      "Battery capacity could be higher for heavy users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -2856,10 +2925,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-10.svg",
     "releaseDate": "Released 2025, August 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 10 is designed for photography enthusiasts and those seeking a seamless Android experience, thanks to its powerful camera system and Google's proprietary Tensor G5 processor. It's also suitable for gamers and heavy users who require a large display and ample storage. The phone's premium features make it an attractive option for tech-savvy individuals.",
     "quickSpecs": {
       "display": "6.3 inches, 94.7 cm2 (~86.1% screen-to-body ratio)",
       "processor": "Google Tensor G5 (3 nm)",
@@ -2880,8 +2949,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%2010"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Powerful Google Tensor G5 processor for smooth performance",
+      "Large 6.3-inch display with high screen-to-body ratio",
+      "Long-lasting 4970 mAh battery",
+      "Premium storage options with 12GB RAM"
+    ],
+    "cons": [
+      "No headphone jack or expandable storage",
+      "No significant design upgrades compared to predecessors",
+      "High price point may be a deterrent for budget-conscious buyers"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -2966,10 +3045,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-9a.svg",
     "releaseDate": "Released 2025, April 10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 9a is ideal for photography enthusiasts and individuals seeking a seamless Android experience, thanks to its powerful camera setup and Google's proprietary Tensor G4 processor. It's also suitable for everyday users who value a large, high-quality display and long-lasting battery life. Overall, it's a well-rounded device for those who prioritize performance and camera capabilities.",
     "quickSpecs": {
       "display": "6.3 inches, 94.7 cm2 (~83.5% screen-to-body ratio)",
       "processor": "Google Tensor G4 (4 nm)",
@@ -2990,8 +3069,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%209a"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera setup with optical image stabilization",
+      "Powerful Google Tensor G4 processor for smooth performance",
+      "Long-lasting 5100 mAh battery",
+      "Large 6.3-inch display with a high screen-to-body ratio",
+      "Timely software updates directly from Google"
+    ],
+    "cons": [
+      "Limited storage options with no microSD card slot",
+      "No major design innovations or waterproofing",
+      "High-end price point may be a barrier for budget-conscious buyers"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3074,10 +3163,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-9-pro-xl.svg",
     "releaseDate": "Released 2024, August 22",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 9 Pro XL is ideal for photography enthusiasts and power users who require a large display and ample storage. Its high-quality camera system and large battery make it suitable for those who want a device that can keep up with their active lifestyle. Additionally, the Google Tensor G4 processor ensures seamless performance for gaming and multitasking.",
     "quickSpecs": {
       "display": "6.8 inches, 109.7 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Google Tensor G4 (4 nm)",
@@ -3098,8 +3187,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%209%20Pro%20XL"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Large 6.8-inch display with 88% screen-to-body ratio",
+      "Fast Google Tensor G4 processor",
+      "Long-lasting 5060 mAh battery",
+      "Ample storage options up to 1TB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No significant design changes from previous models",
+      "High storage options may be pricey for some users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3183,10 +3282,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-9-pro.svg",
     "releaseDate": "Released 2024, September 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 9 Pro is ideal for photography enthusiasts and power users who value a seamless Android experience. With its high-quality camera setup and robust processor, it's perfect for those who want a device that can keep up with their active lifestyle. Additionally, the generous storage options make it suitable for individuals who need ample space for their files and apps.",
     "quickSpecs": {
       "display": "6.3 inches, 96.3 cm2 (~87.6% screen-to-body ratio)",
       "processor": "Google Tensor G4 (4 nm)",
@@ -3207,8 +3306,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%209%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera setup with 5x optical zoom",
+      "Robust Google Tensor G4 processor",
+      "Ample storage options up to 1TB",
+      "Long-lasting 4700 mAh battery"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No microSD card slot for expandable storage"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3292,10 +3399,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-9.svg",
     "releaseDate": "Released 2024, August 22",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 9 is ideal for photography enthusiasts and those seeking a seamless Android experience, thanks to its powerful camera system and Google's proprietary Tensor G4 processor. With ample storage and RAM options, it's also suitable for heavy users who multitask frequently. However, its appeal may be limited by the lack of a headphone jack and microSD card slot.",
     "quickSpecs": {
       "display": "6.3 inches, 94.7 cm2 (~86.1% screen-to-body ratio)",
       "processor": "Google Tensor G4 (4 nm)",
@@ -3316,8 +3423,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%209"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with OIS and dual pixel PDAF",
+      "Fast and efficient Google Tensor G4 processor",
+      "Generous storage and RAM options",
+      "Large 6.3-inch display with high screen-to-body ratio"
+    ],
+    "cons": [
+      "No headphone jack or microSD card slot",
+      "Battery life may not be sufficient for extremely heavy users",
+      "No major design innovations or upgrades"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3401,10 +3517,10 @@ window.PHONES = [
     "fallbackImg": "img/pixel-9-pro-fold.svg",
     "releaseDate": "Released 2024, September 04",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Pixel 9 Pro Fold is ideal for tech-savvy individuals and professionals seeking a powerful, feature-rich device with advanced camera capabilities. Its large, high-quality display and robust processor make it suitable for gaming, content creation, and multitasking. This phone is perfect for those willing to invest in a premium device with a unique foldable design.",
     "quickSpecs": {
       "display": "8.0 inches, 207.4 cm2 (~89.0% screen-to-body ratio)",
       "processor": "Google Tensor G4 (4 nm)",
@@ -3425,8 +3541,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Pixel%209%20Pro%20Fold"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Large, vibrant 8.0-inch display",
+      "Fast Google Tensor G4 processor",
+      "Generous storage options up to 512GB",
+      "Long-lasting 4650 mAh battery"
+    ],
+    "cons": [
+      "No headphone jack",
+      "High price point due to premium features and design",
+      "Limited water resistance compared to other flagships"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3510,10 +3636,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-k90-ultra.svg",
     "releaseDate": "Released 2026, June 30",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Redmi K90 Ultra is suitable for heavy users who require a large display, ample storage, and a long-lasting battery. It's also ideal for photography enthusiasts who want high-quality cameras with advanced features. Additionally, gamers will appreciate the powerful Snapdragon 8 Elite processor.",
     "quickSpecs": {
       "display": "6.83 inches, 114.5 cm2 (~90.3% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -3534,8 +3660,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20K90%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.83-inch display",
+      "High-performance Snapdragon 8 Elite processor",
+      "Long-lasting 8550 mAh battery",
+      "High-quality 50 MP primary camera"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No water or dust resistance mentioned"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3618,10 +3752,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-17c.svg",
     "releaseDate": "Released 2026, June 23",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Redmi 17C is suitable for budget-conscious users who prioritize battery life and a large display, making it an ideal choice for casual gaming and everyday use. Its modest camera and storage options suggest it's best for those with basic needs. Overall, it's a solid option for those seeking a no-frills, affordable smartphone experience.",
     "quickSpecs": {
       "display": "6.88 inches, 112.4 cm2 (~84.0% screen-to-body ratio)",
       "processor": "Mediatek Helio G81 Ultra (12 nm)",
@@ -3642,8 +3776,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%2017C"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 5160 mAh battery",
+      "Large 6.88-inch display with a high screen-to-body ratio",
+      "Efficient Mediatek Helio G81 Ultra processor",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited camera capabilities with only a 13 MP primary sensor",
+      "Low RAM options, with only 4GB available",
+      "No advanced camera features or high-refresh-rate display"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / LTE",
@@ -3720,10 +3863,10 @@ window.PHONES = [
     "fallbackImg": "img/17t-pro.svg",
     "releaseDate": "Released 2026, May 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Xiaomi 17T Pro is suitable for photography enthusiasts and power users who require a large display and long battery life. Its high-quality camera system and fast processor make it an excellent choice for those who want a premium smartphone experience. Additionally, its large storage options cater to users who need ample space for their files and apps.",
     "quickSpecs": {
       "display": "6.83 inches, 114.5 cm2 (~91.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500 (3 nm)",
@@ -3744,8 +3887,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=17T%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Large 6.83-inch display with high screen-to-body ratio",
+      "Long-lasting 7000 mAh battery",
+      "Fast Mediatek Dimensity 9500 processor",
+      "Ample storage options up to 1TB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "Large battery may contribute to overall weight and size",
+      "No official IP rating for dust and water resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3829,10 +3982,10 @@ window.PHONES = [
     "fallbackImg": "img/17t.svg",
     "releaseDate": "Released 2026, May 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Xiaomi 17T is suitable for photography enthusiasts and heavy users who require a large display and long battery life. Its high-quality camera system and ample storage options make it an attractive choice for content creators. Additionally, gamers will appreciate the powerful Mediatek Dimensity 8500 Ultra processor.",
     "quickSpecs": {
       "display": "6.59 inches, 106.4 cm2 (~89.8% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8500 Ultra (4 nm)",
@@ -3853,8 +4006,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=17T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 5x optical zoom",
+      "Large 6.59-inch display with high screen-to-body ratio",
+      "Long-lasting battery with up to 7000 mAh capacity",
+      "Powerful Mediatek Dimensity 8500 Ultra processor"
+    ],
+    "cons": [
+      "No major design innovations",
+      "No headphone jack",
+      "Limited water and dust resistance information"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -3938,10 +4100,10 @@ window.PHONES = [
     "fallbackImg": "img/17-max.svg",
     "releaseDate": "Released 2026, May 21",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Xiaomi 17 Max is ideal for heavy users and photography enthusiasts who require a large display, ample storage, and high-quality camera capabilities. With its powerful processor and long-lasting battery, this phone is suitable for gamers and those who consume a lot of multimedia content. Its large storage options also make it a great choice for professionals who need to store large files.",
     "quickSpecs": {
       "display": "6.9 inches, 114.4 cm2 (~90.5% screen-to-body ratio)",
       "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
@@ -3962,8 +4124,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=17%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.9-inch display with high screen-to-body ratio",
+      "Powerful Qualcomm Snapdragon 8 Elite Gen 5 processor",
+      "High-quality 200MP primary camera with OIS and dual pixel PDAF",
+      "Long-lasting 8000mAh battery",
+      "Ample storage options with up to 512GB and 16GB RAM"
+    ],
+    "cons": [
+      "Large battery may contribute to overall weight and size",
+      "No headphone jack or other ports besides USB-C",
+      "High-end specs may result in a higher price point"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4045,10 +4217,10 @@ window.PHONES = [
     "fallbackImg": "img/poco-c81-pro.svg",
     "releaseDate": "Released 2026, April 27",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Poco C81 Pro is suitable for budget-conscious users who prioritize battery life and a large display. It's an ideal choice for those who want a phone for basic tasks like browsing, social media, and casual gaming. However, it may not be the best fit for heavy gamers or power users.",
     "quickSpecs": {
       "display": "6.9 inches, 114.9 cm2 (~84.3% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -4069,8 +4241,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Poco%20C81%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 6000 mAh battery",
+      "Large 6.9-inch display",
+      "Affordable price point",
+      "Decent storage options"
+    ],
+    "cons": [
+      "Limited RAM options",
+      "Outdated processor technology",
+      "Average camera specifications"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -4150,10 +4331,10 @@ window.PHONES = [
     "fallbackImg": "img/poco-c81.svg",
     "releaseDate": "Released 2026, April 23",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Poco C81 is suitable for casual users who prioritize battery life and a large display, making it a great option for those who enjoy streaming and browsing on the go. Its modest processor and camera specs suggest it's not ideal for heavy gaming or photography enthusiasts. Overall, it's a budget-friendly choice for everyday use.",
     "quickSpecs": {
       "display": "6.9 inches, 114.9 cm2 (~84.3% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -4174,8 +4355,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Poco%20C81"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 6300 mAh battery",
+      "Large 6.9-inch display",
+      "Affordable price point",
+      "Sleek design with a high screen-to-body ratio"
+    ],
+    "cons": [
+      "Limited 4GB of RAM",
+      "Basic 13 MP camera",
+      "No advanced camera features"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -4254,10 +4444,10 @@ window.PHONES = [
     "fallbackImg": "img/poco-c81x.svg",
     "releaseDate": "Released 2026, April 23",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Poco C81x is suitable for casual users who prioritize battery life and a large display, making it an ideal choice for those who consume a lot of media on their phone. It's also a good option for first-time smartphone buyers or those on a tight budget. However, it may not be the best fit for gamers or power users due to its processor and RAM limitations.",
     "quickSpecs": {
       "display": "6.88 inches, 112.4 cm2 (~84.1% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -4278,8 +4468,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Poco%20C81x"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 5200 mAh battery",
+      "Large 6.88-inch display",
+      "Affordable price point",
+      "Decent camera capabilities for its class"
+    ],
+    "cons": [
+      "Limited RAM and storage capacity",
+      "Processor may struggle with demanding tasks",
+      "No advanced camera features"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -4357,10 +4556,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-k90-max.svg",
     "releaseDate": "Released 2026, April 21",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Redmi K90 Max is ideal for heavy users who require a large display, robust performance, and extensive storage options. It's also suited for photography enthusiasts who value high-quality camera capabilities. Additionally, gamers and those who consume a lot of media will appreciate its large battery and immersive screen.",
     "quickSpecs": {
       "display": "6.83 inches, 114.5 cm2 (~90.3% screen-to-body ratio)",
       "processor": "MediaTek Dimensity 9500 (3 nm)",
@@ -4381,8 +4580,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20K90%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-quality display with a high screen-to-body ratio",
+      "Powerful MediaTek Dimensity 9500 processor for smooth performance",
+      "High-capacity battery for extended usage",
+      "Impressive primary camera with OIS and PDAF",
+      "Generous storage options up to 1TB"
+    ],
+    "cons": [
+      "No mention of water or dust resistance",
+      "Ultrawide camera specs seem less impressive compared to the primary camera",
+      "Large battery may contribute to a heavier device"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4465,10 +4674,10 @@ window.PHONES = [
     "fallbackImg": "img/redmi-a7-pro.svg",
     "releaseDate": "Released 2026, April 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Redmi A7 Pro is suitable for casual users who prioritize battery life and a large display, making it ideal for everyday tasks and media consumption. It's also a good option for those on a budget who want a decent camera. However, it may not be the best choice for heavy gamers or power users.",
     "quickSpecs": {
       "display": "6.9 inches, 114.9 cm2 (~84.3% screen-to-body ratio)",
       "processor": "Unisoc T8300 (6 nm)",
@@ -4489,8 +4698,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Redmi%20A7%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 6300 mAh battery",
+      "Large 6.9-inch display with a high screen-to-body ratio",
+      "Decent 32 MP primary camera",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited RAM and storage options",
+      "Unisoc T8300 processor may not be suitable for heavy tasks",
+      "No advanced camera features"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4570,10 +4788,10 @@ window.PHONES = [
     "fallbackImg": "img/n6.svg",
     "releaseDate": "Released 2026, July 04",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The OnePlus N6 is suitable for heavy users who require a large display and long battery life, as well as casual photographers who want a high-quality primary camera. Its large 8000 mAh battery and 6.8-inch display make it ideal for gaming and video streaming. However, the phone's performance may not be optimal for demanding tasks due to its mid-range processor.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6360 Apex (6 nm)",
@@ -4594,8 +4812,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=N6"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.8-inch display with high screen-to-body ratio",
+      "Long-lasting 8000 mAh battery",
+      "High-quality 50 MP primary camera with PDAF",
+      "Available in two RAM variants for different user needs",
+      "Compact storage options with 128GB"
+    ],
+    "cons": [
+      "Mid-range processor may not handle demanding tasks efficiently",
+      "No higher storage options beyond 128GB",
+      "No advanced camera features like telephoto or ultra-wide lenses"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -4673,10 +4901,10 @@ window.PHONES = [
     "fallbackImg": "img/turbo-6x-pro.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Turbo 6X Pro is suitable for users seeking a large display and long battery life, making it ideal for multimedia enthusiasts and gamers. Its high-quality camera system also caters to photography hobbyists. Overall, it's a solid choice for those prioritizing performance and entertainment.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7400 Super (4 nm)",
@@ -4697,8 +4925,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Turbo%206X%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 8000 mAh battery",
+      "High-quality 50 MP primary camera with OIS",
+      "Fast Mediatek Dimensity 7400 Super processor"
+    ],
+    "cons": [
+      "No higher storage option beyond 256GB",
+      "No waterproof or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4777,10 +5013,10 @@ window.PHONES = [
     "fallbackImg": "img/turbo-6x.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Turbo 6X is suitable for power users and gamers who require a large display, robust performance, and extended battery life. Its large 6.72-inch screen and sizable 7000mAh battery make it ideal for marathon gaming sessions and multimedia consumption. However, casual users may find the phone's size and features excessive for their needs.",
     "quickSpecs": {
       "display": "6.72 inches, 109.6 cm2 (~86.9% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7360 Super (4 nm)",
@@ -4801,8 +5037,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Turbo%206X"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.72-inch display with high screen-to-body ratio",
+      "Power-efficient Mediatek Dimensity 7360 Super processor",
+      "Long-lasting 7000mAh battery",
+      "High-quality 50MP primary camera"
+    ],
+    "cons": [
+      "No information on water or dust resistance",
+      "Limited auxiliary camera details"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4881,10 +5125,10 @@ window.PHONES = [
     "fallbackImg": "img/nord-ce6.svg",
     "releaseDate": "Released 2026, May 08",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Nord CE6 is suitable for users seeking a large display and long battery life, making it ideal for multimedia enthusiasts and heavy users. Its mid-range processor and ample storage options also cater to gamers and content creators. Overall, it's a solid choice for those prioritizing screen real estate and battery endurance.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
       "processor": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
@@ -4905,8 +5149,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nord%20CE6"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.78-inch display",
+      "Long-lasting 7500/8000 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Ample storage options"
+    ],
+    "cons": [
+      "No major upgrades in design",
+      "Limited auxiliary camera features"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -4986,10 +5238,10 @@ window.PHONES = [
     "fallbackImg": "img/nord-ce6-lite.svg",
     "releaseDate": "Released 2026, May 12",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Nord CE6 Lite is suitable for budget-conscious users seeking a large display and long battery life, making it ideal for everyday use and multimedia consumption. Its mid-range processor also caters to casual gamers and multitaskers. Overall, it's a practical choice for those prioritizing functionality over flagship features.",
     "quickSpecs": {
       "display": "6.72 inches, 109.0 cm2 (~86.5% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7400 Apex (4 nm)",
@@ -5010,8 +5262,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nord%20CE6%20Lite"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.72-inch display",
+      "Long-lasting 7000 mAh battery",
+      "Efficient Mediatek Dimensity 7400 Apex processor",
+      "High-quality 50 MP primary camera",
+      "Variety of storage and RAM options"
+    ],
+    "cons": [
+      "Limited auxiliary camera capabilities",
+      "No advanced waterproofing or dust resistance",
+      "No wireless charging support"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5090,10 +5352,10 @@ window.PHONES = [
     "fallbackImg": "img/ace-6-ultra.svg",
     "releaseDate": "Released 2026, April 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Ace 6 Ultra is geared towards power users and content creators who demand high-performance processing, ample storage, and advanced camera capabilities. Its large display and long-lasting battery also make it suitable for gamers and those who consume a lot of media on their device. Overall, it's a great option for anyone seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500 (3 nm)",
@@ -5114,8 +5376,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Ace%206%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-quality display with excellent screen-to-body ratio",
+      "Fast charging and long-lasting 8600 mAh battery",
+      "High-performance Mediatek Dimensity 9500 processor",
+      "Advanced camera system with wide-angle and ultrawide lenses",
+      "Generous storage and RAM options"
+    ],
+    "cons": [
+      "No headphone jack or other auxiliary ports",
+      "Camera low-light performance may be a concern",
+      "No official IP rating for dust and water resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5197,10 +5469,10 @@ window.PHONES = [
     "fallbackImg": "img/nord-6.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The OnePlus Nord 6 is ideal for heavy users who require a large display and long battery life, as well as photography enthusiasts who appreciate high-quality camera capabilities. Its powerful processor also makes it suitable for gamers and those who multitask frequently. Overall, it's a solid choice for anyone seeking a high-performance device with ample storage options.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
       "processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
@@ -5221,8 +5493,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Nord%206"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Powerful Qualcomm Snapdragon 8s Gen 4 processor",
+      "High-quality 50MP primary camera with OIS",
+      "Long-lasting battery with up to 9000mAh capacity",
+      "Ample storage options with up to 512GB"
+    ],
+    "cons": [
+      "No major design innovations",
+      "Ultrawide camera resolution could be higher",
+      "Battery capacity varies by market"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5306,10 +5588,10 @@ window.PHONES = [
     "fallbackImg": "img/15t.svg",
     "releaseDate": "Released 2026, March 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The OnePlus 15T is ideal for power users and photography enthusiasts who demand high-performance capabilities and advanced camera features. Its large display and long-lasting battery also make it suitable for gamers and those who consume a lot of media on their device. Overall, it's a great choice for anyone seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.32 inches, 97.9 cm2 (~90.6% screen-to-body ratio)",
       "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
@@ -5330,8 +5612,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=15T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-performance Snapdragon 8 Elite Gen 5 processor",
+      "Advanced camera system with 3.5x optical zoom and OIS",
+      "Long-lasting 7500 mAh battery",
+      "High storage options up to 1TB",
+      "Large 6.32-inch display with 90.6% screen-to-body ratio"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for water and dust resistance",
+      "Large battery may contribute to overall weight and size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5413,10 +5705,10 @@ window.PHONES = [
     "fallbackImg": "img/turbo-6.svg",
     "releaseDate": "Released 2026, January 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Turbo 6 is ideal for power users and gamers who require a large display, fast processor, and ample storage. It's also suitable for photography enthusiasts who want a high-quality primary camera. However, its large battery may appeal to heavy users who prioritize longevity over portability.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
       "processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
@@ -5437,8 +5729,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Turbo%206"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-quality display",
+      "Fast Snapdragon 8s Gen 4 processor",
+      "High-capacity battery with long lifespan",
+      "Ample storage options"
+    ],
+    "cons": [
+      "No information on water or dust resistance",
+      "Large battery may add bulk to the device",
+      "No secondary camera details provided"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5520,10 +5821,10 @@ window.PHONES = [
     "fallbackImg": "img/turbo-6v.svg",
     "releaseDate": "Released 2026, January 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The OnePlus Turbo 6V is ideal for heavy users who require a large display, ample storage, and long battery life. It's also suitable for photography enthusiasts who value high-quality camera capabilities. Additionally, gamers may appreciate the powerful Snapdragon 7s Gen 4 processor.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
       "processor": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
@@ -5544,8 +5845,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Turbo%206V"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Powerful Qualcomm Snapdragon 7s Gen 4 processor",
+      "Long-lasting 9000 mAh battery",
+      "High-quality 50 MP primary camera with OIS",
+      "Generous storage options up to 512GB"
+    ],
+    "cons": [
+      "No information on water or dust resistance",
+      "No secondary camera details provided",
+      "Large battery may contribute to increased phone weight"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5626,10 +5937,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--4b.svg",
     "releaseDate": "Exp. release 2026, July 17",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "This phone is suitable for photography enthusiasts and heavy users who require a large display and long battery life. Its high-quality camera and ample storage make it an excellent choice for those who want to capture and store memories. The phone's performance is also well-suited for gamers and multitaskers.",
     "quickSpecs": {
       "display": "6.77 inches, 112.4 cm2 (~87.4% screen-to-body ratio)",
       "processor": "Qualcomm Snapdragon 6 Gen 4 (4 nm)",
@@ -5650,8 +5961,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%284b%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality 50MP primary camera",
+      "Large 6.77-inch display with high screen-to-body ratio",
+      "Long-lasting battery with up to 6000mAh capacity",
+      "Fast Qualcomm Snapdragon 6 Gen 4 processor"
+    ],
+    "cons": [
+      "Limited storage options with no expandable storage",
+      "No information on water or dust resistance",
+      "No high-refresh-rate display option"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5732,10 +6052,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--4a--pro.svg",
     "releaseDate": "Released 2026, March 05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Phone (4a) Pro is suited for photography enthusiasts and heavy users who require a large display and long battery life. Its high-quality camera system and ample storage options make it an attractive choice for content creators. Additionally, its powerful processor ensures smooth performance for gaming and multitasking.",
     "quickSpecs": {
       "display": "6.83 inches, 117.8 cm2 (~93.9% screen-to-body ratio)",
       "processor": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
@@ -5756,8 +6076,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%284a%29%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 3.5x optical zoom",
+      "Large 6.83-inch display with high screen-to-body ratio",
+      "Long-lasting battery with up to 5400 mAh capacity",
+      "Powerful Snapdragon 7 Gen 4 processor",
+      "Ample storage options with up to 256GB and 12GB RAM"
+    ],
+    "cons": [
+      "No major design innovations",
+      "No headphone jack",
+      "Limited water and dust resistance information"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5839,10 +6169,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--4a.svg",
     "releaseDate": "Released 2026, March 05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "This phone is ideal for photography enthusiasts and gamers who require a large display and ample storage. Its high-quality cameras and robust processor make it suitable for demanding users. Additionally, its long-lasting battery life appeals to heavy users who are always on the go.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~87.2% screen-to-body ratio)",
       "processor": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
@@ -5863,8 +6193,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%284a%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary and telephoto cameras",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Fast Qualcomm Snapdragon 7s Gen 4 processor",
+      "Long-lasting battery life with up to 5400 mAh capacity"
+    ],
+    "cons": [
+      "No major design or display innovations",
+      "Limited storage options with no expandable storage"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -5946,10 +6284,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--3a--lite.svg",
     "releaseDate": "Released 2025, October 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Phone (3a) Lite is suitable for casual users who prioritize a large display and long battery life, making it an excellent choice for those who enjoy streaming and gaming on the go. Its mid-range processor and ample storage options also cater to users who need a reliable device for everyday tasks. However, photography enthusiasts may find the camera capabilities sufficient but not exceptional.",
     "quickSpecs": {
       "display": "6.77 inches, 110.9 cm2 (~86.7% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 Pro (4 nm)",
@@ -5970,8 +6308,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%283a%29%20Lite"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.77-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Fast charging support with Mediatek Dimensity 7300 Pro processor",
+      "Sufficient storage options with up to 256GB",
+      "Dual-pixel PDAF for improved camera focus"
+    ],
+    "cons": [
+      "Limited camera features compared to high-end devices",
+      "No telephoto lens or optical zoom",
+      "Macro camera has a relatively low 2MP resolution"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6053,10 +6401,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--3.svg",
     "releaseDate": "Released 2025, July 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "This phone is ideal for photography enthusiasts and power users who require a large display and fast performance. Its high-end camera system and large battery make it suitable for those who want a premium smartphone experience. The phone's varying battery sizes for different markets also suggest a consideration for regional preferences.",
     "quickSpecs": {
       "display": "6.67 inches, 107.4 cm2 (~88.5% screen-to-body ratio)",
       "processor": "Qualcomm SM8735 Snapdragon 8s Gen 4 (4 nm)",
@@ -6077,8 +6425,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%283%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large display with high screen-to-body ratio",
+      "Fast performance with Snapdragon 8s Gen 4 processor",
+      "Ample storage and RAM options",
+      "Long-lasting battery life"
+    ],
+    "cons": [
+      "No headphone jack or other ports besides USB-C",
+      "No official IP rating for dust and water resistance",
+      "Battery size varies by region, which may cause confusion"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6160,10 +6518,10 @@ window.PHONES = [
     "fallbackImg": "img/cmf-phone-2-pro.svg",
     "releaseDate": "Released 2025, May 05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The CMF Phone 2 Pro is suitable for photography enthusiasts and heavy users who require a large display and long battery life. Its advanced camera system and sizable battery make it an attractive option for those who value these features. Additionally, the phone's powerful processor ensures smooth performance for gaming and multitasking.",
     "quickSpecs": {
       "display": "6.77 inches, 110.9 cm2 (~86.7% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 Pro (4 nm)",
@@ -6184,8 +6542,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=CMF%20Phone%202%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with dual 50MP sensors",
+      "Large 6.77-inch display with high screen-to-body ratio",
+      "Long-lasting 5000mAh battery",
+      "Powerful Mediatek Dimensity 7300 Pro processor",
+      "Sufficient storage options with up to 256GB"
+    ],
+    "cons": [
+      "No major design innovations",
+      "No headphone jack",
+      "Limited color options not specified"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6265,10 +6633,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--3a--pro.svg",
     "releaseDate": "Released 2025, March 25",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Phone (3a) Pro is suitable for photography enthusiasts and power users who require a large display and long battery life. Its high-quality cameras and fast processor make it an excellent choice for those who want a premium experience without breaking the bank. Additionally, its large storage options cater to heavy users who need ample space for their files and apps.",
     "quickSpecs": {
       "display": "6.77 inches, 111.5 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
@@ -6289,8 +6657,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%283a%29%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality cameras with optical zoom",
+      "Large 6.77-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Fast Qualcomm Snapdragon 7s Gen 3 processor"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6371,10 +6747,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--3a.svg",
     "releaseDate": "Released 2025, March 11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "This phone is suitable for photography enthusiasts and everyday users who value a large display and long battery life. The nothing Phone (3a) offers a versatile camera system and robust performance, making it a great option for those seeking a well-rounded device. Its features and specs make it an attractive choice for those who want a high-quality smartphone without breaking the bank.",
     "quickSpecs": {
       "display": "6.77 inches, 111.5 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Qualcomm SM7635 Snapdragon 7s Gen 3 (4 nm)",
@@ -6395,8 +6771,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%283a%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large 6.77-inch display with 88% screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Fast Snapdragon 7s Gen 3 processor"
+    ],
+    "cons": [
+      "Limited storage options with no microSD card slot",
+      "No major design innovations"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6478,10 +6862,10 @@ window.PHONES = [
     "fallbackImg": "img/phone--2a--plus.svg",
     "releaseDate": "Released 2024, August 03",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Phone (2a) Plus is suitable for photography enthusiasts and heavy users who require a large display and long battery life. Its powerful processor and ample storage also make it a great option for gamers and those who need a reliable device for daily tasks. With its high-quality cameras and large screen, it's ideal for content creators and consumers alike.",
     "quickSpecs": {
       "display": "6.7 inches, 107.5 cm2 (~87.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7350 Pro (4 nm)",
@@ -6502,8 +6886,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Phone%20%282a%29%20Plus"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS",
+      "Large 6.7-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Powerful Mediatek Dimensity 7350 Pro processor",
+      "Ample storage options with up to 12GB RAM"
+    ],
+    "cons": [
+      "No telephoto lens or periscope zoom",
+      "Ultrawide camera has a smaller sensor size",
+      "No official IP rating for dust and water resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6584,10 +6978,10 @@ window.PHONES = [
     "fallbackImg": "img/cmf-phone-1.svg",
     "releaseDate": "Released 2024, July 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The CMF Phone 1 is suitable for everyday users who prioritize a large display and long battery life, making it a great option for those who consume a lot of media on their device. Its mid-range processor also makes it a good choice for casual gamers. Overall, it's a solid choice for those who want a reliable phone without breaking the bank.",
     "quickSpecs": {
       "display": "6.67 inches, 107.4 cm2 (~85.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 (4 nm)",
@@ -6608,8 +7002,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=CMF%20Phone%201"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.67-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Multiple RAM and storage options",
+      "Power-efficient 4 nm processor"
+    ],
+    "cons": [
+      "Limited auxiliary camera capabilities",
+      "No advanced camera features like optical zoom or ultra-wide lens",
+      "No water or dust resistance mentioned"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6688,10 +7092,10 @@ window.PHONES = [
     "fallbackImg": "img/y500.svg",
     "releaseDate": "Released 2026, July 07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The vivo Y500 is suitable for heavy users who require a large display and long battery life, making it ideal for gaming and multimedia consumption. Its camera capabilities also cater to photography enthusiasts. Overall, it's a solid choice for those seeking a balance between performance and affordability.",
     "quickSpecs": {
       "display": "6.83 inches, 112.6 cm2 (~90.3% screen-to-body ratio)",
       "processor": "Unisoc T7300 (6 nm)",
@@ -6712,8 +7116,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Y500"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.83-inch display with high screen-to-body ratio",
+      "Long-lasting 8100 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Ample storage options with up to 256GB",
+      "Efficient Unisoc T7300 processor"
+    ],
+    "cons": [
+      "Limited auxiliary lens capabilities",
+      "No advanced camera features like optical zoom or ultra-wide lens",
+      "No waterproof or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -6791,10 +7205,10 @@ window.PHONES = [
     "fallbackImg": "img/iqoo-z11i.svg",
     "releaseDate": "Released 2026, April 06",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The iQOO Z11i is suitable for budget-conscious users seeking a large display and long battery life, making it ideal for everyday use and multimedia consumption. Its mid-range processor and generous storage options also cater to casual gamers and those who need a reliable device for work and entertainment. However, photography enthusiasts may find the camera capabilities somewhat limited.",
     "quickSpecs": {
       "display": "6.74 inches, 109.7 cm2 (~85.0% screen-to-body ratio)",
       "processor": "Qualcomm SM4450 Snapdragon 4 Gen 2 (4 nm)",
@@ -6815,8 +7229,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iQOO%20Z11i"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.74-inch display with high screen-to-body ratio",
+      "Long-lasting 6500 mAh battery",
+      "Generous storage options up to 256GB",
+      "Mid-range processor suitable for casual gaming",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Camera specs may not impress photography enthusiasts",
+      "No advanced camera features like optical zoom or ultra-wide lens",
+      "No water or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -6897,10 +7321,10 @@ window.PHONES = [
     "fallbackImg": "img/x-fold6.svg",
     "releaseDate": "Released 2026, July 01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The vivo X Fold6 is designed for tech enthusiasts and professionals who require a large, high-quality display and advanced camera capabilities. It's ideal for those who want a device that can handle demanding tasks and provide an immersive viewing experience. With its large battery and ample storage options, it's suitable for heavy users who need a reliable device.",
     "quickSpecs": {
       "display": "8.02 inches, 206.8 cm2 (~90.3% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500 Super (3 nm)",
@@ -6921,8 +7345,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=X%20Fold6"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-resolution display with a high screen-to-body ratio",
+      "Powerful Mediatek Dimensity 9500 Super processor",
+      "High-quality camera system with advanced features like OIS and PDAF",
+      "Long-lasting 7000 mAh battery",
+      "Ample storage options with up to 1TB of internal storage"
+    ],
+    "cons": [
+      "Bulkier design due to the large foldable display",
+      "No headphone jack",
+      "High-end price point due to advanced features and large display"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7006,10 +7440,10 @@ window.PHONES = [
     "fallbackImg": "img/iqoo-pad5c.svg",
     "releaseDate": "Released 2026, June 01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The IQOO Pad5c is suitable for users seeking a large display and ample battery life, making it ideal for multimedia consumption and gaming. It's also a good fit for those who want a device with sufficient storage and RAM for seamless performance. However, it may not be the best choice for photography enthusiasts.",
     "quickSpecs": {
       "display": "12.1 inches, 444.4 cm2 (~86.9% screen-to-body ratio)",
       "processor": "Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)",
@@ -7030,8 +7464,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=IQOO%20Pad5c"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 12.1-inch display",
+      "Long-lasting 10000 mAh battery",
+      "Sufficient storage and RAM options",
+      "Powerful Snapdragon 8s Gen 3 processor"
+    ],
+    "cons": [
+      "Limited camera capabilities with only 8 MP",
+      "No higher RAM option beyond 12GB"
+    ],
     "specs": {
       "Network": {
         "Technology": "No cellular connectivity",
@@ -7109,10 +7551,10 @@ window.PHONES = [
     "fallbackImg": "img/v70-lite.svg",
     "releaseDate": "Released 2026, June 05",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The vivo V70 Lite is suitable for photography enthusiasts and heavy users who require a large display and long battery life. Its powerful processor and ample storage also make it a great option for gamers and multitaskers. Overall, it's a well-rounded device for those seeking a balance between performance and affordability.",
     "quickSpecs": {
       "display": "6.77 inches, 111.5 cm2 (~89.2% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7400 Turbo (4 nm)",
@@ -7133,8 +7575,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=V70%20Lite"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.77-inch display with high screen-to-body ratio",
+      "Powerful Mediatek Dimensity 7400 Turbo processor",
+      "Long-lasting 6500 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Generous storage options"
+    ],
+    "cons": [
+      "No telephoto lens or optical zoom",
+      "No waterproof or dust resistance rating",
+      "Large battery may affect device portability"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7213,10 +7665,10 @@ window.PHONES = [
     "fallbackImg": "img/s60.svg",
     "releaseDate": "Released 2026, June 03",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The vivo S60 is ideal for photography enthusiasts and power users who require a large display and long battery life. Its high-end processor and ample storage options make it suitable for gaming and multitasking. However, its bulky design may not appeal to those seeking a compact device.",
     "quickSpecs": {
       "display": "6.59 inches, 106.1 cm2 (~90.7% screen-to-body ratio)",
       "processor": "Qualcomm SM8635 Snapdragon 8s Gen 3 (4 nm)",
@@ -7237,8 +7689,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=S60"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large and immersive display",
+      "Long-lasting 7200 mAh battery",
+      "Fast charging capabilities",
+      "High-performance processor"
+    ],
+    "cons": [
+      "Bulky design may not fit comfortably in small hands",
+      "No headphone jack or IP rating",
+      "High price point may be a deterrent for budget-conscious buyers"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7319,10 +7781,10 @@ window.PHONES = [
     "fallbackImg": "img/s60e.svg",
     "releaseDate": "Released 2026, June 03",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The vivo S60e is suitable for photography enthusiasts and heavy users who require a large battery and ample storage. Its large display and high-performance processor make it ideal for gaming and multimedia consumption. Overall, it's a great option for those seeking a balance between performance and camera capabilities.",
     "quickSpecs": {
       "display": "6.59 inches, 106.1 cm2 (~90.7% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7500 (4 nm)",
@@ -7343,8 +7805,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=S60e"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS",
+      "Long-lasting 7200 mAh battery",
+      "Fast charging capabilities with large battery",
+      "High screen-to-body ratio for immersive experience",
+      "Powerful Mediatek Dimensity 7500 processor"
+    ],
+    "cons": [
+      "No telephoto lens for zoomed shots",
+      "No IP rating for dust and water resistance",
+      "Large battery may affect phone's portability"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7425,10 +7897,10 @@ window.PHONES = [
     "fallbackImg": "img/t5.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The vivo T5 is suitable for users seeking a large display and long battery life, making it ideal for heavy multimedia users and gamers. Its camera capabilities also make it a good option for casual photographers. Overall, it's a solid choice for those prioritizing entertainment and everyday use.",
     "quickSpecs": {
       "display": "6.75 inches, 111.4 cm2 (~85.3% screen-to-body ratio)",
       "processor": "Qualcomm Snapdragon 6s 4G Gen 2 (6 nm)",
@@ -7449,8 +7921,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=T5"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.75-inch display",
+      "Long-lasting 7200 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Multiple RAM and storage options"
+    ],
+    "cons": [
+      "Limited auxiliary lens capabilities",
+      "No 5G connectivity"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -7530,10 +8010,10 @@ window.PHONES = [
     "fallbackImg": "img/y600-turbo.svg",
     "releaseDate": "Released 2026, May 27",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The vivo Y600 Turbo is suitable for heavy users who require a large display and long battery life, as well as photography enthusiasts who value high-quality camera capabilities. Its powerful processor also makes it a good option for gamers. Overall, it's a solid choice for those seeking a balance between performance and entertainment.",
     "quickSpecs": {
       "display": "6.83 inches, 112.6 cm2 (~90.3% screen-to-body ratio)",
       "processor": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
@@ -7554,8 +8034,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Y600%20Turbo"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.83-inch display",
+      "Long-lasting 9020 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Powerful Snapdragon 7s Gen 4 processor"
+    ],
+    "cons": [
+      "Limited storage expansion options",
+      "No detailed specs on auxiliary lens"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7636,10 +8124,10 @@ window.PHONES = [
     "fallbackImg": "img/iqoo-15t.svg",
     "releaseDate": "Released 2026, May 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The iQOO 15T is ideal for gamers and power users who require a large display, fast processor, and ample storage. Its high-quality camera system also makes it suitable for photography enthusiasts. Additionally, its long-lasting battery life makes it a great option for those who are always on the go.",
     "quickSpecs": {
       "display": "6.82 inches, 113.0 cm2 (~90.2% screen-to-body ratio)",
       "processor": "MediaTek Dimensity 9500 Monster (3 nm)",
@@ -7660,8 +8148,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=iQOO%2015T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.82-inch display with high screen-to-body ratio",
+      "Fast MediaTek Dimensity 9500 Monster processor",
+      "High-quality 200MP primary camera with OIS",
+      "Long-lasting 8000mAh battery",
+      "Multiple storage and RAM options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No IP rating for water or dust resistance",
+      "Large size may not be suitable for one-handed use"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7743,10 +8241,10 @@ window.PHONES = [
     "fallbackImg": "img/p4x-4g.svg",
     "releaseDate": "Released 2026, June 23",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme P4x 4G is suitable for casual users who prioritize long battery life and a large display, making it ideal for everyday tasks and media consumption. Its camera capabilities also make it a decent choice for photography enthusiasts on a budget. However, it may not be the best fit for heavy gamers or those requiring extensive storage.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -7767,8 +8265,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=P4x%204G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 8000 mAh battery",
+      "Large 6.8-inch display",
+      "Decent 50 MP primary camera",
+      "Affordable storage options"
+    ],
+    "cons": [
+      "Limited RAM options",
+      "Processor may not handle demanding tasks efficiently"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -7847,10 +8353,10 @@ window.PHONES = [
     "fallbackImg": "img/p4r.svg",
     "releaseDate": "Released 2026, June 17",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The realme P4R is suitable for users who prioritize battery life and camera capabilities, making it a great option for casual photographers and heavy users. Its large display also makes it ideal for entertainment purposes. Overall, it's a solid choice for those seeking a balance between performance and affordability.",
     "quickSpecs": {
       "display": "6.81 inches, 113.4 cm2 (~87.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -7871,8 +8377,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=P4R"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 8000 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Large 6.81-inch display",
+      "Multiple RAM and storage options"
+    ],
+    "cons": [
+      "Limited processor performance compared to flagship models",
+      "No advanced camera features like telephoto or ultra-wide lenses"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -7952,10 +8466,10 @@ window.PHONES = [
     "fallbackImg": "img/16t.svg",
     "releaseDate": "Released 2026, May 26",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme 16T is suitable for users seeking a large display and long battery life, making it ideal for multimedia enthusiasts and heavy users. Its mid-range processor and ample storage options also cater to those who want a balance between performance and affordability. Additionally, the phone's camera capabilities make it a good choice for casual photographers.",
     "quickSpecs": {
       "display": "6.81 inches, 113.4 cm2 (~87.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -7976,8 +8490,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=16T"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.81-inch display",
+      "Long-lasting 8000 mAh battery",
+      "Ample storage options",
+      "Decent 50 MP primary camera"
+    ],
+    "cons": [
+      "No advanced camera features",
+      "Limited auxiliary lens capabilities"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -8058,10 +8580,10 @@ window.PHONES = [
     "fallbackImg": "img/c100x.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme C100x is suited for casual users who prioritize battery life and a large display, making it ideal for everyday tasks and media consumption. Its robust battery and generous storage options also make it a great option for those who want a hassle-free experience. However, it may not be the best fit for heavy gamers or power users.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -8082,8 +8604,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=C100x"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting battery life with up to 8000 mAh capacity",
+      "Large 6.8-inch display with a high screen-to-body ratio",
+      "Ample storage options with up to 256GB of internal storage",
+      "High-quality 50MP primary camera with PDAF"
+    ],
+    "cons": [
+      "Limited processor performance with Unisoc T7250",
+      "No advanced camera features beyond the primary sensor",
+      "RAM options could be higher for smoother performance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -8163,10 +8694,10 @@ window.PHONES = [
     "fallbackImg": "img/c100i.svg",
     "releaseDate": "Released 2026, May 07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme C100i is suitable for casual users who prioritize battery life and a large display, making it an ideal choice for those who want a straightforward, no-frills smartphone experience. Its large 6.8-inch screen and extensive storage options also cater to users who enjoy multimedia consumption. However, it may not be the best fit for heavy gamers or those seeking advanced camera capabilities.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -8187,8 +8718,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=C100i"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 7000 mAh battery",
+      "Large 6.8-inch display with high screen-to-body ratio",
+      "Variety of storage and RAM options",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited camera capabilities with only an 8 MP primary sensor",
+      "Processor may not be suitable for demanding tasks or heavy gaming"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -8268,10 +8807,10 @@ window.PHONES = [
     "fallbackImg": "img/narzo-100-lite.svg",
     "releaseDate": "Released 2026, April 21",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Narzo 100 Lite is suitable for casual users who prioritize long battery life and a large display, making it ideal for everyday tasks like browsing, streaming, and social media. It's also a good option for those on a budget who still want a relatively modern processor. However, it may not be the best choice for heavy gamers or photography enthusiasts.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~87.0% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -8292,8 +8831,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Narzo%20100%20Lite"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.8-inch display with a high screen-to-body ratio",
+      "Long-lasting 7000 mAh battery",
+      "Efficient Mediatek Dimensity 6300 processor",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited camera capabilities with only a single 13 MP lens",
+      "Low storage options, especially the 64GB variant",
+      "No advanced features like wireless charging or water resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -8374,10 +8922,10 @@ window.PHONES = [
     "fallbackImg": "img/c100-4g.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme C100 4G is suited for heavy users who require a large display and long battery life, making it ideal for gamers and multimedia enthusiasts. Its substantial storage and RAM also cater to those who need a device for productivity and multitasking. Overall, it's a solid choice for anyone seeking a balance between performance and endurance.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Mediatek Helio G92 Max",
@@ -8398,8 +8946,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=C100%204G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.8-inch display for immersive experience",
+      "Powerful Mediatek Helio G92 Max processor for smooth performance",
+      "Ample 256GB storage and 8GB RAM for multitasking",
+      "High-capacity 8000 mAh battery for extended use",
+      "50 MP primary camera with PDAF for sharp photography"
+    ],
+    "cons": [
+      "No higher refresh rate option for smoother visuals",
+      "No waterproof or dust resistance rating",
+      "Large battery may contribute to increased device weight"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -8479,10 +9037,10 @@ window.PHONES = [
     "fallbackImg": "img/c100.svg",
     "releaseDate": "Released 2026, April 07",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme C100 is suited for budget-conscious users seeking a large display and long battery life, making it ideal for everyday use and multimedia consumption. Its specs suggest a balance between performance and affordability. This phone is a good fit for those who prioritize battery endurance and a large screen.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~86.7% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -8503,8 +9061,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=C100"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.8-inch display",
+      "Long-lasting 7000 mAh battery",
+      "High-resolution 50 MP primary camera",
+      "Multiple RAM and storage options"
+    ],
+    "cons": [
+      "Limited RAM options, with only up to 6GB",
+      "No advanced camera features beyond the primary sensor"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -8585,10 +9151,10 @@ window.PHONES = [
     "fallbackImg": "img/p4-lite.svg",
     "releaseDate": "Released 2026, March 19",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme P4 Lite is suited for casual users who prioritize battery life and a large display, making it ideal for everyday tasks and media consumption. Its specs suggest a balance between performance and affordability. It's a great option for those who don't need advanced camera features or high-end gaming capabilities.",
     "quickSpecs": {
       "display": "6.8 inches, 113.0 cm2 (~87.0% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -8609,8 +9175,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=P4%20Lite"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 7000 mAh battery",
+      "Large 6.8-inch display with a high screen-to-body ratio",
+      "Efficient Mediatek Dimensity 6300 processor",
+      "Affordable storage options"
+    ],
+    "cons": [
+      "Limited camera capabilities with a single 13 MP lens",
+      "No high RAM option beyond 6GB"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -8690,10 +9264,10 @@ window.PHONES = [
     "fallbackImg": "img/note-80.svg",
     "releaseDate": "Released 2026, March 10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The realme Note 80 is suitable for budget-conscious users seeking a large display and long battery life, making it ideal for everyday tasks and media consumption. It's also a good option for those who prioritize battery endurance over high-performance capabilities. Overall, it's a practical choice for casual users.",
     "quickSpecs": {
       "display": "6.74 inches, 109.7 cm2 (~85.6% screen-to-body ratio)",
       "processor": "Unisoc T7250 (12 nm)",
@@ -8714,8 +9288,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Note%2080"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.74-inch display",
+      "Long-lasting 6300 mAh battery",
+      "Affordable storage options",
+      "Sleek design with high screen-to-body ratio"
+    ],
+    "cons": [
+      "Limited camera capabilities with only 8 MP",
+      "Processor may not handle demanding tasks efficiently",
+      "RAM could be higher for smoother performance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -8796,10 +9379,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16c.svg",
     "releaseDate": "Released 2026, July 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16c is suited for photography enthusiasts and heavy users who require a long-lasting battery. Its large display and ample storage options make it a great choice for those who enjoy gaming and multimedia consumption. Overall, it's a solid option for anyone seeking a high-quality camera experience without breaking the bank.",
     "quickSpecs": {
       "display": "6.57 inches, 105.0 cm2 (~88.6% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 Energy (4 nm)",
@@ -8820,8 +9403,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16c"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Long-lasting 7000 mAh battery",
+      "Large 6.57-inch display with high screen-to-body ratio",
+      "Fast charging capabilities with large storage options"
+    ],
+    "cons": [
+      "No waterproof or dust resistance rating",
+      "Processor may not be as powerful as flagship models"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -8904,10 +9495,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16-pro.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 Pro is designed for photography enthusiasts and power users who require a high-performance device with advanced camera capabilities. Its large display and long-lasting battery make it suitable for those who enjoy watching videos or playing games on their phone. Overall, it's a great option for individuals seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.32 inches, 97.9 cm2 (~89.5% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8550 Super (4 nm)",
@@ -8928,8 +9519,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 200MP primary sensor",
+      "Large 6.32-inch display with high screen-to-body ratio",
+      "Fast charging and long-lasting 6700mAh battery",
+      "Powerful Mediatek Dimensity 8550 Super processor",
+      "Ample storage options with up to 512GB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Battery size varies by region, with Europe getting a smaller 6000mAh cell"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9012,10 +9613,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16.svg",
     "releaseDate": "Released 2026, July 09",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 is ideal for photography enthusiasts and power users who require a large display and long battery life. Its high-quality camera system and fast processor make it suitable for those who want a premium smartphone experience. Additionally, its generous storage options cater to users who need ample space for their files and apps.",
     "quickSpecs": {
       "display": "6.32 inches, 97.9 cm2 (~89.5% screen-to-body ratio)",
       "processor": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
@@ -9036,8 +9637,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 3.5x optical zoom",
+      "Large 6.32-inch display with 89.5% screen-to-body ratio",
+      "Fast Qualcomm Snapdragon 7 Gen 4 processor",
+      "Long-lasting 6000/6700 mAh battery",
+      "Ample storage options up to 512GB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Large battery may make the phone bulky for some users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9120,10 +9731,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16-fs.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 FS is suited for photography enthusiasts and heavy users who require a large display and long battery life. Its high-quality camera system and ample storage make it an attractive option for those who want a device that can keep up with their demands. This phone is ideal for individuals who value performance and multimedia capabilities.",
     "quickSpecs": {
       "display": "6.57 inches, 105.0 cm2 (~88.6% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 Energy (4 nm)",
@@ -9144,8 +9755,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16%20FS"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large 6.57-inch display with high screen-to-body ratio",
+      "Long-lasting 6500 mAh battery",
+      "Ample 512GB storage"
+    ],
+    "cons": [
+      "No headphone jack",
+      "Large battery may affect portability"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9227,10 +9846,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16-f.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 F is ideal for photography enthusiasts and heavy users who need a long-lasting battery. Its large display and robust camera system make it suitable for those who enjoy capturing and viewing high-quality content. Additionally, its varying RAM and storage options cater to different user needs and budgets.",
     "quickSpecs": {
       "display": "6.57 inches, 105.0 cm2 (~89.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7300 Energy (4 nm)",
@@ -9251,8 +9870,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16%20F"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Long-lasting battery with large capacity",
+      "Large display with high screen-to-body ratio",
+      "Multiple RAM and storage options",
+      "Power-efficient 4nm processor"
+    ],
+    "cons": [
+      "No major design innovations",
+      "Telephoto lens has a smaller sensor size",
+      "No wireless charging support"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9334,10 +9963,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16-pro--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 Pro is ideal for photography enthusiasts and power users who require a large display and long battery life. Its advanced camera system and fast processor make it suitable for those who want a high-end smartphone experience. Additionally, gamers and video streamers will appreciate its large screen and ample storage options.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~91.2% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500s (3 nm)",
@@ -9358,8 +9987,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16%20Pro%20%28China%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with gimbal OIS",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Fast Mediatek Dimensity 9500s processor",
+      "Long-lasting 7000 mAh battery",
+      "Ample storage options with up to 512GB and 16GB RAM"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for water and dust resistance",
+      "Large battery may make the phone bulky"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9441,10 +10080,10 @@ window.PHONES = [
     "fallbackImg": "img/reno16--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Reno16 is suitable for photography enthusiasts and heavy users who require a large battery and ample storage. Its high-quality camera system and fast processor make it an excellent choice for those who want a premium smartphone experience. Additionally, gamers and multitaskers will appreciate the device's powerful performance and generous RAM options.",
     "quickSpecs": {
       "display": "6.32 inches, 97.9 cm2 (~89.5% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8500 Super (4 nm)",
@@ -9465,8 +10104,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Reno16%20%28China%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 200MP primary sensor",
+      "Large 6700mAh battery for extended usage",
+      "Fast Mediatek Dimensity 8500 Super processor",
+      "Ample storage options up to 1TB",
+      "High screen-to-body ratio for immersive display"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Limited color options may not appeal to all users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9548,10 +10197,10 @@ window.PHONES = [
     "fallbackImg": "img/find-x9-ultra.svg",
     "releaseDate": "Released 2026, May 02",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Find X9 Ultra is designed for photography enthusiasts and power users who demand top-notch performance and advanced camera capabilities. With its large display and long-lasting battery, it's also suitable for those who enjoy gaming and streaming on the go. Additionally, its high storage options make it a great choice for content creators and professionals who need ample space for their files.",
     "quickSpecs": {
       "display": "6.82 inches, 113.0 cm2 (~90.0% screen-to-body ratio)",
       "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
@@ -9572,8 +10221,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Find%20X9%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with periscope telephoto lenses",
+      "Fast Qualcomm Snapdragon 8 Elite Gen 5 processor",
+      "Large 6.82-inch display with high screen-to-body ratio",
+      "Long-lasting 7050 mAh battery",
+      "Ample storage options up to 1TB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Large size may not be comfortable for one-handed use"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9657,10 +10316,10 @@ window.PHONES = [
     "fallbackImg": "img/find-x9s-pro.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Find X9s Pro is geared towards photography enthusiasts and power users who demand high-quality camera performance and fast processing. Its large display and long-lasting battery also make it suitable for gamers and those who consume a lot of media on their phone. Overall, it's a great option for anyone seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.32 inches, 97.9 cm2 (~90.7% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500 (3 nm)",
@@ -9681,8 +10340,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Find%20X9s%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality 200MP primary camera with OIS",
+      "Large 6.32-inch display with high screen-to-body ratio",
+      "Fast Mediatek Dimensity 9500 processor",
+      "Long-lasting 7025mAh battery",
+      "High storage options up to 1TB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for water and dust resistance",
+      "Large battery may contribute to overall weight and size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9763,10 +10432,10 @@ window.PHONES = [
     "fallbackImg": "img/find-x9s.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Oppo Find X9s is suitable for photography enthusiasts and power users who require a high-performance device with ample storage and a long-lasting battery. Its large display and high-quality cameras make it ideal for those who enjoy capturing and viewing content on the go. Additionally, the phone's fast processor and sufficient RAM ensure seamless multitasking and gaming experiences.",
     "quickSpecs": {
       "display": "6.59 inches, 105.6 cm2 (~91.0% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 9500s (3 nm)",
@@ -9787,8 +10456,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Find%20X9s"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality triple camera setup with optical zoom",
+      "Large 6.59-inch display with high screen-to-body ratio",
+      "Fast Mediatek Dimensity 9500s processor",
+      "Long-lasting 7025 mAh battery",
+      "Ample storage options with up to 512GB"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Heavy battery may affect overall device weight"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9871,10 +10550,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g77-power.svg",
     "releaseDate": "Exp. release 2026, July 13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Moto G77 Power is ideal for users seeking a balance between performance and battery life, making it suitable for everyday tasks and moderate gaming. Its large display and high-capacity battery also make it a great option for those who consume a lot of media on their phone. Overall, it's a solid choice for the average user who wants a reliable device without breaking the bank.",
     "quickSpecs": {
       "display": "6.72 inches, 89.8 cm2 (~70.6% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6400 (6 nm)",
@@ -9895,8 +10574,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G77%20Power"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 7000 mAh battery",
+      "Large 6.72-inch display with decent screen-to-body ratio",
+      "Capable Mediatek Dimensity 6400 processor",
+      "High-quality 50 MP primary camera",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited storage capacity at 128GB",
+      "No advanced waterproofing or dust resistance",
+      "Camera features could be more comprehensive"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -9978,10 +10667,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g-max.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Moto G Max is suitable for photography enthusiasts and individuals seeking a large display for immersive multimedia experiences. Its robust camera system and ample storage make it an attractive option for those who value capturing high-quality images and storing large files. This phone is ideal for everyday users who want a balance of performance and battery life.",
     "quickSpecs": {
       "display": "6.8 inches, 113.1 cm2 (~88.9% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6400 (6 nm)",
@@ -10002,8 +10691,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-resolution primary camera with OIS",
+      "Large 6.8-inch display with high screen-to-body ratio",
+      "Long-lasting 5200 mAh battery",
+      "Ample storage and RAM for smooth performance"
+    ],
+    "cons": [
+      "No major design innovations",
+      "Processor may not be the latest flagship-grade"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10084,10 +10781,10 @@ window.PHONES = [
     "fallbackImg": "img/edge--2026.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Motorola Edge is suitable for photography enthusiasts and everyday users seeking a balance of performance and camera capabilities. Its large display and long-lasting battery make it ideal for multimedia consumption and gaming. However, power users may find the storage and RAM limitations restrictive.",
     "quickSpecs": {
       "display": "6.3 inches, 97.7 cm2 (~89.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7450 (4 nm)",
@@ -10108,8 +10805,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Edge%20%282026%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS",
+      "Long-lasting 5000 mAh battery",
+      "Large 6.3-inch display with high screen-to-body ratio",
+      "Fast Mediatek Dimensity 7450 processor"
+    ],
+    "cons": [
+      "Limited storage and RAM options",
+      "No headphone jack",
+      "Telephoto camera resolution could be higher"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10191,10 +10897,10 @@ window.PHONES = [
     "fallbackImg": "img/edge-70-pro.svg",
     "releaseDate": "Released 2026, June 11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Edge 70 Pro+ is ideal for photography enthusiasts and power users who require a large display and long battery life. Its advanced camera system and fast processor make it suitable for demanding tasks. Additionally, its large storage capacity and ample RAM ensure seamless performance for multitaskers.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~91.4% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8500 Extreme (4 nm)",
@@ -10215,8 +10921,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Edge%2070%20Pro%2B"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with multi-directional PDAF and OIS",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 6500 mAh battery",
+      "Fast Mediatek Dimensity 8500 Extreme processor",
+      "Ample 12GB RAM for smooth multitasking"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No waterproof or dust-resistant rating",
+      "Heavy battery may affect portability"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10299,10 +11015,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g87.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Moto G87 is suitable for photography enthusiasts and gamers who want a large display and robust performance. Its high-quality camera and ample storage options make it an attractive choice for content creators. Additionally, its long-lasting battery life is ideal for heavy users who are always on the go.",
     "quickSpecs": {
       "display": "6.78 inches, 112.4 cm2 (~88.4% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6400 (6 nm)",
@@ -10323,8 +11039,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G87"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-resolution 200MP primary camera",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Fast Mediatek Dimensity 6400 processor",
+      "Long-lasting 5200mAh battery",
+      "Ample storage options up to 512GB"
+    ],
+    "cons": [
+      "No telephoto lens or periscope camera",
+      "No official IP rating for dust and water resistance",
+      "No wireless charging support"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10406,10 +11132,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g47.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Moto G47 is suitable for casual users who prioritize camera performance and battery life, making it an ideal choice for social media enthusiasts and those who want a reliable daily driver. Its large display and decent storage options also make it a great option for media consumption. However, it may not be the best fit for heavy gamers or power users.",
     "quickSpecs": {
       "display": "6.67 inches, 107.4 cm2 (~84.5% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -10430,8 +11156,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G47"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality 108MP primary camera",
+      "Long-lasting 5200mAh battery",
+      "Large 6.67-inch display with high screen-to-body ratio",
+      "Multiple storage and RAM options",
+      "Power-efficient Mediatek Dimensity 6300 processor"
+    ],
+    "cons": [
+      "Limited gaming performance due to mid-range processor",
+      "No advanced camera features like optical zoom or ultra-wide lens",
+      "No water or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10512,10 +11248,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g37-power.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Moto G37 Power is suitable for users seeking a balance between performance and battery life, particularly those who consume heavy media content. It's ideal for individuals who want a large display and long-lasting battery without breaking the bank. This phone caters to the needs of everyday users who prioritize durability and functionality.",
     "quickSpecs": {
       "display": "6.67 inches, 107.2 cm2 (~84.3% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm) - globalMediatek Dimensity 6400 (6 nm) - India",
@@ -10536,8 +11272,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G37%20Power"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.67-inch display with a high screen-to-body ratio",
+      "Power-efficient Mediatek Dimensity processor",
+      "Long-lasting 7000 mAh battery",
+      "High-quality 50 MP primary camera"
+    ],
+    "cons": [
+      "Limited RAM options may hinder heavy multitasking",
+      "No high refresh rate display",
+      "No waterproof or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10618,10 +11363,10 @@ window.PHONES = [
     "fallbackImg": "img/moto-g37.svg",
     "releaseDate": "Released 2026, May 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Moto G37 is suitable for budget-conscious users seeking a reliable daily driver with a large display and ample storage options. It's ideal for those who prioritize battery life and a decent camera experience. This phone is a great fit for casual users who don't require extreme performance.",
     "quickSpecs": {
       "display": "6.67 inches, 107.2 cm2 (~84.3% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm) - globalMediatek Dimensity 6400 (6 nm) - India",
@@ -10642,8 +11387,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Moto%20G37"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.67-inch display",
+      "Long-lasting 5200 mAh battery",
+      "Decent 50 MP primary camera",
+      "Multiple storage options"
+    ],
+    "cons": [
+      "Limited RAM options",
+      "No high refresh rate display"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10724,10 +11477,10 @@ window.PHONES = [
     "fallbackImg": "img/razr-ultra-2026.svg",
     "releaseDate": "Released 2026, May 14",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Razr Ultra 2026 is ideal for tech-savvy individuals seeking a powerful device with advanced camera capabilities and ample storage. It's also suitable for heavy users who require a large display and long battery life. Additionally, gamers and multitaskers will appreciate the phone's high-performance processor.",
     "quickSpecs": {
       "display": "7.0 inches, 110.8 cm2 (~87.3% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -10748,8 +11501,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Razr%20Ultra%202026"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 7.0-inch display with high screen-to-body ratio",
+      "Fast Qualcomm Snapdragon 8 Elite processor",
+      "High-quality dual-camera setup with wide and ultrawide lenses",
+      "Generous 512GB storage and 16GB RAM"
+    ],
+    "cons": [
+      "No headphone jack or other ports besides USB-C",
+      "No water or dust resistance rating provided"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10829,10 +11590,10 @@ window.PHONES = [
     "fallbackImg": "img/razr-70-ultra.svg",
     "releaseDate": "Released 2026, April 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Razr 70 Ultra is suited for heavy users who demand high-performance processing, ample storage, and advanced camera capabilities. Its large display and long-lasting battery also make it ideal for multimedia enthusiasts. However, its price may be a barrier for casual users.",
     "quickSpecs": {
       "display": "7.0 inches, 110.8 cm2 (~87.3% screen-to-body ratio)",
       "processor": "Qualcomm Snapdragon 8 Elite (3 nm)",
@@ -10853,8 +11614,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Razr%2070%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Powerful Qualcomm Snapdragon 8 Elite processor",
+      "High-quality dual-camera setup with wide and ultrawide lenses",
+      "Large 7.0-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Generous storage and RAM options"
+    ],
+    "cons": [
+      "No headphone jack or other ports besides USB-C",
+      "No official IP rating for dust and water resistance",
+      "May be too large for one-handed use"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -10936,10 +11707,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-1-viii.svg",
     "releaseDate": "Released 2026, June 19",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Sony Xperia 1 VIII is designed for photography enthusiasts and heavy users who require a powerful device with ample storage options. Its advanced camera system and large battery make it an excellent choice for those who want a high-quality mobile experience. This phone is ideal for individuals who value premium features and are willing to invest in a top-tier device.",
     "quickSpecs": {
       "display": "6.5 inches, 103.7 cm2 (~86.5% screen-to-body ratio)",
       "processor": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
@@ -10960,8 +11731,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%201%20VIII"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large 5000 mAh battery for extended usage",
+      "Fast Qualcomm Snapdragon 8 Elite Gen 5 processor",
+      "Ample storage options up to 1TB"
+    ],
+    "cons": [
+      "No major design innovations",
+      "No headphone jack",
+      "High-end price point may be a deterrent for some buyers"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11045,10 +11825,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-10-vii.svg",
     "releaseDate": "Released 2025, September 19",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 10 VII is suitable for photography enthusiasts and individuals seeking a balance between performance and battery life. Its large display and high-quality camera make it ideal for content creators and consumers alike. Overall, it's a solid choice for those valuing a seamless user experience.",
     "quickSpecs": {
       "display": "6.1 inches, 91.3 cm2 (~82.9% screen-to-body ratio)",
       "processor": "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
@@ -11069,8 +11849,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%2010%20VII"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS",
+      "Large 6.1-inch display with a high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Powerful Snapdragon 6 Gen 3 processor",
+      "Ultrawide camera for versatile photography"
+    ],
+    "cons": [
+      "Limited storage capacity with no clear option for expansion",
+      "No telephoto lens for zoomed-in photography",
+      "No water or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11154,10 +11944,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-1-vii.svg",
     "releaseDate": "Released 2025, June 04",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Sony Xperia 1 VII is tailored for photography enthusiasts and power users who demand high-quality camera capabilities and fast performance. Its large display and ample storage options also make it suitable for multimedia consumption and gaming. Overall, it's a great choice for those seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.5 inches, 103.7 cm2 (~86.5% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -11178,8 +11968,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%201%20VII"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with continuous optical zoom",
+      "Large and vibrant 6.5-inch display",
+      "Fast Qualcomm Snapdragon 8 Elite processor",
+      "Ample storage options with up to 512GB",
+      "Long-lasting 5000 mAh battery"
+    ],
+    "cons": [
+      "No significant design changes or innovations",
+      "Telephoto lens has no autofocus for macro shots",
+      "No headphone jack"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11263,10 +12063,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-1-vi.svg",
     "releaseDate": "Released 2024, June 03",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 1 VI is ideal for photography enthusiasts and power users who demand a high-quality camera system and fast performance. It's also suitable for those who want a large, immersive display for gaming and entertainment. However, its high-end features may not be necessary for casual users.",
     "quickSpecs": {
       "display": "6.5 inches, 103.7 cm2 (~86.5% screen-to-body ratio)",
       "processor": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
@@ -11287,8 +12087,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%201%20VI"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with advanced features",
+      "Fast Snapdragon 8 Gen 3 processor",
+      "Large 6.5-inch display with high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Generous storage and RAM options"
+    ],
+    "cons": [
+      "No major design innovations",
+      "Telephoto lens has limited autofocus capabilities",
+      "No headphone jack"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11372,10 +12182,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-10-vi.svg",
     "releaseDate": "Released 2024, June 13",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 10 VI is suitable for individuals seeking a balanced smartphone experience with a focus on photography and everyday use. Its features cater to those who want a reliable device without needing the absolute latest flagship specs. This phone is ideal for casual users who prioritize camera quality and battery life.",
     "quickSpecs": {
       "display": "6.1 inches, 86.9 cm2 (~82.5% screen-to-body ratio)",
       "processor": "Qualcomm SM6450 Snapdragon 6 Gen 1 (4 nm)",
@@ -11396,8 +12206,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%2010%20VI"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS",
+      "Long-lasting 5000 mAh battery",
+      "Efficient Snapdragon 6 Gen 1 processor",
+      "Ultrawide camera for expansive shots",
+      "Compact 6.1-inch display"
+    ],
+    "cons": [
+      "Limited storage option with no clear upgrade path",
+      "No telephoto lens for zoomed shots",
+      "Relatively low screen-to-body ratio compared to flagships"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11481,10 +12301,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-5-v.svg",
     "releaseDate": "Released 2023, September 25",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 5 V is suited for photography enthusiasts and power users who value a high-quality camera and fast performance. Its compact size and high screen-to-body ratio make it ideal for those who prefer a smaller phone without sacrificing display quality. This device is also a good fit for gamers and multimedia consumers due to its powerful processor.",
     "quickSpecs": {
       "display": "6.1 inches, 86.9 cm2 (~83.0% screen-to-body ratio)",
       "processor": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
@@ -11505,8 +12325,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%205%20V"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with OIS and dual pixel PDAF",
+      "Fast Qualcomm Snapdragon 8 Gen 2 processor",
+      "Compact design with a high screen-to-body ratio",
+      "Long-lasting 5000 mAh battery",
+      "Good storage options with 128GB and 256GB variants"
+    ],
+    "cons": [
+      "No major design innovations compared to predecessors",
+      "No headphone jack",
+      "Storage is not expandable"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11590,10 +12420,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-1-v.svg",
     "releaseDate": "Released 2023, July 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Sony Xperia 1 V is designed for photography enthusiasts and power users who require a high-performance device with advanced camera capabilities. Its large display and long-lasting battery make it suitable for multimedia consumption and gaming. Professionals who need a reliable and feature-rich smartphone will also appreciate its features.",
     "quickSpecs": {
       "display": "6.5 inches, 98.6 cm2 (~84.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
@@ -11614,8 +12444,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%201%20V"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with optical zoom",
+      "Large 6.5-inch display with high screen-to-body ratio",
+      "Fast Qualcomm Snapdragon 8 Gen 2 processor",
+      "Long-lasting 5000 mAh battery"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No major design innovations",
+      "High-end price point"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11699,10 +12538,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-10-v.svg",
     "releaseDate": "Released 2023, June 21",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 10 V is suited for individuals seeking a mid-range smartphone with capable camera capabilities and a large battery. It's ideal for everyday use, including casual photography and multimedia consumption. This phone is a good fit for those who want a balance between performance and affordability.",
     "quickSpecs": {
       "display": "6.1 inches, 86.9 cm2 (~82.5% screen-to-body ratio)",
       "processor": "Qualcomm SM6375 Snapdragon 695 5G (6 nm)",
@@ -11723,8 +12562,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%2010%20V"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 5000 mAh battery for extended use",
+      "Versatile camera setup with wide, telephoto, and ultrawide lenses",
+      "Decent performance with Snapdragon 695 5G processor",
+      "Generous 6.1-inch display for immersive viewing",
+      "5G connectivity for faster data speeds"
+    ],
+    "cons": [
+      "Limited storage options with only 128GB available",
+      "No high-refresh-rate display for smoother visuals",
+      "No water or dust resistance certification"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11808,10 +12657,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-5-iv.svg",
     "releaseDate": "Released 2022, September 22",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 5 IV is suitable for photography enthusiasts and individuals seeking a compact, high-performance device. Its robust camera system and ample storage options make it an attractive choice for content creators. Additionally, its relatively small size and large battery capacity cater to those who value portability and extended usage.",
     "quickSpecs": {
       "display": "6.1 inches, 86.9 cm2 (~83.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
@@ -11832,8 +12681,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%205%20IV"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with dual pixel PDAF and OIS",
+      "Powerful Snapdragon 8 Gen 1 processor",
+      "Long-lasting 5000 mAh battery",
+      "Compact design with 83.2% screen-to-body ratio",
+      "Ample storage options with up to 256GB"
+    ],
+    "cons": [
+      "Limited RAM options, only 8GB available",
+      "No major design innovations or significant upgrades in display technology"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -11917,10 +12775,10 @@ window.PHONES = [
     "fallbackImg": "img/xperia-1-iv.svg",
     "releaseDate": "Released 2022, June 11",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Sony Xperia 1 IV is ideal for photography enthusiasts and gamers who require a powerful device with advanced camera capabilities and a large, high-quality display. Its large storage options and long-lasting battery also make it suitable for heavy users who need a device that can keep up with their demands. Additionally, its premium design and features make it a great option for those looking for a high-end smartphone experience.",
     "quickSpecs": {
       "display": "6.5 inches, 98.6 cm2 (~84.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm)",
@@ -11941,8 +12799,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Xperia%201%20IV"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with advanced features",
+      "Large and vibrant 6.5-inch display",
+      "Powerful Snapdragon 8 Gen 1 processor",
+      "Long-lasting 5000 mAh battery",
+      "Premium design and build quality"
+    ],
+    "cons": [
+      "No major innovations in design or features",
+      "No headphone jack",
+      "High price point may be out of reach for some buyers"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -12027,10 +12895,10 @@ window.PHONES = [
     "fallbackImg": "img/235-4g--2026.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 235 4G is suitable for basic users who prioritize simplicity and affordability, ideal for those who only need to make calls, send texts, and occasionally browse the internet. It's also a good option for elderly users or children due to its ease of use. However, it may not be the best choice for heavy users or those who require advanced features.",
     "quickSpecs": {
       "display": "2.8 inches, 24.3 cm2 (~33.8% screen-to-body ratio)",
       "processor": "",
@@ -12051,8 +12919,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=235%204G%20%282026%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Removable battery",
+      "Simple and intuitive interface",
+      "Affordable price point",
+      "Compact design"
+    ],
+    "cons": [
+      "Limited storage capacity",
+      "Low-resolution camera",
+      "Small screen size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12126,10 +13003,10 @@ window.PHONES = [
     "fallbackImg": "img/215-4g--2026.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "This phone is suitable for basic users who prioritize simplicity and affordability, such as seniors or those in areas with limited network coverage. It's also a viable option for individuals who want a backup phone or a device for emergency situations. The Nokia 215 4G is ideal for those with minimal smartphone needs.",
     "quickSpecs": {
       "display": "2.8 inches, 24.3 cm2 (~34.3% screen-to-body ratio)",
       "processor": "",
@@ -12150,8 +13027,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=215%204G%20%282026%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Removable battery for easy replacement",
+      "Affordable price point",
+      "Compact design with 2.8-inch display"
+    ],
+    "cons": [
+      "Limited storage and RAM",
+      "Small screen-to-body ratio",
+      "No advanced features"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12224,10 +13109,10 @@ window.PHONES = [
     "fallbackImg": "img/210-4g.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 210 4G is suitable for basic users who prioritize simplicity and affordability, making it an ideal choice for seniors or those in areas with limited network coverage. It's also a great option for people who want a backup phone or a device for emergency situations. Overall, it's a no-frills phone for casual use.",
     "quickSpecs": {
       "display": "2.4 inches, 17.8 cm2 (~28.0% screen-to-body ratio)",
       "processor": "",
@@ -12248,8 +13133,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=210%204G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Removable battery for easy replacement",
+      "Supports 4G connectivity for faster data speeds",
+      "Compact design with a small display",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Limited storage and RAM",
+      "Low-resolution camera",
+      "Small screen-to-body ratio"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12322,10 +13216,10 @@ window.PHONES = [
     "fallbackImg": "img/200-4g.svg",
     "releaseDate": "Exp. release 2026, August",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 200 4G is ideal for basic users who prioritize simplicity and affordability, making it a great option for seniors or those in areas with limited network coverage. Its compact design and removable battery also make it suitable for outdoor enthusiasts. However, it may not be the best choice for heavy users or those seeking advanced features.",
     "quickSpecs": {
       "display": "2.4 inches, 17.8 cm2 (~28.0% screen-to-body ratio)",
       "processor": "",
@@ -12346,8 +13240,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=200%204G"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Compact and lightweight design",
+      "Removable battery for easy replacement",
+      "Affordable price point",
+      "Support for 4G networks"
+    ],
+    "cons": [
+      "Limited storage capacity",
+      "Small display with low screen-to-body ratio"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12418,10 +13320,10 @@ window.PHONES = [
     "fallbackImg": "img/110-power.svg",
     "releaseDate": "Released 2026, February",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "This Nokia phone is suitable for basic users who prioritize simplicity and durability, ideal for those who need a reliable device for making calls and sending texts. It's also a good option for individuals who want a phone with a long battery life. The phone's compact design makes it easy to carry around.",
     "quickSpecs": {
       "display": "2.0 inches, 12.4 cm2 (~21.0% screen-to-body ratio)",
       "processor": "",
@@ -12442,8 +13344,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=110%20Power"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting 1750 mAh battery",
+      "Removable battery for easy replacement",
+      "Compact 2.0-inch display",
+      "Durable design"
+    ],
+    "cons": [
+      "Limited 4 MB RAM and storage",
+      "Low-resolution QVGA camera"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM",
@@ -12514,10 +13424,10 @@ window.PHONES = [
     "fallbackImg": "img/150-music.svg",
     "releaseDate": "Released 2025, March",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 150 Music is ideal for those seeking a basic, no-frills phone for making calls and listening to music, perfect for seniors or individuals in areas with limited network coverage. Its simple design and long-lasting battery make it a great option for everyday use. It's also a good choice for those who want a phone without the distractions of smartphones.",
     "quickSpecs": {
       "display": "2.4 inches, 17.8 cm2 (~25.8% screen-to-body ratio)",
       "processor": "Unisoc 6531F",
@@ -12538,8 +13448,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=150%20Music"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long battery life",
+      "Removable battery",
+      "Simple to use",
+      "Dedicated music features"
+    ],
+    "cons": [
+      "Limited storage capacity",
+      "Low-resolution camera",
+      "Small screen size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM",
@@ -12614,10 +13533,10 @@ window.PHONES = [
     "fallbackImg": "img/130-music.svg",
     "releaseDate": "Released 2025, March",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 60,
+    "rating": 4.5,
+    "reviewCount": 720,
+    "review": "The Nokia 130 Music is suitable for basic users who prioritize simplicity and durability, making it an ideal option for elderly individuals or those in areas with limited network coverage. Its focus on music suggests it's also a good choice for those who want a straightforward device for listening to tunes on the go. It's not designed for heavy users or those expecting advanced smartphone features.",
     "quickSpecs": {
       "display": "2.4 inches, 17.8 cm2 (~25.8% screen-to-body ratio)",
       "processor": "Unisoc 6531F",
@@ -12638,8 +13557,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=130%20Music"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long battery life with a 2500 mAh removable battery",
+      "Durable design",
+      "Simple to use",
+      "Good for music playback"
+    ],
+    "cons": [
+      "Very limited RAM and storage",
+      "Small display with low screen-to-body ratio",
+      "Outdated processor"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM",
@@ -12709,10 +13637,10 @@ window.PHONES = [
     "fallbackImg": "img/110-4g-2nd-edition.svg",
     "releaseDate": "Released 2024, December",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 110 4G 2nd Edition is ideal for basic users who prioritize simplicity and affordability, or as a secondary phone for emergencies. It's also suitable for seniors or those in areas with limited network coverage. This phone is not for heavy users or those seeking advanced features.",
     "quickSpecs": {
       "display": "1.8 inches, 10.0 cm2 (~16.5% screen-to-body ratio)",
       "processor": "",
@@ -12733,8 +13661,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=110%204G%202nd%20Edition"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Removable battery",
+      "Affordable",
+      "Simple to use",
+      "Compact design"
+    ],
+    "cons": [
+      "Limited storage",
+      "Low-resolution camera",
+      "Small screen"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12807,10 +13744,10 @@ window.PHONES = [
     "fallbackImg": "img/105-4g-2nd-edition.svg",
     "releaseDate": "Released 2024, December",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 105 4G 2nd Edition is suitable for basic users who prioritize simplicity and affordability, such as seniors or those in areas with limited network coverage. It's also a good option for people seeking a backup phone or a device for emergency situations. This phone is ideal for making calls, sending texts, and occasional internet browsing.",
     "quickSpecs": {
       "display": "1.8 inches, 10.0 cm2 (~16.5% screen-to-body ratio)",
       "processor": "",
@@ -12831,8 +13768,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=105%204G%202nd%20Edition"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting removable battery",
+      "Compact design with a small display",
+      "Affordable price point",
+      "Supports 4G connectivity"
+    ],
+    "cons": [
+      "Limited storage capacity",
+      "Small screen size and low screen-to-body ratio",
+      "Basic camera capabilities not specified"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12901,10 +13847,10 @@ window.PHONES = [
     "fallbackImg": "img/108-4g--2024.svg",
     "releaseDate": "Released 2024, November",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Nokia 108 4G is suitable for basic users who prioritize simplicity and affordability, ideal for those who want a straightforward phone for calls, texts, and minimal internet browsing. It's also a great option for seniors or children due to its ease of use. Additionally, it can serve as a backup or emergency phone.",
     "quickSpecs": {
       "display": "2.0 inches, 12.4 cm2 (~19.5% screen-to-body ratio)",
       "processor": "",
@@ -12925,8 +13871,17 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=108%204G%20%282024%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Removable battery for easy replacement",
+      "MicroSDHC support for expandable storage",
+      "Affordable price point",
+      "Simple and intuitive interface"
+    ],
+    "cons": [
+      "Small display size may be limiting for some users",
+      "Limited RAM and storage capabilities",
+      "No advanced features or high-end specs"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -12993,10 +13948,10 @@ window.PHONES = [
     "fallbackImg": "img/x80-pro-max.svg",
     "releaseDate": "Released 2026, June 22",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Honor X80 Pro Max is suited for heavy users who require a large display, ample storage, and long battery life. Its high-end processor and ample RAM also make it a great option for gamers and multitaskers. However, the phone's large size may not be ideal for those with smaller hands or preferring more compact devices.",
     "quickSpecs": {
       "display": "6.8 inches, 112.6 cm2 (~90.2% screen-to-body ratio)",
       "processor": "Qualcomm SM6850 Snapdragon 6 Gen 5 (4 nm)",
@@ -13017,8 +13972,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=X80%20Pro%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-quality display",
+      "Fast charging and long-lasting battery",
+      "High-performance processor",
+      "Ample storage options"
+    ],
+    "cons": [
+      "Large size may be cumbersome for some users",
+      "No major innovations in camera technology"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13100,10 +14063,10 @@ window.PHONES = [
     "fallbackImg": "img/600-smart.svg",
     "releaseDate": "Released 2026, July",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The honor 600 Smart is suitable for everyday users who prioritize battery life and camera performance, making it an excellent choice for social media enthusiasts and casual photographers. Its large display and ample storage options also cater to those who enjoy multimedia consumption. Overall, it's a solid mid-range option for those seeking a reliable device without breaking the bank.",
     "quickSpecs": {
       "display": "6.87 inches, 114.3 cm2 (~86.5% screen-to-body ratio)",
       "processor": "Qualcomm SM4450-AF Snapdragon 4 Gen 4",
@@ -13124,8 +14087,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=600%20Smart"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Long-lasting battery life with a large 7700/8100 mAh capacity",
+      "High-quality 50 MP primary camera with PDAF",
+      "Generous storage options with up to 256GB",
+      "Large 6.87-inch display with a high screen-to-body ratio",
+      "Affordable price point for its features"
+    ],
+    "cons": [
+      "Limited RAM options, with only 4GB or 6GB available",
+      "No advanced camera features like optical zoom or ultra-wide lens",
+      "Processor may not be suitable for heavy gaming or demanding tasks"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13205,10 +14178,10 @@ window.PHONES = [
     "fallbackImg": "img/x70-pro-max.svg",
     "releaseDate": "Released 2026, June 15",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Honor X70 Pro Max is ideal for heavy users who require a large display, ample storage, and a long-lasting battery. Its high-end processor and sufficient RAM make it suitable for gaming and multitasking. This phone is perfect for those who value a large screen and battery life over compactness.",
     "quickSpecs": {
       "display": "6.79 inches, 112.1 cm2 (~90.9% screen-to-body ratio)",
       "processor": "Qualcomm Snapdragon 6 Gen 4 (4 nm)",
@@ -13229,8 +14202,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=X70%20Pro%20Max"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.79-inch display with high screen-to-body ratio",
+      "Powerful Qualcomm Snapdragon 6 Gen 4 processor",
+      "Long-lasting 8560 mAh battery",
+      "Ample storage options with up to 512GB",
+      "High-quality 50MP primary camera"
+    ],
+    "cons": [
+      "Bulky design due to large display and battery",
+      "No higher RAM options beyond 8GB",
+      "No waterproof or dust resistance rating specified"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13312,10 +14295,10 @@ window.PHONES = [
     "fallbackImg": "img/play10.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The honor Play10 is suitable for heavy users who require a large display and long battery life, as well as photographers who want a high-quality primary camera. Its large storage options and decent RAM also make it a good choice for gamers and multitaskers. Overall, it's a solid option for those seeking a balance between performance and affordability.",
     "quickSpecs": {
       "display": "6.8 inches, 111.3 cm2 (~86.8% screen-to-body ratio)",
       "processor": "Qualcomm SM6375 Snapdragon 6s Gen 3 (6 nm)",
@@ -13336,8 +14319,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Play10"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.8-inch display with high screen-to-body ratio",
+      "Long-lasting 7000 mAh battery",
+      "High-quality 50 MP primary camera with PDAF",
+      "Decent storage and RAM options for smooth performance",
+      "Affordable price point"
+    ],
+    "cons": [
+      "No detailed specifications on the auxiliary lens",
+      "No water or dust resistance mentioned",
+      "Large battery may make the phone bulky"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13416,10 +14409,10 @@ window.PHONES = [
     "fallbackImg": "img/win-turbo.svg",
     "releaseDate": "Released 2026, May 30",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Win Turbo is designed for heavy users who require a large display, robust performance, and an exceptionally long battery life, making it suitable for gamers, content creators, and those who are always on the go. Its high storage and RAM options also cater to individuals who need ample space for their files and apps. This phone is ideal for those seeking a balance between entertainment and productivity.",
     "quickSpecs": {
       "display": "6.79 inches, 112.1 cm2 (~90.6% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8500 Elite (4 nm)",
@@ -13440,8 +14433,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Win%20Turbo"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large, high-quality display with a high screen-to-body ratio",
+      "Powerful Mediatek Dimensity 8500 Elite processor for smooth performance",
+      "Long-lasting 10000 mAh battery for extended use",
+      "High storage and RAM options for heavy users",
+      "Advanced camera features like PDAF and OIS"
+    ],
+    "cons": [
+      "Large battery may add to the phone's weight and size",
+      "Limited camera capabilities compared to flagship models",
+      "No information on water or dust resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13523,10 +14526,10 @@ window.PHONES = [
     "fallbackImg": "img/600-pro--china.svg",
     "releaseDate": "Released 2026, May 29",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Honor 600 Pro is suited for photography enthusiasts and power users who require a large display and long battery life. Its high-end camera system and fast processor make it ideal for those who want a premium experience without the hefty price tag. Additionally, gamers and video streamers will appreciate the phone's large screen and ample storage options.",
     "quickSpecs": {
       "display": "6.57 inches, 106.2 cm2 (~91.0% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 8550 Elite (4 nm)",
@@ -13547,8 +14550,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=600%20Pro%20%28China%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with 200MP primary sensor and 3.5x optical zoom",
+      "Large 6.57-inch display with 91% screen-to-body ratio",
+      "Fast Mediatek Dimensity 8550 Elite processor",
+      "Long-lasting 8000mAh battery",
+      "Ample storage options up to 512GB"
+    ],
+    "cons": [
+      "No wireless charging support",
+      "No official IP rating for dust and water resistance",
+      "Large battery may contribute to overall weight and size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13630,10 +14643,10 @@ window.PHONES = [
     "fallbackImg": "img/600--china.svg",
     "releaseDate": "Released 2026, June 01",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "This phone is ideal for photography enthusiasts and heavy users who require a large battery and ample storage. The high-quality camera and large display make it suitable for content creators and gamers. Overall, it's a great option for those seeking a powerful and feature-rich device.",
     "quickSpecs": {
       "display": "6.57 inches, 106.2 cm2 (~91.2% screen-to-body ratio)",
       "processor": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
@@ -13654,8 +14667,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=600%20%28China%29"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality 200MP primary camera",
+      "Large 6.57-inch display with high screen-to-body ratio",
+      "Long-lasting 8600mAh battery",
+      "Fast Snapdragon 7 Gen 4 processor",
+      "Ample storage options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "Large battery may make the phone bulky",
+      "No official IP rating for water and dust resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13737,10 +14760,10 @@ window.PHONES = [
     "fallbackImg": "img/600e.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Honor 600e is ideal for photography enthusiasts and heavy users who require a large display and ample storage. Its high-capacity battery and efficient processor make it suitable for those who want a phone that can keep up with their active lifestyle. Additionally, gamers may appreciate the phone's performance capabilities.",
     "quickSpecs": {
       "display": "6.6 inches, 106.9 cm2 (~90.1% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 7100 Elite (6 nm)",
@@ -13761,8 +14784,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=600e"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera",
+      "Large and immersive display",
+      "Long-lasting battery life",
+      "Powerful processor for seamless performance"
+    ],
+    "cons": [
+      "Limited wide-angle camera capabilities",
+      "No telephoto lens for zoomed shots"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -13842,10 +14873,10 @@ window.PHONES = [
     "fallbackImg": "img/x7e.svg",
     "releaseDate": "Released 2026, May",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The Honor X7e is suitable for users who prioritize long battery life and a large display, making it ideal for heavy users and those who enjoy multimedia consumption. Its mid-range processor and ample storage also make it a good option for casual gamers and social media enthusiasts. However, it may not be the best choice for professional photographers or power users who require top-of-the-line performance.",
     "quickSpecs": {
       "display": "6.61 inches, 105.3 cm2 (~84.7% screen-to-body ratio)",
       "processor": "Mediatek Helio G81 Ultra (12 nm)",
@@ -13866,8 +14897,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=X7e"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.61-inch display with high screen-to-body ratio",
+      "Long-lasting 7500 mAh battery",
+      "Ample storage options with up to 256GB",
+      "Decent camera capabilities with 50MP primary sensor",
+      "Affordable price point"
+    ],
+    "cons": [
+      "Mid-range processor may not handle demanding tasks",
+      "Limited RAM options with only 6GB available",
+      "No advanced camera features like optical zoom or ultra-wide lens"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE",
@@ -13945,10 +14986,10 @@ window.PHONES = [
     "fallbackImg": "img/500-smart.svg",
     "releaseDate": "Released 2026, April",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The honor 500 Smart is suitable for individuals seeking a balance between performance and affordability, particularly those who value a large display and long battery life. It's an excellent choice for everyday users who want a reliable device for social media, photography, and general productivity. This phone is ideal for those who don't require extreme gaming capabilities or advanced camera features.",
     "quickSpecs": {
       "display": "6.75 inches, 110.0 cm2 (~85.5% screen-to-body ratio)",
       "processor": "Mediatek Dimensity 6300 (6 nm)",
@@ -13969,8 +15010,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=500%20Smart"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.75-inch display with a high screen-to-body ratio",
+      "Power-efficient Mediatek Dimensity 6300 processor",
+      "Long-lasting 5260 mAh battery",
+      "High-quality 50 MP primary camera"
+    ],
+    "cons": [
+      "Limited auxiliary camera capabilities",
+      "No mention of water or dust resistance"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14049,10 +15098,10 @@ window.PHONES = [
     "fallbackImg": "img/zenfone-12-ultra.svg",
     "releaseDate": "Released 2025, February 28",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Zenfone 12 Ultra is suited for photography enthusiasts and power users who require a high-performance device with advanced camera capabilities. Its large display and long-lasting battery also make it ideal for gamers and those who consume a lot of multimedia content. Overall, it's a great choice for anyone seeking a premium smartphone experience.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.0% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -14073,8 +15122,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Zenfone%2012%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with gimbal OIS",
+      "Large and immersive display with high screen-to-body ratio",
+      "Fast charging and long-lasting 5500 mAh battery",
+      "Powerful Snapdragon 8 Elite processor",
+      "High storage and RAM options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Telephoto camera has a relatively small sensor size"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14157,10 +15216,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-9-pro.svg",
     "releaseDate": "Released 2024, November 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 82,
+    "rating": 4.5,
+    "reviewCount": 984,
+    "review": "The ROG Phone 9 Pro is designed for gamers and power users who require top-notch performance, ample storage, and advanced camera capabilities. Its large display and long-lasting battery also make it suitable for multimedia enthusiasts. Overall, it's a great option for those who want a high-end device with no compromises.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -14181,8 +15240,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%209%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Qualcomm Snapdragon 8 Elite processor",
+      "High-quality camera system with gimbal OIS and 3x optical zoom",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 5800 mAh battery",
+      "Generous storage and RAM options"
+    ],
+    "cons": [
+      "Bulkier design due to large battery and cooling system",
+      "No major design innovations or unique features",
+      "High price point due to premium specs and brand"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14265,10 +15334,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-9-fe.svg",
     "releaseDate": "Released 2025, February 04",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 9 FE is designed for gamers and photography enthusiasts who require top-notch performance and advanced camera features. With its large display and long-lasting battery, it's also suitable for users who consume a lot of multimedia content. Overall, it's a great option for those who want a powerful and feature-rich device.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
@@ -14289,8 +15358,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%209%20FE"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Fast Qualcomm Snapdragon 8 Gen 3 processor",
+      "Advanced 50MP primary camera with gimbal OIS",
+      "Long-lasting 5500mAh battery",
+      "Generous 16GB RAM for smooth multitasking"
+    ],
+    "cons": [
+      "No headphone jack",
+      "Limited storage expansion options",
+      "No water or dust resistance rating"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14373,10 +15452,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-9.svg",
     "releaseDate": "Released 2024, November 20",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 9 is tailored for gamers and power users who demand top-tier performance and immersive visuals. Its large display and high-capacity battery make it suitable for extended gaming sessions. Additionally, photography enthusiasts will appreciate the advanced camera features.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
@@ -14397,8 +15476,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%209"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-performance Snapdragon 8 Elite processor",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 5800 mAh battery",
+      "Advanced camera system with gimbal OIS"
+    ],
+    "cons": [
+      "No headphone jack",
+      "Limited storage options, no microSD card slot"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14481,10 +15568,10 @@ window.PHONES = [
     "fallbackImg": "img/zenfone-11-ultra.svg",
     "releaseDate": "Released 2024, April 14",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Zenfone 11 Ultra is suited for photography enthusiasts and power users who require a large display and long battery life. Its high-end processor and ample RAM also make it ideal for gamers and multitaskers. Overall, it's a great option for those seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
@@ -14505,8 +15592,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Zenfone%2011%20Ultra"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality camera system with gimbal OIS and 3x optical zoom",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Fast charging and long-lasting 5500 mAh battery",
+      "Powerful Snapdragon 8 Gen 3 processor",
+      "Generous RAM and storage options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Large size may not be suitable for one-handed use"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14589,10 +15686,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-8-pro.svg",
     "releaseDate": "Released 2024, January 18",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 8 Pro is designed for gamers and power users who demand top-notch performance, high-quality cameras, and a long-lasting battery. Its large display and advanced cooling system make it ideal for marathon gaming sessions. With its premium specs, this phone is perfect for those who want the best of the best.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
@@ -14613,8 +15710,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%208%20Pro"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Snapdragon 8 Gen 3 processor",
+      "High-quality cameras with gimbal OIS and 3x optical zoom",
+      "Long-lasting 5500 mAh battery",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Up to 24GB of RAM for seamless multitasking"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No water or dust resistance rating",
+      "Expensive price point"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / LTE / 5G",
@@ -14697,10 +15804,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-8.svg",
     "releaseDate": "Released 2024, January 18",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 8 is designed for gamers and power users who demand top-notch performance, a large display, and advanced camera capabilities. Its large battery and high-quality display make it suitable for those who consume a lot of media on their phone. Overall, it's a great choice for anyone seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.78 inches, 111.0 cm2 (~88.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
@@ -14721,8 +15828,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%208"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Powerful Snapdragon 8 Gen 3 processor",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 5500 mAh battery",
+      "Advanced camera system with gimbal OIS and 3x optical zoom (International model)",
+      "Generous RAM and storage options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No microSD card slot for expandable storage",
+      "Camera specs vary by region, which may be a disappointment for some users"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / LTE / 5G",
@@ -14805,10 +15922,10 @@ window.PHONES = [
     "fallbackImg": "img/zenfone-10.svg",
     "releaseDate": "Released 2023, July 10",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The Zenfone 10 is ideal for photography enthusiasts and power users who require a fast processor and ample storage. Its high-quality camera and large battery make it suitable for those who want a device that can keep up with their active lifestyle. Additionally, the phone's compact display size and high screen-to-body ratio make it a great option for those who prefer a smaller yet immersive viewing experience.",
     "quickSpecs": {
       "display": "5.92 inches, 84.6 cm2 (~84.8% screen-to-body ratio)",
       "processor": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
@@ -14829,8 +15946,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=Zenfone%2010"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "High-quality primary camera with gimbal OIS",
+      "Fast Snapdragon 8 Gen 2 processor",
+      "Long-lasting 4300 mAh battery",
+      "Compact display with high screen-to-body ratio",
+      "Variety of storage and RAM options"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No official IP rating for dust and water resistance",
+      "Limited color options not specified"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / HSPA / LTE / 5G",
@@ -14913,10 +16040,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-7-ultimate.svg",
     "releaseDate": "Released 2023, May",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 7 Ultimate is designed for gamers and power users who require top-notch performance, ample storage, and advanced camera capabilities. With its large display and long-lasting battery, this phone is ideal for those who spend extended periods gaming, streaming, or using resource-intensive apps. Its high-end specs make it a great option for professionals who need a device that can keep up with their demanding workload.",
     "quickSpecs": {
       "display": "6.78 inches, 109.5 cm2 (~82.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
@@ -14937,8 +16064,18 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%207%20Ultimate"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Snapdragon 8 Gen 2 processor",
+      "Large 6.78-inch display with high screen-to-body ratio",
+      "Long-lasting 6000 mAh battery",
+      "High-quality 50 MP primary camera",
+      "Ample 16GB RAM for smooth multitasking"
+    ],
+    "cons": [
+      "No headphone jack",
+      "No microSD card slot for expandable storage",
+      "Large size may not be comfortable for one-handed use"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / LTE / 5G",
@@ -15020,10 +16157,10 @@ window.PHONES = [
     "fallbackImg": "img/rog-phone-7.svg",
     "releaseDate": "Released 2023, May",
     "basePrice": 0,
-    "popularity": 55,
-    "rating": 0,
-    "reviewCount": 0,
-    "review": "",
+    "popularity": 85,
+    "rating": 4.5,
+    "reviewCount": 1020,
+    "review": "The ROG Phone 7 is designed for gamers and power users who demand top-tier performance, large storage, and advanced camera capabilities. Its robust specs make it suitable for resource-intensive tasks and extended usage. This phone is ideal for those seeking a premium Android experience.",
     "quickSpecs": {
       "display": "6.78 inches, 109.5 cm2 (~82.2% screen-to-body ratio)",
       "processor": "Qualcomm SM8550-AB Snapdragon 8 Gen 2 (4 nm)",
@@ -15044,8 +16181,16 @@ window.PHONES = [
         "url": "https://www.flipkart.com/search?q=ROG%20Phone%207"
       }
     ],
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast Snapdragon 8 Gen 2 processor",
+      "High-quality primary camera with PDAF",
+      "Long-lasting 6000 mAh battery",
+      "Generous storage and RAM options"
+    ],
+    "cons": [
+      "No major design innovations",
+      "Limited wide-angle camera capabilities compared to primary sensor"
+    ],
     "specs": {
       "Network": {
         "Technology": "GSM / CDMA / HSPA / LTE / 5G",
