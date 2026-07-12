@@ -15,6 +15,7 @@ map_phone() below (one place).
 ========================================================================
 """
 import json
+import re
 import sys
 import time
 import urllib.request
@@ -94,20 +95,27 @@ def map_phone(detail, brand_slug):
     }
 
 
-def discover_brand_slug(base, brand):
-    res = api_get(base, "/v2/brands")
-    items = (res.get("data") or {}).get("brands") or res.get("data") or []
+def discover_brand_slug(base, prefix, brand):
+    res = api_get(base, f"{prefix}/brands")
+    data = res.get("data")
+    items = data.get("brands") if isinstance(data, dict) else (data or [])
     for b in items:
         slug = b.get("brand_slug") or b.get("slug") or ""
         name = (b.get("brand_name") or b.get("name") or "").lower()
-        if brand.lower() in slug.lower() or brand.lower() == name:
+        # match exact brand name or the leading token of the slug (e.g. 'apple-phones-48')
+        if brand.lower() == name or slug.lower().startswith(brand.lower() + "-"):
             return slug, (b.get("brand_name") or brand.title())
     return None, brand.title()
 
 
-def list_phones(base, brand_slug, limit):
-    res = api_get(base, f"/v2/brands/{brand_slug}")
-    phones = (res.get("data") or {}).get("phones") or []
+SKIP_RE = re.compile(r"\b(iPad|Tab|Tablet|Watch|Book|Band|Buds|Pad|TV|Glass)\b", re.I)
+
+
+def list_phones(base, prefix, brand_slug, limit):
+    res = api_get(base, f"{prefix}/brands/{brand_slug}")
+    data = res.get("data")
+    phones = data.get("phones") if isinstance(data, dict) else (data or [])
+    phones = [p for p in phones if not SKIP_RE.search(p.get("phone_name", ""))]
     return phones[:limit]
 
 
@@ -116,26 +124,27 @@ def main():
     dry = "--dry-run" in args
     cfg = C.load_config()
     base = cfg["specs_api_base"]
+    prefix = cfg.get("specs_api_prefix", "/v2")
     want = cfg.get("brands", [])
     cap = int(cfg.get("max_phones_per_brand", 12))
 
-    print(f"[import] specs API: {base}")
+    print(f"[import] specs API: {base}{prefix or '/'}")
     brands_out, phones_out = [], []
 
     for brand in want:
         try:
-            slug, display = discover_brand_slug(base, brand)
+            slug, display = discover_brand_slug(base, prefix, brand)
             if not slug:
                 print(f"  ! brand '{brand}' not found, skipping")
                 continue
             brands_out.append({"id": brand, "name": display, "logo": C.BRAND_EMOJI.get(brand, "📱")})
-            listing = list_phones(base, slug, cap)
+            listing = list_phones(base, prefix, slug, cap)
             print(f"  {display}: {len(listing)} phones")
             for entry in listing:
                 pslug = entry.get("slug") or entry.get("phone_slug")
                 if not pslug:
                     continue
-                detail = api_get(base, f"/v2/{pslug}")
+                detail = api_get(base, f"{prefix}/{pslug}")
                 if dry:
                     print(json.dumps(detail, indent=2)[:1500])
                     print("\n--- mapped ---")

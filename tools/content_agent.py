@@ -175,7 +175,7 @@ def main():
                 "popularity": int(clamp(out.get("popularity"), 40, 99, 60)),
             }
             done += 1
-            print(f"  ✓ {p['name']}")
+            print("  ok " + p["name"].encode("ascii", "replace").decode())
             C.write_json("content.json", cache)  # save incrementally
             time.sleep(0.5)
         except Exception as e:  # noqa

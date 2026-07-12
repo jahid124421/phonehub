@@ -76,7 +76,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=oppo</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=nothing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -91,12 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=motorola</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=oppo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=asus</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=motorola</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -116,677 +116,707 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xs-max.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/search.html?brand=asus</loc>
     <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-17e.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-17-pro-max.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-17-pro.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-air.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-17.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-16e.html</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xs.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-16-pro-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-xr.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-16-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-16-plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-8-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iphone-16.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-8.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-m47.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-a27.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-a57.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-se.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-a37.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6s-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-m17e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-s26-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/apple-iphone-6-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-s26.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-fold.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-s26.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10-5g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-f70e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/galaxy-a07.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-s10e.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-10a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-m30.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-10-pro-fold.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a50.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-10-pro-xl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a30.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-10-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-m20.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a8s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-9a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-a9--2018.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-9-pro-xl.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/samsung-galaxy-note9.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-9-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-3-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/pixel-9-pro-fold.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-2-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/redmi-k90-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/redmi-17c.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel-xl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/17t-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/google-pixel.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/17t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-7-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/17-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-mix-3-5g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/poco-c81-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9-explorer.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/poco-c81.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9-se.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/poco-c81x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-9.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/redmi-k90-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/redmi-a7-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/n6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-mix-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/turbo-6x-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-black-shark-helo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/turbo-6x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-redmi-note-6-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nord-ce6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-8-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nord-ce6-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/xiaomi-mi-8-lite.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/ace-6-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6t-mclaren.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/nord-6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/15t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-6.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/turbo-6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-5t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/turbo-6v.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-5.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--4b.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-3t.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--4a--pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oneplus-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--4a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f11.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--3a--lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f11-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-r15x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/cmf-phone-2-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-rx17-neo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--3a--pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-k1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--3a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-a7x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/phone--2a--plus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-rx17-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/cmf-phone-1.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-r17.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/y500.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-f9--f9-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iqoo-z11i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-a3s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/x-fold6.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-find-x-lamborghini.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iqoo-pad5c.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/oppo-find-x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/v70-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v15.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/s60.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-iqoo.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/s60e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v15-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/t5.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-dual-display.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/y600-turbo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-z3i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/iqoo-15t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v11i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/p4x-4g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x23.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/p4r.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-v11--v11-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/16t.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-s.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/c100x.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-nex-a.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/c100i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x21i.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/narzo-100-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/vivo-x21-ud.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/c100-4g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/realme-3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/c100.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/realme-u1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/p4-lite.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/realme-2-pro.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/note-80.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16c.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-power.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g7-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16-fs.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-one--p30-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16-f.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-one-power--p30-note.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16-pro--china.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-z3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/reno16--china.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-z3-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/find-x9-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/find-x9s-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/find-x9s.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-e5.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g77-power.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/motorola-moto-g6-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-pro--m2--zb631kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/edge--2026.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max--m1--zb556kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/edge-70-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-rog-phone.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g87.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-pro--m1--zb601kl-zb602k.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g47.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5z-zs620kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g37-power.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5-ze620kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/moto-g37.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-5-lite-zc600kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/razr-ultra-2026.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max--m1--zb555kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/razr-70-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-max-plus--m1--zb570tl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-1-viii.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-v-v520kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-10-vii.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-4-pro-zs551kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-1-vii.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/asus-zenfone-4-ze554kl.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-1-vi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-10-vi.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-10-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-5-v.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-1-v.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-l3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-10-v.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz3.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-5-iv.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/xperia-1-iv.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2-premium.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/235-4g--2026.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/215-4g--2026.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz2-compact.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/210-4g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2-ultra.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/200-4g.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xa2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/110-power.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/sony-xperia-xz1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/150-music.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-9-pureview.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/130-music.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-3-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/110-4g-2nd-edition.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8-1--nokia-x7.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/105-4g-2nd-edition.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-106--2018.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/108-4g--2024.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-7-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/x80-pro-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-6-1-plus--nokia-x6.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/600-smart.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-5-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/x70-pro-max.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-3-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/play10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-2-1.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/win-turbo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8110-4g.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/600-pro--china.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-8-sirocco.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/600--china.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/nokia-7-plus.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/600e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-magic-2-3d.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/x7e.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-view-20.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/500-smart.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-magic-2.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/zenfone-12-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-10-lite.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-9-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-8c.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-9-fe.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-8x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-9.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-8x-max.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/zenfone-11-ultra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-note-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-8-pro.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-play.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-8.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/zenfone-10.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-7x.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-7-ultimate.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/honor-view-10.html</loc>
+    <loc>https://jahid124421.github.io/phonehub/phone/rog-phone-7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
