@@ -539,6 +539,56 @@
       "id": "maserati",
       "name": "Maserati",
       "logo": "📱"
+    },
+    {
+      "id": "saab",
+      "name": "Saab",
+      "logo": "📱"
+    },
+    {
+      "id": "kia",
+      "name": "Kia",
+      "logo": "📱"
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "logo": "📱"
+    },
+    {
+      "id": "avtovaz",
+      "name": "AvtoVAZ",
+      "logo": "📱"
+    },
+    {
+      "id": "lmx",
+      "name": "LMX",
+      "logo": "📱"
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai",
+      "logo": "📱"
+    },
+    {
+      "id": "isuzu",
+      "name": "Isuzu",
+      "logo": "📱"
+    },
+    {
+      "id": "checker",
+      "name": "Checker",
+      "logo": "📱"
+    },
+    {
+      "id": "alpina",
+      "name": "Alpina",
+      "logo": "📱"
+    },
+    {
+      "id": "zündapp",
+      "name": "Zündapp",
+      "logo": "📱"
     }
   ],
   "phones": [
@@ -32412,6 +32462,2437 @@
         },
         "Misc": {
           "Brand": "Maserati",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-j7--2017",
+      "brand": "samsung",
+      "name": "Samsung Galaxy J7 (2017)",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20J7%20%282017%29.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20J7%20%282017%29.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a8--2018",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A8 (2018)",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8%20%282018%29.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8%20%282018%29.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        },
+        "Platform": {
+          "OS": "Android Oreo"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-j1-nxt",
+      "brand": "samsung",
+      "name": "Samsung Galaxy J1 Nxt",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20j106.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20j106.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-j4",
+      "brand": "samsung",
+      "name": "Samsung Galaxy J4",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC%20%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A%20%D8%AC%D9%8A%204.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B3%D8%A7%D9%85%D8%B3%D9%88%D9%86%D8%AC%20%D8%AC%D9%84%D8%A7%D9%83%D8%B3%D9%8A%20%D8%AC%D9%8A%204.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-j8",
+      "brand": "samsung",
+      "name": "Samsung Galaxy J8",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20J8.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20galaxy%20J8.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a8s",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A8s",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8s.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8s.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-fold",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Fold",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Fold.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Fold.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a30",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A30",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A30.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A30.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-note-10",
+      "brand": "samsung",
+      "name": "Samsung Galaxy Note 10+",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note%2010%2B.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20Note%2010%2B.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-s20-ultra",
+      "brand": "samsung",
+      "name": "Samsung Galaxy S20 Ultra",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20S20%20Ultra.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20S20%20Ultra.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a5--2017",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A5 (2017)",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A5%20box%2C%20Winschoten%20%282019%29%2002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A5%20box%2C%20Winschoten%20%282019%29%2002.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-c9-pro",
+      "brand": "samsung",
+      "name": "Samsung Galaxy C9 Pro",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20C9%20Pro.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20C9%20Pro.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a3",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A3",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A3%202017.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A3%202017.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a40",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A40",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20A40.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20A40.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a80",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A80",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA80Phone%20Transparent.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA80Phone%20Transparent.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a70",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A70",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA70Phone.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GalaxyA70Phone.png?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "samsung-galaxy-a8-star",
+      "brand": "samsung",
+      "name": "Samsung Galaxy A8 Star",
+      "category": "phone",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8%20Star.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Samsung%20Galaxy%20A8%20Star.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Samsung",
+          "Category": "Phone"
+        }
+      }
+    },
+    {
+      "id": "auto-250-gte",
+      "brand": "ferrari",
+      "name": "250 GTE",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/250gte.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/250gte.jpg?width=500"
+      ],
+      "releaseDate": "1963-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1963-01-01"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-250-testarossa",
+      "brand": "ferrari",
+      "name": "250 Testarossa",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RL%201958%20Ferrari%20250%20Testa%20Rossa%2034.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/RL%201958%20Ferrari%20250%20Testa%20Rossa%2034.JPG?width=500"
+      ],
+      "releaseDate": "1957-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1957-01-01"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-340",
+      "brand": "ferrari",
+      "name": "Ferrari 340",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20340%20MM%20%281953%29%20crop.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20340%20MM%20%281953%29%20crop.jpg?width=500"
+      ],
+      "releaseDate": "1953-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1953-01-01"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-375-mm",
+      "brand": "ferrari",
+      "name": "Ferrari 375 MM",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20375%20mm.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20375%20mm.jpg?width=500"
+      ],
+      "releaseDate": "1953-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1953-01-01"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-255-s",
+      "brand": "ferrari",
+      "name": "255 S",
+      "category": "auto",
+      "image": "",
+      "images": [],
+      "releaseDate": "1952-01-01",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "1952-01-01"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-d",
+      "brand": "audi",
+      "name": "Audi Type D",
+      "category": "auto",
+      "image": "",
+      "images": [],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-e",
+      "brand": "audi",
+      "name": "Audi Type E",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20E%20%281923%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20E%20%281923%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-g",
+      "brand": "audi",
+      "name": "Audi Type G",
+      "category": "auto",
+      "image": "",
+      "images": [],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-k",
+      "brand": "audi",
+      "name": "Audi Type K",
+      "category": "auto",
+      "image": "",
+      "images": [],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-type-127",
+      "brand": "peugeot",
+      "name": "Peugeot Type 127",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%20127%2003.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%20127%2003.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9000",
+      "brand": "saab",
+      "name": "Saab 9000",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB9000.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB9000.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-kia-pride",
+      "brand": "kia",
+      "name": "Kia Pride",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kia%20Pride%20front%2020071204.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Kia%20Pride%20front%2020071204.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Kia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-fulvia",
+      "brand": "fiat",
+      "name": "Lancia Fulvia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20SAG%20-%20Lancia%20Fulvia%20Coup%C3%A9%20I%201967-01.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20SAG%20-%20Lancia%20Fulvia%20Coup%C3%A9%20I%201967-01.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ss-jaguar-100",
+      "brand": "jaguar",
+      "name": "SS Jaguar 100",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SS%20Jaguar%20100%20-%202%C2%BD%20Litre%201938.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SS%20Jaguar%20100%20-%202%C2%BD%20Litre%201938.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Jaguar",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-alfa-romeo-147",
+      "brand": "alfa",
+      "name": "Alfa Romeo 147",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%20147%20II.%20Facelift%2020090808%20front.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%20147%20II.%20Facelift%2020090808%20front.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Alfa",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mg-350",
+      "brand": "mg",
+      "name": "MG 350",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roewe%20350%20China%202012-05-01.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Roewe%20350%20China%202012-05-01.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "MG",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-space-star",
+      "brand": "mitsubishi",
+      "name": "Mitsubishi Space Star",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Space%20Star%20front%2020080228.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Space%20Star%20front%2020080228.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsubishi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-ltd",
+      "brand": "ford",
+      "name": "Ford LTD",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20LTD.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20LTD.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-vaz-2103",
+      "brand": "avtovaz",
+      "name": "VAZ-2103",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lada%20%287909451964%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lada%20%287909451964%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AvtoVAZ",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-288-gto",
+      "brand": "ferrari",
+      "name": "Ferrari 288 GTO",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/FerrariGTO.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/FerrariGTO.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-sirex-lms",
+      "brand": "lmx",
+      "name": "Sirex LMS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/LMX%201968-1972%20vvl.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/LMX%201968-1972%20vvl.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "LMX",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-toyota-mark-x",
+      "brand": "toyota",
+      "name": "Toyota Mark X",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Toyota%20Mark-X%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2009%20Toyota%20Mark-X%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Toyota",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-hyundai-veloster",
+      "brand": "hyundai",
+      "name": "Hyundai Veloster",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/0%20Hyundai%20Veloster%20%28JS%29%20N%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/0%20Hyundai%20Veloster%20%28JS%29%20N%201.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Hyundai",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-isuzu-bellel",
+      "brand": "isuzu",
+      "name": "Isuzu Bellel",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1964%20Isuzu%20Bellel%202000%20Deluxe.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1964%20Isuzu%20Bellel%202000%20Deluxe.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Isuzu",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-epsilon",
+      "brand": "fiat",
+      "name": "Lancia Epsilon",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Torpedo%20Type%20Epsilon%201912%20Mulhouse%20FRA%20001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Torpedo%20Type%20Epsilon%201912%20Mulhouse%20FRA%20001.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-604",
+      "brand": "peugeot",
+      "name": "Peugeot 604",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20604%20SL%201977.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20604%20SL%201977.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dodge-omni-024",
+      "brand": "dodge",
+      "name": "Dodge Omni 024",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dodge%20Omni%20024%20rear.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Dodge%20Omni%20024%20rear.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dodge",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-rapid",
+      "brand": "škoda",
+      "name": "Škoda Rapid",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2014%20Skoda%20Rapid%20SE%20Connect%20TSi%201.2%20Front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2014%20Skoda%20Rapid%20SE%20Connect%20TSi%201.2%20Front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bmw-315",
+      "brand": "bmw",
+      "name": "BMW 315",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BMW%20315%201936%20white%20vr%20TCE.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/BMW%20315%201936%20white%20vr%20TCE.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "BMW",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-505",
+      "brand": "peugeot",
+      "name": "Peugeot 505",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20505%20SR%20Automatique%20%281979%29%2C%20Dutch%20licence%20registration%2071-ZL-PS%20pic2.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20505%20SR%20Automatique%20%281979%29%2C%20Dutch%20licence%20registration%2071-ZL-PS%20pic2.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-wolseley-6-90",
+      "brand": "british",
+      "name": "Wolseley 6/90",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Wolseley%20690%20MkIII.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Wolseley%20690%20MkIII.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-mazdago",
+      "brand": "mazda",
+      "name": "Mazda Mazdago",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MAZDA%20T2000%2C%20Kawanishi%20%28ShinMaywa%29%20Three-wheeled%20motor%20vehicle.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MAZDA%20T2000%2C%20Kawanishi%20%28ShinMaywa%29%20Three-wheeled%20motor%20vehicle.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-aston-martin-dbs",
+      "brand": "aston",
+      "name": "Aston Martin DBS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AstonMartinDB-S-1969-avant.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/AstonMartinDB-S-1969-avant.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Aston",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-checker-marathon",
+      "brand": "checker",
+      "name": "Checker Marathon",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Checker-Marathon-1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Checker-Marathon-1.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Checker",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-subaru-ff-1-star",
+      "brand": "subaru",
+      "name": "Subaru FF-1 Star",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Subaruff-1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Subaruff-1.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Subaru",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-rolls-royce-silver-wraith",
+      "brand": "rolls-royce",
+      "name": "Rolls-Royce Silver Wraith",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rolls-Royce%20Silver%20Wraith%201955.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Rolls-Royce%20Silver%20Wraith%201955.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Rolls-Royce",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-model-t",
+      "brand": "ford",
+      "name": "Ford Model T",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20T%20Jon%20Sullivan.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20T%20Jon%20Sullivan.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-honda-that-s",
+      "brand": "honda",
+      "name": "Honda That's",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20That%27s%202002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20That%27s%202002.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Honda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-samsung-sm5",
+      "brand": "renault",
+      "name": "Samsung SM5",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20100812%20renault%20samsung%20sm5%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20100812%20renault%20samsung%20sm5%201.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-coupe-60",
+      "brand": "general",
+      "name": "Holden Coupe 60",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2008%20Holden%20Coupe%2060%20%28concept%29%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2008%20Holden%20Coupe%2060%20%28concept%29%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-alpina-b10-bi-turbo",
+      "brand": "alpina",
+      "name": "Alpina B10 Bi-Turbo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alpina%20B10%20BiTurbo%20BASIS%20BMW%205er%20Gen3%20E34%201989-1994%20frontleft%202011-06-04%20U.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Alpina%20B10%20BiTurbo%20BASIS%20BMW%205er%20Gen3%20E34%201989-1994%20frontleft%202011-06-04%20U.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Alpina",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-lc1",
+      "brand": "fiat",
+      "name": "Lancia LC1",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20LC1%20Goodwood.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20LC1%20Goodwood.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-five-hundred",
+      "brand": "ford",
+      "name": "Ford Five Hundred",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford500a.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford500a.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-t",
+      "brand": "audi",
+      "name": "Audi Type T",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20T.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20T.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-m",
+      "brand": "audi",
+      "name": "Audi Type M",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20M%20%281924%20-%201928%29.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20M%20%281924%20-%201928%29.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-r",
+      "brand": "audi",
+      "name": "Audi Type R",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20R.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Typ%20R.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-pontiac-catalina",
+      "brand": "general",
+      "name": "Pontiac Catalina",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pontiac%20Catalina%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Pontiac%20Catalina%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-taiki",
+      "brand": "mazda",
+      "name": "Mazda Taiki",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20TAIKI.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20TAIKI.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-type-ss",
+      "brand": "audi",
+      "name": "Audi Type SS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20typ%20SS%20-Zwickau-.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20typ%20SS%20-Zwickau-.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-buick-skyhawk",
+      "brand": "general",
+      "name": "Buick Skyhawk",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buick%20Skyhawk%204-door%20white.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Buick%20Skyhawk%204-door%20white.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zündapp-janus",
+      "brand": "zündapp",
+      "name": "Zündapp Janus",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/00%203908%20Kleinwagen%20Z%C3%BCndapp%20Janus.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/00%203908%20Kleinwagen%20Z%C3%BCndapp%20Janus.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zündapp",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-1-3-litre",
+      "brand": "opel",
+      "name": "Opel 1.3 litre",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%201.3ltr.%20Bj%201934-2.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%201.3ltr.%20Bj%201934-2.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volvo-pv-36-carioca",
+      "brand": "volvo",
+      "name": "Volvo PV 36 Carioca",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carioca.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Carioca.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volvo",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-kia-cee-d",
+      "brand": "kia",
+      "name": "Kia Cee'd",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Kia%20Proceed%20GT%20ISG%20S-A%201.6%20Front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20Kia%20Proceed%20GT%20ISG%20S-A%201.6%20Front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Kia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-futura",
+      "brand": "ford",
+      "name": "Ford Futura",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20Futura%20Heck.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20Futura%20Heck.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-laser",
+      "brand": "mazda",
+      "name": "Ford Laser",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1982%20Ford%20Laser%20%28KA%29%20Ghia%205-door%20hatchback%20%2822643862523%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1982%20Ford%20Laser%20%28KA%29%20Ghia%205-door%20hatchback%20%2822643862523%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-tvr-420-seac",
+      "brand": "tvr",
+      "name": "TVR 420 SEAC",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TVR%20420%20SEAC.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/TVR%20420%20SEAC.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "TVR",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volvo-pv-60",
+      "brand": "volvo",
+      "name": "Volvo PV 60",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo%20PV60%20Sedan%201946.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Volvo%20PV60%20Sedan%201946.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volvo",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-dignity",
+      "brand": "nissan",
+      "name": "Mitsubishi Dignity",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Dignity%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Dignity%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-aston-martin-dbs-v12",
+      "brand": "aston",
+      "name": "Aston Martin DBS V12",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2008%20Aston%20Martin%20DBS%20V12%20Coupe%20%2825819693093%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2008%20Aston%20Martin%20DBS%20V12%20Coupe%20%2825819693093%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Aston",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-cortina",
+      "brand": "ford",
+      "name": "Ford Cortina",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20Cortina%20Mark%20I%20reg%20Aug%201963%20pre%20first%20facelift.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20Cortina%20Mark%20I%20reg%20Aug%201963%20pre%20first%20facelift.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-gt-roadster",
+      "brand": "opel",
+      "name": "Opel GT Roadster",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20GT%20front.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20GT%20front.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-austin-allegro",
+      "brand": "british",
+      "name": "Austin Allegro",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Austin%20Allegro%20Registration%20ca%201975.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Austin%20Allegro%20Registration%20ca%201975.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-daihatsu-boon",
+      "brand": "daihatsu",
+      "name": "Daihatsu Boon",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2nd%20Daihatsu%20Boon.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2nd%20Daihatsu%20Boon.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Daihatsu",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-a8",
+      "brand": "audi",
+      "name": "Audi A8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A8L%20D5%20%282021%29%201X7A1787.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A8L%20D5%20%282021%29%201X7A1787.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-slr-mclaren",
+      "brand": "mercedes-benz",
+      "name": "Mercedes-Benz SLR McLaren",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20SLR%20McLaren%202.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20SLR%20McLaren%202.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercedes-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-206",
+      "brand": "peugeot",
+      "name": "Peugeot 206",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2002%20Peugeot%20206%20LX%201.4%20Front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2002%20Peugeot%20206%20LX%201.4%20Front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-pontiac-chieftain",
+      "brand": "general",
+      "name": "Pontiac Chieftain",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pontiac%20Chieftain%20%281954%29%201X7A8114.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Pontiac%20Chieftain%20%281954%29%201X7A8114.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-front",
+      "brand": "audi",
+      "name": "Audi Front",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Front%20UW%20220%20exhibited%20at%20Autostadt%20in%20Wolfsburg.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20Front%20UW%20220%20exhibited%20at%20Autostadt%20in%20Wolfsburg.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-1-8-litre",
+      "brand": "opel",
+      "name": "Opel 1.8 litre",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Model%2018B%201%2C8-Liter%204-Door%20Sedan%201931b.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Model%2018B%201%2C8-Liter%204-Door%20Sedan%201931b.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
           "Category": "Auto"
         }
       }
