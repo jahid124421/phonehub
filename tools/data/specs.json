@@ -774,6 +774,76 @@
       "id": "willys",
       "name": "Willys",
       "logo": "📱"
+    },
+    {
+      "id": "mitsuoka",
+      "name": "Mitsuoka",
+      "logo": "📱"
+    },
+    {
+      "id": "steyr-daimler-puch",
+      "name": "Steyr-Daimler-Puch",
+      "logo": "📱"
+    },
+    {
+      "id": "bitter",
+      "name": "Bitter",
+      "logo": "📱"
+    },
+    {
+      "id": "bizzarrini",
+      "name": "Bizzarrini",
+      "logo": "📱"
+    },
+    {
+      "id": "melkus",
+      "name": "Melkus",
+      "logo": "📱"
+    },
+    {
+      "id": "rubery",
+      "name": "Rubery",
+      "logo": "📱"
+    },
+    {
+      "id": "air",
+      "name": "Air",
+      "logo": "📱"
+    },
+    {
+      "id": "bolwell",
+      "name": "Bolwell",
+      "logo": "📱"
+    },
+    {
+      "id": "sharp-s",
+      "name": "Sharp's",
+      "logo": "📱"
+    },
+    {
+      "id": "rimac",
+      "name": "Rimac",
+      "logo": "📱"
+    },
+    {
+      "id": "brabham",
+      "name": "Brabham",
+      "logo": "📱"
+    },
+    {
+      "id": "tata",
+      "name": "Tata",
+      "logo": "📱"
+    },
+    {
+      "id": "frans",
+      "name": "Frans",
+      "logo": "📱"
+    },
+    {
+      "id": "gaz",
+      "name": "GAZ",
+      "logo": "📱"
     }
   ],
   "phones": [
@@ -40942,6 +41012,1964 @@
         },
         "Misc": {
           "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-fabia-i",
+      "brand": "škoda",
+      "name": "Škoda Fabia I",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Fabia%20Yellow.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Fabia%20Yellow.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-fabia-ii",
+      "brand": "škoda",
+      "name": "Škoda Fabia II",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Fabia%20II%2020090426%20front.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Fabia%20II%2020090426%20front.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-favorit",
+      "brand": "škoda",
+      "name": "Škoda Favorit",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Favorit%20Utrecht%201989.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Favorit%20Utrecht%201989.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-joyster",
+      "brand": "škoda",
+      "name": "Škoda Joyster",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Joyster.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Joyster.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-missionl",
+      "brand": "škoda",
+      "name": "Škoda MissionL",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/11-09-04-iaa-by-RalfR-394.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/11-09-04-iaa-by-RalfR-394.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-mož-2",
+      "brand": "škoda",
+      "name": "Škoda MOŽ-2",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20MO%C5%BD-2%2C%20VTM%20Le%C5%A1any.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20MO%C5%BD-2%2C%20VTM%20Le%C5%A1any.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-felicia",
+      "brand": "škoda",
+      "name": "Škoda Felicia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SkodaFelicia1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SkodaFelicia1.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-octavia-i",
+      "brand": "škoda",
+      "name": "Škoda Octavia I",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Octavia%20I%20front%2020080213.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Octavia%20I%20front%2020080213.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-octavia-ii",
+      "brand": "škoda",
+      "name": "Škoda Octavia II",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Octavia%20TDI%20%28II%2C%20Facelift%29%20%E2%80%93%20Frontansicht%2C%201.%20April%202011%2C%20W%C3%BClfrath.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Octavia%20TDI%20%28II%2C%20Facelift%29%20%E2%80%93%20Frontansicht%2C%201.%20April%202011%2C%20W%C3%BClfrath.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-pick-up",
+      "brand": "škoda",
+      "name": "Škoda Pick-up",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brno%2C%20Barvi%C4%8Dova%2C%20%C5%A0koda%20Pickup.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Brno%2C%20Barvi%C4%8Dova%2C%20%C5%A0koda%20Pickup.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsuoka-viewt",
+      "brand": "mitsuoka",
+      "name": "Mitsuoka Viewt",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsuoka%20Viewt%20%283rd-gen%20%26%201st-gen%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsuoka%20Viewt%20%283rd-gen%20%26%201st-gen%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsuoka",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-steyr-50",
+      "brand": "steyr-daimler-puch",
+      "name": "Steyr 50",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1936Steyr50Baby.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1936Steyr50Baby.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Steyr-Daimler-Puch",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bitter-cd",
+      "brand": "bitter",
+      "name": "Bitter CD",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter%20CD%20%281977%29%20Classic-Gala%202022%201X7A0152.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter%20CD%20%281977%29%20Classic-Gala%202022%201X7A0152.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bitter",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bitter-vero",
+      "brand": "bitter",
+      "name": "Bitter Vero",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter%20Vero%20Dra.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter%20Vero%20Dra.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bitter",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bizzarrini-strada",
+      "brand": "bizzarrini",
+      "name": "Bizzarrini Strada",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bizzarrini%205300GT%20Strada%20000%20000%201964-1968%201966%20frontright%202012-04-01%20A%20ji.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bizzarrini%205300GT%20Strada%20000%20000%201964-1968%201966%20frontright%202012-04-01%20A%20ji.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bizzarrini",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bizzarrini-p538",
+      "brand": "bizzarrini",
+      "name": "Bizzarrini P538",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SC06%201967%20Bizzarrini%20P538.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SC06%201967%20Bizzarrini%20P538.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bizzarrini",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-melkus-rs-1000",
+      "brand": "melkus",
+      "name": "Melkus RS 1000",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melkus%20RS%201000%20Classic-Gala%202021%201X7A0093.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Melkus%20RS%201000%20Classic-Gala%202021%201X7A0093.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Melkus",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-bluezero",
+      "brand": "mercedes-benz",
+      "name": "Mercedes-Benz BlueZERO",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20BlueZero%20E-Cell.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20BlueZero%20E-Cell.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercedes-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bluebird-proteus-cn7",
+      "brand": "rubery",
+      "name": "Bluebird-Proteus CN7",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BluebirdBeaulieu2.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/BluebirdBeaulieu2.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Rubery",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-blériot-whippet",
+      "brand": "air",
+      "name": "Blériot-Whippet",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bl%C3%A9riot-Whippet%208-9%20hp%201921.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bl%C3%A9riot-Whippet%208-9%20hp%201921.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Air",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercury-capri",
+      "brand": "ford",
+      "name": "Mercury Capri",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20Mercury%20Capri%20%2829776067015%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20Mercury%20Capri%20%2829776067015%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-w187",
+      "brand": "mercedes-benz",
+      "name": "Mercedes-Benz W187",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20W187%20front%2020110611.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20W187%20front%2020110611.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercedes-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-w-113",
+      "brand": "daimler-benz",
+      "name": "Mercedes-Benz W 113",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20W113%20IMG%205551.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20W113%20IMG%205551.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Daimler-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bolwell-nagari",
+      "brand": "bolwell",
+      "name": "Bolwell Nagari",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bolwell%20Nagari%20%2814792341560%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bolwell%20Nagari%20%2814792341560%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bolwell",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bond-875",
+      "brand": "sharp-s",
+      "name": "Bond 875",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bond%20875%20Van%201970.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bond%20875%20Van%201970.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Sharp's",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bond-equipe",
+      "brand": "sharp-s",
+      "name": "Bond Equipe",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bond%20Equipe%202%20litre%20first%20registered%20Jan%201969%201998cc.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bond%20Equipe%202%20litre%20first%20registered%20Jan%201969%201998cc.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Sharp's",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bond-minicar",
+      "brand": "sharp-s",
+      "name": "Bond Minicar",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1964%20Bond%20Minicar%20Mark%20G%20Tourer.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1964%20Bond%20Minicar%20Mark%20G%20Tourer.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Sharp's",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-rimac-concept-one",
+      "brand": "rimac",
+      "name": "Rimac Concept One",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rimac%20Concept%20One%20-%20Salon%20Priv%C3%A9%20London%202012%20%287956529248%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Rimac%20Concept%20One%20-%20Salon%20Priv%C3%A9%20London%202012%20%287956529248%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Rimac",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-brabham-bt18",
+      "brand": "brabham",
+      "name": "Brabham BT18",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2005%20Goodwood%20Festival%20of%20Speed%20F2%20Brabham%20BT18%20Honda.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2005%20Goodwood%20Festival%20of%20Speed%20F2%20Brabham%20BT18%20Honda.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Brabham",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-brabus-bullit",
+      "brand": "brabus",
+      "name": "Brabus Bullit",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brabus%20Bullit%20V12%20S%20biturbo%20%28C-Class%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Brabus%20Bullit%20V12%20S%20biturbo%20%28C-Class%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Brabus",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-delta",
+      "brand": "lancia",
+      "name": "Lancia Delta",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Delta.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Delta.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lancia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-508",
+      "brand": "peugeot",
+      "name": "Peugeot 508",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20508%201%202010.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20508%201%202010.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-mp01",
+      "brand": "audi",
+      "name": "Audi MP01",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20100%20Coupe%20BW%201.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20100%20Coupe%20BW%201.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-astra-f",
+      "brand": "opel",
+      "name": "Opel Astra F",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Astra%201997.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Astra%201997.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-partner",
+      "brand": "peugeot",
+      "name": "Peugeot Partner",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thepeugeotpartner.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Thepeugeotpartner.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-456",
+      "brand": "ferrari",
+      "name": "Ferrari 456",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1995Ferrari456GT.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1995Ferrari456GT.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-tata-tl",
+      "brand": "tata",
+      "name": "Tata TL",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MHV%20Tatamobile%20207%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MHV%20Tatamobile%20207%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Tata",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-korvensuu",
+      "brand": "frans",
+      "name": "Korvensuu",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korvensuu.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Korvensuu.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Frans",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dodge-tomahawk",
+      "brand": "dodge",
+      "name": "Dodge Tomahawk",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hemi%20powered%20motorcycle%20--%20Walter%20P%20Chrysler%20Museum%2010-23-2010%20148%20N.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Hemi%20powered%20motorcycle%20--%20Walter%20P%20Chrysler%20Museum%2010-23-2010%20148%20N.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dodge",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-buick-special",
+      "brand": "general",
+      "name": "Buick Special",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Buick%20Special%20%282560070382%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Buick%20Special%20%282560070382%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chaika",
+      "brand": "gaz",
+      "name": "Chaika",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GAZ-13%20Chaika%20at%20the%20Oldtimer%20Expo%202007.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/GAZ-13%20Chaika%20at%20the%20Oldtimer%20Expo%202007.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "GAZ",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-toyota-corona-exiv",
+      "brand": "toyota",
+      "name": "Toyota Corona EXiV",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20Corona%20EXiV%20in%20White%2C%20front%20right.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20Corona%20EXiV%20in%20White%2C%20front%20right.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Toyota",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-w114",
+      "brand": "daimler-benz",
+      "name": "Mercedes-Benz W114",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes%20strichacht%201%20v%20sst.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes%20strichacht%201%20v%20sst.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Daimler-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-gemini",
+      "brand": "general",
+      "name": "Holden Gemini",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1984%20Holden%20Gemini%20%28TG%29%20SL%20sedan%20%282015-07-15%29%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1984%20Holden%20Gemini%20%28TG%29%20SL%20sedan%20%282015-07-15%29%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-buick-centurion",
+      "brand": "general",
+      "name": "Buick Centurion",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1972%20Buick%20Centurion%20Formal%20Coupe%2C%20front%20left%20%282022%20Back%20to%20the%2050%27s%20Weekend%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1972%20Buick%20Centurion%20Formal%20Coupe%2C%20front%20left%20%282022%20Back%20to%20the%2050%27s%20Weekend%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-leaf",
+      "brand": "nissan",
+      "name": "Nissan Leaf",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Leaf%20%28ZE2%29%20Auto%20Zuerich%202025%20DSC%203011.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Leaf%20%28ZE2%29%20Auto%20Zuerich%202025%20DSC%203011.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda3",
+      "brand": "mazda",
+      "name": "Mazda3",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda3%20%28BP%29%20X%20e-Skyactiv-X%20IMG%209015%20%28edit%20zm%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda3%20%28BP%29%20X%20e-Skyactiv-X%20IMG%209015%20%28edit%20zm%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-brezelkäfer",
+      "brand": "volkswagen",
+      "name": "Brezelkäfer",
+      "category": "auto",
+      "image": "",
+      "images": [],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lamborghini-pregunta",
+      "brand": "lamborghini",
+      "name": "Lamborghini Pregunta",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini%20Pregunta%20Heuliez%20Marc%20Deschamps.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini%20Pregunta%20Heuliez%20Marc%20Deschamps.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lamborghini",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-pajero-sport",
+      "brand": "mitsubishi",
+      "name": "Mitsubishi Pajero Sport",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Mitsubishi%20Montero%20Sport%20GLS%202.4%20%28Philippines%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Mitsubishi%20Montero%20Sport%20GLS%202.4%20%28Philippines%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsubishi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-speedster",
+      "brand": "opel",
+      "name": "Opel Speedster",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Speedster%20Blue.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Speedster%20Blue.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chevrolet-kingswood-estate",
+      "brand": "general",
+      "name": "Chevrolet Kingswood Estate",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1969%20Chevrolet%20Kingswood%20Estate.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1969%20Chevrolet%20Kingswood%20Estate.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-renault-20-30",
+      "brand": "renault",
+      "name": "Renault 20/30",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1983%20Renault%2020%20TX%20automatique%2C%20front%20view.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1983%20Renault%2020%20TX%20automatique%2C%20front%20view.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-5",
+      "brand": "mazda",
+      "name": "Mazda 5",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%205%20front%2020080222.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%205%20front%2020080222.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-brougham",
+      "brand": "general",
+      "name": "Holden Brougham",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1968-1969%20Holden%20HK%20Brougham%20sedan%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1968-1969%20Holden%20HK%20Brougham%20sedan%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-honda-s2000",
+      "brand": "honda",
+      "name": "Honda S2000",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HondaS2000-002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/HondaS2000-002.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Honda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-buick-apollo",
+      "brand": "general",
+      "name": "Buick Apollo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1973%20Buick%20Apollo.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1973%20Buick%20Apollo.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-toyota-land-cruiser",
+      "brand": "toyota",
+      "name": "Toyota Land Cruiser",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20LAND%20CRUISER%20GR%20SPORT%20%283BA-VJA300W-GNUSZ%29%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20LAND%20CRUISER%20GR%20SPORT%20%283BA-VJA300W-GNUSZ%29%20front.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Toyota",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-c-max",
+      "brand": "ford",
+      "name": "Ford C-Max",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20C-Max%201.6%20TDCi%20Trend%20%28II%29%20%E2%80%93%20Frontansicht%20%281%29%2C%2030.%20Juli%202011%2C%20Mettmann.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ford%20C-Max%201.6%20TDCi%20Trend%20%28II%29%20%E2%80%93%20Frontansicht%20%281%29%2C%2030.%20Juli%202011%2C%20Mettmann.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-4007",
+      "brand": "peugeot",
+      "name": "Peugeot 4007",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%204007.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%204007.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-type-8",
+      "brand": "peugeot",
+      "name": "Peugeot Type 8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%208.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%208.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-type-33",
+      "brand": "peugeot",
+      "name": "Peugeot Type 33",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%2033%2003.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%2033%2003.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-type-26",
+      "brand": "peugeot",
+      "name": "Peugeot Type 26",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%2026%2004.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20Type%2026%2004.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-tvr-griffith",
+      "brand": "tvr",
+      "name": "TVR Griffith",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TVR%20Griffith%20500.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/TVR%20Griffith%20500.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "TVR",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-studebaker-scotsman",
+      "brand": "studebaker",
+      "name": "Studebaker Scotsman",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1957%20Scotsman%20by%20Studebaker%20%282106676027%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1957%20Scotsman%20by%20Studebaker%20%282106676027%29.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Studebaker",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-s-cargo",
+      "brand": "nissan",
+      "name": "Nissan S-Cargo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20S-Cargo%20001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20S-Cargo%20001.JPG?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-camira",
+      "brand": "general",
+      "name": "Holden Camira",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1987%20Holden%20Camira%20%28JD%29%20SLE%20sedan%20%282015-07-14%29%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1987%20Holden%20Camira%20%28JD%29%20SLE%20sedan%20%282015-07-14%29%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-ranger-americas",
+      "brand": "ford",
+      "name": "Ford Ranger Americas",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2011%20Ford%20Ranger%20XLT%20--%20NHTSA.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2011%20Ford%20Ranger%20XLT%20--%20NHTSA.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-fiat-127",
+      "brand": "fiat",
+      "name": "Fiat 127",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20127%20green.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20127%20green.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-standard",
+      "brand": "general",
+      "name": "Holden Standard",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1961-1962%20Holden%20EK%20Special%20Station%20Sedan%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1961-1962%20Holden%20EK%20Special%20Station%20Sedan%2001.jpg?width=500"
+      ],
+      "releaseDate": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
           "Category": "Auto"
         }
       }
