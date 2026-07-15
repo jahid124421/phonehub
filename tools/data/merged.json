@@ -76103,117 +76103,167 @@
   ],
   "news": [
     {
-      "id": "n2401060443",
-      "title": "The first gimbal phone could have some heavy-hitting specs",
-      "excerpt": "HONOR's gimbal camera phone has the potential to be an excellent camera flagship.",
+      "id": "n8202139186",
+      "title": "Samsung is making its powerful Lockdown mode a bit more flexible",
+      "excerpt": "The latest One UI 9 beta introduces a new toggle to control automatic Lockdown behavior from the Quick Settings power button.",
       "date": "2026-07-15",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/honor-robot-phone-specs-leak-3687643/",
+      "url": "https://www.androidauthority.com/one-ui-9-lockdown-mode-quick-settings-power-button-apk-teardown-3687722/",
       "source": "Androidauthority",
-      "image": ""
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/OneUI-9-splash-screen-S26-Ultra-in-hand.jpg"
     },
     {
-      "id": "n1802326804",
-      "title": "Starlink's new V5 home dish is smaller and more energy-efficient",
-      "excerpt": "Starlink s latest V5 residential dish doesn t boost data speeds but offers several improvements.",
+      "id": "n5910406814",
+      "title": "Spotify’s Daniel Ek is bringing his body-scanning clinics to the US",
+      "excerpt": "Spotify founder Daniel Ek's body-scanning startup, Neko Health, is setting its sights on the United States after raising $700 million from a star-studded group of celebrities, ent…",
       "date": "2026-07-15",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2215419/starlink-v5-home-dish-smaller-and-more-energy-efficient/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/starlinks-new-v5-home-dish-is-smaller-and-more-energy-efficient/l-intro-1784104958.jpg"
-    },
-    {
-      "id": "n1622605165",
-      "title": "Android’s biggest store-within-a-store shakeup starts next week",
-      "excerpt": "Google and Epic have jointly withdrawn their previous settlement, necessitating big changes to the Play Store in the US.",
-      "date": "2026-07-15",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/epic-google-play-store-settlement-withdrawn-3687649/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/08/Google-G-Logo.jpg"
-    },
-    {
-      "id": "n2155181889",
-      "title": "OpenAI's first device will reportedly be a 'humanlike' rechargeable speaker",
-      "excerpt": "OpenAI wants its first AI device to feel like the physical manifestation of ChatGPT, Bloomberg says.",
-      "date": "2026-07-15",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2215417/openai-first-device-humanlike-rechargeable-speaker/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/openais-first-device-will-reportedly-be-a-humanlike-rechargeable-speaker/l-intro-1784104534.jpg"
-    },
-    {
-      "id": "n4209261018",
-      "title": "Stable Android 17 is rolling out for the first non-Pixel phones",
-      "excerpt": "But without the best Android 17 features.",
-      "date": "2026-07-15",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/stable-android-17-xiaomi-17-ultra-3687634/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/02/Xiaomi-17-Ultra-white-on-leather-sofa.jpg"
-    },
-    {
-      "id": "n1384125124",
-      "title": "Ask HN: How do you track feedback when you post across multiple places?",
-      "excerpt": "Over the last two years I have been working on multiple projects and when trying to get feedback from people, I kept facing the same problem. I post across multiple platforms - X,…",
-      "date": "2026-07-15",
-      "tag": "Laptops",
-      "url": "https://news.ycombinator.com/item?id=48917697",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n2817844242",
-      "title": "Should a smartwatch track the user's emotions?",
-      "excerpt": "Do you think a smartwatch needs an emotion tracking chart that includes the following parameters: Anxiety, Depression, Relaxation, Fear, Positivity, Anger, Stress, Sadness, and Ma…",
-      "date": "2026-07-15",
-      "tag": "Accessories",
-      "url": "https://news.ycombinator.com/item?id=48917565",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n1989577760",
-      "title": "Google is giving Pixel 9 and Pixel 10 owners another shot at Pixel Care Plus",
-      "excerpt": "Google's latest Pixel Care Plus offer lets you sign up after the usual 60-day deadline, but not if you have a foldable.",
-      "date": "2026-07-15",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/google-pixel-care-plus-reopened-pixel-9-pixel-10-3687640/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/google-pixel-10-pro-xl-back-obsidian-1.jpg"
-    },
-    {
-      "id": "n6052085488",
-      "title": "Starlink’s V5 dish is now available — here’s how it compares",
-      "excerpt": "SpaceX's latest residential dish - the Starlink V5 - is now available in \"select areas.\" It's notably smaller and lighter than the V4 dish with improved power efficiency. It'll be…",
-      "date": "2026-07-15",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison",
+      "url": "https://www.theverge.com/science/965849/spotify-founder-ek-startup-neko-health-scanner-us-push",
       "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n7848374853",
-      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
-      "excerpt": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that mea…",
-      "date": "2026-07-15",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n7278031892",
-      "title": "Sonos is finally rolling out an update for its insanely bad app",
-      "excerpt": "It took two years, but Sonos finally has an update to fix its disastrous app redesign.",
+      "id": "n7159185151",
+      "title": "The smartest AI models are being limited by the U.S. government, so here's what I'm using instead",
+      "excerpt": "It's worth having it in rotation, just in case",
       "date": "2026-07-15",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/sonos-app-update-fix-broken-redesign-3687610/",
+      "url": "https://www.xda-developers.com/smartest-ai-models-limited-by-us-government-what-im-using-instead/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/mistral-vibe-on-desktop-pc-lego-and-lamp-in-view.jpeg"
+    },
+    {
+      "id": "n1190544546",
+      "title": "Survey says this is fans’ biggest worry with the Galaxy S27 Ultra",
+      "excerpt": "Over half of respondents agree that Samsung's next flagship needs this critical upgrade.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/galaxy-s27-ultra-upgrade-poll-results-3687712/",
       "source": "Androidauthority",
       "image": ""
     },
     {
-      "id": "n9907870819",
+      "id": "n8006033857",
+      "title": "External SSDs are finally fast enough, but only if you avoid this one mistake",
+      "excerpt": "The wrong USB port or cable can slash your external SSD's speeds",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/external-ssd-fast-enough-but-avoid-this-mistake/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/02/crucial-x10-pro-front.jpg"
+    },
+    {
+      "id": "n573383369",
+      "title": "Withings' new ultra-premium scale goes on sale today",
+      "excerpt": "Withings' new $600 bathroom scale promising clinical-grade monitoring is finally available to buy.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2214526/withings-new-ultra-premium-body-scan-2-scale-on-sale-today/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/withings-new-ultra-premium-scale-goes-on-sale-today/l-intro-1784034162.jpg"
+    },
+    {
+      "id": "n9263471151",
+      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse",
+      "excerpt": "Cofounded by senior entrepreneur Shai Morag, Israeli identity management startup Oak is emerging out of stealth with $60 million in seed funding.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n5966013141",
+      "title": "Google will allow third-party app stores on Android next week",
+      "excerpt": "Third-party app stores are coming to Android on July 22.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215452/google-allow-third-party-app-stores-android-july-22/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/google-will-allow-third-party-app-stores-on-android-next-week/l-intro-1784113111.jpg"
+    },
+    {
+      "id": "n9402991917",
+      "title": "You have a strong password. Here’s why your online accounts are still at risk",
+      "excerpt": "Think of your online security as three layers — not just one.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/strong-password-not-enough-online-security-why-3686495/",
+      "source": "Androidauthority",
+      "image": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f64b-200d-2642-fe0f.png"
+    },
+    {
+      "id": "n1185464320",
+      "title": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
+      "excerpt": "Someone has to bundle all the wires that go into rockets, missiles, and satellites.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n5064816453",
+      "title": "Build an AI Phone Story Hotline – Interactive Storytelling with Telnyx Voice AI",
+      "excerpt": "Build an AI Phone Story Hotline – Interactive Storytelling with Telnyx Voice AI",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://lowlatencyclub.ai/blog/posts/ai-phone-story-hotline-python",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n1060387567",
+      "title": "Samsung’s new foldable display is harder to crease and damage",
+      "excerpt": "Samsung has unveiled a new flexible display technology for foldable phones that's designed to be slimmer, more durable, and less prone to creasing. The Flex Titanium tech is the c…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/tech/965850/samsung-display-flex-titanium-galaxy-foldables",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n122958875",
+      "title": "Google Maps’ ‘Ask Maps’ feature could soon help you plan your trips",
+      "excerpt": "Ask Maps could soon help you find the most scenic route for your next road trip.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/google-maps-ask-maps-trip-planning-3687686/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n5852661546",
+      "title": "Raycast showed me what Command Palette should have been all along",
+      "excerpt": "Command Palette and Raycast both aim to improve the launcher experience, but the latter stands out with its polished features.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/raycast-showed-me-what-command-palette-can-become/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/09/windows-11-laptop-raycast.jpg"
+    },
+    {
+      "id": "n6734263268",
+      "title": "The VITURE Beast are the first pair of XR glasses I want to bring on every trip",
+      "excerpt": "Hardware-based DoF tracking makes the VITURE Beast worthy of its name.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/viture-beast-review-3686604/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n4805022164",
+      "title": "Why I refuse to travel without this discontinued Chromecast (and why you should still get one)",
+      "excerpt": "I can't imagine road tripping without my old faithful media portal.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/old-chromecast-favorite-travel-gadget-3686317/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n8164066359",
       "title": "Microsoft’s biggest ever patch Tuesday lets you hold off updating for longer",
       "excerpt": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, patching at least 570 security holes, almost triple the number fixed in la…",
       "date": "2026-07-15",
@@ -76223,17 +76273,87 @@
       "image": ""
     },
     {
-      "id": "n2006248275",
-      "title": "One of Android’s best PC game emulators just got a feature modders will love",
-      "excerpt": "Time to get all those crazy Skyrim mods running on your Android phone.",
+      "id": "n9422906451",
+      "title": "Can the Exynos 2700 finally beat Snapdragon? 4 fixes Samsung needs to make",
+      "excerpt": "Can the Samsung finally put the Exynos versus Snapdragon debate to rest?",
       "date": "2026-07-15",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/gamenative-emulator-nexus-mods-support-3687599/",
+      "url": "https://www.androidauthority.com/exynos-2700-wishlist-beat-snapdragon-3684805/",
       "source": "Androidauthority",
       "image": ""
     },
     {
-      "id": "n6512771124",
+      "id": "n7711974275",
+      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
+      "excerpt": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that mea…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n8733943494",
+      "title": "Starlink’s V5 dish is now available — here’s how it compares",
+      "excerpt": "SpaceX's latest residential dish - the Starlink V5 - is now available in \"select areas.\" It's notably smaller and lighter than the V4 dish with improved power efficiency. It'll be…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n3500186132",
+      "title": "After using the Galaxy Z Fold 7 and Razr Fold, the Pixel 11 Pro Fold needs these 6 upgrades",
+      "excerpt": "I want to love Pixel foldables, but Google needs a big year to win me back.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/google-pixel-11-pro-fold-needs-these-upgrades-3687183/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n9080399991",
+      "title": "Starlink's new V5 home dish is smaller and more energy-efficient",
+      "excerpt": "Starlink s latest V5 residential dish doesn t boost data speeds but offers several improvements.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215419/starlink-v5-home-dish-smaller-and-more-energy-efficient/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/starlinks-new-v5-home-dish-is-smaller-and-more-energy-efficient/l-intro-1784104958.jpg"
+    },
+    {
+      "id": "n2728404003",
+      "title": "OpenAI's first device will reportedly be a 'humanlike' rechargeable speaker",
+      "excerpt": "OpenAI wants its first AI device to feel like the physical manifestation of ChatGPT, Bloomberg says.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215417/openai-first-device-humanlike-rechargeable-speaker/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/openais-first-device-will-reportedly-be-a-humanlike-rechargeable-speaker/l-intro-1784104534.jpg"
+    },
+    {
+      "id": "n9751156787",
+      "title": "Ask HN: How do you track feedback when you post across multiple places?",
+      "excerpt": "Over the last two years I have been working on multiple projects and when trying to get feedback from people, I kept facing the same problem. I post across multiple platforms - X,…",
+      "date": "2026-07-15",
+      "tag": "Laptops",
+      "url": "https://news.ycombinator.com/item?id=48917697",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n506412906",
+      "title": "Should a smartwatch track the user's emotions?",
+      "excerpt": "Do you think a smartwatch needs an emotion tracking chart that includes the following parameters: Anxiety, Depression, Relaxation, Fear, Positivity, Anger, Stress, Sadness, and Ma…",
+      "date": "2026-07-15",
+      "tag": "Accessories",
+      "url": "https://news.ycombinator.com/item?id=48917565",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n182414759",
       "title": "Microsoft pauses Windows 11's July update for some Dell devices because they're randomly shutting down",
       "excerpt": "Good thing it was caught early.",
       "date": "2026-07-15",
@@ -76243,7 +76363,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/forcibly-running-windows-11-on-old-laptop.jpg"
     },
     {
-      "id": "n5874642899",
+      "id": "n2281629950",
       "title": "After almost two years, KDE Plasma’s animations finally look good again on Nvidia cards",
       "excerpt": "Triple buffering is back.",
       "date": "2026-07-15",
@@ -76253,7 +76373,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/03/linux-laptop-with-kde-plasma.jpg"
     },
     {
-      "id": "n5615552915",
+      "id": "n256835828",
       "title": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
       "excerpt": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
       "date": "2026-07-15",
@@ -76263,7 +76383,7 @@
       "image": ""
     },
     {
-      "id": "n9727832578",
+      "id": "n7095781717",
       "title": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
       "excerpt": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
       "date": "2026-07-15",
@@ -76273,7 +76393,7 @@
       "image": ""
     },
     {
-      "id": "n2613328998",
+      "id": "n3951131458",
       "title": "Someone connected a Raspberry Pi 4B to an old, unsupported Kindle, and now it's an e-ink dashboard",
       "excerpt": "Don't throw away perfectly good hardware.",
       "date": "2026-07-15",
@@ -76283,7 +76403,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/pi-4-kindle-featured.jpg"
     },
     {
-      "id": "n2847479462",
+      "id": "n3674120277",
       "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
       "excerpt": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
       "date": "2026-07-15",
@@ -76293,7 +76413,7 @@
       "image": ""
     },
     {
-      "id": "n3340784376",
+      "id": "n929012804",
       "title": "Your Windows 11 SSD just lost up to 50GB to a new feature you've never heard of — and that's a good thing",
       "excerpt": "It's not as bad as it sounds",
       "date": "2026-07-15",
@@ -76303,7 +76423,17 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/windows-11-point-in-time-restore-settings-dual-monitor.jpg"
     },
     {
-      "id": "n2538138708",
+      "id": "n9786809745",
+      "title": "The PS6 sure sounds like a handheld",
+      "excerpt": "The video game industry is in turmoil. Microsoft and Sony are starting to pivot to their next consoles, but it's not looking great: Prices are soaring, Sony is killing the video g…",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/games/963132/sony-playstation-future-handheld-pc-business-meeting-end-of-discs",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n1858078267",
       "title": "Samsung says Galaxy Z Fold 8 crease is less visible thanks to ‘Flex Titanium’ display",
       "excerpt": "The Galaxy Z Fold 8 series will get a new foldable display architecture, Samsung admits, which will improve the phone’s resistance to developing an unsightly crease down the inner…",
       "date": "2026-07-14",
@@ -76313,7 +76443,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/07/galaxy-z-fold-7-review-11.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n2639765613",
+      "id": "n6338626254",
       "title": "Lorde says AI glasses are ‘not sexy’",
       "excerpt": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
       "date": "2026-07-14",
@@ -76323,7 +76453,7 @@
       "image": ""
     },
     {
-      "id": "n1935435218",
+      "id": "n4931907418",
       "title": "Your motherboard outlives everything else in your PC, so I stopped buying cheap ones",
       "excerpt": "The boring parts are the load-bearing ones",
       "date": "2026-07-14",
@@ -76333,17 +76463,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/asus-rog-crosshair-2006.jpg"
     },
     {
-      "id": "n290395056",
-      "title": "Samsung shares the secret behind its next-gen creaseless foldable displays",
-      "excerpt": "Here’s how Samsung’s Flex Titanium tech aims to rival non-foldable screen quality.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/samsung-flex-titanium-3687554/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n864738810",
+      "id": "n7136955781",
       "title": "Google temporarily offers open Pixel Care+ enrollment for Pixel 9 and 10",
       "excerpt": "Google today announced a limited-time Pixel Care+ open enrollment period for existing Pixel 9 and 10 owners.",
       "date": "2026-07-14",
@@ -76353,7 +76473,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Pixel-10-close-up-G-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n4428761305",
+      "id": "n332878478",
       "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
       "excerpt": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED d…",
       "date": "2026-07-14",
@@ -76363,7 +76483,7 @@
       "image": ""
     },
     {
-      "id": "n8793045791",
+      "id": "n6573856483",
       "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
       "excerpt": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel lik…",
       "date": "2026-07-14",
@@ -76373,17 +76493,7 @@
       "image": ""
     },
     {
-      "id": "n7384649344",
-      "title": "OpenAI’s first hardware device sounds half-speaker, half-robot",
-      "excerpt": "ChatGPT could soon have a physical presence in your home.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/openai-device-screenless-speaker-chatgpt-leak-3687560/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2023/09/OpenAI-on-website-on-smartphone-stock-photo-2.jpg"
-    },
-    {
-      "id": "n9516233910",
+      "id": "n319856851",
       "title": "Blocking internet on phones improves attention, mental health, and well-being",
       "excerpt": "Blocking internet on phones improves attention, mental health, and well-being",
       "date": "2026-07-14",
@@ -76393,7 +76503,7 @@
       "image": ""
     },
     {
-      "id": "n1534397157",
+      "id": "n1552541342",
       "title": "OpenAI pushes back on Apple trade secret lawsuit",
       "excerpt": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
       "date": "2026-07-14",
@@ -76403,17 +76513,7 @@
       "image": ""
     },
     {
-      "id": "n8618557247",
-      "title": "These 4 AI apps save me 20 hours every week on my Android phone",
-      "excerpt": "These are not your obvious AI apps like ChatGPT.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/4-ai-apps-save-20-hours-every-week-android-phone/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783529154318.jpg"
-    },
-    {
-      "id": "n7231909965",
+      "id": "n8937562831",
       "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
       "excerpt": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
       "date": "2026-07-14",
@@ -76423,7 +76523,7 @@
       "image": ""
     },
     {
-      "id": "n5445927616",
+      "id": "n1844226675",
       "title": "The WGA is also suing to block Paramount-Warner Bros. Discovery merger",
       "excerpt": "It seems some people take issue with one billionaire family overseeing a third of the US' entertainment media.",
       "date": "2026-07-14",
@@ -76433,17 +76533,7 @@
       "image": "https://www.engadget.com/img/gallery/the-wga-is-also-suing-to-block-paramount-warner-bros-discovery-merger/l-intro-1784065629.jpg"
     },
     {
-      "id": "n739670309",
-      "title": "I replaced my tower with a mini PC and immediately stopped getting tension headaches from the heat",
-      "excerpt": "A recent heatwave has made me rethink my PC form factor.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/replaced-tower-with-mini-pc-stopped-headaches-from-heat/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/05/nvidia-rtx-4070-ti-gaming-pc.jpg"
-    },
-    {
-      "id": "n8758922193",
+      "id": "n4250287255",
       "title": "OpenAI may announce a ChatGPT smart speaker this year",
       "excerpt": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a…",
       "date": "2026-07-14",
@@ -76453,7 +76543,7 @@
       "image": ""
     },
     {
-      "id": "n3542498144",
+      "id": "n6822733728",
       "title": "Former employees sue over Meta's alleged use of biased AI systems during layoffs",
       "excerpt": "Meta cut its workforce by 10 percent in May.",
       "date": "2026-07-14",
@@ -76461,96 +76551,6 @@
       "url": "https://www.engadget.com/2215258/former-employees-sue-over-meta-s-alleged-use-of-biased-ai-systems-during-layoffs/",
       "source": "Engadget",
       "image": "https://www.engadget.com/img/gallery/former-employees-sue-over-metas-alleged-use-of-biased-ai-systems-during-layoffs/l-intro-1784063853.jpg"
-    },
-    {
-      "id": "n9699720844",
-      "title": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
-      "excerpt": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
-      "date": "2026-07-14",
-      "tag": "Accessories",
-      "url": "https://www.androidauthority.com/pebble-time-2-smartwatch-hands-on-3680077/",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n4030360272",
-      "title": "I disabled native HDR in every game after trying RTX HDR on my OLED, and I'm not switching back",
-      "excerpt": "Native HDR doesn't even compare anymore",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/i-disabled-native-hdr-in-every-game-after-trying-rtx-hdr-on-my-oled/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/using-rtx-hdr-with-forza-horizon-6-on-oled-screen-with-nvidia-app.jpg"
-    },
-    {
-      "id": "n6406374593",
-      "title": "Three publishers challenge Google over AI copyright infringement",
-      "excerpt": "It's the latest in a barrage of efforts to win compensation from AI companies over training materials.",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2215206/three-publishers-challenge-google-over-ai-copyright-infringement/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/three-publishers-challenge-google-over-ai-copyright-infringement/l-intro-1784060759.jpg"
-    },
-    {
-      "id": "n2221004000",
-      "title": "The Lo-Fi Way I Broke My Scrolling Habit",
-      "excerpt": "The Lo-Fi Way I Broke My Scrolling Habit",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.nytimes.com/2026/07/14/opinion/culture/phone-algorithm-addiction.html",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n3241190141",
-      "title": "The next wave of emoji could help you evoke beauty and existential dread",
-      "excerpt": "Who has two thumbs and is broken inside?",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2215190/the-next-wave-of-emoji-could-help-you-evoke-beauty-and-existential-dread/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/the-next-wave-of-emoji-could-help-you-evoke-beauty-and-existential-dread/l-intro-1784059933.jpg"
-    },
-    {
-      "id": "n2135520466",
-      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
-      "excerpt": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners …",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n4106232621",
-      "title": "Anthropic’s newest ad is creeping people out",
-      "excerpt": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make An…",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n5337629832",
-      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
-      "excerpt": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n7570849729",
-      "title": "Galaxy Watch 9 and Ultra 2 specs leak with Snapdragon chip, 800 mAh battery",
-      "excerpt": "Ahead of their debut in just over a week, yet another leak details the full specs of Samsung’s Galaxy Watch 9 and Ultra 2.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/14/samsung-galaxy-watch-9-ultra-2-specs-leak/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-watch-9-mint-leak-1_f20b01.webp?w=1500"
     }
   ]
 }
