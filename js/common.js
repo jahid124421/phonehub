@@ -27,31 +27,32 @@
     return PH.linkPrefix() + src;
   };
 
-  /* ---------- premium brand monograms ---------- */
+  /* ---------- premium brand badges with actual logos ---------- */
   PH.BRAND_COLORS = {
     apple: "#7d7d7d", samsung: "#1428a0", google: "#1a73e8", xiaomi: "#ff6900",
     oneplus: "#eb0028", nothing: "#111111", vivo: "#4d5bff", realme: "#ffc915",
     oppo: "#1ba784", motorola: "#5c92fc", asus: "#31009c", sony: "#0b0b0b",
     nokia: "#124191", honor: "#00b0e9", huawei: "#c7000b"
   };
-  // brand -> Simple Icons slug (free official brand logos). null = no logo, use monogram.
-  PH.BRAND_ICON = {
-    apple: "apple", samsung: "samsung", google: "google", xiaomi: "xiaomi",
-    oneplus: "oneplus", vivo: "vivo", oppo: "oppo", realme: "realme",
-    motorola: "motorola", sony: "sony", nokia: "nokia", honor: "honor",
-    asus: "asus", huawei: "huawei", nothing: null, lenovo: "lenovo"
-  };
+  
   PH._monogram = (brandId, letter, big) => {
     const color = PH.BRAND_COLORS[brandId] || "#5b8cff";
     return `<span class="brand-badge${big ? " brand-badge-lg" : ""}" style="--bc:${color}">${(letter || "?").toUpperCase()}</span>`;
   };
+  
   PH.brandBadge = (brandId, name, big) => {
     const letter = ((name || brandId || "?").trim()[0] || "?").toUpperCase();
-    const slug = PH.BRAND_ICON[brandId];
-    if (!slug) return PH._monogram(brandId, letter, big);
-    return `<img class="brand-logo${big ? " brand-logo-lg" : ""}" src="https://cdn.simpleicons.org/${slug}" ` +
-      `alt="${name || brandId}" loading="lazy" ` +
-      `onerror="this.outerHTML=PH._monogram('${brandId}','${letter}',${big ? 1 : 0})">`;
+    const brand = PH.getBrand(brandId);
+    
+    // Use actual brand logo URL if available (not emoji)
+    if (brand && brand.logo && !brand.logo.match(/[\u{1F300}-\u{1F9FF}]/u)) {
+      return `<img class="brand-logo${big ? " brand-logo-lg" : ""}" src="${brand.logo}" ` +
+        `alt="${name || brandId}" loading="lazy" ` +
+        `onerror="this.outerHTML=PH._monogram('${brandId}','${letter}',${big ? 1 : 0})">`;
+    }
+    
+    // Fallback to monogram
+    return PH._monogram(brandId, letter, big);
   };
 
   /* ================= multi-currency ================= */

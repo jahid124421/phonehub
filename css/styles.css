@@ -147,7 +147,21 @@ section { padding: 34px 0; }
 
 /* ---------- grids ---------- */
 .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
-.brands-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+.brands-grid { display: grid; gap: 20px; }
+.brand-category { margin-bottom: 24px; }
+.category-title { 
+  font-size: 18px; 
+  font-weight: 700; 
+  margin: 0 0 12px; 
+  color: var(--primary);
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
+}
+.category-brands { 
+  display: grid; 
+  gap: 12px; 
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+}
 .brand-tile {
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 18px; text-align: center; font-weight: 600; transition: .15s;

@@ -15,10 +15,36 @@
   const latest = [...phones].sort((a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)).slice(0, 8);
   document.getElementById("latestGrid").innerHTML = latest.map(PH.phoneCard).join("");
 
-  // brands
-  document.getElementById("brandsGrid").innerHTML = (window.BRANDS || []).map((b) =>
-    `<a class="brand-tile" href="search.html?brand=${b.id}">${PH.brandBadge(b.id, b.name, true)}<div>${b.name}</div></a>`
-  ).join("");
+  // brands - grouped by category
+  const brandsByCategory = {};
+  const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Other"];
+  
+  (window.BRANDS || []).forEach((b) => {
+    const cat = b.category || "Other";
+    if (!brandsByCategory[cat]) brandsByCategory[cat] = [];
+    brandsByCategory[cat].push(b);
+  });
+  
+  let brandsHTML = "";
+  categoryOrder.forEach((category) => {
+    const brands = brandsByCategory[category];
+    if (!brands || brands.length === 0) return;
+    
+    brandsHTML += `<div class="brand-category">
+      <h3 class="category-title">${category}</h3>
+      <div class="category-brands">`;
+    
+    brands.forEach((b) => {
+      brandsHTML += `<a class="brand-tile" href="search.html?brand=${b.id}">
+        ${PH.brandBadge(b.id, b.name, true)}
+        <div>${b.name}</div>
+      </a>`;
+    });
+    
+    brandsHTML += `</div></div>`;
+  });
+  
+  document.getElementById("brandsGrid").innerHTML = brandsHTML;
 
   // news (latest 6 on home)
   document.getElementById("newsGrid").innerHTML =

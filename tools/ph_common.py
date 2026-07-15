@@ -11,6 +11,106 @@ BRAND_EMOJI = {
     "oppo": "🟢", "motorola": "🔶", "asus": "🟣", "sony": "⬛",
 }
 
+# Enhanced brand database with logos, colors, and categories
+# Logos from Brandfetch CDN and Simple Icons
+BRAND_DATABASE = {
+    "apple": {
+        "logo": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Premium"
+    },
+    "samsung": {
+        "logo": "https://cdn.brandfetch.io/samsung.com/w/400/h/400",
+        "color": "#1428A0",
+        "category": "Premium"
+    },
+    "google": {
+        "logo": "https://cdn.brandfetch.io/google.com/w/400/h/400",
+        "color": "#4285F4",
+        "category": "Premium"
+    },
+    "xiaomi": {
+        "logo": "https://cdn.brandfetch.io/xiaomi.com/w/400/h/400",
+        "color": "#FF6900",
+        "category": "Value"
+    },
+    "oneplus": {
+        "logo": "https://cdn.brandfetch.io/oneplus.com/w/400/h/400",
+        "color": "#EB0028",
+        "category": "Mid-Range"
+    },
+    "nothing": {
+        "logo": "https://cdn.simpleicons.org/nothing/000000",
+        "color": "#000000",
+        "category": "Mid-Range"
+    },
+    "vivo": {
+        "logo": "https://cdn.brandfetch.io/vivo.com/w/400/h/400",
+        "color": "#0C64E8",
+        "category": "Value"
+    },
+    "realme": {
+        "logo": "https://cdn.simpleicons.org/realme/FFC600",
+        "color": "#FFC600",
+        "category": "Budget"
+    },
+    "oppo": {
+        "logo": "https://cdn.brandfetch.io/oppo.com/w/400/h/400",
+        "color": "#1BA784",
+        "category": "Value"
+    },
+    "motorola": {
+        "logo": "https://cdn.brandfetch.io/motorola.com/w/400/h/400",
+        "color": "#5C92FC",
+        "category": "Value"
+    },
+    "sony": {
+        "logo": "https://cdn.brandfetch.io/sony.com/w/400/h/400",
+        "color": "#0B0B0B",
+        "category": "Premium"
+    },
+    "nokia": {
+        "logo": "https://cdn.brandfetch.io/nokia.com/w/400/h/400",
+        "color": "#124191",
+        "category": "Budget"
+    },
+    "honor": {
+        "logo": "https://cdn.simpleicons.org/honor/00B0E9",
+        "color": "#00B0E9",
+        "category": "Value"
+    },
+    "asus": {
+        "logo": "https://cdn.brandfetch.io/asus.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Gaming"
+    },
+    "huawei": {
+        "logo": "https://cdn.brandfetch.io/huawei.com/w/400/h/400",
+        "color": "#C7000B",
+        "category": "Value"
+    },
+    "lenovo": {
+        "logo": "https://cdn.brandfetch.io/lenovo.com/w/400/h/400",
+        "color": "#E2231A",
+        "category": "Value"
+    },
+    "lg": {
+        "logo": "https://cdn.brandfetch.io/lg.com/w/400/h/400",
+        "color": "#A50034",
+        "category": "Value"
+    },
+    "tcl": {
+        "logo": "https://cdn.brandfetch.io/tcl.com/w/400/h/400",
+        "color": "#0071BC",
+        "category": "Budget"
+    },
+    "microsoft": {
+        "logo": "https://cdn.brandfetch.io/microsoft.com/w/400/h/400",
+        "color": "#00A4EF",
+        "category": "Premium"
+    },
+}
+
 
 def ensure_data_dir():
     os.makedirs(DATA_DIR, exist_ok=True)
