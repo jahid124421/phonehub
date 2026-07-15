@@ -1,0 +1,32 @@
+{
+  "_comment": "Copy to config.json and fill in. config.json is git-ignored.",
+
+  "site_url": "https://your-domain.example",
+  "_site_url_note": "Your live domain. Used to build sitemap.xml, robots.txt and structured-data URLs.",
+
+  "specs_api_base": "http://localhost:3000",
+  "_specs_api_base_note": "Base URL of a phone-specs-api instance (self-host azharimm/phone-specs-api) or a licensed provider. Importer uses the /v2 endpoints.",
+
+  "brands": ["apple", "samsung", "google", "xiaomi", "oneplus", "nothing", "vivo", "realme"],
+  "max_phones_per_brand": 12,
+
+  "llm": {
+    "provider": "groq",
+    "_provider_options": "groq | gemini | openrouter | together | cerebras",
+    "model": "llama-3.3-70b-versatile",
+    "keys_env_path": "../../ai-bots-package/my-keys.env",
+    "_keys_note": "Path to the env file holding the API keys. The agent reads the key matching the provider (e.g. GROQ_API_KEY)."
+  },
+
+  "affiliate": {
+    "amazon_partner_tag": "",
+    "amazon_marketplace": "www.amazon.in",
+    "flipkart_affiliate_id": "",
+    "flipkart_token": "",
+    "amazon_paapi_access_key": "",
+    "amazon_paapi_secret_key": "",
+    "_note": "Partner tag / affiliate id are enough to generate monetized Buy links immediately (no API approval needed). PA-API access/secret keys are OPTIONAL and only used to fetch real live prices once your Associates account is approved."
+  },
+
+  "stores": ["Amazon", "Flipkart"]
+}

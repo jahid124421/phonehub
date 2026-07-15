@@ -1,0 +1,8 @@
+tools/config.json
+tools/env_from_secrets.env
+__pycache__/
+*.pyc
+.env
+
+# unrelated project that happens to sit in this folder
+mastertools/

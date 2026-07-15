@@ -1,0 +1,19 @@
+# Netlify config — deploy the phonehub folder as the site root.
+[build]
+  publish = "."
+
+# Serve the friendly 404 page for unknown URLs.
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+
+# Long-cache static assets (safe: data.js is small and re-deployed on each build).
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

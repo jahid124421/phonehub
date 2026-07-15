@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jahid124421.github.io/phonehub/sitemap.xml
