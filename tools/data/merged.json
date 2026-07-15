@@ -729,6 +729,51 @@
       "id": "wolseley",
       "name": "Wolseley",
       "logo": "📱"
+    },
+    {
+      "id": "nash",
+      "name": "Nash",
+      "logo": "📱"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "logo": "📱"
+    },
+    {
+      "id": "panhard",
+      "name": "Panhard",
+      "logo": "📱"
+    },
+    {
+      "id": "carver",
+      "name": "Carver",
+      "logo": "📱"
+    },
+    {
+      "id": "isdera",
+      "name": "Isdera",
+      "logo": "📱"
+    },
+    {
+      "id": "alvis",
+      "name": "Alvis",
+      "logo": "📱"
+    },
+    {
+      "id": "horch",
+      "name": "Horch",
+      "logo": "📱"
+    },
+    {
+      "id": "asia",
+      "name": "Asia",
+      "logo": "📱"
+    },
+    {
+      "id": "willys",
+      "name": "Willys",
+      "logo": "📱"
     }
   ],
   "phones": [
@@ -68930,11 +68975,3389 @@
           "Category": "Auto"
         }
       }
+    },
+    {
+      "id": "auto-škoda-637",
+      "brand": "škoda",
+      "name": "Škoda 637",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20637%20%281934%29%2005.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20637%20%281934%29%2005.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-637.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20637"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20637"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-645",
+      "brand": "škoda",
+      "name": "Škoda 645",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Techno%20Classica%202018%2C%20Essen%20%28IMG%209665%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Techno%20Classica%202018%2C%20Essen%20%28IMG%209665%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-645.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20645"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20645"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-633",
+      "brand": "škoda",
+      "name": "Škoda 633",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20633%20-%201933.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20633%20-%201933.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-633.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20633"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20633"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-650",
+      "brand": "škoda",
+      "name": "Škoda 650",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20650%20%281934%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20650%20%281934%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-650.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20650"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20650"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-6-r",
+      "brand": "škoda",
+      "name": "Škoda 6 R",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%206%20R%2C%206-cylinder%20Limousine%20%28%C4%8Cesk%C3%BD%20sv%C4%9Bt%2C%201928%29.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%206%20R%2C%206-cylinder%20Limousine%20%28%C4%8Cesk%C3%BD%20sv%C4%9Bt%2C%201928%29.png?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-6-r.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%206%20R"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%206%20R"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-860",
+      "brand": "škoda",
+      "name": "Škoda 860",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2014%20%C5%A0koda%20Museum%2C%20%C5%A0koda%20860%201932%2001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2014%20%C5%A0koda%20Museum%2C%20%C5%A0koda%20860%201932%2001.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-860.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20860"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20860"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-120",
+      "brand": "škoda",
+      "name": "Škoda 120",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Estelle%20Malta%201996.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Estelle%20Malta%201996.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-120.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20120"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20120"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-935",
+      "brand": "škoda",
+      "name": "Škoda 935",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20935.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20935.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-935.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20935"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20935"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-973",
+      "brand": "škoda",
+      "name": "Škoda 973",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Museum%20-%20%C5%A0koda%20973%20Babeta.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Museum%20-%20%C5%A0koda%20973%20Babeta.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-973.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20973"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20973"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-citigo",
+      "brand": "škoda",
+      "name": "Škoda Citigo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Citigo-e%20iV%201X7A7291.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0koda%20Citigo-e%20iV%201X7A7291.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-citigo.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20Citigo"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20Citigo"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-benz-citan",
+      "brand": "mercedes-benz",
+      "name": "Mercedes-Benz Citan",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2016%20Mercedes-Benz%20Citan%20109%20CDi%20BlueEFFICIENCY%201.5.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2016%20Mercedes-Benz%20Citan%20109%20CDi%20BlueEFFICIENCY%201.5.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mercedes-benz-citan.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mercedes-Benz%20Citan"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mercedes-Benz%20Citan"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercedes-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-great-wall-peri",
+      "brand": "great",
+      "name": "Great Wall Peri",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Wall%20Peri.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Wall%20Peri.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-great-wall-peri.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Great%20Wall%20Peri"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Great%20Wall%20Peri"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Great",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-8-40-ps",
+      "brand": "opel",
+      "name": "Opel 8/40 PS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Walther%2C%20EF%2C%20unbek.Stadt%2C%202-150-rest144-6986.tif?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Walther%2C%20EF%2C%20unbek.Stadt%2C%202-150-rest144-6986.tif?width=500"
+      ],
+      "fallbackImg": "img/auto-opel-8-40-ps.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Opel%208/40%20PS"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Opel%208/40%20PS"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ajax",
+      "brand": "nash",
+      "name": "Ajax",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1926%20Ajax%204-door%20built%20by%20Nash%20at%202014%20Gettysburg%20AACA%20meet-01.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1926%20Ajax%204-door%20built%20by%20Nash%20at%202014%20Gettysburg%20AACA%20meet-01.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ajax.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ajax"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ajax"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nash",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-sonett",
+      "brand": "saab",
+      "name": "Saab Sonett",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB94.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB94.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-sonett.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%20Sonett"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%20Sonett"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9-2x",
+      "brand": "subaru",
+      "name": "Saab 9-2X",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab9-2x%20iota.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Saab9-2x%20iota.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-9-2x.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%209-2X"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%209-2X"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Subaru",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-kia-heart",
+      "brand": "kia",
+      "name": "Kia Heart",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Kia%20Soul%20GT-Line%20Limited%20in%20Snow%20White%20Pearl%2C%20Front%20Right%2C%2009-05-2022.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2023%20Kia%20Soul%20GT-Line%20Limited%20in%20Snow%20White%20Pearl%2C%20Front%20Right%2C%2009-05-2022.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-kia-heart.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Kia%20Heart"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Kia%20Heart"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Kia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9-7x",
+      "brand": "saab",
+      "name": "Saab 9-7X",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20Saab%209-7X%20blue.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20Saab%209-7X%20blue.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-9-7x.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%209-7X"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%209-7X"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-96",
+      "brand": "saab",
+      "name": "Saab 96",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%2096%20%2825825262244%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%2096%20%2825825262244%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-96.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%2096"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%2096"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9-5",
+      "brand": "saab",
+      "name": "Saab 9-5",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-5%20sedan.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-5%20sedan.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-9-5.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%209-5"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%209-5"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9-3",
+      "brand": "saab",
+      "name": "Saab 9-3",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-3%20Aero%20MY14%2002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-3%20Aero%20MY14%2002.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-9-3.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%209-3"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%209-3"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-aero-x",
+      "brand": "saab",
+      "name": "Saab Aero-X",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%20AERO%20X%20Front%20and%20left%20side.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%20AERO%20X%20Front%20and%20left%20side.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-aero-x.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%20Aero-X"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%20Aero-X"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-9-3x",
+      "brand": "saab",
+      "name": "Saab 9-3X",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-3X%20%E2%80%93%20Frontansicht%2C%2013.%20M%C3%A4rz%202011%2C%20Wuppertal.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%209-3X%20%E2%80%93%20Frontansicht%2C%2013.%20M%C3%A4rz%202011%2C%20Wuppertal.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-9-3x.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%209-3X"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%209-3X"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-900",
+      "brand": "general",
+      "name": "Saab 900",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%20900%203door.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Saab%20900%203door.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-900.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%20900"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%20900"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-92",
+      "brand": "saab",
+      "name": "Saab 92",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%2092%201949.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SAAB%2092%201949.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-92.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%2092"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%2092"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-saab-phoenix",
+      "brand": "saab",
+      "name": "Saab PhoeniX",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SaabPhoeniX.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/SaabPhoeniX.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-saab-phoenix.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Saab%20PhoeniX"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Saab%20PhoeniX"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Saab",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-sylphy",
+      "brand": "nissan",
+      "name": "Nissan Sylphy",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Sylphy%20%28%E8%BD%A9%E9%80%B8%29%20B19%20China%202026-03-14.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Sylphy%20%28%E8%BD%A9%E9%80%B8%29%20B19%20China%202026-03-14.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-sylphy.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Sylphy"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Sylphy"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-efini-ms-8",
+      "brand": "mazda",
+      "name": "Efini MS-8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%E1%BA%BCfini%20MS-8%20001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%E1%BA%BCfini%20MS-8%20001.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-efini-ms-8.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Efini%20MS-8"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Efini%20MS-8"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lotus-48",
+      "brand": "lotus",
+      "name": "Lotus 48",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lotus%2048%20-%20001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lotus%2048%20-%20001.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-lotus-48.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lotus%2048"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lotus%2048"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lotus",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-jaguar-xk150",
+      "brand": "jaguar",
+      "name": "Jaguar XK150",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1959%20Jaguar%20XK150%20%2825460836533%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1959%20Jaguar%20XK150%20%2825460836533%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-jaguar-xk150.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Jaguar%20XK150"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Jaguar%20XK150"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Jaguar",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chrysler-royal",
+      "brand": "stellantis",
+      "name": "Chrysler Royal",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/38chryC18.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/38chryC18.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-chrysler-royal.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chrysler%20Royal"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chrysler%20Royal"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Stellantis",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-landau-australia",
+      "brand": "ford",
+      "name": "Ford Landau Australia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1975%20Ford%20Landau%20%28P5%29%20coupe%20%2819102673449%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1975%20Ford%20Landau%20%28P5%29%20coupe%20%2819102673449%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ford-landau-australia.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ford%20Landau%20Australia"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ford%20Landau%20Australia"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-348",
+      "brand": "ferrari",
+      "name": "Ferrari 348",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari348.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari348.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-348.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20348"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20348"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercury-topaz",
+      "brand": "mercury",
+      "name": "Mercury Topaz",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20Topaz.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercury%20Topaz.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mercury-topaz.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mercury%20Topaz"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mercury%20Topaz"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercury",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-panhard-24",
+      "brand": "panhard",
+      "name": "Panhard 24",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Panhard%2024%20-%20Flickr%20-%20besopha.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Panhard%2024%20-%20Flickr%20-%20besopha.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-panhard-24.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Panhard%2024"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Panhard%2024"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Panhard",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-hsv-avalanche",
+      "brand": "general",
+      "name": "HSV Avalanche",
+      "category": "auto",
+      "image": "img/auto-hsv-avalanche.svg",
+      "images": [],
+      "fallbackImg": "img/auto-hsv-avalanche.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=HSV%20Avalanche"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=HSV%20Avalanche"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-306",
+      "brand": "peugeot",
+      "name": "Peugeot 306",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20306%20Break%20front%2020071026.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20306%20Break%20front%2020071026.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-peugeot-306.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Peugeot%20306"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Peugeot%20306"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-austin-healey-100",
+      "brand": "british",
+      "name": "Austin-Healey 100",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Austin-Healey%20100-6%20BN4%20%281957%29%20Solitude%20Revival%202019%20IMG%201839.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Austin-Healey%20100-6%20BN4%20%281957%29%20Solitude%20Revival%202019%20IMG%201839.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-austin-healey-100.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Austin-Healey%20100"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Austin-Healey%20100"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-carver-one",
+      "brand": "carver",
+      "name": "Carver One",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carver%20one%2006011701.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Carver%20one%2006011701.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-carver-one.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Carver%20One"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Carver%20One"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Carver",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-brabus-e-v12",
+      "brand": "brabus",
+      "name": "Brabus E V12",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-benz%20EV12%20Brabus%20W212%20%2810194903345%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-benz%20EV12%20Brabus%20W212%20%2810194903345%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-brabus-e-v12.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Brabus%20E%20V12"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Brabus%20E%20V12"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Brabus",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-honda-shuttle",
+      "brand": "honda",
+      "name": "Honda Shuttle",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20SHUTTLE%20HYBRID%20Z%20%28GP7%29%20front.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20SHUTTLE%20HYBRID%20Z%20%28GP7%29%20front.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-honda-shuttle.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Honda%20Shuttle"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Honda%20Shuttle"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Honda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-isdera-commendatore-112i",
+      "brand": "isdera",
+      "name": "Isdera Commendatore 112i",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Isdera%20Commendatore%20112i%2C%20front%20right%20%28Saratoga%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Isdera%20Commendatore%20112i%2C%20front%20right%20%28Saratoga%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-isdera-commendatore-112i.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Isdera%20Commendatore%20112i"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Isdera%20Commendatore%20112i"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Isdera",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-alvis-tf-21",
+      "brand": "alvis",
+      "name": "Alvis TF 21",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alvis%20cabriolet%20reg%20jan%201967%202993%20cc.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Alvis%20cabriolet%20reg%20jan%201967%202993%20cc.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-alvis-tf-21.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Alvis%20TF%2021"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Alvis%20TF%2021"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Alvis",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-terrano",
+      "brand": "nissan",
+      "name": "Nissan Terrano",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Terrano%20%28first%20generation%29%20%28front%29%2C%20Batu%20Caves.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Terrano%20%28first%20generation%29%20%28front%29%2C%20Batu%20Caves.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-terrano.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Terrano"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Terrano"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-vauxhall-belmont",
+      "brand": "opel",
+      "name": "Vauxhall Belmont",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vauxhall%20Belmont%20outside%20a%20church%20in%20Cambridge.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Vauxhall%20Belmont%20outside%20a%20church%20in%20Cambridge.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-vauxhall-belmont.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Vauxhall%20Belmont"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Vauxhall%20Belmont"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-sachsenring--horch--p240",
+      "brand": "horch",
+      "name": "Sachsenring (Horch) P240",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1957%20Horch%20Sachsenring%20P240%20IMG%200308.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1957%20Horch%20Sachsenring%20P240%20IMG%200308.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-sachsenring--horch--p240.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Sachsenring%20%28Horch%29%20P240"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Sachsenring%20%28Horch%29%20P240"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Horch",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-polo-mk2",
+      "brand": "volkswagen",
+      "name": "Volkswagen Polo Mk2",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Polo%20II%20Type%2086C%20Coup%C3%A9%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Polo%20II%20Type%2086C%20Coup%C3%A9%2001.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-polo-mk2.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%20Polo%20Mk2"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%20Polo%20Mk2"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-asia-rocsta",
+      "brand": "asia",
+      "name": "Asia Rocsta",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/R2%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/R2%201.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-asia-rocsta.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Asia%20Rocsta"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Asia%20Rocsta"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Asia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lamborghini-diablo",
+      "brand": "lamborghini",
+      "name": "Lamborghini Diablo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/12-10-25-autostadt-wolfsburg-by-RalfR-31.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/12-10-25-autostadt-wolfsburg-by-RalfR-31.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-lamborghini-diablo.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lamborghini%20Diablo"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lamborghini%20Diablo"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lamborghini",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-blitzen-benz",
+      "brand": "benz",
+      "name": "Blitzen Benz",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%20-%20Retromobile%202013%20-%20Blitzen%20Benz%20-%201909%20-%20006.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Paris%20-%20Retromobile%202013%20-%20Blitzen%20Benz%20-%201909%20-%20006.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-blitzen-benz.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Blitzen%20Benz"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Blitzen%20Benz"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-f40",
+      "brand": "ferrari",
+      "name": "Ferrari F40",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20F40%207.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20F40%207.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-f40.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20F40"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20F40"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-touran",
+      "brand": "volkswagen",
+      "name": "Volkswagen Touran",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Touran%202.0%20TDI%20Highline%20%28II%2C%20Facelift%29%20%E2%80%93%20f%2029032026.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Touran%202.0%20TDI%20Highline%20%28II%2C%20Facelift%29%20%E2%80%93%20f%2029032026.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-touran.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%20Touran"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%20Touran"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-407",
+      "brand": "peugeot",
+      "name": "Peugeot 407",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20407%2C%20Ireland%20%289119796666%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20407%2C%20Ireland%20%289119796666%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-peugeot-407.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Peugeot%20407"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Peugeot%20407"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-calibra",
+      "brand": "opel",
+      "name": "Opel Calibra",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Calibra%20in%20Germany.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20Calibra%20in%20Germany.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-opel-calibra.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Opel%20Calibra"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Opel%20Calibra"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-american-underslung",
+      "brand": "american",
+      "name": "American Underslung",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1913-american-underslung.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1913-american-underslung.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-american-underslung.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=American%20Underslung"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=American%20Underslung"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-fiat-500",
+      "brand": "fiat",
+      "name": "Fiat 500",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1970%20Fiat%20500%20L%20--%202011%20DC%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1970%20Fiat%20500%20L%20--%202011%20DC%201.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-fiat-500.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Fiat%20500"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Fiat%20500"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-rambler-classic",
+      "brand": "american",
+      "name": "Rambler Classic",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1965%20Rambler%20Classic%20770%20convertible-white.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1965%20Rambler%20Classic%20770%20convertible-white.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-rambler-classic.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Rambler%20Classic"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Rambler%20Classic"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-a3-8l",
+      "brand": "audi",
+      "name": "Audi A3 8L",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A3%201.6%203-door%201997%20UK.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A3%201.6%203-door%201997%20UK.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-audi-a3-8l.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Audi%20A3%208L"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Audi%20A3%208L"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mercedes-simplex",
+      "brand": "mercedes-benz",
+      "name": "Mercedes Simplex",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedessimplex1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedessimplex1.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mercedes-simplex.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mercedes%20Simplex"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mercedes%20Simplex"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mercedes-Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-spirit",
+      "brand": "american",
+      "name": "AMC Spirit",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1979%20AMC%20Spirit%20GT%20V8%20Russet%20FR.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1979%20AMC%20Spirit%20GT%20V8%20Russet%20FR.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-spirit.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Spirit"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Spirit"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-willys-aero",
+      "brand": "willys",
+      "name": "Willys Aero",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%2750s%20Willys.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%2750s%20Willys.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-willys-aero.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Willys%20Aero"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Willys%20Aero"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Willys",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-oldsmobile-six",
+      "brand": "general",
+      "name": "Oldsmobile Six",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1914%20-%20Oldsmobile%20-%20Model%2054%2C%206%20cylinders.%20%283593298694%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1914%20-%20Oldsmobile%20-%20Model%2054%2C%206%20cylinders.%20%283593298694%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-oldsmobile-six.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Oldsmobile%20Six"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Oldsmobile%20Six"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-modulo",
+      "brand": "ferrari",
+      "name": "Ferrari Modulo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20Modulo%20front-right%20Museo%20Ferrari.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari%20Modulo%20front-right%20Museo%20Ferrari.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-modulo.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20Modulo"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20Modulo"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-jaguar-xj--x300",
+      "brand": "jaguar",
+      "name": "Jaguar XJ (X300)",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20XJ6.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20XJ6.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-jaguar-xj--x300.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Jaguar%20XJ%20%28X300%29"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Jaguar%20XJ%20%28X300%29"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Jaguar",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-renault-5-turbo",
+      "brand": "renault",
+      "name": "Renault 5 Turbo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nationale%20oldtimerdag%20Zandvoort%202010%2C%201981%20RENAULT%205%20TURBO%2C%20JH-VZ-86%20pic2.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nationale%20oldtimerdag%20Zandvoort%202010%2C%201981%20RENAULT%205%20TURBO%2C%20JH-VZ-86%20pic2.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-renault-5-turbo.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Renault%205%20Turbo"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Renault%205%20Turbo"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chevrolet-vega",
+      "brand": "general",
+      "name": "Chevrolet Vega",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20Chevrolet%20Vega%20Coupe.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20Chevrolet%20Vega%20Coupe.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-chevrolet-vega.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chevrolet%20Vega"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chevrolet%20Vega"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volvo-p1800-es",
+      "brand": "volvo",
+      "name": "Volvo P1800 ES",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1973VolvoP1800ES-rear.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1973VolvoP1800ES-rear.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volvo-p1800-es.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volvo%20P1800%20ES"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volvo%20P1800%20ES"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volvo",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-1-litre-car",
+      "brand": "volkswagen",
+      "name": "Volkswagen 1-litre car",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20XL%201%20vl.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20XL%201%20vl.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-1-litre-car.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%201-litre%20car"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%201-litre%20car"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-pontiac-sunfire",
+      "brand": "general",
+      "name": "Pontiac Sunfire",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/03-05%20Pontiac%20Sunfire.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/03-05%20Pontiac%20Sunfire.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-pontiac-sunfire.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Pontiac%20Sunfire"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Pontiac%20Sunfire"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-sentia",
+      "brand": "mazda",
+      "name": "Mazda Sentia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1995-1997%20Mazda%20Sentia.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1995-1997%20Mazda%20Sentia.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mazda-sentia.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mazda%20Sentia"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mazda%20Sentia"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
     }
   ],
   "news": [
     {
-      "id": "n8942677033",
+      "id": "n1133154781",
+      "title": "Google is giving Pixel 9 and Pixel 10 owners another shot at Pixel Care Plus",
+      "excerpt": "Google's latest Pixel Care Plus offer lets you sign up after the usual 60-day deadline, but not if you have a foldable.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/google-pixel-care-plus-reopened-pixel-9-pixel-10-3687640/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/google-pixel-10-pro-xl-back-obsidian-1.jpg"
+    },
+    {
+      "id": "n2024851940",
+      "title": "Starlink’s V5 dish is now available — here’s how it compares",
+      "excerpt": "SpaceX's latest residential dish - the Starlink V5 - is now available in \"select areas.\" It's notably smaller and lighter than the V4 dish with improved power efficiency. It'll be…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/science/965824/starlink-v5-vs-v4-dish-comparison",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n6375436162",
       "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
       "excerpt": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that mea…",
       "date": "2026-07-15",
@@ -68944,7 +72367,27 @@
       "image": ""
     },
     {
-      "id": "n921183957",
+      "id": "n6357418109",
+      "title": "Sonos is finally rolling out an update for its insanely bad app",
+      "excerpt": "It took two years, but Sonos finally has an update to fix its disastrous app redesign.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/sonos-app-update-fix-broken-redesign-3687610/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n7693957638",
+      "title": "Microsoft’s biggest ever patch Tuesday lets you hold off updating for longer",
+      "excerpt": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, patching at least 570 security holes, almost triple the number fixed in la…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n9369381311",
       "title": "One of Android’s best PC game emulators just got a feature modders will love",
       "excerpt": "Time to get all those crazy Skyrim mods running on your Android phone.",
       "date": "2026-07-15",
@@ -68954,7 +72397,7 @@
       "image": ""
     },
     {
-      "id": "n3464702023",
+      "id": "n1122522272",
       "title": "Microsoft pauses Windows 11's July update for some Dell devices because they're randomly shutting down",
       "excerpt": "Good thing it was caught early.",
       "date": "2026-07-15",
@@ -68964,7 +72407,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/forcibly-running-windows-11-on-old-laptop.jpg"
     },
     {
-      "id": "n3376807269",
+      "id": "n7294463815",
       "title": "After almost two years, KDE Plasma’s animations finally look good again on Nvidia cards",
       "excerpt": "Triple buffering is back.",
       "date": "2026-07-15",
@@ -68974,7 +72417,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/03/linux-laptop-with-kde-plasma.jpg"
     },
     {
-      "id": "n6129841725",
+      "id": "n1847811914",
       "title": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
       "excerpt": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
       "date": "2026-07-15",
@@ -68984,7 +72427,7 @@
       "image": ""
     },
     {
-      "id": "n9131173542",
+      "id": "n9271987097",
       "title": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
       "excerpt": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
       "date": "2026-07-15",
@@ -68994,7 +72437,7 @@
       "image": ""
     },
     {
-      "id": "n1945245894",
+      "id": "n1521078666",
       "title": "Someone connected a Raspberry Pi 4B to an old, unsupported Kindle, and now it's an e-ink dashboard",
       "excerpt": "Don't throw away perfectly good hardware.",
       "date": "2026-07-15",
@@ -69004,7 +72447,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/pi-4-kindle-featured.jpg"
     },
     {
-      "id": "n5821510809",
+      "id": "n1612686487",
       "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
       "excerpt": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
       "date": "2026-07-15",
@@ -69014,7 +72457,7 @@
       "image": ""
     },
     {
-      "id": "n9072922657",
+      "id": "n3421357242",
       "title": "Your Windows 11 SSD just lost up to 50GB to a new feature you've never heard of — and that's a good thing",
       "excerpt": "It's not as bad as it sounds",
       "date": "2026-07-15",
@@ -69024,7 +72467,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/windows-11-point-in-time-restore-settings-dual-monitor.jpg"
     },
     {
-      "id": "n6584292319",
+      "id": "n8983196479",
       "title": "Samsung says Galaxy Z Fold 8 crease is less visible thanks to ‘Flex Titanium’ display",
       "excerpt": "The Galaxy Z Fold 8 series will get a new foldable display architecture, Samsung admits, which will improve the phone’s resistance to developing an unsightly crease down the inner…",
       "date": "2026-07-14",
@@ -69034,7 +72477,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/07/galaxy-z-fold-7-review-11.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n9970377347",
+      "id": "n3720791071",
       "title": "Lorde says AI glasses are ‘not sexy’",
       "excerpt": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
       "date": "2026-07-14",
@@ -69044,7 +72487,7 @@
       "image": ""
     },
     {
-      "id": "n5729436553",
+      "id": "n315171242",
       "title": "Your motherboard outlives everything else in your PC, so I stopped buying cheap ones",
       "excerpt": "The boring parts are the load-bearing ones",
       "date": "2026-07-14",
@@ -69054,7 +72497,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/asus-rog-crosshair-2006.jpg"
     },
     {
-      "id": "n9491755338",
+      "id": "n8021399215",
       "title": "Samsung shares the secret behind its next-gen creaseless foldable displays",
       "excerpt": "Here’s how Samsung’s Flex Titanium tech aims to rival non-foldable screen quality.",
       "date": "2026-07-14",
@@ -69064,7 +72507,7 @@
       "image": ""
     },
     {
-      "id": "n718535908",
+      "id": "n7953373391",
       "title": "Google temporarily offers open Pixel Care+ enrollment for Pixel 9 and 10",
       "excerpt": "Google today announced a limited-time Pixel Care+ open enrollment period for existing Pixel 9 and 10 owners.",
       "date": "2026-07-14",
@@ -69074,7 +72517,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Pixel-10-close-up-G-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n252149676",
+      "id": "n4652853419",
       "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
       "excerpt": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED d…",
       "date": "2026-07-14",
@@ -69084,7 +72527,7 @@
       "image": ""
     },
     {
-      "id": "n9305714537",
+      "id": "n7926252547",
       "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
       "excerpt": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel lik…",
       "date": "2026-07-14",
@@ -69094,7 +72537,7 @@
       "image": ""
     },
     {
-      "id": "n2688715513",
+      "id": "n593854171",
       "title": "OpenAI’s first hardware device sounds half-speaker, half-robot",
       "excerpt": "ChatGPT could soon have a physical presence in your home.",
       "date": "2026-07-14",
@@ -69104,7 +72547,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2023/09/OpenAI-on-website-on-smartphone-stock-photo-2.jpg"
     },
     {
-      "id": "n5077397796",
+      "id": "n5884190141",
       "title": "Blocking internet on phones improves attention, mental health, and well-being",
       "excerpt": "Blocking internet on phones improves attention, mental health, and well-being",
       "date": "2026-07-14",
@@ -69114,7 +72557,7 @@
       "image": ""
     },
     {
-      "id": "n8732169056",
+      "id": "n3674688758",
       "title": "OpenAI pushes back on Apple trade secret lawsuit",
       "excerpt": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
       "date": "2026-07-14",
@@ -69124,7 +72567,7 @@
       "image": ""
     },
     {
-      "id": "n1115484971",
+      "id": "n1217225400",
       "title": "These 4 AI apps save me 20 hours every week on my Android phone",
       "excerpt": "These are not your obvious AI apps like ChatGPT.",
       "date": "2026-07-14",
@@ -69134,7 +72577,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783529154318.jpg"
     },
     {
-      "id": "n3388373982",
+      "id": "n1702601530",
       "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
       "excerpt": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
       "date": "2026-07-14",
@@ -69144,7 +72587,7 @@
       "image": ""
     },
     {
-      "id": "n6285988686",
+      "id": "n3613188011",
       "title": "The WGA is also suing to block Paramount-Warner Bros. Discovery merger",
       "excerpt": "It seems some people take issue with one billionaire family overseeing a third of the US' entertainment media.",
       "date": "2026-07-14",
@@ -69154,17 +72597,7 @@
       "image": "https://www.engadget.com/img/gallery/the-wga-is-also-suing-to-block-paramount-warner-bros-discovery-merger/l-intro-1784065629.jpg"
     },
     {
-      "id": "n3511501755",
-      "title": "Windows 11 s big patch Tuesday allows you to hold off on updates for longer",
-      "excerpt": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, and that includes the ability to pause updates indefinitely, as reported e…",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n8494712574",
+      "id": "n7069382107",
       "title": "I replaced my tower with a mini PC and immediately stopped getting tension headaches from the heat",
       "excerpt": "A recent heatwave has made me rethink my PC form factor.",
       "date": "2026-07-14",
@@ -69174,7 +72607,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/05/nvidia-rtx-4070-ti-gaming-pc.jpg"
     },
     {
-      "id": "n4564618944",
+      "id": "n1647853864",
       "title": "OpenAI may announce a ChatGPT smart speaker this year",
       "excerpt": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a…",
       "date": "2026-07-14",
@@ -69184,7 +72617,7 @@
       "image": ""
     },
     {
-      "id": "n4888656618",
+      "id": "n2075447866",
       "title": "Former employees sue over Meta's alleged use of biased AI systems during layoffs",
       "excerpt": "Meta cut its workforce by 10 percent in May.",
       "date": "2026-07-14",
@@ -69194,7 +72627,7 @@
       "image": "https://www.engadget.com/img/gallery/former-employees-sue-over-metas-alleged-use-of-biased-ai-systems-during-layoffs/l-intro-1784063853.jpg"
     },
     {
-      "id": "n3925588397",
+      "id": "n6544980274",
       "title": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
       "excerpt": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
       "date": "2026-07-14",
@@ -69204,7 +72637,7 @@
       "image": ""
     },
     {
-      "id": "n9643914958",
+      "id": "n6554527971",
       "title": "I disabled native HDR in every game after trying RTX HDR on my OLED, and I'm not switching back",
       "excerpt": "Native HDR doesn't even compare anymore",
       "date": "2026-07-14",
@@ -69214,7 +72647,7 @@
       "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/using-rtx-hdr-with-forza-horizon-6-on-oled-screen-with-nvidia-app.jpg"
     },
     {
-      "id": "n8681968318",
+      "id": "n2917427315",
       "title": "Google’s latest Pixel AI push keeps your data on your phone",
       "excerpt": "Google is pushing Pixel AI beyond the cloud with powerful on-device tools.",
       "date": "2026-07-14",
@@ -69224,7 +72657,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/gemma-4-12b-header-1536w-864h.jpg"
     },
     {
-      "id": "n1981902489",
+      "id": "n1132298550",
       "title": "Three publishers challenge Google over AI copyright infringement",
       "excerpt": "It's the latest in a barrage of efforts to win compensation from AI companies over training materials.",
       "date": "2026-07-14",
@@ -69234,7 +72667,7 @@
       "image": "https://www.engadget.com/img/gallery/three-publishers-challenge-google-over-ai-copyright-infringement/l-intro-1784060759.jpg"
     },
     {
-      "id": "n9827760135",
+      "id": "n3816470428",
       "title": "The Lo-Fi Way I Broke My Scrolling Habit",
       "excerpt": "The Lo-Fi Way I Broke My Scrolling Habit",
       "date": "2026-07-14",
@@ -69244,7 +72677,7 @@
       "image": ""
     },
     {
-      "id": "n8356941767",
+      "id": "n3033309124",
       "title": "This phone beat Google and Samsung as the best Moto G Power alternative in our survey",
       "excerpt": "You picked your preferred Moto G Power (2026) alternative in our reader poll, and the results were interestingly close.",
       "date": "2026-07-14",
@@ -69254,7 +72687,7 @@
       "image": ""
     },
     {
-      "id": "n8840935344",
+      "id": "n2638165783",
       "title": "The next wave of emoji could help you evoke beauty and existential dread",
       "excerpt": "Who has two thumbs and is broken inside?",
       "date": "2026-07-14",
@@ -69264,7 +72697,7 @@
       "image": "https://www.engadget.com/img/gallery/the-next-wave-of-emoji-could-help-you-evoke-beauty-and-existential-dread/l-intro-1784059933.jpg"
     },
     {
-      "id": "n1734523625",
+      "id": "n7743446592",
       "title": "Gmail’s Help Me Write now lets you tell it how you want your email edited",
       "excerpt": "Gmail upgrades Help Me Write with custom editing prompts.",
       "date": "2026-07-14",
@@ -69274,7 +72707,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2024/10/Gmail-for-iOS-defaulting-to-All-Inboxes-folder.jpg"
     },
     {
-      "id": "n3326166979",
+      "id": "n8192834963",
       "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
       "excerpt": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners …",
       "date": "2026-07-14",
@@ -69284,7 +72717,7 @@
       "image": ""
     },
     {
-      "id": "n1851744725",
+      "id": "n9914952688",
       "title": "Anthropic’s newest ad is creeping people out",
       "excerpt": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make An…",
       "date": "2026-07-14",
@@ -69294,7 +72727,7 @@
       "image": ""
     },
     {
-      "id": "n7900752660",
+      "id": "n1068850935",
       "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
       "excerpt": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
       "date": "2026-07-14",
@@ -69304,7 +72737,7 @@
       "image": ""
     },
     {
-      "id": "n9248337841",
+      "id": "n3842910852",
       "title": "Galaxy Watch 9 and Ultra 2 specs leak with Snapdragon chip, 800 mAh battery",
       "excerpt": "Ahead of their debut in just over a week, yet another leak details the full specs of Samsung’s Galaxy Watch 9 and Ultra 2.",
       "date": "2026-07-14",
@@ -69314,7 +72747,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-watch-9-mint-leak-1_f20b01.webp?w=1500"
     },
     {
-      "id": "n391176778",
+      "id": "n4814201632",
       "title": "I also filed the corners off my MacBook",
       "excerpt": "I also filed the corners off my MacBook",
       "date": "2026-07-14",
@@ -69324,7 +72757,7 @@
       "image": ""
     },
     {
-      "id": "n5145326250",
+      "id": "n2595921526",
       "title": "SpaceXAI s Grok programming tool was uploading its users entire codebase to cloud storage",
       "excerpt": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that…",
       "date": "2026-07-14",
@@ -69334,17 +72767,7 @@
       "image": ""
     },
     {
-      "id": "n9949484894",
-      "title": "Samsung Health won’t actually delete your data if you opt out of AI training",
-      "excerpt": "After user pushback, Samsung has clarified what happens if you opt out.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/samsung-health-ai-training-opt-out-3687480/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n657336549",
+      "id": "n8860103907",
       "title": "Is your tech giving you 'phone body'?",
       "excerpt": "Is your tech giving you 'phone body'?",
       "date": "2026-07-14",
@@ -69354,7 +72777,7 @@
       "image": ""
     },
     {
-      "id": "n5694733075",
+      "id": "n3232591196",
       "title": "Spotify adds its own AI chatbot – here’s what you can do with it [Video]",
       "excerpt": "Spotify is rolling out yet another new AI feature, this time giving listeners the ability to talk to the music streaming app like they would an AI chatbot, giving it commands/prom…",
       "date": "2026-07-14",
@@ -69362,26 +72785,6 @@
       "url": "https://9to5google.com/2026/07/14/spotify-adds-its-own-ai-chatbot-heres-what-you-can-do-with-it-video/",
       "source": "9To5Google",
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/talk-to-spotify-1.jpg?quality=82&#038;strip=all&#038;w=1600"
-    },
-    {
-      "id": "n7841430590",
-      "title": "PlayStation FlexStrike wireless fight stick delayed without a firm release date",
-      "excerpt": "Sorry Marvel Tokon fans, PlayStation s FlexStrike fight stick has been delayed.",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2215072/playstation-flexstrike-wireless-fight-stick-delayed-without-a-firm-release-date/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/playstation-flexstrike-wireless-fight-stick-delayed-without-a-firm-release-date/l-intro-1784055845.jpg"
-    },
-    {
-      "id": "n8115855017",
-      "title": "Samsung's slower version of the 990 Pro SSD costs way more than the original",
-      "excerpt": "Because it s 2026, Samsung s new 990 Pro SSD is both more expensive and slower than the original.",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2215064/samsungs-slower-version-of-the-990-pro-ssd-costs-way-more-than-the-original/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/samsungs-slower-version-of-the-990-pro-ssd-costs-way-more-than-the-original/l-intro-1784055394.jpg"
     }
   ]
 }
