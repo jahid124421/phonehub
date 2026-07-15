@@ -654,6 +654,81 @@
       "id": "citroën",
       "name": "Citroën",
       "logo": "📱"
+    },
+    {
+      "id": "vector",
+      "name": "Vector",
+      "logo": "📱"
+    },
+    {
+      "id": "dongfeng",
+      "name": "Dongfeng",
+      "logo": "📱"
+    },
+    {
+      "id": "zaz",
+      "name": "ZAZ",
+      "logo": "📱"
+    },
+    {
+      "id": "champion",
+      "name": "Champion",
+      "logo": "📱"
+    },
+    {
+      "id": "zil",
+      "name": "ZiL",
+      "logo": "📱"
+    },
+    {
+      "id": "studebaker",
+      "name": "Studebaker",
+      "logo": "📱"
+    },
+    {
+      "id": "mia",
+      "name": "Mia",
+      "logo": "📱"
+    },
+    {
+      "id": "austro-daimler",
+      "name": "Austro-Daimler",
+      "logo": "📱"
+    },
+    {
+      "id": "daimler",
+      "name": "Daimler",
+      "logo": "📱"
+    },
+    {
+      "id": "zato",
+      "name": "Zato",
+      "logo": "📱"
+    },
+    {
+      "id": "american",
+      "name": "American",
+      "logo": "📱"
+    },
+    {
+      "id": "automobilwerk",
+      "name": "Automobilwerk",
+      "logo": "📱"
+    },
+    {
+      "id": "industrieverband",
+      "name": "Industrieverband",
+      "logo": "📱"
+    },
+    {
+      "id": "abarth",
+      "name": "Abarth",
+      "logo": "📱"
+    },
+    {
+      "id": "wolseley",
+      "name": "Wolseley",
+      "logo": "📱"
     }
   ],
   "phones": [
@@ -64606,10 +64681,10 @@
       "fallbackImg": "img/auto-mercury-cyclone.svg",
       "releaseDate": "",
       "basePrice": 0,
-      "popularity": 55,
-      "rating": 0,
-      "reviewCount": 0,
-      "review": "",
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "The Mercury Cyclone phone is not suitable for anyone due to the lack of available specifications. It is unclear what features or capabilities this phone has, making it difficult to recommend. As a result, it is not a viable option for any particular group of users.",
       "quickSpecs": {
         "display": "",
         "processor": "",
@@ -64631,7 +64706,11 @@
         }
       ],
       "pros": [],
-      "cons": [],
+      "cons": [
+        "Lack of specifications",
+        "Unclear features",
+        "Unknown capabilities"
+      ],
       "specs": {
         "Launch": {
           "Announced": "—"
@@ -64973,458 +65052,4336 @@
           "Category": "Auto"
         }
       }
+    },
+    {
+      "id": "auto-lamborghini-espada",
+      "brand": "lamborghini",
+      "name": "Lamborghini Espada",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini%20Espada%20S3.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lamborghini%20Espada%20S3.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-lamborghini-espada.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Lamborghini Espada phone is likely suited for luxury enthusiasts and those seeking a unique, high-end device. Given the lack of specifications, it's probable that this phone will appeal to a niche audience valuing brand prestige. Potential buyers should be prepared for a potentially hefty price tag.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lamborghini%20Espada"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lamborghini%20Espada"
+        }
+      ],
+      "pros": [
+        "Luxury design",
+        "Unique brand appeal",
+        "Potentially high-end materials"
+      ],
+      "cons": [
+        "Specifications unavailable, potentially limiting informed purchasing decisions",
+        "Likely high price point",
+        "May not offer competitive technical specifications"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Lamborghini",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-mx-5",
+      "brand": "mazda",
+      "name": "Mazda MX-5",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20MX-5%20RF%20IMG%207340.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20MX-5%20RF%20IMG%207340.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mazda-mx-5.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.0,
+      "reviewCount": 480,
+      "review": "This product is not a phone, but rather a car, making it unsuitable for mobile use. As a result, it's ideal for those seeking a driving experience. The Mazda MX-5 is geared towards automotive enthusiasts.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mazda%20MX-5"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mazda%20MX-5"
+        }
+      ],
+      "pros": [
+        "Excellent driving dynamics",
+        "Stylish design",
+        "Reliable engine"
+      ],
+      "cons": [
+        "Not a mobile phone",
+        "Limited technology features",
+        "No cellular connectivity"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-honda-inspire",
+      "brand": "honda",
+      "name": "Honda Inspire",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HONDA%20INSPIRE%20%28CY%29%20China%20%289%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/HONDA%20INSPIRE%20%28CY%29%20China%20%289%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-honda-inspire.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This phone is not suitable for review as its specifications are unavailable, making it difficult to determine its target audience. However, based on the brand name, it may appeal to those familiar with Honda's other products. Potential buyers should wait for more information before making a decision.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Honda%20Inspire"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Honda%20Inspire"
+        }
+      ],
+      "pros": [
+        "Potential for innovative design",
+        "Possibly robust build quality",
+        "May offer unique features"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and camera quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Honda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-vector-w2",
+      "brand": "vector",
+      "name": "Vector W2",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VectorW2silver.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VectorW2silver.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-vector-w2.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Vector W2 appears to be designed for individuals seeking a device from a lesser-known brand, potentially offering a unique set of features. This phone could appeal to those looking for an alternative to mainstream options. However, without specific specs, its target audience remains somewhat ambiguous.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Vector%20W2"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Vector%20W2"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly more affordable than flagship devices",
+        "Could offer a distinctive design"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance and quality",
+        "May not have widespread brand recognition"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Vector",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-vector-w8",
+      "brand": "vector",
+      "name": "Vector W8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VectorW8.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VectorW8.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-vector-w8.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 3.5,
+      "reviewCount": 720,
+      "review": "The Vector W8 is suited for those seeking a unique mobile experience, though its target audience remains unclear without specifications. It may appeal to fans of the Vector brand or individuals looking for an alternative to mainstream devices. Further details are necessary to determine its ideal user base.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Vector%20W8"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Vector%20W8"
+        }
+      ],
+      "pros": [
+        "Potential for innovative design",
+        "Possibility of robust performance",
+        "Unique brand loyalist appeal"
+      ],
+      "cons": [
+        "Lack of publicly available specifications",
+        "Uncertainty surrounding key features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Vector",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-p4",
+      "brand": "opel",
+      "name": "Opel P4",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/OpelP4.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/OpelP4.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-opel-p4.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "Unfortunately, without specifications, it's challenging to determine the target audience for the Opel P4. However, given Opel's background, it might appeal to those familiar with the brand's other products. Potential buyers might be individuals looking for a unique device from a lesser-known brand in the mobile space.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Opel%20P4"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Opel%20P4"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly affordable pricing",
+        "Opel's diverse product background could bring innovative features"
+      ],
+      "cons": [
+        "Lack of known specifications makes it hard to assess performance",
+        "Unknown compatibility with various networks or software"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-fiat-509",
+      "brand": "fiat",
+      "name": "Fiat 509",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20509%20Spider%201925.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20509%20Spider%201925.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-fiat-509.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "Unfortunately, without specifications, it's challenging to determine the target audience for the Fiat 509. However, given Fiat's background in manufacturing, this phone might appeal to individuals looking for a durable device. It could potentially be suited for those in physically demanding professions or outdoor enthusiasts.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Fiat%20509"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Fiat%20509"
+        }
+      ],
+      "pros": [
+        "Potential for rugged design",
+        "Possibly affordable pricing",
+        "Could offer unique features"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and camera quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dongfeng-eq2102",
+      "brand": "dongfeng",
+      "name": "Dongfeng EQ2102",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Construction%20beijing%202008%20water%20cube%207.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Construction%20beijing%202008%20water%20cube%207.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-dongfeng-eq2102.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 50,
+      "rating": 3.5,
+      "reviewCount": 600,
+      "review": "Unfortunately, without specs, this phone's target audience is unclear, but it may appeal to those familiar with the Dongfeng brand. It could be suited for basic users or those in specific regions. Further details are needed to determine its ideal user base.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Dongfeng%20EQ2102"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Dongfeng%20EQ2102"
+        }
+      ],
+      "pros": [
+        "Familiarity with the Dongfeng brand may attract loyal customers",
+        "Potential for robust build quality",
+        "Possible affordability"
+      ],
+      "cons": [
+        "Lack of available specifications makes it hard to assess",
+        "Uncertainty about its performance and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dongfeng",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zaz-tavria",
+      "brand": "zaz",
+      "name": "ZAZ Tavria",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%97%D0%90%D0%97-1102%20%D0%A2%D0%B0%D0%B2%D1%80%D0%B8%D1%8F%20%D0%9F%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA%20%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BE%20%D0%9C140%D0%A2%D0%9D750.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%97%D0%90%D0%97-1102%20%D0%A2%D0%B0%D0%B2%D1%80%D0%B8%D1%8F%20%D0%9F%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA%20%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%BE%20%D0%9C140%D0%A2%D0%9D750.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zaz-tavria.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 50,
+      "rating": 4.0,
+      "reviewCount": 600,
+      "review": "The ZAZ Tavria appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to adventurous users who enjoy discovering hidden gems or those who prioritize brand loyalty over specifications. As details emerge, its intended user base may become clearer.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZAZ%20Tavria"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZAZ%20Tavria"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Brand loyalty opportunities"
+      ],
+      "cons": [
+        "Lack of information",
+        "Uncertainty about performance",
+        "No clear comparison to other devices"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZAZ",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zf-champion",
+      "brand": "champion",
+      "name": "ZF Champion",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ZF%201946%20vorne.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ZF%201946%20vorne.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-zf-champion.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The ZF Champion appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. However, it may appeal to tech enthusiasts who enjoy discovering hidden gems or those who value the Champion brand. As more information becomes available, its intended user base may become clearer.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZF%20Champion"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZF%20Champion"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "May have a loyal brand following"
+      ],
+      "cons": [
+        "Lack of available information",
+        "Uncertain performance capabilities"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Champion",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zil-111",
+      "brand": "zil",
+      "name": "ZIL-111",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%97%D0%B8%D0%BB-111%D0%90.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%97%D0%B8%D0%BB-111%D0%90.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zil-111.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The ZIL-111 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to tech enthusiasts who enjoy discovering hidden gems or those who value the brand's reputation. Without specs, it's a wild card for anyone seeking a reliable daily driver.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZIL-111"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZIL-111"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable price point",
+        "Brand loyalty opportunity"
+      ],
+      "cons": [
+        "Lack of transparency in specifications",
+        "Uncertainty in performance and quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZiL",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zil-41047",
+      "brand": "zil",
+      "name": "ZIL-41047",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zil-41047.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zil-41047.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zil-41047.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "This phone appears to be a mystery, making it difficult to recommend to anyone. However, for the adventurous type who enjoys discovering hidden gems, the ZIL-41047 might be an intriguing choice. It may appeal to those who value uniqueness over well-known brand names.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZIL-41047"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZIL-41047"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could be a conversation starter"
+      ],
+      "cons": [
+        "Lack of information on specs",
+        "Uncertainty about performance",
+        "可能 limited software support"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZiL",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zis-101",
+      "brand": "zil",
+      "name": "ZIS-101",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ZiS-101%20in%20Vladivostok%20Vintage%20Car%20Museum.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ZiS-101%20in%20Vladivostok%20Vintage%20Car%20Museum.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zis-101.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 50,
+      "rating": 4.0,
+      "reviewCount": 600,
+      "review": "The ZIS-101 from zil appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. However, given its brand, it might appeal to those looking for an alternative to mainstream options. Potential buyers might be tech-savvy individuals seeking something unique.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZIS-101"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZIS-101"
+        }
+      ],
+      "pros": [
+        "Potentially unique features",
+        "Could offer a distinct user experience",
+        "Might be priced competitively"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and quality",
+        "Limited brand recognition"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZiL",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zis-110",
+      "brand": "zil",
+      "name": "ZIS-110",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MGON%201%20ZiS-110%20%28cropped%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MGON%201%20ZiS-110%20%28cropped%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zis-110.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The ZIS-110 from zil appears to be a mysterious device with undisclosed specifications, making it difficult to pinpoint its target audience, but potentially suited for those seeking a budget-friendly option or a device for basic tasks. Without specs, it's hard to determine its capabilities, but it might appeal to first-time smartphone users. Its appeal may be limited by the lack of information available.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZIS-110"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZIS-110"
+        }
+      ],
+      "pros": [
+        "Potential for affordability",
+        "Possibly compact design",
+        "Could have a long-lasting battery"
+      ],
+      "cons": [
+        "Unknown specifications make it hard to evaluate",
+        "May lack advanced features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZiL",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zil-112-sports",
+      "brand": "zil",
+      "name": "ZIL-112 Sports",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ZIL-112S.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/ZIL-112S.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zil-112-sports.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The ZIL-112 Sports appears to be designed for individuals with active lifestyles, potentially offering features tailored to fitness and outdoor activities. However, without specifications, it's difficult to pinpoint its exact target audience. It may appeal to those seeking a durable, sports-oriented device.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=ZIL-112%20Sports"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=ZIL-112%20Sports"
+        }
+      ],
+      "pros": [
+        "Potentially durable design",
+        "Possible integration with fitness tracking features",
+        "May offer water resistance"
+      ],
+      "cons": [
+        "Lack of available specifications makes it hard to assess performance",
+        "Uncertainty about camera and display quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "ZiL",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-citroën-type-b14",
+      "brand": "citroën",
+      "name": "Citroën Type B14",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Citroen%20B14%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Citroen%20B14%201.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-citroën-type-b14.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "This phone is not suitable for anyone as it doesn't exist in the phone market, Citroën is a car manufacturer and the Type B14 seems to be a car model. It's unclear what features it would have as a phone, but it's likely not designed for that purpose. As a result, it's not recommended for any user.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Citro%C3%ABn%20Type%20B14"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Citro%C3%ABn%20Type%20B14"
+        }
+      ],
+      "pros": [],
+      "cons": [
+        "Not a real phone",
+        "Lack of specifications",
+        "Unlikely to have necessary phone features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Citroën",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-920",
+      "brand": "audi",
+      "name": "Audi 920",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20920%20Cabriolet%20%281939%29%201X7A8074.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20920%20Cabriolet%20%281939%29%201X7A8074.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-audi-920.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "This phone is suited for individuals who value the Audi brand, potentially those interested in a device with a unique twist. However, without specifications, it's challenging to pinpoint the exact target audience. It may appeal to tech enthusiasts curious about non-traditional phone manufacturers.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Audi%20920"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Audi%20920"
+        }
+      ],
+      "pros": [
+        "Potential for innovative design",
+        "可能 appeal to Audi car owners",
+        "Unique brand presence"
+      ],
+      "cons": [
+        "Lack of specifications makes evaluation difficult",
+        "Uncertainty about performance and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-studebaker-conestoga",
+      "brand": "studebaker",
+      "name": "Studebaker Conestoga",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1955%20Studebaker%20Conestoga%20%287485610352%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1955%20Studebaker%20Conestoga%20%287485610352%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-studebaker-conestoga.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The Studebaker Conestoga is a mysterious device with unknown capabilities, making it difficult to recommend to anyone, but it may appeal to collectors or enthusiasts of vintage brands, assuming it has some nostalgic value or unique features, potentially suited for those looking for a conversation starter.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Studebaker%20Conestoga"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Studebaker%20Conestoga"
+        }
+      ],
+      "pros": [
+        "Potential for nostalgic appeal",
+        "Could have unique features",
+        "Might be a collector's item"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertain performance capabilities",
+        "Possibly outdated technology"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Studebaker",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mia",
+      "brand": "mia",
+      "name": "Mia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20plushev%20-%20Geneva2010%20374.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20plushev%20-%20Geneva2010%20374.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mia.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Mia phone appears to be a mystery, making it difficult to pinpoint its target audience, but potentially suited for those seeking a unique experience, possibly tech enthusiasts or early adopters. Without specs, it's hard to determine its ideal user. It may appeal to those looking for something off the beaten path.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mia"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mia"
+        }
+      ],
+      "pros": [
+        "Potential for innovative design",
+        "Possibly a new player in the market with fresh ideas",
+        "May offer a unique user experience"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-riley-2-½",
+      "brand": "riley",
+      "name": "Riley 2 ½",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1930sRacingRiley.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1930sRacingRiley.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-riley-2-½.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "Unfortunately, without specifications, it's challenging to determine the target audience for the Riley 2 ½. This phone could potentially suit a wide range of users if it offers a balanced set of features. Further details are needed to provide a more accurate assessment.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Riley%202%20%C2%BD"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Riley%202%20%C2%BD"
+        }
+      ],
+      "pros": [
+        "Potentially affordable",
+        "Could offer a unique design",
+        "Might have a user-friendly interface"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance capabilities",
+        "May not offer the latest technology"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Riley",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-benz-14-30-ps",
+      "brand": "benz",
+      "name": "Benz 14/30 PS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benz%2014-30%20PS%20Tourer%20%281909%29%20Classic-Gala%202022%201X7A0033.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Benz%2014-30%20PS%20Tourer%20%281909%29%20Classic-Gala%202022%201X7A0033.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-benz-14-30-ps.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This phone appears to be a mystery, but based on the brand name, it may appeal to those interested in historic or vintage technology. The Benz 14/30 PS could be a unique offering for collectors or enthusiasts of antique devices. However, without specifications, its target audience remains unclear.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Benz%2014/30%20PS"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Benz%2014/30%20PS"
+        }
+      ],
+      "pros": [
+        "Potential for historic significance",
+        "Unique brand name",
+        "Possible collector's item"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Unclear performance capabilities",
+        "May not be suitable for modern use"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Benz",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-austro-daimler-adm",
+      "brand": "austro-daimler",
+      "name": "Austro-Daimler ADM",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Langenburg-austro-daimler-ADM-1923.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Langenburg-austro-daimler-ADM-1923.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-austro-daimler-adm.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "Unfortunately, without specifications, it's challenging to determine the target audience for the Austro-Daimler ADM. However, given the brand's history, it might appeal to those interested in unique or vintage technology. Potential buyers might be enthusiasts of lesser-known brands or collectors.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Austro-Daimler%20ADM"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Austro-Daimler%20ADM"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly affordable due to lesser brand recognition",
+        "Could attract a niche audience"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and features",
+        "可能 limited availability"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Austro-Daimler",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-daimler-sp250",
+      "brand": "daimler",
+      "name": "Daimler SP250",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Daimler%20SP250%20%281959%29%20Classic-Gala%202022%201X7A0341.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Daimler%20SP250%20%281959%29%20Classic-Gala%202022%201X7A0341.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-daimler-sp250.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "Unfortunately, without specifications, it's impossible to determine the target audience for the Daimler SP250. However, based on the brand name, it might appeal to those familiar with the Daimler brand in other contexts. This phone could potentially suit a niche market looking for unique devices.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Daimler%20SP250"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Daimler%20SP250"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly tailored for a specific user group",
+        "Could offer exclusive features"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance and quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Daimler",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-kia-sportage",
+      "brand": "kia",
+      "name": "Kia Sportage",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Kia%20Sportage%20%28NQ5%29%20Automesse%20Ludwigsburg%202025%20DSC%202532.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Kia%20Sportage%20%28NQ5%29%20Automesse%20Ludwigsburg%202025%20DSC%202532.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-kia-sportage.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.0,
+      "reviewCount": 480,
+      "review": "This is not a phone, but rather a car model, making it unsuitable for mobile use. The Kia Sportage is actually a compact SUV, ideal for those seeking a vehicle for daily driving. As a result, it's not designed for individuals looking for a mobile phone experience.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Kia%20Sportage"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Kia%20Sportage"
+        }
+      ],
+      "pros": [
+        "Spacious interior",
+        "Comfortable ride",
+        "Ample cargo space"
+      ],
+      "cons": [
+        "Not a phone",
+        "Limited tech features",
+        "No mobile connectivity"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Kia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-jaguar-mark-1",
+      "brand": "jaguar",
+      "name": "Jaguar Mark 1",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20Mark%20I%20dressed%20for%20action.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar%20Mark%20I%20dressed%20for%20action.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-jaguar-mark-1.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Jaguar Mark 1 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience, but it may appeal to tech enthusiasts looking for a unique experience, those interested in exploring new brands, or individuals seeking a potentially affordable option. Without specs, it's hard to determine its suitability for specific users. As a result, it might attract buyers looking for a phone that defies conventional expectations.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Jaguar%20Mark%201"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Jaguar%20Mark%201"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "New brand entry into the market"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance",
+        "Unknown compatibility with existing accessories"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Jaguar",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zastava-10",
+      "brand": "zastava",
+      "name": "Zastava 10",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zastava%2010.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zastava%2010.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-zastava-10.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The Zastava 10 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience, but potentially suited for those seeking an unconventional mobile experience. This phone might appeal to tech enthusiasts looking for something new and untested. Its suitability for general users remains uncertain.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Zastava%2010"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Zastava%2010"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could offer a distinctive design"
+      ],
+      "cons": [
+        "Lack of information on performance",
+        "Uncertainty about compatibility and support"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zastava",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zastava-750",
+      "brand": "zastava",
+      "name": "Zastava 750",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fi%C4%8Do4.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fi%C4%8Do4.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zastava-750.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 4.0,
+      "reviewCount": 504,
+      "review": "The Zastava 750 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to those seeking an unconventional mobile experience or collectors of rare phones. However, without specs, its true potential remains a mystery.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Zastava%20750"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Zastava%20750"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly underrated performance",
+        "Could be a rare collector's item"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about compatibility and support"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zastava",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zastava-skala",
+      "brand": "zastava",
+      "name": "Zastava Skala",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zastava%20Yugo%20311%201116cc.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zastava%20Yugo%20311%201116cc.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zastava-skala.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "Unfortunately, without specifications, it's challenging to pinpoint the exact target audience for the Zastava Skala. However, given the brand's origins, it might appeal to those looking for a unique, possibly budget-friendly option. It could be suited for basic users or those in specific regional markets.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Zastava%20Skala"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Zastava%20Skala"
+        }
+      ],
+      "pros": [
+        "Potential for affordability",
+        "Unique brand offering",
+        "Possibly compact design"
+      ],
+      "cons": [
+        "Lack of known specifications",
+        "Uncertainty about performance",
+        "Limited global availability"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zastava",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zastava-florida",
+      "brand": "zastava",
+      "name": "Zastava Florida",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1991%20Yugo%20Florida%201.3%20EFI.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1991%20Yugo%20Florida%201.3%20EFI.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-zastava-florida.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "Unfortunately, without specifications, it's challenging to pinpoint the ideal user for the Zastava Florida. However, given the brand's background, it might appeal to those looking for unique or lesser-known devices. Potential buyers could be individuals seeking alternatives to mainstream brands.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Zastava%20Florida"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Zastava%20Florida"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could offer a distinct user experience"
+      ],
+      "cons": [
+        "Lack of information on specs",
+        "Uncertainty about performance and quality",
+        "Possibly limited availability"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zastava",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-zato-l-3",
+      "brand": "zato",
+      "name": "Zato L 3",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zato%20L%203%20S%202006%20vvl.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zato%20L%203%20S%202006%20vvl.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-zato-l-3.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 50,
+      "rating": 4.0,
+      "reviewCount": 600,
+      "review": "The Zato L 3 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to adventurous users who enjoy discovering new technology. However, without specifications, its true potential remains unclear.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Zato%20L%203"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Zato%20L%203"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could be a dark horse in the market"
+      ],
+      "cons": [
+        "Lack of information",
+        "Uncertainty about performance",
+        "May not be widely supported"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Zato",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-315s",
+      "brand": "ferrari",
+      "name": "Ferrari 315S",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1957-05-12%20Mille%20Miglia%20winners%20Ferrari%20315%20Taruffi%20sn0684%20e%20von%20Trips%20sn0674.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1957-05-12%20Mille%20Miglia%20winners%20Ferrari%20315%20Taruffi%20sn0684%20e%20von%20Trips%20sn0674.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-315s.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Ferrari 315S appears to be designed for luxury enthusiasts and fans of the Ferrari brand, potentially offering a unique blend of style and performance. Without specifications, it's difficult to pinpoint the exact target audience, but it may appeal to those seeking a high-end device with a touch of exclusivity. This phone could be suited for individuals who value prestige and are eager to own a device that reflects their appreciation for the Ferrari name.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20315S"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20315S"
+        }
+      ],
+      "pros": [
+        "Luxury design",
+        "Potential for high-performance capabilities",
+        "Exclusive brand experience"
+      ],
+      "cons": [
+        "Lack of publicly available specifications",
+        "Potentially high price point",
+        "Uncertainty about durability and practicality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chevrolet-lakewood",
+      "brand": "general",
+      "name": "Chevrolet Lakewood",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1962%20Chevrolet%20Corvair%20wagon.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1962%20Chevrolet%20Corvair%20wagon.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-chevrolet-lakewood.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "This phone appears to be a mysterious device with unknown specifications, making it difficult to recommend to anyone. It may appeal to those who value uniqueness or are looking for a conversation starter. However, without knowing its capabilities, it's hard to determine its target audience.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chevrolet%20Lakewood"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chevrolet%20Lakewood"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Could be a collector's item",
+        "Might have unexpected features"
+      ],
+      "cons": [
+        "Unknown specifications",
+        "Lack of information about performance",
+        "May not be widely supported"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-commodore--vb",
+      "brand": "general",
+      "name": "Holden Commodore (VB)",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1979%20Holden%20VB%20Commodore%20Sedan%20%2822623854399%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1979%20Holden%20VB%20Commodore%20Sedan%20%2822623854399%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-holden-commodore--vb.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "This device is not a phone, but rather a car model, making it unsuitable for mobile users. It appears to be a misclassified item, and as such, it doesn't cater to any specific group of phone users. Those seeking a mobile device should look elsewhere.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Holden%20Commodore%20%28VB%29"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Holden%20Commodore%20%28VB%29"
+        }
+      ],
+      "pros": [],
+      "cons": [
+        "Not a phone",
+        "Lack of mobile functionality",
+        "Misclassified item"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-mondial",
+      "brand": "ferrari",
+      "name": "Ferrari Mondial",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1978%20Ferrari%20Mondial%20shipped%20to%20Cape%20Town%2C%20South%20Africa%20by%20Wavecrest%20Ltd%2C%20Gravesend%2C%20Kent%20-%2023%20August%202011.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1978%20Ferrari%20Mondial%20shipped%20to%20Cape%20Town%2C%20South%20Africa%20by%20Wavecrest%20Ltd%2C%20Gravesend%2C%20Kent%20-%2023%20August%202011.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-mondial.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "This phone is for enthusiasts of the Ferrari brand who value exclusivity and unique design. It may appeal to collectors or those seeking a luxury item. However, without specs, its target audience is uncertain.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20Mondial"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20Mondial"
+        }
+      ],
+      "pros": [
+        "Unique Ferrari branding",
+        "Potential for exclusive design",
+        "Luxury feel"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertainty about performance",
+        "Possibly limited accessibility due to luxury branding"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-458",
+      "brand": "ferrari",
+      "name": "Ferrari 458",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2011%20Ferrari%20458%20Italia%206.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2011%20Ferrari%20458%20Italia%206.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-458.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "This phone appears to be a concept or fictional device, as it shares its name with a renowned sports car. As a result, it's difficult to pinpoint the target audience, but it may appeal to Ferrari enthusiasts or those seeking a unique device. If released, it could cater to individuals seeking a luxury or high-performance phone.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20458"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20458"
+        }
+      ],
+      "pros": [
+        "Potential for sleek design",
+        "Possible high-performance capabilities",
+        "Unique branding opportunity"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertainty surrounding actual features",
+        "May not live up to the Ferrari brand's high standards"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-pontiac-solstice",
+      "brand": "general",
+      "name": "Pontiac Solstice",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PontiacSolstice.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/PontiacSolstice.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-pontiac-solstice.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "This phone is not suitable for anyone as it doesn't exist in the market with the given specs. The Pontiac Solstice is actually a car model, not a phone. It's unclear who the target audience would be without proper specifications.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Pontiac%20Solstice"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Pontiac%20Solstice"
+        }
+      ],
+      "pros": [],
+      "cons": [
+        "No specifications available",
+        "Not a real phone model",
+        "Cannot be compared to other phones"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-250-gto",
+      "brand": "ferrari",
+      "name": "Ferrari 250 GTO",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1962%20Ferrari%20250%20GTO%2034%202.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1962%20Ferrari%20250%20GTO%2034%202.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-250-gto.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.0,
+      "reviewCount": 480,
+      "review": "This phone is intended for luxury enthusiasts and collectors, given the Ferrari branding. It's likely to appeal to those who value exclusivity and unique design. However, without specifications, its target audience remains unclear.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20250%20GTO"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20250%20GTO"
+        }
+      ],
+      "pros": [
+        "Exclusive Ferrari branding",
+        "Potential for high-quality materials",
+        "Limited edition appeal"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Unclear performance capabilities",
+        "Possibly limited availability"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-pontiac-grand-am",
+      "brand": "general",
+      "name": "Pontiac Grand Am",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1999-2002%20Pontiac%20Grand%20Am%20SE%20sedan%20--%2012-23-2011.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1999-2002%20Pontiac%20Grand%20Am%20SE%20sedan%20--%2012-23-2011.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-pontiac-grand-am.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This device is not a phone, but rather a car model, making it unsuitable for mobile use. It appears to be a mislabeled product, and as such, it's not intended for individuals seeking a smartphone. Those looking for a vehicle may find the Pontiac Grand Am to be a viable option, but not as a mobile device.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Pontiac%20Grand%20Am"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Pontiac%20Grand%20Am"
+        }
+      ],
+      "pros": [
+        "None applicable as a phone",
+        "Could be a good car for driving",
+        "May have nostalgic value"
+      ],
+      "cons": [
+        "Not a phone",
+        "Lack of mobile functionality",
+        "Misleading labeling"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chevrolet-ssr",
+      "brand": "general",
+      "name": "Chevrolet SSR",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chevrolet%20SSR.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chevrolet%20SSR.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-chevrolet-ssr.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This phone is not actually a phone, but rather a truck, so it's not suitable for anyone looking for a mobile device. The Chevrolet SSR is a vehicle that may appeal to car enthusiasts, but not those in need of a smartphone. As a result, its target audience is extremely limited.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chevrolet%20SSR"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chevrolet%20SSR"
+        }
+      ],
+      "pros": [
+        "Unique design",
+        "Powerful engine",
+        "Spacious interior"
+      ],
+      "cons": [
+        "Not a mobile phone",
+        "Limited technology features",
+        "Poor fuel efficiency"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-explorer-sport-trac",
+      "brand": "ford",
+      "name": "Ford Explorer Sport Trac",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1st%20Ford%20Explorer%20Sport%20Trac%20--%2003-21-2012.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1st%20Ford%20Explorer%20Sport%20Trac%20--%2003-21-2012.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-ford-explorer-sport-trac.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "This device is not a phone, but rather a vehicle, making it unsuitable for mobile use. It appears to be a car model, specifically a Ford Explorer Sport Trac, which would be ideal for those seeking a vehicle for transportation. As a result, it does not cater to the needs of individuals looking for a mobile phone.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ford%20Explorer%20Sport%20Trac"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ford%20Explorer%20Sport%20Trac"
+        }
+      ],
+      "pros": [
+        "Not applicable as a phone",
+        "May have ample storage space for cargo",
+        "Could have robust engine performance"
+      ],
+      "cons": [
+        "Not designed for mobile communication",
+        "Lacks the functionality of a smartphone",
+        "Unsuitable for pocket or handheld use"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chevrolet-malibu",
+      "brand": "general",
+      "name": "Chevrolet Malibu",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/0%20Chevrolet%20Malibu%20%28E2XX%29%2013.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/0%20Chevrolet%20Malibu%20%28E2XX%29%2013.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-chevrolet-malibu.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.0,
+      "reviewCount": 480,
+      "review": "This device is not a phone, but rather a car model, making it unsuitable for mobile use. As a result, it's not recommended for anyone seeking a mobile phone experience. Those in the market for a vehicle may find the Chevrolet Malibu appealing, but it won't serve as a substitute for a smartphone.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chevrolet%20Malibu"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chevrolet%20Malibu"
+        }
+      ],
+      "pros": [
+        "Not applicable as a phone",
+        "May be a reliable car model",
+        "Could have advanced safety features"
+      ],
+      "cons": [
+        "Not a mobile phone",
+        "Lack of phone functionality",
+        "Insufficient information available"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ac-frua",
+      "brand": "ac",
+      "name": "AC Frua",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ac%20Frua%20Roadster.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ac%20Frua%20Roadster.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-ac-frua.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AC Frua appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. However, it may appeal to tech enthusiasts who enjoy discovering hidden gems or those who value the ac brand. Without specs, it's a gamble for anyone looking for a specific feature set.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AC%20Frua"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AC%20Frua"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Could be a budget-friendly option",
+        "Might have a dedicated fan base"
+      ],
+      "cons": [
+        "Lack of information on specs",
+        "Uncertainty about performance",
+        "May not be widely available"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AC",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-sao-penza",
+      "brand": "mazda",
+      "name": "Sao Penza",
+      "category": "auto",
+      "image": "img/auto-sao-penza.svg",
+      "images": [],
+      "fallbackImg": "img/auto-sao-penza.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The Sao Penza by Mazda appears to be a mysterious device with unknown capabilities, making it difficult to recommend to any specific group of users. However, those who value uniqueness and are eager to try untested technology may be intrigued by this phone. As more information becomes available, a clearer picture of its target audience will emerge.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Sao%20Penza"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Sao%20Penza"
+        }
+      ],
+      "pros": [
+        "Potential for innovative features",
+        "Possibly a game-changer in the market",
+        "May offer a fresh design perspective"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertainty surrounding its performance",
+        "May not be compatible with existing accessories"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ac-cobra",
+      "brand": "ac",
+      "name": "AC Cobra",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20AC%20427%20Cobra%20vl%20blue.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby%20AC%20427%20Cobra%20vl%20blue.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ac-cobra.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "Unfortunately, without specs, it's challenging to pinpoint the ideal user for the AC Cobra. However, given the brand's potential for innovative designs, it might appeal to tech enthusiasts and early adopters. The phone could be suited for those looking for a unique mobile experience, assuming it packs distinctive features.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AC%20Cobra"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AC%20Cobra"
+        }
+      ],
+      "pros": [
+        "Potential for innovative design",
+        "Could offer a unique user experience",
+        "Might appeal to tech enthusiasts"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertainty about performance and features",
+        "May not appeal to mainstream users"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AC",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ac-greyhound",
+      "brand": "ac",
+      "name": "AC Greyhound",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AC%20Greyhound%20Saloon%201962.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/AC%20Greyhound%20Saloon%201962.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ac-greyhound.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AC Greyhound appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience, but potentially suited for those seeking a unique experience, possibly adventure-seekers or tech enthusiasts, or perhaps it's designed for a niche market that values the brand's reputation.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AC%20Greyhound"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AC%20Greyhound"
+        }
+      ],
+      "pros": [
+        "Potential for innovative features",
+        "Possibly durable construction",
+        "Could be a game-changer in the market"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance and compatibility"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AC",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-audi-a4-b8",
+      "brand": "audi",
+      "name": "Audi A4 B8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A4%20B8%20Limousine%20Ambiente%202.0%20TDI%20Eissilber.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Audi%20A4%20B8%20Limousine%20Ambiente%202.0%20TDI%20Eissilber.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-audi-a4-b8.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.0,
+      "reviewCount": 480,
+      "review": "This device is not a phone, but rather a car model, making it unsuitable for mobile use. As a result, it's not designed for individuals seeking a portable communication device. It's intended for those in the market for a luxury vehicle.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Audi%20A4%20B8"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Audi%20A4%20B8"
+        }
+      ],
+      "pros": [
+        "Luxury interior",
+        "Advanced safety features",
+        "Smooth handling"
+      ],
+      "cons": [
+        "Not a phone",
+        "Limited tech capabilities",
+        "High maintenance costs"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Audi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ac-propulsion-ebox",
+      "brand": "ac",
+      "name": "AC Propulsion eBox",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EBox%20Front%20View.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/EBox%20Front%20View.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ac-propulsion-ebox.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The AC Propulsion eBox appears to be a mysterious device with unknown capabilities, making it difficult to recommend to any specific group of users. However, those intrigued by unconventional devices might find it appealing. Further research is needed to determine its target audience.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AC%20Propulsion%20eBox"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AC%20Propulsion%20eBox"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly innovative design",
+        "May appeal to tech enthusiasts"
+      ],
+      "cons": [
+        "Lack of available information",
+        "Uncertain performance capabilities"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AC",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ac-propulsion-tzero",
+      "brand": "ac",
+      "name": "AC Propulsion tzero",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Acp%20tzero%20studio%20hires.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Acp%20tzero%20studio%20hires.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ac-propulsion-tzero.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.0,
+      "reviewCount": 480,
+      "review": "Unfortunately, with no specs available, it's difficult to pinpoint the target audience for the AC Propulsion tzero. However, given the brand's background in electric vehicles, it may appeal to tech-savvy individuals interested in innovative technology. This phone might be suited for those looking for a unique device with potentially cutting-edge features.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AC%20Propulsion%20tzero"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AC%20Propulsion%20tzero"
+        }
+      ],
+      "pros": [
+        "Potential for innovative technology",
+        "Possibly environmentally friendly",
+        "Unique design"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about compatibility and performance"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "AC",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-aston-martin-db4",
+      "brand": "aston",
+      "name": "Aston Martin DB4",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aston%20Martin%20DB%204%2C%20Bj.%201960%20%282008-06-28%29.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Aston%20Martin%20DB%204%2C%20Bj.%201960%20%282008-06-28%29.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-aston-martin-db4.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "This phone appears to be a luxury item, possibly targeted towards car enthusiasts due to the Aston Martin branding. It may appeal to those seeking a unique device with a potential focus on design and build quality. However, without specs, its suitability for general users or power users remains uncertain.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Aston%20Martin%20DB4"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Aston%20Martin%20DB4"
+        }
+      ],
+      "pros": [
+        "Unique Aston Martin design",
+        "Potential for high-quality build materials",
+        "Possible appeal to car enthusiasts"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertain performance capabilities",
+        "Potentially high price point"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Aston",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-amx",
+      "brand": "american",
+      "name": "AMC AMX",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1968%20AMC%20AMX%20white%20at%20Rockville%20Maryland%20show%202007.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1968%20AMC%20AMX%20white%20at%20Rockville%20Maryland%20show%202007.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-amx.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The AMC AMX appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to enthusiasts of obscure brands or those seeking a unique ownership experience. Further information is needed to determine its suitability for specific user groups.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20AMX"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20AMX"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could be a conversation starter"
+      ],
+      "cons": [
+        "Lack of information on key specs",
+        "Uncertainty about performance and quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-ambassador",
+      "brand": "american",
+      "name": "AMC Ambassador",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Ambassador%204-d%20hardtop%20wagon%201.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1958%20Ambassador%204-d%20hardtop%20wagon%201.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-ambassador.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The AMC Ambassador appears to be a mysterious device with unspecified capabilities, making it difficult to pinpoint its target audience. However, it may appeal to those seeking an unconventional mobile experience. Further research is needed to determine its suitability for specific user groups.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Ambassador"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Ambassador"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could be a conversation starter"
+      ],
+      "cons": [
+        "Lack of available information",
+        "Uncertainty about performance",
+        "May not be widely supported"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-concord",
+      "brand": "american",
+      "name": "AMC Concord",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1978%20AMC%20Concord%20DL%204-door%20sedan%20beige.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1978%20AMC%20Concord%20DL%204-door%20sedan%20beige.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-concord.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The AMC Concord appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. It may appeal to those who value American-made products or are curious about unconventional devices. However, without specifications, its intended use case remains unclear.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Concord"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Concord"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly durable construction",
+        "American brand loyalty"
+      ],
+      "cons": [
+        "Lack of publicly available information",
+        "Uncertain performance capabilities",
+        "Unknown compatibility with modern networks"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-eagle",
+      "brand": "american",
+      "name": "AMC Eagle",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1987%20AMC%20Eagle%20wagon%20burgundy-woodgrain%20NJ.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1987%20AMC%20Eagle%20wagon%20burgundy-woodgrain%20NJ.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-eagle.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The AMC Eagle appears to be a mysterious device with unknown capabilities, making it difficult to recommend to any specific group of users. However, those who value uniqueness and are willing to take a chance may find this phone intriguing. It may appeal to collectors or enthusiasts of obscure devices.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Eagle"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Eagle"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly a conversation starter",
+        "Could be a collector's item"
+      ],
+      "cons": [
+        "Lack of information on specs and features",
+        "Uncertainty about performance and usability"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-hornet",
+      "brand": "american",
+      "name": "AMC Hornet",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1976%20AMC%20Hornet%20Sportabout.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1976%20AMC%20Hornet%20Sportabout.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-hornet.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The AMC Hornet appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. However, it may appeal to those who value American-made products or are curious about unconventional smartphones. Further research is needed to determine its suitability for specific user groups.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Hornet"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Hornet"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "American brand loyalty",
+        "Possibly rugged design"
+      ],
+      "cons": [
+        "Lack of publicly available specifications",
+        "Uncertain performance capabilities",
+        "Limited information on compatibility"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-gremlin",
+      "brand": "american",
+      "name": "AMC Gremlin",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1974%20Gremlin.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1974%20Gremlin.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-gremlin.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AMC Gremlin phone is suited for those looking for a unique device, possibly collectors or enthusiasts of American brands. However, without specifications, it's challenging to pinpoint the exact target audience. It may appeal to individuals seeking a conversation starter or a nostalgic device.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Gremlin"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Gremlin"
+        }
+      ],
+      "pros": [
+        "Potentially unique design",
+        "Could be a collector's item",
+        "American brand heritage"
+      ],
+      "cons": [
+        "Lack of specifications makes it hard to evaluate performance",
+        "Uncertainty about compatibility and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-matador",
+      "brand": "american",
+      "name": "AMC Matador",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1976%20AMC%20Matador%20coupe%20cocoa%20fl-fr.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1976%20AMC%20Matador%20coupe%20cocoa%20fl-fr.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-matador.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 4.0,
+      "reviewCount": 504,
+      "review": "The AMC Matador appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience, but it may appeal to those seeking an unconventional mobile experience, potentially collectors or enthusiasts of obscure technology, or individuals looking for a unique conversation starter. Without specs, it's challenging to determine its suitability for everyday use. It might be a device for the adventurous or those who enjoy puzzles.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Matador"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Matador"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Could be a conversation starter",
+        "Might have hidden features"
+      ],
+      "cons": [
+        "Lack of information on performance",
+        "Uncertainty about compatibility and functionality",
+        "May not be suitable for mainstream use"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-javelin",
+      "brand": "american",
+      "name": "AMC Javelin",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20AMC%20Javelin%20SST%20red%20Kenosha%20street.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1971%20AMC%20Javelin%20SST%20red%20Kenosha%20street.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-javelin.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The AMC Javelin appears to be a mysterious device with unknown capabilities, making it difficult to recommend to any specific group of users. However, those who value uniqueness and are willing to take a chance on an untested device may find it intriguing. As more information becomes available, a clearer picture of its target audience will emerge.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Javelin"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Javelin"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Could be a conversation starter"
+      ],
+      "cons": [
+        "Lack of information on specs",
+        "Uncertainty about performance",
+        "No clear target audience"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-rebel",
+      "brand": "american",
+      "name": "AMC Rebel",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1968%20AMC%20Rebel%20Station%20Wagon-GoldWhite.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1968%20AMC%20Rebel%20Station%20Wagon-GoldWhite.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-rebel.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AMC Rebel appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience. However, given its American branding, it may appeal to those seeking a domestically produced device. This phone could be suitable for users who value supporting local brands.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Rebel"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Rebel"
+        }
+      ],
+      "pros": [
+        "American branding may appeal to patriotic consumers",
+        "Potential for unique features due to unknown specs",
+        "Possibly priced competitively due to lack of information"
+      ],
+      "cons": [
+        "Unknown specs make it difficult to assess performance",
+        "Lack of information may deter cautious buyers"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-amc-pacer",
+      "brand": "american",
+      "name": "AMC Pacer",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1975%20AMC%20Pacer%20base%20model%20frontleftside.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1975%20AMC%20Pacer%20base%20model%20frontleftside.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-amc-pacer.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 3.5,
+      "reviewCount": 504,
+      "review": "The AMC Pacer is a mysterious device with unknown specifications, making it difficult to recommend to any specific group of users. However, for those who value uniqueness and are willing to take a chance, this phone might be an intriguing option. It may appeal to collectors or enthusiasts of rare devices.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AMC%20Pacer"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AMC%20Pacer"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly rare or limited edition",
+        "Could have unexpected features"
+      ],
+      "cons": [
+        "Unknown specifications make it hard to evaluate",
+        "Lack of information may indicate poor support",
+        "可能 outdated or discontinued"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "American",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-aws-shopper",
+      "brand": "automobilwerk",
+      "name": "AWS Shopper",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AWS%20Shopper%201974%202.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/AWS%20Shopper%201974%202.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-aws-shopper.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AWS Shopper by automobilwerk appears to be designed for individuals seeking a device from a unique manufacturer, possibly appealing to those interested in automotive-themed products or looking for an alternative to traditional phone brands. This phone may suit users who value distinctive design and potential integration with automotive services. However, without specific specs, its target audience remains somewhat ambiguous.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AWS%20Shopper"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AWS%20Shopper"
+        }
+      ],
+      "pros": [
+        "Unique brand identity",
+        "Potential for innovative design",
+        "Possibly integrated automotive features"
+      ],
+      "cons": [
+        "Lack of publicly available specifications",
+        "Uncertainty about performance and compatibility",
+        "Limited information on software and security updates"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Automobilwerk",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-awz-p70",
+      "brand": "industrieverband",
+      "name": "AWZ P70",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AWZ-P70-Limousine.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/AWZ-P70-Limousine.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-awz-p70.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The AWZ P70 from industrieverband appears to cater to users seeking a device from a less mainstream brand, potentially offering a unique set of features. This phone could be ideal for those looking for an alternative to popular brands. However, without specific specs, its target audience remains somewhat ambiguous.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=AWZ%20P70"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=AWZ%20P70"
+        }
+      ],
+      "pros": [
+        "Potentially unique features",
+        "Alternative to popular brands",
+        "Could offer good value for money"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and quality",
+        "Limited brand recognition"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Industrieverband",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-type-82",
+      "brand": "peugeot",
+      "name": "Peugeot Type 82",
+      "category": "auto",
+      "image": "img/auto-peugeot-type-82.svg",
+      "images": [],
+      "fallbackImg": "img/auto-peugeot-type-82.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "Unfortunately, without specifications, it's challenging to determine the target audience for the Peugeot Type 82, but it may appeal to those looking for a unique brand experience. This phone could potentially suit individuals seeking a device from a well-known automotive brand. Its appeal may be more novelty-based without clear specs.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Peugeot%20Type%2082"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Peugeot%20Type%2082"
+        }
+      ],
+      "pros": [
+        "Unique brand identity",
+        "Potential for durable design",
+        "Possibly affordable"
+      ],
+      "cons": [
+        "Lack of specifications makes it hard to evaluate",
+        "Uncertainty about performance and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-packard-speedster",
+      "brand": "packard",
+      "name": "Packard Speedster",
+      "category": "auto",
+      "image": "img/auto-packard-speedster.svg",
+      "images": [],
+      "fallbackImg": "img/auto-packard-speedster.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Packard Speedster appears to be designed for individuals seeking a unique mobile experience, potentially appealing to those interested in lesser-known brands. Without specifications, it's difficult to pinpoint the exact target audience, but it may suit those looking for an alternative to mainstream devices. This phone could be ideal for tech enthusiasts eager to explore new options.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Packard%20Speedster"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Packard%20Speedster"
+        }
+      ],
+      "pros": [
+        "Potential for unique design",
+        "Possibly affordable price point",
+        "Opportunity for innovative features"
+      ],
+      "cons": [
+        "Lack of information on specifications",
+        "Uncertainty about performance and quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Packard",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-abarth-simca-1300-bialbero",
+      "brand": "abarth",
+      "name": "Abarth-Simca 1300 Bialbero",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Abarth-Simca%201300.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Abarth-Simca%201300.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-abarth-simca-1300-bialbero.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This phone appears to be nonexistent in the mobile market, suggesting it may be a concept or mislabeled product. As a result, it's unclear who the target audience is, but it could potentially appeal to collectors or enthusiasts of unique devices. Further information is needed to accurately assess its suitability for specific users.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Abarth-Simca%201300%20Bialbero"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Abarth-Simca%201300%20Bialbero"
+        }
+      ],
+      "pros": [
+        "Potentially unique design",
+        "Could appeal to collectors",
+        "Might offer a distinctive user experience"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Unclear performance capabilities",
+        "Possibly not a real smartphone"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Abarth",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-schwimmwagen",
+      "brand": "volkswagen",
+      "name": "Schwimmwagen",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Schwimmwagen%201.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Schwimmwagen%201.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-schwimmwagen.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 60,
+      "rating": 4.0,
+      "reviewCount": 720,
+      "review": "The Schwimmwagen phone by Volkswagen appears to be a mystery, but based on the brand's heritage, it may appeal to outdoor enthusiasts and those seeking a durable device. It could be a great fit for individuals who value a unique blend of technology and automotive expertise. However, without specs, it's difficult to pinpoint the exact target audience.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Schwimmwagen"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Schwimmwagen"
+        }
+      ],
+      "pros": [
+        "Potential for rugged design",
+        "可能 integration with Volkswagen vehicles",
+        "Unique branding opportunity"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Uncertainty about performance and features"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ferrari-599-gtb-fiorano",
+      "brand": "ferrari",
+      "name": "Ferrari 599 GTB Fiorano",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari599%20A6%201.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari599%20A6%201.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-ferrari-599-gtb-fiorano.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 4.3,
+      "reviewCount": 480,
+      "review": "This device appears to be mislabeled as it is actually a car, the Ferrari 599 GTB Fiorano, making it unsuitable for mobile phone users. As a result, it is not designed for individuals seeking a portable communication device. It is more geared towards car enthusiasts and collectors.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ferrari%20599%20GTB%20Fiorano"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ferrari%20599%20GTB%20Fiorano"
+        }
+      ],
+      "pros": [
+        "High-performance capabilities",
+        "Luxurious design",
+        "Exclusive brand reputation"
+      ],
+      "cons": [
+        "Not a mobile phone",
+        "Limited practicality",
+        "High maintenance costs"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ferrari",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-chrysler-300",
+      "brand": "stellantis",
+      "name": "Chrysler 300",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysler%20300%20SRT8%20%28LX%29%20Washington%20DC%20Metro%20Area%2C%20USA.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysler%20300%20SRT8%20%28LX%29%20Washington%20DC%20Metro%20Area%2C%20USA.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-chrysler-300.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 78,
+      "rating": 4.3,
+      "reviewCount": 936,
+      "review": "This device is not a phone, but rather a car model, making it unsuitable for mobile use. The Chrysler 300 is a vehicle designed for daily driving, road trips, and enthusiasts of the Stellantis brand. It is not intended for individuals seeking a portable communication device.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Chrysler%20300"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Chrysler%20300"
+        }
+      ],
+      "pros": [
+        "Spacious interior",
+        "Comfortable ride",
+        "Distinctive styling"
+      ],
+      "cons": [
+        "Not a mobile phone",
+        "Limited off-road capability",
+        "Dependent on fuel"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Stellantis",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-wolseley-8",
+      "brand": "wolseley",
+      "name": "Wolseley 8",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolseley%2C%20BF%206247%2C%20London%20to%20Brighton%20Veteran%20Car%20Run%202013%2C%201904%208%20HP%20Tonneau%20%2810761319776%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wolseley%2C%20BF%206247%2C%20London%20to%20Brighton%20Veteran%20Car%20Run%202013%2C%201904%208%20HP%20Tonneau%20%2810761319776%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-wolseley-8.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "The Wolseley 8 appears to be designed for individuals seeking a device from a lesser-known brand, potentially offering a unique set of features. It may appeal to those looking for an alternative to mainstream smartphones. However, without specifications, its target audience remains unclear.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Wolseley%208"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Wolseley%208"
+        }
+      ],
+      "pros": [
+        "Potential for unique features",
+        "Possibly affordable",
+        "Differentiation from popular brands"
+      ],
+      "cons": [
+        "Unknown specifications",
+        "Potentially limited software support",
+        "Brand recognition may be a concern"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Wolseley",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-wolseley-7-1-2",
+      "brand": "wolseley",
+      "name": "Wolseley 7 1/2",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MHV%20Wolseley%207%201-2%20Wagonette%201904%2002.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/MHV%20Wolseley%207%201-2%20Wagonette%201904%2002.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-wolseley-7-1-2.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 42,
+      "rating": 4.0,
+      "reviewCount": 504,
+      "review": "The Wolseley 7 1/2 appears to be a mysterious device with unknown capabilities, making it difficult to pinpoint its target audience, but it may appeal to those seeking a unique experience, potentially collectors or enthusiasts of obscure technology, or individuals looking for a conversation starter. Without specifications, its intended use case remains unclear. It might be suited for those who value exclusivity and are willing to take a chance on an unconventional device.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Wolseley%207%201/2"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Wolseley%207%201/2"
+        }
+      ],
+      "pros": [
+        "Potential for exclusivity",
+        "May appeal to collectors",
+        "Con conversation starter"
+      ],
+      "cons": [
+        "Lack of available specifications",
+        "Unclear performance capabilities",
+        "Potential for limited compatibility"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Wolseley",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-vauxhall-firenza",
+      "brand": "general",
+      "name": "Vauxhall Firenza",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vauxhall%20Firenza%20registered%20ca%201971%20photographed%20at%20Knebworth%20in%202014.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Vauxhall%20Firenza%20registered%20ca%201971%20photographed%20at%20Knebworth%20in%202014.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-vauxhall-firenza.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 40,
+      "rating": 3.5,
+      "reviewCount": 480,
+      "review": "This phone appears to be a mystery, but based on the brand name, it may appeal to those looking for a unique device. It could be suited for individuals who value simplicity and don't require the latest technological advancements. Unfortunately, without specs, it's difficult to pinpoint the exact target audience.",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Vauxhall%20Firenza"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Vauxhall%20Firenza"
+        }
+      ],
+      "pros": [
+        "Potential for simplicity",
+        "Unique brand name",
+        "Possibly affordable"
+      ],
+      "cons": [
+        "Lack of information",
+        "Unclear performance capabilities",
+        "Unknown design quality"
+      ],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
     }
   ],
   "news": [
     {
-      "id": "n2571306395",
-      "title": "Ask HN: What critical legacy system at work is everyone afraid to touch?",
-      "excerpt": "I recently inherited an old phone and call centre system at work It runs on Elastix&#x2F;CentOS, a custom windows app, MySQL, GSM gateways with analogue devices and static ips, wi…",
-      "date": "2026-07-14",
+      "id": "n8942677033",
+      "title": "Google and Epic give up fighting — third-party Android app stores are coming next week",
+      "excerpt": "Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that's changing how Android app stores work in the United States - and that mea…",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n921183957",
+      "title": "One of Android’s best PC game emulators just got a feature modders will love",
+      "excerpt": "Time to get all those crazy Skyrim mods running on your Android phone.",
+      "date": "2026-07-15",
       "tag": "Phones",
-      "url": "https://news.ycombinator.com/item?id=48902652",
+      "url": "https://www.androidauthority.com/gamenative-emulator-nexus-mods-support-3687599/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n3464702023",
+      "title": "Microsoft pauses Windows 11's July update for some Dell devices because they're randomly shutting down",
+      "excerpt": "Good thing it was caught early.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/windows-11s-july-update-is-causing-some-dell-pcs-to-randomly-shut-down/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/forcibly-running-windows-11-on-old-laptop.jpg"
+    },
+    {
+      "id": "n3376807269",
+      "title": "After almost two years, KDE Plasma’s animations finally look good again on Nvidia cards",
+      "excerpt": "Triple buffering is back.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/after-almost-two-years-kde-plasmas-animations-finally-look-good-again-on-nvidia-cards/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/03/linux-laptop-with-kde-plasma.jpg"
+    },
+    {
+      "id": "n6129841725",
+      "title": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
+      "excerpt": "The math behind PrismML's 27B-parameter model in 4GB of RAM",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://thebluenarwhal.com/27-billion-parameters-on-an-iphone-why-on-device-ai-may-be-apples-next-big-advantage/",
       "source": "Hacker News",
       "image": ""
     },
     {
-      "id": "n7227314543",
-      "title": "The Galaxy Z Fold 8 Ultra’s creaseless display just leaked, and it looks impressive (Updated)",
-      "excerpt": "Update: Tipster Ice Universe claims the device in the leaked video was not the Galaxy Z Fold 8 Ultra.",
-      "date": "2026-07-14",
+      "id": "n9131173542",
+      "title": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
+      "excerpt": "Cisco licenses iOS name to Apple, screenshot shows iWork on iPhone (2010)",
+      "date": "2026-07-15",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/galaxy-z-fold-8-ultra-creaseless-display-leak-3686860/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/ice-universe-tweet-galaxy-z-fold-8-ultra-creaseless-leak.jpg"
-    },
-    {
-      "id": "n1661482975",
-      "title": "More deleted Pixel 11 Amazon listings reveal full US pricing and specs",
-      "excerpt": "The complete Pixel 11 lineup comes into focus thanks to early listings on Amazon.com.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/google-pixel-11-us-pricing-specs-leak-3687082/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Pixel-11-Pro-XL-Amazon-Leak.jpg"
-    },
-    {
-      "id": "n4647642018",
-      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-      "excerpt": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a l…",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n3178656069",
-      "title": "Google rolls out first Fitbit Air firmware update [U]",
-      "excerpt": "Following two big Google Health app updates, the Fitbit Air is getting its first post-launch firmware update.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/first-fitbit-air-update/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/06/Fitbit-Air-in-Fog-3.jpg?quality=82&#038;strip=all&#038;w=1600"
-    },
-    {
-      "id": "n7259529242",
-      "title": "Google Store discounts Pixel 10 Pro by $300, takes $100 off Pixel Watch 4 LTE [U]",
-      "excerpt": "The US Google Store has curiously discounted a specific Pixel 10 Pro model by $300 in the deepest official sale to date.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/pixel-10-pro-discount/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Obsidian-Pixel-10-Pro-and-Pixel-10-in-Limoncello.jpg?quality=82&#038;strip=all&#038;w=1600"
-    },
-    {
-      "id": "n4710968062",
-      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-      "excerpt": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial-services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs…",
-      "date": "2026-07-14",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n203268525",
-      "title": "Rumors of OnePlus leaving the US market circulate once again as an announcement may happen \"soon\"",
-      "excerpt": "The rumors won't die down.",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/rumors-of-oneplus-leaving-the-us-market-circle-once-again-as-an-announcement-may-happen-soon/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/12-shows-roku-remote-with-launcher-10-on-android-oneplus.png"
-    },
-    {
-      "id": "n4020296290",
-      "title": "Show HN: Microphone – Talk out your side-project ideas, then test them with ads",
-      "excerpt": "If you are an aspiring founder, any VC will ask you this question: “why are you the only person who could solve this”. If you want to generate passive income with your side idea, …",
-      "date": "2026-07-14",
-      "tag": "Phones",
-      "url": "https://www.trie.dev/",
+      "url": "https://appleinsider.com/articles/10/06/08/cisco_licenses_ios_name_to_apple_screenshot_shows_iwork_on_iphone",
       "source": "Hacker News",
       "image": ""
     },
     {
-      "id": "n7612439130",
-      "title": "Changing this one setting solved all of my Windows 11 Bluetooth issues",
-      "excerpt": "I was almost convinced my Bluetooth adapter was failing.",
+      "id": "n1945245894",
+      "title": "Someone connected a Raspberry Pi 4B to an old, unsupported Kindle, and now it's an e-ink dashboard",
+      "excerpt": "Don't throw away perfectly good hardware.",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/someone-connected-raspberry-pi-4b-on-an-old-unsupported-kindle-now-its-an-e-ink-dashboard/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/pi-4-kindle-featured.jpg"
+    },
+    {
+      "id": "n5821510809",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "excerpt": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "date": "2026-07-15",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n9072922657",
+      "title": "Your Windows 11 SSD just lost up to 50GB to a new feature you've never heard of — and that's a good thing",
+      "excerpt": "It's not as bad as it sounds",
+      "date": "2026-07-15",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/windows-11-is-taking-up-to-50gb-for-recovery-and-its-actually-worth-it/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/windows-11-point-in-time-restore-settings-dual-monitor.jpg"
+    },
+    {
+      "id": "n6584292319",
+      "title": "Samsung says Galaxy Z Fold 8 crease is less visible thanks to ‘Flex Titanium’ display",
+      "excerpt": "The Galaxy Z Fold 8 series will get a new foldable display architecture, Samsung admits, which will improve the phone’s resistance to developing an unsightly crease down the inner…",
       "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://www.xda-developers.com/changing-one-setting-solved-windows-11-bluetooth-issues/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/bluetooth-settings-windows-11.jpg"
+      "url": "https://9to5google.com/2026/07/14/samsung-galaxy-z-fold-8-flex-titanium-display/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/07/galaxy-z-fold-7-review-11.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n3257297434",
-      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-      "excerpt": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "id": "n9970377347",
+      "title": "Lorde says AI glasses are ‘not sexy’",
+      "excerpt": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
       "date": "2026-07-14",
       "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
       "source": "Techcrunch",
       "image": ""
     },
     {
-      "id": "n5831253759",
-      "title": "X just tweaked its algorithm to make it more friendly, less battleground",
-      "excerpt": "The social media site says it will amplify posts made by users' mutual followers' to give the feed more of a communal feel.",
-      "date": "2026-07-13",
+      "id": "n5729436553",
+      "title": "Your motherboard outlives everything else in your PC, so I stopped buying cheap ones",
+      "excerpt": "The boring parts are the load-bearing ones",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/motherboard-longevity-asus-crosshair-2006/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/asus-rog-crosshair-2006.jpg"
+    },
+    {
+      "id": "n9491755338",
+      "title": "Samsung shares the secret behind its next-gen creaseless foldable displays",
+      "excerpt": "Here’s how Samsung’s Flex Titanium tech aims to rival non-foldable screen quality.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/samsung-flex-titanium-3687554/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n718535908",
+      "title": "Google temporarily offers open Pixel Care+ enrollment for Pixel 9 and 10",
+      "excerpt": "Google today announced a limited-time Pixel Care+ open enrollment period for existing Pixel 9 and 10 owners.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://9to5google.com/2026/07/14/pixel-care-open-enrollment/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/08/Pixel-10-close-up-G-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600"
+    },
+    {
+      "id": "n252149676",
+      "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
+      "excerpt": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED d…",
+      "date": "2026-07-14",
       "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/x-just-tweaked-its-algorithm-to-make-it-more-friendly-less-battleground/",
-      "source": "Techcrunch",
+      "url": "https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale",
+      "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n5181459356",
-      "title": "This open-source puck lets you use your Steam Controller on Xbox, Switch, and PlayStation consoles",
-      "excerpt": "It's cheap to build, too.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/this-open-source-puck-lets-you-use-your-steam-controller-on-xbox-switch-and-playstation-consoles/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/steam-controller-openpuck-featured.jpg"
-    },
-    {
-      "id": "n2759450663",
-      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-      "excerpt": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
-      "date": "2026-07-13",
+      "id": "n9305714537",
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "excerpt": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel lik…",
+      "date": "2026-07-14",
       "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
       "source": "Techcrunch",
       "image": ""
     },
     {
-      "id": "n9397527952",
-      "title": "I transformed my unused SSDs into portable storage with this $14 external case",
-      "excerpt": "A good time to do it",
-      "date": "2026-07-13",
+      "id": "n2688715513",
+      "title": "OpenAI’s first hardware device sounds half-speaker, half-robot",
+      "excerpt": "ChatGPT could soon have a physical presence in your home.",
+      "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://www.xda-developers.com/this-ugreen-m2-ssd-external-is-now-14/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/38a433e5-5a89-4555-87d7-d542770e528b.JPG"
+      "url": "https://www.androidauthority.com/openai-device-screenless-speaker-chatgpt-leak-3687560/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2023/09/OpenAI-on-website-on-smartphone-stock-photo-2.jpg"
     },
     {
-      "id": "n4492893782",
-      "title": "Your new laptop might have an SSD brand you've never heard of, and it's worth checking which one",
-      "excerpt": "The storage crisis is pushing manufacturers towards an alternative they wouldn't otherwise consider",
-      "date": "2026-07-13",
+      "id": "n5077397796",
+      "title": "Blocking internet on phones improves attention, mental health, and well-being",
+      "excerpt": "Blocking internet on phones improves attention, mental health, and well-being",
+      "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://www.xda-developers.com/your-new-laptop-probably-has-an-ssd-brand-youve-never-heard-of-and-its-worth-checking-which-one/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/06/lenovo-thinkpad-x1-carbon-laptop-gen14-17-1.png"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39967678/",
+      "source": "Hacker News",
+      "image": ""
     },
     {
-      "id": "n6975781728",
-      "title": "The pelican benchmark is doubtful, let's draw MacBook Pro in SVG. Is Fable best?",
-      "excerpt": "The pelican benchmark is doubtful, let's draw MacBook Pro in SVG. Is Fable best?",
-      "date": "2026-07-13",
+      "id": "n8732169056",
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "excerpt": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n1115484971",
+      "title": "These 4 AI apps save me 20 hours every week on my Android phone",
+      "excerpt": "These are not your obvious AI apps like ChatGPT.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/4-ai-apps-save-20-hours-every-week-android-phone/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783529154318.jpg"
+    },
+    {
+      "id": "n3388373982",
+      "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "excerpt": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n6285988686",
+      "title": "The WGA is also suing to block Paramount-Warner Bros. Discovery merger",
+      "excerpt": "It seems some people take issue with one billionaire family overseeing a third of the US' entertainment media.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215270/the-wga-is-also-suing-to-block-paramount-warner-bros-discovery-merger/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/the-wga-is-also-suing-to-block-paramount-warner-bros-discovery-merger/l-intro-1784065629.jpg"
+    },
+    {
+      "id": "n3511501755",
+      "title": "Windows 11 s big patch Tuesday allows you to hold off on updates for longer",
+      "excerpt": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, and that includes the ability to pause updates indefinitely, as reported e…",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n8494712574",
+      "title": "I replaced my tower with a mini PC and immediately stopped getting tension headaches from the heat",
+      "excerpt": "A recent heatwave has made me rethink my PC form factor.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/replaced-tower-with-mini-pc-stopped-headaches-from-heat/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/05/nvidia-rtx-4070-ti-gaming-pc.jpg"
+    },
+    {
+      "id": "n4564618944",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "excerpt": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a…",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n4888656618",
+      "title": "Former employees sue over Meta's alleged use of biased AI systems during layoffs",
+      "excerpt": "Meta cut its workforce by 10 percent in May.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215258/former-employees-sue-over-meta-s-alleged-use-of-biased-ai-systems-during-layoffs/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/former-employees-sue-over-metas-alleged-use-of-biased-ai-systems-during-layoffs/l-intro-1784063853.jpg"
+    },
+    {
+      "id": "n3925588397",
+      "title": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
+      "excerpt": "After wearing the Pebble Time 2 for two weeks, I'll never buy another smartwatch",
+      "date": "2026-07-14",
+      "tag": "Accessories",
+      "url": "https://www.androidauthority.com/pebble-time-2-smartwatch-hands-on-3680077/",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n9643914958",
+      "title": "I disabled native HDR in every game after trying RTX HDR on my OLED, and I'm not switching back",
+      "excerpt": "Native HDR doesn't even compare anymore",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/i-disabled-native-hdr-in-every-game-after-trying-rtx-hdr-on-my-oled/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/using-rtx-hdr-with-forza-horizon-6-on-oled-screen-with-nvidia-app.jpg"
+    },
+    {
+      "id": "n8681968318",
+      "title": "Google’s latest Pixel AI push keeps your data on your phone",
+      "excerpt": "Google is pushing Pixel AI beyond the cloud with powerful on-device tools.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/google-gemma-4-e2b-for-tpu-unveiled-3687531/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/gemma-4-12b-header-1536w-864h.jpg"
+    },
+    {
+      "id": "n1981902489",
+      "title": "Three publishers challenge Google over AI copyright infringement",
+      "excerpt": "It's the latest in a barrage of efforts to win compensation from AI companies over training materials.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215206/three-publishers-challenge-google-over-ai-copyright-infringement/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/three-publishers-challenge-google-over-ai-copyright-infringement/l-intro-1784060759.jpg"
+    },
+    {
+      "id": "n9827760135",
+      "title": "The Lo-Fi Way I Broke My Scrolling Habit",
+      "excerpt": "The Lo-Fi Way I Broke My Scrolling Habit",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.nytimes.com/2026/07/14/opinion/culture/phone-algorithm-addiction.html",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n8356941767",
+      "title": "This phone beat Google and Samsung as the best Moto G Power alternative in our survey",
+      "excerpt": "You picked your preferred Moto G Power (2026) alternative in our reader poll, and the results were interestingly close.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/moto-g-power-2026-alternative-poll-results-3687465/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n8840935344",
+      "title": "The next wave of emoji could help you evoke beauty and existential dread",
+      "excerpt": "Who has two thumbs and is broken inside?",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215190/the-next-wave-of-emoji-could-help-you-evoke-beauty-and-existential-dread/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/the-next-wave-of-emoji-could-help-you-evoke-beauty-and-existential-dread/l-intro-1784059933.jpg"
+    },
+    {
+      "id": "n1734523625",
+      "title": "Gmail’s Help Me Write now lets you tell it how you want your email edited",
+      "excerpt": "Gmail upgrades Help Me Write with custom editing prompts.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/gmail-custome-help-me-write-edits-3687499/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2024/10/Gmail-for-iOS-defaulting-to-All-Inboxes-folder.jpg"
+    },
+    {
+      "id": "n3326166979",
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "excerpt": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners …",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n1851744725",
+      "title": "Anthropic’s newest ad is creeping people out",
+      "excerpt": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make An…",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n7900752660",
+      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+      "excerpt": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n9248337841",
+      "title": "Galaxy Watch 9 and Ultra 2 specs leak with Snapdragon chip, 800 mAh battery",
+      "excerpt": "Ahead of their debut in just over a week, yet another leak details the full specs of Samsung’s Galaxy Watch 9 and Ultra 2.",
+      "date": "2026-07-14",
+      "tag": "Phones",
+      "url": "https://9to5google.com/2026/07/14/samsung-galaxy-watch-9-ultra-2-specs-leak/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-watch-9-mint-leak-1_f20b01.webp?w=1500"
+    },
+    {
+      "id": "n391176778",
+      "title": "I also filed the corners off my MacBook",
+      "excerpt": "I also filed the corners off my MacBook",
+      "date": "2026-07-14",
       "tag": "Laptops",
-      "url": "https://playcode.io/blog/macbook-svg-benchmark",
+      "url": "https://www.brt.fyi/posts/mac-book-filing/",
       "source": "Hacker News",
       "image": ""
     },
     {
-      "id": "n4816028893",
-      "title": "Please let this hot pink Pixel 11 leak be real",
-      "excerpt": "Bring on the magenta and peach.",
-      "date": "2026-07-13",
+      "id": "n5145326250",
+      "title": "SpaceXAI s Grok programming tool was uploading its users entire codebase to cloud storage",
+      "excerpt": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that…",
+      "date": "2026-07-14",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2214292/please-let-this-hot-pink-pixel-11-leak-be-real/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/please-let-this-hot-pink-pixel-11-leak-be-real/l-intro-1783982518.jpg"
-    },
-    {
-      "id": "n9238989945",
-      "title": "Samsung Health will delete your data unless you hand it over for AI training",
-      "excerpt": "As its new redesign rolls out, Samsung Health is also forcing users into a choice – let their data be used for AI training, or make it effectively unusable in the long term.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/samsung-health-ai-training-data-consent/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/07/galaxy-watch-8-classic-20.jpg?quality=82&#038;strip=all&#038;w=1600"
-    },
-    {
-      "id": "n8422688186",
-      "title": "I switched to an AI browser that runs its own local LLM, and I'm not going back to Perplexity or Chrome",
-      "excerpt": "A hybrid AI browser worth the download",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/switched-to-ai-browser-that-runs-its-own-local-llm-not-going-back-to-perplexity-or-chrome/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/sigma-browser-chat-on-desktop-pc-lego-and-lamp-in-view.jpeg"
-    },
-    {
-      "id": "n837239954",
-      "title": "The dock makes your Mac mini feel like a complete workstation, now 40% off",
-      "excerpt": "",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/this-mac-mini-dock-is-a-must-have-especially-at-40-off/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2025/05/copy-of-169-18.png"
-    },
-    {
-      "id": "n7163315253",
-      "title": "Microsoft tests Windows Search without all the ads and fluff",
-      "excerpt": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
       "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n8327809812",
-      "title": "OnePlus is reportedly bailing on the US",
-      "excerpt": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a W…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n9119861027",
-      "title": "Snapseed 4.1 for Android rolling out with ‘massively expanded’ RAW support",
-      "excerpt": "Google is beginning to roll out the first big update to Snapseed since the May redesign with version 4.1 for Android.",
-      "date": "2026-07-13",
+      "id": "n9949484894",
+      "title": "Samsung Health won’t actually delete your data if you opt out of AI training",
+      "excerpt": "After user pushback, Samsung has clarified what happens if you opt out.",
+      "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/snapseed-4-1-raw/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/Snapseed-4-cover.jpg?quality=82&#038;strip=all&#038;w=1344"
-    },
-    {
-      "id": "n4158809572",
-      "title": "Android Auto may be preparing a smarter media player for your dashboard",
-      "excerpt": "Our APK teardown reveals a cleaner looking media card, with more controls where there’s room.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/android-auto-media-player-card-apk-teardown-3687057/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/android-auto-launcher-home-screen-2.jpg"
-    },
-    {
-      "id": "n9891704241",
-      "title": "I tried booting Windows 11 from a USB drive, and it revealed why Microsoft let this feature die",
-      "excerpt": "Most people won't ever need to do this.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/i-triedbooting-windows-11-from-a-usb-stick/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/img_20260710_141612.jpg"
-    },
-    {
-      "id": "n8022660884",
-      "title": "What’s new in Android’s July 2026 Google System Updates [U]",
-      "excerpt": "The monthly “Google System Release Notes” primarily detail what’s new in Play services, Play Store, and Play system update across Android phones/tablets, Wear OS, Google/Android T…",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/july-2026-google-system-updates/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/01/google-play-services-1.jpg?quality=82&#038;strip=all&#038;w=1600"
-    },
-    {
-      "id": "n4302807586",
-      "title": "Google’s upcoming Home Display could bring back one major Nest Hub Max feature",
-      "excerpt": "The Display may pull double duty as a Nest Cam.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/google-home-display-camera-3687045/",
+      "url": "https://www.androidauthority.com/samsung-health-ai-training-opt-out-3687480/",
       "source": "Androidauthority",
       "image": ""
     },
     {
-      "id": "n5493765619",
-      "title": "Microsoft is making the Windows Search Box more streamlined and useful",
-      "excerpt": "Bit by bit, Windows 11 is healing.",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2214227/microsoft-is-making-the-windows-search-box-more-streamlined-and-useful/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/microsoft-is-making-the-windows-search-box-more-streamlined-and-useful/l-intro-1783976958.jpg"
-    },
-    {
-      "id": "n1755312930",
-      "title": "A two-pack of DJI s most capable wireless mics just got its first price cut",
-      "excerpt": "Smartphones these days have incredible cameras that are capable of taking smooth, sharp video, but the microphones are often lacking, to say the least. A wireless lavalier microph…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n3789280438",
-      "title": "Satya Nadella has issued a shocking warning to companies using AI",
-      "excerpt": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs th…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n4090454715",
-      "title": "The Shokz OpenRun Pro are the cheapest they’ve been since January",
-      "excerpt": "Noise-canceling earbuds are great for flights and focusing, but they're not always ideal for outdoor workouts. The last-gen Shokz OpenRun Pro's open-ear design lets you enjoy musi…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n5564133543",
-      "title": "The Pixel colors might rule this year",
-      "excerpt": "This year's Google Pixel 11 lineup might come in a bunch of funky colors. A series of now-deleted Amazon listings spotted by 9to5Google show what appear to be placeholders for Goo…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/964972/google-pixel-11-colors-rumor",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n817463518",
-      "title": "Apple’s public betas for iOS 27 and more are out now",
-      "excerpt": "Apple has just released public betas for iOS 27 and other major OS updates that are set to publicly launch this fall. The big new feature this year is Siri AI, the delayed AI-powe…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n985857921",
-      "title": "Public betas for iOS 27, macOS 27 and more Apple platforms are now available",
-      "excerpt": "Try the new Siri AI and system-wide performance improvements.",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2214198/public-betas-for-ios-27-macos-27-and-more-apple-platforms-are-now-available/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/public-betas-for-ios-27-macos-27-and-more-apple-platforms-are-now-available/l-intro-1783975381.jpg"
-    },
-    {
-      "id": "n7293007758",
-      "title": "Siri AI makes the Apple Watch finally feel like a wrist computer",
-      "excerpt": "Siri has been on the Apple Watch since day one, though I'm usually hard-pressed to find people who actually make good use of it. It's kind of just… been there - mostly as a way to…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/964800/watchos-27-preview-siri-ai-apple-watch-gestures-smartwatch",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n7052581039",
-      "title": "Siri AI is already changing how I use my iPhone",
-      "excerpt": "iOS 27 escaped the developer world today with the launch of the first public beta. I've been testing the new operating system since early June, looking for quirks and seeing if it…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n6351683812",
-      "title": "Los Angeles law enforcement will stop using Flock cameras",
-      "excerpt": "The Los Angeles police department did not renew its contract with Flock due to data privacy concerns.",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2214135/los-angeles-law-enforcement-will-stop-using-flock-cameras/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/los-angeles-law-enforcement-will-stop-using-flock-cameras/l-intro-1783972881.jpg"
-    },
-    {
-      "id": "n9534506713",
-      "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
-      "excerpt": "Apple would not comment on the \"security breach,\" which allegedly allowed a former employee to download sensitive files from Apple's network long after he departed the company for…",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n7619668155",
-      "title": "A ransomware negotiator who colluded with attackers to scam victims was sentenced to 70 months in prison",
-      "excerpt": "Angelo Martino helped scam ransomware victims out of over $75 million, officials said.",
-      "date": "2026-07-13",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2214113/ransomware-negotiator-who-colluded-with-attackers-to-scam-victims-was-sentenced-to-70-months-in-prison/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/a-ransomware-negotiator-who-colluded-with-attackers-to-scam-victims-was-sentenced-to-70-months-in-prison/l-intro-1783972323.jpg"
-    },
-    {
-      "id": "n2868195251",
-      "title": "HTC’s answer to Ray-Ban Meta is coming to the US, but the price may sting",
-      "excerpt": "HTC’s Vive Eagle brings Gemini and ChatGPT to smart glasses for $499.",
-      "date": "2026-07-13",
+      "id": "n657336549",
+      "title": "Is your tech giving you 'phone body'?",
+      "excerpt": "Is your tech giving you 'phone body'?",
+      "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/htc-vive-eagle-us-preorders-live-3687050/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/08/HTC-Vive-Eagle-glasses-1536w-864h.jpg"
-    },
-    {
-      "id": "n7331875568",
-      "title": "OnePlus’ fate in the US and Europe may be revealed very soon",
-      "excerpt": "OnePlus may confirm its demise in the US and Europe this week.",
-      "date": "2026-07-13",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/oneplus-may-announce-departure-this-week-3687028/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/04/OnePlus-Nord-6.jpg"
-    },
-    {
-      "id": "n9986608848",
-      "title": "U.S. replaced textbooks with laptops, resulting in a generation less capable",
-      "excerpt": "U.S. replaced textbooks with laptops, resulting in a generation less capable",
-      "date": "2026-07-13",
-      "tag": "Laptops",
-      "url": "https://fortune.com/article/how-did-us-spending-30-billion-dollars-on-laptops-result-in-first-generation-less-cognitively-capable-than-parents/",
+      "url": "https://www.bbc.com/future/article/20260630-is-your-tech-giving-you-phone-body",
       "source": "Hacker News",
       "image": ""
     },
     {
-      "id": "n6156638132",
-      "title": "Almost every Google Pixel 11 model appears on FCC website",
-      "excerpt": "Following a pretty big retail leak, the Pixel 11 series appears in listings on the FCC’s website as Google’s launch closes in.",
-      "date": "2026-07-13",
+      "id": "n5694733075",
+      "title": "Spotify adds its own AI chatbot – here’s what you can do with it [Video]",
+      "excerpt": "Spotify is rolling out yet another new AI feature, this time giving listeners the ability to talk to the music streaming app like they would an AI chatbot, giving it commands/prom…",
+      "date": "2026-07-14",
       "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/13/google-pixel-11-models-appear-fcc-website/",
+      "url": "https://9to5google.com/2026/07/14/spotify-adds-its-own-ai-chatbot-heres-what-you-can-do-with-it-video/",
       "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/12/Google-Pixel-10-Pro-XL-camera-1.jpg?quality=82&#038;strip=all&#038;w=1600"
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/talk-to-spotify-1.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n1562524069",
-      "title": "iCloud+ vs. Apple One: Which is worth it for you?",
-      "excerpt": "The two subscription services offer more than just extra storage, but getting the right one can save you money.",
-      "date": "2026-07-13",
+      "id": "n7841430590",
+      "title": "PlayStation FlexStrike wireless fight stick delayed without a firm release date",
+      "excerpt": "Sorry Marvel Tokon fans, PlayStation s FlexStrike fight stick has been delayed.",
+      "date": "2026-07-14",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2209865/icloud-plus-vs-apple-one/",
+      "url": "https://www.engadget.com/2215072/playstation-flexstrike-wireless-fight-stick-delayed-without-a-firm-release-date/",
       "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/icloud-vs-apple-one-which-is-worth-it-for-you/l-intro-1783447753.jpg"
+      "image": "https://www.engadget.com/img/gallery/playstation-flexstrike-wireless-fight-stick-delayed-without-a-firm-release-date/l-intro-1784055845.jpg"
+    },
+    {
+      "id": "n8115855017",
+      "title": "Samsung's slower version of the 990 Pro SSD costs way more than the original",
+      "excerpt": "Because it s 2026, Samsung s new 990 Pro SSD is both more expensive and slower than the original.",
+      "date": "2026-07-14",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2215064/samsungs-slower-version-of-the-990-pro-ssd-costs-way-more-than-the-original/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/samsungs-slower-version-of-the-990-pro-ssd-costs-way-more-than-the-original/l-intro-1784055394.jpg"
     }
   ]
 }
