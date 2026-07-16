@@ -107,19 +107,9 @@ def og_image(url):
 
 
 def search_image(title):
-    """Generate a relevant fallback image URL using Lorem Picsum.
+    """Generate a fallback image URL using Lorem Picsum (free, no API key).
     Uses a hash of the title as a seed so the same article always gets the same image."""
     seed = str(abs(hash(title)) % 100000)
-    # Category-based keywords for slightly more relevant images
-    keywords = title.lower()
-    if "linux" in keywords or "port" in keywords:
-        return f"https://picsum.photos/seed/{seed}/600/340"
-    if "ai" in keywords or "ml" in keywords or "model" in keywords:
-        return f"https://picsum.photos/seed/{seed}/600/340"
-    if "dementia" in keywords or "health" in keywords or "assist" in keywords:
-        return f"https://picsum.photos/seed/{seed}/600/340"
-    if "phone" in keywords or "smartphone" in keywords or "mobile" in keywords:
-        return f"https://picsum.photos/seed/{seed}/600/340"
     return f"https://picsum.photos/seed/{seed}/600/340"
 
 
