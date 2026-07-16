@@ -89,10 +89,20 @@ def og_image(url):
             # Look for og:image
             m = re.search(r'<meta[^>]+property=[\"\']og:image[\"\'][^>]+content=[\"\']([^\"\']+)[\"\']', html, re.I)
             if m:
-                return m.group(1)
-            m = re.search(r'<meta[^>]+content=[\"\']([^\"\']+)[\"\'][^>]+property=[\"\']og:image[\"\']', html, re.I)
-            if m:
-                return m.group(1)
+                img = m.group(1)
+            else:
+                m = re.search(r'<meta[^>]+content=[\"\']([^\"\']+)[\"\'][^>]+property=[\"\']og:image[\"\']', html, re.I)
+                if m:
+                    img = m.group(1)
+                else:
+                    return ""
+            # Resolve relative URLs (e.g. /images/hero.jpg)
+            if img.startswith("/"):
+                from urllib.parse import urljoin
+                base_match = re.match(r'(https?://[^/]+)', url)
+                if base_match:
+                    img = urljoin(base_match.group(1), img)
+            return img
     except Exception:
         pass
     return ""
