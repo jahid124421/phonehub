@@ -157,8 +157,8 @@ window.BRANDS = [
   {
     "id": "tandy",
     "name": "Tandy",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/radioshack.com/w/400/h/400",
+    "color": "#CC0000",
     "category": "Other"
   },
   {
@@ -241,15 +241,15 @@ window.BRANDS = [
   {
     "id": "videoton",
     "name": "Videoton",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/videoton.hu/w/400/h/400",
+    "color": "#003399",
     "category": "Other"
   },
   {
     "id": "brionvega",
     "name": "Brionvega",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/brionvega.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -290,8 +290,8 @@ window.BRANDS = [
   {
     "id": "leaf",
     "name": "Leaf",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/leafgroup.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -304,8 +304,8 @@ window.BRANDS = [
   {
     "id": "gac",
     "name": "GAC",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/gacgroup.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -325,8 +325,8 @@ window.BRANDS = [
   {
     "id": "saipa",
     "name": "Saipa",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/saipacorp.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -339,8 +339,8 @@ window.BRANDS = [
   {
     "id": "chery",
     "name": "Chery",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/cheryinternational.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -360,15 +360,15 @@ window.BRANDS = [
   {
     "id": "general",
     "name": "General",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/gm.com/w/400/h/400",
+    "color": "#1A1A1A",
     "category": "Other"
   },
   {
     "id": "škoda",
     "name": "Škoda",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400",
+    "color": "#003300",
     "category": "Other"
   },
   {
@@ -402,8 +402,8 @@ window.BRANDS = [
   {
     "id": "alfa",
     "name": "Alfa",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/alfaromeo.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -416,8 +416,8 @@ window.BRANDS = [
   {
     "id": "hispano-suiza",
     "name": "Hispano-Suiza",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/hispano-suiza.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -458,8 +458,8 @@ window.BRANDS = [
   {
     "id": "packard",
     "name": "Packard",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/packardmotorcar.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -542,8 +542,8 @@ window.BRANDS = [
   {
     "id": "tatra",
     "name": "Tatra",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/tatra.cz/w/400/h/400",
+    "color": "#DD0000",
     "category": "Other"
   },
   {
@@ -577,15 +577,15 @@ window.BRANDS = [
   {
     "id": "lancia",
     "name": "Lancia",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/lancia.com/w/400/h/400",
+    "color": "#003399",
     "category": "Other"
   },
   {
     "id": "ac",
     "name": "AC",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/accars.eu/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -654,8 +654,8 @@ window.BRANDS = [
   {
     "id": "morgan",
     "name": "Morgan",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/morgan-motor.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -696,8 +696,8 @@ window.BRANDS = [
   {
     "id": "datsun",
     "name": "Datsun",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/datsun.com/w/400/h/400",
+    "color": "#003399",
     "category": "Other"
   },
   {
@@ -724,8 +724,8 @@ window.BRANDS = [
   {
     "id": "tvr",
     "name": "TVR",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/tvr.co.uk/w/400/h/400",
+    "color": "#007BFF",
     "category": "Other"
   },
   {
@@ -780,8 +780,8 @@ window.BRANDS = [
   {
     "id": "avtovaz",
     "name": "AvtoVAZ",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/lada.ru/w/400/h/400",
+    "color": "#CC0000",
     "category": "Other"
   },
   {
@@ -843,8 +843,8 @@ window.BRANDS = [
   {
     "id": "zastava",
     "name": "Zastava",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/zastava.rs/w/400/h/400",
+    "color": "#CC0000",
     "category": "Other"
   },
   {
@@ -864,8 +864,8 @@ window.BRANDS = [
   {
     "id": "great",
     "name": "Great",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/gwm-global.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -927,8 +927,8 @@ window.BRANDS = [
   {
     "id": "dongfeng",
     "name": "Dongfeng",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/dongfeng-global.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
@@ -941,8 +941,8 @@ window.BRANDS = [
   {
     "id": "champion",
     "name": "Champion",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/championautoparts.com/w/400/h/400",
+    "color": "#CC0000",
     "category": "Other"
   },
   {
@@ -955,8 +955,8 @@ window.BRANDS = [
   {
     "id": "studebaker",
     "name": "Studebaker",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/studebaker.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1025,22 +1025,22 @@ window.BRANDS = [
   {
     "id": "nash",
     "name": "Nash",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/nashmotors.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
     "id": "mercury",
     "name": "Mercury",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/mercury.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
     "id": "panhard",
     "name": "Panhard",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/panhard.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1060,8 +1060,8 @@ window.BRANDS = [
   {
     "id": "alvis",
     "name": "Alvis",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/thealviscarcompany.co.uk/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1081,15 +1081,15 @@ window.BRANDS = [
   {
     "id": "willys",
     "name": "Willys",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/jeep.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
     "id": "mitsuoka",
     "name": "Mitsuoka",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/mitsuoka-motor.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1109,8 +1109,8 @@ window.BRANDS = [
   {
     "id": "bizzarrini",
     "name": "Bizzarrini",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/bizzarrini.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1137,8 +1137,8 @@ window.BRANDS = [
   {
     "id": "bolwell",
     "name": "Bolwell",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/bolwell.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1158,8 +1158,8 @@ window.BRANDS = [
   {
     "id": "brabham",
     "name": "Brabham",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/brabham.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1179,22 +1179,22 @@ window.BRANDS = [
   {
     "id": "gaz",
     "name": "GAZ",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/azgaz.ru/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
     "id": "geely",
     "name": "Geely",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/geely.com/w/400/h/400",
+    "color": "#003D7A",
     "category": "Other"
   },
   {
     "id": "iso",
     "name": "Iso",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/isorivolta.com/w/400/h/400",
+    "color": "#000000",
     "category": "Other"
   },
   {
@@ -1207,8 +1207,8 @@ window.BRANDS = [
   {
     "id": "daewoo",
     "name": "Daewoo",
-    "logo": "📱",
-    "color": "#5b8cff",
+    "logo": "https://cdn.brandfetch.io/daewoomotor.com/w/400/h/400",
+    "color": "#0066CC",
     "category": "Other"
   },
   {

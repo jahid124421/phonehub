@@ -6,3 +6,27 @@ __pycache__/
 
 # unrelated project that happens to sit in this folder
 mastertools/
+
+# secret files / API keys
+AI_PROVIDERS_RESEARCH.md
+ai-bots-package/
+claude-code-multi-model.bat
+claude-settings.json
+debug-dumps/
+debug.log
+llm7-codex-proxy/
+openrouter-proxy.py
+config/
+docs/
+logs/
+projects/
+scripts/
+website/
+
+# temp scripts
+tools/fix_brands.py
+tools/fix_brands_v2.py
+tools/gen_missing_brands.py
+phonehub/tools/fix_brands.py
+phonehub/tools/fix_brands_v2.py
+phonehub/tools/gen_missing_brands.py
