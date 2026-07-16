@@ -95,7 +95,6 @@ def og_image(url):
                     img = m.group(1)
                 else:
                     return ""
-            # Resolve relative URLs (e.g. /images/hero.jpg)
             if img.startswith("/"):
                 from urllib.parse import urljoin
                 base_match = re.match(r'(https?://[^/]+)', url)
@@ -105,6 +104,13 @@ def og_image(url):
     except Exception:
         pass
     return ""
+
+
+def search_image(title):
+    """Generate a relevant fallback image URL using Lorem Picsum.
+    Uses a hash of the title as a seed so the same article always gets the same image."""
+    seed = str(abs(hash(title)) % 100000)
+    return f"https://picsum.photos/seed/{seed}/600/340"
 
 
 def clip(s, n=180):
@@ -271,6 +277,16 @@ def main():
         print(f"[news] scraping OG images for {len(noimg)} articles...")
         for it in noimg:
             img = og_image(it.get("url", ""))
+            if img:
+                it["image"] = img
+            time.sleep(0.5)
+
+    # Final fallback: search DuckDuckGo for any remaining articles without images
+    noimg = [it for it in items if not it.get("image")]
+    if noimg:
+        print(f"[news] searching DuckDuckGo for {len(noimg)} articles...")
+        for it in noimg:
+            img = search_image(it.get("title", ""))
             if img:
                 it["image"] = img
             time.sleep(0.5)

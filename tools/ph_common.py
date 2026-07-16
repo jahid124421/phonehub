@@ -544,6 +544,19 @@ BRAND_DATABASE = {
     "zndapp": {"logo": "https://cdn.brandfetch.io/zuendapp.de/w/400/h/400", "color": "#000000", "category": "Other"},
     "koda": {"logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400", "color": "#003300", "category": "Other"},
     "\u0161koda": {"logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400", "color": "#003300", "category": "Other"},
+
+    # ---- Final obscure brands (researched on brandfetch) ----
+    "auto": {"logo": "https://cdn.brandfetch.io/auto-union.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "automobilwerk": {"logo": "https://cdn.brandfetch.io/awe-museum.de/w/400/h/400", "color": "#000000", "category": "Other"},
+    "camille": {"logo": "https://cdn.brandfetch.io/lajamaiscontente.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "cockerell": {"logo": "https://cdn.brandfetch.io/hoverspeed.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "industrieverband": {"logo": "https://cdn.brandfetch.io/ifa.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "k-1": {"logo": "https://cdn.brandfetch.io/k1-attack.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "kg": {"logo": "https://cdn.brandfetch.io/kg-mobility.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "koninklijke": {"logo": "https://cdn.brandfetch.io/philips.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "lmx": {"logo": "https://cdn.brandfetch.io/lmxregistrostorico.it/w/400/h/400", "color": "#000000", "category": "Other"},
+    "ss": {"logo": "https://cdn.brandfetch.io/jaguar.com/w/400/h/400", "color": "#000000", "category": "Other"},
+    "zato": {"logo": "https://cdn.brandfetch.io/zato.de/w/400/h/400", "color": "#000000", "category": "Other"},
 }
 
 

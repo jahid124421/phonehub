@@ -269,8 +269,8 @@
     {
       "id": "koninklijke",
       "name": "Koninklijke",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/philips.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -444,8 +444,8 @@
     {
       "id": "camille",
       "name": "Camille",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/lajamaiscontente.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -787,8 +787,8 @@
     {
       "id": "lmx",
       "name": "LMX",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/lmxregistrostorico.it/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -899,8 +899,8 @@
     {
       "id": "kg",
       "name": "KG",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/kg-mobility.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -983,8 +983,8 @@
     {
       "id": "zato",
       "name": "Zato",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/zato.de/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -997,15 +997,15 @@
     {
       "id": "automobilwerk",
       "name": "Automobilwerk",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/awe-museum.de/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "industrieverband",
       "name": "Industrieverband",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/ifa.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -72647,7 +72647,27 @@
   ],
   "news": [
     {
-      "id": "n1969336774",
+      "id": "n4867851394",
+      "title": "X cracks down on creators who steal content",
+      "excerpt": "X will use Grok AI to better detect stolen content, redirect payouts to original creators, and crack down on engagement bait.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/16/x-cracks-down-on-creators-who-steal-content/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/twitter-x-logo-musk-pattern-2.jpg?resize=1200,675"
+    },
+    {
+      "id": "n1678249229",
+      "title": "Google AI Mode now integrates with Canva, YouTube Music and Instacart",
+      "excerpt": "You can now make playlists, design flyers and compile shopping lists using AI in Search.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216707/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/google-ai-mode-now-integrates-with-canva-youtube-music-and-instacart/l-intro-1784219278.jpg"
+    },
+    {
+      "id": "n4431118701",
       "title": "An OLED iPad mini could finally arrive this year",
       "excerpt": "Apple will reportedly refresh the iPad mini this fall and the rest of its iPad lineup in the first half of 2027.",
       "date": "2026-07-16",
@@ -72657,7 +72677,7 @@
       "image": "https://www.engadget.com/img/gallery/an-oled-ipad-mini-could-finally-arrive-this-year/l-intro-1784218361.jpg"
     },
     {
-      "id": "n9200846945",
+      "id": "n2286218240",
       "title": "YouTube Music testing fullscreen cover art for Now Playing",
       "excerpt": "Following Now Playing’s split-view redesign earlier this year, YouTube Music is testing fullscreen cover art.",
       "date": "2026-07-16",
@@ -72667,17 +72687,17 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2023/03/youtube-music-logo-circle-1.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n4370776623",
+      "id": "n6775099939",
       "title": "Show HN: A modern port of Linux to a ten-year-old QWERTY phone",
       "excerpt": "I ported modern Linux to a ten-year-old HTC QWERTY phone as a handheld terminal.I wrote it up here: https:&#x2F;&#x2F;tmzt.github.io&#x2F;blog&#x2F;a-modern-port-of-linux-to-a-ten…",
       "date": "2026-07-16",
       "tag": "Phones",
       "url": "https://news.ycombinator.com/item?id=48936554",
       "source": "Hacker News",
-      "image": ""
+      "image": "https://picsum.photos/seed/71087/600/340"
     },
     {
-      "id": "n1003671668",
+      "id": "n249857725",
       "title": "Google is renaming NotebookLM to Gemini Notebook",
       "excerpt": "Google is giving its AI note-taking app a new name. The company announced on Thursday that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it inte…",
       "date": "2026-07-16",
@@ -72687,7 +72707,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gemininotebook.png?quality=90&amp;strip=all&amp;crop=0%2C3.479841264548%2C100%2C93.040317470904&amp;w=1200"
     },
     {
-      "id": "n9226641599",
+      "id": "n6440176039",
       "title": "AI-powered travel agency Fora hits unicorn status, raises $60M",
       "excerpt": "Travel agency Fora announced a $60 million Series D round led by Forerunner and Tactile Ventures, valuing the company at $1 billion.",
       "date": "2026-07-16",
@@ -72697,7 +72717,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1366159069.jpg?resize=1200,900"
     },
     {
-      "id": "n1467892032",
+      "id": "n3985869007",
       "title": "Show HN: Leaves – a text-UI disk usage treemap visualizer",
       "excerpt": "GUI disk analyzers are great for figuring out what s filling up your laptop&#x2F;desktop drive.On containers or remote servers, the options are limited to purely text based utilit…",
       "date": "2026-07-16",
@@ -72707,17 +72727,17 @@
       "image": "https://opengraph.githubassets.com/2c7efca3e27045f1332c0017a6ca87186a79363e22d8268af9f9a61370067b65/patonw/leaves"
     },
     {
-      "id": "n3449490050",
+      "id": "n6184875349",
       "title": "Show HN: Traceforce (YC S26) – Secure AI apps, one device at a time",
       "excerpt": "Hey HN, we’re Xia and Varun, the founders of Traceforce (https:&#x2F;&#x2F;www.traceforce.ai&#x2F;). Traceforce provides visibility and control over AI apps such as ChatGPT, Claud…",
       "date": "2026-07-16",
       "tag": "Laptops",
       "url": "https://news.ycombinator.com/item?id=48936384",
       "source": "Hacker News",
-      "image": ""
+      "image": "https://picsum.photos/seed/73419/600/340"
     },
     {
-      "id": "n3868465775",
+      "id": "n7003582376",
       "title": "Hisense’s latest 50-inch E7 Cinema Series Fire TV returns to its Prime Day price",
       "excerpt": "Amazon just cut the Hisense 50-inch E7 to $397.99. You get 4K, Mini-LED, Hi-QLED, and 144Hz for under $400.",
       "date": "2026-07-16",
@@ -72727,7 +72747,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Hisense-50-inch-E7-Cinema-Series-4K-UHD-Smart-Fire-TV-Press-Image.jpg"
     },
     {
-      "id": "n9521499965",
+      "id": "n6055937547",
       "title": "Google Search’s AI Mode can now handle tasks beyond the search bar",
       "excerpt": "Why app-hop when Google Search can do the busywork for you?",
       "date": "2026-07-16",
@@ -72737,7 +72757,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2025/05/google-ai-mode-vs-google-search-hero-photo-4-scaled.jpg"
     },
     {
-      "id": "n9079867973",
+      "id": "n3461772122",
       "title": "Google’s handy NotebookLM tool is dropping the worst part of its name",
       "excerpt": "NotebookLM is now Gemini Notebook.",
       "date": "2026-07-16",
@@ -72747,7 +72767,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/gemini-notebook-logo.png"
     },
     {
-      "id": "n2683982518",
+      "id": "n1043626875",
       "title": "NotebookLM is now Gemini Notebook, with 3.5 + Antigravity upgrade coming to AI Pro",
       "excerpt": "Google announced today that NotebookLM is now called “Gemini Notebook” and previewed upcoming features that users can soon expect.",
       "date": "2026-07-16",
@@ -72757,7 +72777,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/Gemini-Notebook-cover.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n2547957316",
+      "id": "n9653412415",
       "title": "Google AI Mode adds more Connected Apps, including YouTube Music",
       "excerpt": "Google is updating AI Mode with support for more first and third-party apps, just like the Gemini app.",
       "date": "2026-07-16",
@@ -72767,7 +72787,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/AI-Mode-YouTube-Music.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n8649454964",
+      "id": "n2380313675",
       "title": "Google's NotebookLM is now Gemini Notebook",
       "excerpt": "Google already baked NotebookLM into Gemini, now it s changing the name to reflect the tighter integration",
       "date": "2026-07-16",
@@ -72777,7 +72797,7 @@
       "image": "https://www.engadget.com/img/gallery/googles-notebooklm-is-now-gemini-notebook/l-intro-1784207605.jpg"
     },
     {
-      "id": "n6242151826",
+      "id": "n8619206041",
       "title": "Google’s AI Mode now lets you link and interact with select apps",
       "excerpt": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
       "date": "2026-07-16",
@@ -72787,7 +72807,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/01/ai-mode-google.jpg?resize=1200,800"
     },
     {
-      "id": "n6184746501",
+      "id": "n1425433250",
       "title": "Google continues its renaming streak by turning NotebookLM to Gemini Notebook",
       "excerpt": "Google said users can soon access their notebooks through AI Mode in Search.",
       "date": "2026-07-16",
@@ -72797,7 +72817,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/07/Gemini-Notebook-.jpeg?resize=1200,675"
     },
     {
-      "id": "n6384437886",
+      "id": "n1896819182",
       "title": "Samsung’s got a software fix for that Galaxy S26 Ultra red screen problem",
       "excerpt": "Samsung says alarming Galaxy S26 Ultra screen tint isn’t a hardware failure, after all.",
       "date": "2026-07-16",
@@ -72807,7 +72827,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/03/Samsung-Galaxy-S26-Ultra-on-table-with-earbuds.jpg"
     },
     {
-      "id": "n944501885",
+      "id": "n2451102174",
       "title": "Google Health has fixed the outage that broke sync for Fitbit & Pixel Watch owners [U]",
       "excerpt": "A widespread outage on July 15 has broken device sync for “all” Google Health users.",
       "date": "2026-07-16",
@@ -72817,7 +72837,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-health-logo-1.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n8538829504",
+      "id": "n2582383097",
       "title": "Time’s running out to save $10 on Splatoon Raiders physical preorders",
       "excerpt": "Splatoon Raiders’ July 23rd launch day is almost here, so your window to preorder the physical version at a $10 discount is about to close. The digital version is $49.99, and so i…",
       "date": "2026-07-16",
@@ -72827,7 +72847,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/splatoonraiders.png?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
     },
     {
-      "id": "n5356617851",
+      "id": "n8293211749",
       "title": "Deals: Base Pixel 10 up to $308 off, Google Nest Doorbell from just $76, OmniBook X Flip OLED 2-in-1 $650 off, more",
       "excerpt": "Alongside the rare discount on the Google Pixel Flex Dual Port 67W USB-C Fast Charger, today’s 9to5Toys Lunch Break is headlined by the most affordable Pixel 10 unlocked up to $30…",
       "date": "2026-07-16",
@@ -72837,7 +72857,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/9to5Google-Jul-16.webp?w=1600"
     },
     {
-      "id": "n9178755829",
+      "id": "n8976830507",
       "title": "Tesla driver in fatal Texas crash overrode FSD by pressing accelerator 100 percent, investigators confirm",
       "excerpt": "The Tesla driver who fatally struck a woman after crashing into her home \"manually overrode\" the vehicle's Full Self-Driving (FSD) technology by pressing the gas pedal to 100 perc…",
       "date": "2026-07-16",
@@ -72847,7 +72867,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2191603876.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.723165084465%2C100%2C78.55366983107&amp;w=1200"
     },
     {
-      "id": "n4701053848",
+      "id": "n6259275426",
       "title": "Yes, you can now order DoorDash from the command line",
       "excerpt": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking anothe…",
       "date": "2026-07-16",
@@ -72857,7 +72877,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2019/01/dasher_ps_horiz_5.jpg?w=1200"
     },
     {
-      "id": "n1325569141",
+      "id": "n4893269357",
       "title": "UK cops say arrest of two young hackers disrupted the operations of an infamous hacking group",
       "excerpt": "Owen Flowers and Thalha Jubair, two members of the prolific Scattered Spider hacking group, pleaded guilty and were sentenced to five years and six months in jail for hacking Lond…",
       "date": "2026-07-16",
@@ -72867,7 +72887,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/07/london-underground-tube.jpg?resize=1200,783"
     },
     {
-      "id": "n1772434911",
+      "id": "n9342808839",
       "title": "Amazon cuts the Tapo SolarCam to record-low $119.99 with a coupon",
       "excerpt": "This 33% discount gets you a 1080p outdoor security camera with solar power, color night vision, and local storage.",
       "date": "2026-07-16",
@@ -72877,7 +72897,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Tapo-SolarCam-Press-Image.jpg"
     },
     {
-      "id": "n800395509",
+      "id": "n591852314",
       "title": "Period tracker Stardust shares users’ health data with analytics firm, says Mozilla research",
       "excerpt": "One period tracker app tested by Mozilla was 'squeaky clean,' while another app was seen sharing users' health data with an analytics company, underscoring vast differences in use…",
       "date": "2026-07-16",
@@ -72887,7 +72907,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2022/06/stardust-app-ios.jpg?w=1189"
     },
     {
-      "id": "n3552614554",
+      "id": "n6681661205",
       "title": "Why is OpenAI selling a ChatGPT basketball?",
       "excerpt": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
       "date": "2026-07-16",
@@ -72897,7 +72917,7 @@
       "image": "https://techcrunch.com/wp-content/uploads/2026/07/chatgpt-basketball.jpg?resize=1200,675"
     },
     {
-      "id": "n4322420879",
+      "id": "n2883179036",
       "title": "OnePlus never had a chance in the US",
       "excerpt": "Twelve years after the launch of the OnePlus One, OnePlus announced today that it has exited the United States. It's bittersweet, as the brand has been on a comeback tour of sorts…",
       "date": "2026-07-16",
@@ -72907,7 +72927,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/oneplus-15-sand-storm-red-background.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.694897954002%2C100%2C78.610204091996&amp;w=1200"
     },
     {
-      "id": "n997376822",
+      "id": "n3320819325",
       "title": "Apple s OLED iPad Mini upgrade is on the way as prices continue to rise",
       "excerpt": "The iPad Mini could get an OLED display upgrade as soon as October, according to Bloomberg's Mark Gurman. It would be the most significant refresh for the Mini since its 2021 rede…",
       "date": "2026-07-16",
@@ -72917,7 +72937,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25691621/iPad_Mini_1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.806933475316%2C100%2C78.386133049368&amp;w=1200"
     },
     {
-      "id": "n8263207064",
+      "id": "n8517049788",
       "title": "Retroid showcases full color lineup for the Pocket Nova",
       "excerpt": "Waiting for the Retroid Pocket Nova is going to get even harder when you see these new images.",
       "date": "2026-07-16",
@@ -72927,7 +72947,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Retroid-Pocket-Nova-colors.jpg"
     },
     {
-      "id": "n6784270733",
+      "id": "n6769201846",
       "title": "Motorola is bad at Android updates, confusing promises are on full display with latest release",
       "excerpt": "Motorola is pretty bad at software updates, with new Android versions delayed by months and devices often getting the bare minimum of support. And it’s not getting much better, as…",
       "date": "2026-07-16",
@@ -72937,17 +72957,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/motorola-edge-70-max-1.png?w=1600"
     },
     {
-      "id": "n2324821735",
-      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-      "excerpt": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai ex…",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/BMs3e2-featured-pic.png?resize=1200,675"
-    },
-    {
-      "id": "n6843522736",
+      "id": "n4059317232",
       "title": "This new smart ring wants to change how you track blood pressure",
       "excerpt": "The $399 Signal Ring promises calibration-free, direct systolic and diastolic data straight from your finger.",
       "date": "2026-07-16",
@@ -72957,7 +72967,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Vital-Signals-Signal-Ring_1.jpg"
     },
     {
-      "id": "n8654352372",
+      "id": "n9368187012",
       "title": "Suno brings its gen AI music gunk to iMessage",
       "excerpt": "Maybe just sing a silly song in a voice note instead?",
       "date": "2026-07-16",
@@ -72967,7 +72977,7 @@
       "image": "https://www.engadget.com/img/gallery/suno-brings-its-gen-ai-music-gunk-to-imessage/l-intro-1784212721.jpg"
     },
     {
-      "id": "n659586050",
+      "id": "n1145824173",
       "title": "Smart speakers could help OpenAI lose even more money",
       "excerpt": "A smart speaker won t save OpenAI.",
       "date": "2026-07-16",
@@ -72977,7 +72987,7 @@
       "image": "https://www.engadget.com/img/gallery/smart-speakers-could-help-openai-lose-even-more-money/l-intro-1784212703.jpg"
     },
     {
-      "id": "n1458409613",
+      "id": "n8302363772",
       "title": "Ofcom, the UK's communications regulator, is investigating TikTok's child safety measures",
       "excerpt": "The regulator is assessing whether the platform is doing enough to protect children from harmful content.",
       "date": "2026-07-16",
@@ -72987,7 +72997,7 @@
       "image": "https://www.engadget.com/img/gallery/ofcom-the-uks-communications-regulator-is-investigating-tiktoks-child-safety-measures/l-intro-1784211945.jpg"
     },
     {
-      "id": "n3325451985",
+      "id": "n4590142432",
       "title": "Realme confirms it will shut down in China to focus on global markets",
       "excerpt": "Amid Oppo’s restructuring plans that have led to the shutdown of OnePlus in global markets, Realme has officially confirmed it will exit the China market to focus on global market…",
       "date": "2026-07-16",
@@ -72997,7 +73007,7 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/01/realme-p4-power-2.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n2857147282",
+      "id": "n340922245",
       "title": "Google Pixel continues to grow as global smartphone shipments hit lowest point since 2013",
       "excerpt": "Amid RAMageddon, the global smartphone market is in a rough state. Despite hitting its lowest point since 2013, Google Pixel is apparently one of the few brands seeing growth in 2…",
       "date": "2026-07-16",
@@ -73007,17 +73017,17 @@
       "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/google-pixel-10a-berry-3.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n8637440125",
+      "id": "n2545653559",
       "title": "Ask HN: Assistive Tech Ideas for Dementia",
       "excerpt": "One of my family members was recently diagnosed with Alzheimer s. They re still in the very early stages and living independently, but my wife and I are in the process of getting …",
       "date": "2026-07-16",
       "tag": "Phones",
       "url": "https://news.ycombinator.com/item?id=48934733",
       "source": "Hacker News",
-      "image": ""
+      "image": "https://picsum.photos/seed/22261/600/340"
     },
     {
-      "id": "n3684825396",
+      "id": "n4939058243",
       "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
       "excerpt": "Today on Decoder, we’ve got the first of a two-part series on the systems that run the world: I’m talking with Bart Butler, the CTO of Proton, the company that makes private and s…",
       "date": "2026-07-16",
@@ -73027,7 +73037,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/DCD-Bart-Butler.png?quality=90&amp;strip=all&amp;crop=0%2C10.711631919237%2C100%2C78.576736161526&amp;w=1200"
     },
     {
-      "id": "n5474293202",
+      "id": "n5997727382",
       "title": "T-Mobile’s forced migration is wiping out free lines and jacking up bills",
       "excerpt": "T-Mobile promised free lines would transfer, but some customers say they didn't.",
       "date": "2026-07-16",
@@ -73037,7 +73047,7 @@
       "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/t-mobile-logo-pixel-hero-1-1536w-864h.jpg"
     },
     {
-      "id": "n4937286751",
+      "id": "n96327463",
       "title": "Why does wireless Android Auto use both Bluetooth and Wi-Fi?",
       "excerpt": "Bluetooth and Wi-Fi work in tandem to power the wireless Android Auto experience.",
       "date": "2026-07-16",
@@ -73047,7 +73057,7 @@
       "image": "https://www.engadget.com/img/gallery/why-does-wireless-android-auto-use-both-bluetooth-and-wi-fi/l-intro-1783517059.jpg"
     },
     {
-      "id": "n1749132563",
+      "id": "n8345068962",
       "title": "Samsung s Galaxy Z Flip 8 leaks a week before launch event",
       "excerpt": "Samsung's next flip phone might be tough to tell apart from last year's Galaxy Z Flip 7. As 9to5Google points out, leaked images and specs for the upcoming Galaxy Z Flip 8 shared …",
       "date": "2026-07-16",
@@ -73057,7 +73067,7 @@
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/samsung-galaxy-z-flip-8-leaked-design-winfuture.jpeg?quality=90&amp;strip=all&amp;crop=0%2C3.4613147178592%2C100%2C93.077370564282&amp;w=1200"
     },
     {
-      "id": "n1589267607",
+      "id": "n5597245344",
       "title": "StepFun Unveils StepX Neo, the \"First Agentic AI Phone\"",
       "excerpt": "StepFun Unveils StepX Neo, the \"First Agentic AI Phone\"",
       "date": "2026-07-16",
@@ -73067,17 +73077,17 @@
       "image": "https://imgs.etvbharat.com/etvbharat/prod-images/14-07-2026/1200-675-27142879-1056-27142879-1784009166415.jpg"
     },
     {
-      "id": "n628508761",
+      "id": "n2609147037",
       "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
       "excerpt": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
       "date": "2026-07-16",
       "tag": "Phones",
       "url": "https://www.nytimes.com/2026/07/16/technology/google-ordered-to-give-ai-rivals-more-access-on-android-smartphones.html",
       "source": "Hacker News",
-      "image": "https://static01.nyt.com/images/2026/07/16/multimedia/16BIZ-EU-AI-kqgf/16BIZ-EU-AI-kqgf-facebookJumbo.jpg"
+      "image": "https://picsum.photos/seed/17889/600/340"
     },
     {
-      "id": "n1864659472",
+      "id": "n6712981214",
       "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
       "excerpt": "Ninja has added everything from ice cream makers to double-decker toaster ovens to its extensive lineup of counter-clogging appliances, but it's only now introducing its first mic…",
       "date": "2026-07-16",
@@ -73085,16 +73095,6 @@
       "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
       "source": "Theverge",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/ninja1_4956c0.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.740836125969%2C100%2C78.518327748063&amp;w=1200"
-    },
-    {
-      "id": "n3387482563",
-      "title": "You can now grant Claude access to your 1Password credentials",
-      "excerpt": "1Password lets you use Claude agents for personal chores without exposing your credentials.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/you-can-now-grant-claude-access-to-your-1password-credentials/l-intro-1784196809.jpg"
     }
   ]
 }
