@@ -74,6 +74,30 @@ def strip_html(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def og_image(url):
+    """Try to extract og:image from an article URL."""
+    try:
+        import ssl as sslmod
+        ctx = sslmod.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = sslmod.CERT_NONE
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,*/*"})
+        with urllib.request.urlopen(req, timeout=8, context=ctx) as r:
+            html = r.read(200000)  # read up to 200KB
+            if isinstance(html, bytes):
+                html = html.decode("utf-8", errors="ignore")
+            # Look for og:image
+            m = re.search(r'<meta[^>]+property=[\"\']og:image[\"\'][^>]+content=[\"\']([^\"\']+)[\"\']', html, re.I)
+            if m:
+                return m.group(1)
+            m = re.search(r'<meta[^>]+content=[\"\']([^\"\']+)[\"\'][^>]+property=[\"\']og:image[\"\']', html, re.I)
+            if m:
+                return m.group(1)
+    except Exception:
+        pass
+    return ""
+
+
 def clip(s, n=180):
     s = strip_html(s)
     return (s[: n - 1] + "\u2026") if len(s) > n else s
@@ -231,6 +255,17 @@ def main():
 
     items.sort(key=lambda x: x.get("_ts", 0), reverse=True)
     items = items[:MAX_ITEMS]
+
+    # Try to fetch OG images for articles without one
+    noimg = [it for it in items if not it.get("image")]
+    if noimg:
+        print(f"[news] scraping OG images for {len(noimg)} articles...")
+        for it in noimg:
+            img = og_image(it.get("url", ""))
+            if img:
+                it["image"] = img
+            time.sleep(0.5)  # be polite to servers
+
     for it in items:
         it.pop("_ts", None)
 
