@@ -109,6 +109,356 @@ BRAND_DATABASE = {
         "color": "#00A4EF",
         "category": "Premium"
     },
+    # ---- Other brands (electronics/computing/wearables) ----
+    "medion": {
+        "logo": "https://cdn.brandfetch.io/medion.com/w/400/h/400",
+        "color": "#0066CC",
+        "category": "Budget"
+    },
+    "toshiba": {
+        "logo": "https://cdn.brandfetch.io/toshiba.com/w/400/h/400",
+        "color": "#FF0000",
+        "category": "Value"
+    },
+    "compaq": {
+        "logo": "https://cdn.brandfetch.io/compaq.com/w/400/h/400",
+        "color": "#0066CC",
+        "category": "Value"
+    },
+    "ibm": {
+        "logo": "https://cdn.brandfetch.io/ibm.com/w/400/h/400",
+        "color": "#006699",
+        "category": "Premium"
+    },
+    "pine64": {
+        "logo": "https://cdn.simpleicons.org/pine64/000000",
+        "color": "#000000",
+        "category": "Budget"
+    },
+    "acer": {
+        "logo": "https://cdn.brandfetch.io/acer.com/w/400/h/400",
+        "color": "#83B81A",
+        "category": "Value"
+    },
+    "dell": {
+        "logo": "https://cdn.brandfetch.io/dell.com/w/400/h/400",
+        "color": "#007DB8",
+        "category": "Premium"
+    },
+    "garmin": {
+        "logo": "https://cdn.brandfetch.io/garmin.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Value"
+    },
+    "withings": {
+        "logo": "https://cdn.brandfetch.io/withings.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Value"
+    },
+    "fujifilm": {
+        "logo": "https://cdn.brandfetch.io/fujifilm.com/w/400/h/400",
+        "color": "#ED1C24",
+        "category": "Value"
+    },
+    "logitech": {
+        "logo": "https://cdn.brandfetch.io/logitech.com/w/400/h/400",
+        "color": "#00B8FC",
+        "category": "Mid-Range"
+    },
+    "hewlett-packard": {
+        "logo": "https://cdn.brandfetch.io/hp.com/w/400/h/400",
+        "color": "#0096D6",
+        "category": "Value"
+    },
+    "suunto": {
+        "logo": "https://cdn.brandfetch.io/suunto.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Value"
+    },
+    "polar": {
+        "logo": "https://cdn.brandfetch.io/polar.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Value"
+    },
+    # ---- Car brands ----
+    "renault": {
+        "logo": "https://cdn.brandfetch.io/renault.com/w/400/h/400",
+        "color": "#FFCC00",
+        "category": "Other"
+    },
+    "volkswagen": {
+        "logo": "https://cdn.brandfetch.io/volkswagen.com/w/400/h/400",
+        "color": "#001E50",
+        "category": "Other"
+    },
+    "rolls-royce": {
+        "logo": "https://cdn.brandfetch.io/rolls-royce.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "ferrari": {
+        "logo": "https://cdn.brandfetch.io/ferrari.com/w/400/h/400",
+        "color": "#FF2800",
+        "category": "Other"
+    },
+    "peugeot": {
+        "logo": "https://cdn.brandfetch.io/peugeot.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "mitsubishi": {
+        "logo": "https://cdn.brandfetch.io/mitsubishi.com/w/400/h/400",
+        "color": "#E2001A",
+        "category": "Other"
+    },
+    "subaru": {
+        "logo": "https://cdn.brandfetch.io/subaru.com/w/400/h/400",
+        "color": "#013C7A",
+        "category": "Other"
+    },
+    "toyota": {
+        "logo": "https://cdn.brandfetch.io/toyota.com/w/400/h/400",
+        "color": "#D31017",
+        "category": "Other"
+    },
+    "porsche": {
+        "logo": "https://cdn.brandfetch.io/porsche.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "jaguar": {
+        "logo": "https://cdn.brandfetch.io/jaguar.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "mazda": {
+        "logo": "https://cdn.brandfetch.io/mazda.com/w/400/h/400",
+        "color": "#101010",
+        "category": "Other"
+    },
+    "honda": {
+        "logo": "https://cdn.brandfetch.io/honda.com/w/400/h/400",
+        "color": "#E1001A",
+        "category": "Other"
+    },
+    "dodge": {
+        "logo": "https://cdn.brandfetch.io/dodge.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "fiat": {
+        "logo": "https://cdn.brandfetch.io/fiat.com/w/400/h/400",
+        "color": "#AA001C",
+        "category": "Other"
+    },
+    "ford": {
+        "logo": "https://cdn.brandfetch.io/ford.com/w/400/h/400",
+        "color": "#003D79",
+        "category": "Other"
+    },
+    "daihatsu": {
+        "logo": "https://cdn.brandfetch.io/daihatsu.com/w/400/h/400",
+        "color": "#D50000",
+        "category": "Other"
+    },
+    "audi": {
+        "logo": "https://cdn.brandfetch.io/audi.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "bugatti": {
+        "logo": "https://cdn.brandfetch.io/bugatti.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "nissan": {
+        "logo": "https://cdn.brandfetch.io/nissan.com/w/400/h/400",
+        "color": "#C3002F",
+        "category": "Other"
+    },
+    "bmw": {
+        "logo": "https://cdn.brandfetch.io/bmw.com/w/400/h/400",
+        "color": "#0066B1",
+        "category": "Other"
+    },
+    "opel": {
+        "logo": "https://cdn.brandfetch.io/opel.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "mercedes-benz": {
+        "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "cadillac": {
+        "logo": "https://cdn.brandfetch.io/cadillac.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "delorean": {
+        "logo": "https://cdn.brandfetch.io/delorean.com/w/400/h/400",
+        "color": "#555555",
+        "category": "Other"
+    },
+    "lotus": {
+        "logo": "https://cdn.brandfetch.io/lotuscars.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "volvo": {
+        "logo": "https://cdn.brandfetch.io/volvo.com/w/400/h/400",
+        "color": "#003057",
+        "category": "Other"
+    },
+    "maserati": {
+        "logo": "https://cdn.brandfetch.io/maserati.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "saab": {
+        "logo": "https://cdn.brandfetch.io/saab.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "kia": {
+        "logo": "https://cdn.brandfetch.io/kia.com/w/400/h/400",
+        "color": "#05141F",
+        "category": "Other"
+    },
+    "mg": {
+        "logo": "https://cdn.brandfetch.io/mg.co.uk/w/400/h/400",
+        "color": "#CC0000",
+        "category": "Other"
+    },
+    "hyundai": {
+        "logo": "https://cdn.brandfetch.io/hyundai.com/w/400/h/400",
+        "color": "#002C5F",
+        "category": "Other"
+    },
+    "isuzu": {
+        "logo": "https://cdn.brandfetch.io/isuzu.com/w/400/h/400",
+        "color": "#E3001B",
+        "category": "Other"
+    },
+    "lamborghini": {
+        "logo": "https://cdn.brandfetch.io/lamborghini.com/w/400/h/400",
+        "color": "#DDB321",
+        "category": "Other"
+    },
+    "brabus": {
+        "logo": "https://cdn.brandfetch.io/brabus.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "aston": {
+        "logo": "https://cdn.brandfetch.io/astonmartin.com/w/400/h/400",
+        "color": "#00665E",
+        "category": "Other"
+    },
+    "tata": {
+        "logo": "https://cdn.brandfetch.io/tata.com/w/400/h/400",
+        "color": "#4860A0",
+        "category": "Other"
+    },
+    "citroën": {
+        "logo": "https://cdn.brandfetch.io/citroen.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "seat": {
+        "logo": "https://cdn.brandfetch.io/seat.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "byd": {
+        "logo": "https://cdn.brandfetch.io/byd.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "rimac": {
+        "logo": "https://cdn.brandfetch.io/rimac.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "abarth": {
+        "logo": "https://cdn.brandfetch.io/abarth.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "gm": {
+        "logo": "https://cdn.brandfetch.io/gm.com/w/400/h/400",
+        "color": "#1A1A1A",
+        "category": "Other"
+    },
+    "daimler-benz": {
+        "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "daimler": {
+        "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "piaggio": {
+        "logo": "https://cdn.brandfetch.io/piaggio.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    # ---- Retro / legacy tech brands ----
+    "zenith": {
+        "logo": "https://cdn.brandfetch.io/zenith.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "sega": {
+        "logo": "https://cdn.brandfetch.io/sega.com/w/400/h/400",
+        "color": "#003399",
+        "category": "Other"
+    },
+    "tesla": {
+        "logo": "https://cdn.brandfetch.io/tesla.com/w/400/h/400",
+        "color": "#CC0000",
+        "category": "Other"
+    },
+    "sinclair": {
+        "logo": "https://cdn.simpleicons.org/sinclair/000000",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "rca": {
+        "logo": "https://cdn.brandfetch.io/rca.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "magnavox": {
+        "logo": "https://cdn.simpleicons.org/magnavox/000000",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "sharp-s": {
+        "logo": "https://cdn.brandfetch.io/sharp.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    # ---- Misc brands (keep in Other) ----
+    "bristol": {
+        "logo": "https://cdn.brandfetch.io/bristolcars.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "alpina": {
+        "logo": "https://cdn.brandfetch.io/alpina.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    "stellantis": {
+        "logo": "https://cdn.brandfetch.io/stellantis.com/w/400/h/400",
+        "color": "#000000",
+        "category": "Other"
+    },
+    # ---- Remaining other brands use monogram fallback (handled by common.js) ----
 }
 
 

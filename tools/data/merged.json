@@ -108,30 +108,30 @@
     {
       "id": "medion",
       "name": "Medion",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/medion.com/w/400/h/400",
+      "color": "#0066CC",
+      "category": "Budget"
     },
     {
       "id": "zenith",
       "name": "Zenith",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/zenith.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "toshiba",
       "name": "Toshiba",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/toshiba.com/w/400/h/400",
+      "color": "#FF0000",
+      "category": "Value"
     },
     {
       "id": "compaq",
       "name": "Compaq",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/compaq.com/w/400/h/400",
+      "color": "#0066CC",
+      "category": "Value"
     },
     {
       "id": "lenovo",
@@ -143,16 +143,16 @@
     {
       "id": "ibm",
       "name": "IBM",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/ibm.com/w/400/h/400",
+      "color": "#006699",
+      "category": "Premium"
     },
     {
       "id": "pine64",
       "name": "Pine64",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.simpleicons.org/pine64/000000",
+      "color": "#000000",
+      "category": "Budget"
     },
     {
       "id": "tandy",
@@ -171,30 +171,30 @@
     {
       "id": "acer",
       "name": "Acer",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/acer.com/w/400/h/400",
+      "color": "#83B81A",
+      "category": "Value"
     },
     {
       "id": "dell",
       "name": "Dell",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/dell.com/w/400/h/400",
+      "color": "#007DB8",
+      "category": "Premium"
     },
     {
       "id": "garmin",
       "name": "Garmin",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/garmin.com/w/400/h/400",
+      "color": "#000000",
+      "category": "Value"
     },
     {
       "id": "withings",
       "name": "Withings",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/withings.com/w/400/h/400",
+      "color": "#000000",
+      "category": "Value"
     },
     {
       "id": "tcl",
@@ -206,22 +206,22 @@
     {
       "id": "sinclair",
       "name": "Sinclair",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.simpleicons.org/sinclair/000000",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "magnavox",
       "name": "Magnavox",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.simpleicons.org/magnavox/000000",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "sega",
       "name": "Sega",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/sega.com/w/400/h/400",
+      "color": "#003399",
       "category": "Other"
     },
     {
@@ -234,8 +234,8 @@
     {
       "id": "rca",
       "name": "RCA",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/rca.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -255,8 +255,8 @@
     {
       "id": "tesla",
       "name": "Tesla",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/tesla.com/w/400/h/400",
+      "color": "#CC0000",
       "category": "Other"
     },
     {
@@ -276,16 +276,16 @@
     {
       "id": "fujifilm",
       "name": "Fujifilm",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/fujifilm.com/w/400/h/400",
+      "color": "#ED1C24",
+      "category": "Value"
     },
     {
       "id": "logitech",
       "name": "Logitech",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/logitech.com/w/400/h/400",
+      "color": "#00B8FC",
+      "category": "Mid-Range"
     },
     {
       "id": "leaf",
@@ -297,8 +297,8 @@
     {
       "id": "renault",
       "name": "Renault",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/renault.com/w/400/h/400",
+      "color": "#FFCC00",
       "category": "Other"
     },
     {
@@ -311,15 +311,15 @@
     {
       "id": "volkswagen",
       "name": "Volkswagen",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/volkswagen.com/w/400/h/400",
+      "color": "#001E50",
       "category": "Other"
     },
     {
       "id": "rolls-royce",
       "name": "Rolls-Royce",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/rolls-royce.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -332,8 +332,8 @@
     {
       "id": "ferrari",
       "name": "Ferrari",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/ferrari.com/w/400/h/400",
+      "color": "#FF2800",
       "category": "Other"
     },
     {
@@ -346,15 +346,15 @@
     {
       "id": "peugeot",
       "name": "Peugeot",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/peugeot.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "mitsubishi",
       "name": "Mitsubishi",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mitsubishi.com/w/400/h/400",
+      "color": "#E2001A",
       "category": "Other"
     },
     {
@@ -374,29 +374,29 @@
     {
       "id": "subaru",
       "name": "Subaru",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/subaru.com/w/400/h/400",
+      "color": "#013C7A",
       "category": "Other"
     },
     {
       "id": "toyota",
       "name": "Toyota",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/toyota.com/w/400/h/400",
+      "color": "#D31017",
       "category": "Other"
     },
     {
       "id": "porsche",
       "name": "Porsche",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/porsche.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "jaguar",
       "name": "Jaguar",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/jaguar.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -409,8 +409,8 @@
     {
       "id": "mazda",
       "name": "Mazda",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mazda.com/w/400/h/400",
+      "color": "#101010",
       "category": "Other"
     },
     {
@@ -423,8 +423,8 @@
     {
       "id": "honda",
       "name": "Honda",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/honda.com/w/400/h/400",
+      "color": "#E1001A",
       "category": "Other"
     },
     {
@@ -437,8 +437,8 @@
     {
       "id": "dodge",
       "name": "Dodge",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/dodge.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -465,8 +465,8 @@
     {
       "id": "fiat",
       "name": "Fiat",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/fiat.com/w/400/h/400",
+      "color": "#AA001C",
       "category": "Other"
     },
     {
@@ -479,29 +479,29 @@
     {
       "id": "ford",
       "name": "Ford",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/ford.com/w/400/h/400",
+      "color": "#003D79",
       "category": "Other"
     },
     {
       "id": "daihatsu",
       "name": "Daihatsu",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/daihatsu.com/w/400/h/400",
+      "color": "#D50000",
       "category": "Other"
     },
     {
       "id": "audi",
       "name": "Audi",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/audi.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "bugatti",
       "name": "Bugatti",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/bugatti.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -521,22 +521,22 @@
     {
       "id": "nissan",
       "name": "Nissan",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/nissan.com/w/400/h/400",
+      "color": "#C3002F",
       "category": "Other"
     },
     {
       "id": "bmw",
       "name": "BMW",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/bmw.com/w/400/h/400",
+      "color": "#0066B1",
       "category": "Other"
     },
     {
       "id": "opel",
       "name": "Opel",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/opel.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -556,8 +556,8 @@
     {
       "id": "aston",
       "name": "Aston",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/astonmartin.com/w/400/h/400",
+      "color": "#00665E",
       "category": "Other"
     },
     {
@@ -598,23 +598,23 @@
     {
       "id": "hewlett-packard",
       "name": "Hewlett-Packard",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/hp.com/w/400/h/400",
+      "color": "#0096D6",
+      "category": "Value"
     },
     {
       "id": "suunto",
       "name": "Suunto",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/suunto.com/w/400/h/400",
+      "color": "#000000",
+      "category": "Value"
     },
     {
       "id": "polar",
       "name": "Polar",
-      "logo": "📱",
-      "color": "#5b8cff",
-      "category": "Other"
+      "logo": "https://cdn.brandfetch.io/polar.com/w/400/h/400",
+      "color": "#000000",
+      "category": "Value"
     },
     {
       "id": "facel",
@@ -633,8 +633,8 @@
     {
       "id": "mercedes-benz",
       "name": "Mercedes-Benz",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -661,22 +661,22 @@
     {
       "id": "stellantis",
       "name": "Stellantis",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/stellantis.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "cadillac",
       "name": "Cadillac",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/cadillac.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "delorean",
       "name": "DeLorean",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/delorean.com/w/400/h/400",
+      "color": "#555555",
       "category": "Other"
     },
     {
@@ -703,15 +703,15 @@
     {
       "id": "lotus",
       "name": "Lotus",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/lotuscars.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "volvo",
       "name": "Volvo",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/volvo.com/w/400/h/400",
+      "color": "#003057",
       "category": "Other"
     },
     {
@@ -745,36 +745,36 @@
     {
       "id": "seat",
       "name": "SEAT",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/seat.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "maserati",
       "name": "Maserati",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/maserati.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "saab",
       "name": "Saab",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/saab.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "kia",
       "name": "Kia",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/kia.com/w/400/h/400",
+      "color": "#05141F",
       "category": "Other"
     },
     {
       "id": "mg",
       "name": "MG",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mg.co.uk/w/400/h/400",
+      "color": "#CC0000",
       "category": "Other"
     },
     {
@@ -794,15 +794,15 @@
     {
       "id": "hyundai",
       "name": "Hyundai",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/hyundai.com/w/400/h/400",
+      "color": "#002C5F",
       "category": "Other"
     },
     {
       "id": "isuzu",
       "name": "Isuzu",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/isuzu.com/w/400/h/400",
+      "color": "#E3001B",
       "category": "Other"
     },
     {
@@ -815,8 +815,8 @@
     {
       "id": "alpina",
       "name": "Alpina",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/alpina.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -829,15 +829,15 @@
     {
       "id": "lamborghini",
       "name": "Lamborghini",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/lamborghini.com/w/400/h/400",
+      "color": "#DDB321",
       "category": "Other"
     },
     {
       "id": "brabus",
       "name": "Brabus",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/brabus.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -850,15 +850,15 @@
     {
       "id": "piaggio",
       "name": "Piaggio",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/piaggio.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "gm",
       "name": "GM",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/gm.com/w/400/h/400",
+      "color": "#1A1A1A",
       "category": "Other"
     },
     {
@@ -871,15 +871,15 @@
     {
       "id": "byd",
       "name": "BYD",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/byd.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "daimler-benz",
       "name": "Daimler-Benz",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -906,15 +906,15 @@
     {
       "id": "bristol",
       "name": "Bristol",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/bristolcars.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "citroën",
       "name": "Citroën",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/citroen.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -976,8 +976,8 @@
     {
       "id": "daimler",
       "name": "Daimler",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -1011,8 +1011,8 @@
     {
       "id": "abarth",
       "name": "Abarth",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/abarth.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -1144,15 +1144,15 @@
     {
       "id": "sharp-s",
       "name": "Sharp's",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/sharp.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
       "id": "rimac",
       "name": "Rimac",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/rimac.com/w/400/h/400",
+      "color": "#000000",
       "category": "Other"
     },
     {
@@ -1165,8 +1165,8 @@
     {
       "id": "tata",
       "name": "Tata",
-      "logo": "📱",
-      "color": "#5b8cff",
+      "logo": "https://cdn.brandfetch.io/tata.com/w/400/h/400",
+      "color": "#4860A0",
       "category": "Other"
     },
     {

@@ -197,25 +197,36 @@
   };
 
   /* ---------- reusable news card ---------- */
+  PH.NEWS_DEFAULT_IMG =
+    "data:image/svg+xml;charset=UTF-8," +
+    encodeURIComponent(
+      '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340">' +
+      '<defs><linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="100%">' +
+      '<stop offset="0%" stop-color="#1a1a2e"/><stop offset="100%" stop-color="#16213e"/>' +
+      '</linearGradient></defs>' +
+      '<rect width="100%" height="100%" fill="url(#ng)"/>' +
+      '<text x="50%" y="45%" font-family="sans-serif" font-size="48" fill="#4a6cf7" ' +
+      'text-anchor="middle" dominant-baseline="middle">📰</text>' +
+      '<text x="50%" y="62%" font-family="sans-serif" font-size="14" fill="#6b7280" ' +
+      'text-anchor="middle" dominant-baseline="middle">Tech News</text></svg>'
+    );
   PH.newsCard = (n) => {
     const date = n.date
       ? new Date(n.date).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })
       : "";
     const meta = [n.source, date].filter(Boolean).join(" \u00b7 ");
-    const hero = n.image
-      ? `<div class="news-hero"><img src="${n.image}" alt="" loading="lazy" onerror="this.closest('.news-card').classList.remove('has-hero');this.closest('.news-hero').remove()"><span class="news-hero-tag">${n.tag || "News"}</span></div>`
-      : "";
+    const imgSrc = n.image || PH.NEWS_DEFAULT_IMG;
+    const hero = `<div class="news-hero"><img src="${imgSrc}" alt="" loading="lazy" onerror="this.src='${PH.NEWS_DEFAULT_IMG}'"><span class="news-hero-tag">${n.tag || "News"}</span></div>`;
     const inner = `
        ${hero}
        <div class="news-body">
-         ${n.image ? "" : `<span class="tag">${n.tag || "News"}</span>`}
          <h3>${n.title}</h3>
          <p>${n.excerpt || ""}</p>
          <span class="date">${meta}</span>
        </div>`;
     return n.url
-      ? `<a class="news-card${n.image ? " has-hero" : ""}" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
-      : `<article class="news-card${n.image ? " has-hero" : ""}">${inner}</article>`;
+      ? `<a class="news-card has-hero" href="${n.url}" target="_blank" rel="noopener nofollow">${inner}</a>`
+      : `<article class="news-card has-hero">${inner}</article>`;
   };
 
   /* ---------- floating compare bar ---------- */
