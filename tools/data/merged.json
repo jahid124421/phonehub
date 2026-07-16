@@ -1245,6 +1245,41 @@
       "logo": "📱",
       "color": "#5b8cff",
       "category": "Other"
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "logo": "📱",
+      "color": "#5b8cff",
+      "category": "Other"
+    },
+    {
+      "id": "messerschmitt",
+      "name": "Messerschmitt",
+      "logo": "📱",
+      "color": "#5b8cff",
+      "category": "Other"
+    },
+    {
+      "id": "myers",
+      "name": "Myers",
+      "logo": "📱",
+      "color": "#5b8cff",
+      "category": "Other"
+    },
+    {
+      "id": "rover",
+      "name": "Rover",
+      "logo": "📱",
+      "color": "#5b8cff",
+      "category": "Other"
+    },
+    {
+      "id": "dacia",
+      "name": "Dacia",
+      "logo": "📱",
+      "color": "#5b8cff",
+      "category": "Other"
     }
   ],
   "phones": [
@@ -82874,291 +82909,3439 @@
           "Category": "Auto"
         }
       }
+    },
+    {
+      "id": "auto-škoda-vos",
+      "brand": "škoda",
+      "name": "Škoda VOS",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda-vos-l.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda-vos-l.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-vos.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20VOS"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20VOS"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-vision-d",
+      "brand": "škoda",
+      "name": "Škoda Vision D",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/13-04-05-Skoda%20Museum%20Mlad%C3%A1%20Boleslav%20by%20RalfR-206.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/13-04-05-Skoda%20Museum%20Mlad%C3%A1%20Boleslav%20by%20RalfR-206.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-vision-d.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20Vision%20D"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20Vision%20D"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-škoda-yeti",
+      "brand": "škoda",
+      "name": "Škoda Yeti",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Yeti%20%E2%80%93%20Frontansicht%2C%2014.%20Juni%202011%2C%20Mettmann.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Skoda%20Yeti%20%E2%80%93%20Frontansicht%2C%2014.%20Juni%202011%2C%20Mettmann.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-škoda-yeti.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=%C5%A0koda%20Yeti"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=%C5%A0koda%20Yeti"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Škoda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-407",
+      "brand": "bristol",
+      "name": "Bristol 407",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20407%201962.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20407%201962.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-407.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20407"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20407"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-408",
+      "brand": "bristol",
+      "name": "Bristol 408",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20408%20photo%201973.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20408%20photo%201973.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-408.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20408"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20408"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-409",
+      "brand": "bristol",
+      "name": "Bristol 409",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20409%20reg%20Jan%201966%205211%20cc.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20409%20reg%20Jan%201966%205211%20cc.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-409.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20409"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20409"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-410",
+      "brand": "bristol",
+      "name": "Bristol 410",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20410%201968.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20410%201968.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-410.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20410"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20410"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-411",
+      "brand": "bristol",
+      "name": "Bristol 411",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20411.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20411.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-411.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20411"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20411"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-412",
+      "brand": "bristol",
+      "name": "Bristol 412",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20412%20ca%201980%20near%20Bury%20St%20Eds.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20412%20ca%201980%20near%20Bury%20St%20Eds.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-412.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20412"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20412"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-type-603",
+      "brand": "bristol",
+      "name": "Bristol Type 603",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1984%20Bristol%20Brigand%2C%20front%20right.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1984%20Bristol%20Brigand%2C%20front%20right.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-type-603.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20Type%20603"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20Type%20603"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-beaufighter",
+      "brand": "bristol",
+      "name": "Bristol Beaufighter",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20412%20Knebworth.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20412%20Knebworth.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-beaufighter.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20Beaufighter"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20Beaufighter"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-daimler-phoenix",
+      "brand": "daimler",
+      "name": "Daimler Phoenix",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wimbit-Jellinek-Phoenix8hp.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wimbit-Jellinek-Phoenix8hp.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-daimler-phoenix.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Daimler%20Phoenix"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Daimler%20Phoenix"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Daimler",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bristol-fighter",
+      "brand": "bristol",
+      "name": "Bristol Fighter",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2004%20Bristol%20Fighter%20%2814365192439%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2004%20Bristol%20Fighter%20%2814365192439%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bristol-fighter.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Bristol%20Fighter"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Bristol%20Fighter"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Bristol",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-opel-manta",
+      "brand": "opel",
+      "name": "Opel Manta",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20belgian.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Opel%20belgian.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-opel-manta.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Opel%20Manta"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Opel%20Manta"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Opel",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-fox",
+      "brand": "volkswagen",
+      "name": "Volkswagen Fox",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Fox%202012.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VW%20Fox%202012.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-fox.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%20Fox"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%20Fox"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-isuzu-hombre",
+      "brand": "isuzu",
+      "name": "Isuzu Hombre",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/96-97%20Isuzu%20Hombre%202.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/96-97%20Isuzu%20Hombre%202.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-isuzu-hombre.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Isuzu%20Hombre"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Isuzu%20Hombre"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Isuzu",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-magna",
+      "brand": "mitsubishi",
+      "name": "Mitsubishi Magna",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2003%20Mitsubishi%20Magna%20%28TL%29%20LS%20sedan%20%282010-07-26%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2003%20Mitsubishi%20Magna%20%28TL%29%20LS%20sedan%20%282010-07-26%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mitsubishi-magna.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mitsubishi%20Magna"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mitsubishi%20Magna"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsubishi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-360",
+      "brand": "mitsubishi",
+      "name": "Mitsubishi 360",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi-360.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi-360.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mitsubishi-360.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mitsubishi%20360"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mitsubishi%20360"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsubishi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-fusion-americas",
+      "brand": "ford",
+      "name": "Ford Fusion Americas",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20Ford%20Fusion%20--%20NHTSA.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20Ford%20Fusion%20--%20NHTSA.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ford-fusion-americas.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ford%20Fusion%20Americas"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ford%20Fusion%20Americas"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-thesis",
+      "brand": "fiat",
+      "name": "Lancia Thesis",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Thesis%20front%2020071211.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Thesis%20front%2020071211.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-lancia-thesis.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lancia%20Thesis"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lancia%20Thesis"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-citroën-type-a",
+      "brand": "peugeot",
+      "name": "Citroën Type A",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Citroen%20A%208%20CV%20Torpedo%201919.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Citroen%20A%208%20CV%20Torpedo%201919.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-citroën-type-a.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Citro%C3%ABn%20Type%20A"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Citro%C3%ABn%20Type%20A"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-404",
+      "brand": "peugeot",
+      "name": "Peugeot 404",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot404-coupe-1.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot404-coupe-1.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-peugeot-404.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Peugeot%20404"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Peugeot%20404"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-toyota-corolla-e110",
+      "brand": "toyota",
+      "name": "Toyota Corolla E110",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1995%20Toyota%20Corolla%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1995%20Toyota%20Corolla%2001.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-toyota-corolla-e110.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Toyota%20Corolla%20E110"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Toyota%20Corolla%20E110"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Toyota",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-datsun-dc-3",
+      "brand": "nissan",
+      "name": "Datsun DC-3",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Datsun%20Sports%20DC3%20001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Datsun%20Sports%20DC3%20001.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-datsun-dc-3.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Datsun%20DC-3"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Datsun%20DC-3"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-azeal",
+      "brand": "nissan",
+      "name": "Nissan AZEAL",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Azeal%20rear.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Azeal%20rear.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-azeal.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20AZEAL"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20AZEAL"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-prince-homer",
+      "brand": "nissan",
+      "name": "Prince Homer",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan-Homer.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan-Homer.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-prince-homer.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Prince%20Homer"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Prince%20Homer"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-suzuki-alto",
+      "brand": "suzuki",
+      "name": "Suzuki Alto",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Suzuki%20ALTO%20L%20Upgrade%20Package%202WD%20%283BA-HA37S-ABLE-P%29%20front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Suzuki%20ALTO%20L%20Upgrade%20Package%202WD%20%283BA-HA37S-ABLE-P%29%20front.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-suzuki-alto.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Suzuki%20Alto"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Suzuki%20Alto"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Suzuki",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-iso-grifo",
+      "brand": "iso",
+      "name": "Iso Grifo",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iso%20grifo.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Iso%20grifo.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-iso-grifo.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Iso%20Grifo"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Iso%20Grifo"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Iso",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-messerschmitt-kr175",
+      "brand": "messerschmitt",
+      "name": "Messerschmitt KR175",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Messerschmitt%20KR175%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Messerschmitt%20KR175%2001.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-messerschmitt-kr175.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Messerschmitt%20KR175"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Messerschmitt%20KR175"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Messerschmitt",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-myers-motors-nmg",
+      "brand": "myers",
+      "name": "Myers Motors NmG",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/CorbinSparrow..jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/CorbinSparrow..jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-myers-motors-nmg.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Myers%20Motors%20NmG"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Myers%20Motors%20NmG"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Myers",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-saurus-jr",
+      "brand": "nissan",
+      "name": "Nissan Saurus Jr.",
+      "category": "auto",
+      "image": "img/auto-nissan-saurus-jr.svg",
+      "images": [],
+      "fallbackImg": "img/auto-nissan-saurus-jr.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Saurus%20Jr."
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Saurus%20Jr."
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-gazelle",
+      "brand": "nissan",
+      "name": "Nissan Gazelle",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan-Gazelle.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan-Gazelle.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-gazelle.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Gazelle"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Gazelle"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dacia-sandero-renault-sandero",
+      "brand": "renault",
+      "name": "Dacia Sandero/Renault Sandero",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dacia%20Sandero%20III%201X7A0382.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Dacia%20Sandero%20III%201X7A0382.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-dacia-sandero-renault-sandero.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Dacia%20Sandero/Renault%20Sandero"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Dacia%20Sandero/Renault%20Sandero"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-alfa-romeo-156",
+      "brand": "alfa",
+      "name": "Alfa Romeo 156",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%20Romeo%20156%20GTA%20%2840920850890%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%20Romeo%20156%20GTA%20%2840920850890%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-alfa-romeo-156.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Alfa%20Romeo%20156"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Alfa%20Romeo%20156"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Alfa",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-aprilia",
+      "brand": "fiat",
+      "name": "Lancia Aprilia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1937LanciaAprilia.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1937LanciaAprilia.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-lancia-aprilia.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lancia%20Aprilia"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lancia%20Aprilia"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-renault-safrane",
+      "brand": "renault",
+      "name": "Renault Safrane",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Safrane%20av.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Safrane%20av.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-renault-safrane.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Renault%20Safrane"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Renault%20Safrane"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mini-moke",
+      "brand": "british",
+      "name": "Mini Moke",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mini-Moke%201984.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mini-Moke%201984.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mini-moke.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mini%20Moke"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mini%20Moke"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-milano",
+      "brand": "volkswagen",
+      "name": "Volkswagen Milano",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/VW-Milano%20E-Taxi.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/VW-Milano%20E-Taxi.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-milano.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%20Milano"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%20Milano"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-peugeot-504",
+      "brand": "peugeot",
+      "name": "Peugeot 504",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20504%20-%20Flickr%20-%20Joost%20J.%20Bakker%20IJmuiden%20%282%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot%20504%20-%20Flickr%20-%20Joost%20J.%20Bakker%20IJmuiden%20%282%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-peugeot-504.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Peugeot%20504"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Peugeot%20504"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Peugeot",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-honda-l700",
+      "brand": "honda",
+      "name": "Honda L700",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20l700.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Honda%20l700.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-honda-l700.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Honda%20L700"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Honda%20L700"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Honda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-rover-400---45",
+      "brand": "rover",
+      "name": "Rover 400 / 45",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rover%2045%20blue%20vl.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Rover%2045%20blue%20vl.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-rover-400---45.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Rover%20400%20/%2045"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Rover%20400%20/%2045"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Rover",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-hardbody-truck",
+      "brand": "nissan",
+      "name": "Nissan Hardbody Truck",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Hardbody%20Truck%204x4%201990.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20Hardbody%20Truck%204x4%201990.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-hardbody-truck.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Hardbody%20Truck"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Hardbody%20Truck"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-hummer-h3",
+      "brand": "general",
+      "name": "Hummer H3",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2007%20Hummer%20H3%20--%20NHTSA.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2007%20Hummer%20H3%20--%20NHTSA.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-hummer-h3.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Hummer%20H3"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Hummer%20H3"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-bmw-z4--e89",
+      "brand": "bmw",
+      "name": "BMW Z4 (E89)",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/BMW%20Z4%20%28E89%29%20front%2020100815.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/BMW%20Z4%20%28E89%29%20front%2020100815.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-bmw-z4--e89.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=BMW%20Z4%20%28E89%29"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=BMW%20Z4%20%28E89%29"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "BMW",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-renault-vel-satis",
+      "brand": "renault",
+      "name": "Renault Vel Satis",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Renault%20Vel%20Satis%203.0%20dCi%20V6%20%E2%80%93%20Frontansicht%2C%205.%20Mai%202012%2C%20Ratingen.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Renault%20Vel%20Satis%203.0%20dCi%20V6%20%E2%80%93%20Frontansicht%2C%205.%20Mai%202012%2C%20Ratingen.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-renault-vel-satis.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Renault%20Vel%20Satis"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Renault%20Vel%20Satis"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Renault",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-wolseley-4-50",
+      "brand": "british",
+      "name": "Wolseley 4/50",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1950%20Wolseley%20Four%20Fifty%209071744706.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1950%20Wolseley%20Four%20Fifty%209071744706.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-wolseley-4-50.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Wolseley%204/50"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Wolseley%204/50"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-lancia-stratos",
+      "brand": "fiat",
+      "name": "Lancia Stratos",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Stratos%20HF%20001.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Stratos%20HF%20001.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-lancia-stratos.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Lancia%20Stratos"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Lancia%20Stratos"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mazda-hakaze-concept",
+      "brand": "mazda",
+      "name": "Mazda Hakaze Concept",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20Hakaze%20Concept%20SideView%20Automotor2008%20Israel.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20Hakaze%20Concept%20SideView%20Automotor2008%20Israel.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-mazda-hakaze-concept.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mazda%20Hakaze%20Concept"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mazda%20Hakaze%20Concept"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mazda",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-suzuki-ignis",
+      "brand": "suzuki",
+      "name": "Suzuki Ignis",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Suzuki%20Ignis%20SZ5%20SHVS%20Allgrip%201.2%20Front.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Suzuki%20Ignis%20SZ5%20SHVS%20Allgrip%201.2%20Front.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-suzuki-ignis.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Suzuki%20Ignis"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Suzuki%20Ignis"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Suzuki",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dodge-shadow",
+      "brand": "dodge",
+      "name": "Dodge Shadow",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%2788%20Dodge%20Shadow%203%20Door.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/%2788%20Dodge%20Shadow%203%20Door.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-dodge-shadow.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Dodge%20Shadow"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Dodge%20Shadow"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dodge",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-oldsmobile-achieva",
+      "brand": "general",
+      "name": "Oldsmobile Achieva",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1997%20Oldsmobile%20Achieva%20SL.png?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1997%20Oldsmobile%20Achieva%20SL.png?width=500"
+      ],
+      "fallbackImg": "img/auto-oldsmobile-achieva.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Oldsmobile%20Achieva"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Oldsmobile%20Achieva"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-uaz-452",
+      "brand": "uaz",
+      "name": "UAZ-452",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/UAZ%20452%20front%20q.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/UAZ%20452%20front%20q.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-uaz-452.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=UAZ-452"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=UAZ-452"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "UAZ",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volvo-xc90",
+      "brand": "volvo",
+      "name": "Volvo XC90",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Volvo%20XC90%20II%20DSC%207423.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Volvo%20XC90%20II%20DSC%207423.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volvo-xc90.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volvo%20XC90"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volvo%20XC90"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volvo",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-volkswagen-type-4",
+      "brand": "volkswagen",
+      "name": "Volkswagen Type 4",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vw%20411%20v%20sst.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Vw%20411%20v%20sst.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-volkswagen-type-4.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Volkswagen%20Type%204"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Volkswagen%20Type%204"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Volkswagen",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-fiat-126",
+      "brand": "fiat",
+      "name": "Fiat 126",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1973%20Fiat%20126%20IMG%207855.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1973%20Fiat%20126%20IMG%207855.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-fiat-126.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Fiat%20126"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Fiat%20126"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-dacia-dokker",
+      "brand": "dacia",
+      "name": "Dacia Dokker",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2012%20Dacia%20Dokker.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2012%20Dacia%20Dokker.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-dacia-dokker.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Dacia%20Dokker"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Dacia%20Dokker"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dacia",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-fiat-doblò",
+      "brand": "fiat",
+      "name": "Fiat Doblò",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20Dobl%C3%B2%20II%20front%2020100402.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20Dobl%C3%B2%20II%20front%2020100402.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-fiat-doblò.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Fiat%20Dobl%C3%B2"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Fiat%20Dobl%C3%B2"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Fiat",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-mitsubishi-colt",
+      "brand": "mitsubishi",
+      "name": "Mitsubishi Colt",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Colt%20VI%20CZ3%20Modellpflege%20%28seit%202008%29%20front%20MJ.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Colt%20VI%20CZ3%20Modellpflege%20%28seit%202008%29%20front%20MJ.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-mitsubishi-colt.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Mitsubishi%20Colt"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Mitsubishi%20Colt"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Mitsubishi",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-serena",
+      "brand": "nissan",
+      "name": "Nissan Serena",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20SERENA%20e-POWER%20HighwaySTAR%20V%2090th%20Anniversary%20%286AA-GFC28%29.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20SERENA%20e-POWER%20HighwaySTAR%20V%2090th%20Anniversary%20%286AA-GFC28%29.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-serena.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20Serena"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20Serena"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-de-tomaso-deauville",
+      "brand": "de",
+      "name": "De Tomaso Deauville",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deauville2124.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Deauville2124.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-de-tomaso-deauville.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=De%20Tomaso%20Deauville"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=De%20Tomaso%20Deauville"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "De",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-seat-altea",
+      "brand": "seat",
+      "name": "SEAT Altea",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Seat%20Altea%201%2C4%20TSI%20Stylance-RZ.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Seat%20Altea%201%2C4%20TSI%20Stylance-RZ.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-seat-altea.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=SEAT%20Altea"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=SEAT%20Altea"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "SEAT",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-gmc-acadia",
+      "brand": "general",
+      "name": "GMC Acadia",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20GMC%20Acadia%20Denali%20front%20view.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20GMC%20Acadia%20Denali%20front%20view.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-gmc-acadia.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=GMC%20Acadia"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=GMC%20Acadia"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-nissan-370z",
+      "brand": "nissan",
+      "name": "Nissan 370Z",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nismo%20370Z%20DSC%208254.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Nismo%20370Z%20DSC%208254.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-nissan-370z.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Nissan%20370Z"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Nissan%20370Z"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Nissan",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-porsche-996",
+      "brand": "porsche",
+      "name": "Porsche 996",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche%20996%20%281999%20model%20year%29.JPG?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche%20996%20%281999%20model%20year%29.JPG?width=500"
+      ],
+      "fallbackImg": "img/auto-porsche-996.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Porsche%20996"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Porsche%20996"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Porsche",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-a-l-f-a-40-60-hp",
+      "brand": "alfa",
+      "name": "A.L.F.A 40/60 HP",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%2040-60%20HP%20Aerodinamica.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%2040-60%20HP%20Aerodinamica.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-a-l-f-a-40-60-hp.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=A.L.F.A%2040/60%20HP"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=A.L.F.A%2040/60%20HP"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Alfa",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-hispano-suiza-alfonso-xiii",
+      "brand": "hispano-suiza",
+      "name": "Hispano-Suiza Alfonso XIII",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hispano-Suiza%20Biplace%20Sport%20Type%20Alphonse%20XIII%20%281912%29%20jm64015.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Hispano-Suiza%20Biplace%20Sport%20Type%20Alphonse%20XIII%20%281912%29%20jm64015.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-hispano-suiza-alfonso-xiii.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Hispano-Suiza%20Alfonso%20XIII"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Hispano-Suiza%20Alfonso%20XIII"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Hispano-Suiza",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-citroën-elysée",
+      "brand": "dongfeng",
+      "name": "Citroën Elysée",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Citro%C3%ABn%20C%20Elys%C3%A9e.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Citro%C3%ABn%20C%20Elys%C3%A9e.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-citroën-elysée.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Citro%C3%ABn%20Elys%C3%A9e"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Citro%C3%ABn%20Elys%C3%A9e"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Dongfeng",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-wolseley-6-99",
+      "brand": "british",
+      "name": "Wolseley 6/99",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wolseley%206-110%201965%20-%20Flickr%20-%20mick%20-%20Lumix.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wolseley%206-110%201965%20-%20Flickr%20-%20mick%20-%20Lumix.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-wolseley-6-99.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Wolseley%206/99"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Wolseley%206/99"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "British",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-holden-one-tonner",
+      "brand": "general",
+      "name": "Holden One Tonner",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20Holden%20HZ%20One%20Tonner%20cab%20chassis%2001.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20Holden%20HZ%20One%20Tonner%20cab%20chassis%2001.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-holden-one-tonner.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Holden%20One%20Tonner"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Holden%20One%20Tonner"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "General",
+          "Category": "Auto"
+        }
+      }
+    },
+    {
+      "id": "auto-ford-probe",
+      "brand": "ford",
+      "name": "Ford Probe",
+      "category": "auto",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2nd%20Ford%20Probe%20GT.jpg?width=500",
+      "images": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/2nd%20Ford%20Probe%20GT.jpg?width=500"
+      ],
+      "fallbackImg": "img/auto-ford-probe.svg",
+      "releaseDate": "",
+      "basePrice": 0,
+      "popularity": 55,
+      "rating": 0,
+      "reviewCount": 0,
+      "review": "",
+      "quickSpecs": {
+        "display": "",
+        "processor": "",
+        "ram": "",
+        "storage": "",
+        "camera": "",
+        "battery": ""
+      },
+      "prices": [
+        {
+          "store": "Amazon",
+          "price": null,
+          "url": "https://www.amazon.in/s?k=Ford%20Probe"
+        },
+        {
+          "store": "Flipkart",
+          "price": null,
+          "url": "https://www.flipkart.com/search?q=Ford%20Probe"
+        }
+      ],
+      "pros": [],
+      "cons": [],
+      "specs": {
+        "Launch": {
+          "Announced": "—"
+        },
+        "Misc": {
+          "Brand": "Ford",
+          "Category": "Auto"
+        }
+      }
     }
   ],
   "news": [
     {
-      "id": "n1603439603",
-      "title": "I've been using Chrome for a decade, and one week of Comet convinced me to switch",
-      "excerpt": "Chrome is still catching up to where Comet already is",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/been-using-chrome-for-a-decade-one-week-of-comet-convinced-me-to-switch/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/comet-welcome-screen-on-desktop-pc-lego-in-view.jpeg"
-    },
-    {
-      "id": "n4256458284",
-      "title": "COMPUTER COPS: Inside the big business of selling AI to the police",
-      "excerpt": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digit…",
+      "id": "n4914511679",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "excerpt": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
       "date": "2026-07-16",
       "tag": "Tech",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n8820357784",
-      "title": "Google ordered to open Android and Search to rivals in Europe",
-      "excerpt": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bl…",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-      "source": "Theverge",
-      "image": ""
-    },
-    {
-      "id": "n1998516164",
-      "title": "AI buildout poses inflation threat, consumers pay more for laptops, electricity",
-      "excerpt": "AI buildout poses inflation threat, consumers pay more for laptops, electricity",
-      "date": "2026-07-16",
-      "tag": "Laptops",
-      "url": "https://www.latimes.com/business/story/2026-07-13/massive-ai-buildout-poses-latest-inflation-threat-as-consumers-pay-more-for-laptops-electricity",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n2361082711",
-      "title": "I used an old graphics card to add AI features to my Immich server, and it's now smarter than Google Photos",
-      "excerpt": "My Immich server got smarter the moment I plugged in a spare GPU",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/i-used-an-old-graphics-card-to-add-ai-features-to-my-immich-server/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/immich-15.jpg"
-    },
-    {
-      "id": "n9869521436",
-      "title": "Galaxy Z Flip 8 leaks in full with almost no changes; still no Snapdragon [Gallery]",
-      "excerpt": "Alongside plenty of other Samsung leaks, a new report offers up the full details of the Galaxy Z Flip 8, and there’s a reason nobody is particularly excited about this one.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/16/samsung-galaxy-z-flip-8-specs-leak/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-z-flip-8-wf-1_f50d74.webp?w=1600"
-    },
-    {
-      "id": "n3399026319",
-      "title": "The Gemini theory of everything",
-      "excerpt": "Welcome back to Inbox, hope you’re having a great Thursday so far. Yesterday, like many people in the northeast, I woke up to smoky skies and an acrid haze I could practically tas…",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/16/inbox-newsletter-2/",
-      "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/inbox-hero-crop.png?w=1402"
-    },
-    {
-      "id": "n1584581324",
-      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
-      "excerpt": "Hyundai could soon own Boston Dynamics in full.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/hyundai-is-reportedly-buying-the-rest-of-boston-dynamics-from-softbank/l-intro-1784202458.jpg"
-    },
-    {
-      "id": "n3080944559",
-      "title": "I changed one simple Google Maps setting and instantly started getting faster routes",
-      "excerpt": "Turning off Fuel-efficient Routes can actually save you time.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/i-changed-one-simple-google-maps-setting-instantly-started-getting-faster-routes/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/pixel-10-pro-google-maps.jpg"
-    },
-    {
-      "id": "n7661013566",
-      "title": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
-      "excerpt": "Aina is going to pilot a new device in the coming weeks.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
       "source": "Techcrunch",
       "image": ""
     },
     {
-      "id": "n572422152",
-      "title": "Your favorite Tile trackers are picking up a Disney-themed glow-up",
-      "excerpt": "Life360 is giving its Tile trackers a visual refresh courtesy of its Disney collaboration.",
+      "id": "n7318007287",
+      "title": "Google Pixel continues to grow as global smartphone shipments hit lowest point since 2013",
+      "excerpt": "Amid RAMageddon, the global smartphone market is in a rough state. Despite hitting its lowest point since 2013, Google Pixel is apparently one of the few brands seeing growth in 2…",
       "date": "2026-07-16",
       "tag": "Phones",
-      "url": "https://www.androidauthority.com/disney-tile-tracker-launch-3688095/",
-      "source": "Androidauthority",
-      "image": ""
+      "url": "https://9to5google.com/2026/07/16/google-pixel-growth-q2-2026-global-smartphone-market/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/03/google-pixel-10a-berry-3.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n4975467634",
-      "title": "Phone maker OnePlus says it won't release new phones in the U.S. and Europe",
-      "excerpt": "Phone maker OnePlus says it won't release new phones in the U.S. and Europe",
+      "id": "n2836314757",
+      "title": "EU demands opening Android access and Search data to rivals, Google warns of privacy risks",
+      "excerpt": "The EU has ordered Google to crack open Android and Search to its rivals including other AI assistants, but Google warns that it’s a privacy risk.",
       "date": "2026-07-16",
       "tag": "Phones",
-      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
-      "source": "Hacker News",
-      "image": ""
+      "url": "https://9to5google.com/2026/07/16/eu-dma-google-search-data-android-access-decisions/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/04/Pixel-9a-Display-Bezel-Google-Logo.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n4660153637",
-      "title": "Your LCD Steam Deck may not be as repairable anymore as spare parts dry out",
-      "excerpt": "Valve may have quietly stopped producing spare parts for the Steam Deck.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/steam-deck-lcd-spare-parts-sunset-3688162/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n5142227360",
-      "title": "Your next smartwatch won’t get a swappable battery after all",
-      "excerpt": "The EU just gave smartwatches a break from its replaceable battery rules.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/eu-exempts-wearables-from-battery-rules-3688167/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2024/09/Pixel-Watch-3-Charger-Battery-Saver-mode-1536w-864h.jpg"
-    },
-    {
-      "id": "n1001972511",
-      "title": "Your next motherboard doesn't need to be flagship — here's how I learned that the hard way",
-      "excerpt": "That extra $200 could've gone to anything else in my build.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/your-next-motherboard-doesnt-need-to-be-flagship/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/components-installed-on-motherboard.jpg"
-    },
-    {
-      "id": "n6871391203",
-      "title": "Meta will alert parents is their teens discuss self harm",
-      "excerpt": "Meta has rolled out a new safeguard for teens' AI interactions.",
+      "id": "n4293845073",
+      "title": "Claude can now use your 1Password credentials for you",
+      "excerpt": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for…",
       "date": "2026-07-16",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/meta-will-alert-parents-is-their-teens-discuss-self-harm/l-intro-1784199378.jpg"
-    },
-    {
-      "id": "n6863011328",
-      "title": "Meta now alerts parents if their teen discussed suicide or self-harm with its AI chatbot",
-      "excerpt": "The updates come as Meta and other tech companies are facing scrutiny from regulators and parents around how AI chatbots respond to users in crisis, particularly teenagers.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n4442527890",
-      "title": "Why so many updating in LLM so-called SOTA let remind of iPhone 4-x",
-      "excerpt": "Why so many updating in LLM so-called SOTA let remind of iPhone 4-x",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://medium.com/airbnb-engineering/from-weeks-to-a-day-how-we-made-llm-evaluation-fast-enough-to-iterate-on-14e2d35198b4",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n4463542375",
-      "title": "Track your workout from the iPhone Lock Screen",
-      "excerpt": "Track your workout from the iPhone Lock Screen",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://musklr.com/blog/2026/iphone-lock-screen-workout-tracking-live-activity/",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n3675948021",
-      "title": "As a foldable fan, I’m worried the wide Galaxy Z Fold 8 will be a huge mistake",
-      "excerpt": "The more I look at the Galaxy Z Fold 8 the less convinced I am.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/im-worried-wide-galaxy-z-fold-8-huge-mistake-3686949/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n8654499193",
-      "title": "YouTube Music is testing full-screen album art, but you can’t use it yet",
-      "excerpt": "YouTube Music might soon get a UI makeover.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/youtube-music-full-screen-album-art-3688121/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n4080997079",
-      "title": "The Oura Ring 5 is the first smart ring to truly fit my routine and feel like jewelry I’d buy",
-      "excerpt": "Comfort is key when it comes to passive tracking.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/oura-ring-5-review-3681682/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n8911162507",
-      "title": "An unannounced Googlebook accessory just gave away Google’s ecosystem plans",
-      "excerpt": "A leaked Lenovo AI Mouse reveals that Google's upcoming laptop platform will launch with dedicated peripherals.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/lenovo-ai-mouse-googlebook-leak-3688092/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Lenovo-AI-Mouse-M830-with-Googlebook-branding00007.jpg"
-    },
-    {
-      "id": "n8202071670",
-      "title": "It’s time for Motorola to kill one of 2026’s worst smartphone trends",
-      "excerpt": "AI buttons suck, and I want them to go away.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/its-time-motorola-killed-ai-key-3685607/",
-      "source": "Androidauthority",
-      "image": ""
-    },
-    {
-      "id": "n1018239023",
-      "title": "I use Claude Code as a librarian, not a coder, and it's the most useful it's ever been",
-      "excerpt": "I stopped treating Claude Code as just a coding tool and started using it to organize messy folders, scattered notes, and forgotten projects.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/claude-code-file-organization-librarian/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/i-use-claude-code-as-a-librarian-not-a-coder-and-it-s-the-most-useful-it-s-ever-been.jpg"
-    },
-    {
-      "id": "n9647200470",
-      "title": "The Oversight Board says leading AI models might be restricting free expression",
-      "excerpt": "The group is trying to extend its influence beyond Meta.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2216274/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/the-oversight-board-says-leading-ai-models-might-be-restricting-free-expression/l-intro-1784158214.jpg"
-    },
-    {
-      "id": "n883976927",
-      "title": "Show HN: Keyline, share .env files encrypted before they leave your laptop",
-      "excerpt": "Show HN: Keyline, share .env files encrypted before they leave your laptop",
-      "date": "2026-07-16",
-      "tag": "Laptops",
-      "url": "https://keyline.sh/",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n4501525426",
-      "title": "Apple’s reportedly raising the price for AppleCare Plus on Macs and iPads",
-      "excerpt": "An AppleCare Plus subscription for a Mac or iPad will cost more soon, with prices going up by $0.50 per month or $5 per year for new sign-ups while remaining the same for existing…",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/966219/apple-care-plus-price-increase",
+      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
       "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n8656636001",
+      "id": "n1886130233",
+      "title": "Ask HN: Assistive Tech Ideas for Dementia",
+      "excerpt": "One of my family members was recently diagnosed with Alzheimer s. They re still in the very early stages and living independently, but my wife and I are in the process of getting …",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://news.ycombinator.com/item?id=48934733",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n1804482628",
+      "title": "My ISP stuck me behind CGNAT, and a free Cloudflare tunnel made my home server reachable again",
+      "excerpt": "Cloudflare Tunnels are one of the best answers a CGNAT mess",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/my-isp-stuck-me-behind-cgnat-and-a-free-cloudflare-tunnel-made-my-home-server-reachable-again/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/img_5358.png"
+    },
+    {
+      "id": "n5509054955",
+      "title": "‘No company is going to go to jail for you’: Proton’s CTO on balancing privacy, policy, and trust",
+      "excerpt": "Today on Decoder, we’ve got the first of a two-part series on the systems that run the world: I’m talking with Bart Butler, the CTO of Proton, the company that makes private and s…",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/podcast/966074/proton-cto-bart-butler-privacy-encryption-surveillance-age-verification",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n1606128971",
       "title": "OnePlus officially gives up on the US and Europe",
       "excerpt": "OnePlus has confirmed what industry observers have long expected: it's quitting the US and European markets, and will no longer launch new products in either region. Parent compan…",
       "date": "2026-07-16",
@@ -83168,164 +86351,374 @@
       "image": ""
     },
     {
-      "id": "n9447301326",
-      "title": "Netflix releases a VHS-quality version of Stranger Things' first season",
-      "excerpt": "Netflix rolls out a 'VHS' special edition of Stranger Things season 1 and says more seasons could follow if enough people watch it.",
+      "id": "n7195998314",
+      "title": "OnePlus never had a chance in the US",
+      "excerpt": "After an eight-year run, OnePlus announced today that it has exited the United States. It's bittersweet, as the brand has been on a comeback tour of sorts with its excellent OnePl…",
       "date": "2026-07-16",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2216396/netflix-stranger-things-vhs-quality/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/netflix-releases-a-vhs-quality-version-of-stranger-things-first-season/l-intro-1784193477.jpg"
-    },
-    {
-      "id": "n9576257251",
-      "title": "Apple in talks with PrismML, which shrinks AI models up to 15x to run on iPhones",
-      "excerpt": "Apple in talks with PrismML, which shrinks AI models up to 15x to run on iPhones",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html",
-      "source": "Hacker News",
+      "url": "https://www.theverge.com/tech/966274/oneplus-never-had-a-chance-in-the-us",
+      "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n1153260899",
-      "title": "OnePlus is officially leaving the US and Europe",
-      "excerpt": "After canceling its second foldable, OnePlus is officially bowing out of the US and Europe.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2213731/oneplus-is-officially-leaving-the-us-and-europe/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/oneplus-is-officially-leaving-the-us-and-europe/l-intro-1783959534.jpg"
-    },
-    {
-      "id": "n4975467634",
-      "title": "Phone maker OnePlus says it won’t release new phones in the U.S. and Europe",
-      "excerpt": "OnePlus could also wind down its operations in India by 2027.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n7459163945",
-      "title": "xAI sues Grok user for generating nonconsensual sexualized deepfakes",
-      "excerpt": "xAI has filed a lawsuit against a man who used Grok to generate sexualized images of adults and children.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2216382/xai-sues-grok-user-generating-nonconsensual-sexualized-deepfakes/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/xai-sues-grok-user-for-generating-nonconsensual-sexualized-deepfakes/l-intro-1784188673.jpg"
-    },
-    {
-      "id": "n8227797500",
-      "title": "AppleCare+ prices just went up for Macs and iPads",
-      "excerpt": "Applecare+ prices for Mac, MacBook and iPad products just rose by $.50 per month or $5 per year.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2216377/applecare-plus-prices-just-went-up-for-macs-and-ipads/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/applecare-prices-just-went-up-for-macs-and-ipads/l-intro-1784187852.jpg"
-    },
-    {
-      "id": "n1846742864",
-      "title": "You, too, can build this e-ink typewriter that runs off a Raspberry Pi Zero",
-      "excerpt": "It even has wheels you can turn to scroll through your \"paper.\"",
+      "id": "n9371730143",
+      "title": "OnePlus will continue software updates, all devices move to ColorOS with Android 17",
+      "excerpt": "OnePlus is effectively dead in most of the world, but software updates will continue. They just won’t be the same, as OxygenOS is going away and will instead be replaced by ColorO…",
       "date": "2026-07-16",
       "tag": "Phones",
-      "url": "https://www.xda-developers.com/you-too-can-build-this-e-ink-typewriter-that-runs-off-a-raspberry-pi-zero/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/e-ink-typewriter-pi-featured.jpg"
-    },
-    {
-      "id": "n5218113982",
-      "title": "Someone converted their Steam library into SSD \"cartridges\", and you slot them in like a Game Boy",
-      "excerpt": "Finally, physical Steam games.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/someone-converted-their-steam-library-into-ssd-cartridges-and-you-slot-them-in-like-a-game-boy/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/steam-game-cartridges-featured.jpg"
-    },
-    {
-      "id": "n8490749426",
-      "title": "Laptop touchpad stopped registering clicks? try this",
-      "excerpt": "pretty much every laptop i ve ever had got this issue after about 4-12 months of use. clicks no longer registering, click like 3-4x to open an app, scroll is a nightmare etc. NOW …",
-      "date": "2026-07-16",
-      "tag": "Laptops",
-      "url": "https://news.ycombinator.com/item?id=48930516",
-      "source": "Hacker News",
-      "image": ""
-    },
-    {
-      "id": "n6129086768",
-      "title": "You can now build AI agents that order DoorDash directly from the command line",
-      "excerpt": "The tool is in beta for now.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/you-can-now-build-ai-agents-that-order-doordash-directly-from-the-command-line/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/1783890623586.jpg"
-    },
-    {
-      "id": "n8637072421",
-      "title": "Lululemon backs nylon-recycling startup Syntetica in $30M Series A",
-      "excerpt": "Syntetica, a French startup that has developed a novel approach to recycling nylon, has already obtained big-name partners and investors.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n6880781598",
-      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
-      "excerpt": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
-      "date": "2026-07-16",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
-      "source": "Techcrunch",
-      "image": ""
-    },
-    {
-      "id": "n6847566674",
-      "title": "Walmart just restocked the Onn 4K Pro Google TV box, just not for everyone",
-      "excerpt": "Walmart’s Onn 4K Pro box with Google TV has proven rather elusive, but a relatively big restock has just landed for the $59 streamer.",
-      "date": "2026-07-16",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/15/walmart-onn-4k-pro-google-tv-box-restock-stores/",
+      "url": "https://9to5google.com/2026/07/16/oneplus-software-updates-android-17-coloros/",
       "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/04/walmart-onn-4k-pro-2026-11.jpg?quality=82&#038;strip=all&#038;w=1600"
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/12/OxygenOS-16-logo-3.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n4988339339",
-      "title": "Ubuntu 26.04 LTS vs. Windows 11 vs. CachyOS Performance on a $5399 Laptop",
-      "excerpt": "Ubuntu 26.04 LTS vs. Windows 11 vs. CachyOS Performance on a $5399 Laptop",
+      "id": "n7338440777",
+      "title": "Computer cops",
+      "excerpt": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been billed as \"the future of policing in the digit…",
       "date": "2026-07-16",
-      "tag": "Laptops",
-      "url": "https://www.phoronix.com/review/razer-blade18-windows-linux/8",
-      "source": "Hacker News",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "source": "Theverge",
       "image": ""
     },
     {
-      "id": "n6319777546",
-      "title": "Why Greylock capped its new fund at $1.5B when it says it could have raised more",
-      "excerpt": "By keeping the number of investments to about 25 per fund, Greylock aims to remain what it calls \"the most important partner\" to its founders.",
+      "id": "n166599493",
+      "title": "T-Mobile’s forced migration is wiping out free lines and jacking up bills",
+      "excerpt": "T-Mobile promised free lines would transfer, but some customers say they didn't.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/t-mobile-wiping-out-free-lines-3688216/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2025/10/t-mobile-logo-pixel-hero-1-1536w-864h.jpg"
+    },
+    {
+      "id": "n4451870776",
+      "title": "I'm not upgrading to Windows 11, but I'm not tolerating Linux either",
+      "excerpt": "Chrome OS saved my old laptop",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/im-not-upgrading-to-windows-11-but-im-not-tolerating-linux-either/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2024/11/chromeos-flex-setup-4-1.jpg"
+    },
+    {
+      "id": "n4263424388",
+      "title": "Why does wireless Android Auto use both Bluetooth and Wi-Fi?",
+      "excerpt": "Bluetooth and Wi-Fi work in tandem to power the wireless Android Auto experience.",
       "date": "2026-07-16",
       "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/",
+      "url": "https://www.engadget.com/2210415/why-wireless-android-auto-uses-both-bluetooth-wifi/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/why-does-wireless-android-auto-use-both-bluetooth-and-wi-fi/l-intro-1783517059.jpg"
+    },
+    {
+      "id": "n1637492608",
+      "title": "Samsung s Galaxy Z Flip 8 leaks a week before launch event",
+      "excerpt": "Samsung's next flip phone might be tough to tell apart from last year's Galaxy Z Flip 7. As 9to5Google points out, leaked images and specs for the upcoming Galaxy Z Flip 8 shared …",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/tech/966492/samsung-galaxy-z-flip-8-design-specs-leaked",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n5424763117",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "excerpt": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
       "source": "Techcrunch",
       "image": ""
     },
     {
-      "id": "n8641467589",
-      "title": "Skullcandy Crusher 1080 review: Haptic bass meets whisper-quiet ANC",
-      "excerpt": "Skullcandy's new flagship Crusher 1080 headphones blend Bose audio and big bass.",
+      "id": "n1451531585",
+      "title": "OnePlus officially shuts down in the US and Europe, but not India (yet)",
+      "excerpt": "The end is here. OnePlus has officially announced that it is shutting down operations in the US and Europe and has detailed what’s happening next.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://9to5google.com/2026/07/16/oneplus-us-europe-shut-down-official/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/11/oneplus-15-review-06.jpg?quality=82&#038;strip=all&#038;w=1600"
+    },
+    {
+      "id": "n6531378116",
+      "title": "StepFun Unveils StepX Neo, the \"First Agentic AI Phone\"",
+      "excerpt": "StepFun Unveils StepX Neo, the \"First Agentic AI Phone\"",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.etvbharat.com/en/technology/stepfun-unveils-stepx-neo-calling-it-worlds-first-agentic-ai-phone-enn26071401799",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n6534912991",
+      "title": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+      "excerpt": "Google Ordered to Give A.I. Rivals More Access on Android Smartphones",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.nytimes.com/2026/07/16/technology/google-ordered-to-give-ai-rivals-more-access-on-android-smartphones.html",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n4351175958",
+      "title": "Forget Claude Code and Google Antigravity, Devin Desktop is the perfect example of vibe coding",
+      "excerpt": "It gets vibe coding right.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/forget-claude-code-google-antigravity-devin-desktop-example-vibe-coding/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/reasons-to-use-devin-desktop.jpg"
+    },
+    {
+      "id": "n4321085503",
+      "title": "Rival AI assistants could soon gain full access to Android features",
+      "excerpt": "The EU has mandated Google to open up Android to competing AI assistants.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/eu-android-ai-google-search-mandates-3688186/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/Google-logo-on-smartphone-stock-photo-2.jpg"
+    },
+    {
+      "id": "n4383454159",
+      "title": "Ninja’s microwave air fryer could be the fix for soggy reheated pizza",
+      "excerpt": "Ninja has added everything from ice cream makers to double-decker toaster ovens to its extensive lineup of counter-clogging appliances, but it's only now introducing its first mic…",
       "date": "2026-07-16",
       "tag": "Tech",
-      "url": "https://www.engadget.com/2215794/skullcandy-crusher-1080-review/",
+      "url": "https://www.theverge.com/tech/966175/ninja-crispi-microwave-air-fryer-kitchen-appliance",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n9088161357",
+      "title": "COZEWARE’s Enduring Series mini split is worth considering before summer peaks",
+      "excerpt": "This article is sponsored by COZWARE",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/cozeware-enduring-series-mini-split/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/cozeware-seer-2-front-facing-living-room-display.png"
+    },
+    {
+      "id": "n4935014158",
+      "title": "The 7700X3D proved that budget X3D chips can beat expensive CPUs without the price tag",
+      "excerpt": "Top performance from a wallet-friendly chip",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/amd-ryzen-7-7700x3d-review/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/ryzen-7-7700x3d-box.jpg"
+    },
+    {
+      "id": "n4590541923",
+      "title": "Vital Signals puts continuous blood pressure monitoring into a ring",
+      "excerpt": "Vital Signals promises its algorithmic blood pressure monitoring ring will reshape how we live with hypertension and other cardiac conditions",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216390/vital-signals-blood-pressure-ring/",
       "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/skullcandy-crusher-1080-review-haptic-bass-meets-whisper-quiet-anc/l-intro-1784132851.jpg"
+      "image": "https://www.engadget.com/img/gallery/vital-signals-puts-continuous-blood-pressure-monitoring-into-a-ring/l-intro-1784191885.jpg"
+    },
+    {
+      "id": "n5905824624",
+      "title": "You can now grant Claude access to your 1Password credentials",
+      "excerpt": "1Password lets you use Claude agents for personal chores without exposing your credentials.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/you-can-now-grant-claude-access-to-your-1password-credentials/l-intro-1784196809.jpg"
+    },
+    {
+      "id": "n3442298791",
+      "title": "EU demands Google give AI rivals more access to Android",
+      "excerpt": "Google has been ordered by the EU to open up key Android handset features to rival AI voice assistants.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216454/eu-demands-google-give-ai-rivals-more-access-to-android/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/eu-demands-google-give-ai-rivals-more-access-to-android/l-intro-1784206648.jpg"
+    },
+    {
+      "id": "n5706319324",
+      "title": "Google ordered to open Android and Search to rivals in Europe",
+      "excerpt": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bl…",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "source": "Theverge",
+      "image": ""
+    },
+    {
+      "id": "n2823866078",
+      "title": "I've been using Chrome for a decade, and one week of Comet convinced me to switch",
+      "excerpt": "Chrome is still catching up to where Comet already is",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/been-using-chrome-for-a-decade-one-week-of-comet-convinced-me-to-switch/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/comet-welcome-screen-on-desktop-pc-lego-in-view.jpeg"
+    },
+    {
+      "id": "n9500622605",
+      "title": "AI buildout poses inflation threat, consumers pay more for laptops, electricity",
+      "excerpt": "AI buildout poses inflation threat, consumers pay more for laptops, electricity",
+      "date": "2026-07-16",
+      "tag": "Laptops",
+      "url": "https://www.latimes.com/business/story/2026-07-13/massive-ai-buildout-poses-latest-inflation-threat-as-consumers-pay-more-for-laptops-electricity",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n7369635549",
+      "title": "I used an old graphics card to add AI features to my Immich server, and it's now smarter than Google Photos",
+      "excerpt": "My Immich server got smarter the moment I plugged in a spare GPU",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/i-used-an-old-graphics-card-to-add-ai-features-to-my-immich-server/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/immich-15.jpg"
+    },
+    {
+      "id": "n4585706384",
+      "title": "The Gemini theory of everything",
+      "excerpt": "Welcome back to Inbox, hope you’re having a great Thursday so far. Yesterday, like many people in the northeast, I woke up to smoky skies and an acrid haze I could practically tas…",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://9to5google.com/2026/07/16/inbox-newsletter-2/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/inbox-hero-crop.png?w=1402"
+    },
+    {
+      "id": "n313355774",
+      "title": "Galaxy Z Flip 8 leaks in full with almost no changes; still no Snapdragon [Gallery]",
+      "excerpt": "Alongside plenty of other Samsung leaks, a new report offers up the full details of the Galaxy Z Flip 8, and there’s a reason nobody is particularly excited about this one.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://9to5google.com/2026/07/16/samsung-galaxy-z-flip-8-specs-leak/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-z-flip-8-wf-1_f50d74.webp?w=1600"
+    },
+    {
+      "id": "n4618190648",
+      "title": "Hyundai reportedly looking to take total control of robotics giant Boston Dynamics",
+      "excerpt": "Hyundai could soon own Boston Dynamics in full.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216427/hyundai-reportedly-looking-to-buy-all-of-boston-dynamics-from-softbank/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/hyundai-is-reportedly-buying-the-rest-of-boston-dynamics-from-softbank/l-intro-1784202458.jpg"
+    },
+    {
+      "id": "n5287842440",
+      "title": "I changed one simple Google Maps setting and instantly started getting faster routes",
+      "excerpt": "Turning off Fuel-efficient Routes can actually save you time.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.xda-developers.com/i-changed-one-simple-google-maps-setting-instantly-started-getting-faster-routes/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/pixel-10-pro-google-maps.jpg"
+    },
+    {
+      "id": "n4653512701",
+      "title": "Ultrahuman’s former hardware VP raises $5.5M for devices that control AI agents, not just record you",
+      "excerpt": "Aina is going to pilot a new device in the coming weeks.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/16/ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n6872154921",
+      "title": "Your favorite Tile trackers are picking up a Disney-themed glow-up",
+      "excerpt": "Life360 is giving its Tile trackers a visual refresh courtesy of its Disney collaboration.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/disney-tile-tracker-launch-3688095/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n2241754360",
+      "title": "Phone maker OnePlus says it won't release new phones in the U.S. and Europe",
+      "excerpt": "Phone maker OnePlus says it won't release new phones in the U.S. and Europe",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://techcrunch.com/2026/07/16/phone-maker-oneplus-reportedly-plans-to-wind-down-us-and-europe-operations/",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n9824683595",
+      "title": "Your LCD Steam Deck may not be as repairable anymore as spare parts dry out",
+      "excerpt": "Valve may have quietly stopped producing spare parts for the Steam Deck.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/steam-deck-lcd-spare-parts-sunset-3688162/",
+      "source": "Androidauthority",
+      "image": ""
+    },
+    {
+      "id": "n323393029",
+      "title": "Your next smartwatch won’t get a swappable battery after all",
+      "excerpt": "The EU just gave smartwatches a break from its replaceable battery rules.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/eu-exempts-wearables-from-battery-rules-3688167/",
+      "source": "Androidauthority",
+      "image": "https://www.androidauthority.com/wp-content/uploads/2024/09/Pixel-Watch-3-Charger-Battery-Saver-mode-1536w-864h.jpg"
+    },
+    {
+      "id": "n5081303497",
+      "title": "Meta will alert parents if their teens discuss self harm",
+      "excerpt": "Meta has rolled out a new safeguard for teens' AI interactions.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://www.engadget.com/2216412/meta-ai-alert-parents-if-teens-discuss-self-harm/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/meta-will-alert-parents-is-their-teens-discuss-self-harm/l-intro-1784199378.jpg"
+    },
+    {
+      "id": "n9555461611",
+      "title": "Meta now alerts parents if their teen discussed suicide or self-harm with its AI chatbot",
+      "excerpt": "The updates come as Meta and other tech companies are facing scrutiny from regulators and parents around how AI chatbots respond to users in crisis, particularly teenagers.",
+      "date": "2026-07-16",
+      "tag": "Tech",
+      "url": "https://techcrunch.com/2026/07/16/meta-now-alerts-parents-if-their-teen-discussed-suicide-or-self-harm-with-its-ai-chatbot/",
+      "source": "Techcrunch",
+      "image": ""
+    },
+    {
+      "id": "n7420066074",
+      "title": "Why so many updating in LLM so-called SOTA let remind of iPhone 4-x",
+      "excerpt": "Why so many updating in LLM so-called SOTA let remind of iPhone 4-x",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://medium.com/airbnb-engineering/from-weeks-to-a-day-how-we-made-llm-evaluation-fast-enough-to-iterate-on-14e2d35198b4",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n6295801617",
+      "title": "Track your workout from the iPhone Lock Screen",
+      "excerpt": "Track your workout from the iPhone Lock Screen",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://musklr.com/blog/2026/iphone-lock-screen-workout-tracking-live-activity/",
+      "source": "Hacker News",
+      "image": ""
+    },
+    {
+      "id": "n497902150",
+      "title": "As a foldable fan, I’m worried the wide Galaxy Z Fold 8 will be a huge mistake",
+      "excerpt": "The more I look at the Galaxy Z Fold 8 the less convinced I am.",
+      "date": "2026-07-16",
+      "tag": "Phones",
+      "url": "https://www.androidauthority.com/im-worried-wide-galaxy-z-fold-8-huge-mistake-3686949/",
+      "source": "Androidauthority",
+      "image": ""
     }
   ]
 }
