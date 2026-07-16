@@ -542,6 +542,7 @@ BRAND_DATABASE = {
     "zaz": {"logo": "https://cdn.brandfetch.io/zaz.ua/w/400/h/400", "color": "#000000", "category": "Other"},
     "zil": {"logo": "https://cdn.brandfetch.io/zil.ru/w/400/h/400", "color": "#000000", "category": "Other"},
     "zndapp": {"logo": "https://cdn.brandfetch.io/zuendapp.de/w/400/h/400", "color": "#000000", "category": "Other"},
+    "koda": {"logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400", "color": "#003300", "category": "Other"},
     "\u0161koda": {"logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400", "color": "#003300", "category": "Other"},
 }
 
