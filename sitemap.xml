@@ -896,22 +896,22 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=geely</loc>
+    <loc>https://your-domain.example/search.html?brand=geely</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=iso</loc>
+    <loc>https://your-domain.example/search.html?brand=iso</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=auto</loc>
+    <loc>https://your-domain.example/search.html?brand=auto</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/search.html?brand=daewoo</loc>
+    <loc>https://your-domain.example/search.html?brand=daewoo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -937,6 +937,31 @@
   </url>
   <url>
     <loc>https://your-domain.example/search.html?brand=lion-peugeot</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.example/search.html?brand=suzuki</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.example/search.html?brand=messerschmitt</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.example/search.html?brand=myers</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.example/search.html?brand=rover</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://your-domain.example/search.html?brand=dacia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -6951,352 +6976,352 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-porsche-9pa.html</loc>
+    <loc>https://your-domain.example/phone/auto-porsche-9pa.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-geely-emgrand-ec7.html</loc>
+    <loc>https://your-domain.example/phone/auto-geely-emgrand-ec7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-subaru-impreza.html</loc>
+    <loc>https://your-domain.example/phone/auto-subaru-impreza.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-100.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-100.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1000-mb.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1000-mb.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1100-ohc.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1100-ohc.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1101-1102.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1101-1102.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-110-r.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-110-r.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1200.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1200.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1202.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1202.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1201.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1201.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-1203.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-1203.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-laurin---klement---škoda-120.html</loc>
+    <loc>https://your-domain.example/phone/auto-laurin---klement---škoda-120.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-iso-lele.html</loc>
+    <loc>https://your-domain.example/phone/auto-iso-lele.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mercedes-benz-f-cell.html</loc>
+    <loc>https://your-domain.example/phone/auto-mercedes-benz-f-cell.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-dkw-junior.html</loc>
+    <loc>https://your-domain.example/phone/auto-dkw-junior.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-chrysler-neon.html</loc>
+    <loc>https://your-domain.example/phone/auto-chrysler-neon.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-tucson.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-tucson.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-sonata.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-sonata.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-getz.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-getz.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-veracruz.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-veracruz.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-atos.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-atos.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-avante--elantra.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-avante--elantra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-chevrolet-captiva.html</loc>
+    <loc>https://your-domain.example/phone/auto-chevrolet-captiva.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-lanos.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-lanos.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-honda-legend.html</loc>
+    <loc>https://your-domain.example/phone/auto-honda-legend.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-tiburon.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-tiburon.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-i30.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-i30.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-genesis.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-genesis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hyundai-terracan.html</loc>
+    <loc>https://your-domain.example/phone/auto-hyundai-terracan.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-nubira.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-nubira.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mitsubishi-space-wagon.html</loc>
+    <loc>https://your-domain.example/phone/auto-mitsubishi-space-wagon.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-sephia.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-sephia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-k7--cadenza.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-k7--cadenza.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-samsung-qm5.html</loc>
+    <loc>https://your-domain.example/phone/auto-samsung-qm5.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-mohave.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-mohave.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-bongo.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-bongo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-royale.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-royale.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-spectra.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-spectra.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-pregio.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-pregio.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-besta.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-besta.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-chevrolet-aveo-t200.html</loc>
+    <loc>https://your-domain.example/phone/auto-chevrolet-aveo-t200.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-carnival.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-carnival.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-carens.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-carens.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-kia-venga.html</loc>
+    <loc>https://your-domain.example/phone/auto-kia-venga.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bond-bug.html</loc>
+    <loc>https://your-domain.example/phone/auto-bond-bug.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-samsung-sm3.html</loc>
+    <loc>https://your-domain.example/phone/auto-samsung-sm3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-honda-edix.html</loc>
+    <loc>https://your-domain.example/phone/auto-honda-edix.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-holden-wm-caprice.html</loc>
+    <loc>https://your-domain.example/phone/auto-holden-wm-caprice.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-seat-124.html</loc>
+    <loc>https://your-domain.example/phone/auto-seat-124.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-toyota-fchv.html</loc>
+    <loc>https://your-domain.example/phone/auto-toyota-fchv.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-fiat-1100-tv-trasformabile.html</loc>
+    <loc>https://your-domain.example/phone/auto-fiat-1100-tv-trasformabile.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-fiat-132.html</loc>
+    <loc>https://your-domain.example/phone/auto-fiat-132.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-lacetti.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-lacetti.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-espero.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-espero.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-samsung-sm7.html</loc>
+    <loc>https://your-domain.example/phone/auto-samsung-sm7.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-magnus.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-magnus.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-ford-granada-europe.html</loc>
+    <loc>https://your-domain.example/phone/auto-ford-granada-europe.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-leganza.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-leganza.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-fiat-124.html</loc>
+    <loc>https://your-domain.example/phone/auto-fiat-124.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-willys-mb.html</loc>
+    <loc>https://your-domain.example/phone/auto-willys-mb.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-tico.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-tico.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daewoo-tosca.html</loc>
+    <loc>https://your-domain.example/phone/auto-daewoo-tosca.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-seat-1430.html</loc>
+    <loc>https://your-domain.example/phone/auto-seat-1430.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-wolseley-16-20.html</loc>
+    <loc>https://your-domain.example/phone/auto-wolseley-16-20.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-popular.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-popular.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-type-174.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-type-174.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-type-175.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-type-175.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-type-177.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-type-177.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-type-153.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-type-153.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -7651,352 +7676,352 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-vos.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-vos.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-vision-d.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-vision-d.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-škoda-yeti.html</loc>
+    <loc>https://your-domain.example/phone/auto-škoda-yeti.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-407.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-407.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-408.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-408.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-409.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-409.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-410.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-410.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-411.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-411.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-412.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-412.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-type-603.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-type-603.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-beaufighter.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-beaufighter.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-daimler-phoenix.html</loc>
+    <loc>https://your-domain.example/phone/auto-daimler-phoenix.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bristol-fighter.html</loc>
+    <loc>https://your-domain.example/phone/auto-bristol-fighter.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-opel-manta.html</loc>
+    <loc>https://your-domain.example/phone/auto-opel-manta.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-volkswagen-fox.html</loc>
+    <loc>https://your-domain.example/phone/auto-volkswagen-fox.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-isuzu-hombre.html</loc>
+    <loc>https://your-domain.example/phone/auto-isuzu-hombre.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mitsubishi-magna.html</loc>
+    <loc>https://your-domain.example/phone/auto-mitsubishi-magna.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mitsubishi-360.html</loc>
+    <loc>https://your-domain.example/phone/auto-mitsubishi-360.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-ford-fusion-americas.html</loc>
+    <loc>https://your-domain.example/phone/auto-ford-fusion-americas.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-lancia-thesis.html</loc>
+    <loc>https://your-domain.example/phone/auto-lancia-thesis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-citroën-type-a.html</loc>
+    <loc>https://your-domain.example/phone/auto-citroën-type-a.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-404.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-404.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-toyota-corolla-e110.html</loc>
+    <loc>https://your-domain.example/phone/auto-toyota-corolla-e110.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-datsun-dc-3.html</loc>
+    <loc>https://your-domain.example/phone/auto-datsun-dc-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-azeal.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-azeal.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-prince-homer.html</loc>
+    <loc>https://your-domain.example/phone/auto-prince-homer.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-suzuki-alto.html</loc>
+    <loc>https://your-domain.example/phone/auto-suzuki-alto.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-iso-grifo.html</loc>
+    <loc>https://your-domain.example/phone/auto-iso-grifo.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-messerschmitt-kr175.html</loc>
+    <loc>https://your-domain.example/phone/auto-messerschmitt-kr175.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-myers-motors-nmg.html</loc>
+    <loc>https://your-domain.example/phone/auto-myers-motors-nmg.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-saurus-jr.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-saurus-jr.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-gazelle.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-gazelle.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-dacia-sandero-renault-sandero.html</loc>
+    <loc>https://your-domain.example/phone/auto-dacia-sandero-renault-sandero.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-alfa-romeo-156.html</loc>
+    <loc>https://your-domain.example/phone/auto-alfa-romeo-156.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-lancia-aprilia.html</loc>
+    <loc>https://your-domain.example/phone/auto-lancia-aprilia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-renault-safrane.html</loc>
+    <loc>https://your-domain.example/phone/auto-renault-safrane.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mini-moke.html</loc>
+    <loc>https://your-domain.example/phone/auto-mini-moke.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-volkswagen-milano.html</loc>
+    <loc>https://your-domain.example/phone/auto-volkswagen-milano.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-peugeot-504.html</loc>
+    <loc>https://your-domain.example/phone/auto-peugeot-504.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-honda-l700.html</loc>
+    <loc>https://your-domain.example/phone/auto-honda-l700.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-rover-400---45.html</loc>
+    <loc>https://your-domain.example/phone/auto-rover-400---45.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-hardbody-truck.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-hardbody-truck.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hummer-h3.html</loc>
+    <loc>https://your-domain.example/phone/auto-hummer-h3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-bmw-z4--e89.html</loc>
+    <loc>https://your-domain.example/phone/auto-bmw-z4--e89.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-renault-vel-satis.html</loc>
+    <loc>https://your-domain.example/phone/auto-renault-vel-satis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-wolseley-4-50.html</loc>
+    <loc>https://your-domain.example/phone/auto-wolseley-4-50.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-lancia-stratos.html</loc>
+    <loc>https://your-domain.example/phone/auto-lancia-stratos.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mazda-hakaze-concept.html</loc>
+    <loc>https://your-domain.example/phone/auto-mazda-hakaze-concept.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-suzuki-ignis.html</loc>
+    <loc>https://your-domain.example/phone/auto-suzuki-ignis.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-dodge-shadow.html</loc>
+    <loc>https://your-domain.example/phone/auto-dodge-shadow.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-oldsmobile-achieva.html</loc>
+    <loc>https://your-domain.example/phone/auto-oldsmobile-achieva.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-uaz-452.html</loc>
+    <loc>https://your-domain.example/phone/auto-uaz-452.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-volvo-xc90.html</loc>
+    <loc>https://your-domain.example/phone/auto-volvo-xc90.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-volkswagen-type-4.html</loc>
+    <loc>https://your-domain.example/phone/auto-volkswagen-type-4.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-fiat-126.html</loc>
+    <loc>https://your-domain.example/phone/auto-fiat-126.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-dacia-dokker.html</loc>
+    <loc>https://your-domain.example/phone/auto-dacia-dokker.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-fiat-doblò.html</loc>
+    <loc>https://your-domain.example/phone/auto-fiat-doblò.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-mitsubishi-colt.html</loc>
+    <loc>https://your-domain.example/phone/auto-mitsubishi-colt.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-serena.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-serena.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-de-tomaso-deauville.html</loc>
+    <loc>https://your-domain.example/phone/auto-de-tomaso-deauville.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-seat-altea.html</loc>
+    <loc>https://your-domain.example/phone/auto-seat-altea.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-gmc-acadia.html</loc>
+    <loc>https://your-domain.example/phone/auto-gmc-acadia.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-nissan-370z.html</loc>
+    <loc>https://your-domain.example/phone/auto-nissan-370z.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-porsche-996.html</loc>
+    <loc>https://your-domain.example/phone/auto-porsche-996.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-a-l-f-a-40-60-hp.html</loc>
+    <loc>https://your-domain.example/phone/auto-a-l-f-a-40-60-hp.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-hispano-suiza-alfonso-xiii.html</loc>
+    <loc>https://your-domain.example/phone/auto-hispano-suiza-alfonso-xiii.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-citroën-elysée.html</loc>
+    <loc>https://your-domain.example/phone/auto-citroën-elysée.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-wolseley-6-99.html</loc>
+    <loc>https://your-domain.example/phone/auto-wolseley-6-99.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-holden-one-tonner.html</loc>
+    <loc>https://your-domain.example/phone/auto-holden-one-tonner.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jahid124421.github.io/phonehub/phone/auto-ford-probe.html</loc>
+    <loc>https://your-domain.example/phone/auto-ford-probe.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
