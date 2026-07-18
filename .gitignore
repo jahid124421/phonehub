@@ -30,3 +30,34 @@ tools/gen_missing_brands.py
 phonehub/tools/fix_brands.py
 phonehub/tools/fix_brands_v2.py
 phonehub/tools/gen_missing_brands.py
+
+# unrelated projects / tooling dirs
+.agents/
+.claude/
+9router/
+OmniRoute/
+agent/
+free-claude-code/
+_deploy_staging/
+_specs-api/
+mastertools-deploy/
+
+# misc non-site files
+ADD_CUSTOM_PROVIDER.bat
+AI_MASTER.bat
+API_KEYS_TEST_RESULTS.txt
+CLAUDE.md
+HOW_IT_WORKS.txt
+HOW_TO_GET_SESSION_KEY.txt
+HOW_TO_USE_MORPH.md
+SETUP_OMNIROUTE.bat
+TEST_ALL_MODELS.bat
+TEST_OMNIROUTE_MODELS.bat
+UNIFIED_SERVER.bat
+key_result.txt
+models.json
+omniroute_key.txt
+package-lock.json
+session-key-guide.html
+skills-lock.json
+test*.txt
