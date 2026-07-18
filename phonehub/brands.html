@@ -38,12 +38,12 @@
     <div class="container"><div class="footer-bottom">© <span id="year"></span> PhoneHub. Sample data for demo purposes.</div></div>
   </footer>
 
-  <script src="js/data.js"></script>
+  <script src="js/data.js?v=2"></script>
   <script src="js/common.js"></script>
   <script>
     // Group brands by category
     const brandsByCategory = {};
-    const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Other"];
+    const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Auto", "Other"];
     
     (window.BRANDS || []).forEach((b) => {
       const cat = b.category || "Other";
@@ -59,10 +59,16 @@
       brandsHTML += '<div class="brand-category"><h3 class="category-title">' + category + '</h3><div class="category-brands">';
       
       brands.forEach((b) => {
-        var count = PH.getPhones().filter(function (p) { return p.brand === b.id; }).length;
-        brandsHTML += '<a class="brand-tile" href="search.html?brand=' + b.id + '">' +
+        var isAuto = b.category === "Auto";
+        var count = PH.getPhones().filter(function (p) {
+          if (isAuto) return p.brand === b.id && p.category === "auto";
+          return p.brand === b.id && p.category !== "auto";
+        }).length;
+        var label = isAuto ? (count + ' vehicles') : (count + ' phones');
+        var href = isAuto ? ('search.html?brand=' + b.id + '&cat=auto') : ('search.html?brand=' + b.id);
+        brandsHTML += '<a class="brand-tile" href="' + href + '">' +
                PH.brandBadge(b.id, b.name, true) + '<div>' + b.name + '</div>' +
-               '<div style="color:var(--muted);font-size:12px;margin-top:4px">' + count + ' phones</div></a>';
+               '<div style="color:var(--muted);font-size:12px;margin-top:4px">' + label + '</div></a>';
       });
       
       brandsHTML += '</div></div>';

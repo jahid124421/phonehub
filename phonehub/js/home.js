@@ -17,7 +17,7 @@
 
   // brands - grouped by category
   const brandsByCategory = {};
-  const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Other"];
+  const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Auto", "Other"];
   
   (window.BRANDS || []).forEach((b) => {
     const cat = b.category || "Other";

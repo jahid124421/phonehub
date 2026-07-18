@@ -257,14 +257,14 @@ window.BRANDS = [
     "name": "Tesla",
     "logo": "https://cdn.brandfetch.io/tesla.com/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "sampo",
     "name": "Sampo",
     "logo": "https://cdn.brandfetch.io/sampo.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "koninklijke",
@@ -299,294 +299,294 @@ window.BRANDS = [
     "name": "Renault",
     "logo": "https://cdn.brandfetch.io/renault.com/w/400/h/400",
     "color": "#FFCC00",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "gac",
     "name": "GAC",
     "logo": "https://cdn.brandfetch.io/gacgroup.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "volkswagen",
     "name": "Volkswagen",
     "logo": "https://cdn.brandfetch.io/volkswagen.com/w/400/h/400",
     "color": "#001E50",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "rolls-royce",
     "name": "Rolls-Royce",
     "logo": "https://cdn.brandfetch.io/rolls-royce.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "saipa",
     "name": "Saipa",
     "logo": "https://cdn.brandfetch.io/saipacorp.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "ferrari",
     "name": "Ferrari",
     "logo": "https://cdn.brandfetch.io/ferrari.com/w/400/h/400",
     "color": "#FF2800",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "chery",
     "name": "Chery",
     "logo": "https://cdn.brandfetch.io/cheryinternational.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "peugeot",
     "name": "Peugeot",
     "logo": "https://cdn.brandfetch.io/peugeot.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mitsubishi",
     "name": "Mitsubishi",
     "logo": "https://cdn.brandfetch.io/mitsubishi.com/w/400/h/400",
     "color": "#E2001A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "general",
     "name": "General",
     "logo": "https://cdn.brandfetch.io/gm.com/w/400/h/400",
     "color": "#1A1A1A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "škoda",
     "name": "Škoda",
     "logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400",
     "color": "#003300",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "subaru",
     "name": "Subaru",
     "logo": "https://cdn.brandfetch.io/subaru.com/w/400/h/400",
     "color": "#013C7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "toyota",
     "name": "Toyota",
     "logo": "https://cdn.brandfetch.io/toyota.com/w/400/h/400",
     "color": "#D31017",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "porsche",
     "name": "Porsche",
     "logo": "https://cdn.brandfetch.io/porsche.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "jaguar",
     "name": "Jaguar",
     "logo": "https://cdn.brandfetch.io/jaguar.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "alfa",
     "name": "Alfa",
     "logo": "https://cdn.brandfetch.io/alfaromeo.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mazda",
     "name": "Mazda",
     "logo": "https://cdn.brandfetch.io/mazda.com/w/400/h/400",
     "color": "#101010",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "hispano-suiza",
     "name": "Hispano-Suiza",
     "logo": "https://cdn.brandfetch.io/hispano-suiza.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "honda",
     "name": "Honda",
     "logo": "https://cdn.brandfetch.io/honda.com/w/400/h/400",
     "color": "#E1001A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "sevel",
     "name": "Sevel",
     "logo": "https://cdn.brandfetch.io/sevel-sud.it/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "dodge",
     "name": "Dodge",
     "logo": "https://cdn.brandfetch.io/dodge.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "camille",
     "name": "Camille",
     "logo": "https://cdn.brandfetch.io/lajamaiscontente.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "benz",
     "name": "Benz",
     "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "packard",
     "name": "Packard",
     "logo": "https://cdn.brandfetch.io/packardmotorcar.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "fiat",
     "name": "Fiat",
     "logo": "https://cdn.brandfetch.io/fiat.com/w/400/h/400",
     "color": "#AA001C",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "riley",
     "name": "Riley",
     "logo": "https://cdn.brandfetch.io/riley.cars/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "ford",
     "name": "Ford",
     "logo": "https://cdn.brandfetch.io/ford.com/w/400/h/400",
     "color": "#003D79",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "daihatsu",
     "name": "Daihatsu",
     "logo": "https://cdn.brandfetch.io/daihatsu.com/w/400/h/400",
     "color": "#D50000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "audi",
     "name": "Audi",
     "logo": "https://cdn.brandfetch.io/audi.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bugatti",
     "name": "Bugatti",
     "logo": "https://cdn.brandfetch.io/bugatti.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "de",
     "name": "De",
     "logo": "https://cdn.brandfetch.io/detomaso-automobili.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "british",
     "name": "British",
     "logo": "https://cdn.brandfetch.io/britishmotors.co.uk/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "nissan",
     "name": "Nissan",
     "logo": "https://cdn.brandfetch.io/nissan.com/w/400/h/400",
     "color": "#C3002F",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bmw",
     "name": "BMW",
     "logo": "https://cdn.brandfetch.io/bmw.com/w/400/h/400",
     "color": "#0066B1",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "opel",
     "name": "Opel",
     "logo": "https://cdn.brandfetch.io/opel.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "tatra",
     "name": "Tatra",
     "logo": "https://cdn.brandfetch.io/tatra.cz/w/400/h/400",
     "color": "#DD0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "alan",
     "name": "Alan",
     "logo": "https://cdn.brandfetch.io/alancars.co.uk/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "aston",
     "name": "Aston",
     "logo": "https://cdn.brandfetch.io/astonmartin.com/w/400/h/400",
     "color": "#00665E",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "moskvitch",
     "name": "Moskvitch",
     "logo": "https://cdn.brandfetch.io/moskvich.ru/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "matra",
     "name": "Matra",
     "logo": "https://cdn.brandfetch.io/groupe-matra.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "lancia",
     "name": "Lancia",
     "logo": "https://cdn.brandfetch.io/lancia.com/w/400/h/400",
     "color": "#003399",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "ac",
     "name": "AC",
     "logo": "https://cdn.brandfetch.io/accars.eu/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "microsoft",
@@ -621,203 +621,203 @@ window.BRANDS = [
     "name": "Facel",
     "logo": "https://cdn.brandfetch.io/facel-vega.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "standard",
     "name": "Standard",
     "logo": "https://cdn.brandfetch.io/standardmotorcompany.co.uk/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mercedes-benz",
     "name": "Mercedes-Benz",
     "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "adam",
     "name": "Adam",
     "logo": "https://cdn.brandfetch.io/adamcars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "puch",
     "name": "Puch",
     "logo": "https://cdn.brandfetch.io/piaggio.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "morgan",
     "name": "Morgan",
     "logo": "https://cdn.brandfetch.io/morgan-motor.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "stellantis",
     "name": "Stellantis",
     "logo": "https://cdn.brandfetch.io/stellantis.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "cadillac",
     "name": "Cadillac",
     "logo": "https://cdn.brandfetch.io/cadillac.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "delorean",
     "name": "DeLorean",
     "logo": "https://cdn.brandfetch.io/delorean.com/w/400/h/400",
     "color": "#555555",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "uaz",
     "name": "UAZ",
     "logo": "https://cdn.brandfetch.io/uaz.ru/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "nsu",
     "name": "NSU",
     "logo": "https://cdn.brandfetch.io/nsu-classic.de/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "datsun",
     "name": "Datsun",
     "logo": "https://cdn.brandfetch.io/datsun.com/w/400/h/400",
     "color": "#003399",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "lotus",
     "name": "Lotus",
     "logo": "https://cdn.brandfetch.io/lotuscars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "volvo",
     "name": "Volvo",
     "logo": "https://cdn.brandfetch.io/volvo.com/w/400/h/400",
     "color": "#003057",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bandini",
     "name": "Bandini",
     "logo": "https://cdn.brandfetch.io/bandinicars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "tvr",
     "name": "TVR",
     "logo": "https://cdn.brandfetch.io/tvr.co.uk/w/400/h/400",
     "color": "#007BFF",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "coda",
     "name": "Coda",
     "logo": "https://cdn.brandfetch.io/codaautomotive.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "derways",
     "name": "Derways",
     "logo": "https://cdn.brandfetch.io/derways-auto.ru/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "seat",
     "name": "SEAT",
     "logo": "https://cdn.brandfetch.io/seat.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "maserati",
     "name": "Maserati",
     "logo": "https://cdn.brandfetch.io/maserati.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "saab",
     "name": "Saab",
     "logo": "https://cdn.brandfetch.io/saab.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "kia",
     "name": "Kia",
     "logo": "https://cdn.brandfetch.io/kia.com/w/400/h/400",
     "color": "#05141F",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mg",
     "name": "MG",
     "logo": "https://cdn.brandfetch.io/mg.co.uk/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "avtovaz",
     "name": "AvtoVAZ",
     "logo": "https://cdn.brandfetch.io/lada.ru/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "lmx",
     "name": "LMX",
     "logo": "https://cdn.brandfetch.io/lmxregistrostorico.it/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "hyundai",
     "name": "Hyundai",
     "logo": "https://cdn.brandfetch.io/hyundai.com/w/400/h/400",
     "color": "#002C5F",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "isuzu",
     "name": "Isuzu",
     "logo": "https://cdn.brandfetch.io/isuzu.com/w/400/h/400",
     "color": "#E3001B",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "checker",
     "name": "Checker",
     "logo": "https://cdn.brandfetch.io/checkercab.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "alpina",
     "name": "Alpina",
     "logo": "https://cdn.brandfetch.io/alpina.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "zündapp",
@@ -831,154 +831,154 @@ window.BRANDS = [
     "name": "Lamborghini",
     "logo": "https://cdn.brandfetch.io/lamborghini.com/w/400/h/400",
     "color": "#DDB321",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "brabus",
     "name": "Brabus",
     "logo": "https://cdn.brandfetch.io/brabus.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "zastava",
     "name": "Zastava",
     "logo": "https://cdn.brandfetch.io/zastava.rs/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "piaggio",
     "name": "Piaggio",
     "logo": "https://cdn.brandfetch.io/piaggio.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "gm",
     "name": "GM",
     "logo": "https://cdn.brandfetch.io/gm.com/w/400/h/400",
     "color": "#1A1A1A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "great",
     "name": "Great",
     "logo": "https://cdn.brandfetch.io/gwm-global.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "byd",
     "name": "BYD",
     "logo": "https://cdn.brandfetch.io/byd.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "daimler-benz",
     "name": "Daimler-Benz",
     "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "hanomag",
     "name": "Hanomag",
     "logo": "https://cdn.brandfetch.io/hanomag.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "laurin",
     "name": "Laurin",
     "logo": "https://cdn.brandfetch.io/skoda-auto.com/w/400/h/400",
     "color": "#003300",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "kg",
     "name": "KG",
     "logo": "https://cdn.brandfetch.io/kg-mobility.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bristol",
     "name": "Bristol",
     "logo": "https://cdn.brandfetch.io/bristolcars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "citroën",
     "name": "Citroën",
     "logo": "https://cdn.brandfetch.io/citroen.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "vector",
     "name": "Vector",
     "logo": "https://cdn.brandfetch.io/vector-motors.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "dongfeng",
     "name": "Dongfeng",
     "logo": "https://cdn.brandfetch.io/dongfeng-global.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "zaz",
     "name": "ZAZ",
     "logo": "https://cdn.brandfetch.io/zaz.ua/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "champion",
     "name": "Champion",
     "logo": "https://cdn.brandfetch.io/championautoparts.com/w/400/h/400",
     "color": "#CC0000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "zil",
     "name": "ZiL",
     "logo": "https://cdn.brandfetch.io/zil.ru/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "studebaker",
     "name": "Studebaker",
     "logo": "https://cdn.brandfetch.io/studebaker.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mia",
     "name": "Mia",
     "logo": "https://cdn.brandfetch.io/mia-electric.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "austro-daimler",
     "name": "Austro-Daimler",
     "logo": "https://cdn.brandfetch.io/austro-daimler.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "daimler",
     "name": "Daimler",
     "logo": "https://cdn.brandfetch.io/mercedes-benz.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "zato",
@@ -992,133 +992,133 @@ window.BRANDS = [
     "name": "American",
     "logo": "https://cdn.brandfetch.io/theamc.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "automobilwerk",
     "name": "Automobilwerk",
     "logo": "https://cdn.brandfetch.io/awe-museum.de/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "industrieverband",
     "name": "Industrieverband",
     "logo": "https://cdn.brandfetch.io/ifa.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "abarth",
     "name": "Abarth",
     "logo": "https://cdn.brandfetch.io/abarth.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "wolseley",
     "name": "Wolseley",
     "logo": "https://cdn.brandfetch.io/wolseleycars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "nash",
     "name": "Nash",
     "logo": "https://cdn.brandfetch.io/nashmotors.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mercury",
     "name": "Mercury",
     "logo": "https://cdn.brandfetch.io/mercury.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "panhard",
     "name": "Panhard",
     "logo": "https://cdn.brandfetch.io/panhard.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "carver",
     "name": "Carver",
     "logo": "https://cdn.brandfetch.io/carver-world.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "isdera",
     "name": "Isdera",
     "logo": "https://cdn.brandfetch.io/isdera.de/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "alvis",
     "name": "Alvis",
     "logo": "https://cdn.brandfetch.io/thealviscarcompany.co.uk/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "horch",
     "name": "Horch",
     "logo": "https://cdn.brandfetch.io/horch.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "asia",
     "name": "Asia",
     "logo": "https://cdn.brandfetch.io/kia.com/w/400/h/400",
     "color": "#05141F",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "willys",
     "name": "Willys",
     "logo": "https://cdn.brandfetch.io/jeep.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "mitsuoka",
     "name": "Mitsuoka",
     "logo": "https://cdn.brandfetch.io/mitsuoka-motor.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "steyr-daimler-puch",
     "name": "Steyr-Daimler-Puch",
     "logo": "https://cdn.brandfetch.io/piaggio.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bitter",
     "name": "Bitter",
     "logo": "https://cdn.brandfetch.io/bittercars.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bizzarrini",
     "name": "Bizzarrini",
     "logo": "https://cdn.brandfetch.io/bizzarrini.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "melkus",
     "name": "Melkus",
     "logo": "https://cdn.brandfetch.io/melkus.de/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "rubery",
@@ -1132,14 +1132,14 @@ window.BRANDS = [
     "name": "Air",
     "logo": "https://cdn.brandfetch.io/air-car.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "bolwell",
     "name": "Bolwell",
     "logo": "https://cdn.brandfetch.io/bolwell.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "sharp-s",
@@ -1153,21 +1153,21 @@ window.BRANDS = [
     "name": "Rimac",
     "logo": "https://cdn.brandfetch.io/rimac.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "brabham",
     "name": "Brabham",
     "logo": "https://cdn.brandfetch.io/brabham.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "tata",
     "name": "Tata",
     "logo": "https://cdn.brandfetch.io/tata.com/w/400/h/400",
     "color": "#4860A0",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "frans",
@@ -1181,42 +1181,42 @@ window.BRANDS = [
     "name": "GAZ",
     "logo": "https://cdn.brandfetch.io/azgaz.ru/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "geely",
     "name": "Geely",
     "logo": "https://cdn.brandfetch.io/geely.com/w/400/h/400",
     "color": "#003D7A",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "iso",
     "name": "Iso",
     "logo": "https://cdn.brandfetch.io/isorivolta.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "auto",
     "name": "Auto",
     "logo": "https://cdn.brandfetch.io/auto-union.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "daewoo",
     "name": "Daewoo",
     "logo": "https://cdn.brandfetch.io/daewoomotor.com/w/400/h/400",
     "color": "#0066CC",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "k-1",
     "name": "K-1",
     "logo": "https://cdn.brandfetch.io/k1-attack.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "cockerell",
@@ -1230,21 +1230,21 @@ window.BRANDS = [
     "name": "SS",
     "logo": "https://cdn.brandfetch.io/jaguar.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "delage",
     "name": "Delage",
     "logo": "https://cdn.brandfetch.io/delage.fr/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "lion-peugeot",
     "name": "Lion-Peugeot",
     "logo": "https://cdn.brandfetch.io/peugeot.com/w/400/h/400",
     "color": "#000000",
-    "category": "Other"
+    "category": "Auto"
   },
   {
     "id": "suzuki",
