@@ -1,0 +1,61 @@
+---
+interface SpecEntry {
+  key: string;
+  value: string;
+}
+
+interface Props {
+  specs: Record<string, Record<string, string>>;
+  highlightSpecs?: Set<string>;
+}
+
+const { specs, highlightSpecs = new Set() } = Astro.props;
+
+// Convert specs object to sections array
+const sections = Object.entries(specs)
+  .map(([sectionName, entries]) => ({
+    name: sectionName,
+    entries: Object.entries(entries).map(([key, value]) => ({ key, value })),
+  }))
+  .filter((section) => section.entries.length > 0 && section.entries.some(e => e.value));
+---
+
+{sections.length > 0 && (
+  <div class="space-y-3">
+    {sections.map((section) => (
+      <details class="group glass-card overflow-hidden" open>
+        <summary class="flex items-center justify-between px-4 py-3 cursor-pointer select-none hover:bg-white/5 transition-colors">
+          <h3 class="text-sm font-semibold text-white">{section.name}</h3>
+          <svg
+            class="w-4 h-4 text-gray-500 transition-transform group-open:rotate-180"
+            fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </summary>
+
+        <div class="border-t border-white/5">
+          {section.entries
+            .filter((e) => e.value)
+            .map((entry, idx) => {
+              const isHighlighted = highlightSpecs.has(entry.key);
+              return (
+                <div
+                  class={`flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4 px-4 py-2.5 ${
+                    idx % 2 === 0 ? 'bg-navy-800/30' : ''
+                  } ${isHighlighted ? 'bg-accent-blue/5 border-l-2 border-accent-blue' : ''}`}
+                >
+                  <span class="text-xs font-medium text-gray-500 sm:w-40 flex-shrink-0">
+                    {entry.key}
+                  </span>
+                  <span class="text-sm text-gray-300 break-words">
+                    {entry.value}
+                  </span>
+                </div>
+              );
+            })}
+        </div>
+      </details>
+    ))}
+  </div>
+)}

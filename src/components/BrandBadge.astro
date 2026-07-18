@@ -1,0 +1,56 @@
+---
+interface Props {
+  brand: any;
+  showCount?: boolean;
+  count?: number;
+  countLabel?: string;
+}
+
+const { brand, showCount = false, count = 0, countLabel = 'products' } = Astro.props;
+
+const href = `/phonehub/search?brand=${brand.id}`;
+const borderColor = brand.color && brand.color !== '#000000' && brand.color !== '📱'
+  ? brand.color
+  : '#3b82f6';
+---
+
+<a href={href} class="group block">
+  <div
+    class="glass-card-hover p-3 flex flex-col items-center gap-2 text-center relative overflow-hidden"
+    style={`border-left: 3px solid ${borderColor};`}
+  >
+    <!-- Subtle tint background -->
+    <div
+      class="absolute inset-0 opacity-5"
+      style={`background: linear-gradient(135deg, ${borderColor}, transparent);`}
+    />
+
+    <!-- Brand logo -->
+    <div class="relative w-10 h-10 rounded-full overflow-hidden bg-navy-700/40 flex items-center justify-center flex-shrink-0">
+      {brand.logo && !brand.logo.startsWith('📱') ? (
+        <img
+          src={brand.logo}
+          alt={brand.name}
+          class="w-full h-full object-contain p-1"
+          loading="lazy"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+        />
+      ) : null}
+      <span class={`${brand.logo?.startsWith('📱') ? '' : 'hidden'} text-lg`}>
+        {brand.logo?.startsWith('📱') ? brand.logo : brand.name.charAt(0)}
+      </span>
+    </div>
+
+    <!-- Brand name -->
+    <span class="relative text-xs font-semibold text-gray-300 group-hover:text-white transition-colors truncate max-w-full">
+      {brand.name}
+    </span>
+
+    <!-- Optional count -->
+    {showCount && count > 0 && (
+      <span class="relative text-[10px] text-gray-500">
+        {count} {countLabel}
+      </span>
+    )}
+  </div>
+</a>

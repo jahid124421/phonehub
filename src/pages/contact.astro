@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact — PhoneHub"
+  description="Get in touch with the PhoneHub team. Send feedback, report errors, or ask questions."
+>
+  <section class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl md:text-4xl font-bold text-white mb-6">Contact Us</h1>
+
+    <div class="glass-card p-6 md:p-8 space-y-8">
+      <div class="text-sm text-gray-300 leading-relaxed">
+        <p>Have a question, found an error in our data, or want to give feedback? We'd love to hear from you. Use the form below or reach out through one of the channels listed.</p>
+      </div>
+
+      <!-- Feedback form placeholder -->
+      <div>
+        <h2 class="text-lg font-semibold text-white mb-4">Send Feedback</h2>
+        <form class="space-y-4" id="contact-form">
+          <div>
+            <label for="contact-name" class="block text-xs font-medium text-gray-400 mb-1.5">Name</label>
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              placeholder="Your name"
+              class="w-full h-11 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all"
+            />
+          </div>
+          <div>
+            <label for="contact-email" class="block text-xs font-medium text-gray-400 mb-1.5">Email</label>
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              placeholder="you@example.com"
+              class="w-full h-11 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all"
+            />
+          </div>
+          <div>
+            <label for="contact-subject" class="block text-xs font-medium text-gray-400 mb-1.5">Subject</label>
+            <select
+              id="contact-subject"
+              name="subject"
+              class="w-full h-11 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 focus:outline-none focus:border-accent-blue/50 transition-all"
+            >
+              <option value="feedback">General Feedback</option>
+              <option value="error">Report a Data Error</option>
+              <option value="suggestion">Product Suggestion</option>
+              <option value="partnership">Partnership Inquiry</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="contact-message" class="block text-xs font-medium text-gray-400 mb-1.5">Message</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="5"
+              placeholder="Tell us what's on your mind..."
+              class="w-full px-4 py-3 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all resize-y"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="px-6 py-2.5 rounded-xl bg-accent-blue text-white text-sm font-semibold hover:bg-accent-blue/90 transition-all disabled:opacity-40"
+          >
+            Send Message
+          </button>
+          <p id="form-status" class="text-xs text-gray-500 hidden"></p>
+        </form>
+      </div>
+
+      <!-- Other channels -->
+      <div>
+        <h2 class="text-lg font-semibold text-white mb-4">Other Ways to Reach Us</h2>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl bg-navy-700/30 border border-white/5">
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-4 h-4 text-accent-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <h3 class="text-sm font-medium text-gray-200">Email</h3>
+            </div>
+            <p class="text-xs text-gray-400">hello@phonehub.dev</p>
+          </div>
+          <div class="p-4 rounded-xl bg-navy-700/30 border border-white/5">
+            <div class="flex items-center gap-2 mb-2">
+              <svg class="w-4 h-4 text-accent-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+              <h3 class="text-sm font-medium text-gray-200">GitHub</h3>
+            </div>
+            <a href="https://github.com/jahid124421" target="_blank" rel="noopener" class="text-xs text-accent-blue hover:underline">github.com/jahid124421</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-4 border-t border-white/5 text-xs text-gray-500">
+        <p>We aim to respond to all messages within 48 hours. For data corrections, please include the product name and URL.</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement;
+  const status = document.getElementById('form-status')!;
+
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    status.classList.remove('hidden');
+    status.className = 'text-xs text-green-400';
+    status.textContent = 'Thank you! Your message has been recorded. (Form submission is not yet connected to a backend.)';
+    form.reset();
+  });
+</script>

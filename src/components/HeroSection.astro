@@ -1,0 +1,48 @@
+---
+import SearchBar from './SearchBar.astro';
+---
+
+<section class="relative overflow-hidden bg-gradient-to-b from-navy-900 via-navy-800 to-navy-900">
+  <!-- Background decorative elements -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <!-- Gradient orbs -->
+    <div class="absolute -top-40 -right-40 w-80 h-80 bg-accent-blue/10 rounded-full blur-3xl" />
+    <div class="absolute -bottom-40 -left-40 w-80 h-80 bg-accent-purple/10 rounded-full blur-3xl" />
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent-cyan/5 rounded-full blur-3xl" />
+
+    <!-- Grid pattern -->
+    <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2260%22 height=%2260%22><rect fill=%22none%22 stroke=%22white%22 stroke-width=%220.5%22 width=%2260%22 height=%2260%22/></svg>'); background-size: 60px 60px;" />
+  </div>
+
+  <div class="relative max-w-7xl mx-auto px-4 py-20 md:py-28 lg:py-36 text-center">
+    <!-- Badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent-blue/10 border border-accent-blue/20 text-accent-blue text-xs font-medium mb-8">
+      <span class="w-1.5 h-1.5 rounded-full bg-accent-blue animate-pulse" />
+      1,400+ products &bull; 180+ brands
+    </div>
+
+    <!-- Heading -->
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
+      <span class="text-white">Find, compare</span>
+      <br />
+      <span class="gradient-text">&amp; decide.</span>
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10">
+      The smartest way to research phones, laptops, cars &amp; more. Detailed specs, honest reviews, and real comparisons.
+    </p>
+
+    <!-- Search bar -->
+    <SearchBar placeholder="Search any product..." autofocus={true} />
+
+    <!-- Quick links -->
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-3 text-xs text-gray-500">
+      <span>Popular:</span>
+      <a href="/phonehub/search?q=iPhone+17" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-all">iPhone 17</a>
+      <a href="/phonehub/search?q=Galaxy+S26" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-all">Galaxy S26</a>
+      <a href="/phonehub/search?q=Pixel+10" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-all">Pixel 10</a>
+      <a href="/phonehub/search?cat=auto" class="px-3 py-1 rounded-full bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-all">🚗 Cars</a>
+    </div>
+  </div>
+</section>

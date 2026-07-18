@@ -1,28 +1,52 @@
-name: Build data & deploy to GitHub Pages
+name: Build & Deploy to GitHub Pages
 
-# FULLY FREE — no external server, no scraping. Specs come from the committed
-# dataset (tools/data/specs.json, produced by seed_dataset.py). Each run writes
-# AI reviews + affiliate prices, builds the site + static phone pages, commits
-# the result, and deploys to GitHub Pages.
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# Consolidated CI/CD workflow for PhoneHub (Astro + Python data pipeline)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #
-# Push the CONTENTS of the phonehub folder as the repo root.
+# Pipeline stages:
+#   1. Checkout + environment setup (Python 3.12, Node.js 20)
+#   2. Config generation from GitHub Secrets
+#   3. Python data pipeline (Wikidata seed → AI reviews → prices → news → build)
+#   4. Git commit of refreshed data
+#   5. Astro static site build → dist/
+#   6. Pagefind search index generation
+#   7. GitHub Pages deployment
 #
-# Repo settings to do once:
+# Triggers:
+#   - Push to main branch
+#   - Daily cron at 03:00 UTC
+#   - Manual dispatch (with optional product limit)
+#
+# Repo settings (one-time):
 #   Settings > Pages > Build and deployment > Source = "GitHub Actions"
-#   Settings > Secrets and variables > Actions > add the secrets below.
+#   Settings > Secrets and variables > Actions > add the secrets listed below.
 #
-# Secrets:
-#   OPENROUTER_API_KEY  (required)  your working LLM key
-#   SITE_URL            (required)  your Pages URL, e.g. https://USER.github.io/REPO
-#   AMAZON_PARTNER_TAG  (optional)  Amazon Associates tag
-#   FLIPKART_AFFILIATE_ID (optional)
+# Required secrets:
+#   OPENROUTER_API_KEY     — LLM key for AI content generation
+#   SITE_URL               — Your GitHub Pages URL (e.g. https://USER.github.io/REPO)
+#
+# Optional secrets:
+#   NEWSAPI_KEY            — NewsAPI key for news fetching
+#   AMAZON_PARTNER_TAG     — Amazon Associates affiliate tag
+#   FLIPKART_AFFILIATE_ID  — Flipkart affiliate ID
+#   SCRAPERAPI_KEY         — ScraperAPI key for price scraping
+#   RAINFOREST_API_KEY     — Rainforest API key for product data
+#   PEXELS_API_KEY         — Pexels API key for stock images
+#   PIXABAY_API_KEY        — Pixabay API key for stock images
+#   GROQ_API_KEY           — Groq API key (fast LLM inference)
 
 on:
   schedule:
     - cron: "0 3 * * *"        # daily 03:00 UTC
   push:
     branches: [main]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Limit products to process (default: 100)'
+        required: false
+        default: '100'
 
 permissions:
   contents: write
@@ -37,12 +61,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # ── 1. Checkout ──────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      # ── 2. Python 3.12 ──────────────────────────────────────────────────
+      # Note: pip caching is omitted because there is no requirements.txt
+      # in the tools/ directory. Python scripts use stdlib + inline imports.
+      # If a requirements.txt is added later, enable cache: "pip" here.
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # ── 3. Node.js 20 (with npm caching) ───────────────────────────────
+      # Caches node_modules based on package-lock.json hash for faster builds.
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ── 4. Write config.json from secrets ──────────────────────────────
+      # Generates tools/config.json with all API keys and settings.
+      # Secrets that are not configured will default to empty strings.
       - name: Build config.json from secrets
         working-directory: tools
         env:
@@ -50,58 +94,108 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
           FLIPKART_AFFILIATE_ID: ${{ secrets.FLIPKART_AFFILIATE_ID }}
+          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
+          RAINFOREST_API_KEY: ${{ secrets.RAINFOREST_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
           python - <<'PY'
           import json, os
           cfg = {
             "site_url": os.environ.get("SITE_URL", "https://your-domain.example"),
             "newsapi_key": os.environ.get("NEWSAPI_KEY", ""),
+            "scraperapi_key": os.environ.get("SCRAPERAPI_KEY", ""),
+            "rainforest_api_key": os.environ.get("RAINFOREST_API_KEY", ""),
+            "pexels_api_key": os.environ.get("PEXELS_API_KEY", ""),
+            "pixabay_api_key": os.environ.get("PIXABAY_API_KEY", ""),
+            "groq_api_key": os.environ.get("GROQ_API_KEY", ""),
             "specs_api_base": "http://localhost:3000",
-            "brands": ["apple","samsung","google","xiaomi","oneplus","nothing","vivo","realme"],
-            "max_phones_per_brand": 12,
-            "llm": {"provider":"openrouter","model":"meta-llama/llama-3.3-70b-instruct","keys_env_path":"env_from_secrets.env"},
-            "affiliate": {
-              "amazon_partner_tag": os.environ.get("AMAZON_PARTNER_TAG",""),
-              "amazon_marketplace": "www.amazon.in",
-              "flipkart_affiliate_id": os.environ.get("FLIPKART_AFFILIATE_ID","")
+            "brands": ["apple","samsung","google","xiaomi","oneplus","nothing","vivo","realme","oppo","motorola","sony","nokia","honor","asus","huawei","lg","tcl","zte","lenovo"],
+            "max_phones_per_brand": 20,
+            "scrape_delay": 2,
+            "scrape_brand_delay": 4,
+            "llm": {
+              "provider": "openrouter",
+              "model": "meta-llama/llama-3.3-70b-instruct",
+              "keys_env_path": "env_from_secrets.env"
             },
-            "stores": ["Amazon","Flipkart"]
+            "affiliate": {
+              "amazon_partner_tag": os.environ.get("AMAZON_PARTNER_TAG", ""),
+              "amazon_marketplace": "www.amazon.in",
+              "flipkart_affiliate_id": os.environ.get("FLIPKART_AFFILIATE_ID", "")
+            },
+            "stores": ["Amazon", "Flipkart"]
           }
-          open("config.json","w").write(json.dumps(cfg, indent=2))
+          open("config.json", "w").write(json.dumps(cfg, indent=2))
           PY
 
+      # ── 5. Write LLM key file ──────────────────────────────────────────
+      # Creates env_from_secrets.env used by the LLM provider config.
       - name: Write LLM key file
         working-directory: tools
         run: echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" > env_from_secrets.env
 
-      - name: Grow catalog from Wikidata — all categories (free, no rate limit)
+      # ── 6. Install npm dependencies (cached) ──────────────────────────
+      # Uses npm ci for reproducible installs from package-lock.json.
+      - name: Install npm dependencies
+        run: npm ci
+
+      # ── 7. Data pipeline (all steps use continue-on-error) ────────────
+      # Each pipeline stage is fault-tolerant: if one fails, the build
+      # continues with whatever data was already available. This ensures
+      # the site still deploys even if an API is temporarily unreachable.
+
+      - name: Seed catalog from Wikidata (all categories, free — no rate limit)
         working-directory: tools
-        continue-on-error: true
+        continue-on-error: true    # Wikidata may be slow; use existing data if it fails
         run: python wikidata_seed.py --all
 
-      - name: Refresh data (AI reviews + prices + news + build; no scraping)
+      - name: Run data pipeline (content_agent → price_job → news_fetch → build)
         working-directory: tools
-        continue-on-error: true      # if the LLM is unreachable, keep last good data & still deploy
+        continue-on-error: true    # LLM/pricing APIs may be unreachable; keep last good data
         run: python run_all.py --no-import
 
-      - name: Commit refreshed data (persists specs + AI-content cache)
+      # ── 8. Commit refreshed data back to repo ─────────────────────────
+      # Persists generated specs, AI content cache, and price data so that
+      # subsequent runs start with up-to-date committed data.
+      - name: Commit refreshed data
         run: |
           git config user.name "phonehub-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add js/data.js js/specs-data.js phone/ img/ sitemap.xml robots.txt tools/data/*.json 2>/dev/null || true
-          git commit -m "auto: refresh phone data" || echo "no changes"
+          git add js/data.js js/specs-data.js phone/ img/ sitemap.xml robots.txt tools/data/*.json data/*.json 2>/dev/null || true
+          git commit -m "auto: refresh phone data $(date +'%Y-%m-%d %H:%M')" || echo "no changes"
           git push || echo "push skipped"
 
+      # ── 9. Remove secret files before publishing (SECURITY) ───────────
+      # Ensures no API keys or credentials end up in the deployed artifact.
       - name: Remove secret files before publishing (SECURITY)
         run: |
           rm -f tools/env_from_secrets.env tools/config.json
           rm -rf tools/__pycache__
 
+      # ── 10. Build Astro site ───────────────────────────────────────────
+      # Astro builds all pages statically and outputs to dist/.
+      # This is the main site build step.
+      - name: Build Astro site
+        run: npm run build
+
+      # ── 11. Generate Pagefind search index ─────────────────────────────
+      # Creates a static search index from the built dist/ output.
+      # Pagefind is a fully-static search library (no server needed).
+      - name: Generate Pagefind search index
+        run: npx pagefind --site dist
+
+      # ── 12. Upload artifact for GitHub Pages ───────────────────────────
+      # Uploads the dist/ directory as the GitHub Pages artifact.
+      # Only the Astro build output is deployed (not source files).
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
 
+  # ━━━ Deploy job ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  # Separate job for deployment to enable GitHub Pages environment protection.
   deploy:
     needs: build
     runs-on: ubuntu-latest

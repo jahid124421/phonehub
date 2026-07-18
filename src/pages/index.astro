@@ -1,0 +1,203 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import CategoryStrip from '../components/CategoryStrip.astro';
+import ProductCard from '../components/ProductCard.astro';
+import BrandGrid from '../components/BrandGrid.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { websiteSchema, organizationSchema } from '../utils/schema';
+import { formatCount } from '../utils/formatters';
+
+import products from '../../data/products.json';
+import brands from '../../data/brands.json';
+import news from '../../data/news.json';
+
+const siteJsonLd = websiteSchema();
+const orgJsonLd = organizationSchema();
+
+// Popular products: sorted by popularity desc, top 8
+const popularProducts = [...products]
+  .sort((a, b) => (b.popularity || 0) - (a.popularity || 0))
+  .slice(0, 8);
+
+// Latest releases: sorted by releaseDate desc, top 8
+// releaseDate format: "Released 2026, March 11" or similar
+function parseReleaseYear(dateStr: string): number {
+  if (!dateStr) return 0;
+  const match = dateStr.match(/(\d{4})/);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+function parseReleaseDate(dateStr: string): number {
+  if (!dateStr) return 0;
+  // Try "Released 2026, March 11"
+  const full = dateStr.match(/(\d{4}),?\s+(\w+)(?:\s+(\d+))?/);
+  if (full) {
+    const d = new Date(`${full[2]} ${full[3] || '1'}, ${full[1]}`);
+    return isNaN(d.getTime()) ? parseReleaseYear(dateStr) * 10000 : d.getTime();
+  }
+  return parseReleaseYear(dateStr) * 10000;
+}
+
+const latestReleases = [...products]
+  .sort((a, b) => parseReleaseDate(b.releaseDate) - parseReleaseDate(a.releaseDate))
+  .slice(0, 8);
+
+// Brand showcase: top categories only (Premium, Gaming, Mid-Range, Value), limit 30
+const showcaseCategories = ['Premium', 'Gaming', 'Mid-Range', 'Value'];
+const showcaseBrands = brands
+  .filter((b) => showcaseCategories.includes(b.category))
+  .slice(0, 30);
+
+// Latest news: first 4 articles
+const latestNews = news.slice(0, 4);
+
+// Stats
+const totalProducts = products.length;
+const totalBrands = brands.length;
+---
+
+<BaseLayout
+  title="PhoneHub — Find, Compare & Decide on Phones, Laptops, Cars & More"
+  description="The smartest way to research tech. 1,400+ products with detailed specs, honest reviews, and side-by-side comparisons."
+>
+  <HeroSection />
+  <CategoryStrip />
+
+  <!-- Popular Products -->
+  <section class="max-w-7xl mx-auto px-4 pt-14 pb-10" data-aos="fade-up">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Popular right now</h2>
+        <p class="text-sm text-gray-500 mt-1">Trending products everyone is checking out</p>
+      </div>
+      <a href="/phonehub/search" class="hidden sm:inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors group">
+        View all
+        <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-5">
+      {popularProducts.map((p) => (
+        <ProductCard product={p} />
+      ))}
+    </div>
+    <!-- Mobile view all link -->
+    <div class="sm:hidden mt-6 text-center">
+      <a href="/phonehub/search" class="inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors">
+        View all products
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Latest Releases - Horizontal Scroll -->
+  <section class="py-10 border-t border-white/5" data-aos="fade-up">
+    <div class="max-w-7xl mx-auto px-4 mb-8">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Latest releases</h2>
+          <p class="text-sm text-gray-500 mt-1">Fresh drops and newly announced devices</p>
+        </div>
+        <a href="/phonehub/search" class="hidden sm:inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors group">
+          See all
+          <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </a>
+      </div>
+    </div>
+    <div class="px-4 max-w-7xl mx-auto">
+      <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide" style="-webkit-overflow-scrolling: touch;">
+        {latestReleases.map((p) => (
+          <div class="snap-start flex-shrink-0 w-[200px] sm:w-[220px]">
+            <ProductCard product={p} size="sm" />
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Showcase -->
+  <section class="max-w-7xl mx-auto px-4 py-14 border-t border-white/5" data-aos="fade-up">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Browse by brand</h2>
+        <p class="text-sm text-gray-500 mt-1">Discover top brands across all categories</p>
+      </div>
+      <a href="/phonehub/brands" class="hidden sm:inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors group">
+        All brands
+        <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+    </div>
+    <BrandGrid brands={showcaseBrands} products={products} />
+    <div class="sm:hidden mt-6 text-center">
+      <a href="/phonehub/brands" class="inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors">
+        View all {totalBrands} brands
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Latest News -->
+  {latestNews.length > 0 && (
+    <section class="max-w-7xl mx-auto px-4 py-14 border-t border-white/5" data-aos="fade-up">
+      <div class="flex items-center justify-between mb-8">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Latest news</h2>
+          <p class="text-sm text-gray-500 mt-1">Stay up to date with tech, phones & more</p>
+        </div>
+        <a href="/phonehub/news" class="hidden sm:inline-flex items-center gap-1.5 text-sm text-accent-blue hover:text-white font-medium transition-colors group">
+          View all
+          <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </a>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        {latestNews.slice(0, 3).map((article) => (
+          <NewsCard article={article} />
+        ))}
+      </div>
+      {latestNews.length > 3 && (
+        <div class="mt-4">
+          <NewsCard article={latestNews[3]} />
+        </div>
+      )}
+    </section>
+  )}
+
+  <!-- Quick Stats Banner -->
+  <section class="border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="glass-card p-5 rounded-2xl">
+          <p class="text-3xl md:text-4xl font-extrabold gradient-text">{formatCount(totalProducts)}</p>
+          <p class="text-xs text-gray-500 mt-1 font-medium uppercase tracking-wider">Products</p>
+        </div>
+        <div class="glass-card p-5 rounded-2xl">
+          <p class="text-3xl md:text-4xl font-extrabold gradient-text">{totalBrands}</p>
+          <p class="text-xs text-gray-500 mt-1 font-medium uppercase tracking-wider">Brands</p>
+        </div>
+        <div class="glass-card p-5 rounded-2xl">
+          <p class="text-3xl md:text-4xl font-extrabold gradient-text">7</p>
+          <p class="text-xs text-gray-500 mt-1 font-medium uppercase tracking-wider">Categories</p>
+        </div>
+        <div class="glass-card p-5 rounded-2xl">
+          <p class="text-3xl md:text-4xl font-extrabold gradient-text">Daily</p>
+          <p class="text-xs text-gray-500 mt-1 font-medium uppercase tracking-wider">Updates</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Fragment slot="jsonld">
+    <script type="application/ld+json" set:html={JSON.stringify(siteJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
+  </Fragment>
+</BaseLayout>
+
+<style>
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>

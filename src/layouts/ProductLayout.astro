@@ -1,0 +1,34 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { productSchema, breadcrumbSchema } from '../utils/schema';
+import { getCategoryLabel } from '../utils/formatters';
+
+interface Props {
+  product: any;
+}
+
+const { product } = Astro.props;
+
+const title = `${product.name} — Full Specs, Reviews & Pricing | PhoneHub`;
+const description =
+  product.review?.substring(0, 155) ||
+  `${product.name} by ${product.brand}. Check specs, ratings, and prices on PhoneHub.`;
+
+const siteUrl = 'https://jahid124421.github.io/phonehub';
+
+const productJsonLd = productSchema(product);
+const breadcrumbJsonLd = breadcrumbSchema([
+  { name: 'Home', url: `${siteUrl}/` },
+  { name: getCategoryLabel(product.category), url: `${siteUrl}/search?cat=${product.category}` },
+  { name: product.name, url: `${siteUrl}/product/${product.id}/` },
+]);
+---
+
+<BaseLayout title={title} description={description} ogImage={product.image || product.fallbackImg}>
+  <slot />
+
+  <Fragment slot="jsonld">
+    <script type="application/ld+json" set:html={JSON.stringify(productJsonLd)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  </Fragment>
+</BaseLayout>

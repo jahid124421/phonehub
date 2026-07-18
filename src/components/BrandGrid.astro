@@ -1,0 +1,77 @@
+---
+import BrandBadge from './BrandBadge.astro';
+
+interface Props {
+  brands: any[];
+  products: any[];
+}
+
+const { brands, products } = Astro.props;
+
+// Count products per brand
+function countProducts(brandId: string): number {
+  return products.filter((p) => p.brand === brandId).length;
+}
+
+// Count label: "vehicles" for Auto brands, "phones" for others
+function getCountLabel(brandCategory: string): string {
+  return brandCategory === 'Auto' ? 'vehicles' : 'products';
+}
+
+// Group brands by category
+const categoryOrder = ['Premium', 'Gaming', 'Mid-Range', 'Value', 'Budget', 'Auto', 'Other'];
+
+const groupedBrands: Record<string, any[]> = {};
+for (const cat of categoryOrder) {
+  groupedBrands[cat] = [];
+}
+
+for (const brand of brands) {
+  const cat = brand.category || 'Other';
+  if (!groupedBrands[cat]) {
+    groupedBrands[cat] = [];
+  }
+  groupedBrands[cat].push(brand);
+}
+
+// Sort alphabetically within each group
+for (const cat of Object.keys(groupedBrands)) {
+  groupedBrands[cat].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+const categoryIcons: Record<string, string> = {
+  Premium: '✨',
+  Gaming: '🎮',
+  'Mid-Range': '⚡',
+  Value: '💎',
+  Budget: '💰',
+  Auto: '🚗',
+  Other: '📦',
+};
+---
+
+<div class="space-y-10">
+  {categoryOrder
+    .filter((cat) => groupedBrands[cat]?.length > 0)
+    .map((cat) => (
+      <section>
+        <div class="flex items-center gap-2 mb-4">
+          <span class="text-lg">{categoryIcons[cat]}</span>
+          <h2 class="text-lg font-bold text-white">{cat}</h2>
+          <span class="text-xs text-gray-500 bg-white/5 px-2 py-0.5 rounded-full">
+            {groupedBrands[cat].length}
+          </span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+          {groupedBrands[cat].map((brand) => (
+            <BrandBadge
+              brand={brand}
+              showCount={true}
+              count={countProducts(brand.id)}
+              countLabel={getCountLabel(brand.category)}
+            />
+          ))}
+        </div>
+      </section>
+    ))}
+</div>

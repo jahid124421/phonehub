@@ -61,3 +61,8 @@ package-lock.json
 session-key-guide.html
 skills-lock.json
 test*.txt
+
+# Astro / Node
+dist/
+.astro/
+node_modules/

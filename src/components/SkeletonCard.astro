@@ -1,0 +1,39 @@
+---
+interface Props {
+  size?: 'sm' | 'md' | 'lg';
+}
+const { size = 'md' } = Astro.props;
+
+const imgHeight = {
+  sm: 'h-32',
+  md: 'h-44',
+  lg: 'h-56',
+};
+---
+
+<div class="glass-card overflow-hidden h-full flex flex-col animate-pulse">
+  <!-- Image placeholder -->
+  <div class={`${imgHeight[size]} bg-navy-800/60`} />
+
+  <!-- Content -->
+  <div class="p-3 flex flex-col flex-1 gap-2">
+    <!-- Brand -->
+    <div class="h-2.5 w-16 rounded bg-navy-700/60" />
+    <!-- Name -->
+    <div class="h-3.5 w-full rounded bg-navy-700/60" />
+    <div class="h-3.5 w-3/4 rounded bg-navy-700/60" />
+
+    {size !== 'sm' && (
+      <div class="space-y-1 mt-1">
+        <div class="h-2.5 w-full rounded bg-navy-800/50" />
+        <div class="h-2.5 w-2/3 rounded bg-navy-800/50" />
+      </div>
+    )}
+
+    <!-- Bottom: Rating + Price -->
+    <div class="mt-auto pt-2 flex items-center justify-between">
+      <div class="h-3 w-10 rounded bg-navy-700/60" />
+      <div class="h-3 w-14 rounded bg-navy-700/60" />
+    </div>
+  </div>
+</div>

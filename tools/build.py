@@ -116,10 +116,31 @@ def main():
         f.write("/* AUTO-GENERATED specs map for the compare page. */\n")
         f.write("window.SPECS = " + json.dumps(specs_map, ensure_ascii=False) + ";\n")
 
+    # ---- JSON output for Astro (alongside legacy js/data.js) ----
+    json_dir = os.path.join(C.HERE, "..", "data")
+    os.makedirs(json_dir, exist_ok=True)
+
+    stores = ["Amazon", "Flipkart", "Croma", "Reliance Digital", "Official Store"]
+
+    def _write_json(name, obj):
+        path = os.path.join(json_dir, name)
+        with open(path, "w", encoding="utf-8") as fh:
+            json.dump(obj, fh, ensure_ascii=False)
+        return path
+
+    _write_json("brands.json", enriched_brands)
+    _write_json("products.json", lite)
+    _write_json("stores.json", stores)
+    _write_json("news.json", news)
+    _write_json("specs.json", specs_map)
+
     priced = sum(1 for m in merged if m["basePrice"])
     reviewed = sum(1 for m in merged if m["rating"])
     print(f"[build] wrote js/data.js — {len(merged)} phones "
           f"({reviewed} with AI reviews, {priced} with live prices)")
+    print(f"[build] wrote data/*.json — {len(merged)} products, "
+          f"{len(enriched_brands)} brands, {len(stores)} stores, "
+          f"{len(news)} news items")
 
     # pre-render static pages, regenerate sitemap/robots, then ping IndexNow
     for mod_name in ("prerender", "gen_seo", "indexnow"):

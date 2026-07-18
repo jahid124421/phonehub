@@ -1,0 +1,23 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { brandSchema } from '../utils/schema';
+
+interface Props {
+  brand: any;
+}
+
+const { brand } = Astro.props;
+
+const title = `${brand.name} — All Products & Specs | PhoneHub`;
+const description = `Browse all ${brand.name} products. Compare specs, prices, and reviews for the latest ${brand.name} devices on PhoneHub.`;
+
+const brandJsonLd = brandSchema(brand);
+---
+
+<BaseLayout title={title} description={description}>
+  <slot />
+
+  <Fragment slot="jsonld">
+    <script type="application/ld+json" set:html={JSON.stringify(brandJsonLd)} />
+  </Fragment>
+</BaseLayout>

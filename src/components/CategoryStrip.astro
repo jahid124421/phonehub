@@ -1,0 +1,59 @@
+---
+interface Props {
+  activeCategory?: string;
+}
+
+const { activeCategory } = Astro.props;
+
+const categories = [
+  { label: 'Phones', value: 'phone', icon: '📱' },
+  { label: 'Laptops', value: 'laptop', icon: '💻' },
+  { label: 'TVs', value: 'tv', icon: '📺' },
+  { label: 'Cars', value: 'auto', icon: '🚗' },
+  { label: 'Watches', value: 'smartwatch', icon: '⌚' },
+  { label: 'Audio', value: 'audio', icon: '🎧' },
+  { label: 'Cameras', value: 'camera', icon: '📷' },
+  { label: 'Gaming', value: 'gaming', icon: '🎮' },
+];
+---
+
+<div class="w-full overflow-x-auto scrollbar-hide">
+  <div class="flex items-center gap-2 px-4 py-3 min-w-max">
+    <a
+      href="/phonehub/search"
+      class={`px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap ${
+        !activeCategory
+          ? 'bg-accent-blue text-white shadow-lg shadow-accent-blue/20'
+          : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+      }`}
+    >
+      All
+    </a>
+    {categories.map((cat) => {
+      const isActive = activeCategory === cat.value;
+      return (
+        <a
+          href={`/phonehub/search?cat=${cat.value}`}
+          class={`px-4 py-2 rounded-full text-sm font-medium transition-all whitespace-nowrap flex items-center gap-1.5 ${
+            isActive
+              ? 'bg-accent-blue text-white shadow-lg shadow-accent-blue/20'
+              : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+          }`}
+        >
+          <span>{cat.icon}</span>
+          {cat.label}
+        </a>
+      );
+    })}
+  </div>
+</div>
+
+<style>
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>

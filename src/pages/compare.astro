@@ -1,0 +1,469 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import products from '../../data/products.json';
+
+// Build a slim product index for client-side search (keep payload small)
+const productIndex = products.map((p: any) => ({
+  id: p.id,
+  name: p.name,
+  brand: p.brand,
+  category: p.category,
+  image: p.image || p.fallbackImg || '',
+  basePrice: p.basePrice || 0,
+  rating: p.rating || 0,
+  reviewCount: p.reviewCount || 0,
+  quickSpecs: p.quickSpecs || {},
+}));
+
+const productJSON = JSON.stringify(productIndex);
+---
+
+<BaseLayout
+  title="Compare — PhoneHub"
+  description="Compare phones, laptops, cars and more side-by-side. See specs, prices, and ratings in one table."
+>
+  <section class="max-w-7xl mx-auto px-4 py-10">
+    <!-- Page Header -->
+    <div class="text-center mb-10">
+      <h1 class="text-3xl md:text-4xl font-bold text-white mb-2">Compare Products</h1>
+      <p class="text-gray-400 text-sm">Select up to 4 products to compare specs, prices, and ratings side-by-side.</p>
+    </div>
+
+    <!-- Product Selector -->
+    <div id="selector-section" class="glass-card p-6 mb-8">
+      <div id="slots-container" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+        <!-- Slot 1 -->
+        <div class="relative" data-slot-idx="0">
+          <input
+            type="text"
+            placeholder="Search product 1..."
+            class="slot-search w-full h-12 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all"
+            autocomplete="off"
+          />
+          <div class="slot-dropdown hidden absolute left-0 right-0 top-full mt-1 z-50 bg-navy-800 border border-white/10 rounded-xl shadow-2xl max-h-64 overflow-y-auto"></div>
+        </div>
+        <!-- Slot 2 -->
+        <div class="relative" data-slot-idx="1">
+          <input
+            type="text"
+            placeholder="Search product 2..."
+            class="slot-search w-full h-12 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all"
+            autocomplete="off"
+          />
+          <div class="slot-dropdown hidden absolute left-0 right-0 top-full mt-1 z-50 bg-navy-800 border border-white/10 rounded-xl shadow-2xl max-h-64 overflow-y-auto"></div>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <button
+          id="add-slot-btn"
+          class="px-4 py-2 rounded-xl bg-navy-700/60 border border-white/10 text-sm text-gray-300 hover:bg-navy-600/60 hover:text-white transition-all hidden"
+        >
+          + Add product
+        </button>
+        <button
+          id="compare-btn"
+          class="px-6 py-2 rounded-xl bg-accent-blue text-white text-sm font-semibold hover:bg-accent-blue/90 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+          disabled
+        >
+          Compare
+        </button>
+        <button
+          id="clear-btn"
+          class="px-4 py-2 rounded-xl bg-navy-700/40 border border-white/5 text-sm text-gray-500 hover:text-red-400 hover:border-red-400/30 transition-all"
+        >
+          Clear all
+        </button>
+      </div>
+    </div>
+
+    <!-- Empty state -->
+    <div id="empty-state" class="text-center py-20">
+      <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-navy-800/60 border border-white/5 mb-6">
+        <svg class="w-10 h-10 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+        </svg>
+      </div>
+      <h2 class="text-xl font-semibold text-gray-300 mb-2">Select products to compare</h2>
+      <p class="text-sm text-gray-500 max-w-md mx-auto">
+        Use the search boxes above to find and add products. You can compare 2 to 4 products side-by-side to see which one wins on specs, price, and ratings.
+      </p>
+    </div>
+
+    <!-- Comparison Results (hidden until compare clicked) -->
+    <div id="results-section" class="hidden">
+      <!-- Summary bar -->
+      <div id="summary-bar" class="glass-card p-4 mb-6 flex flex-wrap items-center justify-between gap-4">
+        <div id="summary-text" class="text-sm text-gray-300"></div>
+        <button
+          id="share-btn"
+          class="px-4 py-2 rounded-xl bg-navy-700/60 border border-white/10 text-xs text-gray-300 hover:bg-navy-600/60 hover:text-white transition-all flex items-center gap-2"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+          </svg>
+          Share comparison
+        </button>
+      </div>
+
+      <!-- Comparison Table -->
+      <div class="glass-card overflow-hidden">
+        <div id="compare-table-wrap" class="overflow-x-auto"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product data injected as JSON for client-side search -->
+  <script id="__PRODUCT_DATA__" type="application/json" set:text={productJSON} />
+</BaseLayout>
+
+<script>
+  // ---- Data ----
+  const PRODUCTS = JSON.parse(document.getElementById('__PRODUCT_DATA__').textContent || '[]');
+  const PARAM_KEYS = ['a', 'b', 'c', 'd'];
+  const MAX_SLOTS = 4;
+
+  // ---- State ----
+  let slots = [null, null];
+  let activeDropdown = null;
+
+  // ---- DOM refs ----
+  const slotsContainer = document.getElementById('slots-container');
+  const addSlotBtn = document.getElementById('add-slot-btn');
+  const compareBtn = document.getElementById('compare-btn');
+  const clearBtn = document.getElementById('clear-btn');
+  const emptyState = document.getElementById('empty-state');
+  const resultsSection = document.getElementById('results-section');
+  const summaryText = document.getElementById('summary-text');
+  const shareBtn = document.getElementById('share-btn');
+  const tableWrap = document.getElementById('compare-table-wrap');
+
+  // ---- Init from URL ----
+  function loadFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const loaded = [];
+    for (const key of PARAM_KEYS) {
+      const id = params.get(key);
+      if (id) {
+        const found = PRODUCTS.find((p) => p.id === id);
+        if (found) loaded.push(found);
+      }
+    }
+    if (loaded.length >= 2) {
+      slots = loaded;
+    }
+  }
+
+  function updateURL() {
+    const params = new URLSearchParams();
+    slots.forEach((s, i) => {
+      if (s) params.set(PARAM_KEYS[i], s.id);
+    });
+    const qs = params.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : window.location.pathname);
+  }
+
+  // ---- Render Slots ----
+  function renderSlots() {
+    slotsContainer.innerHTML = '';
+    slots.forEach((slot, idx) => {
+      const div = document.createElement('div');
+      div.className = 'relative';
+      if (slot) {
+        div.innerHTML = `
+          <div class="flex items-center gap-3 p-3 rounded-xl bg-navy-700/40 border border-white/10">
+            <img src="${slot.image}" alt="${slot.name}" class="w-12 h-12 rounded-lg object-contain bg-navy-800/60 p-1 flex-shrink-0"
+              onerror="this.style.display='none'" />
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-accent-blue font-medium truncate">${slot.brand}</p>
+              <p class="text-sm font-semibold text-gray-200 truncate">${slot.name}</p>
+            </div>
+            <button data-remove="${idx}" class="p-1.5 rounded-lg hover:bg-red-500/20 text-gray-500 hover:text-red-400 transition-colors flex-shrink-0" title="Remove">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        `;
+      } else {
+        div.innerHTML = `
+          <div class="relative" data-slot-idx="${idx}">
+            <input
+              type="text"
+              placeholder="Search product ${idx + 1}..."
+              class="slot-search w-full h-12 px-4 rounded-xl bg-navy-700/40 border border-white/10 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-accent-blue/50 transition-all"
+              autocomplete="off"
+            />
+            <div class="slot-dropdown hidden absolute left-0 right-0 top-full mt-1 z-50 bg-navy-800 border border-white/10 rounded-xl shadow-2xl max-h-64 overflow-y-auto"></div>
+          </div>
+        `;
+      }
+      slotsContainer.appendChild(div);
+    });
+
+    // Update buttons
+    const filledCount = slots.filter(Boolean).length;
+    addSlotBtn.classList.toggle('hidden', slots.length >= MAX_SLOTS);
+    compareBtn.disabled = filledCount < 2;
+
+    // Bind events
+    bindSlotEvents();
+  }
+
+  function bindSlotEvents() {
+    // Remove buttons
+    slotsContainer.querySelectorAll('[data-remove]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const idx = parseInt(btn.dataset.remove);
+        slots.splice(idx, 1);
+        if (slots.length < 2) slots.push(null);
+        updateURL();
+        renderSlots();
+        hideResults();
+      });
+    });
+
+    // Search inputs
+    slotsContainer.querySelectorAll('.slot-search').forEach(input => {
+      const parent = input.closest('[data-slot-idx]');
+      const dropdown = parent.querySelector('.slot-dropdown');
+      const idx = parseInt(parent.getAttribute('data-slot-idx'));
+
+      input.addEventListener('input', () => {
+        const q = input.value.toLowerCase().trim();
+        if (q.length < 2) { dropdown.classList.add('hidden'); return; }
+
+        // Filter out already-selected products
+        const selectedIds = new Set(slots.filter(Boolean).map(s => s.id));
+        const matches = PRODUCTS.filter((p) =>
+          !selectedIds.has(p.id) &&
+          (p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q))
+        ).slice(0, 5);
+
+        if (matches.length === 0) {
+          dropdown.innerHTML = '<p class="p-3 text-xs text-gray-500">No products found</p>';
+        } else {
+          dropdown.innerHTML = matches.map((p) => `
+            <button data-pick-id="${p.id}" data-slot-idx="${idx}" class="w-full flex items-center gap-3 p-2.5 hover:bg-navy-700/60 transition-colors text-left first:rounded-t-xl last:rounded-b-xl">
+              <img src="${p.image}" alt="" class="w-8 h-8 rounded-lg object-contain bg-navy-800/60 p-0.5 flex-shrink-0" onerror="this.style.display='none'" />
+              <div class="min-w-0">
+                <p class="text-xs text-accent-blue">${p.brand}</p>
+                <p class="text-sm text-gray-200 truncate">${p.name}</p>
+              </div>
+            </button>
+          `).join('');
+        }
+        dropdown.classList.remove('hidden');
+        activeDropdown = idx;
+      });
+
+      input.addEventListener('focus', () => {
+        if (input.value.length >= 2) {
+          dropdown.classList.remove('hidden');
+          activeDropdown = idx;
+        }
+      });
+    });
+
+    // Dropdown picks
+    slotsContainer.querySelectorAll('[data-pick-id]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.dataset.pickId;
+        const idx = parseInt(btn.dataset.slotIdx);
+        const product = PRODUCTS.find((p) => p.id === id);
+        if (product) {
+          slots[idx] = product;
+          updateURL();
+          renderSlots();
+        }
+      });
+    });
+  }
+
+  // Close dropdowns on outside click
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-slot-idx]')) {
+      slotsContainer.querySelectorAll('.slot-dropdown').forEach(d => d.classList.add('hidden'));
+      activeDropdown = null;
+    }
+  });
+
+  // ---- Add slot ----
+  addSlotBtn.addEventListener('click', () => {
+    if (slots.length < MAX_SLOTS) {
+      slots.push(null);
+      renderSlots();
+    }
+  });
+
+  // ---- Clear all ----
+  clearBtn.addEventListener('click', () => {
+    slots = [null, null];
+    updateURL();
+    renderSlots();
+    hideResults();
+  });
+
+  // ---- Compare ----
+  compareBtn.addEventListener('click', () => {
+    const selected = slots.filter(Boolean);
+    if (selected.length < 2) return;
+    showResults(selected);
+  });
+
+  function hideResults() {
+    resultsSection.classList.add('hidden');
+    emptyState.classList.remove('hidden');
+  }
+
+  function showResults(selected) {
+    emptyState.classList.add('hidden');
+    resultsSection.classList.remove('hidden');
+
+    // Build summary
+    const { wins, total } = computeWins(selected);
+    const winner = Object.entries(wins).sort((a, b) => b[1] - a[1])[0];
+    if (winner && total > 0) {
+      const winnerProduct = selected.find((p) => p.id === winner[0]);
+      summaryText.innerHTML = `<span class="text-white font-semibold">${winnerProduct?.name || 'Winner'}</span> wins in <span class="text-green-400 font-semibold">${winner[1]}</span> out of <span class="text-accent-blue">${total}</span> spec categories`;
+    } else {
+      summaryText.textContent = 'No clear winner — products are evenly matched.';
+    }
+
+    // Build table
+    renderCompareTable(selected);
+  }
+
+  function extractNumber(val) {
+    if (!val) return null;
+    const match = String(val).match(/[\d,.]+/);
+    return match ? parseFloat(match[0].replace(/,/g, '')) : null;
+  }
+
+  function computeWins(selected) {
+    const wins = {};
+    selected.forEach((p) => { wins[p.id] = 0; });
+    let total = 0;
+
+    // Gather all spec keys
+    const allKeys = new Set();
+    selected.forEach((p) => {
+      if (p.quickSpecs) Object.keys(p.quickSpecs).forEach(k => allKeys.add(k));
+    });
+
+    for (const key of allKeys) {
+      const values = selected.map((p) => extractNumber(p.quickSpecs?.[key] || ''));
+      const valid = values.filter((v) => v !== null);
+      if (valid.length < 2) continue;
+      const max = Math.max(...valid);
+      const min = Math.min(...valid);
+      if (max === min) continue;
+      total++;
+      const bestIdx = values.indexOf(max);
+      wins[selected[bestIdx].id]++;
+    }
+
+    return { wins, total };
+  }
+
+  function formatPrice(price) {
+    if (!price || price === 0) return 'Check price';
+    return '$' + price.toLocaleString('en-US', { maximumFractionDigits: 0 });
+  }
+
+  function renderCompareTable(selected) {
+    // Gather spec keys
+    const allKeys = [];
+    const keySet = new Set();
+    selected.forEach((p) => {
+      if (p.quickSpecs) {
+        Object.keys(p.quickSpecs).forEach(k => {
+          if (!keySet.has(k)) { keySet.add(k); allKeys.push(k); }
+        });
+      }
+    });
+
+    // Compute best/worst per key
+    const bestMap = {};
+    const worstMap = {};
+    for (const key of allKeys) {
+      const values = selected.map((p) => extractNumber(p.quickSpecs?.[key] || ''));
+      const valid = values.filter((v) => v !== null);
+      if (valid.length < 2) continue;
+      const max = Math.max(...valid);
+      const min = Math.min(...valid);
+      if (max === min) continue;
+      bestMap[key] = values.indexOf(max);
+      worstMap[key] = values.indexOf(min);
+    }
+
+    let html = '<table class="w-full min-w-[600px]">';
+
+    // Header
+    html += '<thead><tr><th class="sticky left-0 z-10 bg-navy-900 w-32 p-4"></th>';
+    for (const p of selected) {
+      html += `<th class="p-4 text-center min-w-[180px]">
+        <a href="/phonehub/product/${p.id}/" class="group block">
+          <div class="w-20 h-20 mx-auto mb-2 rounded-xl overflow-hidden bg-navy-800/40">
+            <img src="${p.image}" alt="${p.name}" class="w-full h-full object-contain p-2" loading="lazy" />
+          </div>
+          <p class="text-xs text-accent-blue font-medium">${p.brand}</p>
+          <p class="text-sm font-semibold text-gray-200 group-hover:text-white transition-colors line-clamp-2 mt-0.5">${p.name}</p>
+          <p class="text-xs text-gray-500 mt-1">${formatPrice(p.basePrice)}</p>
+          ${p.rating > 0 ? `<div class="flex items-center justify-center gap-1 mt-1"><svg class="w-3 h-3 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><span class="text-xs text-gray-400">${p.rating}</span></div>` : ''}
+        </a>
+      </th>`;
+    }
+    html += '</tr></thead><tbody>';
+
+    // Section header
+    if (allKeys.length > 0) {
+      html += `<tr><td colspan="${selected.length + 1}" class="px-4 py-2.5 bg-navy-800/40 text-sm font-semibold text-accent-blue border-t border-b border-white/5 sticky left-0">Quick Specs</td></tr>`;
+
+      for (const key of allKeys) {
+        html += '<tr class="border-b border-white/5 hover:bg-white/[0.02]">';
+        html += `<td class="sticky left-0 z-10 bg-navy-900 px-4 py-2.5 text-xs font-medium text-gray-500 capitalize">${key}</td>`;
+        for (let i = 0; i < selected.length; i++) {
+          const val = selected[i].quickSpecs?.[key] || '—';
+          const isBest = bestMap[key] === i;
+          const isWorst = worstMap[key] === i;
+          const cls = isBest ? 'text-green-400 font-semibold' : isWorst ? 'text-red-400/70' : 'text-gray-300';
+          html += `<td class="px-4 py-2.5 text-sm text-center ${cls}">${val || '—'}${isBest ? ' <span class="ml-1 text-[10px]">👑</span>' : ''}</td>`;
+        }
+        html += '</tr>';
+      }
+    }
+
+    // Price row
+    html += '<tr class="border-t-2 border-accent-blue/20">';
+    html += '<td class="sticky left-0 z-10 bg-navy-900 px-4 py-3 text-xs font-semibold text-gray-400">Price</td>';
+    for (const p of selected) {
+      html += `<td class="px-4 py-3 text-center text-sm font-semibold text-accent-blue">${formatPrice(p.basePrice)}</td>`;
+    }
+    html += '</tr></tbody></table>';
+
+    tableWrap.innerHTML = html;
+  }
+
+  // ---- Share ----
+  shareBtn.addEventListener('click', async () => {
+    const url = window.location.href;
+    try {
+      await navigator.clipboard.writeText(url);
+      const orig = shareBtn.innerHTML;
+      shareBtn.innerHTML = '<svg class="w-4 h-4 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Copied!';
+      setTimeout(() => { shareBtn.innerHTML = orig; }, 2000);
+    } catch {
+      prompt('Copy this URL:', url);
+    }
+  });
+
+  // ---- Boot ----
+  loadFromURL();
+  renderSlots();
+
+  // Auto-compare if loaded from URL with 2+ products
+  const initialSelected = slots.filter(Boolean);
+  if (initialSelected.length >= 2) {
+    showResults(initialSelected);
+  }
+</script>

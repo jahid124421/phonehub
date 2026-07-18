@@ -1,0 +1,155 @@
+---
+import { formatPrice, getCategoryIcon } from '../utils/formatters';
+
+interface Props {
+  products: any[];
+}
+
+const { products } = Astro.props;
+
+// Gather all unique spec sections and keys from all products
+function getAllSpecSections(products: any[]): { section: string; keys: string[] }[] {
+  const sectionMap = new Map<string, Set<string>>();
+  
+  // Use quickSpecs for comparison
+  for (const p of products) {
+    if (p.quickSpecs) {
+      if (!sectionMap.has('Quick Specs')) {
+        sectionMap.set('Quick Specs', new Set());
+      }
+      const keys = sectionMap.get('Quick Specs')!;
+      Object.keys(p.quickSpecs).forEach(k => keys.add(k));
+    }
+  }
+  
+  return Array.from(sectionMap.entries()).map(([section, keys]) => ({
+    section,
+    keys: Array.from(keys),
+  }));
+}
+
+const specSections = getAllSpecSections(products);
+
+// Try to extract a numeric value from a string for comparison
+function extractNumber(val: string): number | null {
+  if (!val) return null;
+  const match = val.match(/[\d,.]+/);
+  return match ? parseFloat(match[0].replace(/,/g, '')) : null;
+}
+
+// Determine best value for a spec across products
+function getBestWorst(key: string): { bestIdx: number; worstIdx: number } {
+  const values = products.map((p) => {
+    const v = p.quickSpecs?.[key] || '';
+    return extractNumber(v);
+  });
+  
+  const validValues = values.filter((v): v is number => v !== null);
+  if (validValues.length < 2) return { bestIdx: -1, worstIdx: -1 };
+  
+  const max = Math.max(...validValues);
+  const min = Math.min(...validValues);
+  if (max === min) return { bestIdx: -1, worstIdx: -1 };
+  
+  return {
+    bestIdx: values.indexOf(max),
+    worstIdx: values.indexOf(min),
+  };
+}
+---
+
+{products.length >= 2 && (
+  <div class="overflow-x-auto" id="compare-table">
+    <table class="w-full min-w-[600px]">
+      <!-- Header: product images and names -->
+      <thead>
+        <tr>
+          <th class="sticky left-0 z-10 bg-navy-900 w-32 p-4" />
+          {products.map((p) => (
+            <th class="p-4 text-center min-w-[180px]">
+              <a href={`/phonehub/product/${p.id}/`} class="group block">
+                <div class="w-20 h-20 mx-auto mb-2 rounded-xl overflow-hidden bg-navy-800/40">
+                  <img
+                    src={p.image || p.fallbackImg}
+                    alt={p.name}
+                    class="w-full h-full object-contain p-2"
+                    width="80"
+                    height="80"
+                    loading="lazy"
+                  />
+                </div>
+                <p class="text-xs text-accent-blue font-medium">{p.brand}</p>
+                <p class="text-sm font-semibold text-gray-200 group-hover:text-white transition-colors line-clamp-2 mt-0.5">
+                  {p.name}
+                </p>
+                <p class="text-xs text-gray-500 mt-1">{formatPrice(p.basePrice)}</p>
+                <!-- Rating -->
+                {p.rating > 0 && (
+                  <div class="flex items-center justify-center gap-1 mt-1">
+                    <svg class="w-3 h-3 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    <span class="text-xs text-gray-400">{p.rating}</span>
+                  </div>
+                )}
+              </a>
+            </th>
+          ))}
+        </tr>
+      </thead>
+
+      <tbody>
+        {specSections.map(({ section, keys }) => (
+          <>
+            <!-- Section header -->
+            <tr>
+              <td
+                colSpan={products.length + 1}
+                class="px-4 py-2.5 bg-navy-800/40 text-sm font-semibold text-accent-blue border-t border-b border-white/5 sticky left-0"
+              >
+                {section}
+              </td>
+            </tr>
+
+            {keys.map((key) => {
+              const { bestIdx, worstIdx } = getBestWorst(key);
+              return (
+                <tr class="border-b border-white/5 hover:bg-white/[0.02]">
+                  <td class="sticky left-0 z-10 bg-navy-900 px-4 py-2.5 text-xs font-medium text-gray-500 capitalize">
+                    {key}
+                  </td>
+                  {products.map((p, idx) => {
+                    const val = p.quickSpecs?.[key] || '—';
+                    const isBest = idx === bestIdx;
+                    const isWorst = idx === worstIdx;
+                    const textClass = isBest ? 'text-green-400 font-semibold' : isWorst ? 'text-red-400/70' : 'text-gray-300';
+                    return (
+                      <td class={`px-4 py-2.5 text-sm text-center ${textClass}`}>
+                        {val || '—'}
+                        {isBest && <span class="ml-1 text-[10px]">👑</span>}
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </>
+        ))}
+
+        <!-- Price row -->
+        <tr class="border-t-2 border-accent-blue/20">
+          <td class="sticky left-0 z-10 bg-navy-900 px-4 py-3 text-xs font-semibold text-gray-400">
+            Price
+          </td>
+          {products.map((p) => (
+            <td class="px-4 py-3 text-center text-sm font-semibold text-accent-blue">
+              {formatPrice(p.basePrice)}
+            </td>
+          ))}
+        </tr>
+      </tbody>
+    </table>
+  </div>
+)}
+  </div>
+)}

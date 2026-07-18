@@ -1,0 +1,125 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BrandGrid from '../components/BrandGrid.astro';
+import { formatCount } from '../utils/formatters';
+
+import brands from '../../data/brands.json';
+import products from '../../data/products.json';
+
+const totalBrands = brands.length;
+const totalProducts = products.length;
+
+// Category breakdown
+const categoryOrder = ['Premium', 'Gaming', 'Mid-Range', 'Value', 'Budget', 'Auto', 'Other'];
+
+const categoryIcons: Record<string, string> = {
+  Premium: '✨',
+  Gaming: '🎮',
+  'Mid-Range': '⚡',
+  Value: '💎',
+  Budget: '💰',
+  Auto: '🚗',
+  Other: '📦',
+};
+
+// Count brands per category
+const brandCounts: Record<string, number> = {};
+for (const cat of categoryOrder) {
+  brandCounts[cat] = 0;
+}
+for (const b of brands) {
+  const cat = b.category || 'Other';
+  brandCounts[cat] = (brandCounts[cat] || 0) + 1;
+}
+
+// Count products per brand category (by matching brand.id to product.brand)
+const brandIdsByCategory: Record<string, Set<string>> = {};
+for (const cat of categoryOrder) {
+  brandIdsByCategory[cat] = new Set();
+}
+for (const b of brands) {
+  const cat = b.category || 'Other';
+  brandIdsByCategory[cat].add(b.id);
+}
+
+const productCounts: Record<string, number> = {};
+for (const cat of categoryOrder) {
+  productCounts[cat] = 0;
+}
+for (const p of products) {
+  for (const cat of categoryOrder) {
+    if (brandIdsByCategory[cat].has(p.brand)) {
+      productCounts[cat]++;
+      break;
+    }
+  }
+}
+---
+
+<BaseLayout
+  title="All Brands — PhoneHub"
+  description={`Browse all ${totalBrands} brands across phones, cars, laptops and more. Find specs, reviews, and comparisons for every brand.`}
+>
+  <!-- Page Header -->
+  <section class="max-w-7xl mx-auto px-4 pt-12 pb-8" data-aos="fade-up">
+    <div class="text-center mb-4">
+      <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight">All Brands</h1>
+      <p class="text-base md:text-lg text-gray-400 mt-3 max-w-xl mx-auto">
+        Browse all brands across phones, cars, laptops and more
+      </p>
+    </div>
+  </section>
+
+  <!-- Stats Row -->
+  <section class="max-w-7xl mx-auto px-4 pb-10" data-aos="fade-up">
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+      <!-- Total brands -->
+      <div class="glass-card p-4 rounded-xl text-center">
+        <p class="text-2xl font-extrabold gradient-text">{totalBrands}</p>
+        <p class="text-[11px] text-gray-500 mt-0.5 font-medium uppercase tracking-wider">Total Brands</p>
+      </div>
+      <!-- Total products -->
+      <div class="glass-card p-4 rounded-xl text-center">
+        <p class="text-2xl font-extrabold gradient-text">{formatCount(totalProducts)}</p>
+        <p class="text-[11px] text-gray-500 mt-0.5 font-medium uppercase tracking-wider">Products</p>
+      </div>
+      <!-- Top categories -->
+      {categoryOrder
+        .filter((cat) => brandCounts[cat] > 0)
+        .slice(0, 2)
+        .map((cat) => (
+          <div class="glass-card p-4 rounded-xl text-center">
+            <p class="text-2xl font-extrabold text-white">
+              <span class="mr-1">{categoryIcons[cat]}</span>
+              {brandCounts[cat]}
+            </p>
+            <p class="text-[11px] text-gray-500 mt-0.5 font-medium uppercase tracking-wider">{cat} Brands</p>
+          </div>
+        ))}
+    </div>
+
+    <!-- Category breakdown pills -->
+    <div class="flex flex-wrap justify-center gap-2 mt-6">
+      {categoryOrder
+        .filter((cat) => brandCounts[cat] > 0)
+        .map((cat) => (
+          <a
+            href={`/phonehub/search?brandCat=${encodeURIComponent(cat)}`}
+            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-medium text-gray-400 hover:text-white transition-all"
+          >
+            <span>{categoryIcons[cat]}</span>
+            <span>{cat}</span>
+            <span class="text-gray-600">&bull;</span>
+            <span class="text-accent-blue">{brandCounts[cat]} brands</span>
+            <span class="text-gray-700">&bull;</span>
+            <span class="text-gray-500">{formatCount(productCounts[cat])} products</span>
+          </a>
+        ))}
+    </div>
+  </section>
+
+  <!-- Brand Grid -->
+  <section class="max-w-7xl mx-auto px-4 pb-16 border-t border-white/5 pt-10" data-aos="fade-up">
+    <BrandGrid brands={brands} products={products} />
+  </section>
+</BaseLayout>

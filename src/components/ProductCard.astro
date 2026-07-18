@@ -1,0 +1,104 @@
+---
+import RatingBadge from './RatingBadge.astro';
+import { formatPrice, getCategoryLabel, getCategoryIcon } from '../utils/formatters';
+
+interface Props {
+  product: any;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { product, size = 'md' } = Astro.props;
+
+const href = `/phonehub/product/${product.id}/`;
+const fallbackSrc = product.fallbackImg || '/phonehub/favicon.svg';
+const imgSrc = product.image || fallbackSrc;
+const price = formatPrice(product.basePrice);
+const catLabel = getCategoryLabel(product.category);
+const catIcon = getCategoryIcon(product.category);
+
+// Filter quickSpecs to non-empty ones, take top 3
+const specEntries = product.quickSpecs
+  ? Object.entries(product.quickSpecs)
+      .filter(([_, v]) => v && String(v).trim())
+      .slice(0, size === 'sm' ? 1 : 3)
+  : [];
+
+const sizeClasses = {
+  sm: 'max-w-[180px]',
+  md: '',
+  lg: '',
+};
+
+const imgHeight = {
+  sm: 'h-32',
+  md: 'h-44',
+  lg: 'h-56',
+};
+---
+
+<a href={href} class={`group block ${sizeClasses[size]}`}>
+  <article class="glass-card-hover overflow-hidden h-full flex flex-col">
+    <!-- Image -->
+    <div class={`relative ${imgHeight[size]} overflow-hidden bg-navy-800/40`}>
+      <img
+        src={imgSrc}
+        alt={product.name}
+        class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+        width="200"
+        height="200"
+        loading="lazy"
+        data-fallback={fallbackSrc}
+        onerror="if(this.src!==this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none';this.nextElementSibling.style.display='flex'}"
+      />
+      <div class="absolute inset-0 hidden items-center justify-center text-gray-600">
+        <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+      </div>
+
+      <!-- Category badge -->
+      <span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-navy-900/80 backdrop-blur-sm text-[10px] font-medium text-gray-400 border border-white/10">
+        {catIcon} {catLabel}
+      </span>
+    </div>
+
+    <!-- Content -->
+    <div class="p-3 flex flex-col flex-1 gap-1.5">
+      <!-- Brand -->
+      <span class="text-[10px] font-semibold uppercase tracking-wider text-accent-blue/80">
+        {product.brand}
+      </span>
+
+      <!-- Name -->
+      <h3 class={`font-semibold text-gray-200 group-hover:text-white transition-colors line-clamp-2 ${size === 'sm' ? 'text-xs' : 'text-sm'}`}>
+        {product.name}
+      </h3>
+
+      <!-- Key specs (hide on sm) -->
+      {size !== 'sm' && specEntries.length > 0 && (
+        <div class="space-y-0.5 mt-1">
+          {specEntries.map(([key, val]) => (
+            <p class="text-[11px] text-gray-500 truncate">
+              <span class="text-gray-600">{key}:</span> {String(val).split(',')[0]}
+            </p>
+          ))}
+        </div>
+      )}
+
+      <!-- Bottom: Rating + Price -->
+      <div class="mt-auto pt-2 flex items-center justify-between gap-2">
+        {product.rating > 0 && (
+          <div class="flex items-center gap-1">
+            <svg class="w-3.5 h-3.5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+            </svg>
+            <span class="text-xs text-gray-400">{product.rating}</span>
+          </div>
+        )}
+        <span class={`text-xs font-semibold ${price === 'Check price' ? 'text-gray-500' : 'text-accent-blue'}`}>
+          {price}
+        </span>
+      </div>
+    </div>
+  </article>
+</a>

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Cookie Extractor",
+  "version": "1.0.0",
+  "description": "Extract and view cookies from any website instantly",
+  
+  "permissions": [
+    "cookies",
+    "tabs",
+    "<all_urls>",
+    "activeTab",
+    "downloads"
+  ],
+  
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    },
+    "default_title": "Extract Cookies"
+  },
+  
+  "icons": {
+    "48": "icon.png"
+  }
+}
