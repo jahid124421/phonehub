@@ -1,0 +1,9 @@
+--- RESULT ---
+All done. Here's the summary:
+
+**`demos/b-space-command/`** — all 6 Space Command files present:
+- `index.html`, `search.html`, `brands.html`, `product.html`, `compare.html`, `news.html`
+
+**Root files restored** — `index.html` now shows the original theme (`"PhoneHub - Phone, Laptop, Tablet Specs..."` — no Space Mono, no "Command Your Tech Universe"). The other 4 restored files (`search.html`, `brands.html`, `compare.html`, `news.html`) were also reverted successfully.
+
+**Note:** `product.html` was never tracked in git, so the root copy still has the Space Command version. If you have the original `product.html` elsewhere, you can drop it in manually.

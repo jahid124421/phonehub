@@ -1,0 +1,27 @@
+{
+  "9c610b9660784d572896dd9e4ebdbd29": {
+    "title": "Samsung Galaxy S25 Ultra",
+    "detected_at": "2026-07-19T14:23:37.601650",
+    "category": "phone"
+  },
+  "492f2ffa2b8206f3cdc804c0fad36e6d": {
+    "title": "Google Pixel 9 Pro XL",
+    "detected_at": "2026-07-19T14:23:37.601650",
+    "category": "phone"
+  },
+  "76c7ec185ffef358a5476a12775c4e78": {
+    "title": "OnePlus 13",
+    "detected_at": "2026-07-19T14:23:37.602642",
+    "category": "phone"
+  },
+  "6f2ed70e2fd31e6cdf8b3a50fccf9230": {
+    "title": "Xiaomi 15 Pro",
+    "detected_at": "2026-07-19T14:23:37.602642",
+    "category": "phone"
+  },
+  "f200ff9434989905802c23ce1a02489b": {
+    "title": "Nothing Phone (3)",
+    "detected_at": "2026-07-19T14:23:37.602642",
+    "category": "phone"
+  }
+}

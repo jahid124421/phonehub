@@ -1,0 +1,219 @@
+--- RESULT ---
+---
+
+# Investigation Report: Free Data Sources for Automated Phone/Laptop/Car/Accessories Comparison Website
+
+**Objective**: Identify all viable free (open-source, free APIs, free tiers) data sources for fully automated fetching of product specifications, images, prices, and AI-generated reviews across phones, laptops, cars, and accessories -- with zero manual data entry and zero paid services.
+
+---
+
+## 1. FREE PHONE SPECIFICATION SOURCES
+
+### 1.1 Self-Hosted GSMArena Scrapers (BEST FREE OPTION)
+
+| Source | URL | What It Offers | Free Limits | API Key |
+|--------|-----|---------------|-------------|---------|
+| **RevengerNick/mobile-specs-api** | https://github.com/RevengerNick/mobile-specs-api | Full GSMArena scrape via REST API. Endpoints: `/brands`, `/brands/:slug`, `/:phone_slug`, `/latest`, `/top-by-interest`, `/top-by-fans`, `/search`. Built with Fastify + TypeScript. | Unlimited (self-hosted) | None required |
+| **azharimm/phone-specs-api** | https://github.com/azharimm/phone-specs-api | Hosted public API at `api-mobilespecs.azharimm.dev`. Same GSMArena data with v2 endpoints. Brands, phones, search, latest, top-by-interest/fans. | Free hosted version available; can also self-host | None required |
+| **raffyxyz/api-gsm-arena** | https://github.com/raffyxyz/api-gsm-arena | Unofficial GSM Arena API. Processor, camera, battery, etc. | Unlimited (self-hosted) | None required |
+| **nordmarin/gsmarena-api** | https://github.com/nordmarin/gsmarena-api | GSMArena phone specification finder, reads from GSMArena, returns JSON. Early development. | Unlimited (self-hosted) | None required |
+
+**Recommendation**: **RevengerNick/mobile-specs-api** is the strongest option. It is MIT-licensed, self-hostable, requires no API key, and provides comprehensive structured JSON from GSMArena's full database (13,000+ phones). Deploy it as a microservice and call it from your pipeline.
+
+### 1.2 Hosted Phone Spec APIs with Free Tiers
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **MobileAPI.dev** | https://mobileapi.dev/ | 31,563+ devices (phones, tablets, laptops, wearables). 12 spec categories, product images (base64), fuzzy search, autocomplete. | 50 requests/month, 5 req/min. No credit card. | Required (free signup) |
+| **TechSpecs API** | https://developer.techspecs.io/ | 240,000+ products including 29k+ smartphones, 183k+ laptops, 2k+ tablets, 300+ smartwatches, 13k+ displays, 19k+ GPUs. Daily updates. Product images. Launch prices. | Free trial with limited calls. Unlimited plan is paid. Data is digitally watermarked -- caching/storing without authorization is forbidden. | Required |
+| **FonoApi** | https://github.com/shakee93/fonoapi | 6,800+ mobile device descriptions. Open source. | Free | Required |
+
+**Warning on TechSpecs**: Their ToS explicitly forbids caching or storing data without a commercial license. This makes it unsuitable for a static site that needs to persist data locally.
+
+### 1.3 Other Phone Data Sources
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **PhoneDB.net** | https://phonedb.net/ | 25,736+ device datasheets with 290+ parameters each. Covers smartphones, tablets, smartwatches, PDAs from 1989 to present. | NOT FREE. Paid licensing starting at 100+ EUR. Contact required. | N/A (paid license) |
+| **DeviceSpecifications.com** | https://www.devicespecifications.com/ | Detailed phone specs with measurements, photos, graphs, comparison tables. | No public API. Would require scraping (ToS risk). | N/A |
+| **Kimovil** | https://www.kimovil.com/ | Phone specs with real-time prices from multiple retailers. Good for price comparison data. | No official API. Community scraper exists on GitHub (`Matheus-Garbelini/kimovil_list_phones_by_processor`). Scraping only. | N/A |
+| **Smartprix** (via Parse.bot) | https://parse.bot/ | Smartphones, tablets, laptops with specs, historical pricing, live deals. | Parse.bot marketplace -- pricing unclear | Via Parse.bot |
+
+---
+
+## 2. FREE LAPTOP SPECIFICATION SOURCES
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **TechSpecs API** | https://developer.techspecs.io/ | 183,000+ laptops with standardized specs. Daily updates. | Free trial only; caching forbidden by ToS | Required |
+| **MobileAPI.dev** | https://mobileapi.dev/ | Includes laptops in their 31,563+ device database alongside phones/tablets/wearables. | 50 free requests/month | Required (free) |
+| **NotebookCheck** | https://www.notebookcheck.net/ | Comprehensive laptop reviews, benchmarks, specs. Laptop search database. | No API. Would require custom scraping with BeautifulSoup/Scrapy. | N/A |
+| **Kaggle Datasets** | https://www.kaggle.com/datasets/durgeshrao9993/laptop-specification-dataset | 984 laptop entries. Also: `sohaibdevv/modern-laptop-prices-and-specifications` (30 modern laptops, 2025-2026). | Free static datasets. Not auto-updating. | N/A |
+| **SidHacksCommunity/Laptop-Specification-api** | https://github.com/SidHacksCommunity/Laptop-Specification-api | Community-maintained laptop dataset on GitHub. | Free, open source. Limited coverage. | None |
+
+**Recommendation for Laptops**: This is the weakest category for free sources. The best strategy is:
+1. Use **MobileAPI.dev** (covers laptops) for structured data within the 50 req/month free tier.
+2. Build a **custom NotebookCheck scraper** using Python (BeautifulSoup + requests) for comprehensive laptop data. NotebookCheck has the deepest laptop spec database.
+3. Supplement with **TechSpecs API** free trial for initial data seeding, but do NOT rely on it long-term due to caching restrictions.
+
+---
+
+## 3. FREE CAR SPECIFICATION SOURCES
+
+### 3.1 Truly Free Car APIs
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **NHTSA vPIC API** | https://vpic.nhtsa.dot.gov/api/ | Official US government vehicle data. Makes, models, years, trims, body styles, engine, fuel type, safety ratings, VIN decoding. Covers all vehicles sold in the US. | Completely free. No rate limiting (within reason). No API key needed. | Not required |
+| **CarQuery API** | http://www.carqueryapi.com/ | JSON-based API for year, make, model, trim data for cars and trucks. | Free (historically). Note: some Reddit reports indicate it may be unreliable/down. | Required (free signup) |
+
+### 3.2 Free Tier / Freemium Car APIs
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **API-Ninjas Cars API** | https://api-ninjas.com/api/cars | Thousands of vehicle models from 100+ automakers. Endpoints for makes, models, trims, detailed specs. Also has Electric Vehicle and Motorcycles APIs. | Free tier available BUT detailed endpoints (carmakes, carmodels, cartrims, cardetails) require Business/Professional subscription. Commercial use not permitted on free tier. | Required |
+| **CarAPI.app** | https://carapi.app/ | Vehicle specs, VIN decoder, trim-level data. | Free tier exists | Required |
+
+### 3.3 Open Car Datasets on GitHub
+
+| Source | URL | What It Offers |
+|--------|-----|---------------|
+| **vbalagovic/cars-dataset** | https://github.com/vbalagovic/cars-dataset | 54,000+ vehicle variants across 370+ brands. Cars, trucks, motorcycles. 105,000+ real market price listings from 11 countries. |
+| **abhionlyone/us-car-models-data** | https://github.com/abhionlyone/us-car-models-data | 15,000+ US car models from 1992-2026. |
+| **plowman/open-vehicle-db** | https://github.com/plowman/open-vehicle-db | 69 makes with models/years/styles for cars, trucks, SUVs. |
+| **ilyasozkurt/automobile-models-and-specs** | https://github.com/ilyasozkurt/automobile-models-and-specs | Manufacturers, models, engine options with specs. Updated Oct 2024. |
+| **api-evangelist/car-api** | https://github.com/api-evangelist/car-api | Developer-friendly vehicle API and database. Makes, models, trims, bodies. |
+
+**Recommendation for Cars**: Start with **NHTSA vPIC API** (completely free, no key, US government data). Supplement with **vbalagovic/cars-dataset** from GitHub for international coverage and price data. For non-US markets, the GitHub datasets fill gaps well.
+
+---
+
+## 4. FREE PRODUCT IMAGE SOURCES
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **Brandfetch Logo API** | https://brandfetch.com/developers/logo-api | Access to hundreds of millions of brand logos. Always up-to-date. | Logo API is completely free (fair use limits). Brand API has 100 free requests. | Required (free signup for client ID) |
+| **MobileAPI.dev Images** | https://mobileapi.dev/ | Multiple product images per device served as base64. Thumbnails available. | Included in 50 free requests/month | Required (free) |
+| **Wikimedia Commons API** | https://www.mediawiki.org/wiki/API:Images | Millions of freely licensed images including product photos. API access to search and retrieve. | Completely free. CC/public domain licenses. | Not required |
+| **GSMArena (via scrapers)** | N/A | Phone product images available through the self-hosted GSMArena scrapers. | Unlimited (self-hosted) | None |
+| **Unsplash API** | https://unsplash.com/developers | High-quality photos, free for commercial and non-commercial use. | 50 requests/hour (Production), free | Required (free) |
+
+**Recommendation**: Use **GSMArena scraper images** for phones (already included in scraped data), **Brandfetch Logo API** for brand logos, and **Wikimedia Commons** for supplementary product photos. For car images, the GitHub datasets and NHTSA do not include images -- you would need to scrape from manufacturer sites or use Wikimedia Commons.
+
+---
+
+## 5. FREE PRICE / AFFILIATE DATA
+
+| Source | URL | What It Offers | Free Tier | API Key |
+|--------|-----|---------------|-----------|---------|
+| **Amazon Product Advertising API 5.0** | https://webservices.amazon.com/paapi5/documentation/ | Product search, pricing, availability, images, customer reviews. Official Amazon affiliate integration. | API itself is free. Requires Amazon Associates membership. Rate: 1 request/day per $0.05 of shipped revenue (starts very low for new accounts). Must generate qualifying sales to maintain access. | Required (Amazon Associates account) |
+| **Flipkart Affiliate API** | https://affiliate.flipkart.com/api-docs/af_prod_ref.html | Product feed, categories, pricing for Indian market. | Free with Flipkart affiliate membership. Affiliate program may be intermittently closed to new signups. | Required |
+| **Kimovil** (scraping) | https://www.kimovil.com/ | Real-time prices from multiple retailers for phones. | No official API. Requires scraping. | N/A |
+| **Datayuge Price Comparison API** | https://datayuge.com/products/price-comparison-api/ | Price comparison across Indian stores with affiliate commission. | Claims free tier available | Required |
+
+**Key Limitation**: Amazon PA-API has strict requirements -- you must be an approved Amazon Associate AND generate qualifying sales to maintain API access. New accounts start with very low rate limits (1 TPD). This is the most common pain point for comparison sites.
+
+**Recommendation**: Use Amazon PA-API if you already have an active Associates account. For price data without affiliate requirements, scrape Kimovil (for phones) or use the existing price data structure in your `data.js` pipeline.
+
+---
+
+## 6. FREE AI / REVIEW GENERATION
+
+### 6.1 Free Cloud LLM APIs
+
+| Source | URL | What It Offers | Free Tier Limits | API Key |
+|--------|-----|---------------|-----------------|---------|
+| **Google Gemini API** | https://ai.google.dev/ | Gemini 2.5 Pro, Flash, Flash Lite models. Text generation, summarization. | Free tier: ~5 requests/minute, ~50 requests/day (varies by model). Sufficient for batch processing ~50 product reviews/day. | Required (free) |
+| **Groq Cloud** | https://groq.com/ | Ultra-fast inference. Llama 3.3, Llama 4 Scout, Mixtral, Gemma. | ~30 requests/minute, ~14,400 requests/day. Per-model token limits (~12K tokens/min). Very generous. | Required (free) |
+| **Cerebras** | https://cerebras.ai/ | Fast inference for Llama models. | Free tier available | Required (free) |
+| **NVIDIA NIM** | https://build.nvidia.com/ | Various open models hosted by NVIDIA. | Free tier, no credit card | Required (free) |
+| **OpenRouter** | https://openrouter.ai/ | Aggregator for many LLM providers. Some free models available. | Free models available (rate limited) | Required (free) |
+
+### 6.2 Self-Hosted LLM Solutions (Truly Free, Unlimited)
+
+| Source | URL | What It Offers |
+|--------|-----|---------------|
+| **Ollama** | https://ollama.com/ | Run Llama 3, Mistral, Gemma, Phi-3, and many other open-source models locally. Completely free, unlimited. |
+| **LM Studio** | https://lmstudio.ai/ | Desktop app for running local LLMs. GUI-based, easy model management. Includes local API server. |
+| **llama.cpp** | https://github.com/ggerganov/llama.cpp | Lightweight C++ inference. Can run on CPU. Good for CI/CD pipelines. |
+| **vLLM** | https://github.com/vllm-project/vllm | High-throughput, production-grade inference server. |
+
+**Recommendation for AI Reviews**:
+- **Best balance**: Use **Groq Cloud** free tier (~14,400 req/day is more than enough for generating reviews for hundreds of products daily). Llama 3.3 70B on Groq produces high-quality product reviews.
+- **Truly unlimited**: Self-host **Ollama** with Llama 3 8B or Mistral 7B. Can run on any machine with 8GB+ RAM. Expose a local API endpoint your pipeline calls.
+- **For GitHub Actions CI**: Use Gemini or Groq free cloud APIs since self-hosting isn't practical in ephemeral CI runners.
+
+---
+
+## 7. FREE AUTOMATION TOOLS
+
+| Source | URL | What It Offers | Free Tier | Notes |
+|--------|-----|---------------|-----------|-------|
+| **GitHub Actions** (already in use) | https://github.com/features/actions | Cron-triggered workflows. 2,000 free minutes/month on public repos. | Free for public repos. 2,000 min/month for private. | Already your primary automation. |
+| **n8n (self-hosted)** | https://n8n.io/ | Open-source workflow automation. Visual editor. 400+ integrations. Webhook triggers, cron. | Completely free when self-hosted. Cloud version has paid tiers. | Can run on Google Cloud free tier (e2-micro instance). |
+| **Python Scraping Libraries** | N/A | BeautifulSoup4, Scrapy, Selenium, Playwright, httpx, requests-html. | All completely free, open source. | Already using Python pipeline (`tools/run_all.py`). |
+| **cron-job.org** | https://cron-job.org/ | Free online cron service to trigger webhooks on schedule. | Free (up to 60 jobs, 5-min minimum interval). | Good for triggering GitHub Actions externally. |
+| **Make.com** | https://www.make.com/ | Visual workflow automation. | Free: 1,000 operations/month. Very limited. | Too restrictive for daily data pipelines. |
+
+**Python Scraping Library Recommendations** (ranked by suitability for your use case):
+
+1. **Scrapy** -- Best for large-scale, structured scraping. Async, fast, extensible. Has built-in pipeline support for data export.
+2. **BeautifulSoup4 + httpx** -- Best for simple page-by-page extraction. Easy to integrate into existing `run_all.py`.
+3. **Playwright** -- Best for JavaScript-heavy sites that require browser rendering (some modern product pages).
+4. **requests-html** -- Lightweight alternative combining requests + parsing + JS rendering.
+
+---
+
+## 8. NEW PRODUCT DETECTION
+
+| Source | URL | What It Offers | How to Use |
+|--------|-----|---------------|-----------|
+| **GSMArena RSS Feeds** | https://rss.app/rss-feed/gsmarena-com-rss-feed | Auto-updating RSS feed of GSMArena articles/news (updates every 15 min). | Parse RSS XML with Python `feedparser` library. Extract new phone announcements. |
+| **GSMArena Latest Endpoint** | Via self-hosted scraper: `GET /latest` | Returns latest added devices directly from GSMArena. | Already available in RevengerNick/mobile-specs-api. |
+| **Feedspot Smartphone RSS Feeds** | https://rss.feedspot.com/smartphone_rss_feeds/ | Curated list of top 35 smartphone RSS feeds from major tech sites. | Subscribe to multiple feeds for cross-source detection. |
+| **Gadgets360** | https://www.gadgets360.com/mobiles/news | Latest mobile news with RSS support. | Parse RSS for new launch announcements. |
+| **Android Headlines** | https://www.androidheadlines.com/ | Android phone news. RSS available. | RSS parsing. |
+| **Telegram Channels** | e.g., `MishaalAndroidNews` | Real-time Android leak/launch news. | Can be scraped via Telegram API (free). |
+| **TechCrunch / The Verge / Engadget** | Various | Major tech news outlets with RSS feeds. | Parse for product launch keywords. |
+| **MobileAPI.dev Browse by Year** | https://mobileapi.dev/ | Endpoints to list devices by launch year. New devices added within 2-6 hours of announcement. | Poll the API for new entries (but limited to 50 req/month on free tier). |
+
+**Recommended New Product Detection Pipeline**:
+1. Set up a Python script using `feedparser` to poll GSMArena RSS + 5-10 tech news RSS feeds every few hours.
+2. Cross-reference discovered product names against your existing `data.js` database.
+3. For new products, trigger the full scraping pipeline to fetch specs from GSMArena via the self-hosted API.
+4. Optionally use Groq/Gemini free API to auto-generate initial reviews for newly detected products.
+
+---
+
+## SUMMARY: RECOMMENDED FREE STACK
+
+| Category | Primary Source | Secondary Source |
+|----------|---------------|-----------------|
+| **Phone Specs** | RevengerNick/mobile-specs-api (self-hosted, unlimited) | azharimm/phone-specs-api (hosted backup) |
+| **Laptop Specs** | Custom NotebookCheck scraper (BeautifulSoup) | MobileAPI.dev free tier (50 req/mo) |
+| **Car Specs** | NHTSA vPIC API (free, no key) | vbalagovic/cars-dataset (GitHub) |
+| **Product Images** | GSMArena scraper images + Brandfetch Logo API | Wikimedia Commons |
+| **Prices** | Amazon PA-API (if Associates member) | Kimovil scraping |
+| **AI Reviews** | Groq Cloud free tier (14,400 req/day) | Ollama self-hosted (unlimited) |
+| **Automation** | GitHub Actions (existing) | n8n self-hosted |
+| **New Detection** | GSMArena RSS + tech news RSS feeds | GSMArena `/latest` API endpoint |
+
+---
+
+## RISKS AND CAVEATS
+
+1. **GSMArena Scraping Legality**: Web scraping GSMArena may violate their Terms of Service. The self-hosted APIs include disclaimers about this. Use at your own risk. Mitigation: add rate limiting, respect `robots.txt`, and cache aggressively to minimize requests.
+
+2. **Amazon PA-API Access Barrier**: Requires an approved Amazon Associates account with qualifying sales history. New accounts may be rejected or have extremely low rate limits (1 request/day initially).
+
+3. **PhoneDB is NOT Free**: Despite appearing like a great data source, PhoneDB charges licensing fees starting at 100+ EUR for database access.
+
+4. **TechSpecs API Anti-Caching**: Their ToS explicitly forbids storing/caching data. This makes it incompatible with a static site architecture that needs to persist data in `data.js`.
+
+5. **Free Tier Rate Limits**: MobileAPI.dev's 50 requests/month is extremely restrictive. Only useful for occasional lookups, not bulk data fetching. The self-hosted GSMArena scrapers are far superior for your use case.
+
+6. **Flipkart Affiliate Instability**: Flipkart's affiliate program has been intermittently closed to new registrations. Do not architect your pipeline to depend on it.
+
+7. **NotebookCheck Scraping**: No official API exists. You will need to build and maintain a custom scraper, and handle HTML structure changes when they update their site.
+
+8. **LLM-Generated Content**: Auto-generated reviews may contain inaccuracies. Consider adding a "AI-generated" disclaimer on your site, and implement quality checks in your pipeline.

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Brands Directory</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060a0f;--primary:#00ff88;--secondary:#00cccc;--text:#c8d6e5;--card:#0a1018;--border:#00ff8833;--glow:rgba(0,255,136,0.4);--mono:'JetBrains Mono',monospace;--sans:'Inter',sans-serif;--scanline:repeating-linear-gradient(0deg,rgba(0,0,0,0.15) 0px,rgba(0,0,0,0.15) 1px,transparent 1px,transparent 2px)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110';position:fixed;top:0;left:0;width:100%;height:100%;font-family:var(--mono);font-size:14px;color:rgba(0,255,136,0.02);word-wrap:break-word;pointer-events:none;z-index:0;padding:20px;line-height:2}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+a:hover{color:var(--secondary);text-shadow:0 0 8px var(--glow)}
+
+header{position:sticky;top:0;z-index:100;background:rgba(6,10,15,0.95);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--primary);text-shadow:0 0 8px var(--glow)}
+.logo span{color:var(--text);opacity:.6}
+nav{display:flex;gap:24px}
+nav a{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.8}
+nav a:hover,nav a.active{color:var(--primary);opacity:1}
+.mobile-toggle{display:none;background:none;border:none;color:var(--primary);font-size:1.5rem;cursor:pointer}
+
+.breadcrumb{max-width:1200px;margin:0 auto;padding:16px 20px;font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.breadcrumb a{color:var(--secondary);opacity:.8}
+
+.section{max-width:1200px;margin:0 auto;padding:32px 20px}
+.section-title{font-family:var(--mono);font-size:1.3rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'$';color:var(--secondary)}
+.section-sub{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.5;margin-bottom:32px}
+
+/* CATEGORY TABS */
+.cat-tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px;border-bottom:1px solid var(--border);padding-bottom:16px}
+.cat-tab{font-family:var(--mono);font-size:.85rem;padding:8px 18px;border:1px solid var(--border);border-radius:4px;color:var(--text);cursor:pointer;transition:all .3s;background:transparent}
+.cat-tab:hover,.cat-tab.active{border-color:var(--primary);color:var(--primary);background:rgba(0,255,136,0.05);box-shadow:0 0 12px rgba(0,255,136,0.1)}
+.cat-tab .prefix{color:var(--secondary);margin-right:4px}
+
+/* BRAND GRID */
+.brand-section{margin-bottom:48px}
+.brand-section-title{font-family:var(--mono);font-size:1rem;color:var(--secondary);margin-bottom:18px;padding-bottom:8px;border-bottom:1px dashed var(--border)}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px}
+.brand-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:24px;text-align:center;transition:all .3s;cursor:pointer;position:relative;overflow:hidden}
+.brand-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.brand-card:hover{border-color:var(--primary);box-shadow:0 0 18px rgba(0,255,136,0.12);transform:translateY(-3px)}
+.brand-icon{font-size:2.2rem;margin-bottom:10px}
+.brand-name{font-family:var(--mono);font-size:1rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:4px}
+.brand-meta{font-size:.8rem;color:var(--text);opacity:.5}
+.brand-tag{display:inline-block;font-family:var(--mono);font-size:.65rem;padding:2px 8px;border:1px solid var(--border);border-radius:8px;color:var(--secondary);margin-top:8px}
+
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+footer{border-top:1px solid var(--border);background:rgba(6,10,15,0.95);margin-top:40px}
+.footer-inner{max-width:1200px;margin:0 auto;padding:30px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-inner .logo{font-family:var(--mono);font-size:.9rem;color:var(--primary)}
+.footer-links{display:flex;gap:20px}
+.footer-links a{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.footer-links a:hover{opacity:1}
+
+@media(max-width:768px){
+  nav{display:none;position:absolute;top:60px;left:0;width:100%;background:rgba(6,10,15,0.98);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--border)}
+  nav.open{display:flex}
+  .mobile-toggle{display:block}
+  .brand-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-tabs{gap:6px}
+  .cat-tab{font-size:.75rem;padding:6px 12px}
+}
+@media(max-width:480px){.brand-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">&gt;_ PhoneHub<span>.sys</span></a>
+    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html" class="active">brands</a>
+      <a href="news.html">news</a>
+    </nav>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">// HOME</a> / BRANDS
+</div>
+
+<div class="section fade-in">
+  <h1 class="section-title">./list brands --all</h1>
+  <p class="section-sub">// 342 brands indexed across 6 categories</p>
+
+  <div class="cat-tabs">
+    <span class="cat-tab active" onclick="switchTab(this,'all')"><span class="prefix">&gt;</span> all</span>
+    <span class="cat-tab" onclick="switchTab(this,'mobiles')"><span class="prefix">&gt;</span> mobiles</span>
+    <span class="cat-tab" onclick="switchTab(this,'laptops')"><span class="prefix">&gt;</span> laptops</span>
+    <span class="cat-tab" onclick="switchTab(this,'tablets')"><span class="prefix">&gt;</span> tablets</span>
+    <span class="cat-tab" onclick="switchTab(this,'tvs')"><span class="prefix">&gt;</span> tvs</span>
+    <span class="cat-tab" onclick="switchTab(this,'auto')"><span class="prefix">&gt;</span> auto</span>
+  </div>
+</div>
+
+<!-- MOBILES -->
+<section class="section brand-section fade-in" data-category="mobiles">
+  <h3 class="brand-section-title">$ ./filter --cat=mobiles</h3>
+  <div class="brand-grid">
+    <div class="brand-card">
+      <div class="brand-icon">🍎</div>
+      <div class="brand-name">Apple</div>
+      <div class="brand-meta">24 devices</div>
+      <span class="brand-tag">iPhone 16 series</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">📱</div>
+      <div class="brand-name">Samsung</div>
+      <div class="brand-meta">38 devices</div>
+      <span class="brand-tag">Galaxy S25</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🔴</div>
+      <div class="brand-name">OnePlus</div>
+      <div class="brand-meta">12 devices</div>
+      <span class="brand-tag">OP 13</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🔍</div>
+      <div class="brand-name">Google</div>
+      <div class="brand-meta">8 devices</div>
+      <span class="brand-tag">Pixel 9</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟠</div>
+      <div class="brand-name">Xiaomi</div>
+      <div class="brand-meta">22 devices</div>
+      <span class="brand-tag">Mi 15 Ultra</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟣</div>
+      <div class="brand-name">Nothing</div>
+      <div class="brand-meta">4 devices</div>
+      <span class="brand-tag">Phone (3)</span>
+    </div>
+  </div>
+</section>
+
+<!-- LAPTOPS -->
+<section class="section brand-section fade-in" data-category="laptops">
+  <h3 class="brand-section-title">$ ./filter --cat=laptops</h3>
+  <div class="brand-grid">
+    <div class="brand-card">
+      <div class="brand-icon">🍎</div>
+      <div class="brand-name">Apple</div>
+      <div class="brand-meta">8 devices</div>
+      <span class="brand-tag">MacBook Pro M4</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">💻</div>
+      <div class="brand-name">Dell</div>
+      <div class="brand-meta">16 devices</div>
+      <span class="brand-tag">XPS 16</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🔵</div>
+      <div class="brand-name">Lenovo</div>
+      <div class="brand-meta">15 devices</div>
+      <span class="brand-tag">ThinkPad X1</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟢</div>
+      <div class="brand-name">ASUS</div>
+      <div class="brand-meta">20 devices</div>
+      <span class="brand-tag">ZenBook Pro</span>
+    </div>
+  </div>
+</section>
+
+<!-- TABLETS -->
+<section class="section brand-section fade-in" data-category="tablets">
+  <h3 class="brand-section-title">$ ./filter --cat=tablets</h3>
+  <div class="brand-grid">
+    <div class="brand-card">
+      <div class="brand-icon">🍎</div>
+      <div class="brand-name">Apple</div>
+      <div class="brand-meta">6 devices</div>
+      <span class="brand-tag">iPad Pro M4</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">📱</div>
+      <div class="brand-name">Samsung</div>
+      <div class="brand-meta">8 devices</div>
+      <span class="brand-tag">Tab S10</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟠</div>
+      <div class="brand-name">Xiaomi</div>
+      <div class="brand-meta">4 devices</div>
+      <span class="brand-tag">Pad 7 Pro</span>
+    </div>
+  </div>
+</section>
+
+<!-- TVs -->
+<section class="section brand-section fade-in" data-category="tvs">
+  <h3 class="brand-section-title">$ ./filter --cat=tvs</h3>
+  <div class="brand-grid">
+    <div class="brand-card">
+      <div class="brand-icon">📺</div>
+      <div class="brand-name">Sony</div>
+      <div class="brand-meta">14 devices</div>
+      <span class="brand-tag">Bravia XR</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟢</div>
+      <div class="brand-name">LG</div>
+      <div class="brand-meta">18 devices</div>
+      <span class="brand-tag">C4 OLED</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">📱</div>
+      <div class="brand-name">Samsung</div>
+      <div class="brand-meta">12 devices</div>
+      <span class="brand-tag">Neo QLED</span>
+    </div>
+  </div>
+</section>
+
+<!-- AUTO -->
+<section class="section brand-section fade-in" data-category="auto">
+  <h3 class="brand-section-title">$ ./filter --cat=auto</h3>
+  <div class="brand-grid">
+    <div class="brand-card">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-name">Tesla</div>
+      <div class="brand-meta">5 vehicles</div>
+      <span class="brand-tag">Model Y</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🔵</div>
+      <div class="brand-name">BMW</div>
+      <div class="brand-meta">12 vehicles</div>
+      <span class="brand-tag">i4</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">🟡</div>
+      <div class="brand-name">Porsche</div>
+      <div class="brand-meta">6 vehicles</div>
+      <span class="brand-tag">Taycan</span>
+    </div>
+    <div class="brand-card">
+      <div class="brand-icon">⬜</div>
+      <div class="brand-name">Mercedes</div>
+      <div class="brand-meta">10 vehicles</div>
+      <span class="brand-tag">EQS</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <span class="logo">&gt;_ PhoneHub.sys</span>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+function switchTab(el, cat){
+  document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.brand-section').forEach(s=>{
+    if(cat==='all'||s.dataset.category===cat){s.style.display=''}
+    else{s.style.display='none'}
+  });
+}
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

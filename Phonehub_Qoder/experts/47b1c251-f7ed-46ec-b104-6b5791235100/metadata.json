@@ -1,0 +1,15 @@
+{
+  "name": "Experts Team",
+  "description": "Multi-agent experts session",
+  "version": "v1",
+  "sessionId": "47b1c251-f7ed-46ec-b104-6b5791235100",
+  "members": [
+    {
+      "teamId": "leader",
+      "name": "Leader",
+      "model": "",
+      "description": "",
+      "role": "leader"
+    }
+  ]
+}

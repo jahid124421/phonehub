@@ -1,0 +1,20 @@
+{
+  "id": "9",
+  "subject": "Migrate data pipeline output to JSON for Astro",
+  "description": "Phase 1.3: Modify tools/build.py to also output data/products.json and data/brands.json (structured JSON arrays) alongside existing js/data.js. The JSON files will be consumed by Astro at build time via getStaticPaths(). Keep existing pipeline intact for backward compatibility during migration.",
+  "status": "completed",
+  "owner": "Robin",
+  "blocks": [
+    "10",
+    "15"
+  ],
+  "metadata": {
+    "agentName": "Robin",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784404210998,
+    "tool_call_id": "call_678a23bb91cf4bea9764002f"
+  },
+  "activeForm": "Migrating data pipeline to JSON output",
+  "gmtCreate": 1784402474322,
+  "gmtModified": 1784404444134
+}

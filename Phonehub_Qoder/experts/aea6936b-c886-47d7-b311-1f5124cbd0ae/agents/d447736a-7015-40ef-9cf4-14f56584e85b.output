@@ -1,0 +1,14 @@
+--- RESULT ---
+Task 6 is complete. Here's a summary of what was done:
+
+**Cache-busting parameter `?v=2` added to all HTML files referencing `data.js`:**
+
+- **Root files** (12 files): `index.html`, `brands.html`, `search.html`, `compare.html`, `news.html`, `404.html`, `about.html`, `contact.html`, `disclosure.html`, `phone.html`, `privacy.html`, `terms.html` — changed `src="js/data.js"` → `src="js/data.js?v=2"`
+
+- **phonehub/** (12 files + ~1400 phone pages): Same root-level files plus all `phone/*.html` pages — changed both `src="js/data.js"` and `src="../js/data.js"` patterns
+
+- **website/** (12 files): All matching files updated
+
+- **projects/phonehub/** and **projects/_deploy_staging/** copies: All updated
+
+**Verification**: Confirmed zero remaining bare `js/data.js` or `../js/data.js` references (without `?v=2`) across the entire workspace. No other code was modified.

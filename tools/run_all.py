@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
 PhoneHub pipeline — run every stage in order.
-    python run_all.py            # import -> content -> price -> build
-    python run_all.py --skip-content   # e.g. refresh prices only
+    python run_all.py                        # import -> content -> price -> build
+    python run_all.py --skip-content         # e.g. refresh prices only
+    python run_all.py --detect-new           # include new product detection
+    python run_all.py --enrich-brands        # include brand enrichment
 Stdlib only.
 """
 import subprocess
@@ -31,6 +33,11 @@ def main():
     step("price_job.py")
     if "--skip-news" not in flags:
         step("news_fetch.py")
+    # Optional stages (only run when explicitly requested)
+    if "--detect-new" in flags:
+        step("new_product_detector.py")
+    if "--enrich-brands" in flags:
+        step("fix_brands.py")
     step("build.py")
     print("\n[run_all] done. Open index.html or serve the folder.")
 

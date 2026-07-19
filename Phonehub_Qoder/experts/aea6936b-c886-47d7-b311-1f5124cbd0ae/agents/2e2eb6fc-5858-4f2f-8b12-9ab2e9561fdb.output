@@ -1,0 +1,15 @@
+--- RESULT ---
+## Summary
+
+Fixed the compare page missing product search inputs in `src/pages/compare.astro`.
+
+**Root cause:** The `define:vars` Astro directive was used to serialize 1,412 products into an inline script. This created an excessively large inline script that likely failed silently, preventing `renderSlots()` from executing — so the search input HTML was never generated.
+
+**Fix applied:**
+1. Replaced `define:vars={{ productData: productIndex }}` with a separate `<script type="application/json" id="__PRODUCT_DATA__">` tag using Astro's `set:text` directive to embed the product data as JSON
+2. The client-side script now reads the data via `JSON.parse(document.getElementById('__PRODUCT_DATA__').textContent)` — no more `define:vars` overhead
+3. Added 2 initial search input slots directly in the HTML (visible before JS runs) as a progressive enhancement fallback
+4. Added duplicate-product filtering in the autocomplete dropdown (already-selected products are excluded from search results)
+5. Removed TypeScript annotations from the `<script>` block for cleaner plain JS execution
+
+**Verified:** Build succeeds — `dist/compare/index.html` (885KB) contains all key elements: `slots-container`, `slot-search`, `__PRODUCT_DATA__`, `selector-section`, `compare-btn`, and `empty-state`. The JS bundle is only 8.95 kB (3.42 kB gzipped).

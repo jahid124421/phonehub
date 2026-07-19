@@ -1,0 +1,19 @@
+{
+  "id": "13",
+  "subject": "Build compare, news, and legal pages",
+  "description": "Phase 3.5+3.6+3.7: Build compare page (src/pages/compare.astro) with product selector (search + select up to 4), CompareTable with winner highlighting, auto-generated summary, URL state. Build news page (src/pages/news.astro) with NewsCard grid and source filtering. Migrate legal/info pages (about, contact, privacy, terms, disclosure) to Astro layouts.",
+  "status": "completed",
+  "owner": "Jimmy",
+  "blocks": [
+    "14"
+  ],
+  "metadata": {
+    "agentName": "Jimmy",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784405330390,
+    "tool_call_id": "call_00c28039d28a4f3fb59d7306"
+  },
+  "activeForm": "Building compare and news pages",
+  "gmtCreate": 1784402474334,
+  "gmtModified": 1784405810697
+}

@@ -1,0 +1,19 @@
+{
+  "id": "15",
+  "subject": "Update GitHub Actions CI/CD for Astro builds",
+  "description": "Phase 6: Merge deploy.yml and auto-update.yml into a single consolidated workflow. Add Node.js setup and npm run build (Astro) step. Keep Python data pipeline steps (wikidata_seed, content_agent, price_job, news_fetch, build). Add new_product_detector step. Deploy via GitHub Pages. Eliminate race conditions between workflows.",
+  "status": "completed",
+  "owner": "Jason",
+  "blocks": [
+    "16"
+  ],
+  "metadata": {
+    "agentName": "Jason",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784404518986,
+    "tool_call_id": "call_afc9d3e9f1954919ae473519"
+  },
+  "activeForm": "Updating CI/CD workflow",
+  "gmtCreate": 1784402474345,
+  "gmtModified": 1784404732738
+}

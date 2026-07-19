@@ -1,0 +1,10 @@
+--- RESULT ---
+Done. Here's a summary of the changes applied to all 4 `brands.html` files (root, `phonehub/`, `projects/phonehub/`, `website/`):
+
+1. **Added `"Auto"` to `categoryOrder`** — now `["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Auto", "Other"]`, so Auto brands render in their own section before "Other".
+
+2. **Category-aware count logic** — Auto brands (`b.category === "Auto"`) count only products where `p.category === "auto"` and display `"X vehicles"`. All other brands count products where `p.category !== "auto"` (excluding cars from phone counts) and display `"X phones"`.
+
+3. **Auto brand link includes `&cat=auto`** — Auto brand tiles link to `search.html?brand=<id>&cat=auto`, while phone brands keep the original `search.html?brand=<id>` format.
+
+All new code uses `var` and `function` (no arrow functions) to match the existing ES5 style in the inline script. The staging deploy copies (`_deploy_staging/`) were left untouched as they use a different older script structure and are generated artifacts.

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHONEHUB — Command Your Tech Universe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#050810;--primary:#00a8ff;--secondary:#ffa800;--card-bg:#0a0f1a;--text:#e0e0e0;--text-dim:#7a8ba0;--green:#00ff88;--font-head:'Space Mono',monospace;--font-body:'Inter',sans-serif}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0s!important;transition-duration:0s!important}}
+body{font-family:var(--font-body);background:var(--base);color:var(--text);line-height:1.6;overflow-x:hidden;position:relative}
+body::before{content:'';position:fixed;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 79px,rgba(0,168,255,0.05) 79px,rgba(0,168,255,0.05) 80px),repeating-linear-gradient(90deg,transparent,transparent 79px,rgba(0,168,255,0.05) 79px,rgba(0,168,255,0.05) 80px);pointer-events:none;z-index:0}
+a{color:var(--primary);text-decoration:none;transition:color .2s}
+a:hover{color:var(--secondary)}
+img{max-width:100%;display:block}
+.container{max-width:1200px;margin:0 auto;padding:0 20px;position:relative;z-index:1}
+
+/* Starfield */
+.starfield{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden;pointer-events:none}
+.starfield::before,.starfield::after{content:'';position:absolute;width:2px;height:2px;border-radius:50%;background:transparent}
+.starfield::before{box-shadow:
+  24px 80px #fff,150px 200px #fff,300px 50px #fff,450px 300px #fff,600px 120px #fff,
+  750px 400px #fff,100px 500px #fff,200px 650px #fff,350px 150px #fff,500px 450px #fff,
+  650px 250px #fff,800px 550px #fff,950px 100px #fff,1100px 350px #fff,1250px 500px #fff,
+  50px 750px #fff,180px 850px #fff,320px 950px #fff,470px 700px #fff,620px 600px #fff,
+  770px 800px #fff,920px 900px #fff,1070px 750px #fff,1220px 850px #fff,70px 400px #fff,
+  220px 300px #fff,370px 550px #fff,520px 200px #fff,670px 700px #fff,820px 150px #fff,
+  970px 450px #fff,1120px 600px #fff,1270px 250px #fff,140px 950px #fff,290px 800px #fff,
+  440px 100px #fff,590px 850px #fff,740px 500px #fff,890px 300px #fff,1040px 650px #fff,
+  1190px 150px #fff,30px 600px #fff,160px 100px #fff,310px 400px #fff,460px 550px #fff,
+  610px 350px #fff,760px 650px #fff,910px 200px #fff,1060px 500px #fff,1210px 400px #fff,
+  90px 300px #fff,240px 500px #fff,390px 750px #fff,540px 100px #fff,690px 900px #fff,
+  840px 400px #fff,990px 600px #fff,1140px 200px #fff,1290px 700px #fff,60px 200px #fff,
+  200px 50px #fff,340px 650px #fff,490px 400px #fff,640px 800px #fff,790px 100px #fff,
+  940px 750px #fff,1090px 450px #fff,1240px 600px #fff,110px 850px #fff,260px 150px #fff,
+  410px 300px #fff,560px 700px #fff,710px 550px #fff,860px 250px #fff,1010px 900px #fff,
+  1160px 100px #fff,40px 450px #fff,190px 700px #fff,330px 250px #fff,480px 900px #fff,
+  630px 150px #fff,780px 350px #fff,930px 550px #fff,1080px 800px #fff,1230px 300px #fff,
+  130px 550px #fff,280px 450px #fff,430px 850px #fff,580px 500px #fff,730px 100px #fff,
+  880px 650px #fff,1030px 350px #fff,1180px 750px #fff,70px 150px #fff,220px 900px #fff,
+  370px 350px #fff,520px 650px #fff,670px 450px #fff,820px 800px #fff,970px 200px #fff;
+  animation:starMove 120s linear infinite}
+.starfield::after{box-shadow:
+  50px 120px rgba(255,255,255,.5),200px 320px rgba(255,255,255,.5),350px 80px rgba(255,255,255,.5),
+  500px 520px rgba(255,255,255,.5),650px 180px rgba(255,255,255,.5),800px 620px rgba(255,255,255,.5),
+  950px 280px rgba(255,255,255,.5),1100px 480px rgba(255,255,255,.5),120px 720px rgba(255,255,255,.5),
+  270px 420px rgba(255,255,255,.5),420px 680px rgba(255,255,255,.5),570px 220px rgba(255,255,255,.5),
+  720px 580px rgba(255,255,255,.5),870px 380px rgba(255,255,255,.5),1020px 780px rgba(255,255,255,.5),
+  1170px 120px rgba(255,255,255,.5),80px 920px rgba(255,255,255,.5),230px 580px rgba(255,255,255,.5),
+  380px 180px rgba(255,255,255,.5),530px 780px rgba(255,255,255,.5),680px 320px rgba(255,255,255,.5),
+  830px 920px rgba(255,255,255,.5),980px 520px rgba(255,255,255,.5),1130px 680px rgba(255,255,255,.5),
+  160px 380px rgba(255,255,255,.5),310px 620px rgba(255,255,255,.5),460px 280px rgba(255,255,255,.5),
+  610px 880px rgba(255,255,255,.5),760px 480px rgba(255,255,255,.5),910px 720px rgba(255,255,255,.5),
+  1060px 180px rgba(255,255,255,.5),1210px 580px rgba(255,255,255,.5),40px 780px rgba(255,255,255,.5),
+  190px 220px rgba(255,255,255,.5),340px 920px rgba(255,255,255,.5),490px 580px rgba(255,255,255,.5);
+  animation:starMove 180s linear infinite}
+@keyframes starMove{from{transform:translateY(0)}to{transform:translateY(-2000px)}}
+
+/* Header */
+.header{position:sticky;top:0;z-index:100;background:rgba(5,8,16,0.95);border-bottom:1px solid rgba(0,168,255,0.2);backdrop-filter:blur(10px)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;max-width:1200px;margin:0 auto}
+.logo{font-family:var(--font-head);font-size:1.5rem;font-weight:700;color:var(--primary);letter-spacing:3px}
+.nav{display:flex;gap:30px;list-style:none}
+.nav a{font-family:var(--font-head);font-size:.75rem;color:#fff;text-transform:uppercase;letter-spacing:2px;padding:5px 0;border-bottom:2px solid transparent;transition:all .2s}
+.nav a:hover,.nav a.active{color:var(--primary);border-bottom-color:var(--primary)}
+.status-bar{background:rgba(0,168,255,0.03);border-bottom:1px solid rgba(0,168,255,0.1);padding:6px 0;font-family:var(--font-head);font-size:.7rem;color:var(--text-dim)}
+.status-inner{display:flex;gap:25px;max-width:1200px;margin:0 auto;padding:0 20px;align-items:center;flex-wrap:wrap}
+.status-dot{width:6px;height:6px;background:var(--green);border-radius:50%;display:inline-block;margin-right:6px;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:5px}
+.hamburger span{width:24px;height:2px;background:#fff;transition:all .3s}
+
+/* Hero */
+.hero{min-height:500px;display:flex;align-items:center;justify-content:center;text-align:center;padding:80px 20px;position:relative;z-index:1}
+.hero h1{font-family:var(--font-head);font-size:clamp(1.8rem,5vw,3.2rem);color:#fff;letter-spacing:4px;margin-bottom:15px}
+.hero h1 span{color:var(--primary)}
+.hero-sub{font-family:var(--font-head);font-size:1rem;color:var(--text-dim);margin-bottom:40px;min-height:1.6em}
+.typing-cursor{display:inline-block;width:2px;height:1em;background:var(--primary);margin-left:4px;animation:cursorBlink 1s step-end infinite;vertical-align:text-bottom}
+@keyframes cursorBlink{0%,100%{opacity:1}50%{opacity:0}}
+.search-box{display:flex;max-width:600px;margin:0 auto;border:1px solid var(--primary);background:rgba(0,168,255,0.05)}
+.search-box input{flex:1;background:transparent;border:none;padding:14px 20px;color:#fff;font-family:var(--font-body);font-size:1rem;outline:none}
+.search-box input::placeholder{color:var(--text-dim)}
+.search-box button{background:transparent;border:none;border-left:1px solid var(--primary);color:var(--primary);font-family:var(--font-head);font-size:.85rem;padding:14px 28px;cursor:pointer;letter-spacing:2px;transition:all .2s}
+.search-box button:hover{background:var(--primary);color:var(--base)}
+
+/* Category Strip */
+.cat-strip{padding:30px 0;border-top:1px solid rgba(0,168,255,0.1);border-bottom:1px solid rgba(0,168,255,0.1)}
+.cat-pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.cat-pill{font-family:var(--font-head);font-size:.7rem;padding:8px 18px;border:1px solid var(--primary);color:var(--text-dim);letter-spacing:2px;cursor:pointer;transition:all .2s;text-transform:uppercase;text-decoration:none}
+.cat-pill:hover,.cat-pill.active{background:var(--primary);color:var(--base)}
+
+/* Section Header */
+.sec-header{font-family:var(--font-head);font-size:1.3rem;color:var(--primary);margin-bottom:30px;letter-spacing:2px}
+.sec-header::before{content:'// ';color:var(--text-dim)}
+
+/* HUD Card */
+.hud-card{position:relative;background:var(--card-bg);border:1px solid rgba(0,168,255,0.2);padding:20px;transition:all .3s}
+.hud-card::before{content:'';position:absolute;top:-1px;left:-1px;width:15px;height:15px;border-top:2px solid var(--primary);border-left:2px solid var(--primary)}
+.hud-card::after{content:'';position:absolute;bottom:-1px;right:-1px;width:15px;height:15px;border-bottom:2px solid var(--primary);border-right:2px solid var(--primary)}
+.hud-card:hover{border-color:var(--primary);transform:translateY(-3px);box-shadow:0 0 20px rgba(0,168,255,0.1)}
+
+/* Product Cards */
+.products-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:25px;margin-bottom:60px}
+.product-card .product-img{width:100%;height:200px;background:linear-gradient(135deg,#0a1628,#0d1f3c);display:flex;align-items:center;justify-content:center;font-size:3rem;margin-bottom:15px;border-bottom:1px solid rgba(0,168,255,0.1)}
+.product-card .p-brand{font-family:var(--font-head);font-size:.65rem;color:var(--primary);letter-spacing:2px;text-transform:uppercase;margin-bottom:5px}
+.product-card .p-name{font-family:var(--font-head);font-size:.95rem;color:#fff;margin-bottom:8px}
+.product-card .p-price{font-family:var(--font-head);font-size:1.1rem;color:var(--secondary);margin-bottom:5px}
+.product-card .p-rating{font-size:.85rem;color:#fff}
+.product-card .p-rating span{color:var(--secondary);margin-left:4px}
+.product-card .p-cat{font-size:.7rem;color:var(--text-dim);text-transform:uppercase;margin-top:5px}
+
+/* Brands */
+.brands-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:15px;margin-bottom:60px}
+.brand-tile{text-align:center;padding:25px 15px}
+.brand-tile .b-name{font-family:var(--font-head);font-size:.8rem;color:#fff;letter-spacing:1px;text-transform:uppercase}
+.brand-tile .b-count{font-size:.7rem;color:var(--text-dim);margin-top:5px}
+
+/* News */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:25px;margin-bottom:60px}
+.news-card{border-top:3px solid var(--primary)}
+.news-card .n-source{font-family:var(--font-head);font-size:.65rem;color:var(--secondary);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+.news-card .n-title{font-family:var(--font-head);font-size:.9rem;color:#fff;margin-bottom:8px;line-height:1.4}
+.news-card .n-desc{font-size:.85rem;color:var(--text-dim);margin-bottom:10px;line-height:1.5}
+.news-card .n-date{font-size:.7rem;color:var(--text-dim)}
+
+/* Stats */
+.stats-section{padding:50px 0;border-top:1px solid rgba(0,168,255,0.1);border-bottom:1px solid rgba(0,168,255,0.1);margin-bottom:60px}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;text-align:center}
+.stat-num{font-family:var(--font-head);font-size:clamp(1.5rem,3vw,2.2rem);color:var(--primary);margin-bottom:5px}
+.stat-label{font-family:var(--font-head);font-size:.7rem;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase}
+
+/* Footer */
+.footer{border-top:1px solid rgba(0,168,255,0.15);padding:50px 0 30px;position:relative;z-index:1}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-bottom:40px}
+.footer h4{font-family:var(--font-head);font-size:.8rem;color:var(--primary);letter-spacing:2px;margin-bottom:15px;text-transform:uppercase}
+.footer ul{list-style:none}
+.footer li{margin-bottom:8px}
+.footer a{font-size:.85rem;color:var(--text-dim)}
+.footer a:hover{color:var(--primary)}
+.footer-copy{text-align:center;font-size:.75rem;color:var(--text-dim);border-top:1px solid rgba(0,168,255,0.1);padding-top:20px;font-family:var(--font-head)}
+
+/* Scroll animations */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+section{padding:50px 0;position:relative;z-index:1}
+
+/* Mobile */
+@media(max-width:768px){
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(5,8,16,0.98);flex-direction:column;padding:20px;gap:15px;border-bottom:1px solid rgba(0,168,255,0.2)}
+  .nav.open{display:flex}
+  .hamburger{display:flex}
+  .products-grid{grid-template-columns:1fr}
+  .brands-grid{grid-template-columns:repeat(2,1fr)}
+  .news-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:1fr;gap:20px}
+  .footer-grid{grid-template-columns:1fr;gap:25px}
+  .status-inner{font-size:.6rem;gap:12px}
+}
+</style>
+</head>
+<body>
+
+<div class="starfield"></div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">PHONEHUB</a>
+    <button class="hamburger" onclick="document.querySelector('.nav').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html" class="active">HOME</a>
+      <a href="search.html">DEVICES</a>
+      <a href="compare.html">COMPARE</a>
+      <a href="brands.html">BRANDS</a>
+      <a href="news.html">NEWS</a>
+    </nav>
+  </div>
+</header>
+<div class="status-bar">
+  <div class="status-inner">
+    <span><span class="status-dot"></span>SYS: ONLINE</span>
+    <span>DEVICES: 1,412</span>
+    <span>LAST UPDATE: 2h ago</span>
+  </div>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div>
+    <h1>COMMAND YOUR <span>TECH UNIVERSE</span></h1>
+    <div class="hero-sub"><span id="typed"></span><span class="typing-cursor"></span></div>
+    <div class="search-box">
+      <input type="text" placeholder="Search devices, brands, specs...">
+      <button onclick="window.location.href='search.html'">EXECUTE</button>
+    </div>
+  </div>
+</section>
+
+<!-- Categories -->
+<section class="cat-strip">
+  <div class="container">
+    <div class="cat-pills">
+      <a href="search.html" class="cat-pill">MOBILES</a>
+      <a href="search.html" class="cat-pill">TABLETS</a>
+      <a href="search.html" class="cat-pill">LAPTOPS</a>
+      <a href="search.html" class="cat-pill">TVS</a>
+      <a href="search.html" class="cat-pill">ELECTRONICS</a>
+      <a href="search.html" class="cat-pill">APPLIANCES</a>
+      <a href="search.html" class="cat-pill">COMPUTERS</a>
+      <a href="search.html" class="cat-pill">ACCESSORIES</a>
+      <a href="search.html" class="cat-pill">AUTO</a>
+    </div>
+  </div>
+</section>
+
+<!-- Trending Devices -->
+<section>
+  <div class="container">
+    <h2 class="sec-header">TRENDING DEVICES</h2>
+    <div class="products-grid" id="trending-grid"></div>
+  </div>
+</section>
+
+<!-- Popular Brands -->
+<section>
+  <div class="container">
+    <h2 class="sec-header">POPULAR BRANDS</h2>
+    <div class="brands-grid" id="brands-grid"></div>
+  </div>
+</section>
+
+<!-- Latest Intel -->
+<section>
+  <div class="container">
+    <h2 class="sec-header">LATEST INTEL</h2>
+    <div class="news-grid" id="news-grid"></div>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div><div class="stat-num">7</div><div class="stat-label">CATEGORIES</div></div>
+      <div><div class="stat-num">1,400+</div><div class="stat-label">DEVICES</div></div>
+      <div><div class="stat-num">DAILY</div><div class="stat-label">UPDATES</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>PRODUCT</h4>
+        <ul>
+          <li><a href="search.html">All Devices</a></li>
+          <li><a href="compare.html">Compare</a></li>
+          <li><a href="brands.html">Brands</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>CATEGORIES</h4>
+        <ul>
+          <li><a href="search.html">Mobiles</a></li>
+          <li><a href="search.html">Laptops</a></li>
+          <li><a href="search.html">Tablets</a></li>
+          <li><a href="search.html">TVs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>LEGAL</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Disclosure</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">&copy; 2025 PHONEHUB — ALL SYSTEMS OPERATIONAL</div>
+  </div>
+</footer>
+
+<script>
+const products=[
+  {name:'iPhone 16 Pro Max',brand:'Apple',price:'$1,199',rating:'4.8',cat:'Mobiles',icon:'📱'},
+  {name:'Galaxy S25 Ultra',brand:'Samsung',price:'$1,299',rating:'4.7',cat:'Mobiles',icon:'📱'},
+  {name:'OnePlus 13',brand:'OnePlus',price:'$899',rating:'4.5',cat:'Mobiles',icon:'📱'},
+  {name:'Tesla Model Y',brand:'Tesla',price:'$44,990',rating:'4.6',cat:'Auto',icon:'🚗'},
+  {name:'MacBook Pro M4',brand:'Apple',price:'$2,399',rating:'4.9',cat:'Laptops',icon:'💻'},
+  {name:'Sony Bravia XR',brand:'Sony',price:'$1,499',rating:'4.4',cat:'TVs',icon:'📺'}
+];
+const brands=[
+  {name:'Apple',count:48},{name:'Samsung',count:62},{name:'OnePlus',count:15},{name:'Tesla',count:5},
+  {name:'Google',count:12},{name:'Xiaomi',count:34},{name:'Dell',count:18},{name:'BMW',count:8},
+  {name:'Sony',count:28},{name:'LG',count:22},{name:'Huawei',count:19},{name:'Nike',count:7}
+];
+const news=[
+  {source:'TECHCRUNCH',title:'Apple Unveils Next-Gen A18 Bionic Chip Architecture',desc:'Apple reveals details of its upcoming silicon with significant performance gains and AI capabilities.',date:'Jul 18, 2025'},
+  {source:'THE VERGE',title:'Samsung Galaxy S25 Ultra Camera System Deep Dive',desc:'A comprehensive look at the quad-camera setup that pushes mobile photography boundaries.',date:'Jul 17, 2025'},
+  {source:'ENGADGET',title:'Tesla Model Y Refresh: Everything We Know So Far',desc:'The popular electric SUV is getting a major redesign with improved range and interior.',date:'Jul 16, 2025'}
+];
+
+function renderProducts(){
+  const grid=document.getElementById('trending-grid');
+  grid.innerHTML=products.map(p=>`
+    <a href="product.html" class="hud-card product-card reveal" style="text-decoration:none">
+      <div class="product-img">${p.icon}</div>
+      <div class="p-brand">${p.brand}</div>
+      <div class="p-name">${p.name}</div>
+      <div class="p-price">${p.price}</div>
+      <div class="p-rating">★ <span>${p.rating}</span></div>
+      <div class="p-cat">${p.cat}</div>
+    </a>`).join('');
+}
+function renderBrands(){
+  const grid=document.getElementById('brands-grid');
+  grid.innerHTML=brands.map(b=>`
+    <a href="brands.html" class="hud-card brand-tile reveal" style="text-decoration:none">
+      <div class="b-name">${b.name}</div>
+      <div class="b-count">${b.count} products</div>
+    </a>`).join('');
+}
+function renderNews(){
+  const grid=document.getElementById('news-grid');
+  grid.innerHTML=news.map(n=>`
+    <a href="news.html" class="hud-card news-card reveal" style="text-decoration:none">
+      <div class="n-source">${n.source}</div>
+      <div class="n-title">${n.title}</div>
+      <div class="n-desc">${n.desc}</div>
+      <div class="n-date">${n.date}</div>
+    </a>`).join('');
+}
+
+renderProducts();renderBrands();renderNews();
+
+// Typing animation
+const phrases=['Specs. Prices. Reviews. All in one command center.','1,400+ devices tracked across 7 categories.','Your mission control for tech decisions.'];
+let pi=0,ci=0,deleting=false;
+function type(){
+  const el=document.getElementById('typed');
+  const phrase=phrases[pi];
+  if(!deleting){
+    el.textContent=phrase.substring(0,ci+1);ci++;
+    if(ci===phrase.length){deleting=true;setTimeout(type,2000);return}
+  }else{
+    el.textContent=phrase.substring(0,ci-1);ci--;
+    if(ci===0){deleting=false;pi=(pi+1)%phrases.length}
+  }
+  setTimeout(type,deleting?30:60);
+}
+type();
+
+// Scroll reveal
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

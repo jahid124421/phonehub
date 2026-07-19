@@ -1,0 +1,241 @@
+--- RESULT ---
+---
+
+# Deep Research Report: Free APIs & Tools for PhoneHub Full Automation Pipeline
+
+## Current State of PhoneHub Pipeline (for context)
+
+The existing pipeline at `c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\phonehub\tools\` already integrates:
+- **Specs ingestion**: `import_specs.py` uses the open-source `azharimm/phone-specs-api` format
+- **Wikidata seeding**: `wikidata_seed.py` queries Wikidata SPARQL for phones, tablets, laptops, TVs, smartwatches, earbuds, headphones
+- **AI content**: `content_agent.py` uses Groq (primary), OpenRouter, Together, Cerebras, Gemini
+- **News**: `news_fetch.py` fetches from Hacker News Algolia API, RSS feeds (Android Authority, 9to5Google, XDA, The Verge, Engadget, TechCrunch), and Reddit
+- **Pricing**: `price_job.py` uses Amazon PA-API + affiliate search links
+- **Brand logos**: `download_brand_logos.py` uses hardcoded Wikipedia/Wikimedia Commons URLs
+
+---
+
+## 1. Free Brand Logo APIs
+
+| Resource | URL | What It Offers | Access Type | Free Limits | Quality |
+|----------|-----|---------------|-------------|-------------|---------|
+| **Logo.dev** | https://www.logo.dev/ | Logos by domain name, PNG/WebP/JPG | **Free with sign-up** (API key) | 500,000 requests/month free | Excellent -- 12M+ logos, verified |
+| **Simple Icons CDN** | https://simpleicons.org/ / GitHub: `simple-icons/simple-icons` | 3,450+ SVG brand icons via CDN | **Fully free (no sign-up)** | Unlimited, CC0 license | Excellent for monochrome brand icons. CDN: `cdn.simpleicons.org/<brand>/<color>` |
+| **Brandfetch Logo API** | https://brandfetch.com/developers | Logos, colors, fonts, brand data by domain | **Free with sign-up** | Logo API: 100 free requests (one-time), then paid. Brand API: 100 requests | Good -- world's largest logo repo but free tier is very small |
+| **DeBounce Logo API** | https://debounce.com/logo-api/ | Company logos by domain | **Free with sign-up** | Free tier available (limited) | Good |
+| **Wikimedia Commons** (current) | https://commons.wikimedia.org | Direct image URLs for brand logos | **Fully free (no sign-up)** | Unlimited | Variable -- manual curation needed, URLs can break |
+
+**Recommendation**: 
+- **Primary**: Use **Logo.dev** (500K/month free, high quality) -- requires sign-up for API key
+- **Fallback**: **Simple Icons CDN** for monochrome icons (truly free, no sign-up, CC0)
+- **Keep current**: Wikimedia Commons for car brand logos where already working
+- **Avoid**: Brandfetch (only 100 requests free total -- too restrictive for automation)
+
+---
+
+## 2. Free Product Data Sources
+
+### 2a. Phones
+
+| Resource | URL | Access Type | Free Limits | Quality |
+|----------|-----|-------------|-------------|---------|
+| **phone-specs-api** (azharimm) | https://github.com/azharimm/phone-specs-api | **Fully free (self-hosted)** | Unlimited when self-hosted | Good -- scrapes GSMArena, standardized JSON. Already used by PhoneHub |
+| **nordmarin/gsmarena-api** | https://github.com/nordmarin/gsmarena-api | **Fully free (self-hosted)** | Unlimited | Good -- reads GSMArena, returns JSON |
+| **raffyxyz/api-gsm-arena** | https://github.com/raffyxyz/api-gsm-arena | **Fully free (self-hosted)** | Unlimited | Good -- unofficial GSMArena API |
+| **MobileAPI.dev** | https://mobileapi.dev/ | **Free with sign-up** | Free tier: 10,500+ devices, limited requests | Good -- 31,500+ phones/tablets/wearables with images |
+| **TechSpecs API** | https://developer.techspecs.io/ | **Free with sign-up** | 10 requests free total, then $0.02/request | Good -- 240K+ consumer electronics |
+| **Wikidata SPARQL** | https://query.wikidata.org | **Fully free (no sign-up)** | Unlimited | Already used by PhoneHub. Good for broad catalog seeding |
+| **Apify GSMArena Scraper** | https://apify.com/shahidirfan/gsmarena-phone-specs-scraper | Free with Apify sign-up | Apify free tier limits | Good for batch scraping |
+
+**Recommendation**: 
+- **Primary** (already in use): `phone-specs-api` self-hosted instance + Wikidata SPARQL for catalog breadth
+- **Add**: `nordmarin/gsmarena-api` or `raffyxyz/api-gsm-arena` as fallback scrapers
+- **Consider**: MobileAPI.dev free tier for supplementary data + device images
+
+### 2b. Cars
+
+| Resource | URL | Access Type | Free Limits | Quality |
+|----------|-----|-------------|-------------|---------|
+| **NHTSA vPIC API** | https://vpic.nhtsa.dot.gov/api/ | **Fully free (no sign-up)** | Unlimited, 24/7, no registration | Excellent -- official US gov data. VIN decoding, makes, models, trims, engine specs |
+| **Wikidata SPARQL** | https://query.wikidata.org | **Fully free** | Unlimited | Good for catalog seeding (already used for some auto data) |
+| **carapi.app** | https://carapi.app/ | Free with sign-up | Free tier available | Good -- trim-level specs, VIN decoding |
+| **Edmunds Vehicle API** | Referenced at smartcar.com/blog | Free with sign-up | Free tier | Good -- US market data |
+
+**Recommendation**: 
+- **Primary**: **NHTSA vPIC API** -- completely free, no sign-up, no rate limits, official government data. Python wrapper available: `pip install vpic-api`
+- **Supplement**: Wikidata SPARQL for non-US vehicles and broader catalog
+
+### 2c. Laptops
+
+| Resource | URL | Access Type | Free Limits | Quality |
+|----------|-----|-------------|-------------|---------|
+| **Wikidata SPARQL** | https://query.wikidata.org (Q3962) | **Fully free** | Unlimited | Already seeded. Good breadth, limited depth |
+| **Notebookcheck.net** | https://www.notebookcheck.net/ | Web scraping (no API) | N/A -- scrape HTML | Excellent -- most detailed laptop reviews/benchmarks |
+| **LaptopMedia** | https://laptopmedia.com/ | Web scraping | N/A | Good -- 300K+ laptops with lab reviews |
+| **Kaggle Laptop Dataset** | https://www.kaggle.com/datasets/adityamishraml/laptops | **Fully free** download | Unlimited | Good for initial seed -- static CSV data |
+| **Noteb.com** | https://noteb.com/ | Web scraping | N/A | Good search/comparison engine |
+
+**Recommendation**: 
+- **Primary**: Wikidata SPARQL (already integrated) for broad catalog
+- **Enrichment**: Scrape Notebookcheck for benchmark data (requires custom scraper, no official API)
+- **Seed data**: Kaggle laptop dataset for initial bulk import
+- **Note**: No free structured API exists for laptops comparable to NHTSA for cars. Scraping is the main path.
+
+### 2d. TVs / Electronics
+
+| Resource | URL | Access Type | Free Limits | Quality |
+|----------|-----|-------------|-------------|---------|
+| **Wikidata SPARQL** | https://query.wikidata.org (Q8075, Q564635) | **Fully free** | Unlimited | Already seeded for TVs |
+| **FlatpanelsHD TV Database** | https://www.flatpanelshd.com/TVdatabase.php | Web scraping | N/A | Good -- detailed TV specs, comparison |
+| **TechSpecs API** | https://developer.techspecs.io/ | Free with sign-up | 10 free requests | 240K+ consumer electronics including TVs |
+
+**Recommendation**: 
+- **Primary**: Wikidata SPARQL (already covers phones, tablets, laptops, TVs, smartwatches, earbuds, headphones)
+- **Enrichment**: FlatpanelsHD scraping for detailed TV specs
+- **Note**: The electronics category has the weakest free API coverage. Wikidata + custom scraping is the most viable path.
+
+---
+
+## 3. Free LLM APIs for Content Generation
+
+Based on comprehensive 2026 comparison data (verified against provider documentation):
+
+| Provider | Models | RPM | RPD | TPM | Context | Sign-up? | Data Training? |
+|----------|--------|-----|-----|-----|---------|----------|----------------|
+| **Groq** | Llama 3.3 70B, Mixtral | 30 | 1,000 | High (~320 tok/s) | 128K | Yes (free, no card) | No |
+| **Cerebras** | Llama 3.3 70B, others | 30 | ~1M tokens/day | High (~2,600 tok/s) | Up to 1M (8K on free) | Yes (free, no card) | No |
+| **OpenRouter** | 20+ models via one key | 20 | 50 (1,000 with $10 top-up) | Variable | Up to 1M | Yes (free, no card) | No |
+| **Google AI Studio** | Gemini Flash/Pro, Gemma | 5-15 | 20-1,500 | Variable | Up to 1M | Yes (free, no card) | Yes (outside EU) |
+| **Mistral** | Codestral, Small/Large | Variable | ~1B tokens/month | Variable | 32K-256K | Yes (free) | Yes (Experiment tier) |
+| **GitHub Models** | GPT-4o, Claude 3.5, Llama, Phi | 15 | 150-1,000 | Variable | 8K-128K | Yes (GitHub account) | No |
+| **Cloudflare Workers AI** | 20+ OSS models | High | ~10K neurons/day | Variable | 2K-8K | Yes (free, no card) | No |
+| **Cohere** | Command R+ | 10-20 | ~100 | Low | 128K | Yes (free) | Non-commercial only |
+| **NVIDIA NIM** | Nemotron, Llama | High | ~1,000 | Variable | 128K | Yes (free) | No |
+
+**Recommendation for PhoneHub** (already well-configured):
+- **Primary**: **Groq** -- fastest inference, 1,000 RPD, Llama 3.3 70B, no data training. Already the default in `content_agent.py`.
+- **Failover**: **Cerebras** -- 1M tokens/day, very fast. Already configured as fallback.
+- **Backup**: **OpenRouter** for model variety. Already configured.
+- **Volume play**: **Mistral** Experiment tier (1B tokens/month) if data training opt-in is acceptable.
+- **Implementation**: Use multi-provider failover pattern already in place. The current setup is excellent.
+
+---
+
+## 4. Free News APIs and RSS Sources
+
+### Already Integrated (in `news_fetch.py`)
+
+| Source | Type | Category | Notes |
+|--------|------|----------|-------|
+| Hacker News (Algolia API) | API, no key | Tech/Phones/Laptops/Accessories | Reliable, no auth |
+| Android Authority RSS | RSS | Phones | `androidauthority.com/feed/` |
+| 9to5Google RSS | RSS | Phones | `9to5google.com/feed/` |
+| XDA Developers RSS | RSS | Phones | `xda-developers.com/feed/` |
+| The Verge RSS | RSS | Tech | `theverge.com/rss/index.xml` |
+| Engadget RSS | RSS | Tech | `engadget.com/rss.xml` |
+| TechCrunch RSS | RSS | Tech | `techcrunch.com/feed/` |
+| Reddit (r/Android, r/gadgets, r/laptops) | API/scrape | Phones/Accessories/Laptops | Often blocked on CI |
+
+### Additional Recommended Sources
+
+| Source | URL | Type | Category |
+|--------|-----|------|----------|
+| **GSMArena News RSS** | `https://www.gsmarena.com/rss-news-reviews` (or via rss.app) | RSS | Phones |
+| **Notebookcheck News RSS** | `https://www.notebookcheck.net/news/` (RSS available) | RSS | Laptops |
+| **LaptopMedia RSS** | notebookcheck.net equivalent feeds | RSS | Laptops |
+| **Tom's Guide RSS** | `https://www.tomsguide.com/feeds/all` | RSS | Tech/Phones/Laptops |
+| **CNET RSS** | `https://www.cnet.com/rss/news/` | RSS | Tech |
+| **GSMArena News Page** | `https://www.gsmarena.com/news.php3` | Scrape | Phones (new product detection) |
+| **GSMArena Rumored** | `https://www.gsmarena.com/rumored.php3` | Scrape | Phones (upcoming products) |
+| **CarAndDriver RSS** | `https://www.caranddriver.com/rss/all.xml` | RSS | Cars |
+| **MotorTrend RSS** | `https://www.motortrend.com/rss/` | RSS | Cars |
+| **NewsAPI.org** | https://newsapi.org/ | API, free tier | All (100 requests/day, developer plan) |
+
+**Recommendation**: 
+- **Add immediately**: GSMArena News RSS (critical for phone news and new product detection), Notebookcheck RSS for laptops
+- **Add for cars**: CarAndDriver + MotorTrend RSS feeds
+- **Add for breadth**: Tom's Guide and CNET RSS
+- **Avoid**: NewsAPI.org free tier is limited to 100 requests/day and delayed by 15 minutes
+
+---
+
+## 5. Free Website Monitoring Tools
+
+| Resource | URL | Type | Access | Notes |
+|----------|-----|------|--------|-------|
+| **Upptime** | https://github.com/upptime/upptime | GitHub Actions uptime monitor | **Fully free** | Checks every 5 min, creates GitHub Issues for incidents, generates status page. No servers needed |
+| **Lychee Broken Link Checker** | https://github.com/lycheeverse/lychee | GitHub Action + CLI | **Fully free** | Checks Markdown, HTML, text files for broken links. Fast (Rust-based). Available as GitHub Action |
+| **actions-broken-link-checker** | https://github.com/peaceiris/actions-broken-link-checker | GitHub Action | **Fully free** | Finds broken links, missing images in HTML |
+| **Broken Link Checker Action** | GitHub Marketplace | GitHub Action | **Fully free** | Checks a URL for broken links, creates issues |
+| **Website Uptime Monitor** | GitHub Marketplace | GitHub Action | **Fully free** | Monitors uptime, logs results, creates issues |
+
+**Recommendation**: 
+- **Uptime**: **Upptime** -- fork the template repo, configure your URLs, runs on GitHub Actions cron schedule. Zero cost.
+- **Broken links**: **Lychee** -- add to CI workflow, runs on schedule or PR. Catches dead links in generated HTML pages.
+- Both run entirely on GitHub Actions with no paid services required.
+
+---
+
+## 6. New Product Auto-Detection
+
+| Resource | URL | Method | Access | Notes |
+|----------|-----|--------|--------|-------|
+| **GSMArena New Phones Page** | `https://www.gsmarena.com/results.php3?sAvailabilities=0&sOSes=2&sOSversions=2900&sMakers=...` | Web scraping | **Fully free** | Lists recently added phones. Scrape for new entries |
+| **GSMArena News RSS** | Via rss.app or direct | RSS feed | **Fully free** | News articles about new phone launches |
+| **GSMArena Rumored Page** | `https://www.gsmarena.com/rumored.php3` | Web scraping | **Fully free** | Upcoming/unreleased phones |
+| **Wikidata Recent Changes** | `https://query.wikidata.org` (recent entities query) | SPARQL | **Fully free** | Query for recently created items in phone/laptop/TV categories |
+| **Hacker News Algolia API** | Already integrated | API | **Fully free** | Already filtering for "smartphone", "laptop", etc. |
+| **Reddit r/Android, r/gadgets** | Already integrated (best-effort) | API | **Fully free** | Already configured but often blocked on CI |
+| **Product Hunt RSS** | `https://www.producthunt.com/feed` | RSS | **Fully free** | Tech product launches (not phone-specific) |
+
+**Recommendation**: 
+- **Primary for phones**: Scrape GSMArena's recently-added phones page on a cron schedule. Compare against existing `data/specs.json` to detect new entries.
+- **Secondary**: GSMArena News RSS for launch announcements (already should be added)
+- **Cross-category**: Wikidata recent-changes SPARQL queries for new entities in laptop, TV, car categories
+- **Implementation**: Add a `detect_new_products.py` stage that scrapes GSMArena's latest page, compares IDs with existing specs, and triggers the pipeline for new items
+
+---
+
+## 7. Free Image APIs for Product Images
+
+| Resource | URL | Access Type | Free Limits | Quality |
+|----------|-----|-------------|-------------|---------|
+| **Wikidata Commons** (via SPARQL) | https://query.wikidata.org + `image` property | **Fully free** | Unlimited | Already used in `wikidata_seed.py`. Variable quality |
+| **phone-specs-api** (image fields) | Self-hosted | **Fully free** | Unlimited | Images from GSMArena listings |
+| **MobileAPI.dev** | https://mobileapi.dev/ | Free with sign-up | Free tier includes images | Device images with specs |
+| **Pixabay API** | https://pixabay.com/api/docs/ | **Free with sign-up** (API key) | 5,000 images/hour | Stock photos, not product-specific |
+| **Unsplash API** | https://unsplash.com/developers | **Free with sign-up** | 50 requests/hour (demo) | Stock photos |
+| **MockUPhone** | https://mockuphone.com/ | Web tool | Free | Device frame mockups (manual) |
+| **Device Shots** | https://deviceshots.com/ | Web tool | Free | Device mockups (manual) |
+
+**Recommendation**: 
+- **Primary**: **Wikidata Commons images** (already integrated in `wikidata_seed.py`) -- truly free, no sign-up
+- **Supplement**: Extract image URLs from GSMArena via the `phone-specs-api` scraper (already returns image fields)
+- **Consider**: MobileAPI.dev free tier for higher-quality device render images
+- **Note**: For truly free, automated product images, Wikidata Commons + GSMArena scraping is the most reliable combination. Stock photo APIs (Pixabay, Unsplash) are not suitable for specific product images.
+
+---
+
+## Summary: Priority Recommendations by Category
+
+| Category | #1 Recommendation | Access | Why |
+|----------|-------------------|--------|-----|
+| **Brand Logos** | Logo.dev (500K/mo free) + Simple Icons CDN | Sign-up + Fully free | Highest coverage; Simple Icons for fallback |
+| **Phone Specs** | phone-specs-api (self-hosted) + Wikidata | Fully free | Already integrated, working well |
+| **Car Specs** | **NHTSA vPIC API** | Fully free, no sign-up | Official gov data, unlimited, free |
+| **Laptop Specs** | Wikidata + Notebookcheck scraping | Fully free | No good free API exists; scraping required |
+| **TV/Electronics** | Wikidata + FlatpanelsHD scraping | Fully free | Weakest free API ecosystem |
+| **LLM Content** | Groq (primary) + Cerebras (failover) | Sign-up (free, no card) | Already configured; fastest + most generous |
+| **News** | Add GSMArena RSS, Notebookcheck RSS, CarAndDriver RSS | Fully free | Fill gaps in cars + laptop coverage |
+| **Monitoring** | Upptime + Lychee | Fully free | GitHub Actions native, zero cost |
+| **New Product Detection** | GSMArena scraping + Wikidata recent-changes | Fully free | Automatable, reliable |
+| **Product Images** | Wikidata Commons + GSMArena images | Fully free | Already partially integrated |
+
+### Key Takeaway
+
+The existing PhoneHub pipeline is already well-architected with strong free tool integration (Wikidata SPARQL, Groq, Hacker News API, RSS feeds). The biggest gaps to fill are:
+1. **NHTSA vPIC API** for car specs -- completely free government data, no sign-up needed
+2. **Logo.dev** for brand logos -- massive free tier replacing fragile Wikimedia URLs
+3. **GSMArena scraping** for new product auto-detection -- the single most impactful addition
+4. **Additional RSS feeds** for car and laptop news categories
+5. **Upptime + Lychee** for monitoring -- trivial to add, zero cost

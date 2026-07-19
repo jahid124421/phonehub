@@ -1,0 +1,19 @@
+{
+  "id": "14",
+  "subject": "Add SEO structured data and performance optimization",
+  "description": "Phase 5: Set up @astrojs/sitemap with per-category sitemaps. Add JSON-LD structured data to all product pages. Add Open Graph meta tags. Set up Pagefind build-time search index. Configure Astro image optimization (WebP/AVIF). Add lazy loading and preconnect hints. Ensure zero JS by default with only interactive islands loading scripts.",
+  "status": "completed",
+  "owner": "Robin",
+  "blocks": [
+    "16"
+  ],
+  "metadata": {
+    "agentName": "Robin",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784405845509,
+    "tool_call_id": "call_6add446c11fb4dadb863a6bf"
+  },
+  "activeForm": "Adding SEO and performance optimizations",
+  "gmtCreate": 1784402474342,
+  "gmtModified": 1784409457948
+}

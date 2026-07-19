@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Compare Products</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0a0e1a;--card:rgba(0,240,255,0.05);--cyan:#00f0ff;--magenta:#ff00ff;--glass-blur:blur(12px);--glow:0 0 15px rgba(0,240,255,0.3);--glow-hover:0 0 25px rgba(0,240,255,0.55);--radius:14px;--transition:0.35s cubic-bezier(.4,0,.2,1)}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--base);color:#e0e8f0;line-height:1.6;overflow-x:hidden;background-image:linear-gradient(rgba(0,240,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,240,255,0.03) 1px,transparent 1px);background-size:50px 50px}
+h1,h2,h3,h4,h5,h6{font-family:'Orbitron',monospace;color:var(--cyan);letter-spacing:.5px}
+a{color:var(--cyan);text-decoration:none;transition:color var(--transition)}a:hover{color:var(--magenta)}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:#080c16}::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:10px}
+
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(10,14,26,0.85);backdrop-filter:blur(18px);border-bottom:1px solid rgba(0,240,255,0.15);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Orbitron',monospace;font-size:1.35rem;font-weight:800;color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.7)}
+.logo span{color:var(--magenta)}
+nav{display:flex;gap:2rem;align-items:center}
+nav a{font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8}
+nav a:hover,nav a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.5)}
+.nav-toggle{display:none;background:none;border:none;color:var(--cyan);font-size:1.5rem;cursor:pointer}
+
+.glass{background:var(--card);backdrop-filter:var(--glass-blur);border:1px solid rgba(0,240,255,0.2);border-radius:var(--radius);box-shadow:var(--glow);transition:all var(--transition);position:relative;overflow:hidden}
+.glass::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,0.015) 2px,rgba(0,240,255,0.015) 4px)}
+.glass:hover{box-shadow:var(--glow-hover);border-color:rgba(0,240,255,0.45)}
+
+/* HERO */
+.page-hero{text-align:center;padding:3.5rem 2rem 2rem;max-width:800px;margin:0 auto}
+.page-hero h1{font-size:clamp(1.6rem,3.5vw,2.2rem);margin-bottom:.6rem}
+.page-hero p{color:#8ea4b8;font-size:.95rem}
+
+/* PRODUCT SELECTORS */
+.selectors{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;max-width:1280px;margin:0 auto;padding:0 2rem 2rem}
+.selector-box{padding:1.2rem}
+.selector-box input{width:100%;padding:.6rem 1rem;background:rgba(0,240,255,0.04);border:1px solid rgba(0,240,255,0.2);border-radius:10px;color:#e0e8f0;font-size:.82rem;outline:none;margin-bottom:1rem}
+.selector-box input:focus{border-color:var(--cyan);box-shadow:0 0 10px rgba(0,240,255,0.2)}
+.selector-box input::placeholder{color:#5a7088}
+.selected-product{text-align:center}
+.selected-product .img-placeholder{width:80px;height:80px;margin:0 auto .8rem;background:#0d1525;border:1px solid rgba(0,240,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:2rem}
+.selected-product h3{font-size:.85rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600}
+.selected-product .sel-brand{font-size:.72rem;color:var(--cyan);text-transform:uppercase;letter-spacing:1px;font-weight:600}
+
+/* COMPARISON TABLE */
+.comparison-wrap{max-width:1280px;margin:0 auto;padding:0 2rem 3rem;overflow-x:auto}
+.comp-table{width:100%;border-collapse:separate;border-spacing:0;font-size:.85rem}
+.comp-table th,.comp-table td{padding:1rem 1.2rem;text-align:center;border-bottom:1px solid rgba(0,240,255,0.08)}
+.comp-table th:first-child,.comp-table td:first-child{text-align:left;font-weight:600;color:#8ea4b8;font-size:.8rem;text-transform:uppercase;letter-spacing:1px;width:140px}
+.comp-table thead th{font-family:'Orbitron',monospace;color:var(--cyan);font-size:.9rem;padding-bottom:1.5rem;border-bottom:2px solid rgba(0,240,255,0.2)}
+.comp-table .img-cell{padding:1.5rem}
+.comp-table .img-cell .img-placeholder{width:80px;height:80px;margin:0 auto;background:#0d1525;border:1px solid rgba(0,240,255,0.2);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:2rem}
+.comp-table td.winner{color:var(--cyan);font-weight:700;position:relative;text-shadow:0 0 8px rgba(0,240,255,0.4)}
+.comp-table td.winner::before{content:'';position:absolute;inset:0;border:2px solid rgba(0,240,255,0.5);border-radius:8px;box-shadow:inset 0 0 12px rgba(0,240,255,0.15)}
+.comp-table tr:hover td{background:rgba(0,240,255,0.02)}
+
+/* SUMMARY */
+.summary-section{max-width:1280px;margin:0 auto;padding:0 2rem 4rem}
+.summary-section h2{font-size:1.3rem;margin-bottom:1.5rem}
+.summary-card{padding:2rem}
+.summary-card p{font-size:.9rem;color:#b0c4d8;line-height:1.8}
+
+/* FOOTER */
+.site-footer{border-top:1px solid rgba(0,240,255,0.12);padding:3rem 2rem 2rem;max-width:1280px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{font-size:.85rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.footer-col a{display:block;font-size:.82rem;color:#7a90a8;margin-bottom:.55rem}.footer-col a:hover{color:var(--cyan)}
+.footer-copy{text-align:center;font-size:.75rem;color:#4a5e72;padding-top:1.5rem;border-top:1px solid rgba(0,240,255,0.08)}
+
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.anim.from-left{transform:translateX(-40px)}.anim.from-right{transform:translateX(40px)}
+.anim.visible{opacity:1;transform:translate(0)}
+
+@media(max-width:900px){.selectors{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){
+  nav{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(0,240,255,0.15)}
+  nav.open{display:flex}.nav-toggle{display:block}
+  .selectors{grid-template-columns:1fr}
+  .comp-table{font-size:.75rem}
+  .comp-table th,.comp-table td{padding:.6rem .5rem}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}.anim{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">Phone<span>Hub</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html">Devices</a>
+    <a href="compare.html" class="active">Compare</a>
+    <a href="brands.html">Brands</a>
+    <a href="news.html">News</a>
+  </nav>
+</header>
+
+<section class="page-hero anim">
+  <h1>Compare Products</h1>
+  <p>Select up to 4 products to compare specs, prices, and ratings</p>
+</section>
+
+<!-- SELECTORS -->
+<div class="selectors">
+  <div class="glass selector-box anim">
+    <input type="text" placeholder="Search for a product..." value="iPhone 16 Pro Max">
+    <div class="selected-product">
+      <div class="img-placeholder">📱</div>
+      <div class="sel-brand">Apple</div>
+      <h3>iPhone 16 Pro Max</h3>
+    </div>
+  </div>
+  <div class="glass selector-box anim from-right">
+    <input type="text" placeholder="Search for a product..." value="Galaxy S25 Ultra">
+    <div class="selected-product">
+      <div class="img-placeholder">📱</div>
+      <div class="sel-brand">Samsung</div>
+      <h3>Galaxy S25 Ultra</h3>
+    </div>
+  </div>
+  <div class="glass selector-box anim">
+    <input type="text" placeholder="Search for a product...">
+    <div class="selected-product" style="opacity:.3">
+      <div class="img-placeholder">+</div>
+      <h3>Add Product</h3>
+    </div>
+  </div>
+  <div class="glass selector-box anim from-right">
+    <input type="text" placeholder="Search for a product...">
+    <div class="selected-product" style="opacity:.3">
+      <div class="img-placeholder">+</div>
+      <h3>Add Product</h3>
+    </div>
+  </div>
+</div>
+
+<!-- COMPARISON TABLE -->
+<div class="comparison-wrap">
+  <table class="comp-table anim">
+    <thead>
+      <tr><th>Spec</th><th>iPhone 16 Pro Max</th><th>Galaxy S25 Ultra</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Image</td>
+        <td class="img-cell"><div class="img-placeholder">📱</div></td>
+        <td class="img-cell"><div class="img-placeholder">📱</div></td>
+      </tr>
+      <tr><td>Name</td><td>iPhone 16 Pro Max</td><td>Galaxy S25 Ultra</td></tr>
+      <tr><td>Brand</td><td>Apple</td><td>Samsung</td></tr>
+      <tr><td>Price</td><td class="winner">$1,199</td><td>$1,299</td></tr>
+      <tr><td>Rating</td><td class="winner">★ 4.8</td><td>★ 4.7</td></tr>
+      <tr><td>Display</td><td>6.9" OLED 120Hz</td><td class="winner">6.9" AMOLED 120Hz</td></tr>
+      <tr><td>Processor</td><td class="winner">Apple A18 Pro (3nm)</td><td>Snapdragon 8 Elite</td></tr>
+      <tr><td>RAM</td><td>8 GB</td><td class="winner">12 GB</td></tr>
+      <tr><td>Storage</td><td>256 GB</td><td class="winner">512 GB</td></tr>
+      <tr><td>Camera</td><td>48 MP (triple)</td><td class="winner">200 MP (quad)</td></tr>
+      <tr><td>Battery</td><td>4685 mAh</td><td class="winner">5000 mAh</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- SUMMARY -->
+<section class="summary-section">
+  <h2 class="anim">📊 Comparison Summary</h2>
+  <div class="glass summary-card anim">
+    <p>The <strong style="color:var(--cyan)">iPhone 16 Pro Max</strong> and <strong style="color:var(--magenta)">Galaxy S25 Ultra</strong> are flagship titans going head-to-head in 2025. The iPhone wins on price ($100 less), overall rating (4.8 vs 4.7), and raw processor performance with the A18 Pro chip built on 3nm technology. Meanwhile, the Galaxy S25 Ultra pulls ahead in RAM (12GB vs 8GB), storage capacity (512GB base), camera megapixel count (200MP main sensor), and battery capacity (5000mAh). Both feature identical 6.9" 120Hz displays. If you prioritize ecosystem integration and raw chip performance, the iPhone is your pick. If you want maximum specs on paper and Android flexibility, the Galaxy S25 Ultra delivers.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Products</h4><a href="search.html">All Devices</a><a href="compare.html">Compare</a><a href="search.html">Mobiles</a><a href="search.html">Laptops</a></div>
+    <div class="footer-col"><h4>Categories</h4><a href="brands.html">Brands</a><a href="search.html">Tablets</a><a href="search.html">TVs</a><a href="search.html">Auto</a></div>
+    <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Disclosure</a><a href="#">Contact</a></div>
+  </div>
+  <div class="footer-copy">© 2026 PhoneHub. All rights reserved.</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 80); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>

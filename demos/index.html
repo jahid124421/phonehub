@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — 5 Sci-Fi Design Demos</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',sans-serif;background:#0a0e1a;color:#e0e0e0;min-height:100vh;padding:40px 20px}
+.container{max-width:1200px;margin:0 auto}
+h1{font-size:2.5rem;font-weight:900;text-align:center;margin-bottom:8px;background:linear-gradient(135deg,#00f0ff,#8b5cf6,#ff00ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.subtitle{text-align:center;color:#7a8ba0;font-size:1.1rem;margin-bottom:50px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:30px;margin-bottom:40px}
+.card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:16px;overflow:hidden;transition:all 0.3s ease;cursor:pointer;text-decoration:none;color:inherit;display:block}
+.card:hover{transform:translateY(-6px);border-color:rgba(255,255,255,0.2)}
+.card-header{height:180px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;position:relative;overflow:hidden}
+.card-header h2{font-size:1.5rem;font-weight:800;z-index:1}
+.card-header p{font-size:0.9rem;z-index:1;opacity:0.8}
+.badge{display:inline-block;padding:4px 14px;border-radius:20px;font-size:0.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;z-index:1}
+.card-body{padding:24px}
+.card-body h3{font-size:1rem;font-weight:600;margin-bottom:12px;color:#fff}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+.tag{font-size:0.7rem;padding:3px 10px;border-radius:4px;background:rgba(255,255,255,0.06);color:#aaa}
+.pages{font-size:0.85rem;color:#7a8ba0}
+.pages span{color:#fff;font-weight:500}
+
+/* Option A */
+.card-a{border-color:rgba(0,240,255,0.2)}.card-a:hover{border-color:rgba(0,240,255,0.5);box-shadow:0 0 30px rgba(0,240,255,0.15)}
+.card-a .card-header{background:linear-gradient(135deg,#0a1628,#1a0a2e)}
+.card-a h2{color:#00f0ff}.card-a .badge{background:rgba(0,240,255,0.15);color:#00f0ff}
+
+/* Option B */
+.card-b{border-color:rgba(0,168,255,0.2)}.card-b:hover{border-color:rgba(0,168,255,0.5);box-shadow:0 0 30px rgba(0,168,255,0.15)}
+.card-b .card-header{background:linear-gradient(135deg,#050810,#0a1225)}
+.card-b h2{color:#00a8ff}.card-b .badge{background:rgba(255,168,0,0.15);color:#ffa800}
+
+/* Option C */
+.card-c{border-color:rgba(139,92,246,0.2)}.card-c:hover{border-color:rgba(139,92,246,0.5);box-shadow:0 0 30px rgba(139,92,246,0.15)}
+.card-c .card-header{background:linear-gradient(135deg,#0a0e1a,#1a0a2e)}
+.card-c h2{background:linear-gradient(135deg,#06b6d4,#8b5cf6,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.card-c .badge{background:rgba(139,92,246,0.15);color:#a78bfa}
+
+/* Option D */
+.card-d{border-color:rgba(0,255,136,0.15)}.card-d:hover{border-color:rgba(0,255,136,0.4);box-shadow:0 0 30px rgba(0,255,136,0.1)}
+.card-d .card-header{background:linear-gradient(135deg,#060a0f,#0a1210)}
+.card-d h2{color:#00ff88;font-family:'Courier New',monospace}.card-d .badge{background:rgba(0,255,136,0.12);color:#00ff88}
+
+/* Option E */
+.card-e{border-color:rgba(139,92,246,0.2)}.card-e:hover{border-color:rgba(6,182,212,0.5);box-shadow:0 0 30px rgba(139,92,246,0.15)}
+.card-e .card-header{background:linear-gradient(135deg,#0c0f1e,#15102e)}
+.card-e h2{background:linear-gradient(135deg,#8b5cf6,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.card-e .badge{background:rgba(245,158,11,0.15);color:#f59e0b}
+
+.footer{text-align:center;margin-top:40px;color:#4a5568;font-size:0.85rem}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>PhoneHub Sci-Fi Redesign</h1>
+  <p class="subtitle">5 complete website designs — click any card to browse the full site</p>
+
+  <div class="grid">
+    <a href="a-neon-cyberpunk/index.html" class="card card-a">
+      <div class="card-header">
+        <span class="badge">Option A</span>
+        <h2>Neon Cyberpunk</h2>
+        <p>Blade Runner marketplace</p>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag">Cyan neon glow</span>
+          <span class="tag">Magenta accents</span>
+          <span class="tag">Glitch text</span>
+          <span class="tag">Cyber grid</span>
+          <span class="tag">Orbitron font</span>
+        </div>
+        <p class="pages"><span>6 pages:</span> Home, Search, Brands, Product, Compare, News</p>
+      </div>
+    </a>
+
+    <a href="b-space-command/index.html" class="card card-b">
+      <div class="card-header">
+        <span class="badge">Option B</span>
+        <h2>Space Command</h2>
+        <p>Mission control dashboard</p>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag">Starfield bg</span>
+          <span class="tag">HUD brackets</span>
+          <span class="tag">Amber prices</span>
+          <span class="tag">Status bar</span>
+          <span class="tag">Space Mono</span>
+        </div>
+        <p class="pages"><span>6 pages:</span> Home, Search, Brands, Product, Compare, News</p>
+      </div>
+    </a>
+
+    <a href="c-holographic-prism/index.html" class="card card-c">
+      <div class="card-header">
+        <span class="badge">Option C</span>
+        <h2>Holographic Prism</h2>
+        <p>Premium tech showroom</p>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag">Shimmer borders</span>
+          <span class="tag">Iridescent orb</span>
+          <span class="tag">Chromatic text</span>
+          <span class="tag">Gradient heads</span>
+          <span class="tag">Particles</span>
+        </div>
+        <p class="pages"><span>6 pages:</span> Home, Search, Brands, Product, Compare, News</p>
+      </div>
+    </a>
+
+    <a href="d-digital-matrix/index.html" class="card card-d">
+      <div class="card-header">
+        <span class="badge">Option D</span>
+        <h2>Digital Matrix</h2>
+        <p>Hacker terminal aesthetic</p>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag">Digital rain</span>
+          <span class="tag">Green phosphor</span>
+          <span class="tag">Terminal prompts</span>
+          <span class="tag">Scanlines</span>
+          <span class="tag">JetBrains Mono</span>
+        </div>
+        <p class="pages"><span>6 pages:</span> Home, Search, Brands, Product, Compare, News</p>
+      </div>
+    </a>
+
+    <a href="e-quantum-flux/index.html" class="card card-e">
+      <div class="card-header">
+        <span class="badge">Option E</span>
+        <h2>Quantum Flux</h2>
+        <p>Premium sci-fi lab</p>
+      </div>
+      <div class="card-body">
+        <div class="tags">
+          <span class="tag">Aurora blobs</span>
+          <span class="tag">Violet→cyan flow</span>
+          <span class="tag">Magnetic tilt</span>
+          <span class="tag">Glassmorphism</span>
+          <span class="tag">Gradient mesh</span>
+        </div>
+        <p class="pages"><span>6 pages:</span> Home, Search, Brands, Product, Compare, News</p>
+      </div>
+    </a>
+  </div>
+
+  <p class="footer">All demos are standalone HTML files — open any page directly in your browser for the full animated experience</p>
+</div>
+</body>
+</html>

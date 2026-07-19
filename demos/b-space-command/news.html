@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHONEHUB — Tech Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#050810;--primary:#00a8ff;--secondary:#ffa800;--card-bg:#0a0f1a;--text:#e0e0e0;--text-dim:#7a8ba0;--green:#00ff88;--font-head:'Space Mono',monospace;--font-body:'Inter',sans-serif}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0s!important;transition-duration:0s!important}}
+body{font-family:var(--font-body);background:var(--base);color:var(--text);line-height:1.6;overflow-x:hidden;position:relative}
+body::before{content:'';position:fixed;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 79px,rgba(0,168,255,0.05) 79px,rgba(0,168,255,0.05) 80px),repeating-linear-gradient(90deg,transparent,transparent 79px,rgba(0,168,255,0.05) 79px,rgba(0,168,255,0.05) 80px);pointer-events:none;z-index:0}
+a{color:var(--primary);text-decoration:none;transition:color .2s}
+a:hover{color:var(--secondary)}
+.container{max-width:1200px;margin:0 auto;padding:0 20px;position:relative;z-index:1}
+.starfield{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden;pointer-events:none}
+.starfield::before{content:'';position:absolute;width:2px;height:2px;border-radius:50%;background:transparent;box-shadow:24px 80px #fff,150px 200px #fff,300px 50px #fff,450px 300px #fff,600px 120px #fff,750px 400px #fff,100px 500px #fff,200px 650px #fff,350px 150px #fff,500px 450px #fff,650px 250px #fff,800px 550px #fff,950px 100px #fff,1100px 350px #fff,1250px 500px #fff,50px 750px #fff,180px 850px #fff,320px 950px #fff,470px 700px #fff,620px 600px #fff,770px 800px #fff,920px 900px #fff,1070px 750px #fff,1220px 850px #fff,70px 400px #fff,220px 300px #fff,370px 550px #fff,520px 200px #fff,670px 700px #fff,820px 150px #fff,970px 450px #fff,1120px 600px #fff,1270px 250px #fff,140px 950px #fff,290px 800px #fff,440px 100px #fff,590px 850px #fff,740px 500px #fff,890px 300px #fff,1040px 650px #fff,1190px 150px #fff,30px 600px #fff,160px 100px #fff,310px 400px #fff,460px 550px #fff,610px 350px #fff,760px 650px #fff,910px 200px #fff,1060px 500px #fff,1210px 400px #fff,90px 300px #fff,240px 500px #fff,390px 750px #fff,540px 100px #fff,690px 900px #fff,840px 400px #fff,990px 600px #fff,1140px 200px #fff,1290px 700px #fff;animation:starMove 120s linear infinite}
+@keyframes starMove{from{transform:translateY(0)}to{transform:translateY(-2000px)}}
+
+.header{position:sticky;top:0;z-index:100;background:rgba(5,8,16,0.95);border-bottom:1px solid rgba(0,168,255,0.2);backdrop-filter:blur(10px)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;max-width:1200px;margin:0 auto}
+.logo{font-family:var(--font-head);font-size:1.5rem;font-weight:700;color:var(--primary);letter-spacing:3px}
+.nav{display:flex;gap:30px;list-style:none}
+.nav a{font-family:var(--font-head);font-size:.75rem;color:#fff;text-transform:uppercase;letter-spacing:2px;padding:5px 0;border-bottom:2px solid transparent;transition:all .2s}
+.nav a:hover,.nav a.active{color:var(--primary);border-bottom-color:var(--primary)}
+.status-bar{background:rgba(0,168,255,0.03);border-bottom:1px solid rgba(0,168,255,0.1);padding:6px 0;font-family:var(--font-head);font-size:.7rem;color:var(--text-dim)}
+.status-inner{display:flex;gap:25px;max-width:1200px;margin:0 auto;padding:0 20px;align-items:center;flex-wrap:wrap}
+.status-dot{width:6px;height:6px;background:var(--green);border-radius:50%;display:inline-block;margin-right:6px;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:5px}
+.hamburger span{width:24px;height:2px;background:#fff;transition:all .3s}
+
+.page-header{padding:50px 0 30px;position:relative;z-index:1}
+.page-title{font-family:var(--font-head);font-size:clamp(1.5rem,3vw,2.2rem);color:var(--primary);letter-spacing:3px;margin-bottom:8px}
+.page-title::before{content:'// ';color:var(--text-dim)}
+
+/* Category Tabs */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:40px;position:relative;z-index:1}
+.cat-tab{font-family:var(--font-head);font-size:.7rem;padding:8px 18px;border:1px solid rgba(0,168,255,0.3);color:var(--text-dim);cursor:pointer;letter-spacing:2px;text-transform:uppercase;transition:all .2s;background:transparent}
+.cat-tab:hover,.cat-tab.active{border-color:var(--primary);color:var(--primary);background:rgba(0,168,255,0.05)}
+
+/* Layout */
+.news-layout{display:grid;grid-template-columns:1fr 350px;gap:40px;position:relative;z-index:1;padding-bottom:60px}
+
+/* News Cards */
+.news-grid{display:grid;grid-template-columns:1fr;gap:20px}
+.hud-card{position:relative;background:var(--card-bg);border:1px solid rgba(0,168,255,0.2);padding:20px;transition:all .3s}
+.hud-card::before{content:'';position:absolute;top:-1px;left:-1px;width:15px;height:15px;border-top:2px solid var(--primary);border-left:2px solid var(--primary)}
+.hud-card::after{content:'';position:absolute;bottom:-1px;right:-1px;width:15px;height:15px;border-bottom:2px solid var(--primary);border-right:2px solid var(--primary)}
+.hud-card:hover{border-color:var(--primary);transform:translateY(-2px);box-shadow:0 0 20px rgba(0,168,255,0.1)}
+
+.news-card{display:grid;grid-template-columns:auto 1fr;gap:20px;border-left:3px solid var(--primary);padding:20px 25px}
+.news-card .n-img{width:120px;height:90px;background:linear-gradient(135deg,#0a1628,#0d1f3c);display:flex;align-items:center;justify-content:center;font-size:2rem;flex-shrink:0}
+.news-card .n-source{font-family:var(--font-head);font-size:.6rem;color:var(--secondary);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px}
+.news-card .n-title{font-family:var(--font-head);font-size:.9rem;color:#fff;margin-bottom:8px;line-height:1.4}
+.news-card .n-desc{font-size:.82rem;color:var(--text-dim);line-height:1.5;margin-bottom:8px}
+.news-card .n-meta{display:flex;gap:15px;font-size:.7rem;color:var(--text-dim);font-family:var(--font-head)}
+
+/* Trending Sidebar */
+.trending-panel{position:sticky;top:120px;align-self:start}
+.trending-title{font-family:var(--font-head);font-size:1rem;color:var(--primary);letter-spacing:2px;margin-bottom:20px}
+.trending-title::before{content:'// ';color:var(--text-dim)}
+.trending-list{list-style:none}
+.trending-item{display:flex;gap:15px;padding:15px 0;border-bottom:1px solid rgba(0,168,255,0.08);align-items:flex-start}
+.trending-item:last-child{border-bottom:none}
+.trending-num{font-family:var(--font-head);font-size:1.5rem;color:var(--primary);font-weight:700;line-height:1;min-width:30px}
+.trending-content .t-title{font-family:var(--font-head);font-size:.78rem;color:#fff;line-height:1.4;margin-bottom:4px}
+.trending-content .t-source{font-family:var(--font-head);font-size:.6rem;color:var(--secondary);letter-spacing:1px;text-transform:uppercase}
+.trending-content .t-date{font-size:.65rem;color:var(--text-dim);margin-top:3px}
+
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+.footer{border-top:1px solid rgba(0,168,255,0.15);padding:50px 0 30px;position:relative;z-index:1}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-bottom:40px}
+.footer h4{font-family:var(--font-head);font-size:.8rem;color:var(--primary);letter-spacing:2px;margin-bottom:15px;text-transform:uppercase}
+.footer ul{list-style:none}
+.footer li{margin-bottom:8px}
+.footer a{font-size:.85rem;color:var(--text-dim)}
+.footer a:hover{color:var(--primary)}
+.footer-copy{text-align:center;font-size:.75rem;color:var(--text-dim);border-top:1px solid rgba(0,168,255,0.1);padding-top:20px;font-family:var(--font-head)}
+
+@media(max-width:768px){
+  .nav{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(5,8,16,0.98);flex-direction:column;padding:20px;gap:15px;border-bottom:1px solid rgba(0,168,255,0.2)}
+  .nav.open{display:flex}
+  .hamburger{display:flex}
+  .news-layout{grid-template-columns:1fr}
+  .news-card{grid-template-columns:1fr}
+  .news-card .n-img{width:100%;height:120px}
+  .trending-panel{position:static}
+  .footer-grid{grid-template-columns:1fr;gap:25px}
+  .status-inner{font-size:.6rem;gap:12px}
+}
+</style>
+</head>
+<body>
+
+<div class="starfield"></div>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">PHONEHUB</a>
+    <button class="hamburger" onclick="document.querySelector('.nav').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="nav">
+      <a href="index.html">HOME</a>
+      <a href="search.html">DEVICES</a>
+      <a href="compare.html">COMPARE</a>
+      <a href="brands.html">BRANDS</a>
+      <a href="news.html" class="active">NEWS</a>
+    </nav>
+  </div>
+</header>
+<div class="status-bar">
+  <div class="status-inner">
+    <span><span class="status-dot"></span>SYS: ONLINE</span>
+    <span>DEVICES: 1,412</span>
+    <span>LAST UPDATE: 2h ago</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="page-header">
+    <h1 class="page-title">TECH INTEL</h1>
+  </div>
+
+  <div class="cat-tabs">
+    <button class="cat-tab active">ALL</button>
+    <button class="cat-tab">MOBILES</button>
+    <button class="cat-tab">LAPTOPS</button>
+    <button class="cat-tab">AUTO</button>
+    <button class="cat-tab">TVS</button>
+    <button class="cat-tab">TABLETS</button>
+    <button class="cat-tab">AI</button>
+    <button class="cat-tab">GAMING</button>
+  </div>
+
+  <div class="news-layout">
+    <!-- Main News Grid -->
+    <div class="news-grid" id="news-grid"></div>
+
+    <!-- Trending Sidebar -->
+    <aside class="trending-panel">
+      <div class="trending-title">TOP 5</div>
+      <ol class="trending-list" id="trending-list"></ol>
+    </aside>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>PRODUCT</h4><ul><li><a href="search.html">All Devices</a></li><li><a href="compare.html">Compare</a></li><li><a href="brands.html">Brands</a></li><li><a href="news.html">News</a></li></ul></div>
+      <div><h4>CATEGORIES</h4><ul><li><a href="search.html">Mobiles</a></li><li><a href="search.html">Laptops</a></li><li><a href="search.html">Tablets</a></li><li><a href="search.html">TVs</a></li></ul></div>
+      <div><h4>LEGAL</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Disclosure</a></li><li><a href="#">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-copy">&copy; 2025 PHONEHUB — ALL SYSTEMS OPERATIONAL</div>
+  </div>
+</footer>
+
+<script>
+const articles=[
+  {source:'TECHCRUNCH',title:'Apple Unveils Next-Gen A18 Bionic Chip Architecture',desc:'Apple reveals details of its upcoming silicon with significant performance gains and dedicated AI acceleration cores for on-device machine learning.',date:'Jul 18, 2025',cat:'MOBILES',icon:'📱'},
+  {source:'THE VERGE',title:'Samsung Galaxy S25 Ultra Camera System Deep Dive',desc:'A comprehensive look at the 200MP quad-camera setup that pushes mobile photography boundaries with AI-enhanced computational photography.',date:'Jul 17, 2025',cat:'MOBILES',icon:'📱'},
+  {source:'ENGADGET',title:'Tesla Model Y Refresh: Everything We Know So Far',desc:'The popular electric SUV is getting a major redesign with improved range, new interior design, and enhanced Autopilot capabilities.',date:'Jul 16, 2025',cat:'AUTO',icon:'🚗'},
+  {source:'WIRED',title:'MacBook Pro M4: Apple Silicon Reaches New Heights',desc:'Benchmarks reveal the M4 chip delivers 40% faster multi-core performance while consuming less power than its predecessor.',date:'Jul 15, 2025',cat:'LAPTOPS',icon:'💻'},
+  {source:'ARSTECHNICA',title:'Google Pixel 9 Pro AI Features: A Complete Breakdown',desc:'Google\'s latest Tensor G4 chip powers groundbreaking AI features including real-time translation, advanced photo editing, and intelligent assistants.',date:'Jul 14, 2025',cat:'MOBILES',icon:'📱'},
+  {source:'CNET',title:'Sony Bravia XR 2025 Lineup: Mini-LED and QD-OLED Compared',desc:'Sony\'s new TV lineup brings cognitive processing to a new level with advanced local dimming and color accuracy improvements.',date:'Jul 13, 2025',cat:'TVS',icon:'📺'},
+  {source:'TOM\'S GUIDE',title:'OnePlus 13 Review: The Best Value Flagship of 2025',desc:'At $899, the OnePlus 13 offers Snapdragon 8 Elite performance, Hasselblad cameras, and 100W charging at an unbeatable price point.',date:'Jul 12, 2025',cat:'MOBILES',icon:'📱'},
+  {source:'THE INFORMATION',title:'BMW i4 M60: Electric Performance Redefined',desc:'BMW\'s electric Gran Coupe gets a performance variant with 590 hp, adaptive suspension, and a new curved display powered by iDrive 9.',date:'Jul 11, 2025',cat:'AUTO',icon:'🚗'},
+  {source:'DIGITAL TRENDS',title:'Xiaomi 15 Ultra Leaks: Leica Co-Engineered Quad Camera',desc:'Leaked renders and specs reveal Xiaomi\'s next flagship will feature a massive 1-inch main sensor with variable aperture technology.',date:'Jul 10, 2025',cat:'MOBILES',icon:'📱'}
+];
+
+const trending=[
+  {title:'Apple Intelligence Expands to 40 New Countries',source:'TECHCRUNCH',date:'Jul 18, 2025'},
+  {title:'Snapdragon 8 Elite 2 Benchmarks Leak',source:'GSMARENA',date:'Jul 17, 2025'},
+  {title:'LG C4 OLED vs Sony Bravia: 2025 TV Showdown',source:'Rtings',date:'Jul 16, 2025'},
+  {title:'Dell XPS 16 (2025) Hands-On First Look',source:'THE VERGE',date:'Jul 15, 2025'},
+  {title:'Galaxy Tab S10 Ultra: Productivity Powerhouse',source:'ANDROID AUTHORITY',date:'Jul 14, 2025'}
+];
+
+function renderNews(){
+  const grid=document.getElementById('news-grid');
+  grid.innerHTML=articles.map(a=>`
+    <a href="#" class="hud-card news-card reveal" style="text-decoration:none">
+      <div class="n-img">${a.icon}</div>
+      <div>
+        <div class="n-source">${a.source}</div>
+        <div class="n-title">${a.title}</div>
+        <div class="n-desc">${a.desc}</div>
+        <div class="n-meta"><span>${a.date}</span><span>${a.cat}</span></div>
+      </div>
+    </a>`).join('');
+}
+
+function renderTrending(){
+  const list=document.getElementById('trending-list');
+  list.innerHTML=trending.map((t,i)=>`
+    <li class="trending-item reveal">
+      <span class="trending-num">${i+1}</span>
+      <div class="trending-content">
+        <div class="t-title">${t.title}</div>
+        <div class="t-source">${t.source}</div>
+        <div class="t-date">${t.date}</div>
+      </div>
+    </li>`).join('');
+}
+
+renderNews();
+renderTrending();
+
+// Category tab click
+document.querySelectorAll('.cat-tab').forEach(tab=>{
+  tab.addEventListener('click',function(){
+    document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+    this.classList.add('active');
+    const cat=this.textContent;
+    const filtered=cat==='ALL'?articles:articles.filter(a=>a.cat===cat);
+    const grid=document.getElementById('news-grid');
+    grid.innerHTML=filtered.map(a=>`
+      <a href="#" class="hud-card news-card reveal visible" style="text-decoration:none">
+        <div class="n-img">${a.icon}</div>
+        <div>
+          <div class="n-source">${a.source}</div>
+          <div class="n-title">${a.title}</div>
+          <div class="n-desc">${a.desc}</div>
+          <div class="n-meta"><span>${a.date}</span><span>${a.cat}</span></div>
+        </div>
+      </a>`).join('');
+  });
+});
+
+// Scroll reveal
+const observer=new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

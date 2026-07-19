@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — iPhone 16 Pro Max</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060a0f;--primary:#00ff88;--secondary:#00cccc;--text:#c8d6e5;--card:#0a1018;--border:#00ff8833;--glow:rgba(0,255,136,0.4);--glow-strong:rgba(0,255,136,0.7);--mono:'JetBrains Mono',monospace;--sans:'Inter',sans-serif;--scanline:repeating-linear-gradient(0deg,rgba(0,0,0,0.15) 0px,rgba(0,0,0,0.15) 1px,transparent 1px,transparent 2px)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110';position:fixed;top:0;left:0;width:100%;height:100%;font-family:var(--mono);font-size:14px;color:rgba(0,255,136,0.02);word-wrap:break-word;pointer-events:none;z-index:0;padding:20px;line-height:2}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+a:hover{color:var(--secondary);text-shadow:0 0 8px var(--glow)}
+
+header{position:sticky;top:0;z-index:100;background:rgba(6,10,15,0.95);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--primary);text-shadow:0 0 8px var(--glow)}
+.logo span{color:var(--text);opacity:.6}
+nav{display:flex;gap:24px}
+nav a{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.8}
+nav a:hover,nav a.active{color:var(--primary);opacity:1}
+.mobile-toggle{display:none;background:none;border:none;color:var(--primary);font-size:1.5rem;cursor:pointer}
+
+.breadcrumb{max-width:1200px;margin:0 auto;padding:16px 20px;font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.breadcrumb a{color:var(--secondary);opacity:.8}
+
+.section{max-width:1200px;margin:0 auto;padding:32px 20px}
+.section-title{font-family:var(--mono);font-size:1.2rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:20px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'$';color:var(--secondary)}
+
+/* PRODUCT HERO */
+.product-hero{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.product-img-box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:40px;display:flex;align-items:center;justify-content:center;min-height:400px;position:relative;overflow:hidden}
+.product-img-box::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.product-img-box .big-icon{font-size:8rem;opacity:.3;position:relative;z-index:0}
+.product-img-box .img-label{position:absolute;bottom:16px;left:16px;font-family:var(--mono);font-size:.7rem;color:var(--secondary);opacity:.5;z-index:2}
+
+.product-info{padding:10px 0}
+.product-label{font-family:var(--mono);font-size:.8rem;color:var(--secondary);margin-bottom:6px}
+.product-name{font-family:var(--mono);font-size:clamp(1.8rem,4vw,2.5rem);color:var(--primary);text-shadow:0 0 20px var(--glow);margin-bottom:4px}
+.product-brand{font-size:1rem;color:var(--text);opacity:.6;margin-bottom:16px}
+.product-price{font-family:var(--mono);font-size:2rem;color:var(--primary);font-weight:700;text-shadow:0 0 12px var(--glow);margin-bottom:4px}
+.product-price-note{font-family:var(--mono);font-size:.75rem;color:var(--text);opacity:.4;margin-bottom:20px}
+.product-rating{display:flex;align-items:center;gap:8px;margin-bottom:24px}
+.rating-stars{color:var(--primary);font-size:1.2rem;text-shadow:0 0 8px var(--glow)}
+.rating-num{font-family:var(--mono);font-size:1rem;color:#fff}
+.rating-count{font-size:.85rem;color:var(--text);opacity:.5}
+.product-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+.btn-primary{padding:12px 28px;background:var(--primary);color:var(--bg);font-family:var(--mono);font-weight:700;font-size:.9rem;border:none;border-radius:4px;cursor:pointer;transition:all .3s}
+.btn-primary:hover{box-shadow:0 0 20px var(--glow);background:var(--secondary)}
+.btn-outline{padding:12px 28px;background:transparent;color:var(--primary);font-family:var(--mono);font-weight:600;font-size:.9rem;border:1px solid var(--primary);border-radius:4px;cursor:pointer;transition:all .3s}
+.btn-outline:hover{background:rgba(0,255,136,0.1);box-shadow:0 0 15px rgba(0,255,136,0.2)}
+.product-tags{display:flex;gap:8px;flex-wrap:wrap}
+.product-tag{font-family:var(--mono);font-size:.7rem;padding:4px 12px;border:1px solid var(--border);border-radius:12px;color:var(--secondary)}
+
+/* SPECS TABLE */
+.specs-container{margin-top:48px}
+.specs-terminal{background:var(--card);border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.specs-term-bar{display:flex;align-items:center;gap:8px;padding:10px 16px;background:rgba(0,255,136,0.05);border-bottom:1px solid var(--border)}
+.specs-term-dot{width:10px;height:10px;border-radius:50%;border:1px solid var(--border)}
+.specs-term-dot:nth-child(1){background:#ff5f56;border-color:#e0443e}
+.specs-term-dot:nth-child(2){background:#ffbd2e;border-color:#dea123}
+.specs-term-dot:nth-child(3){background:#27c93f;border-color:#1aab29}
+.specs-term-title{font-family:var(--mono);font-size:.75rem;color:var(--text);opacity:.5;margin-left:8px}
+.specs-body{padding:20px}
+.spec-row{display:grid;grid-template-columns:180px 1fr;padding:10px 0;border-bottom:1px solid rgba(0,255,136,0.05);font-size:.9rem;align-items:start}
+.spec-row:last-child{border-bottom:none}
+.spec-key{font-family:var(--mono);font-size:.8rem;color:var(--secondary);opacity:.8}
+.spec-key::before{content:'--';margin-right:4px;color:var(--primary);opacity:.4}
+.spec-val{color:var(--text)}
+.spec-val b{color:var(--primary);font-weight:500}
+
+/* MISSION REPORT */
+.review-section{margin-top:48px}
+.review-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:12px}
+.review-score{display:flex;align-items:center;gap:16px}
+.score-big{font-family:var(--mono);font-size:3rem;color:var(--primary);text-shadow:0 0 20px var(--glow);font-weight:700}
+.score-details{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.6;line-height:1.8}
+.review-bars{flex:1;max-width:400px}
+.review-bar-row{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.review-bar-label{font-family:var(--mono);font-size:.75rem;color:var(--secondary);width:60px;text-align:right}
+.review-bar-track{flex:1;height:6px;background:rgba(0,255,136,0.1);border-radius:3px;overflow:hidden}
+.review-bar-fill{height:100%;background:var(--primary);border-radius:3px;box-shadow:0 0 6px var(--glow);transition:width 1s ease}
+.review-bar-num{font-family:var(--mono);font-size:.75rem;color:var(--text);opacity:.6;width:30px}
+.review-text{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:20px;margin-top:20px;position:relative;overflow:hidden}
+.review-text::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.review-text p{position:relative;z-index:2;font-size:.9rem;line-height:1.8;color:var(--text);opacity:.8}
+.review-text .verdict{font-family:var(--mono);color:var(--primary);font-weight:600;margin-top:12px;display:block}
+
+/* RELATED */
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:18px;position:relative;overflow:hidden;transition:all .4s;cursor:pointer}
+.product-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.product-card:hover{border-color:var(--primary);box-shadow:0 0 20px rgba(0,255,136,0.1);transform:translateY(-3px)}
+.card-label{font-family:var(--mono);font-size:.72rem;color:var(--secondary);margin-bottom:8px;opacity:.8}
+.card-img{width:100%;height:130px;background:linear-gradient(135deg,#0d1520,#111d2e);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;border:1px solid var(--border)}
+.card-img .icon{font-size:2.5rem;opacity:.3}
+.card-title{font-family:var(--mono);font-size:.95rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:3px}
+.card-brand{font-size:.8rem;color:var(--text);opacity:.5;margin-bottom:8px}
+.card-meta{display:flex;justify-content:space-between;align-items:center}
+.card-price{font-family:var(--mono);font-size:1rem;color:var(--primary);font-weight:700;text-shadow:0 0 8px var(--glow)}
+.card-rating{font-size:.85rem;color:#fff;display:flex;align-items:center;gap:4px}
+
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+footer{border-top:1px solid var(--border);background:rgba(6,10,15,0.95);margin-top:60px}
+.footer-inner{max-width:1200px;margin:0 auto;padding:30px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-inner .logo{font-family:var(--mono);font-size:.9rem;color:var(--primary)}
+.footer-links{display:flex;gap:20px}
+.footer-links a{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.footer-links a:hover{opacity:1}
+
+@media(max-width:900px){
+  .product-hero{grid-template-columns:1fr}
+  .product-img-box{min-height:260px}
+  .review-header{flex-direction:column;align-items:flex-start}
+  .review-bars{max-width:100%;width:100%}
+}
+@media(max-width:768px){
+  nav{display:none;position:absolute;top:60px;left:0;width:100%;background:rgba(6,10,15,0.98);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--border)}
+  nav.open{display:flex}
+  .mobile-toggle{display:block}
+  .related-grid{grid-template-columns:1fr}
+  .spec-row{grid-template-columns:140px 1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">&gt;_ PhoneHub<span>.sys</span></a>
+    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </nav>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">// home</a> / <a href="search.html">mobiles</a> / <a href="brands.html">apple</a> / iphone-16-pro-max
+</div>
+
+<div class="section">
+  <!-- PRODUCT HERO -->
+  <div class="product-hero fade-in">
+    <div class="product-img-box">
+      <span class="big-icon">📱</span>
+      <span class="img-label">// render_front.png — 2048x2048</span>
+    </div>
+    <div class="product-info">
+      <div class="product-label">&gt;_ Apple flagship // 2024</div>
+      <h1 class="product-name">iPhone 16 Pro Max</h1>
+      <div class="product-brand">Apple Inc.</div>
+      <div class="product-price">$1,199</div>
+      <div class="product-price-note">// starting price — 256GB base</div>
+      <div class="product-rating">
+        <span class="rating-stars">★★★★★</span>
+        <span class="rating-num">4.8</span>
+        <span class="rating-count">(2,847 reviews)</span>
+      </div>
+      <div class="product-actions">
+        <button class="btn-primary">$ compare_now</button>
+        <button class="btn-outline">$ add_to_watchlist</button>
+      </div>
+      <div class="product-tags">
+        <span class="product-tag">&gt; A18 Pro</span>
+        <span class="product-tag">&gt; titanium</span>
+        <span class="product-tag">&gt; 48MP</span>
+        <span class="product-tag">&gt; iOS 18</span>
+        <span class="product-tag">&gt; USB-C</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPECS -->
+  <div class="specs-container fade-in">
+    <h2 class="section-title">./cat specs --device=iphone-16-pro-max</h2>
+    <div class="specs-terminal">
+      <div class="specs-term-bar">
+        <span class="specs-term-dot"></span><span class="specs-term-dot"></span><span class="specs-term-dot"></span>
+        <span class="specs-term-title">specs@phonehub:~$ cat /specs/iphone-16-pro-max.json</span>
+      </div>
+      <div class="specs-body">
+        <div class="spec-row"><span class="spec-key">display</span><span class="spec-val"><b>6.9"</b> Super Retina XDR OLED, 120Hz ProMotion, 2000 nits peak</span></div>
+        <div class="spec-row"><span class="spec-key">chipset</span><span class="spec-val"><b>Apple A18 Pro</b> — 3nm, 6-core CPU, 6-core GPU, 16-core NPU</span></div>
+        <div class="spec-row"><span class="spec-key">ram</span><span class="spec-val"><b>8 GB</b> LPDDR5X</span></div>
+        <div class="spec-row"><span class="spec-key">storage</span><span class="spec-val"><b>256 / 512 GB / 1 TB</b></span></div>
+        <div class="spec-row"><span class="spec-key">camera_main</span><span class="spec-val"><b>48 MP</b> f/1.78, sensor-shift OIS, 5x optical zoom</span></div>
+        <div class="spec-row"><span class="spec-key">camera_ultra</span><span class="spec-val"><b>48 MP</b> f/2.2 ultrawide, macro</span></div>
+        <div class="spec-row"><span class="spec-key">camera_front</span><span class="spec-val"><b>12 MP</b> f/1.9 TrueDepth, Face ID</span></div>
+        <div class="spec-row"><span class="spec-key">battery</span><span class="spec-val"><b>4,685 mAh</b> — up to 33h video playback, MagSafe 25W</span></div>
+        <div class="spec-row"><span class="spec-key">os</span><span class="spec-val"><b>iOS 18</b> with Apple Intelligence</span></div>
+        <div class="spec-row"><span class="spec-key">build</span><span class="spec-val"><b>Grade 5 Titanium</b>, Ceramic Shield front, IP68</span></div>
+        <div class="spec-row"><span class="spec-key">weight</span><span class="spec-val"><b>227 g</b></span></div>
+        <div class="spec-row"><span class="spec-key">connectivity</span><span class="spec-val"><b>5G</b>, Wi-Fi 7, Bluetooth 5.3, USB-C 3.2, UWB 2</span></div>
+        <div class="spec-row"><span class="spec-key">special</span><span class="spec-val">Camera Control button, Action button, Dynamic Island</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MISSION REPORT -->
+  <div class="review-section fade-in">
+    <h2 class="section-title">./run mission_report --device=iphone-16-pro-max</h2>
+    <div class="review-header">
+      <div class="review-score">
+        <span class="score-big">4.8</span>
+        <div class="score-details">
+          MISSION REPORT<br>
+          STATUS: <span style="color:var(--primary)">APPROVED</span><br>
+          CLASS: FLAGSHIP TIER-S
+        </div>
+      </div>
+      <div class="review-bars">
+        <div class="review-bar-row"><span class="review-bar-label">display</span><div class="review-bar-track"><div class="review-bar-fill" style="width:96%"></div></div><span class="review-bar-num">9.6</span></div>
+        <div class="review-bar-row"><span class="review-bar-label">perform</span><div class="review-bar-track"><div class="review-bar-fill" style="width:98%"></div></div><span class="review-bar-num">9.8</span></div>
+        <div class="review-bar-row"><span class="review-bar-label">camera</span><div class="review-bar-track"><div class="review-bar-fill" style="width:94%"></div></div><span class="review-bar-num">9.4</span></div>
+        <div class="review-bar-row"><span class="review-bar-label">battery</span><div class="review-bar-track"><div class="review-bar-fill" style="width:88%"></div></div><span class="review-bar-num">8.8</span></div>
+        <div class="review-bar-row"><span class="review-bar-label">value</span><div class="review-bar-track"><div class="review-bar-fill" style="width:78%"></div></div><span class="review-bar-num">7.8</span></div>
+      </div>
+    </div>
+    <div class="review-text">
+      <p>The iPhone 16 Pro Max represents Apple's most refined flagship to date. The A18 Pro chipset delivers industry-leading single-core performance while the new Camera Control button adds a tactile dimension to photography. The 6.9" display is the largest ever on an iPhone, with ProMotion making everything buttery smooth. Battery life sees meaningful improvements, and the titanium build keeps weight manageable despite the larger form factor.</p>
+      <span class="verdict">// VERDICT: The definitive smartphone for the Apple ecosystem. Worth the upgrade from 14 Pro or older.</span>
+    </div>
+  </div>
+
+  <!-- RELATED -->
+  <div style="margin-top:48px" class="fade-in">
+    <h2 class="section-title">./fetch related --limit=4</h2>
+    <div class="related-grid">
+      <div class="product-card">
+        <div class="card-label">&gt;_ Galaxy S25 Ultra</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Galaxy S25 Ultra</div>
+        <div class="card-brand">Samsung</div>
+        <div class="card-meta"><span class="card-price">$1,299</span><span class="card-rating">★ 4.7</span></div>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Pixel 9 Pro</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Pixel 9 Pro</div>
+        <div class="card-brand">Google</div>
+        <div class="card-meta"><span class="card-price">$999</span><span class="card-rating">★ 4.6</span></div>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ OnePlus 13</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">OnePlus 13</div>
+        <div class="card-brand">OnePlus</div>
+        <div class="card-meta"><span class="card-price">$899</span><span class="card-rating">★ 4.5</span></div>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Xiaomi 15 Ultra</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Xiaomi 15 Ultra</div>
+        <div class="card-brand">Xiaomi</div>
+        <div class="card-meta"><span class="card-price">$799</span><span class="card-rating">★ 4.3</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="logo">&gt;_ PhoneHub.sys</span>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

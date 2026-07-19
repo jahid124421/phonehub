@@ -1,0 +1,1444 @@
+$ cd "c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE" && powershell -Command "Get-ChildItem -Path '.' -Filter '*.html' -Recurse | Where-Object { $_.FullName -notmatch 'node_modules' } | ForEach-Object { $content = Get-Content $_.FullName -Raw -ErrorAction SilentlyContinue; if ($content -match 'js/data\.js') { $newContent = $content -replace 'src=\"js/data\.js\"', 'src=\"js/data.js?v=2\"' -replace 'src=\"\.\./js/data\.js\"', 'src=\"../js/data.js?v=2\"'; if ($newContent -ne $content) { Set-Content $_.FullName -Value $newContent -NoNewline; Write-Output \"Updated: $($_.FullName)\" } } }"
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html'
+...
+line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+.FullName : The term '.FullName' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:68
++ ... Path '.' -Filter '*.html' -Recurse | Where-Object { .FullName -notmat ...
++                                                         ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.FullName:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

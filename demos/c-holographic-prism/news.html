@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech News - PhoneHub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+@property --angle {syntax:'<angle>';initial-value:0deg;inherits:false}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#0a0e1a;--bg2:#0f1424;--bg3:#151b30;--cyan:#06b6d4;--purple:#8b5cf6;--pink:#ec4899;--text:#e2e8f0;--text2:#94a3b8;--grad:linear-gradient(135deg,#06b6d4,#8b5cf6,#ec4899)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden;line-height:1.6}
+a{color:inherit;text-decoration:none}
+.gradient-text{background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.holo-card{position:relative;background:var(--bg2);border:2px solid transparent;border-image:conic-gradient(from var(--angle),#06b6d4,#8b5cf6,#ec4899,#06b6d4) 1;animation:spin-border 4s linear infinite;transition:all .3s}
+.holo-card:hover{animation-duration:1.5s;transform:translateY(-4px);box-shadow:0 0 30px rgba(139,92,246,.2)}
+@keyframes spin-border{to{--angle:360deg}}
+.chromatic{text-shadow:-1px 0 rgba(255,0,255,.3),1px 0 rgba(0,255,255,.3)}
+
+.header{position:sticky;top:0;z-index:100;background:rgba(10,14,26,.9);backdrop-filter:blur(20px);border-bottom:1px solid rgba(139,92,246,.2);padding:0 2rem}
+.header-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:1.5rem;font-weight:800}
+.nav{display:flex;gap:2rem;list-style:none}
+.nav a{font-weight:500;font-size:.9rem;color:var(--text2);transition:color .3s;position:relative}
+.nav a:hover,.nav a.active{color:#06b6d4}
+.nav a.active::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:2px;background:var(--grad);border-radius:2px}
+.menu-toggle{display:none;background:none;border:none;color:var(--text);font-size:1.5rem;cursor:pointer}
+
+.page-hero{padding:4rem 2rem 2rem;text-align:center}
+.page-hero h1{font-size:2.5rem;font-weight:900;margin-bottom:.5rem}
+.page-hero p{color:var(--text2)}
+
+/* Category Tabs */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:.75rem;justify-content:center;padding:1rem 2rem 2rem;max-width:1280px;margin:0 auto}
+.cat-tab{padding:.5rem 1.3rem;border:1px solid transparent;border-image:linear-gradient(135deg,#06b6d4,#8b5cf6,#ec4899) 1;background:var(--bg2);font-size:.85rem;font-weight:600;color:var(--text2);cursor:pointer;transition:all .3s;font-family:inherit}
+.cat-tab.active,.cat-tab:hover{background:var(--grad);color:#fff;border-image:none}
+
+.container{max-width:1280px;margin:0 auto;padding:0 2rem 3rem}
+
+/* News Grid */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.5rem;margin-bottom:4rem}
+.news-card{border-radius:12px;overflow:hidden;cursor:pointer;opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}
+.news-card.visible{opacity:1;transform:translateY(0)}
+.news-card .card-img{width:100%;height:180px;background:linear-gradient(135deg,rgba(6,182,212,.15),rgba(139,92,246,.15),rgba(236,72,153,.1));display:flex;align-items:center;justify-content:center;font-size:3rem}
+.news-card .card-body{padding:1.2rem 1.5rem 1.5rem}
+.news-card .card-cat{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--cyan);margin-bottom:.5rem}
+.news-card h3{font-size:1.05rem;font-weight:700;margin-bottom:.5rem;line-height:1.4}
+.news-card p{font-size:.85rem;color:var(--text2);line-height:1.5;margin-bottom:.75rem}
+.news-card .card-meta{display:flex;justify-content:space-between;font-size:.75rem;color:var(--text2)}
+
+/* Trending */
+.trending{margin-top:2rem}
+.trending h2{font-size:1.5rem;font-weight:800;margin-bottom:1.5rem;text-align:center}
+.trending-list{display:flex;flex-direction:column;gap:1rem;max-width:800px;margin:0 auto}
+.trending-item{display:flex;align-items:center;gap:1.2rem;padding:1.2rem;border-radius:10px;cursor:pointer}
+.trending-item .rank{font-size:1.8rem;font-weight:900;min-width:40px;text-align:center}
+.trending-item .t-info h4{font-size:.95rem;font-weight:600;margin-bottom:4px}
+.trending-item .t-info p{font-size:.8rem;color:var(--text2)}
+.trending-item .t-info .t-meta{font-size:.75rem;color:var(--pink);margin-top:4px}
+
+.particles{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}
+.particle{position:absolute;width:4px;height:4px;border-radius:50%;background:linear-gradient(135deg,#06b6d4,#8b5cf6,#ec4899);animation:float-up linear infinite;opacity:.6}
+@keyframes float-up{0%{transform:translateY(100vh) scale(0);opacity:0}10%{opacity:.6}90%{opacity:.6}100%{transform:translateY(-10vh) scale(1);opacity:0}}
+
+.footer{border-top:1px solid rgba(139,92,246,.2);padding:2rem;text-align:center;margin-top:2rem}
+.footer-links{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;margin-bottom:1rem}
+.footer-links a{color:var(--text2);font-size:.85rem}
+.footer-links a:hover{color:#06b6d4}
+.footer p{color:var(--text2);font-size:.8rem}
+
+@media(max-width:768px){
+  .nav{display:none;position:absolute;top:64px;left:0;right:0;background:rgba(10,14,26,.98);flex-direction:column;padding:1.5rem;gap:1rem;border-bottom:1px solid rgba(139,92,246,.2)}
+  .nav.open{display:flex}
+  .menu-toggle{display:block}
+  .news-grid{grid-template-columns:1fr}
+  .page-hero h1{font-size:1.8rem}
+}
+</style>
+</head>
+<body>
+
+<div class="particles" id="particles"></div>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo gradient-text">PhoneHub</a>
+    <button class="menu-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="search.html">Devices</a>
+      <a href="compare.html">Compare</a>
+      <a href="brands.html">Brands</a>
+      <a href="news.html" class="active">News</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page-hero">
+  <h1 class="gradient-text">Tech News</h1>
+  <p>Latest updates from the world of technology</p>
+</div>
+
+<div class="cat-tabs">
+  <button class="cat-tab active">All</button>
+  <button class="cat-tab">📱 Smartphones</button>
+  <button class="cat-tab">🚗 Electric Vehicles</button>
+  <button class="cat-tab">💻 Laptops</button>
+  <button class="cat-tab">🤖 AI</button>
+  <button class="cat-tab">🎮 Gaming</button>
+</div>
+
+<div class="container">
+  <div class="news-grid" id="newsGrid"></div>
+
+  <div class="trending">
+    <h2 class="gradient-text">Trending Now</h2>
+    <div class="trending-list" id="trendingList"></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="index.html">Home</a><a href="search.html">Devices</a><a href="compare.html">Compare</a><a href="brands.html">Brands</a><a href="news.html">News</a>
+  </div>
+  <p>© 2026 PhoneHub. All rights reserved.</p>
+</footer>
+
+<script>
+const articles=[
+{title:'iPhone 17 Pro: Everything We Know So Far',cat:'Smartphones',date:'Jul 18, 2026',read:'5 min read',desc:'Apple\'s next flagship is rumored to feature a redesigned camera module, A19 Pro chip, and a slimmer chassis with titanium frame.',icon:'📱'},
+{title:'Samsung Galaxy AI 2.0 Brings Real-Time Magic',cat:'AI',date:'Jul 17, 2026',read:'4 min read',desc:'Samsung\'s latest AI update enables real-time video translation, advanced photo generation, and smarter Bixby integration across Galaxy devices.',icon:'🤖'},
+{title:'Tesla Model Y 2027 Refresh Spotted Testing',cat:'Electric Vehicles',date:'Jul 16, 2026',read:'3 min read',desc:'Spy shots reveal a redesigned Model Y with a new front fascia, updated interior, and potentially 450 miles of range.',icon:'🚗'},
+{title:'MacBook Pro M5 Benchmarks Leak Online',cat:'Laptops',date:'Jul 15, 2026',read:'4 min read',desc:'Early benchmarks suggest Apple\'s M5 chip offers a 40% performance improvement over M4, with major gains in AI workloads.',icon:'💻'},
+{title:'Google Pixel 10 Pro XL Camera Samples Impress',cat:'Smartphones',date:'Jul 14, 2026',read:'6 min read',desc:'Leaked camera samples from the Pixel 10 Pro XL show incredible low-light performance and a new AI-powered telephoto system.',icon:'📱'},
+{title:'BMW i4 M60 Sets EV Performance Benchmark',cat:'Electric Vehicles',date:'Jul 13, 2026',read:'5 min read',desc:'The new BMW i4 M60 delivers 600hp, 0-60 in 3.2 seconds, and proves that electric performance sedans can be thrilling daily drivers.',icon:'🚗'},
+{title:'OnePlus 14 Ultra May Feature 6000mAh Battery',cat:'Smartphones',date:'Jul 12, 2026',read:'3 min read',desc:'OnePlus is reportedly testing a massive 6000mAh silicon-carbon battery that could deliver 2-day battery life without compromising thinness.',icon:'📱'},
+{title:'NVIDIA RTX 5090 Laptop GPU Breaks Records',cat:'Gaming',date:'Jul 11, 2026',read:'4 min read',desc:'The mobile RTX 5090 delivers desktop-class gaming performance in laptops, with 4K 120fps gaming now achievable on portable machines.',icon:'🎮'},
+{title:'Sony Bravia XR 2026 Lineup Goes Micro-LED',cat:'Laptops',date:'Jul 10, 2026',read:'5 min read',desc:'Sony\'s new Bravia XR TVs adopt Micro-LED technology, offering OLED-level blacks with much higher brightness and no burn-in risk.',icon:'📺'}
+];
+
+const trending=[
+{title:'Apple Intelligence 2.0: What\'s New',cat:'AI',views:'125K views'},
+{title:'Galaxy S26 Ultra Design Concept Goes Viral',cat:'Smartphones',views:'98K views'},
+{title:'Best Budget Phones Under $500 in 2026',cat:'Smartphones',views:'87K views'},
+{title:'Tesla Cybertruck vs Rivian R1T: Full Comparison',cat:'Electric Vehicles',views:'76K views'},
+{title:'Top 10 Laptops for Students in 2026',cat:'Laptops',views:'65K views'}
+];
+
+const ng=document.getElementById('newsGrid');
+articles.forEach((a,i)=>{
+ng.innerHTML+=`<div class="news-card holo-card" style="animation-delay:${i*.1}s"><div class="card-img">${a.icon}</div><div class="card-body"><div class="card-cat">${a.cat}</div><h3 class="chromatic">${a.title}</h3><p>${a.desc}</p><div class="card-meta"><span>${a.date}</span><span>${a.read}</span></div></div></div>`;
+});
+
+const tl=document.getElementById('trendingList');
+trending.forEach((t,i)=>{
+tl.innerHTML+=`<div class="trending-item holo-card"><div class="rank gradient-text">${i+1}</div><div class="t-info"><h4 class="chromatic">${t.title}</h4><p>${t.cat}</p><div class="t-meta">${t.views}</div></div></div>`;
+});
+
+// Particles
+const pc=document.getElementById('particles');
+for(let i=0;i<20;i++){const d=document.createElement('div');d.className='particle';d.style.left=Math.random()*100+'%';d.style.animationDuration=(6+Math.random()*8)+'s';d.style.animationDelay=Math.random()*6+'s';d.style.width=d.style.height=(2+Math.random()*4)+'px';pc.appendChild(d)}
+
+// Observer
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.1});
+document.querySelectorAll('.news-card').forEach(el=>obs.observe(el));
+
+// Tabs
+document.querySelectorAll('.cat-tab').forEach(tab=>{
+tab.addEventListener('click',()=>{document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));tab.classList.add('active')});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "id": "27",
+  "subject": "Make AI content agent category-aware",
+  "description": "Update tools/content_agent.py to be category-aware — the system prompt should adapt based on product category (phone, auto, laptop, TV, etc.) instead of always saying 'You are a mobile phone reviewer'. Regenerate AI reviews for non-phone products that currently say 'this is not a phone'. Add support for generating category-specific pros/cons.",
+  "status": "completed",
+  "owner": "Robin",
+  "metadata": {
+    "agentName": "Robin",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784449065273,
+    "tool_call_id": "call_5322da248c304f91bfe759d1"
+  },
+  "activeForm": "Upgrading content agent for all categories",
+  "gmtCreate": 1784448893662,
+  "gmtModified": 1784449581235
+}

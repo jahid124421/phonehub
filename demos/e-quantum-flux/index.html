@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>PhoneHub — Quantum Leap in Tech Discovery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0c0f1e;--primary:#8b5cf6;--secondary:#06b6d4;--highlight:#f59e0b;--card-bg:rgba(255,255,255,0.05);--card-border:rgba(255,255,255,0.08);--text:#e2e8f0;--text-muted:#94a3b8;--gradient:linear-gradient(135deg,#8b5cf6,#06b6d4);--green:#22c55e}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}}
+body{font-family:'Inter',sans-serif;background:var(--base);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* Scrollbar */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--base)}
+::-webkit-scrollbar-thumb{background:var(--primary);border-radius:3px}
+
+/* Utility */
+.container{max-width:1280px;margin:0 auto;padding:0 24px}
+.gradient-text{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.section-title{font-size:2rem;font-weight:800;margin-bottom:2rem}
+@media(min-width:768px){.section-title{font-size:2.5rem}}
+
+/* Header */
+.header{position:sticky;top:0;z-index:100;backdrop-filter:blur(20px);background:rgba(12,15,30,0.8);border-bottom:1px solid var(--card-border)}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:1.5rem;font-weight:900;letter-spacing:-0.5px}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a{font-size:0.9rem;font-weight:500;color:var(--text-muted);transition:color .3s}
+.nav a:hover,.nav a.active{color:#fff}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+@media(max-width:768px){.nav{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:rgba(12,15,30,0.95);padding:20px;gap:16px;backdrop-filter:blur(20px)}.nav.open{display:flex}.nav-toggle{display:block}}
+
+/* Hero */
+.hero{position:relative;min-height:520px;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;padding:60px 24px}
+.aurora{position:absolute;border-radius:50%;filter:blur(100px);opacity:0.35;pointer-events:none}
+.aurora-1{width:500px;height:500px;background:radial-gradient(circle,#8b5cf6,transparent);top:-100px;left:-100px;animation:auroraMove1 12s ease-in-out infinite}
+.aurora-2{width:400px;height:400px;background:radial-gradient(circle,#06b6d4,transparent);bottom:-80px;right:-60px;animation:auroraMove2 15s ease-in-out infinite}
+.aurora-3{width:350px;height:350px;background:radial-gradient(circle,#ec4899,transparent);top:50%;left:60%;animation:auroraMove3 18s ease-in-out infinite}
+@keyframes auroraMove1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(80px,40px) scale(1.15)}}
+@keyframes auroraMove2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-60px,-50px) scale(1.2)}}
+@keyframes auroraMove3{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-40px,30px) scale(1.1)}}
+.hero-content{position:relative;z-index:2;max-width:700px}
+.hero h1{font-size:clamp(2rem,5vw,3.5rem);font-weight:900;line-height:1.15;margin-bottom:16px}
+.hero .subtitle{font-size:1.1rem;color:var(--text-muted);margin-bottom:32px;min-height:1.6em}
+.hero .subtitle .cursor{display:inline-block;width:2px;height:1.1em;background:var(--secondary);vertical-align:text-bottom;animation:blink 1s step-end infinite}
+@keyframes blink{50%{opacity:0}}
+.search-bar{display:flex;max-width:520px;margin:0 auto;background:var(--card-bg);border:1px solid var(--card-border);border-radius:16px;overflow:hidden;backdrop-filter:blur(12px)}
+.search-bar input{flex:1;background:none;border:none;padding:14px 20px;color:#fff;font-size:1rem;outline:none;font-family:'Inter'}
+.search-bar button{padding:14px 28px;background:var(--gradient);border:none;color:#fff;font-weight:600;cursor:pointer;font-family:'Inter';font-size:0.95rem;transition:opacity .3s}
+.search-bar button:hover{opacity:0.85}
+
+/* Category Strip */
+.categories{padding:40px 0;overflow-x:auto}
+.cat-strip{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.cat-pill{padding:10px 22px;border-radius:999px;background:var(--gradient);color:#fff;font-size:0.85rem;font-weight:600;cursor:pointer;transition:transform .3s,box-shadow .3s;white-space:nowrap}
+.cat-pill:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(139,92,246,0.4)}
+
+/* Glassmorphism Card */
+.glass-card{position:relative;background:var(--card-bg);backdrop-filter:blur(16px);border-radius:20px;overflow:hidden;transition:transform .4s ease,box-shadow .4s ease}
+.glass-card::before{content:'';position:absolute;inset:0;border-radius:20px;padding:1px;background:linear-gradient(135deg,#8b5cf6,#06b6d4,#8b5cf6);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;animation:borderFlow 4s linear infinite;background-size:200% 200%}
+@keyframes borderFlow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.glass-card:hover{transform:perspective(1000px) rotateY(2deg) rotateX(-1deg) translateY(-4px);box-shadow:0 20px 60px rgba(139,92,246,0.15)}
+
+/* Product Grid */
+.products-section{padding:60px 0}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+.product-card{padding:0}
+.product-card .card-inner{padding:24px}
+.product-card .p-category{font-size:0.75rem;font-weight:600;color:var(--secondary);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.product-card .p-name{font-size:1.15rem;font-weight:700;margin-bottom:6px}
+.product-card .p-brand{font-size:0.85rem;color:var(--text-muted);margin-bottom:12px}
+.product-card .p-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:12px}
+.product-card .p-price{font-size:1.25rem;font-weight:800;color:var(--highlight)}
+.product-card .p-rating{display:flex;align-items:center;gap:4px;font-size:0.9rem;color:var(--green)}
+.product-card .p-img{width:100%;height:180px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.02);font-size:3.5rem}
+
+/* Brands */
+.brands-section{padding:60px 0}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:16px}
+.brand-tile{display:flex;align-items:center;justify-content:center;padding:28px 16px;font-weight:700;font-size:0.95rem;text-align:center}
+
+/* News */
+.news-section{padding:60px 0}
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
+.news-card{padding:28px;border-left:3px solid var(--primary)}
+.news-card .n-date{font-size:0.8rem;color:var(--text-muted);margin-bottom:8px}
+.news-card .n-title{font-size:1.1rem;font-weight:700;margin-bottom:8px}
+.news-card .n-excerpt{font-size:0.9rem;color:var(--text-muted);line-height:1.6}
+
+/* Stats */
+.stats-section{padding:60px 0;border-top:1px solid var(--card-border);border-bottom:1px solid var(--card-border)}
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;text-align:center}
+.stat-item .stat-num{font-size:2.5rem;font-weight:900}
+.stat-item .stat-label{font-size:0.9rem;color:var(--text-muted);margin-top:4px}
+
+/* Footer */
+.footer{padding:48px 0 32px;border-top:1px solid var(--card-border)}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px}
+.footer h4{font-size:1rem;font-weight:700;margin-bottom:16px}
+.footer a{display:block;font-size:0.88rem;color:var(--text-muted);margin-bottom:10px;transition:color .3s}
+.footer a:hover{color:#fff}
+.footer-bottom{text-align:center;font-size:0.82rem;color:var(--text-muted);padding-top:24px;border-top:1px solid var(--card-border)}
+
+/* Scroll Animations */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.from-left{transform:translateX(-40px)}
+.reveal.from-right{transform:translateX(40px)}
+.reveal.visible{opacity:1;transform:translate(0)}
+.reveal.scale-up{transform:scale(0.92)}
+.reveal.scale-up.visible{transform:scale(1)}
+
+/* Blob Mesh */
+.mesh-blob{position:absolute;border-radius:30% 70% 70% 30%/30% 30% 70% 70%;opacity:0.12;pointer-events:none;animation:morphBlob 20s ease-in-out infinite}
+@keyframes morphBlob{0%,100%{border-radius:30% 70% 70% 30%/30% 30% 70% 70%;transform:rotate(0deg)}50%{border-radius:70% 30% 30% 70%/70% 70% 30% 30%;transform:rotate(180deg)}}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+<div class="container">
+<a href="index.html" class="logo gradient-text">PhoneHub</a>
+<button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+<nav class="nav">
+<a href="index.html" class="active">Home</a>
+<a href="search.html">Explore</a>
+<a href="compare.html">Compare</a>
+<a href="brands.html">Brands</a>
+<a href="news.html">News</a>
+</nav>
+</div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+<div class="aurora aurora-1"></div>
+<div class="aurora aurora-2"></div>
+<div class="aurora aurora-3"></div>
+<div class="mesh-blob" style="width:300px;height:300px;background:linear-gradient(135deg,#8b5cf6,#06b6d4);top:10%;right:5%"></div>
+<div class="mesh-blob" style="width:250px;height:250px;background:linear-gradient(135deg,#ec4899,#8b5cf6);bottom:10%;left:8%;animation-delay:-7s"></div>
+<div class="hero-content">
+<h1><span class="gradient-text">Quantum Leap in Tech Discovery</span></h1>
+<p class="subtitle" id="typed"></p>
+<div class="search-bar">
+<input type="text" placeholder="Search phones, laptops, cars..." id="heroSearch">
+<button onclick="window.location.href='search.html?q='+encodeURIComponent(document.getElementById('heroSearch').value)">Search</button>
+</div>
+</div>
+</section>
+
+<!-- Categories -->
+<section class="categories">
+<div class="container">
+<div class="cat-strip">
+<a class="cat-pill" href="search.html?cat=Mobiles">Mobiles</a>
+<a class="cat-pill" href="search.html?cat=Auto">Auto</a>
+<a class="cat-pill" href="search.html?cat=Laptops">Laptops</a>
+<a class="cat-pill" href="search.html?cat=TVs">TVs</a>
+<a class="cat-pill" href="search.html?cat=Tablets">Tablets</a>
+<a class="cat-pill" href="search.html?cat=Accessories">Accessories</a>
+<a class="cat-pill" href="search.html?cat=Audio">Audio</a>
+<a class="cat-pill" href="search.html?cat=Wearables">Wearables</a>
+<a class="cat-pill" href="search.html?cat=Gaming">Gaming</a>
+</div>
+</div>
+</section>
+
+<!-- Quantum Picks -->
+<section class="products-section">
+<div class="container">
+<h2 class="section-title gradient-text reveal">Quantum Picks</h2>
+<div class="product-grid" id="productGrid"></div>
+</div>
+</section>
+
+<!-- Popular Brands -->
+<section class="brands-section">
+<div class="container">
+<h2 class="section-title gradient-text reveal">Popular Brands</h2>
+<div class="brand-grid" id="brandGrid"></div>
+</div>
+</section>
+
+<!-- Latest Discoveries (News) -->
+<section class="news-section">
+<div class="container">
+<h2 class="section-title gradient-text reveal">Latest Discoveries</h2>
+<div class="news-grid" id="newsGrid"></div>
+</div>
+</section>
+
+<!-- Stats -->
+<section class="stats-section">
+<div class="container">
+<div class="stats-grid">
+<div class="stat-item reveal"><div class="stat-num gradient-text">1,200+</div><div class="stat-label">Products Tracked</div></div>
+<div class="stat-item reveal"><div class="stat-num gradient-text">173</div><div class="stat-label">Brands Covered</div></div>
+<div class="stat-item reveal"><div class="stat-num gradient-text">50+</div><div class="stat-label">Expert Reviews</div></div>
+<div class="stat-item reveal"><div class="stat-num gradient-text">2M+</div><div class="stat-label">Monthly Visitors</div></div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div>
+<h4 class="gradient-text">PhoneHub</h4>
+<p style="font-size:0.88rem;color:var(--text-muted)">Your quantum gateway to tech discovery. Compare, explore, and decide.</p>
+</div>
+<div>
+<h4>Explore</h4>
+<a href="search.html">All Products</a>
+<a href="compare.html">Compare</a>
+<a href="brands.html">Brands</a>
+<a href="news.html">News</a>
+</div>
+<div>
+<h4>Categories</h4>
+<a href="search.html?cat=Mobiles">Mobiles</a>
+<a href="search.html?cat=Laptops">Laptops</a>
+<a href="search.html?cat=Auto">Auto</a>
+<a href="search.html?cat=TVs">TVs</a>
+</div>
+<div>
+<h4>Company</h4>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+</div>
+</div>
+<div class="footer-bottom">© 2026 PhoneHub. All rights reserved.</div>
+</div>
+</footer>
+
+<script>
+// === DATA ===
+const products=[
+{name:"iPhone 16 Pro Max",brand:"Apple",price:1199,rating:4.8,cat:"Mobiles",icon:"📱"},
+{name:"Galaxy S25 Ultra",brand:"Samsung",price:1299,rating:4.7,cat:"Mobiles",icon:"📱"},
+{name:"OnePlus 13",brand:"OnePlus",price:899,rating:4.5,cat:"Mobiles",icon:"📱"},
+{name:"Tesla Model Y",brand:"Tesla",price:44990,rating:4.6,cat:"Auto",icon:"🚗"},
+{name:"MacBook Pro M4",brand:"Apple",price:2399,rating:4.9,cat:"Laptops",icon:"💻"},
+{name:"Sony Bravia XR",brand:"Sony",price:1499,rating:4.4,cat:"TVs",icon:"📺"}
+];
+const brands=["Apple","Samsung","OnePlus","Tesla","Google","Xiaomi","Dell","BMW","LG","Sony","Huawei","Asus"];
+const news=[
+{date:"Jul 18, 2026",title:"iPhone 17 Leak Reveals Titanium-Unibody Design",excerpt:"Apple's next flagship may ditch the current frame for a seamless titanium shell..."},
+{date:"Jul 15, 2026",title:"Samsung Unveils 200MP Sensor for Galaxy S26",excerpt:"The next-gen ISOCELL sensor promises unprecedented detail in low-light conditions..."},
+{date:"Jul 12, 2026",title:"Tesla Model Y Refresh: What We Know So Far",excerpt:"Juniper update brings new interior, longer range, and faster charging capability..."}
+];
+
+// Render Products
+const pg=document.getElementById('productGrid');
+products.forEach((p,i)=>{
+const card=document.createElement('div');
+card.className='glass-card glass-card product-card reveal scale-up';
+card.style.transitionDelay=`${i*0.08}s`;
+card.innerHTML=`<div class="p-img">${p.icon}</div><div class="card-inner"><div class="p-category">${p.cat}</div><div class="p-name">${p.name}</div><div class="p-brand">${p.brand}</div><div class="p-bottom"><span class="p-price">$${p.price.toLocaleString()}</span><span class="p-rating">★ ${p.rating}</span></div></div>`;
+card.addEventListener('click',()=>window.location.href='product.html');
+card.style.cursor='pointer';
+pg.appendChild(card);
+});
+
+// Render Brands
+const bg=document.getElementById('brandGrid');
+brands.forEach((b,i)=>{
+const tile=document.createElement('a');
+tile.href='search.html?brand='+encodeURIComponent(b);
+tile.className='glass-card brand-tile reveal scale-up';
+tile.style.transitionDelay=`${i*0.05}s`;
+tile.textContent=b;
+bg.appendChild(tile);
+});
+
+// Render News
+const ng=document.getElementById('newsGrid');
+news.forEach((n,i)=>{
+const card=document.createElement('a');
+card.href='news.html';
+card.className='glass-card news-card reveal from-left';
+card.style.transitionDelay=`${i*0.1}s`;
+card.innerHTML=`<div class="n-date">${n.date}</div><div class="n-title">${n.title}</div><div class="n-excerpt">${n.excerpt}</div>`;
+ng.appendChild(card);
+});
+
+// Typing effect
+const phrases=["Explore the subatomic world of technology.","Compare specs across dimensions.","Find your perfect device — beyond the observable."];
+let pi=0,ci=0,deleting=false;
+const typedEl=document.getElementById('typed');
+function typeLoop(){
+const current=phrases[pi];
+if(!deleting){
+typedEl.innerHTML=current.slice(0,ci+1)+'<span class="cursor"></span>';
+ci++;
+if(ci>=current.length){deleting=true;setTimeout(typeLoop,1800);return}
+setTimeout(typeLoop,50);
+}else{
+typedEl.innerHTML=current.slice(0,ci)+'<span class="cursor"></span>';
+ci--;
+if(ci<0){deleting=false;pi=(pi+1)%phrases.length;setTimeout(typeLoop,400);return}
+setTimeout(typeLoop,30);
+}
+}
+typeLoop();
+
+// IntersectionObserver scroll reveal
+const observer=new IntersectionObserver((entries)=>{
+entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+// Magnetic cursor tilt
+document.querySelectorAll('.product-card').forEach(card=>{
+card.addEventListener('mousemove',e=>{
+const rect=card.getBoundingClientRect();
+const x=(e.clientX-rect.left)/rect.width-0.5;
+const y=(e.clientY-rect.top)/rect.height-0.5;
+card.style.transform=`perspective(1000px) rotateY(${x*8}deg) rotateX(${-y*6}deg) translateY(-4px)`;
+});
+card.addEventListener('mouseleave',()=>{card.style.transform=''});
+});
+</script>
+</body>
+</html>

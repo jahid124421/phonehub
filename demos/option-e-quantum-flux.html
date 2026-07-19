@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Quantum Flux</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--base:#0c0f1e;--violet:#8b5cf6;--cyan:#06b6d4;--amber:#f59e0b;--text:#e0e7ff;--glass:rgba(255,255,255,0.05);--font:'Inter',sans-serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--base);color:var(--text);overflow-x:hidden}
+header{position:sticky;top:0;z-index:100;backdrop-filter:blur(16px);background:rgba(12,15,30,0.85);border-bottom:1px solid rgba(139,92,246,0.2);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:800;font-size:1.4rem;background:linear-gradient(135deg,var(--violet),var(--cyan));-webkit-background-clip:text;color:transparent}
+nav a{color:var(--text);text-decoration:none;margin-left:1.8rem;font-size:.9rem;font-weight:500;transition:color .3s}
+nav a:hover{color:var(--cyan)}
+.hero{position:relative;min-height:520px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:4rem 1.5rem;overflow:hidden}
+.blob{position:absolute;border-radius:30% 70% 70% 30%/30% 30% 70% 70%;filter:blur(80px);opacity:.35;z-index:0}
+.blob-1{width:400px;height:400px;background:radial-gradient(circle,rgba(139,92,246,.6),transparent);top:-10%;left:-5%;animation:blobMove1 12s ease-in-out infinite}
+.blob-2{width:350px;height:350px;background:radial-gradient(circle,rgba(6,182,212,.5),transparent);bottom:-5%;right:-5%;animation:blobMove2 14s ease-in-out infinite}
+.blob-3{width:300px;height:300px;background:radial-gradient(circle,rgba(236,72,153,.4),transparent);top:30%;left:50%;animation:blobMove3 10s ease-in-out infinite}
+@keyframes blobMove1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(30px,20px) scale(1.15)}}
+@keyframes blobMove2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-25px,-15px) scale(1.1)}}
+@keyframes blobMove3{0%,100%{transform:translate(0,0) scale(1) rotate(0deg)}50%{transform:translate(20px,-25px) scale(.9) rotate(10deg)}}
+.hero-content{position:relative;z-index:2;max-width:720px}
+.hero h1{font-size:clamp(2.2rem,6vw,4rem);font-weight:800;line-height:1.08;margin-bottom:.75rem;background:linear-gradient(135deg,var(--violet),var(--cyan));-webkit-background-clip:text;color:transparent}
+.hero .subtitle{font-size:1.05rem;color:rgba(224,231,255,.6);margin-bottom:1.8rem;min-height:1.5em}
+.subtitle .cursor{display:inline-block;width:2px;height:1em;background:var(--cyan);margin-left:3px;animation:blink .7s step-end infinite;vertical-align:text-bottom}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.search-bar{display:flex;gap:.5rem;width:100%;max-width:480px;margin:0 auto}
+.search-bar input{flex:1;padding:.8rem 1.2rem;border:1px solid rgba(139,92,246,.3);background:rgba(139,92,246,.06);border-radius:14px;color:#fff;font-size:.95rem;outline:none;transition:border-color .3s,box-shadow .3s}
+.search-bar input:focus{border-color:var(--violet);box-shadow:0 0 16px rgba(139,92,246,.25)}
+.search-bar button{padding:.8rem 1.5rem;border:none;background:linear-gradient(135deg,var(--violet),var(--cyan));border-radius:14px;color:#fff;font-weight:600;cursor:pointer;font-size:.95rem;transition:opacity .3s,transform .3s}
+.search-bar button:hover{opacity:.85;transform:scale(1.03)}
+.section{padding:4rem 2rem;max-width:1100px;margin:0 auto}
+.section-title{font-size:1.8rem;font-weight:800;margin-bottom:2rem;background:linear-gradient(135deg,var(--violet),var(--cyan));-webkit-background-clip:text;color:transparent}
+.cat-strip{display:flex;gap:.7rem;overflow-x:auto;padding:1rem 2rem;scrollbar-width:none}
+.cat-strip::-webkit-scrollbar{display:none}
+.pill{flex-shrink:0;padding:.55rem 1.4rem;border:none;border-radius:99px;font-size:.85rem;font-weight:600;color:#fff;cursor:pointer;background:linear-gradient(135deg,var(--violet),var(--cyan));opacity:.55;transition:opacity .3s,transform .3s,box-shadow .3s;white-space:nowrap}
+.pill:hover,.pill.active{opacity:1;box-shadow:0 4px 18px rgba(139,92,246,.4);transform:scale(1.05)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem}
+.card{position:relative;background:var(--glass);backdrop-filter:blur(16px);border-radius:16px;padding:1.5rem;border:1px solid transparent;background-clip:padding-box;transition:transform .4s ease,box-shadow .4s ease;opacity:0;transform:translateX(-60px)}
+.card:nth-child(even){transform:translateX(60px)}
+.card.visible{opacity:1;transform:translateX(0)}
+.card::before{content:'';position:absolute;inset:-1px;border-radius:17px;background:linear-gradient(135deg,rgba(139,92,246,.4),rgba(6,182,212,.4),rgba(139,92,246,.4));background-size:200% 200%;animation:gradShift 4s ease infinite;z-index:-1}
+@keyframes gradShift{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.card:hover{transform:perspective(1000px) rotateY(2deg) rotateX(-1deg) translateY(-4px)!important;box-shadow:0 12px 40px rgba(139,92,246,.25)}
+.card .badge{font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--amber);border:1px solid rgba(245,158,11,.35);border-radius:6px;padding:.2rem .5rem;display:inline-block;margin-bottom:.6rem;font-weight:600}
+.card h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem;color:#fff}
+.card .brand{font-size:.8rem;color:rgba(224,231,255,.5);margin-bottom:.6rem}
+.card .meta{display:flex;align-items:center;justify-content:space-between}
+.card .price{font-size:1.1rem;font-weight:700;color:var(--amber)}
+.card .rating{color:#fbbf24;font-size:.9rem}
+.brands-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:1rem}
+.brand-tile{background:var(--glass);backdrop-filter:blur(8px);border:1px solid rgba(139,92,246,.15);border-radius:12px;padding:1.1rem .8rem;text-align:center;font-weight:600;font-size:.82rem;color:rgba(224,231,255,.7);cursor:pointer;transition:border-color .3s,box-shadow .3s,color .3s,transform .3s}
+.brand-tile:hover{border-color:var(--cyan);box-shadow:0 0 18px rgba(6,182,212,.3);color:#fff;transform:scale(1.06)}
+.news-card{position:relative;background:var(--glass);backdrop-filter:blur(16px);border:1px solid rgba(139,92,246,.15);border-left:3px solid var(--violet);border-radius:14px;padding:1.3rem;transition:transform .3s,box-shadow .3s;opacity:0;transform:translateX(-60px)}
+.news-card:nth-child(even){transform:translateX(60px)}
+.news-card.visible{opacity:1;transform:translateX(0)}
+.news-card:hover{transform:translateY(-3px);box-shadow:0 6px 24px rgba(139,92,246,.2)}
+.news-card .src{font-size:.75rem;color:var(--cyan);margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+.news-card h3{font-size:.97rem;color:#fff;margin-bottom:.4rem;line-height:1.4}
+.news-card .time{font-size:.75rem;color:rgba(224,231,255,.4)}
+footer{border-top:1px solid rgba(139,92,246,.12);margin-top:3rem;padding:2.5rem 2rem;display:flex;flex-wrap:wrap;gap:2rem;justify-content:space-between}
+footer .col h4{font-size:.85rem;font-weight:700;margin-bottom:.8rem;background:linear-gradient(135deg,var(--violet),var(--cyan));-webkit-background-clip:text;color:transparent}
+footer .col a{display:block;color:rgba(224,231,255,.55);text-decoration:none;font-size:.83rem;margin-bottom:.4rem;transition:color .3s}
+footer .col a:hover{color:var(--cyan)}
+footer .copyright{width:100%;text-align:center;font-size:.78rem;color:rgba(224,231,255,.3);margin-top:1rem;border-top:1px solid rgba(139,92,246,.08);padding-top:1.2rem}
+@media(max-width:768px){.grid{grid-template-columns:1fr}nav{display:none}.brands-grid{grid-template-columns:repeat(3,1fr)}footer{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0s!important;transition-duration:0s!important}.card,.news-card{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">PhoneHub</div>
+  <nav>
+    <a href="#home">Home</a><a href="#devices">Devices</a><a href="#compare">Compare</a><a href="#brands">Brands</a><a href="#news">News</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="hero-content">
+    <h1>Quantum Leap in<br>Tech Discovery</h1>
+    <p class="subtitle" id="typed-subtitle"></p>
+    <div class="search-bar">
+      <input type="text" placeholder="Search devices, brands, specs...">
+      <button>Search</button>
+    </div>
+  </div>
+</section>
+
+<div class="cat-strip">
+  <button class="pill active">Mobiles</button><button class="pill">Tablets</button><button class="pill">Laptops</button>
+  <button class="pill">TVs</button><button class="pill">Electronics</button><button class="pill">Appliances</button>
+  <button class="pill">Computers</button><button class="pill">Accessories</button><button class="pill">Auto</button>
+</div>
+
+<section class="section" id="devices">
+  <h2 class="section-title">Trending Devices</h2>
+  <div class="grid">
+    <div class="card anim-item"><span class="badge">Phone</span><h3>iPhone 16 Pro Max</h3><p class="brand">Apple</p><div class="meta"><span class="price">$1,199</span><span class="rating">★ 4.8</span></div></div>
+    <div class="card anim-item"><span class="badge">Phone</span><h3>Galaxy S25 Ultra</h3><p class="brand">Samsung</p><div class="meta"><span class="price">$1,299</span><span class="rating">★ 4.7</span></div></div>
+    <div class="card anim-item"><span class="badge">Phone</span><h3>OnePlus 13</h3><p class="brand">OnePlus</p><div class="meta"><span class="price">$899</span><span class="rating">★ 4.5</span></div></div>
+    <div class="card anim-item"><span class="badge">Auto</span><h3>Tesla Model Y</h3><p class="brand">Tesla</p><div class="meta"><span class="price">$44,990</span><span class="rating">★ 4.6</span></div></div>
+    <div class="card anim-item"><span class="badge">Laptop</span><h3>MacBook Pro M4</h3><p class="brand">Apple</p><div class="meta"><span class="price">$2,399</span><span class="rating">★ 4.9</span></div></div>
+    <div class="card anim-item"><span class="badge">TV</span><h3>Sony Bravia XR</h3><p class="brand">Sony</p><div class="meta"><span class="price">$1,499</span><span class="rating">★ 4.4</span></div></div>
+  </div>
+</section>
+
+<section class="section" id="brands">
+  <h2 class="section-title">Popular Brands</h2>
+  <div class="brands-grid">
+    <div class="brand-tile">Apple</div><div class="brand-tile">Samsung</div><div class="brand-tile">Google</div>
+    <div class="brand-tile">Xiaomi</div><div class="brand-tile">Tesla</div><div class="brand-tile">BMW</div>
+    <div class="brand-tile">Sony</div><div class="brand-tile">Microsoft</div><div class="brand-tile">OnePlus</div>
+    <div class="brand-tile">LG</div><div class="brand-tile">Dell</div><div class="brand-tile">Toyota</div>
+  </div>
+</section>
+
+<section class="section" id="news">
+  <h2 class="section-title">Latest News</h2>
+  <div class="grid">
+    <div class="news-card anim-item"><div class="src">TechCrunch</div><h3>Apple unveils revolutionary M4 Ultra chip</h3><div class="time">2 hours ago</div></div>
+    <div class="news-card anim-item"><div class="src">The Verge</div><h3>Tesla Model Y refresh brings new interior</h3><div class="time">5 hours ago</div></div>
+    <div class="news-card anim-item"><div class="src">Android Authority</div><h3>Samsung Galaxy S26 leak reveals periscope zoom</h3><div class="time">8 hours ago</div></div>
+  </div>
+</section>
+
+<footer id="compare">
+  <div class="col"><h4>Explore</h4><a href="#">Home</a><a href="#">Devices</a><a href="#">Compare</a></div>
+  <div class="col"><h4>Categories</h4><a href="#">Mobiles</a><a href="#">Laptops</a><a href="#">TVs</a></div>
+  <div class="col"><h4>Company</h4><a href="#">About</a><a href="#">Contact</a><a href="#">Careers</a></div>
+  <div class="col"><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Disclosure</a></div>
+  <div class="copyright">&copy; 2026 PhoneHub. All rights reserved.</div>
+</footer>
+
+<script>
+const subtitleText = "Compare specs, prices & reviews across 10,000+ devices";
+const el = document.getElementById('typed-subtitle');
+let i = 0;
+function typeChar() {
+  if (i <= subtitleText.length) {
+    el.innerHTML = subtitleText.slice(0, i) + '<span class="cursor"></span>';
+    i++;
+    setTimeout(typeChar, 38);
+  }
+}
+typeChar();
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, idx) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), idx * 80);
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.anim-item').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.pill').forEach(p => {
+  p.addEventListener('click', () => {
+    document.querySelectorAll('.pill').forEach(x => x.classList.remove('active'));
+    p.classList.add('active');
+  });
+});
+
+// Magnetic tilt on cards
+document.querySelectorAll('.card').forEach(card => {
+  card.addEventListener('mousemove', (e) => {
+    const rect = card.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const rotateY = ((x - centerX) / centerX) * 4;
+    const rotateX = ((centerY - y) / centerY) * 3;
+    card.style.transform = `perspective(1000px) rotateY(${rotateY}deg) rotateX(${rotateX}deg) translateY(-4px)`;
+  });
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = '';
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — The Future of Tech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ─── RESET & BASE ─── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --base:#0a0e1a;--card:rgba(0,240,255,0.05);--cyan:#00f0ff;--magenta:#ff00ff;
+  --glass-blur:blur(12px);--glow:0 0 15px rgba(0,240,255,0.3);
+  --glow-hover:0 0 25px rgba(0,240,255,0.55),0 0 50px rgba(0,240,255,0.15);
+  --radius:14px;--transition:0.35s cubic-bezier(.4,0,.2,1);
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',sans-serif;background:var(--base);color:#e0e8f0;
+  line-height:1.6;overflow-x:hidden;
+  background-image:
+    linear-gradient(rgba(0,240,255,0.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(0,240,255,0.03) 1px,transparent 1px);
+  background-size:50px 50px;
+}
+h1,h2,h3,h4,h5,h6{font-family:'Orbitron',monospace;color:var(--cyan);letter-spacing:.5px}
+a{color:var(--cyan);text-decoration:none;transition:color var(--transition)}
+a:hover{color:var(--magenta)}
+img{max-width:100%;display:block}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar{width:7px}
+::-webkit-scrollbar-track{background:#080c16}
+::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:10px}
+
+/* ─── HEADER ─── */
+.site-header{
+  position:sticky;top:0;z-index:1000;
+  background:rgba(10,14,26,0.85);backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(0,240,255,0.15);
+  padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px;
+}
+.logo{font-family:'Orbitron',monospace;font-size:1.35rem;font-weight:800;color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.7)}
+.logo span{color:var(--magenta)}
+nav{display:flex;gap:2rem;align-items:center}
+nav a{font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8;transition:color var(--transition)}
+nav a:hover,nav a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.5)}
+.nav-toggle{display:none;background:none;border:none;color:var(--cyan);font-size:1.5rem;cursor:pointer}
+
+/* ─── HERO ─── */
+.hero{
+  position:relative;min-height:520px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;
+  padding:5rem 2rem 4rem;overflow:hidden;
+}
+.hero::before{
+  content:'';position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 30% 40%,rgba(0,240,255,0.18),transparent 70%),
+    radial-gradient(ellipse 70% 60% at 70% 60%,rgba(255,0,255,0.14),transparent 70%);
+  animation:meshShift 8s ease-in-out infinite alternate;
+}
+@keyframes meshShift{
+  0%{background-position:0% 0%,100% 100%}
+  100%{background-position:100% 100%,0% 0%}
+}
+.hero-content{position:relative;z-index:1;max-width:800px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.8rem);font-weight:800;line-height:1.1;margin-bottom:1.2rem}
+
+/* ─── GLITCH TEXT ─── */
+.glitch{position:relative;display:inline-block}
+.glitch::before,.glitch::after{
+  content:attr(data-text);position:absolute;top:0;left:0;width:100%;height:100%;
+  overflow:hidden;
+}
+.glitch::before{
+  color:var(--magenta);z-index:-1;
+  animation:glitch1 3s infinite linear alternate-reverse;
+  clip-path:polygon(0 0,100% 0,100% 45%,0 45%);
+}
+.glitch::after{
+  color:var(--cyan);z-index:-2;
+  animation:glitch2 2s infinite linear alternate-reverse;
+  clip-path:polygon(0 60%,100% 60%,100% 100%,0 100%);
+}
+@keyframes glitch1{
+  0%,90%{transform:translate(0)}
+  91%{transform:translate(-3px,1px)}
+  93%{transform:translate(3px,-1px)}
+  95%{transform:translate(-2px,2px)}
+  97%{transform:translate(2px,-2px)}
+  100%{transform:translate(0)}
+}
+@keyframes glitch2{
+  0%,88%{transform:translate(0)}
+  89%{transform:translate(3px,2px)}
+  92%{transform:translate(-3px,-1px)}
+  94%{transform:translate(2px,1px)}
+  96%{transform:translate(-2px,-2px)}
+  100%{transform:translate(0)}
+}
+.hero p{font-size:1.05rem;color:#a0b4c8;margin-bottom:2rem;max-width:540px;margin-inline:auto}
+
+/* ─── SEARCH BAR ─── */
+.hero-search{
+  display:flex;max-width:520px;width:100%;margin:0 auto;
+  border:1px solid rgba(0,240,255,0.4);border-radius:60px;overflow:hidden;
+  background:rgba(0,240,255,0.04);backdrop-filter:blur(8px);
+  box-shadow:0 0 20px rgba(0,240,255,0.1);
+}
+.hero-search input{
+  flex:1;background:transparent;border:none;outline:none;
+  padding:0.85rem 1.5rem;color:#e0e8f0;font-size:.95rem;
+}
+.hero-search input::placeholder{color:#5a7088}
+.hero-search button{
+  padding:0.85rem 1.8rem;border:none;cursor:pointer;font-weight:700;font-size:.9rem;
+  background:linear-gradient(135deg,var(--cyan),var(--magenta));color:#0a0e1a;
+  font-family:'Orbitron',monospace;letter-spacing:1px;
+}
+
+/* ─── SECTIONS ─── */
+section{padding:4rem 2rem;max-width:1280px;margin:0 auto}
+.section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:2rem;flex-wrap:wrap;gap:1rem}
+.section-header h2{font-size:1.6rem}
+.section-header a{font-size:.875rem;color:var(--magenta);font-weight:600}
+
+/* ─── CATEGORY STRIP ─── */
+.cat-strip{display:flex;flex-wrap:wrap;gap:.65rem;padding:2rem;max-width:1280px;margin:0 auto}
+.cat-pill{
+  padding:.45rem 1.1rem;border-radius:60px;font-size:.8rem;font-weight:600;
+  border:1.5px solid rgba(0,240,255,0.5);color:var(--cyan);
+  background:transparent;cursor:pointer;transition:all var(--transition);
+  text-transform:uppercase;letter-spacing:.8px;
+}
+.cat-pill:hover,.cat-pill.active{
+  background:rgba(0,240,255,0.12);border-color:var(--cyan);
+  box-shadow:0 0 12px rgba(0,240,255,0.3);
+}
+
+/* ─── GLASS CARD ─── */
+.glass{
+  background:var(--card);backdrop-filter:var(--glass-blur);
+  border:1px solid rgba(0,240,255,0.2);border-radius:var(--radius);
+  box-shadow:var(--glow);transition:all var(--transition);
+  position:relative;overflow:hidden;
+}
+.glass::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(
+    0deg,transparent,transparent 2px,rgba(0,240,255,0.015) 2px,rgba(0,240,255,0.015) 4px
+  );
+}
+.glass:hover{box-shadow:var(--glow-hover);border-color:rgba(0,240,255,0.45)}
+
+/* ─── PRODUCT CARDS ─── */
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.product-card{padding:1.2rem;cursor:pointer}
+.product-card .img-placeholder{
+  width:100%;aspect-ratio:4/3;background:#0d1525;border:1px solid rgba(0,240,255,0.15);
+  border-radius:10px;display:flex;align-items:center;justify-content:center;
+  color:#1e3048;font-size:2.5rem;margin-bottom:1rem;
+}
+.product-card h3{font-size:.95rem;margin-bottom:.4rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600}
+.product-card .brand{font-size:.75rem;color:var(--cyan);margin-bottom:.5rem;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.product-card .meta{display:flex;align-items:center;justify-content:space-between;margin-top:.5rem}
+.price{
+  background:rgba(120,40,200,0.35);color:#fff;padding:.25rem .7rem;
+  border-radius:20px;font-size:.8rem;font-weight:700;
+}
+.rating{color:var(--cyan);font-size:.85rem;font-weight:700}
+.rating span{margin-left:2px}
+
+/* ─── BRANDS GRID ─── */
+.brands-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:1rem}
+.brand-tile{
+  padding:1.5rem 1rem;text-align:center;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+}
+.brand-tile .brand-initial{
+  width:52px;height:52px;border-radius:50%;
+  border:2px solid rgba(0,240,255,0.4);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:700;color:var(--cyan);
+  background:rgba(0,240,255,0.06);
+}
+.brand-tile .brand-name{font-size:.82rem;font-weight:600;color:#c0d0e0}
+
+/* ─── NEWS CARDS ─── */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.news-card{padding:0;cursor:pointer;display:flex;flex-direction:column}
+.news-card .news-thumb{
+  width:100%;aspect-ratio:16/9;background:#0d1525;
+  border-bottom:1px solid rgba(0,240,255,0.15);
+  display:flex;align-items:center;justify-content:center;color:#1e3048;font-size:2rem;
+}
+.news-card .news-body{padding:1.2rem;border-left:3px solid var(--cyan)}
+.news-card .news-source{font-size:.68rem;font-weight:700;text-transform:uppercase;color:var(--cyan);letter-spacing:1.2px;margin-bottom:.5rem}
+.news-card h3{font-size:.92rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600;margin-bottom:.5rem;line-height:1.4}
+.news-card .news-time{font-size:.72rem;color:#5a7088}
+
+/* ─── STATS BANNER ─── */
+.stats-banner{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;
+  padding:3rem 2rem;max-width:1280px;margin:2rem auto;
+  text-align:center;
+}
+.stat-item{padding:1.5rem}
+.stat-item .stat-num{font-family:'Orbitron',monospace;font-size:1.8rem;font-weight:800;color:var(--cyan);margin-bottom:.4rem}
+.stat-item .stat-label{font-size:.8rem;color:#8ea4b8;text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
+
+/* ─── FOOTER ─── */
+.site-footer{
+  border-top:1px solid rgba(0,240,255,0.12);
+  padding:3rem 2rem 2rem;max-width:1280px;margin:0 auto;
+}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{font-size:.85rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.footer-col a{display:block;font-size:.82rem;color:#7a90a8;margin-bottom:.55rem;transition:color var(--transition)}
+.footer-col a:hover{color:var(--cyan)}
+.footer-copy{text-align:center;font-size:.75rem;color:#4a5e72;padding-top:1.5rem;border-top:1px solid rgba(0,240,255,0.08)}
+
+/* ─── ANIMATIONS ─── */
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.anim.from-left{transform:translateX(-40px)}
+.anim.from-right{transform:translateX(40px)}
+.anim.visible{opacity:1;transform:translate(0)}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1024px){
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .brands-grid{grid-template-columns:repeat(4,1fr)}
+  .news-grid{grid-template-columns:repeat(2,1fr)}
+  .stats-banner{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:768px){
+  nav{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(10,14,26,0.97);
+    flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(0,240,255,0.15)}
+  nav.open{display:flex}
+  .nav-toggle{display:block}
+  .product-grid,.news-grid{grid-template-columns:1fr}
+  .brands-grid{grid-template-columns:repeat(3,1fr)}
+  .stats-banner{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}
+  .anim{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header class="site-header">
+  <a href="index.html" class="logo">Phone<span>Hub</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">☰</button>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="search.html">Devices</a>
+    <a href="compare.html">Compare</a>
+    <a href="brands.html">Brands</a>
+    <a href="news.html">News</a>
+  </nav>
+</header>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="hero-content">
+    <h1><span class="glitch" data-text="The Future of Tech">The Future of Tech</span></h1>
+    <p>Discover, compare, and choose from over 1,400 devices across phones, laptops, cars, and more — all in one neon-lit hub.</p>
+    <form class="hero-search" onsubmit="event.preventDefault();window.location.href='search.html'">
+      <input type="text" placeholder="Search phones, laptops, cars...">
+      <button type="submit">SEARCH</button>
+    </form>
+  </div>
+</section>
+
+<!-- ─── CATEGORY STRIP ─── -->
+<div class="cat-strip">
+  <span class="cat-pill active">Mobiles</span>
+  <span class="cat-pill">Tablets</span>
+  <span class="cat-pill">Laptops</span>
+  <span class="cat-pill">TVs</span>
+  <span class="cat-pill">Electronics</span>
+  <span class="cat-pill">Appliances</span>
+  <span class="cat-pill">Computers</span>
+  <span class="cat-pill">Accessories</span>
+  <span class="cat-pill">Auto</span>
+</div>
+
+<!-- ─── TRENDING DEVICES ─── -->
+<section>
+  <div class="section-header">
+    <h2>⚡ Trending Devices</h2>
+    <a href="search.html">View All →</a>
+  </div>
+  <div class="product-grid">
+    <div class="glass product-card anim">
+      <div class="img-placeholder">📱</div>
+      <div class="brand">Apple</div>
+      <h3>iPhone 16 Pro Max</h3>
+      <div class="meta"><span class="price">$1,199</span><span class="rating">★ <span>4.8</span></span></div>
+    </div>
+    <div class="glass product-card anim from-right">
+      <div class="img-placeholder">📱</div>
+      <div class="brand">Samsung</div>
+      <h3>Galaxy S25 Ultra</h3>
+      <div class="meta"><span class="price">$1,299</span><span class="rating">★ <span>4.7</span></span></div>
+    </div>
+    <div class="glass product-card anim">
+      <div class="img-placeholder">📱</div>
+      <div class="brand">OnePlus</div>
+      <h3>OnePlus 13</h3>
+      <div class="meta"><span class="price">$899</span><span class="rating">★ <span>4.5</span></span></div>
+    </div>
+    <div class="glass product-card anim from-left">
+      <div class="img-placeholder">🚗</div>
+      <div class="brand">Tesla</div>
+      <h3>Tesla Model Y</h3>
+      <div class="meta"><span class="price">$44,990</span><span class="rating">★ <span>4.6</span></span></div>
+    </div>
+    <div class="glass product-card anim from-right">
+      <div class="img-placeholder">💻</div>
+      <div class="brand">Apple</div>
+      <h3>MacBook Pro M4</h3>
+      <div class="meta"><span class="price">$2,399</span><span class="rating">★ <span>4.9</span></span></div>
+    </div>
+    <div class="glass product-card anim">
+      <div class="img-placeholder">📺</div>
+      <div class="brand">Sony</div>
+      <h3>Sony Bravia XR</h3>
+      <div class="meta"><span class="price">$1,499</span><span class="rating">★ <span>4.4</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── POPULAR BRANDS ─── -->
+<section>
+  <div class="section-header">
+    <h2>🏢 Popular Brands</h2>
+    <a href="brands.html">All Brands →</a>
+  </div>
+  <div class="brands-grid">
+    <div class="glass brand-tile anim"><div class="brand-initial">A</div><div class="brand-name">Apple</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">S</div><div class="brand-name">Samsung</div></div>
+    <div class="glass brand-tile anim"><div class="brand-initial">G</div><div class="brand-name">Google</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">X</div><div class="brand-name">Xiaomi</div></div>
+    <div class="glass brand-tile anim"><div class="brand-initial">T</div><div class="brand-name">Tesla</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">B</div><div class="brand-name">BMW</div></div>
+    <div class="glass brand-tile anim"><div class="brand-initial">S</div><div class="brand-name">Sony</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">M</div><div class="brand-name">Microsoft</div></div>
+    <div class="glass brand-tile anim"><div class="brand-initial">O</div><div class="brand-name">OnePlus</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">L</div><div class="brand-name">LG</div></div>
+    <div class="glass brand-tile anim"><div class="brand-initial">D</div><div class="brand-name">Dell</div></div>
+    <div class="glass brand-tile anim from-right"><div class="brand-initial">T</div><div class="brand-name">Toyota</div></div>
+  </div>
+</section>
+
+<!-- ─── LATEST NEWS ─── -->
+<section>
+  <div class="section-header">
+    <h2>📰 Latest News</h2>
+    <a href="news.html">All News →</a>
+  </div>
+  <div class="news-grid">
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <div class="news-source">TechCrunch</div>
+        <h3>Apple Unveils M4 Ultra Chip With Record-Breaking Performance</h3>
+        <div class="news-time">2 hours ago</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-right">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <div class="news-source">The Verge</div>
+        <h3>Tesla's New Model Y Refresh: Everything You Need to Know</h3>
+        <div class="news-time">Today</div>
+      </div>
+    </div>
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <div class="news-source">GSMArena</div>
+        <h3>Samsung Galaxy S25 Ultra Camera Deep Dive — Best Shots Yet</h3>
+        <div class="news-time">Yesterday</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── STATS BANNER ─── -->
+<div class="stats-banner">
+  <div class="glass stat-item anim"><div class="stat-num">7</div><div class="stat-label">Categories</div></div>
+  <div class="glass stat-item anim from-right"><div class="stat-num">1,400+</div><div class="stat-label">Devices</div></div>
+  <div class="glass stat-item anim"><div class="stat-num">Daily</div><div class="stat-label">Updates</div></div>
+  <div class="glass stat-item anim from-right"><div class="stat-num">183</div><div class="stat-label">Brands</div></div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Products</h4>
+      <a href="search.html">All Devices</a>
+      <a href="compare.html">Compare</a>
+      <a href="search.html">Mobiles</a>
+      <a href="search.html">Laptops</a>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <a href="brands.html">Brands</a>
+      <a href="search.html">Tablets</a>
+      <a href="search.html">TVs</a>
+      <a href="search.html">Auto</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Disclosure</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-copy">© 2026 PhoneHub. All rights reserved. Data sourced from GSMArena & public APIs.</div>
+</footer>
+
+<script>
+// Intersection Observer for scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+
+// Category pills toggle
+document.querySelectorAll('.cat-pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

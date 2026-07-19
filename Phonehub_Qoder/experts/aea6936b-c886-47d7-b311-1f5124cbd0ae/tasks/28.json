@@ -1,0 +1,16 @@
+{
+  "id": "28",
+  "subject": "Enhance news fetching for daily freshness",
+  "description": "Update tools/news_fetch.py: add more RSS sources, add --max-age flag to discard news older than 24 hours, add news category tagging (mobiles, laptops, auto, etc.), add more tech news sources for broader coverage. Ensure news is always current day.",
+  "status": "completed",
+  "owner": "Robin",
+  "metadata": {
+    "agentName": "Robin",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784449065276,
+    "tool_call_id": "call_5322da248c304f91bfe759d1"
+  },
+  "activeForm": "Enhancing news pipeline for daily freshness",
+  "gmtCreate": 1784448893669,
+  "gmtModified": 1784449581251
+}

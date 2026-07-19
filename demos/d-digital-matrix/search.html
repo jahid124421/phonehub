@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Search Devices</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060a0f;--primary:#00ff88;--secondary:#00cccc;--text:#c8d6e5;--card:#0a1018;--border:#00ff8833;--glow:rgba(0,255,136,0.4);--mono:'JetBrains Mono',monospace;--sans:'Inter',sans-serif;--scanline:repeating-linear-gradient(0deg,rgba(0,0,0,0.15) 0px,rgba(0,0,0,0.15) 1px,transparent 1px,transparent 2px)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110';position:fixed;top:0;left:0;width:100%;height:100%;font-family:var(--mono);font-size:14px;color:rgba(0,255,136,0.02);word-wrap:break-word;pointer-events:none;z-index:0;padding:20px;line-height:2}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+a:hover{color:var(--secondary);text-shadow:0 0 8px var(--glow)}
+
+header{position:sticky;top:0;z-index:100;background:rgba(6,10,15,0.95);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--primary);text-shadow:0 0 8px var(--glow)}
+.logo span{color:var(--text);opacity:.6}
+nav{display:flex;gap:24px}
+nav a{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.8}
+nav a:hover,nav a.active{color:var(--primary);opacity:1}
+.mobile-toggle{display:none;background:none;border:none;color:var(--primary);font-size:1.5rem;cursor:pointer}
+
+/* BREADCRUMB */
+.breadcrumb{max-width:1200px;margin:0 auto;padding:16px 20px;font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.breadcrumb a{color:var(--secondary);opacity:.8}
+.breadcrumb a:hover{opacity:1}
+
+/* LAYOUT */
+.page-layout{max-width:1200px;margin:0 auto;padding:0 20px 48px;display:grid;grid-template-columns:260px 1fr;gap:30px}
+
+/* SIDEBAR */
+.sidebar{position:sticky;top:80px;align-self:start}
+.filter-header{font-family:var(--mono);font-size:1rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:20px;display:flex;align-items:center;gap:8px}
+.filter-header::before{content:'--';color:var(--secondary)}
+.filter-group{margin-bottom:24px;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.filter-group-title{font-family:var(--mono);font-size:.8rem;color:var(--primary);padding:12px 14px;background:rgba(0,255,136,0.05);cursor:pointer;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border);user-select:none}
+.filter-group-title::after{content:'▾';font-size:.7rem;opacity:.5}
+.filter-group-title.collapsed::after{content:'▸'}
+.filter-group-body{padding:12px 14px}
+.filter-group-body.hidden{display:none}
+.filter-check{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:.85rem;cursor:pointer}
+.filter-check input[type=checkbox]{appearance:none;width:16px;height:16px;border:1px solid var(--border);border-radius:3px;background:var(--card);cursor:pointer;position:relative;flex-shrink:0}
+.filter-check input[type=checkbox]:checked{background:rgba(0,255,136,0.2);border-color:var(--primary)}
+.filter-check input[type=checkbox]:checked::after{content:'✓';position:absolute;top:-1px;left:3px;font-size:11px;color:var(--primary)}
+.price-range{width:100%}
+.price-range input[type=range]{-webkit-appearance:none;width:100%;height:4px;background:var(--border);border-radius:2px;outline:none;margin:10px 0}
+.price-range input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;background:var(--primary);border-radius:50%;cursor:pointer;box-shadow:0 0 8px var(--glow)}
+.price-labels{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.75rem;color:var(--secondary)}
+.filter-apply{width:100%;padding:10px;background:transparent;border:1px solid var(--primary);color:var(--primary);font-family:var(--mono);font-size:.85rem;border-radius:4px;cursor:pointer;transition:all .3s;margin-top:8px}
+.filter-apply:hover{background:rgba(0,255,136,0.1);box-shadow:0 0 12px rgba(0,255,136,0.2)}
+
+/* MAIN CONTENT */
+.main-content{}
+.results-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:12px}
+.results-count{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.6}
+.results-count b{color:var(--primary);opacity:1}
+.sort-bar{display:flex;align-items:center;gap:8px}
+.sort-bar label{font-family:var(--mono);font-size:.8rem;color:var(--secondary)}
+.sort-select{background:var(--card);border:1px solid var(--border);color:var(--text);font-family:var(--mono);font-size:.8rem;padding:8px 12px;border-radius:4px;cursor:pointer;outline:none}
+.sort-select:focus{border-color:var(--primary)}
+.sort-select option{background:var(--bg)}
+
+/* PRODUCT GRID */
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:18px;position:relative;overflow:hidden;transition:all .4s;cursor:pointer}
+.product-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.product-card:hover{border-color:var(--primary);box-shadow:0 0 20px rgba(0,255,136,0.1);transform:translateY(-3px)}
+.card-label{font-family:var(--mono);font-size:.72rem;color:var(--secondary);margin-bottom:8px;opacity:.8}
+.card-img{width:100%;height:140px;background:linear-gradient(135deg,#0d1520,#111d2e);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-bottom:12px;border:1px solid var(--border)}
+.card-img .icon{font-size:2.5rem;opacity:.3}
+.card-title{font-family:var(--mono);font-size:.95rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:3px}
+.card-brand{font-size:.8rem;color:var(--text);opacity:.5;margin-bottom:8px}
+.card-meta{display:flex;justify-content:space-between;align-items:center}
+.card-price{font-family:var(--mono);font-size:1rem;color:var(--primary);font-weight:700;text-shadow:0 0 8px var(--glow)}
+.card-rating{font-size:.85rem;color:#fff;display:flex;align-items:center;gap:4px}
+.card-cat{font-family:var(--mono);font-size:.7rem;padding:3px 10px;border:1px solid var(--border);border-radius:10px;color:var(--secondary);margin-top:8px;display:inline-block}
+
+/* PAGINATION */
+.pagination{display:flex;justify-content:center;gap:8px;margin-top:32px}
+.page-btn{width:36px;height:36px;display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:4px;font-family:var(--mono);font-size:.85rem;color:var(--text);cursor:pointer;transition:all .3s;background:transparent}
+.page-btn:hover,.page-btn.active{border-color:var(--primary);color:var(--primary);background:rgba(0,255,136,0.05)}
+
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+footer{border-top:1px solid var(--border);background:rgba(6,10,15,0.95);margin-top:40px}
+.footer-inner{max-width:1200px;margin:0 auto;padding:30px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-inner .logo{font-family:var(--mono);font-size:.9rem;color:var(--primary)}
+.footer-links{display:flex;gap:20px}
+.footer-links a{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.footer-links a:hover{opacity:1}
+
+@media(max-width:900px){
+  .page-layout{grid-template-columns:1fr}
+  .sidebar{position:static}
+}
+@media(max-width:768px){
+  nav{display:none;position:absolute;top:60px;left:0;width:100%;background:rgba(6,10,15,0.98);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--border)}
+  nav.open{display:flex}
+  .mobile-toggle{display:block}
+  .product-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">&gt;_ PhoneHub<span>.sys</span></a>
+    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="search.html" class="active">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </nav>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">// HOME</a> / EVERYTHING
+</div>
+
+<div class="page-layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar fade-in">
+    <div class="filter-header">filters</div>
+
+    <div class="filter-group">
+      <div class="filter-group-title" onclick="toggleFilter(this)">&gt; brand</div>
+      <div class="filter-group-body">
+        <label class="filter-check"><input type="checkbox" checked> Apple</label>
+        <label class="filter-check"><input type="checkbox" checked> Samsung</label>
+        <label class="filter-check"><input type="checkbox" checked> Google</label>
+        <label class="filter-check"><input type="checkbox" checked> OnePlus</label>
+        <label class="filter-check"><input type="checkbox" checked> Xiaomi</label>
+        <label class="filter-check"><input type="checkbox"> Dell</label>
+        <label class="filter-check"><input type="checkbox"> Sony</label>
+        <label class="filter-check"><input type="checkbox"> LG</label>
+        <label class="filter-check"><input type="checkbox"> Tesla</label>
+        <label class="filter-check"><input type="checkbox"> BMW</label>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <div class="filter-group-title" onclick="toggleFilter(this)">&gt; price_range</div>
+      <div class="filter-group-body">
+        <div class="price-range">
+          <input type="range" min="0" max="60000" value="60000" step="100" id="priceSlider" oninput="document.getElementById('priceVal').textContent='$'+Number(this.value).toLocaleString()">
+          <div class="price-labels"><span>$0</span><span id="priceVal">$60,000</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <div class="filter-group-title" onclick="toggleFilter(this)">&gt; category</div>
+      <div class="filter-group-body">
+        <label class="filter-check"><input type="checkbox" checked> Mobiles</label>
+        <label class="filter-check"><input type="checkbox" checked> Tablets</label>
+        <label class="filter-check"><input type="checkbox" checked> Laptops</label>
+        <label class="filter-check"><input type="checkbox" checked> TVs</label>
+        <label class="filter-check"><input type="checkbox" checked> Auto</label>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <div class="filter-group-title" onclick="toggleFilter(this)">&gt; featured</div>
+      <div class="filter-group-body">
+        <label class="filter-check"><input type="checkbox"> Editor's Choice</label>
+        <label class="filter-check"><input type="checkbox"> Best Value</label>
+        <label class="filter-check"><input type="checkbox"> Top Rated</label>
+        <label class="filter-check"><input type="checkbox"> New Release</label>
+      </div>
+    </div>
+
+    <button class="filter-apply">$ apply_filters</button>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main-content">
+    <div class="results-header fade-in">
+      <div class="results-count">showing <b>12</b> results // query: <b>*</b></div>
+      <div class="sort-bar">
+        <label>--sort=</label>
+        <select class="sort-select">
+          <option value="popularity">popularity</option>
+          <option value="rating">rating</option>
+          <option value="price">price</option>
+          <option value="newest">newest</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="product-grid fade-in">
+      <div class="product-card" onclick="location.href='product.html'">
+        <div class="card-label">&gt;_ iPhone 16 Pro Max</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">iPhone 16 Pro Max</div>
+        <div class="card-brand">Apple</div>
+        <div class="card-meta"><span class="card-price">$1,199</span><span class="card-rating">★ 4.8</span></div>
+        <span class="card-cat">&gt; mobiles</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Galaxy S25 Ultra</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Galaxy S25 Ultra</div>
+        <div class="card-brand">Samsung</div>
+        <div class="card-meta"><span class="card-price">$1,299</span><span class="card-rating">★ 4.7</span></div>
+        <span class="card-cat">&gt; mobiles</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ OnePlus 13</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">OnePlus 13</div>
+        <div class="card-brand">OnePlus</div>
+        <div class="card-meta"><span class="card-price">$899</span><span class="card-rating">★ 4.5</span></div>
+        <span class="card-cat">&gt; mobiles</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Tesla Model Y</div>
+        <div class="card-img"><span class="icon">🚗</span></div>
+        <div class="card-title">Tesla Model Y</div>
+        <div class="card-brand">Tesla</div>
+        <div class="card-meta"><span class="card-price">$44,990</span><span class="card-rating">★ 4.6</span></div>
+        <span class="card-cat">&gt; auto</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ MacBook Pro M4</div>
+        <div class="card-img"><span class="icon">💻</span></div>
+        <div class="card-title">MacBook Pro M4</div>
+        <div class="card-brand">Apple</div>
+        <div class="card-meta"><span class="card-price">$2,399</span><span class="card-rating">★ 4.9</span></div>
+        <span class="card-cat">&gt; laptops</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Sony Bravia XR</div>
+        <div class="card-img"><span class="icon">📺</span></div>
+        <div class="card-title">Sony Bravia XR</div>
+        <div class="card-brand">Sony</div>
+        <div class="card-meta"><span class="card-price">$1,499</span><span class="card-rating">★ 4.4</span></div>
+        <span class="card-cat">&gt; tvs</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Pixel 9 Pro</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Pixel 9 Pro</div>
+        <div class="card-brand">Google</div>
+        <div class="card-meta"><span class="card-price">$999</span><span class="card-rating">★ 4.6</span></div>
+        <span class="card-cat">&gt; mobiles</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Xiaomi 15 Ultra</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Xiaomi 15 Ultra</div>
+        <div class="card-brand">Xiaomi</div>
+        <div class="card-meta"><span class="card-price">$799</span><span class="card-rating">★ 4.3</span></div>
+        <span class="card-cat">&gt; mobiles</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Dell XPS 16</div>
+        <div class="card-img"><span class="icon">💻</span></div>
+        <div class="card-title">Dell XPS 16</div>
+        <div class="card-brand">Dell</div>
+        <div class="card-meta"><span class="card-price">$1,899</span><span class="card-rating">★ 4.5</span></div>
+        <span class="card-cat">&gt; laptops</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ BMW i4</div>
+        <div class="card-img"><span class="icon">🚗</span></div>
+        <div class="card-title">BMW i4</div>
+        <div class="card-brand">BMW</div>
+        <div class="card-meta"><span class="card-price">$55,900</span><span class="card-rating">★ 4.7</span></div>
+        <span class="card-cat">&gt; auto</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ LG C4 OLED</div>
+        <div class="card-img"><span class="icon">📺</span></div>
+        <div class="card-title">LG C4 OLED</div>
+        <div class="card-brand">LG</div>
+        <div class="card-meta"><span class="card-price">$1,299</span><span class="card-rating">★ 4.6</span></div>
+        <span class="card-cat">&gt; tvs</span>
+      </div>
+      <div class="product-card">
+        <div class="card-label">&gt;_ Galaxy Tab S10</div>
+        <div class="card-img"><span class="icon">📱</span></div>
+        <div class="card-title">Galaxy Tab S10</div>
+        <div class="card-brand">Samsung</div>
+        <div class="card-meta"><span class="card-price">$849</span><span class="card-rating">★ 4.4</span></div>
+        <span class="card-cat">&gt; tablets</span>
+      </div>
+    </div>
+
+    <div class="pagination fade-in">
+      <div class="page-btn active">1</div>
+      <div class="page-btn">2</div>
+      <div class="page-btn">3</div>
+      <div class="page-btn">&gt;</div>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="logo">&gt;_ PhoneHub.sys</span>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleFilter(el){
+  el.classList.toggle('collapsed');
+  const body=el.nextElementSibling;
+  body.classList.toggle('hidden');
+}
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

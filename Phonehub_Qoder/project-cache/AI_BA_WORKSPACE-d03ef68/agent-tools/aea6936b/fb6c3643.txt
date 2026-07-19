@@ -1,0 +1,535 @@
+$ cd "c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE" && findstr /s /i "data.js" *.html
+404.html:  <script src="js/data.js"></script>
+about.html:  <script src="js/data.js"></script>
+brands.html:  <script src="js/data.js"></script>
+compare.html:  <script src="js/data.js"></script>
+compare.html:  <script src="js/specs-data.js"></script>
+contact.html:  <script src="js/data.js"></script>
+disclosure.html:  <script src="js/data.js"></script>
+index.html:  <script src="js/data.js"></script>
+news.html:  <script src="js/data.js"></script>
+OmniRoute\node_modules\@tensorflow\tfjs\dist\tf.es2017.min.js.html:    const data = {"version":2,"tree":{"name":"root","children":[{"name":"tf.es2017.min.js","children":[{"name":"node_modules","children":[{"name":"@tensorflow","children":[{"name":"tfjs-core/dist","children":[{"name":"backends","children":[{"uid":"982e-4344","name":"backend.js"},{"uid":"982e-4840","name":"where_impl.js"},{"uid":"982e-4902","name":"non_max_suppression_util.js"},{"uid":"982e-4904","name":"non_max_suppression_impl.js"},{"uid":"982e-5028","name":"complex_util.js"},{"uid":"982e-5030","name":"einsum_util.js"},{"uid":"982e-5042","name":"backend_util.js"}]},{"uid":"982e-4346","name":"util_base.js"},{"uid":"982e-4348","name":"environment.js"},{"uid":"982e-4350","name":"global_util.js"},{"uid":"982e-4352","name":"kernel_names.js"},{"uid":"982e-4354","name":"log.js"},{"uid":"982e-4356","name":"kernel_registry.js"},{"name":"platforms","children":[{"uid":"982e-4358","name":"is_typed_array_browser.js"},{"uid":"982e-4410","name":"platform_browser.js"},{"uid":"982e-4412","name":"platform_node.js"}]},{"uid":"982e-4362","name":"hash_util.js"},{"uid":"982e-4364","name":"util.js"},{"uid":"982e-4366","name":"profiler.js"},{"uid":"982e-4368","name":"tensor_format.js"},{"uid":"982e-4370","name":"tensor.js"},{"uid":"982e-4372","name":"types.js"},{"uid":"982e-4374","name":"tensor_util.js"},{"uid":"982e-4376","name":"engine.js"},{"uid":"982e-4378","name":"tape.js"},{"uid":"982e-4380","name":"device_util.js"},{"uid":"982e-4382","name":"flags.js"},{"uid":"982e-4384","name":"tensor_util_env.js"},{"name":"ops","children":[{"uid":"982e-4386","name":"operation.js"},{"uid":"982e-4388","name":"complex.js"},{"uid":"982e-4390","name":"tensor_ops_util.js"},{"uid":"982e-4392","name":"tensor.js"},{"uid":"982e-4414","name":"buffer.js"},{"uid":"982e-4416","name":"cast.js"},{"uid":"982e-4418","name":"clone.js"},{"uid":"982e-4420","name":"print.js"},{"uid":"982e-4424","name":"add.js"},{"uid":"982e-4426","name":"floorDiv.js"},{"uid":"982e-4428","name":"div.js"},{"uid":"982e-4430","name":"mul.js"},{"uid":"982e-4432","name":"abs.js"},{"uid":"982e-4434","name":"acos.js"},{"uid":"982e-4436","name":"acosh.js"},{"uid":"982e-4438","name":"add_n.js"},{"uid":"982e-4440","name":"all.js"},{"uid":"982e-4442","name":"any.js"},{"uid":"982e-4444","name":"arg_max.js"},{"uid":"982e-4446","name":"arg_min.js"},{"uid":"982e-4448","name":"asin.js"},{"uid":"982e-4450","name":"asinh.js"},{"uid":"982e-4452","name":"atan.js"},{"uid":"982e-4454","name":"atan2.js"},{"uid":"982e-4456","name":"atanh.js"},{"uid":"982e-4458","name":"conv_util.js"},{"uid":"982e-4460","name":"reshape.js"},{"uid":"982e-4462","name":"avg_pool.js"},{"uid":"982e-4464","name":"avg_pool_3d.js"},{"uid":"982e-4466","name":"concat.js"},{"uid":"982e-4468","name":"mat_mul.js"},{"uid":"982e-4470","name":"sigmoid.js"},{"uid":"982e-4472","name":"slice.js"},{"uid":"982e-4474","name":"tanh.js"},{"uid":"982e-4476","name":"basic_lstm_cell.js"},{"uid":"982e-4478","name":"batch_to_space_nd.js"},{"uid":"982e-4480","name":"batchnorm.js"},{"uid":"982e-4482","name":"batchnorm_util.js"},{"uid":"982e-4484","name":"batchnorm2d.js"},{"uid":"982e-4486","name":"batchnorm3d.js"},{"uid":"982e-4488","name":"batchnorm4d.js"},{"uid":"982e-4490","name":"bincount.js"},{"uid":"982e-4492","name":"bitwise_and.js"},{"uid":"982e-4494","name":"broadcast_args.js"},{"uid":"982e-4496","name":"broadcast_to.js"},{"uid":"982e-4498","name":"ceil.js"},{"uid":"982e-4500","name":"fill.js"},{"uid":"982e-4502","name":"clip_by_value.js"},{"uid":"982e-4504","name":"concat_1d.js"},{"uid":"982e-4506","name":"concat_2d.js"},{"uid":"982e-4508","name":"concat_3d.js"},{"uid":"982e-4510","name":"concat_4d.js"},{"uid":"982e-4512","name":"conv2d.js"},{"uid":"982e-4514","name":"conv1d.js"},{"uid":"982e-4516","name":"conv2d_backprop_input.js"},{"uid":"982e-4518","name":"conv2d_transpose.js"},{"uid":"982e-4520","name":"conv3d.js"},{"uid":"982e-4522","name":"conv3d_backprop_input.js"},{"uid":"982e-4524","name":"conv3d_transpose.js"},{"uid":"982e-4526","name":"cos.js"},{"uid":"982e-4528","name":"cosh.js"},{"uid":"982e-4530","name":"cumprod.js"},{"uid":"982e-4532","name":"cumsum.js"},{"uid":"982e-4534","name":"dense_bincount.js"},{"uid":"982e-4536","name":"depth_to_space.js"},{"uid":"982e-4538","name":"depthwise_conv2d.js"},{"uid":"982e-4540","name":"diag.js"},{"uid":"982e-4542","name":"dilation2d.js"},{"uid":"982e-4544","name":"broadcast_util.js"},{"uid":"982e-4546","name":"equal.js"},{"uid":"982e-4548","name":"where.js"},{"uid":"982e-4550","name":"zeros_like.js"},{"uid":"982e-4552","name":"div_no_nan.js"},{"uid":"982e-4554","name":"dot.js"},{"uid":"982e-4556","name":"einsum.js"},{"uid":"982e-4558","name":"elu.js"},{"uid":"982e-4560","name":"ensure_shape.js"},{"uid":"982e-4562","name":"erf.js"},{"uid":"982e-4564","name":"axis_util.js"},{"uid":"982e-4566","name":"max.js"},{"uid":"982e-4568","name":"min.js"},{"uid":"982e-4570","name":"pow.js"},{"uid":"982e-4572","name":"scalar.js"},{"uid":"982e-4574","name":"sqrt.js"},{"uid":"982e-4576","name":"square.js"},{"uid":"982e-4578","name":"sum.js"},{"uid":"982e-4580","name":"norm.js"},{"uid":"982e-4582","name":"euclidean_norm.js"},{"uid":"982e-4584","name":"exp.js"},{"uid":"982e-4586","name":"expand_dims.js"},{"uid":"982e-4588","name":"expm1.js"},{"uid":"982e-4590","name":"tile.js"},{"uid":"982e-4592","name":"eye.js"},{"uid":"982e-4594","name":"floor.js"},{"uid":"982e-4596","name":"gather.js"},{"uid":"982e-4598","name":"greater.js"},{"uid":"982e-4600","name":"greater_equal.js"},{"uid":"982e-4602","name":"imag.js"},{"uid":"982e-4604","name":"is_finite.js"},{"uid":"982e-4606","name":"is_inf.js"},{"uid":"982e-4608","name":"is_nan.js"},{"uid":"982e-4610","name":"leaky_relu.js"},{"uid":"982e-4612","name":"less.js"},{"uid":"982e-4614","name":"less_equal.js"},{"uid":"982e-4616","name":"linspace.js"},{"uid":"982e-4618","name":"local_response_normalization.js"},{"uid":"982e-4620","name":"log.js"},{"uid":"982e-4622","name":"log1p.js"},{"uid":"982e-4626","name":"neg.js"},{"uid":"982e-4628","name":"softplus.js"},{"uid":"982e-4630","name":"log_sigmoid.js"},{"uid":"982e-4632","name":"sub.js"},{"uid":"982e-4634","name":"log_softmax.js"},{"uid":"982e-4636","name":"log_sum_exp.js"},{"uid":"982e-4638","name":"logical_and.js"},{"uid":"982e-4640","name":"logical_not.js"},{"uid":"982e-4642","name":"logical_or.js"},{"uid":"982e-4644","name":"logical_xor.js"},{"uid":"982e-4646","name":"search_sorted.js"},{"uid":"982e-4648","name":"lower_bound.js"},{"uid":"982e-4650","name":"max_pool.js"},{"uid":"982e-4652","name":"max_pool_3d.js"},{"uid":"982e-4654","name":"max_pool_with_argmax.js"},{"uid":"982e-4656","name":"maximum.js"},{"uid":"982e-4658","name":"mean.js"},{"uid":"982e-4660","name":"zeros.js"},{"uid":"982e-4662","name":"ones.js"},{"uid":"982e-4664","name":"meshgrid.js"},{"uid":"982e-4666","name":"minimum.js"},{"uid":"982e-4668","name":"mirror_pad.js"},{"uid":"982e-4670","name":"mod.js"},{"uid":"982e-4672","name":"moments.js"},{"uid":"982e-4674","name":"multi_rnn_cell.js"},{"uid":"982e-4676","name":"multinomial.js"},{"uid":"982e-4678","name":"not_equal.js"},{"uid":"982e-4680","name":"one_hot.js"},{"uid":"982e-4682","name":"ones_like.js"},{"uid":"982e-4684","name":"outer_product.js"},{"uid":"982e-4686","name":"pad.js"},{"uid":"982e-4688","name":"pad1d.js"},{"uid":"982e-4690","name":"pad2d.js"},{"uid":"982e-4692","name":"pad3d.js"},{"uid":"982e-4694","name":"pad4d.js"},{"uid":"982e-4696","name":"space_to_batch_nd.js"},{"uid":"982e-4698","name":"pool.js"},{"uid":"982e-4700","name":"prelu.js"},{"uid":"982e-4702","name":"prod.js"},{"uid":"982e-4704","name":"ragged_gather.js"},{"uid":"982e-4706","name":"ragged_range.js"},{"uid":"982e-4708","name":"ragged_tensor_to_tensor.js"},{"uid":"982e-4710","name":"rand.js"},{"uid":"982e-4730","name":"rand_util.js"},{"uid":"982e-4732","name":"random_gamma.js"},{"uid":"982e-4734","name":"random_normal.js"},{"uid":"982e-4736","name":"random_standard_normal.js"},{"uid":"982e-4738","name":"random_uniform.js"},{"uid":"982e-4740","name":"random_uniform_int.js"},{"uid":"982e-4742","name":"range.js"},{"uid":"982e-4744","name":"real.js"},{"uid":"982e-4746","name":"reciprocal.js"},{"uid":"982e-4748","name":"relu.js"},{"uid":"982e-4750","name":"relu6.js"},{"uid":"982e-4752","name":"reverse.js"},{"uid":"982e-4754","name":"reverse_1d.js"},{"uid":"982e-4756","name":"reverse_2d.js"},{"uid":"982e-4758","name":"reverse_3d.js"},{"uid":"982e-4760","name":"reverse_4d.js"},{"uid":"982e-4762","name":"round.js"},{"uid":"982e-4764","name":"rsqrt.js"},{"uid":"982e-4766","name":"selu.js"},{"uid":"982e-4768","name":"separable_conv2d.js"},{"uid":"982e-4770","name":"setdiff1d_async.js"},{"uid":"982e-4772","name":"sign.js"},{"uid":"982e-4774","name":"sin.js"},{"uid":"982e-4776","name":"sinh.js"},{"uid":"982e-4778","name":"slice1d.js"},{"uid":"982e-4780","name":"slice2d.js"},{"uid":"982e-4782","name":"slice3d.js"},{"uid":"982e-4784","name":"slice4d.js"},{"uid":"982e-4786","name":"softmax.js"},{"name":"spectral","children":[{"uid":"982e-4788","name":"fft.js"},{"uid":"982e-4790","name":"ifft.js"},{"uid":"982e-4792","name":"irfft.js"},{"uid":"982e-4796","name":"rfft.js"}]},{"uid":"982e-4794","name":"split.js"},{"uid":"982e-4798","name":"squared_difference.js"},{"uid":"982e-4800","name":"squeeze.js"},{"uid":"982e-4802","name":"stack.js"},{"uid":"982e-4804","name":"step.js"},{"uid":"982e-4806","name":"strided_slice.js"},{"uid":"982e-4808","name":"tan.js"},{"uid":"982e-4810","name":"tensor1d.js"},{"uid":"982e-4812","name":"tensor2d.js"},{"uid":"982e-4814","name":"tensor3d.js"},{"uid":"982e-4816","name":"tensor4d.js"},{"uid":"982e-4818","name":"tensor5d.js"},{"uid":"982e-4820","name":"tensor6d.js"},{"uid":"982e-4822","name":"scatter_nd_util.js"},{"uid":"982e-4824","name":"tensor_scatter_update.js"},{"uid":"982e-4826","name":"topk.js"},{"uid":"982e-4828","name":"truncated_normal.js"},{"uid":"982e-4830","name":"unique.js"},{"uid":"982e-4832","name":"unsorted_segment_sum.js"},{"uid":"982e-4834","name":"unstack.js"},{"uid":"982e-4836","name":"upper_bound.js"},{"uid":"982e-4838","name":"variable.js"},{"uid":"982e-4842","name":"where_async.js"},{"uid":"982e-4844","name":"boolean_mask.js"},{"uid":"982e-4846","name":"transpose.js"},{"uid":"982e-4848","name":"moving_average.js"},{"uid":"982e-4850","name":"scatter_nd.js"},{"uid":"982e-4852","name":"sparse_to_dense.js"},{"uid":"982e-4854","name":"sparse_to_dense_util.js"},{"uid":"982e-4856","name":"gather_nd.js"},{"uid":"982e-4858","name":"dropout.js"},{"uid":"982e-4860","name":"dropout_util.js"},{"uid":"982e-4862","name":"signal_ops_util.js"},{"uid":"982e-4864","name":"in_top_k.js"},{"uid":"982e-4866","name":"conv2d_backprop_filter.js"},{"uid":"982e-4868","name":"fused_util.js"},{"name":"fused","children":[{"uid":"982e-4870","name":"conv2d.js"},{"uid":"982e-4876","name":"depthwise_conv2d.js"},{"uid":"982e-4878","name":"mat_mul.js"}]},{"uid":"982e-4872","name":"depthwise_conv2d_native_backprop_filter.js"},{"uid":"982e-4874","name":"depthwise_conv2d_native_backprop_input.js"},{"name":"signal","children":[{"uid":"982e-4880","name":"hamming_window.js"},{"uid":"982e-4882","name":"hann_window.js"},{"uid":"982e-4884","name":"frame.js"},{"uid":"982e-4886","name":"stft.js"}]},{"name":"image","children":[{"uid":"982e-4888","name":"crop_and_resize.js"},{"uid":"982e-4890","name":"flip_left_right.js"},{"uid":"982e-4892","name":"grayscale_to_rgb.js"},{"uid":"982e-4894","name":"rgb_to_grayscale.js"},{"uid":"982e-4896","name":"rotate_with_offset.js"},{"uid":"982e-4900","name":"non_max_suppression.js"},{"uid":"982e-4906","name":"non_max_suppression_async.js"},{"uid":"982e-4908","name":"non_max_suppression_with_score.js"},{"uid":"982e-4910","name":"non_max_suppression_with_score_async.js"},{"uid":"982e-4912","name":"non_max_suppression_padded.js"},{"uid":"982e-4914","name":"non_max_suppression_padded_async.js"},{"uid":"982e-4916","name":"resize_bilinear.js"},{"uid":"982e-4918","name":"resize_nearest_neighbor.js"},{"uid":"982e-4920","name":"threshold.js"},{"uid":"982e-4922","name":"transform.js"}]},{"uid":"982e-4898","name":"nonmax_util.js"},{"name":"linalg","children":[{"uid":"982e-4924","name":"band_part.js"},{"uid":"982e-4926","name":"gram_schmidt.js"},{"uid":"982e-4928","name":"qr.js"}]},{"uid":"982e-4930","name":"loss_ops_utils.js"},{"name":"losses","children":[{"uid":"982e-4932","name":"compute_weighted_loss.js"},{"uid":"982e-4934","name":"absolute_difference.js"},{"uid":"982e-4936","name":"cosine_distance.js"},{"uid":"982e-4938","name":"hinge_loss.js"},{"uid":"982e-4940","name":"huber_loss.js"},{"uid":"982e-4942","name":"log_loss.js"},{"uid":"982e-4944","name":"mean_squared_error.js"},{"uid":"982e-4946","name":"sigmoid_cross_entropy.js"},{"uid":"982e-4948","name":"softmax_cross_entropy.js"}]},{"name":"sparse","children":[{"uid":"982e-4950","name":"sparse_fill_empty_rows.js"},{"uid":"982e-4952","name":"sparse_reshape.js"},{"uid":"982e-4954","name":"sparse_segment_mean.js"},{"uid":"982e-4956","name":"sparse_segment_sum.js"},{"uid":"982e-5034","name":"sparse_fill_empty_rows_util.js"},{"uid":"982e-5036","name":"sparse_reshape_util.js"},{"uid":"982e-5038","name":"sparse_segment_reduction_util.js"}]},{"name":"string","children":[{"uid":"982e-4958","name":"string_n_grams.js"},{"uid":"982e-4960","name":"string_split.js"},{"uid":"982e-4962","name":"string_to_hash_bucket_fast.js"},{"uid":"982e-4964","name":"static_regex_replace.js"}]},{"uid":"982e-4966","name":"ops.js"},{"uid":"982e-4998","name":"confusion_matrix.js"},{"uid":"982e-5000","name":"browser.js"},{"uid":"982e-5002","name":"gather_nd_util.js"},{"uid":"982e-5004","name":"slice_util.js"},{"uid":"982e-5014","name":"concat_util.js"},{"uid":"982e-5016","name":"ragged_to_dense_util.js"},{"uid":"982e-5018","name":"reduce_util.js"},{"uid":"982e-5020","name":"rotate_util.js"},{"uid":"982e-5022","name":"array_ops_util.js"},{"uid":"982e-5024","name":"selu_util.js"},{"uid":"982e-5026","name":"erf_util.js"},{"uid":"982e-5032","name":"split_util.js"},{"uid":"982e-5040","name":"segment_util.js"},{"uid":"982e-5070","name":"avg_pool_3d_grad.js"},{"uid":"982e-5074","name":"avg_pool_grad.js"},{"uid":"982e-5098","name":"conv3d_backprop_filter.js"},{"uid":"982e-5148","name":"local_response_normalization_backprop.js"},{"uid":"982e-5158","name":"max_pool_3d_grad.js"},{"uid":"982e-5162","name":"max_pool_grad.js"}]},{"name":"io","children":[{"uid":"982e-4394","name":"types.js"},{"uid":"982e-4396","name":"composite_array_buffer.js"},{"uid":"982e-4400","name":"io_utils.js"},{"uid":"982e-4402","name":"router_registry.js"},{"uid":"982e-4404","name":"indexed_db.js"},{"uid":"982e-4406","name":"local_storage.js"},{"uid":"982e-4408","name":"model_management.js"},{"uid":"982e-4988","name":"browser_files.js"},{"uid":"982e-4990","name":"progress.js"},{"uid":"982e-4992","name":"weights_loader.js"},{"uid":"982e-4994","name":"http.js"},{"uid":"982e-4996","name":"passthrough.js"}]},{"uid":"982e-4398","name":"globals.js"},{"uid":"982e-4422","name":"base_side_effects.js"},{"uid":"982e-4624","name":"gradients.js"},{"uid":"982e-4728","name":"test_util.js"},{"uid":"982e-4968","name":"serialization.js"},{"name":"optimizers","children":[{"uid":"982e-4970","name":"optimizer.js"},{"uid":"982e-4972","name":"adadelta_optimizer.js"},{"uid":"982e-4974","name":"adagrad_optimizer.js"},{"uid":"982e-4976","name":"adam_optimizer.js"},{"uid":"982e-4978","name":"adamax_optimizer.js"},{"uid":"982e-4980","name":"sgd_optimizer.js"},{"uid":"982e-4982","name":"momentum_optimizer.js"},{"uid":"982e-4984","name":"rmsprop_optimizer.js"},{"uid":"982e-4986","name":"register_optimizers.js"},{"uid":"982e-5008","name":"optimizer_constructors.js"}]},{"uid":"982e-5006","name":"version.js"},{"uid":"982e-5010","name":"train.js"},{"uid":"982e-5012","name":"browser_util.js"},{"uid":"982e-5044","name":"index.js"},{"name":"gradients","children":[{"uid":"982e-5046","name":"Abs_grad.js"},{"uid":"982e-5048","name":"Acos_grad.js"},{"uid":"982e-5050","name":"Acosh_grad.js"},{"uid":"982e-5052","name":"Add_grad.js"},{"uid":"982e-5054","name":"AddN_grad.js"},{"uid":"982e-5056","name":"ArgMax_grad.js"},{"uid":"982e-5058","name":"ArgMin_grad.js"},{"uid":"982e-5060","name":"Asin_grad.js"},{"uid":"982e-5062","name":"Asinh_grad.js"},{"uid":"982e-5064","name":"Atan2_grad.js"},{"uid":"982e-5066","name":"Atan_grad.js"},{"uid":"982e-5068","name":"Atanh_grad.js"},{"uid":"982e-5072","name":"AvgPool3D_grad.js"},{"uid":"982e-5076","name":"AvgPool_grad.js"},{"uid":"982e-5078","name":"BatchMatMul_grad.js"},{"uid":"982e-5080","name":"BatchToSpaceND_grad.js"},{"uid":"982e-5082","name":"BroadcastTo_grad.js"},{"uid":"982e-5084","name":"Cast_grad.js"},{"uid":"982e-5086","name":"Ceil_grad.js"},{"uid":"982e-5088","name":"ClipByValue_grad.js"},{"uid":"982e-5090","name":"ComplexAbs_grad.js"},{"uid":"982e-5092","name":"Concat_grad.js"},{"uid":"982e-5094","name":"Conv2D_grad.js"},{"uid":"982e-5096","name":"Conv2DBackpropInput_grad.js"},{"uid":"982e-5100","name":"Conv3D_grad.js"},{"uid":"982e-5102","name":"Cos_grad.js"},{"uid":"982e-5104","name":"Cosh_grad.js"},{"uid":"982e-5106","name":"Cumsum_grad.js"},{"uid":"982e-5108","name":"DepthwiseConv2dNative_grad.js"},{"uid":"982e-5110","name":"Dilation2D_grad.js"},{"uid":"982e-5112","name":"Elu_grad.js"},{"uid":"982e-5114","name":"Erf_grad.js"},{"uid":"982e-5116","name":"Exp_grad.js"},{"uid":"982e-5118","name":"ExpandDims_grad.js"},{"uid":"982e-5120","name":"Expm1_grad.js"},{"uid":"982e-5122","name":"Floor_grad.js"},{"uid":"982e-5124","name":"FloorDiv_grad.js"},{"uid":"982e-5126","name":"FusedBatchNorm_grad.js"},{"uid":"982e-5128","name":"GatherV2_grad.js"},{"uid":"982e-5130","name":"GreaterEqual_grad.js"},{"uid":"982e-5132","name":"Identity_grad.js"},{"uid":"982e-5134","name":"IsFinite_grad.js"},{"uid":"982e-5136","name":"IsInf_grad.js"},{"uid":"982e-5138","name":"IsNan_grad.js"},{"uid":"982e-5140","name":"LeakyRelu_grad.js"},{"uid":"982e-5142","name":"Log1p_grad.js"},{"uid":"982e-5144","name":"Log_grad.js"},{"uid":"982e-5146","name":"LogSoftmax_grad.js"},{"uid":"982e-5150","name":"LRN_grad.js"},{"uid":"982e-5152","name":"min_max_grad_util.js"},{"uid":"982e-5154","name":"Max_grad.js"},{"uid":"982e-5156","name":"Maximum_grad.js"},{"uid":"982e-5160","name":"MaxPool3D_grad.js"},{"uid":"982e-5164","name":"MaxPool_grad.js"},{"uid":"982e-5166","name":"MirrorPad_grad.js"},{"uid":"982e-5168","name":"PadV2_grad.js"},{"uid":"982e-5170","name":"Pow_grad.js"},{"uid":"982e-5172","name":"Prod_grad.js"},{"uid":"982e-5174","name":"Selu_grad.js"},{"uid":"982e-5176","name":"SpaceToBatchND_grad.js"},{"uid":"982e-5178","name":"SplitV_grad.js"},{"uid":"982e-5180","name":"ZerosLike_grad.js"},{"uid":"982e-5184","name":"RealDiv_grad.js"},{"uid":"982e-5186","name":"Mean_grad.js"},{"uid":"982e-5188","name":"Min_grad.js"},{"uid":"982e-5190","name":"Minimum_grad.js"},{"uid":"982e-5192","name":"Mod_grad.js"},{"uid":"982e-5194","name":"Multiply_grad.js"},{"uid":"982e-5196","name":"Neg_grad.js"},{"uid":"982e-5198","name":"OneHot_grad.js"},{"uid":"982e-5200","name":"OnesLike_grad.js"},{"uid":"982e-5202","name":"Pack_grad.js"},{"uid":"982e-5204","name":"Prelu_grad.js"},{"uid":"982e-5206","name":"Reciprocal_grad.js"},{"uid":"982e-5208","name":"Relu6_grad.js"},{"uid":"982e-5210","name":"Relu_grad.js"},{"uid":"982e-5212","name":"Reshape_grad.js"},{"uid":"982e-5214","name":"ResizeBilinear_grad.js"},{"uid":"982e-5216","name":"ResizeNearestNeighbor_grad.js"},{"uid":"982e-5218","name":"Reverse_grad.js"},{"uid":"982e-5220","name":"Round_grad.js"},{"uid":"982e-5222","name":"Rsqrt_grad.js"},{"uid":"982e-5224","name":"Select_grad.js"},{"uid":"982e-5226","name":"Sigmoid_grad.js"},{"uid":"982e-5228","name":"Sign_grad.js"},{"uid":"982e-5230","name":"Sin_grad.js"},{"uid":"982e-5232","name":"Sinh_grad.js"},{"uid":"982e-5234","name":"Slice_grad.js"},{"uid":"982e-5236","name":"Softmax_grad.js"},{"uid":"982e-5238","name":"Softplus_grad.js"},{"uid":"982e-5240","name":"Sqrt_grad.js"},{"uid":"982e-5242","name":"SquaredDifference_grad.js"},{"uid":"982e-5244","name":"Square_grad.js"},{"uid":"982e-5246","name":"Step_grad.js"},{"uid":"982e-5248","name":"Sub_grad.js"},{"uid":"982e-5250","name":"Sum_grad.js"},{"uid":"982e-5252","name":"Tan_grad.js"},{"uid":"982e-5254","name":"Tanh_grad.js"},{"uid":"982e-5256","name":"Tile_grad.js"},{"uid":"982e-5258","name":"Transpose_grad.js"},{"uid":"982e-5260","name":"Unpack_grad.js"},{"uid":"982e-5262","name":"UnsortedSegmentSum_grad.js"}]},{"uid":"982e-5182","name":"register_all_gradients.js"},{"name":"public/chained_ops","children":[{"uid":"982e-5264","name":"abs.js"},{"uid":"982e-5266","name":"acos.js"},{"uid":"982e-5268","name":"acosh.js"},{"uid":"982e-5270","name":"add.js"},{"uid":"982e-5272","name":"all.js"},{"uid":"982e-5274","name":"any.js"},{"uid":"982e-5276","name":"arg_max.js"},{"uid":"982e-5278","name":"arg_min.js"},{"uid":"982e-5280","name":"as_scalar.js"},{"uid":"982e-5282","name":"as_type.js"},{"uid":"982e-5284","name":"as1d.js"},{"uid":"982e-5286","name":"as2d.js"},{"uid":"982e-5288","name":"as3d.js"},{"uid":"982e-5290","name":"as4d.js"},{"uid":"982e-5292","name":"as5d.js"},{"uid":"982e-5294","name":"asin.js"},{"uid":"982e-5296","name":"asinh.js"},{"uid":"982e-5298","name":"atan.js"},{"uid":"982e-5300","name":"atan2.js"},{"uid":"982e-5302","name":"atanh.js"},{"uid":"982e-5304","name":"avg_pool.js"},{"uid":"982e-5306","name":"batch_to_space_nd.js"},{"uid":"982e-5308","name":"batchnorm.js"},{"uid":"982e-5310","name":"broadcast_to.js"},{"uid":"982e-5312","name":"cast.js"},{"uid":"982e-5314","name":"ceil.js"},{"uid":"982e-5316","name":"clip_by_value.js"},{"uid":"982e-5318","name":"concat.js"},{"uid":"982e-5320","name":"conv1d.js"},{"uid":"982e-5322","name":"conv2d_transpose.js"},{"uid":"982e-5324","name":"conv2d.js"},{"uid":"982e-5326","name":"cos.js"},{"uid":"982e-5328","name":"cosh.js"},{"uid":"982e-5330","name":"cumprod.js"},{"uid":"982e-5332","name":"cumsum.js"},{"uid":"982e-5334","name":"depth_to_space.js"},{"uid":"982e-5336","name":"depthwise_conv2d.js"},{"uid":"982e-5338","name":"dilation2d.js"},{"uid":"982e-5340","name":"div_no_nan.js"},{"uid":"982e-5342","name":"div.js"},{"uid":"982e-5344","name":"dot.js"},{"uid":"982e-5346","name":"elu.js"},{"uid":"982e-5348","name":"equal.js"},{"uid":"982e-5350","name":"erf.js"},{"uid":"982e-5352","name":"euclidean_norm.js"},{"uid":"982e-5354","name":"exp.js"},{"uid":"982e-5356","name":"expand_dims.js"},{"uid":"982e-5358","name":"expm1.js"},{"uid":"982e-5360","name":"fft.js"},{"uid":"982e-5362","name":"flatten.js"},{"uid":"982e-5364","name":"floor.js"},{"uid":"982e-5366","name":"floorDiv.js"},{"uid":"982e-5368","name":"gather.js"},{"uid":"982e-5370","name":"greater_equal.js"},{"uid":"982e-5372","name":"greater.js"},{"uid":"982e-5374","name":"ifft.js"},{"uid":"982e-5376","name":"irfft.js"},{"uid":"982e-5378","name":"is_finite.js"},{"uid":"982e-5380","name":"is_inf.js"},{"uid":"982e-5382","name":"is_nan.js"},{"uid":"982e-5384","name":"leaky_relu.js"},{"uid":"982e-5386","name":"less_equal.js"},{"uid":"982e-5388","name":"less.js"},{"uid":"982e-5390","name":"local_response_normalization.js"},{"uid":"982e-5392","name":"log_sigmoid.js"},{"uid":"982e-5394","name":"log_softmax.js"},{"uid":"982e-5396","name":"log_sum_exp.js"},{"uid":"982e-5398","name":"log.js"},{"uid":"982e-5400","name":"log1p.js"},{"uid":"982e-5402","name":"logical_and.js"},{"uid":"982e-5404","name":"logical_not.js"},{"uid":"982e-5406","name":"logical_or.js"},{"uid":"982e-5408","name":"logical_xor.js"},{"uid":"982e-5410","name":"mat_mul.js"},{"uid":"982e-5412","name":"max_pool.js"},{"uid":"982e-5414","name":"max.js"},{"uid":"982e-5416","name":"maximum.js"},{"uid":"982e-5418","name":"mean.js"},{"uid":"982e-5420","name":"min.js"},{"uid":"982e-5422","name":"minimum.js"},{"uid":"982e-5424","name":"mirror_pad.js"},{"uid":"982e-5426","name":"mod.js"},{"uid":"982e-5428","name":"mul.js"},{"uid":"982e-5430","name":"neg.js"},{"uid":"982e-5432","name":"norm.js"},{"uid":"982e-5434","name":"not_equal.js"},{"uid":"982e-5436","name":"one_hot.js"},{"uid":"982e-5438","name":"ones_like.js"},{"uid":"982e-5440","name":"pad.js"},{"uid":"982e-5442","name":"pool.js"},{"uid":"982e-5444","name":"pow.js"},{"uid":"982e-5446","name":"prelu.js"},{"uid":"982e-5448","name":"prod.js"},{"uid":"982e-5450","name":"reciprocal.js"},{"uid":"982e-5452","name":"relu.js"},{"uid":"982e-5454","name":"relu6.js"},{"uid":"982e-5456","name":"reshape_as.js"},{"uid":"982e-5458","name":"reshape.js"},{"uid":"982e-5460","name":"resize_bilinear.js"},{"uid":"982e-5462","name":"resize_nearest_neighbor.js"},{"uid":"982e-5464","name":"reverse.js"},{"uid":"982e-5466","name":"rfft.js"},{"uid":"982e-5468","name":"round.js"},{"uid":"982e-5470","name":"rsqrt.js"},{"uid":"982e-5472","name":"selu.js"},{"uid":"982e-5474","name":"separable_conv2d.js"},{"uid":"982e-5476","name":"sigmoid.js"},{"uid":"982e-5478","name":"sign.js"},{"uid":"982e-5480","name":"sin.js"},{"uid":"982e-5482","name":"sinh.js"},{"uid":"982e-5484","name":"slice.js"},{"uid":"982e-5486","name":"softmax.js"},{"uid":"982e-5488","name":"softplus.js"},{"uid":"982e-5490","name":"space_to_batch_nd.js"},{"uid":"982e-5492","name":"split.js"},{"uid":"982e-5494","name":"sqrt.js"},{"uid":"982e-5496","name":"square.js"},{"uid":"982e-5498","name":"squared_difference.js"},{"uid":"982e-5500","name":"squeeze.js"},{"uid":"982e-5502","name":"stack.js"},{"uid":"982e-5504","name":"step.js"},{"uid":"982e-5506","name":"strided_slice.js"},{"uid":"982e-5508","name":"sub.js"},{"uid":"982e-5510","name":"sum.js"},{"uid":"982e-5512","name":"tan.js"},{"uid":"982e-5514","name":"tanh.js"},{"uid":"982e-5516","name":"tile.js"},{"uid":"982e-5518","name":"to_bool.js"},{"uid":"982e-5520","name":"to_float.js"},{"uid":"982e-5522","name":"to_int.js"},{"uid":"982e-5524","name":"topk.js"},{"uid":"982e-5526","name":"transpose.js"},{"uid":"982e-5528","name":"unique.js"},{"uid":"982e-5530","name":"unsorted_segment_sum.js"},{"uid":"982e-5532","name":"unstack.js"},{"uid":"982e-5534","name":"where.js"},{"uid":"982e-5536","name":"zeros_like.js"}]}]},{"name":"tfjs-layers/dist","children":[{"uid":"982e-5538","name":"errors.js"},{"name":"utils","children":[{"uid":"982e-5540","name":"executor_utils.js"},{"uid":"982e-5542","name":"generic_utils.js"},{"uid":"982e-5550","name":"math_utils.js"},{"uid":"982e-5560","name":"types_utils.js"},{"uid":"982e-5562","name":"variable_utils.js"},{"uid":"982e-5592","name":"layer_utils.js"},{"uid":"982e-5594","name":"serialization_utils.js"},{"uid":"982e-5620","name":"conv_utils.js"}]},{"name":"backend","children":[{"uid":"982e-5544","name":"state.js"},{"uid":"982e-5552","name":"common.js"},{"uid":"982e-5554","name":"tfjs_backend.js"},{"uid":"982e-5656","name":"random_seed.js"}]},{"name":"keras_format","children":[{"uid":"982e-5546","name":"common.js"},{"uid":"982e-5556","name":"initializer_config.js"}]},{"uid":"982e-5548","name":"common.js"},{"uid":"982e-5558","name":"initializers.js"},{"uid":"982e-5564","name":"variables.js"},{"name":"engine","children":[{"uid":"982e-5566","name":"topology.js"},{"uid":"982e-5568","name":"input_layer.js"},{"uid":"982e-5570","name":"executor.js"},{"uid":"982e-5598","name":"container.js"},{"uid":"982e-5600","name":"training_utils.js"},{"uid":"982e-5602","name":"training_dataset.js"},{"uid":"982e-5604","name":"training_tensors.js"},{"uid":"982e-5606","name":"training.js"},{"uid":"982e-5658","name":"base_random_layer.js"}]},{"uid":"982e-5572","name":"constraints.js"},{"uid":"982e-5574","name":"flags_layers.js"},{"uid":"982e-5576","name":"exports_constraints.js"},{"uid":"982e-5578","name":"base_callbacks.js"},{"uid":"982e-5580","name":"exports_initializers.js"},{"uid":"982e-5582","name":"logs.js"},{"name":"layers","children":[{"uid":"982e-5584","name":"serialization.js"},{"uid":"982e-5618","name":"advanced_activations.js"},{"uid":"982e-5622","name":"convolutional.js"},{"uid":"982e-5624","name":"convolutional_depthwise.js"},{"uid":"982e-5626","name":"recurrent.js"},{"uid":"982e-5628","name":"convolutional_recurrent.js"},{"uid":"982e-5630","name":"core.js"},{"uid":"982e-5632","name":"embeddings.js"},{"uid":"982e-5634","name":"merge.js"},{"uid":"982e-5636","name":"noise.js"},{"uid":"982e-5638","name":"normalization.js"},{"uid":"982e-5640","name":"padding.js"},{"uid":"982e-5642","name":"pooling.js"},{"uid":"982e-5644","name":"wrappers.js"},{"name":"preprocessing","children":[{"uid":"982e-5646","name":"image_preprocessing.js"},{"uid":"982e-5648","name":"center_crop.js"},{"uid":"982e-5650","name":"category_encoding.js"},{"uid":"982e-5652","name":"preprocessing_utils.js"},{"uid":"982e-5654","name":"image_resizing.js"},{"uid":"982e-5660","name":"random_width.js"}]}]},{"uid":"982e-5586","name":"losses.js"},{"uid":"982e-5588","name":"metrics.js"},{"uid":"982e-5590","name":"user_defined_metadata.js"},{"uid":"982e-5596","name":"version.js"},{"uid":"982e-5608","name":"optimizers.js"},{"uid":"982e-5610","name":"models.js"},{"uid":"982e-5612","name":"exports.js"},{"uid":"982e-5614","name":"activations.js"},{"uid":"982e-5616","name":"regularizers.js"},{"uid":"982e-5662","name":"exports_layers.js"},{"uid":"982e-5664","name":"exports_metrics.js"},{"uid":"982e-5666","name":"exports_regularizers.js"},{"uid":"982e-5668","name":"callbacks.js"}]},{"name":"tfjs-converter/dist","children":[{"name":"data/compiled_api.js","uid":"982e-5670"},{"uid":"982e-5672","name":"flags.js"},{"name":"operations","children":[{"name":"custom_op","children":[{"uid":"982e-5674","name":"register.js"},{"uid":"982e-5718","name":"node_value_impl.js"}]},{"name":"executors","children":[{"uid":"982e-5676","name":"utils.js"},{"uid":"982e-5726","name":"control_executor.js"},{"uid":"982e-5728","name":"convolution_executor.js"},{"uid":"982e-5730","name":"dynamic_executor.js"},{"uid":"982e-5736","name":"arithmetic_executor.js"},{"uid":"982e-5738","name":"basic_math_executor.js"},{"uid":"982e-5740","name":"creation_executor.js"},{"uid":"982e-5742","name":"evaluation_executor.js"},{"uid":"982e-5744","name":"image_executor.js"},{"uid":"982e-5746","name":"graph_executor.js"},{"uid":"982e-5748","name":"logical_executor.js"},{"uid":"982e-5750","name":"matrices_executor.js"},{"uid":"982e-5752","name":"normalization_executor.js"},{"uid":"982e-5754","name":"ragged_executor.js"},{"uid":"982e-5756","name":"reduction_executor.js"},{"uid":"982e-5758","name":"slice_join_executor.js"},{"uid":"982e-5760","name":"sparse_executor.js"},{"uid":"982e-5762","name":"spectral_executor.js"},{"uid":"982e-5764","name":"string_executor.js"},{"uid":"982e-5766","name":"transformation_executor.js"},{"uid":"982e-5768","name":"hash_table_executor.js"}]},{"name":"op_list","children":[{"uid":"982e-5678","name":"arithmetic.js"},{"uid":"982e-5680","name":"basic_math.js"},{"uid":"982e-5682","name":"control.js"},{"uid":"982e-5684","name":"convolution.js"},{"uid":"982e-5686","name":"creation.js"},{"uid":"982e-5688","name":"dynamic.js"},{"uid":"982e-5690","name":"evaluation.js"},{"uid":"982e-5692","name":"graph.js"},{"uid":"982e-5694","name":"hash_table.js"},{"uid":"982e-5696","name":"image.js"},{"uid":"982e-5698","name":"logical.js"},{"uid":"982e-5700","name":"matrices.js"},{"uid":"982e-5702","name":"normalization.js"},{"uid":"982e-5704","name":"reduction.js"},{"uid":"982e-5706","name":"slice_join.js"},{"uid":"982e-5708","name":"sparse.js"},{"uid":"982e-5710","name":"spectral.js"},{"uid":"982e-5712","name":"string.js"},{"uid":"982e-5714","name":"transformation.js"}]},{"uid":"982e-5716","name":"operation_mapper.js"},{"uid":"982e-5734","name":"operation_executor.js"}]},{"name":"executor","children":[{"uid":"982e-5720","name":"tensor_utils.js"},{"uid":"982e-5722","name":"tensor_array.js"},{"uid":"982e-5724","name":"tensor_list.js"},{"uid":"982e-5732","name":"hash_table.js"},{"uid":"982e-5770","name":"execution_context.js"},{"uid":"982e-5772","name":"model_analysis.js"},{"uid":"982e-5774","name":"graph_executor.js"},{"uid":"982e-5776","name":"resource_manager.js"},{"uid":"982e-5778","name":"graph_model.js"}]},{"uid":"982e-5780","name":"version.js"}]},{"name":"tfjs-data/dist","children":[{"name":"util","children":[{"uid":"982e-5782","name":"deep_map.js"},{"uid":"982e-5784","name":"deep_clone.js"},{"uid":"982e-5786","name":"ring_buffer.js"},{"uid":"982e-5788","name":"growing_ring_buffer.js"},{"uid":"982e-5812","name":"source_util.js"}]},{"name":"iterators","children":[{"uid":"982e-5790","name":"lazy_iterator.js"},{"uid":"982e-5798","name":"microphone_iterator.js"},{"uid":"982e-5800","name":"webcam_iterator.js"},{"uid":"982e-5804","name":"string_iterator.js"},{"uid":"982e-5806","name":"byte_chunk_iterator.js"},{"uid":"982e-5808","name":"file_chunk_iterator.js"},{"uid":"982e-5810","name":"url_chunk_iterator.js"}]},{"uid":"982e-5792","name":"dataset.js"},{"name":"datasets","children":[{"uid":"982e-5794","name":"text_line_dataset.js"},{"uid":"982e-5796","name":"csv_dataset.js"}]},{"uid":"982e-5802","name":"datasource.js"},{"name":"sources","children":[{"uid":"982e-5814","name":"file_data_source.js"},{"uid":"982e-5816","name":"url_data_source.js"}]},{"uid":"982e-5818","name":"version.js"},{"uid":"982e-5820","name":"readers.js"}]},{"name":"tfjs-backend-cpu/dist","children":[{"uid":"982e-5822","name":"cpu_util.js"},{"uid":"982e-5824","name":"backend_cpu.js"},{"name":"kernels","children":[{"uid":"982e-5826","name":"Abs.js"},{"uid":"982e-5830","name":"Complex.js"},{"uid":"982e-5834","name":"Identity.js"},{"uid":"982e-5836","name":"Real.js"},{"uid":"982e-5838","name":"Cast.js"},{"uid":"982e-5842","name":"Add.js"},{"uid":"982e-5844","name":"Bincount_impl.js"},{"uid":"982e-5846","name":"BitwiseAnd.js"},{"uid":"982e-5852","name":"Ceil.js"},{"uid":"982e-5854","name":"Concat_impl.js"},{"uid":"982e-5856","name":"Equal.js"},{"uid":"982e-5858","name":"Exp.js"},{"uid":"982e-5860","name":"Expm1.js"},{"uid":"982e-5862","name":"Floor.js"},{"uid":"982e-5864","name":"FloorDiv.js"},{"uid":"982e-5866","name":"GatherNd_Impl.js"},{"uid":"982e-5868","name":"GatherV2_impl.js"},{"uid":"982e-5870","name":"Greater.js"},{"uid":"982e-5872","name":"GreaterEqual.js"},{"uid":"982e-5874","name":"Less.js"},{"uid":"982e-5876","name":"LessEqual.js"},{"uid":"982e-5878","name":"LinSpace_impl.js"},{"uid":"982e-5880","name":"Log.js"},{"uid":"982e-5882","name":"Max_impl.js"},{"uid":"982e-5884","name":"Maximum.js"},{"uid":"982e-5886","name":"Minimum.js"},{"uid":"982e-5888","name":"Multiply.js"},{"uid":"982e-5890","name":"Neg.js"},{"uid":"982e-5892","name":"NotEqual.js"},{"uid":"982e-5894","name":"Transpose_impl.js"},{"uid":"982e-5896","name":"Transpose.js"},{"uid":"982e-5898","name":"Prod.js"},{"uid":"982e-5900","name":"RaggedGather_impl.js"},{"uid":"982e-5902","name":"RaggedRange_impl.js"},{"uid":"982e-5904","name":"RaggedTensorToTensor_impl.js"},{"uid":"982e-5906","name":"Range_impl.js"},{"uid":"982e-5908","name":"Rsqrt.js"},{"uid":"982e-5910","name":"Scatter_impl.js"},{"uid":"982e-5912","name":"Sigmoid.js"},{"uid":"982e-5914","name":"Slice.js"},{"uid":"982e-5916","name":"SparseFillEmptyRows_impl.js"},{"uid":"982e-5918","name":"SparseReshape_impl.js"},{"uid":"982e-5920","name":"SparseSegmentReduction_impl.js"},{"uid":"982e-5922","name":"Sqrt.js"},{"uid":"982e-5924","name":"SquaredDifference.js"},{"uid":"982e-5926","name":"StaticRegexReplace.js"},{"uid":"982e-5928","name":"StridedSlice_impl.js"},{"uid":"982e-5930","name":"StringNGrams_impl.js"},{"uid":"982e-5932","name":"StringSplit_impl.js"},{"uid":"982e-5934","name":"StringToHashBucketFast_impl.js"},{"uid":"982e-5936","name":"Sub.js"},{"uid":"982e-5938","name":"Tile_impl.js"},{"uid":"982e-5940","name":"TopK_impl.js"},{"uid":"982e-5942","name":"Unique_impl.js"},{"uid":"982e-5948","name":"Elu.js"},{"uid":"982e-5950","name":"LeakyRelu.js"},{"uid":"982e-5952","name":"Prelu.js"},{"uid":"982e-5954","name":"Relu.js"},{"uid":"982e-5956","name":"Relu6.js"},{"uid":"982e-5960","name":"Reshape.js"},{"uid":"982e-5962","name":"BatchMatMul.js"},{"uid":"982e-5964","name":"_FusedMatMul.js"},{"uid":"982e-5966","name":"Acos.js"},{"uid":"982e-5968","name":"Acosh.js"},{"uid":"982e-5970","name":"AddN.js"},{"uid":"982e-5972","name":"All.js"},{"uid":"982e-5974","name":"Any.js"},{"uid":"982e-5976","name":"ArgMax.js"},{"uid":"982e-5978","name":"ArgMin.js"},{"uid":"982e-5980","name":"Asin.js"},{"uid":"982e-5982","name":"Asinh.js"},{"uid":"982e-5984","name":"Atan.js"},{"uid":"982e-5986","name":"Atan2.js"},{"uid":"982e-5988","name":"Atanh.js"},{"uid":"982e-5992","name":"AvgPool.js"},{"uid":"982e-5994","name":"AvgPool3D.js"},{"uid":"982e-5996","name":"AvgPool3DGrad.js"},{"uid":"982e-5998","name":"AvgPoolGrad.js"},{"uid":"982e-6000","name":"BatchNorm.js"},{"uid":"982e-6002","name":"BatchToSpaceND.js"},{"uid":"982e-6004","name":"Bincount.js"},{"uid":"982e-6006","name":"BroadcastArgs.js"},{"uid":"982e-6008","name":"ClipByValue.js"},{"uid":"982e-6010","name":"ComplexAbs.js"},{"uid":"982e-6012","name":"Imag.js"},{"uid":"982e-6014","name":"Concat.js"},{"uid":"982e-6016","name":"Conv2D.js"},{"uid":"982e-6018","name":"Conv2DBackpropFilter.js"},{"uid":"982e-6020","name":"Conv2DBackpropInput.js"},{"uid":"982e-6022","name":"Conv3D.js"},{"uid":"982e-6024","name":"Conv3DBackpropFilterV2.js"},{"uid":"982e-6026","name":"Conv3DBackpropInputV2.js"},{"uid":"982e-6028","name":"Cos.js"},{"uid":"982e-6030","name":"Cosh.js"},{"uid":"982e-6032","name":"CropAndResize.js"},{"uid":"982e-6034","name":"Cumprod.js"},{"uid":"982e-6036","name":"Cumsum.js"},{"uid":"982e-6038","name":"DenseBincount.js"},{"uid":"982e-6040","name":"DepthToSpace.js"},{"uid":"982e-6042","name":"DepthwiseConv2dNative.js"},{"uid":"982e-6044","name":"DepthwiseConv2dNativeBackpropFilter.js"},{"uid":"982e-6046","name":"DepthwiseConv2dNativeBackpropInput.js"},{"uid":"982e-6048","name":"Diag.js"},{"uid":"982e-6050","name":"Dilation2D.js"},{"uid":"982e-6052","name":"Dilation2DBackpropFilter.js"},{"uid":"982e-6054","name":"Dilation2DBackpropInput.js"},{"uid":"982e-6056","name":"Draw.js"},{"uid":"982e-6058","name":"Sum.js"},{"uid":"982e-6060","name":"Einsum.js"},{"uid":"982e-6062","name":"EluGrad.js"},{"uid":"982e-6064","name":"Erf.js"},{"uid":"982e-6066","name":"ExpandDims.js"},{"uid":"982e-6068","name":"RealDiv.js"},{"uid":"982e-6072","name":"FFT.js"},{"uid":"982e-6074","name":"Fill.js"},{"uid":"982e-6076","name":"FlipLeftRight.js"},{"uid":"982e-6078","name":"FusedConv2D.js"},{"uid":"982e-6080","name":"FusedDepthwiseConv2D.js"},{"uid":"982e-6082","name":"GatherNd.js"},{"uid":"982e-6084","name":"GatherV2.js"},{"uid":"982e-6086","name":"IFFT.js"},{"uid":"982e-6088","name":"IsFinite.js"},{"uid":"982e-6090","name":"IsInf.js"},{"uid":"982e-6092","name":"IsNaN.js"},{"uid":"982e-6094","name":"LinSpace.js"},{"uid":"982e-6096","name":"Log1p.js"},{"uid":"982e-6098","name":"LogicalAnd.js"},{"uid":"982e-6100","name":"LogicalNot.js"},{"uid":"982e-6102","name":"LogicalOr.js"},{"uid":"982e-6104","name":"LRN.js"},{"uid":"982e-6106","name":"LRNGrad.js"},{"uid":"982e-6108","name":"Max.js"},{"uid":"982e-6110","name":"MaxPool.js"},{"uid":"982e-6112","name":"MaxPool3D.js"},{"uid":"982e-6114","name":"MaxPool3DGrad.js"},{"uid":"982e-6116","name":"MaxPoolGrad.js"},{"uid":"982e-6118","name":"MaxPoolWithArgmax.js"},{"uid":"982e-6120","name":"MaxPoolWithArgmax_impl.js"},{"uid":"982e-6122","name":"Mean.js"},{"uid":"982e-6124","name":"Min.js"},{"uid":"982e-6126","name":"MirrorPad.js"},{"uid":"982e-6128","name":"Mod.js"},{"uid":"982e-6130","name":"Softmax.js"},{"uid":"982e-6132","name":"Multinomial.js"},{"uid":"982e-6134","name":"NonMaxSuppressionV3.js"},{"uid":"982e-6136","name":"NonMaxSuppressionV4.js"},{"uid":"982e-6138","name":"NonMaxSuppressionV5.js"},{"uid":"982e-6140","name":"OneHot.js"},{"uid":"982e-6142","name":"ZerosLike.js"},{"uid":"982e-6144","name":"OnesLike.js"},{"uid":"982e-6146","name":"Pack.js"},{"uid":"982e-6148","name":"PadV2.js"},{"uid":"982e-6150","name":"Pow.js"},{"uid":"982e-6152","name":"RaggedGather.js"},{"uid":"982e-6154","name":"RaggedRange.js"},{"uid":"982e-6156","name":"RaggedTensorToTensor.js"},{"uid":"982e-6158","name":"Range.js"},{"uid":"982e-6160","name":"Reciprocal.js"},{"uid":"982e-6162","name":"ResizeBilinear.js"},{"uid":"982e-6164","name":"ResizeBilinearGrad.js"},{"uid":"982e-6166","name":"ResizeNearestNeighbor.js"},{"uid":"982e-6168","name":"ResizeNearestNeighborGrad.js"},{"uid":"982e-6170","name":"Reverse.js"},{"uid":"982e-6172","name":"RotateWithOffset.js"},{"uid":"982e-6174","name":"Round.js"},{"uid":"982e-6176","name":"ScatterNd.js"},{"uid":"982e-6178","name":"SearchSorted_impl.js"},{"uid":"982e-6180","name":"SearchSorted.js"},{"uid":"982e-6182","name":"Select.js"},{"uid":"982e-6184","name":"Selu.js"},{"uid":"982e-6186","name":"Sign.js"},{"uid":"982e-6188","name":"Sin.js"},{"uid":"982e-6190","name":"Sinh.js"},{"uid":"982e-6192","name":"Softplus.js"},{"uid":"982e-6194","name":"SpaceToBatchND.js"},{"uid":"982e-6196","name":"SparseFillEmptyRows.js"},{"uid":"982e-6198","name":"SparseReshape.js"},{"uid":"982e-6200","name":"SparseSegmentMean.js"},{"uid":"982e-6202","name":"SparseSegmentSum.js"},{"uid":"982e-6204","name":"SparseToDense.js"},{"uid":"982e-6206","name":"SplitV.js"},{"uid":"982e-6208","name":"Square.js"},{"uid":"982e-6210","name":"Step.js"},{"uid":"982e-6212","name":"StridedSlice.js"},{"uid":"982e-6214","name":"StringNGrams.js"},{"uid":"982e-6216","name":"StringSplit.js"},{"uid":"982e-6218","name":"StringToHashBucketFast.js"},{"uid":"982e-6220","name":"Tan.js"},{"uid":"982e-6222","name":"Tanh.js"},{"uid":"982e-6224","name":"TensorScatterUpdate.js"},{"uid":"982e-6226","name":"Tile.js"},{"uid":"982e-6228","name":"TopK.js"},{"uid":"982e-6230","name":"Transform.js"},{"uid":"982e-6232","name":"Unique.js"},{"uid":"982e-6234","name":"Unpack.js"},{"uid":"982e-6236","name":"UnsortedSegmentSum.js"}]},{"name":"utils","children":[{"uid":"982e-5828","name":"binary_impl.js"},{"uid":"982e-5832","name":"zeros_impl.js"},{"uid":"982e-5840","name":"binary_utils.js"},{"uid":"982e-5848","name":"unary_impl.js"},{"uid":"982e-5850","name":"unary_utils.js"},{"uid":"982e-5958","name":"fused_utils.js"},{"uid":"982e-5990","name":"pool_utils.js"},{"uid":"982e-6070","name":"fft_utils.js"}]},{"uid":"982e-5944","name":"version.js"},{"uid":"982e-5946","name":"base.js"},{"uid":"982e-6238","name":"register_all_kernels.js"}]},{"name":"tfjs-backend-webgl/dist","children":[{"uid":"982e-6240","name":"canvas_util.js"},{"uid":"982e-6242","name":"tex_util.js"},{"uid":"982e-6244","name":"webgl_util.js"},{"uid":"982e-6246","name":"flags_webgl.js"},{"uid":"982e-6248","name":"glsl_version.js"},{"uid":"982e-6250","name":"shader_compiler_util.js"},{"uid":"982e-6252","name":"shader_compiler.js"},{"uid":"982e-6254","name":"gpgpu_math.js"},{"uid":"982e-6256","name":"decode_matrix_gpu.js"},{"uid":"982e-6258","name":"decode_matrix_packed_gpu.js"},{"uid":"982e-6260","name":"encode_float_gpu.js"},{"uid":"982e-6262","name":"encode_float_packed_gpu.js"},{"uid":"982e-6264","name":"encode_matrix_gpu.js"},{"uid":"982e-6266","name":"encode_matrix_packed_gpu.js"},{"uid":"982e-6268","name":"gpgpu_util.js"},{"uid":"982e-6270","name":"gpgpu_context.js"},{"name":"kernel_utils","children":[{"uid":"982e-6272","name":"shared.js"},{"uid":"982e-6308","name":"kernel_funcs_utils.js"},{"uid":"982e-6318","name":"reshape.js"},{"uid":"982e-6324","name":"reduce.js"},{"uid":"982e-6364","name":"arg_min_max.js"},{"uid":"982e-6420","name":"int.js"}]},{"uid":"982e-6274","name":"packing_util.js"},{"uid":"982e-6276","name":"pack_gpu.js"},{"uid":"982e-6278","name":"reshape_packed_gpu.js"},{"uid":"982e-6280","name":"texture_manager.js"},{"uid":"982e-6282","name":"unaryop_gpu.js"},{"uid":"982e-6284","name":"unaryop_packed_gpu.js"},{"uid":"982e-6286","name":"unpack_gpu.js"},{"uid":"982e-6288","name":"backend_webgl.js"},{"uid":"982e-6290","name":"version.js"},{"uid":"982e-6292","name":"webgl.js"},{"uid":"982e-6294","name":"base.js"},{"uid":"982e-6296","name":"binaryop_gpu.js"},{"uid":"982e-6298","name":"binaryop_packed_gpu.js"},{"name":"kernels","children":[{"uid":"982e-6300","name":"Identity.js"},{"uid":"982e-6302","name":"Complex.js"},{"uid":"982e-6304","name":"LeakyRelu.js"},{"uid":"982e-6306","name":"Prelu.js"},{"uid":"982e-6314","name":"Multiply.js"},{"uid":"982e-6316","name":"Reshape.js"},{"uid":"982e-6330","name":"Transpose_impl.js"},{"uid":"982e-6332","name":"Sum.js"},{"uid":"982e-6334","name":"Sum_impl.js"},{"uid":"982e-6336","name":"Transpose.js"},{"uid":"982e-6338","name":"BatchMatMul_impl.js"},{"uid":"982e-6340","name":"_FusedMatMul.js"},{"uid":"982e-6342","name":"Abs.js"},{"uid":"982e-6344","name":"Acos.js"},{"uid":"982e-6346","name":"Acosh.js"},{"uid":"982e-6348","name":"Add.js"},{"uid":"982e-6354","name":"AddN.js"},{"uid":"982e-6356","name":"All.js"},{"uid":"982e-6358","name":"Any.js"},{"uid":"982e-6366","name":"ArgMax.js"},{"uid":"982e-6368","name":"ArgMin.js"},{"uid":"982e-6370","name":"Asin.js"},{"uid":"982e-6372","name":"Asinh.js"},{"uid":"982e-6374","name":"Atan.js"},{"uid":"982e-6376","name":"Atan2.js"},{"uid":"982e-6378","name":"Atanh.js"},{"uid":"982e-6382","name":"AvgPool.js"},{"uid":"982e-6384","name":"AvgPool3D.js"},{"uid":"982e-6388","name":"AvgPool3DGrad.js"},{"uid":"982e-6390","name":"AvgPoolGrad.js"},{"uid":"982e-6392","name":"BatchMatMul.js"},{"uid":"982e-6398","name":"BatchNorm.js"},{"uid":"982e-6404","name":"Slice.js"},{"uid":"982e-6406","name":"BatchToSpaceND.js"},{"uid":"982e-6408","name":"Bincount.js"},{"uid":"982e-6410","name":"BitwiseAnd.js"},{"uid":"982e-6412","name":"BroadcastArgs.js"},{"uid":"982e-6414","name":"NotEqual.js"},{"uid":"982e-6416","name":"Real.js"},{"uid":"982e-6418","name":"Cast.js"},{"uid":"982e-6422","name":"Ceil.js"},{"uid":"982e-6428","name":"ClipByValue.js"},{"uid":"982e-6432","name":"ComplexAbs.js"},{"uid":"982e-6438","name":"Imag.js"},{"uid":"982e-6440","name":"Concat_impl.js"},{"uid":"982e-6442","name":"Concat.js"},{"uid":"982e-6450","name":"Conv2D_impl.js"},{"uid":"982e-6452","name":"Conv2D.js"},{"uid":"982e-6456","name":"Conv2DBackpropFilter.js"},{"uid":"982e-6460","name":"Conv2DBackpropInput.js"},{"uid":"982e-6462","name":"Conv3D.js"},{"uid":"982e-6464","name":"Conv3DBackpropFilterV2.js"},{"uid":"982e-6466","name":"Conv3DBackpropInputV2.js"},{"uid":"982e-6468","name":"Cos.js"},{"uid":"982e-6470","name":"Cosh.js"},{"uid":"982e-6474","name":"CropAndResize.js"},{"uid":"982e-6478","name":"Cum_impl.js"},{"uid":"982e-6480","name":"Cumprod.js"},{"uid":"982e-6482","name":"Cumsum.js"},{"uid":"982e-6484","name":"DenseBincount.js"},{"uid":"982e-6488","name":"DepthToSpace.js"},{"uid":"982e-6494","name":"DepthwiseConv2dNative.js"},{"uid":"982e-6498","name":"DepthwiseConv2dNativeBackpropFilter.js"},{"uid":"982e-6500","name":"DepthwiseConv2dNativeBackpropInput.js"},{"uid":"982e-6504","name":"Diag.js"},{"uid":"982e-6508","name":"Dilation2D.js"},{"uid":"982e-6510","name":"Einsum.js"},{"uid":"982e-6512","name":"Elu.js"},{"uid":"982e-6514","name":"EluGrad.js"},{"uid":"982e-6516","name":"Equal.js"},{"uid":"982e-6518","name":"Erf.js"},{"uid":"982e-6520","name":"Exp.js"},{"uid":"982e-6522","name":"ExpandDims.js"},{"uid":"982e-6524","name":"Expm1.js"},{"uid":"982e-6528","name":"FFT_impl.js"},{"uid":"982e-6530","name":"FFT.js"},{"uid":"982e-6534","name":"Fill.js"},{"uid":"982e-6538","name":"FlipLeftRight.js"},{"uid":"982e-6540","name":"Floor.js"},{"uid":"982e-6542","name":"FloorDiv.js"},{"name":"FromPixels_utils","children":[{"uid":"982e-6544","name":"from_pixels_gpu.js"},{"uid":"982e-6546","name":"from_pixels_packed_gpu.js"}]},{"uid":"982e-6548","name":"FromPixels.js"},{"uid":"982e-6550","name":"FusedConv2D.js"},{"uid":"982e-6552","name":"FusedDepthwiseConv2D.js"},{"uid":"982e-6556","name":"GatherNd.js"},{"uid":"982e-6560","name":"GatherV2.js"},{"uid":"982e-6562","name":"Greater.js"},{"uid":"982e-6564","name":"GreaterEqual.js"},{"uid":"982e-6566","name":"IFFT.js"},{"uid":"982e-6568","name":"IsFinite.js"},{"uid":"982e-6570","name":"IsInf.js"},{"uid":"982e-6572","name":"IsNaN.js"},{"uid":"982e-6574","name":"Less.js"},{"uid":"982e-6576","name":"LessEqual.js"},{"uid":"982e-6578","name":"LinSpace.js"},{"uid":"982e-6580","name":"Log.js"},{"uid":"982e-6582","name":"Log1p.js"},{"uid":"982e-6584","name":"LogicalAnd.js"},{"uid":"982e-6586","name":"LogicalNot.js"},{"uid":"982e-6588","name":"LogicalOr.js"},{"uid":"982e-6594","name":"LRN.js"},{"uid":"982e-6598","name":"LRNGrad.js"},{"uid":"982e-6600","name":"Max.js"},{"uid":"982e-6602","name":"Max_impl.js"},{"uid":"982e-6604","name":"Maximum.js"},{"uid":"982e-6606","name":"MaxPool.js"},{"uid":"982e-6608","name":"MaxPool3D.js"},{"uid":"982e-6612","name":"MaxPool3DGrad.js"},{"uid":"982e-6614","name":"MaxPoolGrad.js"},{"uid":"982e-6616","name":"MaxPoolWithArgmax.js"},{"uid":"982e-6618","name":"MaxPoolWithArgmax_impl.js"},{"uid":"982e-6620","name":"Mean.js"},{"uid":"982e-6622","name":"Mean_impl.js"},{"uid":"982e-6624","name":"Min.js"},{"uid":"982e-6626","name":"Minimum.js"},{"uid":"982e-6632","name":"MirrorPad.js"},{"uid":"982e-6634","name":"Mod.js"},{"uid":"982e-6638","name":"RealDiv.js"},{"uid":"982e-6640","name":"Sub.js"},{"uid":"982e-6642","name":"Softmax.js"},{"uid":"982e-6644","name":"Multinomial.js"},{"uid":"982e-6646","name":"Neg.js"},{"uid":"982e-6648","name":"NonMaxSuppressionV3.js"},{"uid":"982e-6650","name":"NonMaxSuppressionV4.js"},{"uid":"982e-6652","name":"NonMaxSuppressionV5.js"},{"uid":"982e-6656","name":"OneHot.js"},{"uid":"982e-6658","name":"ZerosLike.js"},{"uid":"982e-6660","name":"OnesLike.js"},{"uid":"982e-6662","name":"Pack.js"},{"uid":"982e-6668","name":"PadV2.js"},{"uid":"982e-6670","name":"Pow.js
+...
+html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-8a.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-9.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-9a.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-a1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-a5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-a7-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k20-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k30-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k30-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k30.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k40.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k50.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k60.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k90-max.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-k90-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-10-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-10-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-10.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-11-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-11.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-12.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-5a.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-8-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-8.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note-9t.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-note.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-s2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-turbo-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi-y1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\redmi.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16--china.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16-f.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16-fs.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16-pro--china.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\reno16c.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-7-ultimate.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-7.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-8-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-8.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-9-fe.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-9-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\rog-phone-9.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\s60.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\s60e.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-ativ-s.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-corby-speed.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-focus.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a06-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a10.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a10e.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a11.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a12.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a21s.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a22-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a3-2015.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a31.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a35-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a41.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a5--2015.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a50.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a52-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a52.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a52s-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-a90-5g.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-ace-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-ace.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-alpha.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-beam-i8530.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-chat.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-core.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-core2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-gio.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-grand-neo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-grand.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-i7500.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-j-sgh.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-j6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m-style.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m11.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m21.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m31.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m32.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-m51.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-mega-6-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-mini-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-3-neo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-edge.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-ii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-note-n7000.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-pocket-plus.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-pocket.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-advance.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-duos-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-ii-plus.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-iii-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-iii-neo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s-plus.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s20.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s21-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s22-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s22.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s23.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s4-active.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s4-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s5-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s6-active.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s6-edge.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-s6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-sl.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-spica.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-star.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-trend-plus.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-trend.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-w.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-win.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-xcover-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-y.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-young.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-flip-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-flip-4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-flip.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-fold-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-fold-4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-fold-7.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-galaxy-z-trifold.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-gt-i6220.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-gt-s3370.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-i5500.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-i5800.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-i8000.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-i8910.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-jet.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-omnia-7.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-omnia-w.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-rugby-smart.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-sgh-i607.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-sgh-i900.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-533.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-723.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-ii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-m.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-s8500.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\samsung-wave-y.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\smartwatch-garmin-forerunner-255.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\smartwatch-garmin-venu.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\smartwatch-samsung-gear-sport.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\smartwatch-withings-steel-hr-sport.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sol22.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-k550im.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-live-with-walkman.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-p1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-p990.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-satio.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-w960.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-active.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-arc-s.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-arc.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-mini-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-neo-v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-neo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-ray--st18i.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x10-mini-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x10-mini.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x10.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-ericsson-xperia-x8.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-1-ii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-1-iv.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-5-ii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-5-iv.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-5-v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-acro-s.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-c4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-e1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-e3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-e4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-e5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-go.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-ion.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-m2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-m4-aqua.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-miro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-neo-l.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-sl.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-sp.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-t.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-x-compact.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-x-performance.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-x.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xa.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xa2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz-premium.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz1-compact.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz2-compact.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xz3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-xzs.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z2a.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z3-compact.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z5-compact.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-z5-premium.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\sony-xperia-zr.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\t5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tablet-tcl-note-a1-nxtpaper.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\turbo-6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\turbo-6v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\turbo-6x-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\turbo-6x.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-12b-615-22.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-algol-11.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-black-201-television-set.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-lg-lx9500.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-mtv-1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-odyssey-4305.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-sega-vision.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-tesla-4001a.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-vg-6512-bw.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-videoton-ts-3301-sp-super-color.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\tv-xl-100.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\v70-lite.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\vivo-v20.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\vivo-v21.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\vivo-x100.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\win-turbo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\x-fold6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\x70-pro-max.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\x7e.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\x80-pro-max.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-11t.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-12-lite.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-12.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-12s-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-13-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-13.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-13t.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-17.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-civi.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-1.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-10-lite.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-10-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-10-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-10.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-11-lite.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-11-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-11.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-11i.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-4.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-5.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-5x.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-6.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-8.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-9.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-a3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-mix-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-mix-alpha.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-note-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mi-note-pro.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mix-fold-2.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-mix-fold-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xiaomi-redmi-note-3.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-1-iv.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-1-v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-1-vi.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-1-vii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-1-viii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-10-v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-10-vi.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-10-vii.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-5-iv.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-5-v.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-play.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\xperia-xz2-premium.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\y500.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\y600-turbo.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\zenfone-10.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\zenfone-11-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone\zenfone-12-ultra.html:  <script src="../js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\phone.html:  <script src="js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\privacy.html:  <script src="js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\search.html:  <script src="js/data.js"></script>
+projects\_deploy_staging\_deploy_staging\phonehub\terms.html:  <script src="js/data.js"></script>
+search.html:  <script src="js/data.js"></script>
+terms.html:  <script src="js/data.js"></script>
+website\404.html:  <script src="js/data.js"></script>
+website\about.html:  <script src="js/data.js"></script>
+website\brands.html:  <script src="js/data.js"></script>
+website\compare.html:  <script src="js/data.js"></script>
+website\compare.html:  <script src="js/specs-data.js"></script>
+website\contact.html:  <script src="js/data.js"></script>
+website\disclosure.html:  <script src="js/data.js"></script>
+website\index.html:  <script src="js/data.js"></script>
+website\news.html:  <script src="js/data.js"></script>
+website\phone.html:  <script src="js/data.js"></script>
+website\privacy.html:  <script src="js/data.js"></script>
+website\search.html:  <script src="js/data.js"></script>
+website\terms.html:  <script src="js/data.js"></script>
+FINDSTR: Cannot open phone\auto-bl�riot-whippet.html
+FINDSTR: Cannot open phone\auto-brezelk�fer.html
+FINDSTR: Cannot open phone\auto-citro�n-c25.html
+FINDSTR: Cannot open phone\auto-citro�n-c8.html
+FINDSTR: Cannot open phone\auto-citro�n-elys�e.html
+FINDSTR: Cannot open phone\auto-citro�n-h-van.html
+FINDSTR: Cannot open phone\auto-citro�n-type-a.html
+FINDSTR: Cannot open phone\auto-citro�n-type-b14.html
+FINDSTR: Cannot open phone\auto-citro�n-type-c.html
+FINDSTR: Cannot open phone\auto-citro�n-xsara-picasso.html
+FINDSTR: Cannot open phone\auto-citro�n-zx.html
+FINDSTR: Cannot open phone\auto-fiat-coup�.html
+FINDSTR: Cannot open phone\auto-fiat-dobl�.html
+FINDSTR: Cannot open phone\auto-lamborghini-murci�lago.html
+FINDSTR: Cannot open phone\auto-laurin---klement---�koda-120.html
+FINDSTR: Cannot open phone\auto-mazda-�tude.html
+FINDSTR: Cannot open phone\auto-riley-2-�.html
+FINDSTR: Cannot open phone\auto-z�ndapp-janus.html
+FINDSTR: Cannot open phone\auto-�vmv-1100-gt.html
+FINDSTR: Cannot open phone\auto-�koda-100.html
+FINDSTR: Cannot open phone\auto-�koda-1000-mb.html
+FINDSTR: Cannot open phone\auto-�koda-110-r.html
+FINDSTR: Cannot open phone\auto-�koda-1100-ohc.html
+FINDSTR: Cannot open phone\auto-�koda-1101-1102.html
+FINDSTR: Cannot open phone\auto-�koda-120.html
+FINDSTR: Cannot open phone\auto-�koda-1200.html
+FINDSTR: Cannot open phone\auto-�koda-1201.html
+FINDSTR: Cannot open phone\auto-�koda-1202.html
+FINDSTR: Cannot open phone\auto-�koda-1203.html
+FINDSTR: Cannot open phone\auto-�koda-6-r.html
+FINDSTR: Cannot open phone\auto-�koda-633.html
+FINDSTR: Cannot open phone\auto-�koda-637.html
+FINDSTR: Cannot open phone\auto-�koda-645.html
+FINDSTR: Cannot open phone\auto-�koda-650.html
+FINDSTR: Cannot open phone\auto-�koda-760.html
+FINDSTR: Cannot open phone\auto-�koda-860.html
+FINDSTR: Cannot open phone\auto-�koda-935.html
+FINDSTR: Cannot open phone\auto-�koda-973.html
+FINDSTR: Cannot open phone\auto-�koda-citigo.html
+FINDSTR: Cannot open phone\auto-�koda-fabia-i.html
+FINDSTR: Cannot open phone\auto-�koda-fabia-ii.html
+FINDSTR: Cannot open phone\auto-�koda-favorit.html
+FINDSTR: Cannot open phone\auto-�koda-felicia.html
+FINDSTR: Cannot open phone\auto-�koda-garde.html
+FINDSTR: Cannot open phone\auto-�koda-joyster.html
+FINDSTR: Cannot open phone\auto-�koda-missionl.html
+FINDSTR: Cannot open phone\auto-�koda-mo�-2.html
+FINDSTR: Cannot open phone\auto-�koda-octavia-i.html
+FINDSTR: Cannot open phone\auto-�koda-octavia-ii.html
+FINDSTR: Cannot open phone\auto-�koda-octavia.html
+FINDSTR: Cannot open phone\auto-�koda-pick-up.html
+FINDSTR: Cannot open phone\auto-�koda-popular.html
+FINDSTR: Cannot open phone\auto-�koda-rapid--india.html
+FINDSTR: Cannot open phone\auto-�koda-rapid-2200.html
+FINDSTR: Cannot open phone\auto-�koda-rapid-six.html
+FINDSTR: Cannot open phone\auto-�koda-rapid.html
+FINDSTR: Cannot open phone\auto-�koda-roomster.html
+FINDSTR: Cannot open phone\auto-�koda-sagitta.html
+FINDSTR: Cannot open phone\auto-�koda-sport.html
+FINDSTR: Cannot open phone\auto-�koda-superb-i.html
+FINDSTR: Cannot open phone\auto-�koda-superb-ii.html
+FINDSTR: Cannot open phone\auto-�koda-superb.html
+FINDSTR: Cannot open phone\auto-�koda-tudor--2002.html
+FINDSTR: Cannot open phone\auto-�koda-vision-d.html
+FINDSTR: Cannot open phone\auto-�koda-vos.html
+FINDSTR: Cannot open phone\auto-�koda-yeti.html
+FINDSTR: Cannot open phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open phone\smartwatch-fenix-7-pro---sapphire-solar-edition.html
+FINDSTR: Cannot open phone\smartwatch-fenix-7-pro---solar-edition.html
+FINDSTR: Cannot open phone\smartwatch-garmin-fenix-6s-sapphire.html
+FINDSTR: Cannot open phone\smartwatch-garmin-fenix-6x-pro.html
+FINDSTR: Cannot open phone\smartwatch-withings-activit�---pop.html
+FINDSTR: Cannot open phonehub\phone\auto-citro�n-c25.html
+FINDSTR: Cannot open phonehub\phone\auto-citro�n-c8.html
+FINDSTR: Cannot open phonehub\phone\auto-citro�n-type-b14.html
+FINDSTR: Cannot open phonehub\phone\auto-citro�n-zx.html
+FINDSTR: Cannot open phonehub\phone\auto-lamborghini-murci�lago.html
+FINDSTR: Cannot open phonehub\phone\auto-mazda-�tude.html
+FINDSTR: Cannot open phonehub\phone\auto-riley-2-�.html
+FINDSTR: Cannot open phonehub\phone\auto-z�ndapp-janus.html
+FINDSTR: Cannot open phonehub\phone\auto-�vmv-1100-gt.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-120.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-6-r.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-633.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-637.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-645.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-650.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-760.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-860.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-935.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-973.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-citigo.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-garde.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-octavia.html
+FINDSTR: Cannot open phonehub\phone\auto-�koda-rapid.html
+FINDSTR: Cannot open phonehub\phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open phonehub\phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open phonehub\phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open phonehub\phone\smartwatch-fenix-7-pro---sapphire-solar-edition.html
+FINDSTR: Cannot open phonehub\phone\smartwatch-fenix-7-pro---solar-edition.html
+FINDSTR: Cannot open phonehub\phone\smartwatch-garmin-fenix-6s-sapphire.html
+FINDSTR: Cannot open phonehub\phone\smartwatch-garmin-fenix-6x-pro.html
+FINDSTR: Cannot open phonehub\phone\smartwatch-withings-activit�---pop.html
+FINDSTR: Cannot open projects\phone\auto-bl�riot-whippet.html
+FINDSTR: Cannot open projects\phone\auto-brezelk�fer.html
+FINDSTR: Cannot open projects\phone\auto-citro�n-c25.html
+FINDSTR: Cannot open projects\phone\auto-citro�n-c8.html
+FINDSTR: Cannot open projects\phone\auto-citro�n-type-b14.html
+FINDSTR: Cannot open projects\phone\auto-citro�n-zx.html
+FINDSTR: Cannot open projects\phone\auto-lamborghini-murci�lago.html
+FINDSTR: Cannot open projects\phone\auto-laurin---klement---�koda-120.html
+FINDSTR: Cannot open projects\phone\auto-mazda-�tude.html
+FINDSTR: Cannot open projects\phone\auto-riley-2-�.html
+FINDSTR: Cannot open projects\phone\auto-z�ndapp-janus.html
+FINDSTR: Cannot open projects\phone\auto-�vmv-1100-gt.html
+FINDSTR: Cannot open projects\phone\auto-�koda-100.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1000-mb.html
+FINDSTR: Cannot open projects\phone\auto-�koda-110-r.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1100-ohc.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1101-1102.html
+FINDSTR: Cannot open projects\phone\auto-�koda-120.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1200.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1201.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1202.html
+FINDSTR: Cannot open projects\phone\auto-�koda-1203.html
+FINDSTR: Cannot open projects\phone\auto-�koda-6-r.html
+FINDSTR: Cannot open projects\phone\auto-�koda-633.html
+FINDSTR: Cannot open projects\phone\auto-�koda-637.html
+FINDSTR: Cannot open projects\phone\auto-�koda-645.html
+FINDSTR: Cannot open projects\phone\auto-�koda-650.html
+FINDSTR: Cannot open projects\phone\auto-�koda-760.html
+FINDSTR: Cannot open projects\phone\auto-�koda-860.html
+FINDSTR: Cannot open projects\phone\auto-�koda-935.html
+FINDSTR: Cannot open projects\phone\auto-�koda-973.html
+FINDSTR: Cannot open projects\phone\auto-�koda-citigo.html
+FINDSTR: Cannot open projects\phone\auto-�koda-fabia-i.html
+FINDSTR: Cannot open projects\phone\auto-�koda-fabia-ii.html
+FINDSTR: Cannot open projects\phone\auto-�koda-favorit.html
+FINDSTR: Cannot open projects\phone\auto-�koda-felicia.html
+FINDSTR: Cannot open projects\phone\auto-�koda-garde.html
+FINDSTR: Cannot open projects\phone\auto-�koda-joyster.html
+FINDSTR: Cannot open projects\phone\auto-�koda-missionl.html
+FINDSTR: Cannot open projects\phone\auto-�koda-mo�-2.html
+FINDSTR: Cannot open projects\phone\auto-�koda-octavia-i.html
+FINDSTR: Cannot open projects\phone\auto-�koda-octavia-ii.html
+FINDSTR: Cannot open projects\phone\auto-�koda-octavia.html
+FINDSTR: Cannot open projects\phone\auto-�koda-pick-up.html
+FINDSTR: Cannot open projects\phone\auto-�koda-popular.html
+FINDSTR: Cannot open projects\phone\auto-�koda-rapid.html
+FINDSTR: Cannot open projects\phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open projects\phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open projects\phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open projects\phone\smartwatch-fenix-7-pro---sapphire-solar-edition.html
+FINDSTR: Cannot open projects\phone\smartwatch-fenix-7-pro---solar-edition.html
+FINDSTR: Cannot open projects\phone\smartwatch-garmin-fenix-6s-sapphire.html
+FINDSTR: Cannot open projects\phone\smartwatch-garmin-fenix-6x-pro.html
+FINDSTR: Cannot open projects\phone\smartwatch-withings-activit�---pop.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-citro�n-c25.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-citro�n-c8.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-citro�n-type-b14.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-citro�n-zx.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-lamborghini-murci�lago.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-mazda-�tude.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-riley-2-�.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-z�ndapp-janus.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�vmv-1100-gt.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-120.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-6-r.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-633.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-637.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-645.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-650.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-760.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-860.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-935.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-973.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-citigo.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-garde.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-octavia.html
+FINDSTR: Cannot open projects\phonehub\phone\auto-�koda-rapid.html
+FINDSTR: Cannot open projects\phonehub\phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open projects\phonehub\phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open projects\phonehub\phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open projects\phonehub\phone\smartwatch-fenix-7-pro---sapphire-solar-edition.html
+FINDSTR: Cannot open projects\phonehub\phone\smartwatch-fenix-7-pro---solar-edition.html
+FINDSTR: Cannot open projects\phonehub\phone\smartwatch-garmin-fenix-6s-sapphire.html
+FINDSTR: Cannot open projects\phonehub\phone\smartwatch-garmin-fenix-6x-pro.html
+FINDSTR: Cannot open projects\phonehub\phone\smartwatch-withings-activit�---pop.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\auto-citro�n-c25.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\auto-mazda-�tude.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\auto-�koda-garde.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open projects\_deploy_staging\phonehub\phone\smartwatch-withings-activit�---pop.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\auto-citro�n-c25.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\auto-mazda-�tude.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\auto-�koda-garde.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\camera-logitech-fotoman-mus�e-bolo.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\camera-logitech-fotoman-pixtura-mus�e-bolo.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\garmin-asus-n�vifone-a50.html
+FINDSTR: Cannot open projects\_deploy_staging\_deploy_staging\phonehub\phone\smartwatch-withings-activit�---pop.html

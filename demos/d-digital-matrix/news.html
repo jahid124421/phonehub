@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Tech News Feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060a0f;--primary:#00ff88;--secondary:#00cccc;--text:#c8d6e5;--card:#0a1018;--border:#00ff8833;--glow:rgba(0,255,136,0.4);--mono:'JetBrains Mono',monospace;--sans:'Inter',sans-serif;--scanline:repeating-linear-gradient(0deg,rgba(0,0,0,0.15) 0px,rgba(0,0,0,0.15) 1px,transparent 1px,transparent 2px)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110';position:fixed;top:0;left:0;width:100%;height:100%;font-family:var(--mono);font-size:14px;color:rgba(0,255,136,0.02);word-wrap:break-word;pointer-events:none;z-index:0;padding:20px;line-height:2}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+a:hover{color:var(--secondary);text-shadow:0 0 8px var(--glow)}
+
+header{position:sticky;top:0;z-index:100;background:rgba(6,10,15,0.95);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--primary);text-shadow:0 0 8px var(--glow)}
+.logo span{color:var(--text);opacity:.6}
+nav{display:flex;gap:24px}
+nav a{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.8}
+nav a:hover,nav a.active{color:var(--primary);opacity:1}
+.mobile-toggle{display:none;background:none;border:none;color:var(--primary);font-size:1.5rem;cursor:pointer}
+
+.breadcrumb{max-width:1200px;margin:0 auto;padding:16px 20px;font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.breadcrumb a{color:var(--secondary);opacity:.8}
+
+.section{max-width:1200px;margin:0 auto;padding:32px 20px}
+.section-title{font-family:var(--mono);font-size:1.3rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'$';color:var(--secondary)}
+.section-sub{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.5;margin-bottom:32px}
+
+/* LAYOUT */
+.news-layout{display:grid;grid-template-columns:1fr 320px;gap:30px}
+
+/* NEWS GRID */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
+.news-card{background:var(--card);border:1px solid var(--border);border-radius:6px;overflow:hidden;transition:all .3s;cursor:pointer}
+.news-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.news-card:hover{border-color:var(--primary);box-shadow:0 0 18px rgba(0,255,136,0.1);transform:translateY(-3px)}
+.news-card{position:relative}
+.news-img{width:100%;height:180px;background:linear-gradient(135deg,#0d1520,#111d2e);display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--border)}
+.news-img .icon{font-size:2.5rem;opacity:.2}
+.news-body{padding:18px;position:relative;z-index:2}
+.news-tag{font-family:var(--mono);font-size:.65rem;padding:3px 10px;border:1px solid var(--border);border-radius:8px;color:var(--secondary);display:inline-block;margin-bottom:8px}
+.news-prefix{font-family:var(--mono);font-size:.72rem;color:var(--secondary);margin-bottom:4px}
+.news-title{font-family:var(--mono);font-size:.95rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:8px;line-height:1.4}
+.news-excerpt{font-size:.85rem;color:var(--text);opacity:.6;margin-bottom:12px;line-height:1.5}
+.news-footer{display:flex;justify-content:space-between;align-items:center}
+.news-date{font-family:var(--mono);font-size:.72rem;color:var(--text);opacity:.4}
+.news-read{font-family:var(--mono);font-size:.75rem;color:var(--primary)}
+
+/* FEATURED */
+.news-featured{grid-column:1/-1;background:var(--card);border:1px solid var(--border);border-radius:6px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;position:relative;cursor:pointer;transition:all .3s}
+.news-featured::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.news-featured:hover{border-color:var(--primary);box-shadow:0 0 24px rgba(0,255,136,0.12)}
+.news-featured .news-img{height:100%;min-height:240px}
+.news-featured .news-body{padding:28px;display:flex;flex-direction:column;justify-content:center}
+.news-featured .news-title{font-size:1.2rem;margin-bottom:12px}
+.news-featured .news-excerpt{font-size:.9rem;opacity:.7}
+
+/* TRENDING SIDEBAR */
+.trending-sidebar{position:sticky;top:80px;align-self:start}
+.trending-box{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:20px}
+.trending-title{font-family:var(--mono);font-size:1rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:18px;display:flex;align-items:center;gap:8px}
+.trending-title::before{content:'--';color:var(--secondary)}
+.trending-item{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid rgba(0,255,136,0.05);cursor:pointer;transition:all .3s}
+.trending-item:last-child{border-bottom:none}
+.trending-item:hover .trending-name{color:var(--primary);text-shadow:0 0 6px var(--glow)}
+.trending-rank{font-family:var(--mono);font-size:1.4rem;color:var(--primary);text-shadow:0 0 8px var(--glow);font-weight:700;width:28px;flex-shrink:0;opacity:.6}
+.trending-info{flex:1}
+.trending-name{font-family:var(--mono);font-size:.85rem;color:var(--text);margin-bottom:2px;transition:all .3s}
+.trending-meta{font-size:.75rem;color:var(--text);opacity:.4}
+.trending-heat{font-family:var(--mono);font-size:.7rem;color:var(--secondary);margin-top:4px}
+
+/* NEWSLETTER */
+.newsletter{margin-top:24px;background:var(--card);border:1px solid var(--border);border-radius:6px;padding:20px}
+.newsletter-title{font-family:var(--mono);font-size:.9rem;color:var(--primary);margin-bottom:8px}
+.newsletter-desc{font-size:.8rem;color:var(--text);opacity:.5;margin-bottom:14px}
+.newsletter-form{display:flex;gap:8px}
+.newsletter-input{flex:1;background:rgba(6,10,15,0.8);border:1px solid var(--border);color:var(--text);font-family:var(--mono);font-size:.8rem;padding:10px;border-radius:4px;outline:none}
+.newsletter-input:focus{border-color:var(--primary)}
+.newsletter-input::placeholder{color:rgba(200,214,229,0.3)}
+.newsletter-btn{background:var(--primary);color:var(--bg);border:none;font-family:var(--mono);font-weight:700;font-size:.8rem;padding:10px 16px;border-radius:4px;cursor:pointer;transition:all .3s;white-space:nowrap}
+.newsletter-btn:hover{background:var(--secondary)}
+
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+footer{border-top:1px solid var(--border);background:rgba(6,10,15,0.95);margin-top:40px}
+.footer-inner{max-width:1200px;margin:0 auto;padding:30px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-inner .logo{font-family:var(--mono);font-size:.9rem;color:var(--primary)}
+.footer-links{display:flex;gap:20px}
+.footer-links a{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.footer-links a:hover{opacity:1}
+
+@media(max-width:900px){
+  .news-layout{grid-template-columns:1fr}
+  .trending-sidebar{position:static}
+  .news-featured{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  nav{display:none;position:absolute;top:60px;left:0;width:100%;background:rgba(6,10,15,0.98);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--border)}
+  nav.open{display:flex}
+  .mobile-toggle{display:block}
+  .news-grid{grid-template-columns:1fr}
+  .news-featured .news-img{min-height:160px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">&gt;_ PhoneHub<span>.sys</span></a>
+    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html" class="active">news</a>
+    </nav>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">// HOME</a> / NEWS
+</div>
+
+<div class="section fade-in">
+  <h1 class="section-title">./stream news --live</h1>
+  <p class="section-sub">// real-time tech intelligence feed — last sync: 2 min ago</p>
+</div>
+
+<div class="section">
+  <div class="news-layout">
+
+    <!-- MAIN NEWS -->
+    <div>
+      <div class="news-grid fade-in">
+
+        <!-- FEATURED -->
+        <article class="news-featured">
+          <div class="news-img"><span class="icon">🍎</span></div>
+          <div class="news-body">
+            <span class="news-tag">// featured</span>
+            <div class="news-prefix">// breaking — 2h ago</div>
+            <h3 class="news-title">Apple Announces M5 Chip Architecture: 40% Faster Neural Engine with On-Device LLM Support</h3>
+            <p class="news-excerpt">Apple's next-generation M5 chip will feature a 2nm process with up to 32 GPU cores and a dramatically enhanced Neural Engine capable of running 70B parameter models entirely on-device. Expected in MacBook Pro lineup by Q4 2026.</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-19 // 08:00 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img"><span class="icon">📱</span></div>
+          <div class="news-body">
+            <span class="news-tag">// leak</span>
+            <div class="news-prefix">// update — 6h ago</div>
+            <h3 class="news-title">Samsung Galaxy S26 Renders Leak: True Bezel-less Display with Under-Display Camera 3.0</h3>
+            <p class="news-excerpt">CAD renders reveal a radical redesign with no visible bezels, improved UDC clarity, and a 200MP periscope telephoto with 15x optical zoom...</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-18 // 22:30 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img"><span class="icon">🚗</span></div>
+          <div class="news-body">
+            <span class="news-tag">// analysis</span>
+            <div class="news-prefix">// deep-dive — 12h ago</div>
+            <h3 class="news-title">Tesla Model Y Juniper: Complete Hardware Teardown and Spec Comparison</h3>
+            <p class="news-excerpt">Full breakdown of the refreshed Model Y with new interior design, HW5.0 computer, improved battery chemistry, and 380-mile EPA range...</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-18 // 16:45 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img"><span class="icon">🔍</span></div>
+          <div class="news-body">
+            <span class="news-tag">// review</span>
+            <div class="news-prefix">// published — 1d ago</div>
+            <h3 class="news-title">Google Pixel 9 Pro Long-Term Review: 6 Months with Tensor G4</h3>
+            <p class="news-excerpt">After half a year of daily use, the Pixel 9 Pro's AI features shine but battery degradation and thermal throttling remain concerns...</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-17 // 14:00 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img"><span class="icon">💻</span></div>
+          <div class="news-body">
+            <span class="news-tag">// benchmark</span>
+            <div class="news-prefix">// data — 2d ago</div>
+            <h3 class="news-title">Dell XPS 16 vs MacBook Pro M4: Creator Laptop Showdown</h3>
+            <p class="news-excerpt">Head-to-head benchmarks in video editing, 3D rendering, and AI workloads reveal surprising trade-offs between raw power and efficiency...</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-16 // 10:15 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-img"><span class="icon">📺</span></div>
+          <div class="news-body">
+            <span class="news-tag">// guide</span>
+            <div class="news-prefix">// tips — 3d ago</div>
+            <h3 class="news-title">OLED vs QLED vs Mini-LED: The 2026 TV Tech Guide for Every Budget</h3>
+            <p class="news-excerpt">We break down the latest panel technologies, compare real-world performance, and recommend the best TVs across price tiers...</p>
+            <div class="news-footer">
+              <span class="news-date">2026-07-15 // 09:00 UTC</span>
+              <span class="news-read">$ read_more →</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- TRENDING SIDEBAR -->
+    <aside class="trending-sidebar fade-in">
+      <div class="trending-box">
+        <div class="trending-title">top=5 --trending</div>
+
+        <div class="trending-item">
+          <span class="trending-rank">01</span>
+          <div class="trending-info">
+            <div class="trending-name">iPhone 17 Pro</div>
+            <div class="trending-meta">Apple // expected Sep 2026</div>
+            <div class="trending-heat">↑ 340% search volume</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-rank">02</span>
+          <div class="trending-info">
+            <div class="trending-name">Galaxy Z Fold 7</div>
+            <div class="trending-meta">Samsung // Jul 2026</div>
+            <div class="trending-heat">↑ 280% search volume</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-rank">03</span>
+          <div class="trending-info">
+            <div class="trending-name">Tesla Robotaxi</div>
+            <div class="trending-meta">Tesla // 2026 launch</div>
+            <div class="trending-heat">↑ 220% search volume</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-rank">04</span>
+          <div class="trending-info">
+            <div class="trending-name">Nothing Phone (3)</div>
+            <div class="trending-meta">Nothing // Aug 2026</div>
+            <div class="trending-heat">↑ 185% search volume</div>
+          </div>
+        </div>
+
+        <div class="trending-item">
+          <span class="trending-rank">05</span>
+          <div class="trending-info">
+            <div class="trending-name">BMW Neue Klasse i3</div>
+            <div class="trending-meta">BMW // 2026</div>
+            <div class="trending-heat">↑ 150% search volume</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NEWSLETTER -->
+      <div class="newsletter">
+        <div class="newsletter-title">$ subscribe --feed=daily</div>
+        <div class="newsletter-desc">Get the top 5 tech stories delivered to your inbox every morning.</div>
+        <div class="newsletter-form">
+          <input class="newsletter-input" type="email" placeholder="your@email.dev">
+          <button class="newsletter-btn">SUBSCRIBE</button>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="logo">&gt;_ PhoneHub.sys</span>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

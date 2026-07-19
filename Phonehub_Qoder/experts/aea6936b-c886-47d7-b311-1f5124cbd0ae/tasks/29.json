@@ -1,0 +1,16 @@
+{
+  "id": "29",
+  "subject": "Create site monitoring bot",
+  "description": "Create tools/site_monitor.py — a comprehensive health checker that: detects broken links by crawling all internal pages, checks page load times, verifies data freshness, tests product image availability, validates JSON-LD structured data. Should auto-create GitHub Issues when problems found. Runs every 12 hours via CI/CD.",
+  "status": "completed",
+  "owner": "Jimmy",
+  "metadata": {
+    "agentName": "Jimmy",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784449066281,
+    "tool_call_id": "call_a261b10cb40c4f0ba98855e2"
+  },
+  "activeForm": "Building site monitoring bot",
+  "gmtCreate": 1784448893675,
+  "gmtModified": 1784449442115
+}

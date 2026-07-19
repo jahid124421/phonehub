@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Compare — PhoneHub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0c0f1e;--primary:#8b5cf6;--secondary:#06b6d4;--highlight:#f59e0b;--card-bg:rgba(255,255,255,0.05);--card-border:rgba(255,255,255,0.08);--text:#e2e8f0;--text-muted:#94a3b8;--gradient:linear-gradient(135deg,#8b5cf6,#06b6d4);--green:#22c55e;--winner:rgba(6,182,212,0.12)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{font-family:'Inter',sans-serif;background:var(--base);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.container{max-width:1280px;margin:0 auto;padding:0 24px}
+.gradient-text{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+/* Header */
+.header{position:sticky;top:0;z-index:100;backdrop-filter:blur(20px);background:rgba(12,15,30,0.8);border-bottom:1px solid var(--card-border)}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:1.5rem;font-weight:900}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a{font-size:0.9rem;font-weight:500;color:var(--text-muted);transition:color .3s}
+.nav a:hover,.nav a.active{color:#fff}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+@media(max-width:768px){.nav{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:rgba(12,15,30,0.95);padding:20px;gap:16px}.nav.open{display:flex}.nav-toggle{display:block}}
+
+/* Page Header */
+.page-header{padding:60px 0 32px;text-align:center}
+.page-header h1{font-size:clamp(2rem,4vw,3rem);font-weight:900;margin-bottom:8px}
+.page-header p{color:var(--text-muted);font-size:1rem}
+
+/* Glass Card */
+.glass-card{position:relative;background:var(--card-bg);backdrop-filter:blur(16px);border-radius:20px;overflow:hidden;transition:transform .4s ease,box-shadow .4s ease}
+.glass-card::before{content:'';position:absolute;inset:0;border-radius:20px;padding:1px;background:linear-gradient(135deg,#8b5cf6,#06b6d4,#8b5cf6);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;animation:borderFlow 4s linear infinite;background-size:200% 200%}
+@keyframes borderFlow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.glass-card:hover{transform:perspective(1000px) rotateY(2deg) rotateX(-1deg) translateY(-4px);box-shadow:0 20px 60px rgba(139,92,246,0.15)}
+
+/* Product Selector */
+.selector-section{padding:0 0 40px}
+.selector-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:700px;margin:0 auto}
+@media(max-width:600px){.selector-row{grid-template-columns:1fr}}
+.selector-input{position:relative}
+.selector-input label{display:block;font-size:0.8rem;font-weight:600;color:var(--text-muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+.selector-input select{width:100%;padding:14px 16px;background:var(--card-bg);border:1px solid rgba(139,92,246,0.3);border-radius:14px;color:#fff;font-family:'Inter';font-size:0.92rem;cursor:pointer;appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath d='M6 8L1 3h10z' fill='%238b5cf6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center}
+.selector-input select:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(139,92,246,0.15)}
+.compare-btn{display:block;margin:20px auto 0;padding:14px 48px;background:var(--gradient);border:none;color:#fff;border-radius:14px;font-weight:700;font-size:0.95rem;cursor:pointer;font-family:'Inter';transition:opacity .3s}
+.compare-btn:hover{opacity:0.85}
+
+/* Comparison Table */
+.compare-section{padding:20px 0 60px}
+.compare-table-wrap{overflow-x:auto;border-radius:20px}
+.compare-table{width:100%;border-collapse:separate;border-spacing:0;min-width:600px}
+.compare-table thead th{padding:20px 24px;font-size:0.88rem;font-weight:700;text-align:left;background:var(--card-bg);border-bottom:1px solid var(--card-border)}
+.compare-table thead th:first-child{border-radius:20px 0 0 0}
+.compare-table thead th:last-child{border-radius:0 20px 0 0}
+.compare-table thead .product-header{text-align:center}
+.compare-table thead .product-header .p-icon{font-size:2.5rem;margin-bottom:8px}
+.compare-table thead .product-header .p-name{font-size:1rem;font-weight:700}
+.compare-table thead .product-header .p-brand{font-size:0.82rem;color:var(--text-muted)}
+.compare-table tbody td{padding:14px 24px;border-bottom:1px solid var(--card-border);font-size:0.9rem}
+.compare-table tbody td:first-child{color:var(--text-muted);font-weight:600;font-size:0.82rem;text-transform:uppercase;letter-spacing:0.5px}
+.compare-table tbody td.winner{background:var(--winner);color:var(--secondary);font-weight:700;position:relative}
+.compare-table tbody td.winner::after{content:'✓';position:absolute;right:12px;top:50%;transform:translateY(-50%);color:var(--secondary);font-weight:700}
+.compare-table tbody tr:last-child td{border-bottom:none}
+.compare-table tbody tr:last-child td:first-child{border-radius:0 0 0 20px}
+.compare-table tbody tr:last-child td:last-child{border-radius:0 0 20px 0}
+
+/* Summary */
+.summary-section{padding:0 0 60px}
+.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+@media(max-width:700px){.summary-grid{grid-template-columns:1fr}}
+.summary-card{padding:32px;text-align:center}
+.summary-card .winner-badge{display:inline-block;padding:6px 16px;background:linear-gradient(135deg,#06b6d4,#8b5cf6);border-radius:999px;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px}
+.summary-card h3{font-size:1.3rem;font-weight:800;margin-bottom:8px}
+.summary-card .s-price{font-size:1.5rem;font-weight:900;color:var(--highlight);margin-bottom:12px}
+.summary-card .s-rating{color:var(--green);font-size:1rem;margin-bottom:16px}
+.summary-card p{font-size:0.88rem;color:var(--text-muted);line-height:1.7}
+.summary-card .s-score{font-size:3rem;font-weight:900;margin-bottom:8px}
+
+/* Overall Winner */
+.overall-winner{text-align:center;padding:40px 0 60px}
+.overall-winner h2{font-size:1.5rem;font-weight:800;margin-bottom:20px}
+.winner-announce{display:inline-flex;align-items:center;gap:12px;padding:20px 40px;border-radius:20px;font-size:1.3rem;font-weight:800}
+.winner-announce .trophy{font-size:2rem}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translate(0)}
+.reveal.scale-up{transform:scale(0.92)}
+.reveal.scale-up.visible{transform:scale(1)}
+
+/* Footer */
+.footer{padding:48px 0 32px;border-top:1px solid var(--card-border);margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px}
+.footer h4{font-size:1rem;font-weight:700;margin-bottom:16px}
+.footer a{display:block;font-size:0.88rem;color:var(--text-muted);margin-bottom:10px;transition:color .3s}
+.footer a:hover{color:#fff}
+.footer-bottom{text-align:center;font-size:0.82rem;color:var(--text-muted);padding-top:24px;border-top:1px solid var(--card-border)}
+
+/* Aurora */
+.aurora{position:fixed;border-radius:50%;filter:blur(120px);opacity:0.12;pointer-events:none;z-index:-1}
+.aurora-1{width:400px;height:400px;background:radial-gradient(circle,#8b5cf6,transparent);top:10%;left:-5%;animation:auroraMove 14s ease-in-out infinite}
+.aurora-2{width:350px;height:350px;background:radial-gradient(circle,#06b6d4,transparent);bottom:5%;right:-5%;animation:auroraMove 18s ease-in-out infinite reverse}
+@keyframes auroraMove{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(50px,30px) scale(1.1)}}
+</style>
+</head>
+<body>
+
+<div class="aurora aurora-1"></div>
+<div class="aurora aurora-2"></div>
+
+<header class="header">
+<div class="container">
+<a href="index.html" class="logo gradient-text">PhoneHub</a>
+<button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="search.html">Explore</a>
+<a href="compare.html" class="active">Compare</a>
+<a href="brands.html">Brands</a>
+<a href="news.html">News</a>
+</nav>
+</div>
+</header>
+
+<section class="page-header">
+<div class="container">
+<h1 class="gradient-text">Compare Products</h1>
+<p>Put two devices head-to-head and find the winner</p>
+</div>
+</section>
+
+<!-- Product Selector -->
+<section class="selector-section">
+<div class="container">
+<div class="selector-row reveal">
+<div class="selector-input">
+<label>Product A</label>
+<select id="selA">
+<option value="0" selected>iPhone 16 Pro Max — Apple</option>
+<option value="1">Galaxy S25 Ultra — Samsung</option>
+<option value="2">OnePlus 13 — OnePlus</option>
+<option value="3">Tesla Model Y — Tesla</option>
+<option value="4">MacBook Pro M4 — Apple</option>
+<option value="5">Sony Bravia XR — Sony</option>
+<option value="6">Pixel 9 Pro — Google</option>
+<option value="7">Xiaomi 15 Ultra — Xiaomi</option>
+<option value="8">Dell XPS 16 — Dell</option>
+<option value="9">BMW i4 — BMW</option>
+<option value="10">LG C4 OLED — LG</option>
+<option value="11">Galaxy Tab S10 — Samsung</option>
+</select>
+</div>
+<div class="selector-input">
+<label>Product B</label>
+<select id="selB">
+<option value="0">iPhone 16 Pro Max — Apple</option>
+<option value="1" selected>Galaxy S25 Ultra — Samsung</option>
+<option value="2">OnePlus 13 — OnePlus</option>
+<option value="3">Tesla Model Y — Tesla</option>
+<option value="4">MacBook Pro M4 — Apple</option>
+<option value="5">Sony Bravia XR — Sony</option>
+<option value="6">Pixel 9 Pro — Google</option>
+<option value="7">Xiaomi 15 Ultra — Xiaomi</option>
+<option value="8">Dell XPS 16 — Dell</option>
+<option value="9">BMW i4 — BMW</option>
+<option value="10">LG C4 OLED — LG</option>
+<option value="11">Galaxy Tab S10 — Samsung</option>
+</select>
+</div>
+</div>
+<button class="compare-btn reveal" onclick="renderCompare()">Compare Now</button>
+</div>
+</section>
+
+<!-- Comparison Table -->
+<section class="compare-section">
+<div class="container">
+<div class="glass-card compare-table-wrap reveal" id="compareWrap">
+<table class="compare-table" id="compareTable"></table>
+</div>
+</div>
+</section>
+
+<!-- Summary -->
+<section class="summary-section">
+<div class="container">
+<h2 class="gradient-text reveal" style="font-size:1.8rem;font-weight:800;margin-bottom:24px;text-align:center">Summary</h2>
+<div class="summary-grid" id="summaryGrid"></div>
+</div>
+</section>
+
+<!-- Overall Winner -->
+<section class="overall-winner reveal">
+<div class="container">
+<h2 class="gradient-text">Overall Winner</h2>
+<div class="glass-card winner-announce gradient-text" id="winnerAnnounce">🏆 iPhone 16 Pro Max</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div><h4 class="gradient-text">PhoneHub</h4><p style="font-size:0.88rem;color:var(--text-muted)">Your quantum gateway to tech discovery.</p></div>
+<div><h4>Explore</h4><a href="search.html">All Products</a><a href="compare.html">Compare</a><a href="brands.html">Brands</a><a href="news.html">News</a></div>
+<div><h4>Categories</h4><a href="search.html?cat=Mobiles">Mobiles</a><a href="search.html?cat=Laptops">Laptops</a><a href="search.html?cat=Auto">Auto</a><a href="search.html?cat=TVs">TVs</a></div>
+<div><h4>Company</h4><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+</div>
+<div class="footer-bottom">© 2026 PhoneHub. All rights reserved.</div>
+</div>
+</footer>
+
+<script>
+const products=[
+{name:"iPhone 16 Pro Max",brand:"Apple",price:1199,rating:4.8,cat:"Mobiles",icon:"📱",specs:{display:"6.9\" OLED 120Hz",chip:"A18 Pro (3nm)",ram:"8 GB",storage:"256GB-1TB",camera:"48+48+12 MP",battery:"4,685 mAh",os:"iOS 18",weight:"227 g",water:"IP68",charging:"27W + MagSafe 25W"}},
+{name:"Galaxy S25 Ultra",brand:"Samsung",price:1299,rating:4.7,cat:"Mobiles",icon:"📱",specs:{display:"6.9\" AMOLED 120Hz",chip:"Snapdragon 8 Elite",ram:"12 GB",storage:"256GB-1TB",camera:"200+50+12+10 MP",battery:"5,000 mAh",os:"Android 15 + One UI 7",weight:"218 g",water:"IP68",charging:"45W + Qi 15W"}},
+{name:"OnePlus 13",brand:"OnePlus",price:899,rating:4.5,cat:"Mobiles",icon:"📱",specs:{display:"6.82\" AMOLED 120Hz",chip:"Snapdragon 8 Elite",ram:"12 GB",storage:"256GB-512GB",camera:"50+50+50 MP",battery:"6,000 mAh",os:"Android 15 + OxygenOS 15",weight:"213 g",water:"IP69",charging:"100W + Qi 50W"}},
+{name:"Tesla Model Y",brand:"Tesla",price:44990,rating:4.6,cat:"Auto",icon:"🚗",specs:{display:"15.4\" Touchscreen",chip:"HW4 FSD Computer",ram:"N/A",storage:"N/A",camera:"8 Surround Cameras",battery:"75 kWh",os:"Tesla OS",weight:"1,979 kg",water:"N/A",charging:"250kW Supercharger"}},
+{name:"MacBook Pro M4",brand:"Apple",price:2399,rating:4.9,cat:"Laptops",icon:"💻",specs:{display:"16.2\" Liquid Retina XDR",chip:"Apple M4 Pro",ram:"24 GB",storage:"512GB-4TB",camera:"12MP Center Stage",battery:"100 Wh",os:"macOS Sequoia",weight:"2.14 kg",water:"N/A",charging:"140W MagSafe 3"}},
+{name:"Sony Bravia XR",brand:"Sony",price:1499,rating:4.4,cat:"TVs",icon:"📺",specs:{display:"65\" 4K OLED",chip:"Cognitive Processor XR",ram:"N/A",storage:"N/A",camera:"N/A",battery:"N/A",os:"Google TV",weight:"24.3 kg",water:"N/A",charging:"N/A"}},
+{name:"Pixel 9 Pro",brand:"Google",price:999,rating:4.6,cat:"Mobiles",icon:"📱",specs:{display:"6.8\" LTPO OLED 120Hz",chip:"Tensor G4",ram:"16 GB",storage:"128GB-1TB",camera:"50+48+48 MP",battery:"5,060 mAh",os:"Android 15",weight:"221 g",water:"IP68",charging:"37W + Qi 23W"}},
+{name:"Xiaomi 15 Ultra",brand:"Xiaomi",price:799,rating:4.3,cat:"Mobiles",icon:"📱",specs:{display:"6.73\" AMOLED 120Hz",chip:"Snapdragon 8 Elite",ram:"16 GB",storage:"256GB-1TB",camera:"50+50+50+200 MP",battery:"6,000 mAh",os:"Android 15 + HyperOS 2",weight:"229 g",water:"IP68",charging:"90W + Qi 50W"}},
+{name:"Dell XPS 16",brand:"Dell",price:1899,rating:4.5,cat:"Laptops",icon:"💻",specs:{display:"16.3\" OLED Touch",chip:"Intel Core Ultra 9",ram:"32 GB",storage:"1TB-4TB",camera:"1080p IR",battery:"99.5 Wh",os:"Windows 11 Pro",weight:"2.2 kg",water:"N/A",charging:"130W USB-C"}},
+{name:"BMW i4",brand:"BMW",price:55900,rating:4.7,cat:"Auto",icon:"🚗",specs:{display:"14.9\" Curved Display",chip:"BMW iDrive 8.5",ram:"N/A",storage:"N/A",camera:"Surround View",battery:"83.9 kWh",os:"BMW OS",weight:"2,215 kg",water:"N/A",charging:"205kW DC Fast"}},
+{name:"LG C4 OLED",brand:"LG",price:1299,rating:4.6,cat:"TVs",icon:"📺",specs:{display:"65\" 4K OLED evo",chip:"α9 Gen7 AI Processor",ram:"N/A",storage:"N/A",camera:"N/A",battery:"N/A",os:"webOS 24",weight:"22.0 kg",water:"N/A",charging:"N/A"}},
+{name:"Galaxy Tab S10",brand:"Samsung",price:849,rating:4.4,cat:"Tablets",icon:"📱",specs:{display:"12.4\" AMOLED 120Hz",chip:"Snapdragon 8 Gen 3",ram:"12 GB",storage:"256GB-1TB",camera:"13+8 MP",battery:"11,200 mAh",os:"Android 15 + One UI 7",weight:"571 g",water:"IP68",charging:"45W"}}
+];
+
+const specLabels={display:"Display",chip:"Chipset",ram:"RAM",storage:"Storage",camera:"Camera",battery:"Battery",os:"OS",weight:"Weight",water:"Water Resistance",charging:"Charging"};
+
+function renderCompare(){
+const a=products[document.getElementById('selA').value];
+const b=products[document.getElementById('selB').value];
+const table=document.getElementById('compareTable');
+
+// Determine winners per spec
+const specKeys=Object.keys(specLabels);
+const aWins={display:a.specs.display>b.specs.display,chip:a.specs.chip>b.specs.chip};
+
+let html=`<thead><tr>
+<th style="width:25%">Specification</th>
+<th class="product-header"><div class="p-icon">${a.icon}</div><div class="p-name">${a.name}</div><div class="p-brand">${a.brand}</div></th>
+<th class="product-header"><div class="p-icon">${b.icon}</div><div class="p-name">${b.name}</div><div class="p-brand">${b.brand}</div></th>
+</tr></thead><tbody>`;
+
+// Price row
+const priceWinnerA=a.price<b.price;
+html+=`<tr><td>Price</td><td class="${priceWinnerA?'winner':''}">$${a.price.toLocaleString()}</td><td class="${!priceWinnerA?'winner':''}">$${b.price.toLocaleString()}</td></tr>`;
+
+// Rating
+const ratingWinnerA=a.rating>b.rating;
+html+=`<tr><td>Rating</td><td class="${ratingWinnerA?'winner':''}">★ ${a.rating}</td><td class="${!ratingWinnerA?'winner':''}">★ ${b.rating}</td></tr>`;
+
+// Category
+html+=`<tr><td>Category</td><td>${a.cat}</td><td>${b.cat}</td></tr>`;
+
+// Specs
+specKeys.forEach(k=>{
+const av=a.specs[k]||'—';
+const bv=b.specs[k]||'—';
+// Simple heuristic winner
+let winA=false,winB=false;
+if(k==='battery'){const na=parseInt(av.replace(/[^0-9]/g,'')),nb=parseInt(bv.replace(/[^0-9]/g,''));winA=na>nb;winB=nb>na}
+else if(k==='ram'||k==='storage'){const na=parseInt(av),nb=parseInt(bv);winA=na>nb;winB=nb>na}
+else if(k==='camera'){const na=parseInt(av),nb=parseInt(bv);winA=na>nb;winB=nb>na}
+else if(k==='weight'){const na=parseFloat(av),nb=parseFloat(bv);winA=na<nb;winB=nb<na}
+html+=`<tr><td>${specLabels[k]}</td><td class="${winA?'winner':''}">${av}</td><td class="${winB?'winner':''}">${bv}</td></tr>`;
+});
+
+html+='</tbody>';
+table.innerHTML=html;
+
+// Summary
+const sg=document.getElementById('summaryGrid');
+const aScore=a.rating*10;
+const bScore=b.rating*10;
+sg.innerHTML=`
+<div class="glass-card summary-card reveal from-left">
+${aScore>=bScore?'<div class="winner-badge">🏆 Winner</div>':''}
+<div class="s-score gradient-text">${aScore.toFixed(0)}</div>
+<h3>${a.name}</h3>
+<div class="s-price">$${a.price.toLocaleString()}</div>
+<div class="s-rating">★ ${a.rating} — ${a.brand}</div>
+<p>Outstanding in ${a.cat.toLowerCase()} category with top-tier performance and features.</p>
+</div>
+<div class="glass-card summary-card reveal from-right">
+${bScore>=aScore?'<div class="winner-badge">🏆 Winner</div>':''}
+<div class="s-score gradient-text">${bScore.toFixed(0)}</div>
+<h3>${b.name}</h3>
+<div class="s-price">$${b.price.toLocaleString()}</div>
+<div class="s-rating">★ ${b.rating} — ${b.brand}</div>
+<p>Excellent choice in ${b.cat.toLowerCase()} with impressive specifications.</p>
+</div>`;
+
+// Winner announcement
+const winner=aScore>=bScore?a:b;
+document.getElementById('winnerAnnounce').innerHTML=`🏆 ${winner.name}`;
+
+// Re-observe
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+}
+
+renderCompare();
+
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

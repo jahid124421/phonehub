@@ -1,0 +1,15 @@
+--- RESULT ---
+**Done.** Created `src/pages/preview.astro` — a single self-contained Astro page with all 5 sci-fi themes stacked vertically for comparison.
+
+**What's included:**
+- **Option A: Neon Cyberpunk** — Cyan/magenta glitch text, animated gradient mesh hero, glassmorphism cards with pulsing glow, Orbitron font, holographic shimmer price badges
+- **Option B: Space Command** — CSS starfield, command-panel hero, sharp-edged cards with L-bracket corner decorations, blinking status dots, Space Mono font
+- **Option C: Holographic Prism** — Floating iridescent orb hero, conic-gradient animated card borders (`@property --angle`), gradient text headings, chromatic aberration on card titles
+- **Option D: Digital Matrix** — Falling binary rain columns, terminal-style blinking cursor, green phosphor glow text, scanline card overlays, JetBrains Mono font
+- **Option E: Quantum Flux** — Aurora blob animations (3 blurred gradient blobs), glassmorphism cards with flowing violet→cyan gradient borders, perspective tilt on hover, gradient mesh backgrounds
+
+**Each section has:** header bar, 400px hero, 3 product cards (iPhone 16 Pro Max / Galaxy S25 Ultra / OnePlus 13), 6 brand tiles (Apple, Samsung, Google, Xiaomi, Tesla, BMW).
+
+**Top nav** with anchor links to jump between themes. Sticky labels identify each option. `prefers-reduced-motion` support included.
+
+**Dev server running** at `http://localhost:4322/phonehub/preview` (HTTP 200 confirmed).

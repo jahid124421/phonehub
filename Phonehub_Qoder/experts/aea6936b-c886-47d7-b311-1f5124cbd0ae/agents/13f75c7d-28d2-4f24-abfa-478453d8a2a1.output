@@ -1,0 +1,12 @@
+--- RESULT ---
+**Done.** Updated `categoryOrder` in both locations:
+
+- [js/home.js](file:///c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\js\home.js#L20) — line 20
+- [phonehub/js/home.js](file:///c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\phonehub\js\home.js#L20) — line 20
+
+The array now reads:
+```js
+const categoryOrder = ["Premium", "Gaming", "Mid-Range", "Value", "Budget", "Auto", "Other"];
+```
+
+Car brands will now appear in their own "Auto" section on the homepage brand grid, positioned between "Budget" and "Other".

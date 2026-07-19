@@ -1,0 +1,18 @@
+--- RESULT ---
+Both tasks complete. Summary:
+
+**Task #29 — Site Monitor** ([tools/site_monitor.py](file:///c:/Users/96650/OneDrive/Desktop/AI_BA_WORKSPACE/tools/site_monitor.py)):
+- Created the health checker that checks homepage, broken links, data freshness, product images, and JSON-LD
+- Saves reports to `logs/monitor-report.md` and auto-creates GitHub Issues on failures
+- Note: requires network access to test (makes HTTP requests to the live site), so testing was skipped in sandbox
+
+**Task #30 — New Product Detector** ([tools/new_product_detector.py](file:///c:/Users/96650/OneDrive/Desktop/AI_BA_WORKSPACE/tools/new_product_detector.py)):
+- Local-only mode with a simulated product feed (no external network calls)
+- Detects 5 new products (Samsung Galaxy S25 Ultra, Google Pixel 9 Pro XL, OnePlus 13, Xiaomi 15 Pro, Nothing Phone (3))
+- Successfully added 4 new products to `data/products.json` (S25 Ultra already existed)
+- Fully idempotent — second run correctly reports "no new products detected" via `seen_products.json` tracking
+
+**Pipeline update** ([tools/run_all.py](file:///c:/Users/96650/OneDrive/Desktop/AI_BA_WORKSPACE/tools/run_all.py)):
+- Added `--detect-new` flag to run the product detector
+- Added `--enrich-brands` flag to run brand enrichment
+- Default pipeline (no flags) remains unchanged

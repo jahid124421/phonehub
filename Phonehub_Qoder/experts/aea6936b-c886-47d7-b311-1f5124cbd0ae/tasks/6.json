@@ -1,0 +1,16 @@
+{
+  "id": "6",
+  "subject": "Add cache-busting to data.js script tags",
+  "description": "Add a cache-busting query parameter to all script tags referencing js/data.js across all HTML files (brands.html, index.html, search.html, compare.html, and their phonehub/ copies). Change src=\"js/data.js\" to src=\"js/data.js?v=2\" to ensure browsers load the fresh data after the category fix. This prevents users from seeing stale cached data.",
+  "status": "completed",
+  "owner": "Felix",
+  "metadata": {
+    "agentName": "Felix",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784399566579,
+    "tool_call_id": "call_371d52ccce4e45ea9f66b28d"
+  },
+  "activeForm": "Adding cache-busting to data.js script tags",
+  "gmtCreate": 1784399555438,
+  "gmtModified": 1784400685110
+}

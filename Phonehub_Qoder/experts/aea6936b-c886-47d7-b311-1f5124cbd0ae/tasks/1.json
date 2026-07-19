@@ -1,0 +1,19 @@
+{
+  "id": "1",
+  "subject": "Categorize car brands as \"Auto\" in ph_common.py",
+  "description": "In tools/ph_common.py BRAND_DATABASE dict (lines 183-560), change \"category\": \"Other\" to \"category\": \"Auto\" for all ~138 car brand entries. This is the upstream source of truth for brand categories.",
+  "status": "completed",
+  "owner": "Jimmy",
+  "blocks": [
+    "2"
+  ],
+  "metadata": {
+    "agentName": "Jimmy",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784402301295,
+    "tool_call_id": "call_334bea78af334a08b4516218"
+  },
+  "activeForm": "Categorizing car brands in ph_common.py",
+  "gmtCreate": 1784398516450,
+  "gmtModified": 1784442513094
+}

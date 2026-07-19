@@ -1,0 +1,1745 @@
+$ cd "c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE" && powershell -Command "Get-Content data/products.json | ConvertFrom-Json | Select-Object -First 1 | ConvertTo-Json -Depth 5"
+{
+    "value":  [
+                  {
+                      "id":  "iphone-17e",
+                      "brand":  "apple",
+                      "name":  "iPhone 17e",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17e-1.jpg",
+                      "fallbackImg":  "img/iphone-17e.svg",
+                      "releaseDate":  "Released 2026, March 11",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The iPhone 17e is suited for individuals seeking a high-performance device with advanced camera capabilities and ample storage, ideal for photography enthusiasts and power users. Its compact design and efficient processor make it a great choice for those who value both style and substance. Overall, it\u0027s a solid option for anyone invested in the Apple ecosystem.",
+                      "quickSpecs":  {
+                                         "display":  "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+                                         "processor":  "Apple A19 (3 nm)",
+                                         "ram":  "256GB 8GB RAM, 512GB 8GB RAM",
+                                         "storage":  "256GB 8GB RAM, 512GB 8GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/2.55\", 0.7A�m, PDAF, OIS",
+                                         "battery":  "Li-Ion 4005 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2017e"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2017e"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera with OIS and PDAF",
+                                   "Fast Apple A19 processor",
+                                   "Generous storage options",
+                                   "Compact design with a high screen-to-body ratio",
+                                   "Long-lasting 4005 mAh battery"
+                               ],
+                      "cons":  [
+                                   "No significant upgrades in battery capacity",
+                                   "No headphone jack",
+                                   "Storage options limited to 256GB and 512GB"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-17-pro-max",
+                      "brand":  "apple",
+                      "name":  "iPhone 17 Pro Max",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-max-1.jpg",
+                      "fallbackImg":  "img/iphone-17-pro-max.svg",
+                      "releaseDate":  "Released 2025, September 19",
+                      "basePrice":  0,
+                      "popularity":  92,
+                      "rating":  4.5,
+                      "reviewCount":  1104,
+                      "review":  "The iPhone 17 Pro Max is ideal for professionals and enthusiasts who demand top-notch camera capabilities, ample storage, and seamless performance. It\u0027s also suitable for those who value a large, high-quality display and are willing to invest in a premium device. This phone is perfect for heavy users who require a device that can keep up with their busy lifestyle.",
+                      "quickSpecs":  {
+                                         "display":  "6.9 inches, 115.6 cm2 (~90.7% screen-to-body ratio)",
+                                         "processor":  "Apple A19 Pro (3 nm)",
+                                         "ram":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM",
+                                         "storage":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM",
+                                         "camera":  "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22A�m, dual pixel PDAF, sensor-shift OIS\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7A�m, PDAF, 3D sensor�?`shift OIS, 4x optical zoom\n48 MP, f/2.2, 13mm, 120Es (ultrawide), 1/2.55\", 0.7A�m, PDAF\nTOF 3D LiDAR scanner (depth)",
+                                         "battery":  "Market-dependent versions:A� Li-Ion 4823 mAh - Nano SIM modelA� Li-Ion 5088 mAh - eSIM only model"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2017%20Pro%20Max"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2017%20Pro%20Max"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera system with advanced features",
+                                   "Large, vibrant display with high screen-to-body ratio",
+                                   "Fast and efficient Apple A19 Pro processor",
+                                   "Generous storage options up to 2TB"
+                               ],
+                      "cons":  [
+                                   "Expensive price point",
+                                   "No significant design changes from previous models",
+                                   "No headphone jack or expandable storage"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-17-pro",
+                      "brand":  "apple",
+                      "name":  "iPhone 17 Pro",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-pro-1.jpg",
+                      "fallbackImg":  "img/iphone-17-pro.svg",
+                      "releaseDate":  "Released 2025, September 19",
+                      "basePrice":  0,
+                      "popularity":  92,
+                      "rating":  4.5,
+                      "reviewCount":  1104,
+                      "review":  "The iPhone 17 Pro is ideal for photography enthusiasts and power users who require a seamless, high-performance experience. Its advanced camera system and large storage options make it perfect for capturing and storing high-quality content. Additionally, its long-lasting battery life and sleek design make it a great choice for everyday use.",
+                      "quickSpecs":  {
+                                         "display":  "6.3 inches, 96.4 cm2 (~89.4% screen-to-body ratio)",
+                                         "processor":  "Apple A19 Pro (3 nm)",
+                                         "ram":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+                                         "storage":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+                                         "camera":  "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22A�m, dual pixel PDAF, sensor-shift OIS\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7A�m, PDAF, 3D sensor�?`shift OIS, 4x optical zoom\n48 MP, f/2.2, 13mm, 120Es (ultrawide), 1/2.55\", 0.7A�m, PDAF\nTOF 3D LiDAR scanner (depth)",
+                                         "battery":  "Market-dependent versions:A� Li-Ion 3998 mAh - Nano SIM modelA� Li-Ion 4252 mAh - eSIM only model"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2017%20Pro"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2017%20Pro"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera system with advanced features",
+                                   "Fast and efficient Apple A19 Pro processor",
+                                   "Long-lasting battery life with market-dependent options",
+                                   "Sleek design with a high screen-to-body ratio",
+                                   "Large storage options for storing content"
+                               ],
+                      "cons":  [
+                                   "No significant design changes from previous models",
+                                   "No headphone jack or expandable storage options",
+                                   "Battery replacement may be difficult due to design"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-air",
+                      "brand":  "apple",
+                      "name":  "iPhone Air",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-air-1.jpg",
+                      "fallbackImg":  "img/iphone-air.svg",
+                      "releaseDate":  "Released 2025, September 19",
+                      "basePrice":  0,
+                      "popularity":  87,
+                      "rating":  4.5,
+                      "reviewCount":  1044,
+                      "review":  "The iPhone Air is suitable for individuals seeking a high-performance device with advanced camera capabilities and ample storage options, making it ideal for professionals and enthusiasts alike. Its large display and robust processor also cater to those who enjoy gaming and multimedia consumption. Overall, it\u0027s a great choice for anyone invested in the Apple ecosystem.",
+                      "quickSpecs":  {
+                                         "display":  "6.5 inches, 104.9 cm2 (~89.9% screen-to-body ratio)",
+                                         "processor":  "Apple A19 Pro (3 nm)",
+                                         "ram":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+                                         "storage":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0A�m, dual pixel PDAF, sensor-shift OIS",
+                                         "battery":  "Li-Ion 3149 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%20Air"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%20Air"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality primary camera with advanced features",
+                                   "Fast Apple A19 Pro processor",
+                                   "Generous storage options with up to 1TB capacity",
+                                   "Large 6.5-inch display with high screen-to-body ratio"
+                               ],
+                      "cons":  [
+                                   "Battery capacity could be higher considering the screen size",
+                                   "No headphone jack or expandable storage option"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-17",
+                      "brand":  "apple",
+                      "name":  "iPhone 17",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-17-1.jpg",
+                      "fallbackImg":  "img/iphone-17.svg",
+                      "releaseDate":  "Released 2025, September 19",
+                      "basePrice":  0,
+                      "popularity":  92,
+                      "rating":  4.5,
+                      "reviewCount":  1104,
+                      "review":  "The iPhone 17 is suited for individuals seeking a high-performance device with exceptional camera capabilities and a seamless user experience, particularly those already invested in the Apple ecosystem. It\u0027s ideal for photography enthusiasts and those who value a premium design. The phone\u0027s robust processor and ample storage options make it a great fit for gamers and power users.",
+                      "quickSpecs":  {
+                                         "display":  "6.3 inches, 96.4 cm2 (~90.1% screen-to-body ratio)",
+                                         "processor":  "Apple A19 (3 nm)",
+                                         "ram":  "256GB 8GB RAM, 512GB 8GB RAM",
+                                         "storage":  "256GB 8GB RAM, 512GB 8GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0A�m, dual pixel PDAF, sensor-shift OIS\n48 MP, f/2.2, 13mm, 120Es (ultrawide), 1/2.55\", 0.7A�m, PDAF",
+                                         "battery":  "Li-Ion 3692 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2017"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2017"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera system with advanced features",
+                                   "Powerful Apple A19 processor for smooth performance",
+                                   "Generous storage options with up to 512GB",
+                                   "Premium design with a high screen-to-body ratio",
+                                   "Long-lasting Li-Ion battery"
+                               ],
+                      "cons":  [
+                                   "Limited battery capacity compared to some competitors",
+                                   "No significant upgrades in battery life",
+                                   "No headphone jack or expandable storage"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-16e",
+                      "brand":  "apple",
+                      "name":  "iPhone 16e",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16e-1.jpg",
+                      "fallbackImg":  "img/iphone-16e.svg",
+                      "releaseDate":  "Released 2025, February 28",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The iPhone 16e is suited for individuals seeking a high-performance device with exceptional camera capabilities and ample storage options. It\u0027s ideal for those who value a seamless user experience and are invested in the Apple ecosystem. This device is particularly well-suited for photography enthusiasts and power users.",
+                      "quickSpecs":  {
+                                         "display":  "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+                                         "processor":  "Apple A18 (3 nm)",
+                                         "ram":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "storage":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/2.55\", 0.7A�m, PDAF, OIS",
+                                         "battery":  "Li-Ion 4005 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2016e"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2016e"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality 48 MP primary camera with optical image stabilization",
+                                   "Powerful Apple A18 processor for efficient performance",
+                                   "Generous storage options up to 512GB"
+                               ],
+                      "cons":  [
+                                   "No significant upgrades in battery capacity compared to predecessors",
+                                   "Limited RAM options, with only 8GB available across all models"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-16-pro-max",
+                      "brand":  "apple",
+                      "name":  "iPhone 16 Pro Max",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg",
+                      "fallbackImg":  "img/iphone-16-pro-max.svg",
+                      "releaseDate":  "Released 2024, September 20",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The iPhone 16 Pro Max is ideal for professionals and enthusiasts who require a high-quality camera, fast performance, and ample storage. It\u0027s also suitable for those who value a large, immersive display and a long-lasting battery. Overall, it\u0027s a great choice for anyone seeking a premium smartphone experience.",
+                      "quickSpecs":  {
+                                         "display":  "6.9 inches, 115.6 cm2 (~91.4% screen-to-body ratio)",
+                                         "processor":  "Apple A18 Pro (3 nm)",
+                                         "ram":  "256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+                                         "storage":  "256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+                                         "camera":  "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22A�m, dual pixel PDAF, sensor-shift OIS\n12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12A�m, dual pixel PDAF, 3D sensor�?`shift OIS, 5x optical zoom\n48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7A�m, PDAF\nTOF 3D LiDAR scanner (depth)",
+                                         "battery":  "Li-Ion 4685 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2016%20Pro%20Max"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2016%20Pro%20Max"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera with advanced features",
+                                   "Fast Apple A18 Pro processor",
+                                   "Large 6.9-inch display with high screen-to-body ratio",
+                                   "Long-lasting 4685 mAh battery",
+                                   "Ample storage options up to 1TB"
+                               ],
+                      "cons":  [
+                                   "No major design changes or innovations",
+                                   "No headphone jack or expandable storage",
+                                   "High price point for the base model"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-16-pro",
+                      "brand":  "apple",
+                      "name":  "iPhone 16 Pro",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-1.jpg",
+                      "fallbackImg":  "img/iphone-16-pro.svg",
+                      "releaseDate":  "Released 2024, September 20",
+                      "basePrice":  0,
+                      "popularity":  92,
+                      "rating":  4.5,
+                      "reviewCount":  1104,
+                      "review":  "The iPhone 16 Pro is tailored for photography enthusiasts and power users who demand top-notch performance and sleek design. Its advanced camera system and robust processor make it an ideal choice for those who want a premium smartphone experience. Additionally, its ample storage options cater to users who require extensive storage for their files and apps.",
+                      "quickSpecs":  {
+                                         "display":  "6.3 inches, 96.4 cm2 (~90.1% screen-to-body ratio)",
+                                         "processor":  "Apple A18 Pro (3 nm)",
+                                         "ram":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+                                         "storage":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 1TB 8GB RAM",
+                                         "camera":  "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22A�m, dual pixel PDAF, sensor-shift OIS\n12 MP, f/2.8, 120mm (periscope telephoto), 1/3.06\", 1.12A�m, dual pixel PDAF, 3D sensor�?`shift OIS, 5x optical zoom\n48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7A�m, PDAF\nTOF 3D LiDAR scanner (depth)",
+                                         "battery":  "Li-Ion 3582 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2016%20Pro"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2016%20Pro"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality camera system with advanced features",
+                                   "Powerful Apple A18 Pro processor for seamless performance",
+                                   "Generous storage options to accommodate large files and apps",
+                                   "Sleek design with a high screen-to-body ratio for immersive viewing"
+                               ],
+                      "cons":  [
+                                   "Battery capacity could be larger considering the phone\u0027s size and features",
+                                   "No major innovations in design compared to previous models",
+                                   "Storage options are limited to 8GB of RAM across all models"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-16-plus",
+                      "brand":  "apple",
+                      "name":  "iPhone 16 Plus",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-plus-1.jpg",
+                      "fallbackImg":  "img/iphone-16-plus.svg",
+                      "releaseDate":  "Released 2024, September 20",
+                      "basePrice":  0,
+                      "popularity":  92,
+                      "rating":  4.5,
+                      "reviewCount":  1104,
+                      "review":  "The iPhone 16 Plus is ideal for individuals seeking a high-performance device with exceptional camera capabilities and a large, immersive display. It\u0027s particularly suited for creative professionals and enthusiasts who value advanced photography features. Additionally, its sizable battery ensures all-day usage for heavy users.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 110.2 cm2 (~88.0% screen-to-body ratio)",
+                                         "processor":  "Apple A18 (3 nm)",
+                                         "ram":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "storage":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0A�m, dual pixel PDAF, sensor-shift OIS\n12 MP, f/2.2, 13mm, 120Es (ultrawide), 0.7A�m, dual pixel PDAF",
+                                         "battery":  "Li-Ion 4674 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2016%20Plus"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2016%20Plus"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality primary camera with sensor-shift OIS",
+                                   "Large 6.7-inch display with a high screen-to-body ratio",
+                                   "Powerful Apple A18 processor",
+                                   "Long-lasting 4674 mAh battery"
+                               ],
+                      "cons":  [
+                                   "No significant upgrades in battery capacity compared to predecessors",
+                                   "Limited storage options with no microSD card slot"
+                               ]
+                  },
+                  {
+                      "id":  "iphone-16",
+                      "brand":  "apple",
+                      "name":  "iPhone 16",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-1.jpg",
+                      "fallbackImg":  "img/iphone-16.svg",
+                      "releaseDate":  "Released 2024, September 20",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The iPhone 16 is ideal for individuals seeking a high-quality camera experience and seamless performance, making it suitable for photography enthusiasts and heavy users. Its compact design and large display also cater to those who value convenience and immersion. Overall, it\u0027s a great choice for anyone invested in the Apple ecosystem.",
+                      "quickSpecs":  {
+                                         "display":  "6.1 inches, 91.7 cm2 (~86.8% screen-to-body ratio)",
+                                         "processor":  "Apple A18 (3 nm)",
+                                         "ram":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "storage":  "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
+                                         "camera":  "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0A�m, dual pixel PDAF, sensor-shift OIS\n12 MP, f/2.2, 13mm, 120Es (ultrawide), 0.7A�m, dual pixel PDAF",
+                                         "battery":  "Li-Ion 3561 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=iPhone%2016"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=iPhone%2016"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality primary camera with advanced features",
+                                   "Fast performance courtesy of the Apple A18 processor",
+                                   "Compact design with a large, high-screen-to-body-ratio display"
+                               ],
+                      "cons":  [
+                                   "Limited storage expansion options",
+                                   "Battery capacity could be larger for heavy users"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-m47",
+                      "brand":  "samsung",
+                      "name":  "Galaxy M47",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m47-11.jpg",
+                      "fallbackImg":  "img/galaxy-m47.svg",
+                      "releaseDate":  "Released 2026, July 04",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The Samsung Galaxy M47 is suitable for users seeking a balance between performance and affordability, particularly those who value a large display and long battery life. It\u0027s ideal for everyday tasks, social media, and casual gaming. This phone is a good fit for individuals who want a reliable device without breaking the bank.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 110.2 cm2 (~86.8% screen-to-body ratio)",
+                                         "processor":  "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+                                         "ram":  "128GB 6GB RAM, 256GB 8GB RAM",
+                                         "storage":  "128GB 6GB RAM, 256GB 8GB RAM",
+                                         "camera":  "50 MP, f/1.8, (wide), 1/2.76\", 0.64A�m, PDAF, OIS\n5 MP, f/2.2, (ultrawide), 1/5.0\", 1.12A�m\n2 MP (macro)",
+                                         "battery":  "6000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20M47"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Galaxy%20M47"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "Large 6.7-inch display with high screen-to-body ratio",
+                                   "Power-efficient Qualcomm Snapdragon 6 Gen 3 processor",
+                                   "Long-lasting 6000 mAh battery",
+                                   "High-quality 50 MP primary camera with OIS"
+                               ],
+                      "cons":  [
+                                   "Limited storage options, no microSD card slot mentioned",
+                                   "Macro camera has a relatively low 2 MP resolution"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-a27",
+                      "brand":  "samsung",
+                      "name":  "Galaxy A27",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a27-1.jpg",
+                      "fallbackImg":  "img/galaxy-a27.svg",
+                      "releaseDate":  "Released 2026, July 03",
+                      "basePrice":  0,
+                      "popularity":  82,
+                      "rating":  4.5,
+                      "reviewCount":  984,
+                      "review":  "The Galaxy A27 is suitable for everyday users who prioritize a large display and long battery life, making it a great option for those who consume a lot of media on their phone. It\u0027s also a good choice for casual photographers who want a reliable camera system. However, it may not be the best fit for heavy gamers or power users who require more advanced features.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 110.2 cm2 (~86.8% screen-to-body ratio)",
+                                         "processor":  "Qualcomm SM6475-AB Snapdragon 6 Gen 3 (4 nm)",
+                                         "ram":  "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM",
+                                         "storage":  "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM",
+                                         "camera":  "50 MP, f/1.8, (wide), 1/2.76\", 0.64A�m, PDAF, OIS\n5 MP, f/2.2, (ultrawide), 1/5.0\", 1.12A�m\n2 MP (macro)",
+                                         "battery":  "5000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20A27"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Galaxy%20A27"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "Large 6.7-inch display with high screen-to-body ratio",
+                                   "Long-lasting 5000 mAh battery",
+                                   "Capable 50 MP primary camera with OIS",
+                                   "Variety of storage and RAM options",
+                                   "Power-efficient 4 nm processor"
+                               ],
+                      "cons":  [
+                                   "Limited macro camera capabilities",
+                                   "No advanced features like wireless charging or IP68 rating",
+                                   "No high-refresh-rate display option"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-a57",
+                      "brand":  "samsung",
+                      "name":  "Galaxy A57",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a57-4.jpg",
+                      "fallbackImg":  "img/galaxy-a57.svg",
+                      "releaseDate":  "Released 2026, April 9",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The Galaxy A57 is suitable for users seeking a balance between performance and affordability, particularly those who value a high-quality camera and long battery life. It\u0027s an excellent choice for everyday use, including social media, photography, and general productivity. However, power users may find the processor to be slightly underwhelming.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 110.2 cm2 (~88.8% screen-to-body ratio)",
+                                         "processor":  "Exynos 1680 (4 nm)",
+                                         "ram":  "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+                                         "storage":  "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+                                         "camera":  "50 MP, f/1.8, (wide), 1/1.56\", 1.0A�m, PDAF, OIS\n12 MP, f/2.2, 13mm (ultrawide), 1/3.06\", 1.12A�m\n5 MP, f/2.4, (macro)",
+                                         "battery":  "5000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20A57"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Galaxy%20A57"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "High-quality primary camera with OIS",
+                                   "Long-lasting 5000 mAh battery",
+                                   "Large 6.7-inch display with high screen-to-body ratio",
+                                   "Multiple storage and RAM options"
+                               ],
+                      "cons":  [
+                                   "Processor may not be suitable for heavy gaming or resource-intensive tasks",
+                                   "No significant upgrades in design or display technology"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-a37",
+                      "brand":  "samsung",
+                      "name":  "Galaxy A37",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-a37-4.jpg",
+                      "fallbackImg":  "img/galaxy-a37.svg",
+                      "releaseDate":  "Released 2026, April 9",
+                      "basePrice":  0,
+                      "popularity":  82,
+                      "rating":  4.5,
+                      "reviewCount":  984,
+                      "review":  "The Galaxy A37 is suitable for everyday users who prioritize a large display and long battery life, as well as casual photographers who want a versatile camera setup. It\u0027s also a good option for those who want a range of storage and RAM configurations to choose from. Overall, it\u0027s a solid mid-range choice.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 110.2 cm2 (~86.5% screen-to-body ratio)",
+                                         "processor":  "Exynos 1480 (4 nm)",
+                                         "ram":  "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+                                         "storage":  "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+                                         "camera":  "50 MP, f/1.8, (wide), 1/1.56\", 1.0A�m, PDAF, OIS\n8 MP, f/2.2, 16mm (ultrawide), 1/4.0\", 1.12A�m\n5 MP, f/2.4, (macro)",
+                                         "battery":  "5000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20A37"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Galaxy%20A37"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "Large 6.7-inch display with high screen-to-body ratio",
+                                   "Long-lasting 5000 mAh battery",
+                                   "Versatile camera setup with wide, ultrawide, and macro lenses",
+                                   "Range of storage and RAM configurations available",
+                                   "Power-efficient Exynos 1480 processor"
+                               ],
+                      "cons":  [
+                                   "No telephoto lens or advanced zoom capabilities",
+                                   "No water or dust resistance rating",
+                                   "Lower-end models may have limited RAM"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-m17e",
+                      "brand":  "samsung",
+                      "name":  "Galaxy M17e",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m17e-1.jpg",
+                      "fallbackImg":  "img/galaxy-m17e.svg",
+                      "releaseDate":  "Released 2026, March 17",
+                      "basePrice":  0,
+                      "popularity":  82,
+                      "rating":  4.5,
+                      "reviewCount":  984,
+                      "review":  "The Galaxy M17e is suitable for casual users who prioritize battery life and camera performance, making it an excellent choice for social media enthusiasts and content creators. Its large display and ample storage also cater to those who enjoy streaming and gaming on the go. However, power users may find the processing capabilities somewhat limited.",
+                      "quickSpecs":  {
+                                         "display":  "6.7 inches, 108.4 cm2 (~83.6% screen-to-body ratio)",
+                                         "processor":  "Mediatek Dimensity 6300 (6 nm)",
+                                         "ram":  "128GB 4GB RAM, 128GB 6GB RAM",
+                                         "storage":  "128GB 4GB RAM, 128GB 6GB RAM",
+                                         "camera":  "50 MP, f/1.8, (wide), PDAF\nAuxiliary lens",
+                                         "battery":  "Li-Ion 6000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20M17e"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Galaxy%20M17e"
+                                     }
+                                 ],
+                      "pros":  [
+                                   "Long-lasting 6000 mAh battery",
+                                   "High-quality 50 MP primary camera",
+                                   "Large 6.7-inch display with a high screen-to-body ratio",
+                                   "Ample 128GB storage option"
+                               ],
+                      "cons":  [
+                                   "Limited processing power with Mediatek Dimensity 6300",
+                                   "No advanced camera features beyond PDAF",
+                                   "RAM options could be higher for smoother performance"
+                               ]
+                  },
+                  {
+                      "id":  "galaxy-s26-ultra",
+                      "brand":  "samsung",
+                      "name":  "Galaxy S26 Ultra",
+                      "category":  "phone",
+                      "image":  "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s26-ultra-1.jpg",
+                      "fallbackImg":  "img/galaxy-s26-ultra.svg",
+                      "releaseDate":  "Released 2026, March 06",
+                      "basePrice":  0,
+                      "popularity":  85,
+                      "rating":  4.5,
+                      "reviewCount":  1020,
+                      "review":  "The Galaxy S26 Ultra is ideal for tech enthusiasts and professionals who demand top-notch performance, exceptional camera capabilities, and ample storage. Its large display and long-lasting battery also make it suitable for heavy users who consume a lot of multimedia content. Overall, it\u0027s a great choice for those willing to invest in a premium smartphone experience.",
+                      "quickSpecs":  {
+                                         "display":  "6.9 inches, 115.9 cm2 (~90.7% screen-to-body ratio)",
+                                         "processor":  "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
+                                         "ram":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM",
+                                         "storage":  "256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM",
+                                         "camera":  "200 MP, f/1.4, 23mm (wide), 1/1.3\", 0.6A�m, multi-directional PDAF, OIS\n10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0A�m, PDAF, OIS, 3x optical zoom\n50 MP, f/2.9, 111mm (periscope telephoto), 1/2.52\", 0.7A�m, PDAF, OIS, 5x optical zoom\n50 MP, f/1.9, 120Es (ultrawide), 1/2.5\", 0.7A�m, dual pixel PDAF, Super Steady video",
+                                         "battery":  "Li-Ion 5000 mAh"
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Galaxy%20S26%20Ultra"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  n
+...
+s.wikimedia.org/wiki/Special:FilePath/Renault%20Vel%20Satis%203.0%20dCi%20V6%20%E2%80%93%20Frontansicht%2C%205.%20Mai%202012%2C%20Ratingen.jpg?width=500",
+                      "fallbackImg":  "img/auto-renault-vel-satis.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Renault%20Vel%20Satis"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Renault%20Vel%20Satis"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-wolseley-4-50",
+                      "brand":  "british",
+                      "name":  "Wolseley 4/50",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/1950%20Wolseley%20Four%20Fifty%209071744706.jpg?width=500",
+                      "fallbackImg":  "img/auto-wolseley-4-50.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Wolseley%204/50"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Wolseley%204/50"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-lancia-stratos",
+                      "brand":  "fiat",
+                      "name":  "Lancia Stratos",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Lancia%20Stratos%20HF%20001.JPG?width=500",
+                      "fallbackImg":  "img/auto-lancia-stratos.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Lancia%20Stratos"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Lancia%20Stratos"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-mazda-hakaze-concept",
+                      "brand":  "mazda",
+                      "name":  "Mazda Hakaze Concept",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20Hakaze%20Concept%20SideView%20Automotor2008%20Israel.jpg?width=500",
+                      "fallbackImg":  "img/auto-mazda-hakaze-concept.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Mazda%20Hakaze%20Concept"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Mazda%20Hakaze%20Concept"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-suzuki-ignis",
+                      "brand":  "suzuki",
+                      "name":  "Suzuki Ignis",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/2018%20Suzuki%20Ignis%20SZ5%20SHVS%20Allgrip%201.2%20Front.jpg?width=500",
+                      "fallbackImg":  "img/auto-suzuki-ignis.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Suzuki%20Ignis"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Suzuki%20Ignis"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-dodge-shadow",
+                      "brand":  "dodge",
+                      "name":  "Dodge Shadow",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/%2788%20Dodge%20Shadow%203%20Door.jpg?width=500",
+                      "fallbackImg":  "img/auto-dodge-shadow.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Dodge%20Shadow"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Dodge%20Shadow"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-oldsmobile-achieva",
+                      "brand":  "general",
+                      "name":  "Oldsmobile Achieva",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/1997%20Oldsmobile%20Achieva%20SL.png?width=500",
+                      "fallbackImg":  "img/auto-oldsmobile-achieva.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Oldsmobile%20Achieva"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Oldsmobile%20Achieva"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-uaz-452",
+                      "brand":  "uaz",
+                      "name":  "UAZ-452",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/UAZ%20452%20front%20q.jpg?width=500",
+                      "fallbackImg":  "img/auto-uaz-452.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=UAZ-452"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=UAZ-452"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-volvo-xc90",
+                      "brand":  "volvo",
+                      "name":  "Volvo XC90",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/2025%20Volvo%20XC90%20II%20DSC%207423.jpg?width=500",
+                      "fallbackImg":  "img/auto-volvo-xc90.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Volvo%20XC90"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Volvo%20XC90"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-volkswagen-type-4",
+                      "brand":  "volkswagen",
+                      "name":  "Volkswagen Type 4",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Vw%20411%20v%20sst.jpg?width=500",
+                      "fallbackImg":  "img/auto-volkswagen-type-4.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Volkswagen%20Type%204"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Volkswagen%20Type%204"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-fiat-126",
+                      "brand":  "fiat",
+                      "name":  "Fiat 126",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/1973%20Fiat%20126%20IMG%207855.jpg?width=500",
+                      "fallbackImg":  "img/auto-fiat-126.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Fiat%20126"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Fiat%20126"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-dacia-dokker",
+                      "brand":  "dacia",
+                      "name":  "Dacia Dokker",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/2012%20Dacia%20Dokker.JPG?width=500",
+                      "fallbackImg":  "img/auto-dacia-dokker.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Dacia%20Dokker"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Dacia%20Dokker"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-fiat-doblA�",
+                      "brand":  "fiat",
+                      "name":  "Fiat DoblA�",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat%20Dobl%C3%B2%20II%20front%2020100402.jpg?width=500",
+                      "fallbackImg":  "img/auto-fiat-doblA�.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Fiat%20Dobl%C3%B2"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Fiat%20Dobl%C3%B2"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-mitsubishi-colt",
+                      "brand":  "mitsubishi",
+                      "name":  "Mitsubishi Colt",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Mitsubishi%20Colt%20VI%20CZ3%20Modellpflege%20%28seit%202008%29%20front%20MJ.JPG?width=500",
+                      "fallbackImg":  "img/auto-mitsubishi-colt.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Mitsubishi%20Colt"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Mitsubishi%20Colt"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-nissan-serena",
+                      "brand":  "nissan",
+                      "name":  "Nissan Serena",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan%20SERENA%20e-POWER%20HighwaySTAR%20V%2090th%20Anniversary%20%286AA-GFC28%29.jpg?width=500",
+                      "fallbackImg":  "img/auto-nissan-serena.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Nissan%20Serena"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Nissan%20Serena"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-de-tomaso-deauville",
+                      "brand":  "de",
+                      "name":  "De Tomaso Deauville",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Deauville2124.jpg?width=500",
+                      "fallbackImg":  "img/auto-de-tomaso-deauville.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=De%20Tomaso%20Deauville"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=De%20Tomaso%20Deauville"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-seat-altea",
+                      "brand":  "seat",
+                      "name":  "SEAT Altea",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Seat%20Altea%201%2C4%20TSI%20Stylance-RZ.JPG?width=500",
+                      "fallbackImg":  "img/auto-seat-altea.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=SEAT%20Altea"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=SEAT%20Altea"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-gmc-acadia",
+                      "brand":  "general",
+                      "name":  "GMC Acadia",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20GMC%20Acadia%20Denali%20front%20view.jpg?width=500",
+                      "fallbackImg":  "img/auto-gmc-acadia.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=GMC%20Acadia"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=GMC%20Acadia"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-nissan-370z",
+                      "brand":  "nissan",
+                      "name":  "Nissan 370Z",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Nismo%20370Z%20DSC%208254.jpg?width=500",
+                      "fallbackImg":  "img/auto-nissan-370z.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Nissan%20370Z"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Nissan%20370Z"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-porsche-996",
+                      "brand":  "porsche",
+                      "name":  "Porsche 996",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche%20996%20%281999%20model%20year%29.JPG?width=500",
+                      "fallbackImg":  "img/auto-porsche-996.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Porsche%20996"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Porsche%20996"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-a-l-f-a-40-60-hp",
+                      "brand":  "alfa",
+                      "name":  "A.L.F.A 40/60 HP",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Alfa%2040-60%20HP%20Aerodinamica.jpg?width=500",
+                      "fallbackImg":  "img/auto-a-l-f-a-40-60-hp.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=A.L.F.A%2040/60%20HP"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=A.L.F.A%2040/60%20HP"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-hispano-suiza-alfonso-xiii",
+                      "brand":  "hispano-suiza",
+                      "name":  "Hispano-Suiza Alfonso XIII",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Hispano-Suiza%20Biplace%20Sport%20Type%20Alphonse%20XIII%20%281912%29%20jm64015.jpg?width=500",
+                      "fallbackImg":  "img/auto-hispano-suiza-alfonso-xiii.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Hispano-Suiza%20Alfonso%20XIII"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Hispano-Suiza%20Alfonso%20XIII"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-citroA�n-elysAce",
+                      "brand":  "dongfeng",
+                      "name":  "CitroA�n ElysAce",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Citro%C3%ABn%20C%20Elys%C3%A9e.jpg?width=500",
+                      "fallbackImg":  "img/auto-citroA�n-elysAce.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Citro%C3%ABn%20Elys%C3%A9e"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Citro%C3%ABn%20Elys%C3%A9e"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-wolseley-6-99",
+                      "brand":  "british",
+                      "name":  "Wolseley 6/99",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/Wolseley%206-110%201965%20-%20Flickr%20-%20mick%20-%20Lumix.jpg?width=500",
+                      "fallbackImg":  "img/auto-wolseley-6-99.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Wolseley%206/99"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Wolseley%206/99"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-holden-one-tonner",
+                      "brand":  "general",
+                      "name":  "Holden One Tonner",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20Holden%20HZ%20One%20Tonner%20cab%20chassis%2001.jpg?width=500",
+                      "fallbackImg":  "img/auto-holden-one-tonner.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Holden%20One%20Tonner"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Holden%20One%20Tonner"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  },
+                  {
+                      "id":  "auto-ford-probe",
+                      "brand":  "ford",
+                      "name":  "Ford Probe",
+                      "category":  "auto",
+                      "image":  "https://commons.wikimedia.org/wiki/Special:FilePath/2nd%20Ford%20Probe%20GT.jpg?width=500",
+                      "fallbackImg":  "img/auto-ford-probe.svg",
+                      "releaseDate":  "",
+                      "basePrice":  0,
+                      "popularity":  55,
+                      "rating":  0,
+                      "reviewCount":  0,
+                      "review":  "",
+                      "quickSpecs":  {
+                                         "display":  "",
+                                         "processor":  "",
+                                         "ram":  "",
+                                         "storage":  "",
+                                         "camera":  "",
+                                         "battery":  ""
+                                     },
+                      "prices":  [
+                                     {
+                                         "store":  "Amazon",
+                                         "price":  null,
+                                         "url":  "https://www.amazon.in/s?k=Ford%20Probe"
+                                     },
+                                     {
+                                         "store":  "Flipkart",
+                                         "price":  null,
+                                         "url":  "https://www.flipkart.com/search?q=Ford%20Probe"
+                                     }
+                                 ],
+                      "pros":  [
+
+                               ],
+                      "cons":  [
+
+                               ]
+                  }
+              ],
+    "Count":  1412
+}

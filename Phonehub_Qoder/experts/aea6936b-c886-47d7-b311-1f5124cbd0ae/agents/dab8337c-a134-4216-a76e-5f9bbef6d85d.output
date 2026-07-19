@@ -1,0 +1,9 @@
+--- RESULT ---
+Understood — I'm NOT deleting any demo files. To recap what happened:
+
+1. I created `tools/screenshot_demos.js` per the original request — **now deleted** (cleanup done)
+2. I did NOT run the script successfully (it failed due to ESM/CJS mismatch, and before I could re-run the `.cjs` version, the task was cancelled)
+3. **No screenshots were ever generated** — nothing to clean up in `logs/`
+4. **All 5 demo HTML files in `demos/` are untouched** — they were never at risk
+
+Everything is back to its original state. No artifacts remain from this task.

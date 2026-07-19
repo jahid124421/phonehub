@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Tech News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0a0e1a;--card:rgba(0,240,255,0.05);--cyan:#00f0ff;--magenta:#ff00ff;--glass-blur:blur(12px);--glow:0 0 15px rgba(0,240,255,0.3);--glow-hover:0 0 25px rgba(0,240,255,0.55);--radius:14px;--transition:0.35s cubic-bezier(.4,0,.2,1)}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--base);color:#e0e8f0;line-height:1.6;overflow-x:hidden;background-image:linear-gradient(rgba(0,240,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,240,255,0.03) 1px,transparent 1px);background-size:50px 50px}
+h1,h2,h3,h4,h5,h6{font-family:'Orbitron',monospace;color:var(--cyan);letter-spacing:.5px}
+a{color:var(--cyan);text-decoration:none;transition:color var(--transition)}a:hover{color:var(--magenta)}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:#080c16}::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:10px}
+
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(10,14,26,0.85);backdrop-filter:blur(18px);border-bottom:1px solid rgba(0,240,255,0.15);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Orbitron',monospace;font-size:1.35rem;font-weight:800;color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.7)}
+.logo span{color:var(--magenta)}
+nav{display:flex;gap:2rem;align-items:center}
+nav a{font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8}
+nav a:hover,nav a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.5)}
+.nav-toggle{display:none;background:none;border:none;color:var(--cyan);font-size:1.5rem;cursor:pointer}
+
+.glass{background:var(--card);backdrop-filter:var(--glass-blur);border:1px solid rgba(0,240,255,0.2);border-radius:var(--radius);box-shadow:var(--glow);transition:all var(--transition);position:relative;overflow:hidden}
+.glass::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,0.015) 2px,rgba(0,240,255,0.015) 4px)}
+.glass:hover{box-shadow:var(--glow-hover);border-color:rgba(0,240,255,0.45)}
+
+/* HERO */
+.page-hero{text-align:center;padding:3.5rem 2rem 2rem;max-width:800px;margin:0 auto}
+.page-hero h1{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:.6rem}
+.page-hero p{color:#8ea4b8;font-size:.95rem}
+
+/* TABS */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;padding:1rem 2rem 2.5rem;max-width:900px;margin:0 auto}
+.cat-tab{padding:.5rem 1.2rem;border-radius:60px;font-size:.82rem;font-weight:600;border:1.5px solid rgba(0,240,255,0.4);color:var(--cyan);background:transparent;cursor:pointer;transition:all var(--transition);text-transform:uppercase;letter-spacing:.8px}
+.cat-tab:hover,.cat-tab.active{background:rgba(0,240,255,0.12);border-color:var(--cyan);box-shadow:0 0 12px rgba(0,240,255,0.3)}
+
+/* LAYOUT */
+.news-layout{display:grid;grid-template-columns:1fr 320px;gap:2.5rem;max-width:1280px;margin:0 auto;padding:0 2rem 4rem}
+
+/* NEWS GRID */
+.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.news-card{padding:0;cursor:pointer;display:flex;flex-direction:column}
+.news-card .news-thumb{width:100%;aspect-ratio:16/9;background:#0d1525;border-bottom:1px solid rgba(0,240,255,0.15);display:flex;align-items:center;justify-content:center;color:#1e3048;font-size:2rem}
+.news-card .news-body{padding:1.2rem;border-left:3px solid var(--cyan)}
+.news-card .news-source{font-size:.68rem;font-weight:700;text-transform:uppercase;color:var(--cyan);letter-spacing:1.2px;margin-bottom:.5rem;background:rgba(0,240,255,0.08);padding:.15rem .5rem;border-radius:4px;display:inline-block}
+.news-card h3{font-size:.88rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600;margin-bottom:.5rem;line-height:1.4}
+.news-card p{font-size:.78rem;color:#8ea4b8;margin-bottom:.6rem;line-height:1.5}
+.news-card .news-time{font-size:.7rem;color:#5a7088}
+
+/* TRENDING SIDEBAR */
+.trending-sidebar{position:sticky;top:80px;align-self:start}
+.trending-sidebar h2{font-size:1.1rem;margin-bottom:1.2rem}
+.trending-list{list-style:none;counter-reset:trending}
+.trending-item{counter-increment:trending;padding:1rem 1.2rem;margin-bottom:.8rem;cursor:pointer;display:flex;align-items:flex-start;gap:1rem}
+.trending-item::before{content:counter(trending);font-family:'Orbitron',monospace;font-size:1.4rem;font-weight:800;color:var(--cyan);opacity:.7;min-width:28px;text-align:center}
+.trending-item .trending-content h4{font-size:.82rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600;margin-bottom:.3rem;line-height:1.4}
+.trending-item .trending-content .trending-meta{font-size:.7rem;color:#5a7088}
+
+/* FOOTER */
+.site-footer{border-top:1px solid rgba(0,240,255,0.12);padding:3rem 2rem 2rem;max-width:1280px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{font-size:.85rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.footer-col a{display:block;font-size:.82rem;color:#7a90a8;margin-bottom:.55rem}.footer-col a:hover{color:var(--cyan)}
+.footer-copy{text-align:center;font-size:.75rem;color:#4a5e72;padding-top:1.5rem;border-top:1px solid rgba(0,240,255,0.08)}
+
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.anim.from-left{transform:translateX(-40px)}.anim.from-right{transform:translateX(40px)}
+.anim.visible{opacity:1;transform:translate(0)}
+
+@media(max-width:1024px){
+  .news-grid{grid-template-columns:repeat(2,1fr)}
+  .news-layout{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  nav{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(0,240,255,0.15)}
+  nav.open{display:flex}.nav-toggle{display:block}
+  .news-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .trending-sidebar{position:relative;top:0}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}.anim{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">Phone<span>Hub</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html">Devices</a>
+    <a href="compare.html">Compare</a>
+    <a href="brands.html">Brands</a>
+    <a href="news.html" class="active">News</a>
+  </nav>
+</header>
+
+<section class="page-hero anim">
+  <h1>Tech News</h1>
+  <p>Latest from the world of technology</p>
+</section>
+
+<div class="cat-tabs">
+  <button class="cat-tab active">All</button>
+  <button class="cat-tab">Mobiles</button>
+  <button class="cat-tab">Laptops</button>
+  <button class="cat-tab">Auto</button>
+  <button class="cat-tab">Gaming</button>
+  <button class="cat-tab">Science</button>
+</div>
+
+<div class="news-layout">
+  <!-- NEWS GRID -->
+  <div class="news-grid">
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">TechCrunch</span>
+        <h3>Apple Unveils M4 Ultra Chip With Record-Breaking Performance Benchmarks</h3>
+        <p>Apple's latest silicon pushes the boundaries of on-device AI processing with a 32-core Neural Engine.</p>
+        <div class="news-time">2 hours ago</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-right">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">The Verge</span>
+        <h3>Tesla's New Model Y Refresh: Everything You Need to Know About 2025 Update</h3>
+        <p>Redesigned interior, longer range, and the new HW4.5 autopilot system headline the changes.</p>
+        <div class="news-time">Today</div>
+      </div>
+    </div>
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">GSMArena</span>
+        <h3>Samsung Galaxy S25 Ultra Camera Deep Dive — Best Low-Light Shots Yet</h3>
+        <p>The 200MP sensor combined with new AI processing delivers unprecedented night photography.</p>
+        <div class="news-time">Yesterday</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-left">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">Ars Technica</span>
+        <h3>Google DeepMind Achieves Breakthrough in Protein Structure Prediction</h3>
+        <p>AlphaFold 4 can now predict protein interactions in real-time, opening doors for drug discovery.</p>
+        <div class="news-time">Today</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-right">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">Wired</span>
+        <h3>BMW i4 M Performance Edition: Electric Thrills Meet Bavarian Engineering</h3>
+        <p>BMW's latest electric variant delivers 600hp and a 0-60 time of just 3.2 seconds.</p>
+        <div class="news-time">2 days ago</div>
+      </div>
+    </div>
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">Engadget</span>
+        <h3>OnePlus 13 Review: The Best Value Flagship of 2025 So Far</h3>
+        <p>With Snapdragon 8 Elite, 6000mAh battery, and Hasselblad cameras at $899, it's hard to beat.</p>
+        <div class="news-time">3 days ago</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-left">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">IGN</span>
+        <h3>NVIDIA RTX 5090 Benchmarks Leak: 2x Performance Over Previous Gen</h3>
+        <p>Early benchmarks show the RTX 5090 handling 4K ray tracing at 120fps with ease.</p>
+        <div class="news-time">Yesterday</div>
+      </div>
+    </div>
+    <div class="glass news-card anim from-right">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">Bloomberg</span>
+        <h3>Sony Bravia XR 2025 Lineup: Mini-LED Goes Mainstream at $999</h3>
+        <p>Sony brings premium Mini-LED technology to mid-range pricing in its latest TV lineup.</p>
+        <div class="news-time">4 days ago</div>
+      </div>
+    </div>
+    <div class="glass news-card anim">
+      <div class="news-thumb">📰</div>
+      <div class="news-body">
+        <span class="news-source">Space.com</span>
+        <h3>SpaceX Starship Completes First Orbital Refueling Test Successfully</h3>
+        <p>The milestone brings NASA's Artemis lunar landing program one step closer to reality.</p>
+        <div class="news-time">5 days ago</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRENDING SIDEBAR -->
+  <aside class="trending-sidebar">
+    <h2>🔥 Trending Now</h2>
+    <ol class="trending-list">
+      <li class="glass trending-item anim">
+        <div class="trending-content">
+          <h4>iPhone 17 Pro Leaked Renders Show Radical Redesign</h4>
+          <div class="trending-meta">MacRumors · 1 hour ago</div>
+        </div>
+      </li>
+      <li class="glass trending-item anim from-right">
+        <div class="trending-content">
+          <h4>Tesla Robotaxi Launch Date Confirmed for Q3 2025</h4>
+          <div class="trending-meta">Reuters · 3 hours ago</div>
+        </div>
+      </li>
+      <li class="glass trending-item anim">
+        <div class="trending-content">
+          <h4>Samsung Unveils Foldable Laptop at CES 2025</h4>
+          <div class="trending-meta">CNET · 5 hours ago</div>
+        </div>
+      </li>
+      <li class="glass trending-item anim from-right">
+        <div class="trending-content">
+          <h4>Google Pixel 10 Pro to Feature In-House Tensor G5 Chip</h4>
+          <div class="trending-meta">Android Authority · Today</div>
+        </div>
+      </li>
+      <li class="glass trending-item anim">
+        <div class="trending-content">
+          <h4>OpenAI Announces GPT-5 With Real-Time Video Understanding</h4>
+          <div class="trending-meta">The Verge · Today</div>
+        </div>
+      </li>
+    </ol>
+  </aside>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Products</h4><a href="search.html">All Devices</a><a href="compare.html">Compare</a><a href="search.html">Mobiles</a><a href="search.html">Laptops</a></div>
+    <div class="footer-col"><h4>Categories</h4><a href="brands.html">Brands</a><a href="search.html">Tablets</a><a href="search.html">TVs</a><a href="search.html">Auto</a></div>
+    <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Disclosure</a><a href="#">Contact</a></div>
+  </div>
+  <div class="footer-copy">© 2026 PhoneHub. All rights reserved.</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 60); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.cat-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

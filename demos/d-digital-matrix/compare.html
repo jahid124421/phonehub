@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — Compare Devices</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060a0f;--primary:#00ff88;--secondary:#00cccc;--text:#c8d6e5;--card:#0a1018;--border:#00ff8833;--glow:rgba(0,255,136,0.4);--mono:'JetBrains Mono',monospace;--sans:'Inter',sans-serif;--scanline:repeating-linear-gradient(0deg,rgba(0,0,0,0.15) 0px,rgba(0,0,0,0.15) 1px,transparent 1px,transparent 2px)}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
+body::before{content:'01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110 00100000 01001010 01100101 01110100 01100010 01110010 01100001 01101001 01101110';position:fixed;top:0;left:0;width:100%;height:100%;font-family:var(--mono);font-size:14px;color:rgba(0,255,136,0.02);word-wrap:break-word;pointer-events:none;z-index:0;padding:20px;line-height:2}
+a{color:var(--primary);text-decoration:none;transition:all .3s}
+a:hover{color:var(--secondary);text-shadow:0 0 8px var(--glow)}
+
+header{position:sticky;top:0;z-index:100;background:rgba(6,10,15,0.95);border-bottom:1px solid var(--border);backdrop-filter:blur(10px)}
+.header-inner{max-width:1200px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-size:1.3rem;font-weight:700;color:var(--primary);text-shadow:0 0 8px var(--glow)}
+.logo span{color:var(--text);opacity:.6}
+nav{display:flex;gap:24px}
+nav a{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.8}
+nav a:hover,nav a.active{color:var(--primary);opacity:1}
+.mobile-toggle{display:none;background:none;border:none;color:var(--primary);font-size:1.5rem;cursor:pointer}
+
+.breadcrumb{max-width:1200px;margin:0 auto;padding:16px 20px;font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.breadcrumb a{color:var(--secondary);opacity:.8}
+
+.section{max-width:1200px;margin:0 auto;padding:32px 20px}
+.section-title{font-family:var(--mono);font-size:1.3rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.section-title::before{content:'$';color:var(--secondary)}
+.section-sub{font-family:var(--mono);font-size:.85rem;color:var(--text);opacity:.5;margin-bottom:32px}
+
+/* SELECTORS */
+.select-row{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;align-items:center;margin-bottom:40px}
+.select-box{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:16px;position:relative;overflow:hidden}
+.select-box::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.select-label{font-family:var(--mono);font-size:.75rem;color:var(--secondary);margin-bottom:8px;position:relative;z-index:2}
+.select-input{width:100%;background:rgba(6,10,15,0.8);border:1px solid var(--border);color:var(--text);font-family:var(--mono);font-size:.9rem;padding:12px;border-radius:4px;outline:none;position:relative;z-index:2}
+.select-input:focus{border-color:var(--primary);box-shadow:0 0 10px rgba(0,255,136,0.1)}
+.select-input::placeholder{color:rgba(200,214,229,0.3)}
+.vs-divider{font-family:var(--mono);font-size:1.2rem;color:var(--primary);text-shadow:0 0 12px var(--glow);font-weight:700;text-align:center}
+
+/* COMPARISON TABLE */
+.compare-table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:6px;margin-bottom:40px}
+.compare-table{width:100%;border-collapse:collapse;min-width:600px}
+.compare-table thead{background:rgba(0,255,136,0.05)}
+.compare-table th{font-family:var(--mono);font-size:.85rem;color:var(--primary);text-shadow:0 0 8px var(--glow);padding:16px 20px;text-align:left;border-bottom:1px solid var(--border)}
+.compare-table td{padding:12px 20px;border-bottom:1px solid rgba(0,255,136,0.05);font-size:.9rem}
+.compare-table tr:hover td{background:rgba(0,255,136,0.02)}
+.compare-table .spec-label{font-family:var(--mono);font-size:.8rem;color:var(--secondary);opacity:.8;white-space:nowrap}
+.compare-table .spec-label::before{content:'--';margin-right:4px;color:var(--primary);opacity:.3}
+.compare-table .val{color:var(--text)}
+.compare-table .val.winner{color:var(--primary);font-weight:600;text-shadow:0 0 6px var(--glow)}
+
+/* PRODUCT HEADER ROW */
+.product-header-row td{padding:20px;border-bottom:2px solid var(--border)}
+.product-header-cell{text-align:center}
+.product-header-cell .ph-icon{font-size:2.5rem;margin-bottom:8px;display:block}
+.product-header-cell .ph-name{font-family:var(--mono);font-size:1rem;color:var(--primary);text-shadow:0 0 8px var(--glow);display:block;margin-bottom:2px}
+.product-header-cell .ph-brand{font-size:.8rem;color:var(--text);opacity:.5;display:block;margin-bottom:6px}
+.product-header-cell .ph-price{font-family:var(--mono);font-size:1.1rem;color:var(--primary);font-weight:700;display:block}
+.product-header-cell .ph-rating{font-size:.85rem;color:#fff;display:block;margin-top:4px}
+
+/* ANALYSIS */
+.analysis-box{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:24px;position:relative;overflow:hidden}
+.analysis-box::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:var(--scanline);pointer-events:none;z-index:1}
+.analysis-title{font-family:var(--mono);font-size:1rem;color:var(--primary);text-shadow:0 0 8px var(--glow);margin-bottom:16px;position:relative;z-index:2}
+.analysis-title::before{content:'--';margin-right:6px;color:var(--secondary)}
+.analysis-content{position:relative;z-index:2}
+.analysis-item{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start}
+.analysis-icon{font-family:var(--mono);color:var(--primary);font-size:.85rem;flex-shrink:0;margin-top:2px}
+.analysis-text{font-size:.9rem;color:var(--text);opacity:.8;line-height:1.6}
+.analysis-text b{color:var(--primary);font-weight:500}
+.analysis-verdict{margin-top:20px;padding-top:16px;border-top:1px dashed var(--border);font-family:var(--mono);font-size:.9rem;color:var(--primary);line-height:1.6}
+
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+footer{border-top:1px solid var(--border);background:rgba(6,10,15,0.95);margin-top:40px}
+.footer-inner{max-width:1200px;margin:0 auto;padding:30px 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.footer-inner .logo{font-family:var(--mono);font-size:.9rem;color:var(--primary)}
+.footer-links{display:flex;gap:20px}
+.footer-links a{font-family:var(--mono);font-size:.8rem;color:var(--text);opacity:.5}
+.footer-links a:hover{opacity:1}
+
+@media(max-width:768px){
+  nav{display:none;position:absolute;top:60px;left:0;width:100%;background:rgba(6,10,15,0.98);flex-direction:column;padding:20px;gap:16px;border-bottom:1px solid var(--border)}
+  nav.open{display:flex}
+  .mobile-toggle{display:block}
+  .select-row{grid-template-columns:1fr;gap:10px}
+  .vs-divider{font-size:1rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">&gt;_ PhoneHub<span>.sys</span></a>
+    <button class="mobile-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">&#9776;</button>
+    <nav>
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html" class="active">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </nav>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">// HOME</a> / COMPARE
+</div>
+
+<div class="section fade-in">
+  <h1 class="section-title">./compare --products=2</h1>
+  <p class="section-sub">// side-by-side spec analysis — diff mode enabled</p>
+
+  <!-- SELECTORS -->
+  <div class="select-row">
+    <div class="select-box">
+      <div class="select-label">&gt; PRODUCT_A</div>
+      <input class="select-input" type="text" value="iPhone 16 Pro Max" placeholder="search device...">
+    </div>
+    <div class="vs-divider">VS</div>
+    <div class="select-box">
+      <div class="select-label">&gt; PRODUCT_B</div>
+      <input class="select-input" type="text" value="Galaxy S25 Ultra" placeholder="search device...">
+    </div>
+  </div>
+</div>
+
+<!-- TABLE -->
+<div class="section fade-in">
+  <div class="compare-table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th style="width:160px">$ spec_id</th>
+          <th>Product A</th>
+          <th>Product B</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- PRODUCT HEADERS -->
+        <tr class="product-header-row">
+          <td></td>
+          <td>
+            <div class="product-header-cell">
+              <span class="ph-icon">📱</span>
+              <span class="ph-name">iPhone 16 Pro Max</span>
+              <span class="ph-brand">Apple</span>
+              <span class="ph-price">$1,199</span>
+              <span class="ph-rating">★ 4.8</span>
+            </div>
+          </td>
+          <td>
+            <div class="product-header-cell">
+              <span class="ph-icon">📱</span>
+              <span class="ph-name">Galaxy S25 Ultra</span>
+              <span class="ph-brand">Samsung</span>
+              <span class="ph-price">$1,299</span>
+              <span class="ph-rating">★ 4.7</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="spec-label">display</td>
+          <td class="val winner">6.9" OLED 120Hz 2000 nits</td>
+          <td class="val">6.9" AMOLED 120Hz 2600 nits</td>
+        </tr>
+        <tr>
+          <td class="spec-label">chipset</td>
+          <td class="val winner">A18 Pro (3nm)</td>
+          <td class="val">Snapdragon 8 Gen 4 (3nm)</td>
+        </tr>
+        <tr>
+          <td class="spec-label">ram</td>
+          <td class="val">8 GB</td>
+          <td class="val winner">12 GB</td>
+        </tr>
+        <tr>
+          <td class="spec-label">storage</td>
+          <td class="val">256/512GB / 1TB</td>
+          <td class="val winner">256/512GB / 1TB + microSD</td>
+        </tr>
+        <tr>
+          <td class="spec-label">camera_main</td>
+          <td class="val">48 MP f/1.78, 5x zoom</td>
+          <td class="val winner">200 MP f/1.7, 10x zoom</td>
+        </tr>
+        <tr>
+          <td class="spec-label">camera_ultra</td>
+          <td class="val">48 MP ultrawide</td>
+          <td class="val">50 MP ultrawide</td>
+        </tr>
+        <tr>
+          <td class="spec-label">battery</td>
+          <td class="val">4,685 mAh</td>
+          <td class="val winner">5,000 mAh</td>
+        </tr>
+        <tr>
+          <td class="spec-label">charging</td>
+          <td class="val">27W wired, 25W MagSafe</td>
+          <td class="val winner">45W wired, 15W wireless</td>
+        </tr>
+        <tr>
+          <td class="spec-label">os</td>
+          <td class="val">iOS 18</td>
+          <td class="val">Android 15 / One UI 7</td>
+        </tr>
+        <tr>
+          <td class="spec-label">build</td>
+          <td class="val">Titanium, IP68</td>
+          <td class="val">Titanium, IP68</td>
+        </tr>
+        <tr>
+          <td class="spec-label">weight</td>
+          <td class="val winner">227 g</td>
+          <td class="val">218 g</td>
+        </tr>
+        <tr>
+          <td class="spec-label">stylus</td>
+          <td class="val">—</td>
+          <td class="val winner">S Pen included</td>
+        </tr>
+        <tr>
+          <td class="spec-label">ai_features</td>
+          <td class="val">Apple Intelligence</td>
+          <td class="val">Galaxy AI</td>
+        </tr>
+        <tr>
+          <td class="spec-label">price</td>
+          <td class="val winner">$1,199</td>
+          <td class="val">$1,299</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ANALYSIS -->
+<div class="section fade-in">
+  <div class="analysis-box">
+    <div class="analysis-title">analysis --summary</div>
+    <div class="analysis-content">
+      <div class="analysis-item">
+        <span class="analysis-icon">&gt;</span>
+        <span class="analysis-text"><b>Performance:</b> iPhone's A18 Pro leads in single-core benchmarks while the Snapdragon 8 Gen 4 edges ahead in multi-threaded workloads. Both are flagship-tier with no practical lag.</span>
+      </div>
+      <div class="analysis-item">
+        <span class="analysis-icon">&gt;</span>
+        <span class="analysis-text"><b>Camera:</b> Samsung's 200MP main sensor and 10x optical zoom dominate in daylight and zoom photography. Apple's computational photography and video capabilities remain superior.</span>
+      </div>
+      <div class="analysis-item">
+        <span class="analysis-icon">&gt;</span>
+        <span class="analysis-text"><b>Battery:</b> Galaxy's 5,000 mAh cell outlasts iPhone in screen-on time, but iOS optimization delivers comparable real-world endurance. Samsung charges faster at 45W.</span>
+      </div>
+      <div class="analysis-item">
+        <span class="analysis-icon">&gt;</span>
+        <span class="analysis-text"><b>Ecosystem:</b> Choose iPhone for seamless Apple device integration. Choose Galaxy for Android flexibility, S Pen productivity, and DeX desktop mode.</span>
+      </div>
+      <div class="analysis-item">
+        <span class="analysis-icon">&gt;</span>
+        <span class="analysis-text"><b>Value:</b> iPhone is $100 cheaper at base storage. Samsung includes S Pen and offers microSD expansion — better hardware value per dollar.</span>
+      </div>
+    </div>
+    <div class="analysis-verdict">
+      // VERDICT: iPhone for ecosystem loyalty + video creators. Galaxy S25 Ultra for camera versatility + power users who want Android freedom.
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="logo">&gt;_ PhoneHub.sys</span>
+    <div class="footer-links">
+      <a href="index.html">home</a>
+      <a href="search.html">devices</a>
+      <a href="compare.html">compare</a>
+      <a href="brands.html">brands</a>
+      <a href="news.html">news</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const observer=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+--- RESULT ---
+**Summary:**
+
+Changed **132 car brand entries** from `"category": "Other"` to `"category": "Auto"` in `tools/ph_common.py`.
+
+- **131 unique brands** in `BRAND_DATABASE` now have `"category": "Auto"` (one brand key `škoda` appeared twice, so 132 lines changed → 131 dict entries)
+- **15 entries remain as `"Other"`** — all correctly identified non-car brands: zenith, sega, sinclair, rca, magnavox, sharp-s, brionvega, videoton, tandy, leaf, data, rubery, cockerell, koninklijke, zato
+- **All other categories untouched** (Premium: 7, Value: 17, Mid-Range: 3, Budget: 5, Gaming: 1)
+- File passes Python syntax check and imports cleanly
+
+Key edge cases handled:
+- `tesla` was in the "Retro / legacy tech brands" section but correctly changed to Auto
+- `bristol`, `alpina`, `stellantis` in the "Misc brands (keep in Other)" section were correctly identified as car brands
+- `mitsuoka`, `great` (Great Wall Motors), `general` (GM) in the "Tech/electronics brands" section were correctly changed to Auto
+- Duplicate `škoda` key (lines 476 and 546) — both occurrences updated

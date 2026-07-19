@@ -1,0 +1,19 @@
+{
+  "id": "12",
+  "subject": "Build product detail and search page templates",
+  "description": "Phase 3.2+3.3: Build product detail page (src/pages/product/[slug].astro) using getStaticPaths() from data/products.json — product hero with image, quick specs grid, full collapsible specifications, AI review section with pros/cons, price comparison cards with affiliate links, related products carousel, comparison trigger, Product+Review JSON-LD, Giscus comments. Build search/catalog page (src/pages/search.astro) with filter sidebar (brand checkboxes, category, price range), results grid with ProductCards, sort options, URL-driven state, FlexSearch client-side filtering.",
+  "status": "completed",
+  "owner": "Felix",
+  "blocks": [
+    "14"
+  ],
+  "metadata": {
+    "agentName": "Felix",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784405330425,
+    "tool_call_id": "call_0c65d452ac034fcfab168266"
+  },
+  "activeForm": "Building product detail and search pages",
+  "gmtCreate": 1784402474331,
+  "gmtModified": 1784405696451
+}

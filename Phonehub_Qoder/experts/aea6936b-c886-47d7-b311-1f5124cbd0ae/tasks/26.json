@@ -1,0 +1,16 @@
+{
+  "id": "26",
+  "subject": "Restructure brand categories to product-type",
+  "description": "Update tools/ph_common.py BRAND_DATABASE to categorize all 183 brands by product type (Mobiles, Tablets, Laptops, TVs, Electronics, Appliances, Computers, Accessories, Auto) instead of market segment (Premium, Value, Budget, etc.). Fix the auto brand label issue (Mercedes showing 'phones'). Regenerate data/brands.json.",
+  "status": "completed",
+  "owner": "Taylor",
+  "metadata": {
+    "agentName": "Taylor",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784449065899,
+    "tool_call_id": "call_59caa1f44a50477fac66cfd2"
+  },
+  "activeForm": "Restructuring brand categories",
+  "gmtCreate": 1784448893653,
+  "gmtModified": 1784450945883
+}

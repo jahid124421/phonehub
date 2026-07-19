@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — All Devices</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0a0e1a;--card:rgba(0,240,255,0.05);--cyan:#00f0ff;--magenta:#ff00ff;--glass-blur:blur(12px);--glow:0 0 15px rgba(0,240,255,0.3);--glow-hover:0 0 25px rgba(0,240,255,0.55);--radius:14px;--transition:0.35s cubic-bezier(.4,0,.2,1)}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--base);color:#e0e8f0;line-height:1.6;overflow-x:hidden;background-image:linear-gradient(rgba(0,240,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,240,255,0.03) 1px,transparent 1px);background-size:50px 50px}
+h1,h2,h3,h4,h5,h6{font-family:'Orbitron',monospace;color:var(--cyan);letter-spacing:.5px}
+a{color:var(--cyan);text-decoration:none;transition:color var(--transition)}
+a:hover{color:var(--magenta)}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:#080c16}::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:10px}
+
+/* HEADER */
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(10,14,26,0.85);backdrop-filter:blur(18px);border-bottom:1px solid rgba(0,240,255,0.15);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Orbitron',monospace;font-size:1.35rem;font-weight:800;color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.7)}
+.logo span{color:var(--magenta)}
+nav{display:flex;gap:2rem;align-items:center}
+nav a{font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8;transition:color var(--transition)}
+nav a:hover,nav a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.5)}
+.nav-toggle{display:none;background:none;border:none;color:var(--cyan);font-size:1.5rem;cursor:pointer}
+
+/* BREADCRUMB */
+.breadcrumb{padding:1rem 2rem;font-size:.8rem;color:#5a7088;max-width:1400px;margin:0 auto}
+.breadcrumb a{color:#5a7088}.breadcrumb a:hover{color:var(--cyan)}
+.breadcrumb span{margin:0 .4rem}
+
+/* LAYOUT */
+.page-layout{display:flex;gap:2rem;max-width:1400px;margin:0 auto;padding:0 2rem 4rem}
+
+/* SIDEBAR */
+.sidebar{width:280px;flex-shrink:0;position:sticky;top:80px;align-self:flex-start;max-height:calc(100vh - 100px);overflow-y:auto;padding-right:.5rem}
+.sidebar::-webkit-scrollbar{width:4px}
+.sidebar::-webkit-scrollbar-thumb{background:rgba(0,240,255,0.3);border-radius:10px}
+.filter-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem}
+.filter-header h2{font-size:1.15rem}
+.reset-link{font-size:.78rem;color:var(--magenta);font-weight:600;cursor:pointer;background:none;border:none}
+.filter-search{width:100%;padding:.6rem 1rem;background:rgba(0,240,255,0.04);border:1px solid rgba(0,240,255,0.2);border-radius:10px;color:#e0e8f0;font-size:.82rem;outline:none;margin-bottom:1.5rem}
+.filter-search:focus{border-color:var(--cyan);box-shadow:0 0 10px rgba(0,240,255,0.2)}
+.filter-group{margin-bottom:1.5rem}
+.filter-group h4{font-size:.78rem;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8;margin-bottom:.8rem;cursor:pointer;display:flex;align-items:center;justify-content:space-between}
+.filter-group h4::after{content:'▾';font-size:.7rem;color:var(--cyan)}
+.filter-group.collapsed h4::after{content:'▸'}
+.filter-group.collapsed .filter-options{display:none}
+.filter-options label{display:flex;align-items:center;gap:.5rem;padding:.3rem 0;font-size:.8rem;color:#a0b4c8;cursor:pointer}
+.filter-options label:hover{color:var(--cyan)}
+.filter-options input[type="checkbox"]{accent-color:var(--cyan);width:14px;height:14px}
+.filter-count{font-size:.7rem;color:#5a7088;margin-left:auto}
+.sub-cat{margin-left:1rem;margin-top:.3rem}
+.sub-cat-title{font-size:.75rem;color:var(--cyan);font-weight:600;margin-bottom:.3rem;cursor:pointer;display:flex;align-items:center;gap:.4rem}
+.sub-cat-title::before{content:'▸';font-size:.65rem;transition:transform .2s}
+.sub-cat-title.open::before{transform:rotate(90deg)}
+.sub-cat-items{display:none;margin-left:.5rem}
+.sub-cat-title.open+.sub-cat-items{display:block}
+
+/* RANGE SLIDER */
+.range-container{padding:.5rem 0}
+.range-values{display:flex;justify-content:space-between;font-size:.75rem;color:#8ea4b8;margin-bottom:.5rem}
+.dual-range{position:relative;height:6px;background:rgba(0,240,255,0.12);border-radius:3px;margin:1rem 0}
+.dual-range input[type="range"]{position:absolute;width:100%;top:-6px;height:18px;-webkit-appearance:none;appearance:none;background:transparent;pointer-events:none}
+.dual-range input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;background:#00d68f;border-radius:50%;cursor:pointer;pointer-events:all;border:2px solid var(--base);box-shadow:0 0 8px rgba(0,214,143,0.5)}
+.price-presets{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.8rem}
+.price-preset{padding:.3rem .7rem;border:1px solid rgba(0,240,255,0.25);border-radius:20px;font-size:.7rem;color:var(--cyan);cursor:pointer;background:transparent;transition:all var(--transition)}
+.price-preset:hover,.price-preset.active{background:rgba(0,240,255,0.12);border-color:var(--cyan)}
+
+/* RATING TOGGLE */
+.rating-toggle{display:flex;gap:.5rem}
+.rating-btn{padding:.4rem .8rem;border:1px solid rgba(0,240,255,0.25);border-radius:8px;font-size:.8rem;color:#8ea4b8;cursor:pointer;background:transparent;transition:all var(--transition)}
+.rating-btn:hover,.rating-btn.active{background:rgba(0,240,255,0.12);color:var(--cyan);border-color:var(--cyan)}
+
+/* MAIN */
+.main-content{flex:1;min-width:0}
+.toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem}
+.toolbar h1{font-size:1.3rem}
+.sort-select{padding:.5rem 1rem;background:rgba(0,240,255,0.05);border:1px solid rgba(0,240,255,0.2);border-radius:10px;color:#e0e8f0;font-size:.82rem;outline:none;cursor:pointer}
+.sort-select option{background:var(--base);color:#e0e8f0}
+
+/* FILTER CHIPS */
+.active-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+.chip{display:inline-flex;align-items:center;gap:.4rem;padding:.3rem .8rem;background:rgba(0,240,255,0.1);border:1px solid rgba(0,240,255,0.3);border-radius:20px;font-size:.75rem;color:var(--cyan)}
+.chip .remove{cursor:pointer;color:var(--magenta);font-weight:700}
+.chip-reset{background:none;border:none;color:var(--magenta);font-size:.75rem;font-weight:600;cursor:pointer;padding:.3rem .5rem}
+
+/* PRODUCT GRID */
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
+.glass{background:var(--card);backdrop-filter:var(--glass-blur);border:1px solid rgba(0,240,255,0.2);border-radius:var(--radius);box-shadow:var(--glow);transition:all var(--transition);position:relative;overflow:hidden}
+.glass::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,0.015) 2px,rgba(0,240,255,0.015) 4px)}
+.glass:hover{box-shadow:var(--glow-hover);border-color:rgba(0,240,255,0.45)}
+.product-card{padding:1.2rem;cursor:pointer}
+.product-card .img-placeholder{width:100%;aspect-ratio:4/3;background:#0d1525;border:1px solid rgba(0,240,255,0.15);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#1e3048;font-size:2.5rem;margin-bottom:1rem}
+.product-card h3{font-size:.9rem;margin-bottom:.3rem;color:#e0e8f0;font-family:'Inter',sans-serif;font-weight:600}
+.product-card .brand{font-size:.72rem;color:var(--cyan);margin-bottom:.4rem;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+.product-card .meta{display:flex;align-items:center;justify-content:space-between;margin-top:.5rem}
+.price{background:rgba(120,40,200,0.35);color:#fff;padding:.25rem .7rem;border-radius:20px;font-size:.78rem;font-weight:700}
+.rating{color:var(--cyan);font-size:.82rem;font-weight:700}
+.cat-badge{font-size:.65rem;background:rgba(0,240,255,0.08);border:1px solid rgba(0,240,255,0.2);padding:.15rem .5rem;border-radius:20px;color:var(--cyan);text-transform:uppercase;letter-spacing:.8px;margin-top:.4rem;display:inline-block}
+
+/* FOOTER */
+.site-footer{border-top:1px solid rgba(0,240,255,0.12);padding:3rem 2rem 2rem;max-width:1280px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{font-size:.85rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.footer-col a{display:block;font-size:.82rem;color:#7a90a8;margin-bottom:.55rem}
+.footer-col a:hover{color:var(--cyan)}
+.footer-copy{text-align:center;font-size:.75rem;color:#4a5e72;padding-top:1.5rem;border-top:1px solid rgba(0,240,255,0.08)}
+
+/* ANIMATIONS */
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.anim.from-left{transform:translateX(-40px)}.anim.from-right{transform:translateX(40px)}
+.anim.visible{opacity:1;transform:translate(0)}
+
+/* RESPONSIVE */
+@media(max-width:1100px){.product-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){
+  nav{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(0,240,255,0.15)}
+  nav.open{display:flex}.nav-toggle{display:block}
+  .page-layout{flex-direction:column}
+  .sidebar{width:100%;position:relative;top:0;max-height:none}
+  .product-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}.anim{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <a href="index.html" class="logo">Phone<span>Hub</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html" class="active">Devices</a>
+    <a href="compare.html">Compare</a>
+    <a href="brands.html">Brands</a>
+    <a href="news.html">News</a>
+  </nav>
+</header>
+
+<div class="breadcrumb"><a href="index.html">Home</a><span>/</span> Everything</div>
+
+<div class="page-layout">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="filter-header">
+      <h2>Filters</h2>
+      <button class="reset-link">Reset All</button>
+    </div>
+    <input type="text" class="filter-search" placeholder="e.g. 120Hz, 8GB RAM">
+
+    <!-- BRAND -->
+    <div class="filter-group">
+      <h4 onclick="this.parentElement.classList.toggle('collapsed')">Brand</h4>
+      <div class="filter-options">
+        <div class="sub-cat">
+          <div class="sub-cat-title open" onclick="this.classList.toggle('open')">Mobiles</div>
+          <div class="sub-cat-items">
+            <label><input type="checkbox"> Apple <span class="filter-count">(8)</span></label>
+            <label><input type="checkbox"> Samsung <span class="filter-count">(12)</span></label>
+            <label><input type="checkbox"> Google <span class="filter-count">(5)</span></label>
+            <label><input type="checkbox"> Xiaomi <span class="filter-count">(8)</span></label>
+            <label><input type="checkbox"> OnePlus <span class="filter-count">(4)</span></label>
+          </div>
+        </div>
+        <div class="sub-cat">
+          <div class="sub-cat-title" onclick="this.classList.toggle('open')">Auto</div>
+          <div class="sub-cat-items">
+            <label><input type="checkbox"> Tesla <span class="filter-count">(3)</span></label>
+            <label><input type="checkbox"> BMW <span class="filter-count">(2)</span></label>
+            <label><input type="checkbox"> Toyota <span class="filter-count">(4)</span></label>
+            <label><input type="checkbox"> Mercedes <span class="filter-count">(3)</span></label>
+          </div>
+        </div>
+        <div class="sub-cat">
+          <div class="sub-cat-title" onclick="this.classList.toggle('open')">Laptops</div>
+          <div class="sub-cat-items">
+            <label><input type="checkbox"> Apple <span class="filter-count">(2)</span></label>
+            <label><input type="checkbox"> Dell <span class="filter-count">(3)</span></label>
+            <label><input type="checkbox"> Lenovo <span class="filter-count">(2)</span></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICE -->
+    <div class="filter-group">
+      <h4 onclick="this.parentElement.classList.toggle('collapsed')">Price</h4>
+      <div class="filter-options">
+        <div class="range-container">
+          <div class="range-values"><span id="minVal">$1</span><span id="maxVal">$65,000</span></div>
+          <div class="dual-range">
+            <input type="range" min="1" max="65000" value="1" id="minRange" oninput="document.getElementById('minVal').textContent='$'+this.value">
+            <input type="range" min="1" max="65000" value="65000" id="maxRange" oninput="document.getElementById('maxVal').textContent='$'+Number(this.value).toLocaleString()">
+          </div>
+        </div>
+        <div class="price-presets">
+          <button class="price-preset">Under $500</button>
+          <button class="price-preset">$500–$1000</button>
+          <button class="price-preset">$1000–$2000</button>
+          <button class="price-preset">$2000+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURED SEARCHES -->
+    <div class="filter-group">
+      <h4 onclick="this.parentElement.classList.toggle('collapsed')">Featured Searches</h4>
+      <div class="filter-options">
+        <label><input type="checkbox"> 8 GB RAM <span class="filter-count">(42)</span></label>
+        <label><input type="checkbox"> 256 GB Storage <span class="filter-count">(28)</span></label>
+        <label><input type="checkbox"> 5000 mAh+ Battery <span class="filter-count">(35)</span></label>
+        <label><input type="checkbox"> 108 MP+ Camera <span class="filter-count">(12)</span></label>
+        <label><input type="checkbox"> 5G Network <span class="filter-count">(48)</span></label>
+        <label><input type="checkbox"> AMOLED Display <span class="filter-count">(22)</span></label>
+      </div>
+    </div>
+
+    <!-- MIN RATING -->
+    <div class="filter-group">
+      <h4 onclick="this.parentElement.classList.toggle('collapsed')">Min Rating</h4>
+      <div class="filter-options">
+        <div class="rating-toggle">
+          <button class="rating-btn active">4+</button>
+          <button class="rating-btn">3+</button>
+          <button class="rating-btn">2+</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main-content">
+    <div class="toolbar">
+      <h1>All Devices</h1>
+      <select class="sort-select">
+        <option>Popularity</option>
+        <option>Rating</option>
+        <option>Price: Low → High</option>
+        <option>Newest</option>
+      </select>
+    </div>
+
+    <!-- ACTIVE CHIPS -->
+    <div class="active-chips">
+      <span class="chip">5G <span class="remove" onclick="this.parentElement.remove()">✕</span></span>
+      <span class="chip">Under $1000 <span class="remove" onclick="this.parentElement.remove()">✕</span></span>
+      <button class="chip-reset">Reset All</button>
+    </div>
+
+    <!-- PRODUCT GRID -->
+    <div class="product-grid">
+      <div class="glass product-card anim">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">Apple</div><h3>iPhone 16 Pro Max</h3>
+        <span class="cat-badge">Mobiles</span>
+        <div class="meta"><span class="price">$1,199</span><span class="rating">★ 4.8</span></div>
+      </div>
+      <div class="glass product-card anim from-right">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">Samsung</div><h3>Galaxy S25 Ultra</h3>
+        <span class="cat-badge">Mobiles</span>
+        <div class="meta"><span class="price">$1,299</span><span class="rating">★ 4.7</span></div>
+      </div>
+      <div class="glass product-card anim">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">OnePlus</div><h3>OnePlus 13</h3>
+        <span class="cat-badge">Mobiles</span>
+        <div class="meta"><span class="price">$899</span><span class="rating">★ 4.5</span></div>
+      </div>
+      <div class="glass product-card anim from-left">
+        <div class="img-placeholder">🚗</div>
+        <div class="brand">Tesla</div><h3>Tesla Model Y</h3>
+        <span class="cat-badge">Auto</span>
+        <div class="meta"><span class="price">$44,990</span><span class="rating">★ 4.6</span></div>
+      </div>
+      <div class="glass product-card anim from-right">
+        <div class="img-placeholder">💻</div>
+        <div class="brand">Apple</div><h3>MacBook Pro M4</h3>
+        <span class="cat-badge">Laptops</span>
+        <div class="meta"><span class="price">$2,399</span><span class="rating">★ 4.9</span></div>
+      </div>
+      <div class="glass product-card anim">
+        <div class="img-placeholder">📺</div>
+        <div class="brand">Sony</div><h3>Sony Bravia XR</h3>
+        <span class="cat-badge">TVs</span>
+        <div class="meta"><span class="price">$1,499</span><span class="rating">★ 4.4</span></div>
+      </div>
+      <div class="glass product-card anim from-left">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">Google</div><h3>Pixel 9 Pro</h3>
+        <span class="cat-badge">Mobiles</span>
+        <div class="meta"><span class="price">$999</span><span class="rating">★ 4.6</span></div>
+      </div>
+      <div class="glass product-card anim from-right">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">Xiaomi</div><h3>Xiaomi 15 Ultra</h3>
+        <span class="cat-badge">Mobiles</span>
+        <div class="meta"><span class="price">$799</span><span class="rating">★ 4.3</span></div>
+      </div>
+      <div class="glass product-card anim">
+        <div class="img-placeholder">💻</div>
+        <div class="brand">Dell</div><h3>Dell XPS 16</h3>
+        <span class="cat-badge">Laptops</span>
+        <div class="meta"><span class="price">$1,899</span><span class="rating">★ 4.5</span></div>
+      </div>
+      <div class="glass product-card anim from-left">
+        <div class="img-placeholder">🚗</div>
+        <div class="brand">BMW</div><h3>BMW i4</h3>
+        <span class="cat-badge">Auto</span>
+        <div class="meta"><span class="price">$55,900</span><span class="rating">★ 4.7</span></div>
+      </div>
+      <div class="glass product-card anim from-right">
+        <div class="img-placeholder">📺</div>
+        <div class="brand">LG</div><h3>LG C4 OLED</h3>
+        <span class="cat-badge">TVs</span>
+        <div class="meta"><span class="price">$1,299</span><span class="rating">★ 4.6</span></div>
+      </div>
+      <div class="glass product-card anim">
+        <div class="img-placeholder">📱</div>
+        <div class="brand">Samsung</div><h3>Galaxy Tab S10</h3>
+        <span class="cat-badge">Tablets</span>
+        <div class="meta"><span class="price">$849</span><span class="rating">★ 4.4</span></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Products</h4><a href="search.html">All Devices</a><a href="compare.html">Compare</a><a href="search.html">Mobiles</a><a href="search.html">Laptops</a></div>
+    <div class="footer-col"><h4>Categories</h4><a href="brands.html">Brands</a><a href="search.html">Tablets</a><a href="search.html">TVs</a><a href="search.html">Auto</a></div>
+    <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Disclosure</a><a href="#">Contact</a></div>
+  </div>
+  <div class="footer-copy">© 2026 PhoneHub. All rights reserved.</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 60); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.price-preset').forEach(btn => {
+  btn.addEventListener('click', () => btn.classList.toggle('active'));
+});
+document.querySelectorAll('.rating-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.rating-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

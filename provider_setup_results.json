@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-07-19T07:22:41.909Z",
+  "omnirouteUrl": "http://localhost:20128",
+  "results": {
+    "added": [
+      "ChatGPT Web",
+      "DeepSeek Web",
+      "Gemini Web",
+      "HuggingChat",
+      "Meta AI",
+      "Qwen Web",
+      "T3.Chat",
+      "Z.AI",
+      "Zenmux AI"
+    ],
+    "skipped": [
+      "Microsoft Copilot Web",
+      "v0 by Vercel"
+    ],
+    "failed": [
+      {
+        "name": "Dola AI Web",
+        "error": "Invalid provider"
+      },
+      {
+        "name": "Kimi Web",
+        "error": "fetch failed"
+      },
+      {
+        "name": "Venice AI",
+        "error": "fetch failed"
+      }
+    ],
+    "validated": []
+  }
+}

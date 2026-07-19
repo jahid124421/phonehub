@@ -1,0 +1,9 @@
+{
+  "id": "31",
+  "subject": "Update CI/CD for full automation pipeline",
+  "description": "Update .github/workflows/deploy.yml: add brand_enricher step (weekly), increase news refresh frequency (every 6 hours), add new_product_detector step, add monitor workflow as separate file. Create .github/workflows/monitor.yml for 12-hour health checks. Ensure all automation runs without manual intervention.",
+  "status": "pending",
+  "activeForm": "Updating CI/CD for full automation",
+  "gmtCreate": 1784448893717,
+  "gmtModified": 1784448893717
+}

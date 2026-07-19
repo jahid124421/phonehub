@@ -1,0 +1,16 @@
+{
+  "id": "30",
+  "subject": "Build new product auto-detection pipeline",
+  "description": "Create tools/new_product_detector.py that: monitors RSS feeds from GSMArena, NotebookCheck, CarAndDriver for new product announcements, uses free LLM (Groq) to generate initial specs and descriptions for detected products, adds new products to the database automatically. Integrates with the existing pipeline in run_all.py.",
+  "status": "completed",
+  "owner": "Jimmy",
+  "metadata": {
+    "agentName": "Jimmy",
+    "agentRole": "full-stack-engineer",
+    "startTime": 1784449066283,
+    "tool_call_id": "call_a261b10cb40c4f0ba98855e2"
+  },
+  "activeForm": "Building new product detector",
+  "gmtCreate": 1784448893687,
+  "gmtModified": 1784449442544
+}

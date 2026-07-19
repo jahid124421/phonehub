@@ -1,0 +1,39 @@
+--- RESULT ---
+Both tasks are complete. Here's a summary of everything that was updated:
+
+---
+
+## Part 1: Category-Aware Content Agent ([content_agent.py](file:///c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\tools\content_agent.py))
+
+**Changes:**
+- Removed the hardcoded `"You are a mobile phone reviewer"` system prompt
+- Added `CATEGORY_PROMPTS` dict with 11 category-specific expert reviewer personas (phone, auto, laptop, tv, smartwatch, camera, tablet, electronic, appliance, accessory, computer)
+- Added `CATEGORY_SPEC_HINTS` dict that tells the LLM which specs matter per category (e.g., "engine/horsepower/torque" for auto, "screen size/resolution/HDR" for TVs)
+- Updated `USER_TMPL` to include `{category}` and `{spec_hint}` fields
+- `call_llm()` now accepts a dynamic `system_prompt` parameter
+- Added `--force-category <name>` flag to regenerate reviews for a specific category only
+- Added category breakdown logging (e.g., "categories: 700 auto, 33 laptop, 11 tv")
+
+## Part 2: Category-Aware Build Labels ([build.py](file:///c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\tools\build.py))
+
+**Changes:**
+- Added `CATEGORY_LABELS` dict mapping categories to plural display names (auto→"vehicles", laptop→"laptops", tv→"TVs", etc.)
+- Build output now shows category-aware breakdown: e.g., "breakdown: 700 vehicles, 200 phones, 33 laptops, 11 TVs"
+
+## Part 3: Enhanced News Pipeline ([news_fetch.py](file:///c:\Users\96650\OneDrive\Desktop\AI_BA_WORKSPACE\tools\news_fetch.py))
+
+**Changes:**
+- Added `--max-age` flag (default: 48 hours) to discard stale articles
+- Added 7 new RSS sources: GSMArena, NotebookCheck, CarAndDriver, CNET, Tom's Hardware, TechRadar, 91mobiles
+- Added `detect_category()` function with `CATEGORY_KEYWORDS` mapping — auto-tags articles as `mobiles`, `laptops`, `auto`, `tvs`, `electronics`, `appliances`, or `tech`
+- Added `date_label()` function that outputs "Today", "Yesterday", or formatted date
+- Increased `MAX_ITEMS` from 45 → 60
+- Articles from last 24h are prioritized in sorting
+- Added `r/electricvehicles` Reddit source
+- Added auto query for HN (electric vehicle, tesla, tv oled)
+
+## News Fetch Results:
+- **60 articles** fetched (up from 45 max)
+- **Categories**: 28 tech, 15 auto, 11 mobiles, 3 TVs, 1 electronics, 1 laptops, 1 appliances
+- **All 60 from today** (fresh content within 48h window)
+- Working RSS feeds: Android Authority, 9to5Google, XDA, The Verge, Engadget, TechCrunch, Car and Driver, CNET, Tom's Hardware, TechRadar

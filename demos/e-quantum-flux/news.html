@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>News — PhoneHub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0c0f1e;--primary:#8b5cf6;--secondary:#06b6d4;--highlight:#f59e0b;--card-bg:rgba(255,255,255,0.05);--card-border:rgba(255,255,255,0.08);--text:#e2e8f0;--text-muted:#94a3b8;--gradient:linear-gradient(135deg,#8b5cf6,#06b6d4);--green:#22c55e}
+html{scroll-behavior:smooth}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+body{font-family:'Inter',sans-serif;background:var(--base);color:var(--text);line-height:1.6;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.container{max-width:1280px;margin:0 auto;padding:0 24px}
+.gradient-text{background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+/* Header */
+.header{position:sticky;top:0;z-index:100;backdrop-filter:blur(20px);background:rgba(12,15,30,0.8);border-bottom:1px solid var(--card-border)}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:1.5rem;font-weight:900}
+.nav{display:flex;gap:28px;align-items:center}
+.nav a{font-size:0.9rem;font-weight:500;color:var(--text-muted);transition:color .3s}
+.nav a:hover,.nav a.active{color:#fff}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+@media(max-width:768px){.nav{display:none;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:rgba(12,15,30,0.95);padding:20px;gap:16px}.nav.open{display:flex}.nav-toggle{display:block}}
+
+/* Page Header */
+.page-header{padding:60px 0 20px;text-align:center}
+.page-header h1{font-size:clamp(2rem,4vw,3rem);font-weight:900;margin-bottom:8px}
+.page-header p{color:var(--text-muted);font-size:1rem}
+
+/* Category Tabs */
+.cat-tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:24px 0 40px}
+.cat-tab{padding:10px 22px;border-radius:999px;background:var(--card-bg);border:1px solid var(--card-border);color:var(--text-muted);font-size:0.85rem;font-weight:600;cursor:pointer;transition:all .3s;font-family:'Inter'}
+.cat-tab:hover{border-color:var(--primary);color:#fff}
+.cat-tab.active{background:var(--gradient);border-color:transparent;color:#fff}
+
+/* Glass Card */
+.glass-card{position:relative;background:var(--card-bg);backdrop-filter:blur(16px);border-radius:20px;overflow:hidden;transition:transform .4s ease,box-shadow .4s ease}
+.glass-card::before{content:'';position:absolute;inset:0;border-radius:20px;padding:1px;background:linear-gradient(135deg,#8b5cf6,#06b6d4,#8b5cf6);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none;animation:borderFlow 4s linear infinite;background-size:200% 200%}
+@keyframes borderFlow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.glass-card:hover{transform:perspective(1000px) rotateY(2deg) rotateX(-1deg) translateY(-4px);box-shadow:0 20px 60px rgba(139,92,246,0.15)}
+
+/* Article Cards */
+.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px;margin-bottom:60px}
+@media(max-width:400px){.news-grid{grid-template-columns:1fr}}
+.news-card{padding:28px;border-left:3px solid var(--primary);cursor:pointer}
+.news-card .n-meta{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.news-card .n-cat{font-size:0.72rem;font-weight:600;color:var(--secondary);text-transform:uppercase;letter-spacing:1px;padding:3px 10px;background:rgba(6,182,212,0.1);border-radius:6px}
+.news-card .n-date{font-size:0.8rem;color:var(--text-muted)}
+.news-card .n-title{font-size:1.1rem;font-weight:700;margin-bottom:10px;line-height:1.4}
+.news-card .n-excerpt{font-size:0.88rem;color:var(--text-muted);line-height:1.7;margin-bottom:14px}
+.news-card .n-read{font-size:0.82rem;font-weight:600;color:var(--primary);transition:color .3s}
+.news-card:hover .n-read{color:var(--secondary)}
+
+/* Trending Section */
+.trending-section{padding:20px 0 60px}
+.trending-section h2{font-size:1.8rem;font-weight:800;margin-bottom:24px}
+.trending-grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+@media(max-width:800px){.trending-grid{grid-template-columns:1fr}}
+.trending-main{padding:40px;display:flex;flex-direction:column;justify-content:flex-end;min-height:320px;position:relative;overflow:hidden}
+.trending-main .t-badge{display:inline-block;padding:5px 14px;background:linear-gradient(135deg,#f59e0b,#ef4444);border-radius:999px;font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;width:fit-content}
+.trending-main .t-title{font-size:1.6rem;font-weight:800;line-height:1.3;margin-bottom:12px}
+.trending-main .t-excerpt{font-size:0.92rem;color:var(--text-muted);line-height:1.7}
+.trending-side{display:flex;flex-direction:column;gap:16px}
+.trending-small{padding:20px;cursor:pointer}
+.trending-small .ts-num{font-size:1.8rem;font-weight:900;color:var(--primary);opacity:0.4;margin-bottom:4px}
+.trending-small .ts-title{font-size:0.95rem;font-weight:700;line-height:1.4;margin-bottom:6px}
+.trending-small .ts-date{font-size:0.78rem;color:var(--text-muted)}
+
+/* Reveal */
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translate(0)}
+.reveal.from-left{transform:translateX(-40px)}
+.reveal.from-right{transform:translateX(40px)}
+.reveal.scale-up{transform:scale(0.92)}
+.reveal.scale-up.visible{transform:scale(1)}
+
+/* Footer */
+.footer{padding:48px 0 32px;border-top:1px solid var(--card-border);margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:32px}
+.footer h4{font-size:1rem;font-weight:700;margin-bottom:16px}
+.footer a{display:block;font-size:0.88rem;color:var(--text-muted);margin-bottom:10px;transition:color .3s}
+.footer a:hover{color:#fff}
+.footer-bottom{text-align:center;font-size:0.82rem;color:var(--text-muted);padding-top:24px;border-top:1px solid var(--card-border)}
+
+/* Aurora */
+.aurora{position:fixed;border-radius:50%;filter:blur(120px);opacity:0.12;pointer-events:none;z-index:-1}
+.aurora-1{width:380px;height:380px;background:radial-gradient(circle,#8b5cf6,transparent);top:-5%;right:-5%;animation:auroraMove 13s ease-in-out infinite}
+.aurora-2{width:320px;height:320px;background:radial-gradient(circle,#ec4899,transparent);bottom:5%;left:-5%;animation:auroraMove 16s ease-in-out infinite reverse}
+@keyframes auroraMove{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(40px,25px) scale(1.1)}}
+
+/* Newsletter */
+.newsletter{padding:60px 0;text-align:center}
+.newsletter h2{font-size:1.8rem;font-weight:800;margin-bottom:8px}
+.newsletter p{color:var(--text-muted);margin-bottom:24px;font-size:0.95rem}
+.newsletter-form{display:flex;max-width:480px;margin:0 auto;gap:8px}
+@media(max-width:500px){.newsletter-form{flex-direction:column}}
+.newsletter-form input{flex:1;padding:14px 20px;background:var(--card-bg);border:1px solid var(--card-border);border-radius:14px;color:#fff;font-family:'Inter';font-size:0.92rem;outline:none}
+.newsletter-form input:focus{border-color:var(--primary)}
+.newsletter-form button{padding:14px 28px;background:var(--gradient);border:none;color:#fff;border-radius:14px;font-weight:700;cursor:pointer;font-family:'Inter';transition:opacity .3s;white-space:nowrap}
+.newsletter-form button:hover{opacity:0.85}
+</style>
+</head>
+<body>
+
+<div class="aurora aurora-1"></div>
+<div class="aurora aurora-2"></div>
+
+<header class="header">
+<div class="container">
+<a href="index.html" class="logo gradient-text">PhoneHub</a>
+<button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="search.html">Explore</a>
+<a href="compare.html">Compare</a>
+<a href="brands.html">Brands</a>
+<a href="news.html" class="active">News</a>
+</nav>
+</div>
+</header>
+
+<section class="page-header">
+<div class="container">
+<h1 class="gradient-text">Latest News</h1>
+<p>Stay ahead with the latest in tech, gadgets, and innovation</p>
+</div>
+</section>
+
+<div class="container">
+
+<!-- Category Tabs -->
+<div class="cat-tabs">
+<button class="cat-tab active" data-cat="all">All</button>
+<button class="cat-tab" data-cat="mobiles">Mobiles</button>
+<button class="cat-tab" data-cat="auto">Auto</button>
+<button class="cat-tab" data-cat="laptops">Laptops</button>
+<button class="cat-tab" data-cat="tvs">TVs</button>
+<button class="cat-tab" data-cat="ai">AI</button>
+</div>
+
+<!-- News Grid -->
+<div class="news-grid" id="newsGrid"></div>
+
+<!-- Trending -->
+<section class="trending-section">
+<h2 class="gradient-text reveal">Trending Now</h2>
+<div class="trending-grid">
+<div class="glass-card trending-main reveal from-left">
+<div class="t-badge">🔥 Trending</div>
+<div class="t-title">Apple Vision Pro 2 Leaked: Lighter, Cheaper, and More Powerful</div>
+<div class="t-excerpt">Sources close to Apple suggest the next Vision Pro will be 40% lighter, feature M5 chip, and launch at a significantly lower price point to drive mainstream adoption...</div>
+</div>
+<div class="trending-side">
+<div class="glass-card trending-small reveal from-right" style="transition-delay:0.1s">
+<div class="ts-num">01</div>
+<div class="ts-title">Google Pixel 10 Pro XL Benchmarks Leak</div>
+<div class="ts-date">Jul 16, 2026</div>
+</div>
+<div class="glass-card trending-small reveal from-right" style="transition-delay:0.2s">
+<div class="ts-num">02</div>
+<div class="ts-title">Tesla Robotaxi Launch Date Confirmed</div>
+<div class="ts-date">Jul 14, 2026</div>
+</div>
+<div class="glass-card trending-small reveal from-right" style="transition-delay:0.3s">
+<div class="ts-num">03</div>
+<div class="ts-title">Samsung Foldable Laptop Prototype Shown</div>
+<div class="ts-date">Jul 11, 2026</div>
+</div>
+</div>
+</div>
+</section>
+
+</div>
+
+<!-- Newsletter -->
+<section class="newsletter reveal">
+<div class="container">
+<h2 class="gradient-text">Stay in the Loop</h2>
+<p>Get the latest tech news delivered to your inbox weekly</p>
+<div class="newsletter-form">
+<input type="email" placeholder="your@email.com">
+<button>Subscribe</button>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<div class="footer-grid">
+<div><h4 class="gradient-text">PhoneHub</h4><p style="font-size:0.88rem;color:var(--text-muted)">Your quantum gateway to tech discovery.</p></div>
+<div><h4>Explore</h4><a href="search.html">All Products</a><a href="compare.html">Compare</a><a href="brands.html">Brands</a><a href="news.html">News</a></div>
+<div><h4>Categories</h4><a href="search.html?cat=Mobiles">Mobiles</a><a href="search.html?cat=Laptops">Laptops</a><a href="search.html?cat=Auto">Auto</a><a href="search.html?cat=TVs">TVs</a></div>
+<div><h4>Company</h4><a href="about.html">About Us</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+</div>
+<div class="footer-bottom">© 2026 PhoneHub. All rights reserved.</div>
+</div>
+</footer>
+
+<script>
+const articles=[
+{cat:"mobiles",date:"Jul 18, 2026",title:"iPhone 17 Leak Reveals Titanium-Unibody Design",excerpt:"Apple's next flagship may ditch the current frame for a seamless titanium shell, reducing weight by 15% while improving durability..."},
+{cat:"mobiles",date:"Jul 15, 2026",title:"Samsung Unveils 200MP Sensor for Galaxy S26",excerpt:"The next-gen ISOCELL sensor promises unprecedented detail in low-light conditions with AI-powered computational photography..."},
+{cat:"auto",date:"Jul 12, 2026",title:"Tesla Model Y Refresh: Everything We Know",excerpt:"Juniper update brings new interior, longer range, and faster charging capability with the new 4680 battery cells..."},
+{cat:"ai",date:"Jul 10, 2026",title:"Google Gemini Ultra 2.0 Powers Next-Gen Pixel Features",excerpt:"The latest Gemini model brings on-device AI that can understand context, summarize conversations, and automate tasks..."},
+{cat:"laptops",date:"Jul 8, 2026",title:"Apple M5 Chip Benchmarks Show 40% Performance Leap",excerpt:"Early Geekbench results suggest the M5 chip will dominate both single-core and multi-core workloads..."},
+{cat:"tvs",date:"Jul 6, 2026",title:"LG's MicroLED TV Goes Mainstream at $2,999",excerpt:"LG announces its first consumer-grade MicroLED television, bringing premium display tech to the mass market..."},
+{cat:"mobiles",date:"Jul 4, 2026",title:"OnePlus 14 Pro Rumored with 300W Charging",excerpt:"Leaked specifications suggest OnePlus is pushing charging speeds to new extremes, fully charging in under 10 minutes..."},
+{cat:"auto",date:"Jul 2, 2026",title:"BMW i5 Touring: The Electric Wagon We've Been Waiting For",excerpt:"BMW finally brings electric power to the Touring body style with 370 miles of range and signature driving dynamics..."},
+{cat:"ai",date:"Jun 30, 2026",title:"AI-Powered Device Comparison: How Smart Assistants Choose Your Next Phone",excerpt:"New research shows AI recommendation engines are 3x more accurate than manual filtering for finding the right device..."}
+];
+
+const grid=document.getElementById('newsGrid');
+function renderNews(cat){
+grid.innerHTML='';
+const filtered=cat==='all'?articles:articles.filter(a=>a.cat===cat);
+filtered.forEach((a,i)=>{
+const card=document.createElement('div');
+card.className='glass-card news-card reveal scale-up';
+card.style.transitionDelay=`${i*0.08}s`;
+card.innerHTML=`<div class="n-meta"><span class="n-cat">${a.cat}</span><span class="n-date">${a.date}</span></div><div class="n-title">${a.title}</div><div class="n-excerpt">${a.excerpt}</div><span class="n-read">Read more →</span>`;
+grid.appendChild(card);
+});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+// Magnetic on news cards
+document.querySelectorAll('.news-card').forEach(attachMagnetic);
+}
+renderNews('all');
+
+document.querySelectorAll('.cat-tab').forEach(tab=>{
+tab.addEventListener('click',()=>{
+document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+tab.classList.add('active');
+renderNews(tab.dataset.cat);
+});
+});
+
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
+},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+
+function attachMagnetic(card){
+card.addEventListener('mousemove',e=>{
+const r=card.getBoundingClientRect();
+const x=(e.clientX-r.left)/r.width-0.5;
+const y=(e.clientY-r.top)/r.height-0.5;
+card.style.transform=`perspective(1000px) rotateY(${x*6}deg) rotateX(${-y*4}deg) translateY(-4px)`;
+});
+card.addEventListener('mouseleave',()=>{card.style.transform=''});
+}
+</script>
+</body>
+</html>

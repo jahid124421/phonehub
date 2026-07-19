@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhoneHub — All Brands</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--base:#0a0e1a;--card:rgba(0,240,255,0.05);--cyan:#00f0ff;--magenta:#ff00ff;--glass-blur:blur(12px);--glow:0 0 15px rgba(0,240,255,0.3);--glow-hover:0 0 25px rgba(0,240,255,0.55);--radius:14px;--transition:0.35s cubic-bezier(.4,0,.2,1)}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--base);color:#e0e8f0;line-height:1.6;overflow-x:hidden;background-image:linear-gradient(rgba(0,240,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,240,255,0.03) 1px,transparent 1px);background-size:50px 50px}
+h1,h2,h3,h4,h5,h6{font-family:'Orbitron',monospace;color:var(--cyan);letter-spacing:.5px}
+a{color:var(--cyan);text-decoration:none;transition:color var(--transition)}a:hover{color:var(--magenta)}
+::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:#080c16}::-webkit-scrollbar-thumb{background:var(--cyan);border-radius:10px}
+
+.site-header{position:sticky;top:0;z-index:1000;background:rgba(10,14,26,0.85);backdrop-filter:blur(18px);border-bottom:1px solid rgba(0,240,255,0.15);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:'Orbitron',monospace;font-size:1.35rem;font-weight:800;color:var(--cyan);text-shadow:0 0 12px rgba(0,240,255,0.7)}
+.logo span{color:var(--magenta)}
+nav{display:flex;gap:2rem;align-items:center}
+nav a{font-size:.875rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#8ea4b8}
+nav a:hover,nav a.active{color:var(--cyan);text-shadow:0 0 8px rgba(0,240,255,0.5)}
+.nav-toggle{display:none;background:none;border:none;color:var(--cyan);font-size:1.5rem;cursor:pointer}
+
+/* HERO */
+.page-hero{text-align:center;padding:3.5rem 2rem 2rem;max-width:800px;margin:0 auto}
+.page-hero h1{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:.6rem}
+.page-hero p{color:#8ea4b8;font-size:.95rem}
+
+/* STATS ROW */
+.stats-row{display:flex;justify-content:center;gap:2.5rem;padding:1.5rem 2rem;flex-wrap:wrap}
+.stat-chip{text-align:center}
+.stat-chip .num{font-family:'Orbitron',monospace;font-size:1.5rem;font-weight:700;color:var(--cyan)}
+.stat-chip .lbl{font-size:.72rem;color:#8ea4b8;text-transform:uppercase;letter-spacing:1.2px;margin-top:.2rem}
+
+/* TABS */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;padding:1rem 2rem 2.5rem;max-width:900px;margin:0 auto}
+.cat-tab{padding:.5rem 1.2rem;border-radius:60px;font-size:.82rem;font-weight:600;border:1.5px solid rgba(0,240,255,0.4);color:var(--cyan);background:transparent;cursor:pointer;transition:all var(--transition);text-transform:uppercase;letter-spacing:.8px}
+.cat-tab:hover,.cat-tab.active{background:rgba(0,240,255,0.12);border-color:var(--cyan);box-shadow:0 0 12px rgba(0,240,255,0.3)}
+
+/* SECTIONS */
+.brand-section{padding:1rem 2rem 3rem;max-width:1280px;margin:0 auto}
+.brand-section h2{font-size:1.2rem;margin-bottom:1.2rem;padding-bottom:.6rem;border-bottom:1px solid rgba(0,240,255,0.12)}
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-bottom:3rem}
+
+.glass{background:var(--card);backdrop-filter:var(--glass-blur);border:1px solid rgba(0,240,255,0.2);border-radius:var(--radius);box-shadow:var(--glow);transition:all var(--transition);position:relative;overflow:hidden}
+.glass::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,0.015) 2px,rgba(0,240,255,0.015) 4px)}
+.glass:hover{box-shadow:var(--glow-hover);border-color:rgba(0,240,255,0.45)}
+
+.brand-card{padding:1.3rem 1rem;text-align:center;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:.5rem}
+.brand-card .brand-initial{width:48px;height:48px;border-radius:50%;border:2px solid rgba(0,240,255,0.4);display:flex;align-items:center;justify-content:center;font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;color:var(--cyan);background:rgba(0,240,255,0.06)}
+.brand-card .brand-name{font-size:.82rem;font-weight:600;color:#c0d0e0}
+.brand-card .brand-cat{font-size:.62rem;background:rgba(0,240,255,0.08);border:1px solid rgba(0,240,255,0.2);padding:.12rem .5rem;border-radius:20px;color:var(--cyan);text-transform:uppercase;letter-spacing:.8px}
+.brand-card .brand-count{font-size:.7rem;color:#5a7088}
+
+/* FOOTER */
+.site-footer{border-top:1px solid rgba(0,240,255,0.12);padding:3rem 2rem 2rem;max-width:1280px;margin:0 auto}
+.footer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-bottom:2rem}
+.footer-col h4{font-size:.85rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:1.5px}
+.footer-col a{display:block;font-size:.82rem;color:#7a90a8;margin-bottom:.55rem}.footer-col a:hover{color:var(--cyan)}
+.footer-copy{text-align:center;font-size:.75rem;color:#4a5e72;padding-top:1.5rem;border-top:1px solid rgba(0,240,255,0.08)}
+
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.anim.from-left{transform:translateX(-40px)}.anim.from-right{transform:translateX(40px)}
+.anim.visible{opacity:1;transform:translate(0)}
+
+@media(max-width:768px){
+  nav{display:none;position:fixed;top:64px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:2rem;gap:1.5rem;border-bottom:1px solid rgba(0,240,255,0.15)}
+  nav.open{display:flex}.nav-toggle{display:block}
+  .brand-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}.anim{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">Phone<span>Hub</span></a>
+  <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="search.html">Devices</a>
+    <a href="compare.html">Compare</a>
+    <a href="brands.html" class="active">Brands</a>
+    <a href="news.html">News</a>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>All Brands</h1>
+  <p>183 brands across phones, laptops, cars, and more</p>
+</section>
+
+<div class="stats-row">
+  <div class="stat-chip"><div class="num">183</div><div class="lbl">Brands</div></div>
+  <div class="stat-chip"><div class="num">1,400+</div><div class="lbl">Products</div></div>
+  <div class="stat-chip"><div class="num">9</div><div class="lbl">Categories</div></div>
+</div>
+
+<div class="cat-tabs">
+  <button class="cat-tab active">All</button>
+  <button class="cat-tab">Mobiles</button>
+  <button class="cat-tab">Laptops</button>
+  <button class="cat-tab">TVs</button>
+  <button class="cat-tab">Electronics</button>
+  <button class="cat-tab">Auto</button>
+  <button class="cat-tab">Accessories</button>
+</div>
+
+<!-- MOBILES -->
+<div class="brand-section">
+  <h2>📱 Mobiles <span style="color:#5a7088;font-family:Inter,sans-serif;font-size:.8rem;font-weight:400">(32 brands)</span></h2>
+  <div class="brand-grid">
+    <div class="glass brand-card anim"><div class="brand-initial">A</div><div class="brand-name">Apple</div><span class="brand-cat">Mobiles</span><div class="brand-count">8 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">S</div><div class="brand-name">Samsung</div><span class="brand-cat">Mobiles</span><div class="brand-count">12 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">G</div><div class="brand-name">Google</div><span class="brand-cat">Mobiles</span><div class="brand-count">5 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">X</div><div class="brand-name">Xiaomi</div><span class="brand-cat">Mobiles</span><div class="brand-count">8 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">O</div><div class="brand-name">OnePlus</div><span class="brand-cat">Mobiles</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">V</div><div class="brand-name">Vivo</div><span class="brand-cat">Mobiles</span><div class="brand-count">6 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">O</div><div class="brand-name">Oppo</div><span class="brand-cat">Mobiles</span><div class="brand-count">5 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">R</div><div class="brand-name">Realme</div><span class="brand-cat">Mobiles</span><div class="brand-count">7 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">M</div><div class="brand-name">Motorola</div><span class="brand-cat">Mobiles</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">N</div><div class="brand-name">Nokia</div><span class="brand-cat">Mobiles</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">S</div><div class="brand-name">Sony</div><span class="brand-cat">Mobiles</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">H</div><div class="brand-name">Honor</div><span class="brand-cat">Mobiles</span><div class="brand-count">5 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">A</div><div class="brand-name">Asus</div><span class="brand-cat">Mobiles</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">N</div><div class="brand-name">Nothing</div><span class="brand-cat">Mobiles</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">P</div><div class="brand-name">Poco</div><span class="brand-cat">Mobiles</span><div class="brand-count">4 devices</div></div>
+  </div>
+</div>
+
+<!-- AUTO -->
+<div class="brand-section">
+  <h2>🚗 Auto <span style="color:#5a7088;font-family:Inter,sans-serif;font-size:.8rem;font-weight:400">(128 brands)</span></h2>
+  <div class="brand-grid">
+    <div class="glass brand-card anim"><div class="brand-initial">T</div><div class="brand-name">Tesla</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">B</div><div class="brand-name">BMW</div><span class="brand-cat">Auto</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">T</div><div class="brand-name">Toyota</div><span class="brand-cat">Auto</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">M</div><div class="brand-name">Mercedes-Benz</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">A</div><div class="brand-name">Audi</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">V</div><div class="brand-name">Volkswagen</div><span class="brand-cat">Auto</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">F</div><div class="brand-name">Ford</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">H</div><div class="brand-name">Honda</div><span class="brand-cat">Auto</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">H</div><div class="brand-name">Hyundai</div><span class="brand-cat">Auto</span><div class="brand-count">5 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">P</div><div class="brand-name">Porsche</div><span class="brand-cat">Auto</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">F</div><div class="brand-name">Ferrari</div><span class="brand-cat">Auto</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">L</div><div class="brand-name">Lamborghini</div><span class="brand-cat">Auto</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">R</div><div class="brand-name">Renault</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">S</div><div class="brand-name">Skoda</div><span class="brand-cat">Auto</span><div class="brand-count">3 devices</div></div>
+  </div>
+</div>
+
+<!-- LAPTOPS -->
+<div class="brand-section">
+  <h2>💻 Laptops <span style="color:#5a7088;font-family:Inter,sans-serif;font-size:.8rem;font-weight:400">(8 brands)</span></h2>
+  <div class="brand-grid">
+    <div class="glass brand-card anim"><div class="brand-initial">A</div><div class="brand-name">Apple</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">D</div><div class="brand-name">Dell</div><span class="brand-cat">Laptops</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">L</div><div class="brand-name">Lenovo</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">H</div><div class="brand-name">HP</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">A</div><div class="brand-name">Asus</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">A</div><div class="brand-name">Acer</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">M</div><div class="brand-name">Microsoft</div><span class="brand-cat">Laptops</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">R</div><div class="brand-name">Razer</div><span class="brand-cat">Laptops</span><div class="brand-count">1 device</div></div>
+  </div>
+</div>
+
+<!-- TVs -->
+<div class="brand-section">
+  <h2>📺 TVs <span style="color:#5a7088;font-family:Inter,sans-serif;font-size:.8rem;font-weight:400">(5 brands)</span></h2>
+  <div class="brand-grid">
+    <div class="glass brand-card anim"><div class="brand-initial">S</div><div class="brand-name">Samsung</div><span class="brand-cat">TVs</span><div class="brand-count">4 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">L</div><div class="brand-name">LG</div><span class="brand-cat">TVs</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">S</div><div class="brand-name">Sony</div><span class="brand-cat">TVs</span><div class="brand-count">3 devices</div></div>
+    <div class="glass brand-card anim from-right"><div class="brand-initial">T</div><div class="brand-name">TCL</div><span class="brand-cat">TVs</span><div class="brand-count">2 devices</div></div>
+    <div class="glass brand-card anim"><div class="brand-initial">H</div><div class="brand-name">Hisense</div><span class="brand-cat">TVs</span><div class="brand-count">2 devices</div></div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col"><h4>Products</h4><a href="search.html">All Devices</a><a href="compare.html">Compare</a><a href="search.html">Mobiles</a><a href="search.html">Laptops</a></div>
+    <div class="footer-col"><h4>Categories</h4><a href="brands.html">Brands</a><a href="search.html">Tablets</a><a href="search.html">TVs</a><a href="search.html">Auto</a></div>
+    <div class="footer-col"><h4>Legal</h4><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Disclosure</a><a href="#">Contact</a></div>
+  </div>
+  <div class="footer-copy">© 2026 PhoneHub. All rights reserved.</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) { setTimeout(() => entry.target.classList.add('visible'), i * 50); observer.unobserve(entry.target); }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.anim').forEach(el => observer.observe(el));
+
+document.querySelectorAll('.cat-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>

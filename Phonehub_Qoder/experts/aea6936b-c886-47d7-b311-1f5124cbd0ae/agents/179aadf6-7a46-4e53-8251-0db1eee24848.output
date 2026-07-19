@@ -1,0 +1,4 @@
+--- RESULT ---
+I was unable to complete the screenshot task. The browser-use MCP client is not connected/available in this environment — all browser tool calls return `"mcp browser-use client not found"`. 
+
+**What's needed:** The browser automation extension needs to be started and connected before I can navigate to `http://localhost:4322/phonehub/preview` and capture screenshots of the 5 sci-fi design option sections.

@@ -3,114 +3,168 @@
     {
       "id": "apple",
       "name": "Apple",
-      "logo": "https://cdn.brandfetch.io/apple.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/apple",
       "color": "#000000",
-      "category": "Premium"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Laptops",
+        "Electronics"
+      ]
     },
     {
       "id": "samsung",
       "name": "Samsung",
-      "logo": "https://cdn.brandfetch.io/samsung.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/samsung",
       "color": "#1428A0",
-      "category": "Premium"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Laptops",
+        "TVs",
+        "Appliances",
+        "Electronics"
+      ]
     },
     {
       "id": "google",
       "name": "Google",
-      "logo": "https://cdn.brandfetch.io/google.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/google",
       "color": "#4285F4",
-      "category": "Premium"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Laptops",
+        "Electronics"
+      ]
     },
     {
       "id": "xiaomi",
       "name": "Xiaomi",
-      "logo": "https://cdn.brandfetch.io/xiaomi.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/xiaomi",
       "color": "#FF6900",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics",
+        "Appliances"
+      ]
     },
     {
       "id": "oneplus",
       "name": "OnePlus",
-      "logo": "https://cdn.brandfetch.io/oneplus.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/oneplus",
       "color": "#EB0028",
-      "category": "Mid-Range"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "nothing",
       "name": "Nothing",
       "logo": "https://cdn.simpleicons.org/nothing/000000",
       "color": "#000000",
-      "category": "Mid-Range"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "vivo",
       "name": "vivo",
-      "logo": "https://cdn.brandfetch.io/vivo.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/vivo",
       "color": "#0C64E8",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "realme",
       "name": "Realme",
       "logo": "https://cdn.simpleicons.org/realme/FFC600",
       "color": "#FFC600",
-      "category": "Budget"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "oppo",
       "name": "Oppo",
-      "logo": "https://cdn.brandfetch.io/oppo.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/oppo",
       "color": "#1BA784",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "motorola",
       "name": "Motorola",
-      "logo": "https://cdn.brandfetch.io/motorola.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/motorola",
       "color": "#5C92FC",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "sony",
       "name": "Sony",
-      "logo": "https://cdn.brandfetch.io/sony.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/sony",
       "color": "#0B0B0B",
-      "category": "Premium"
+      "category": "Electronics",
+      "sub_categories": [
+        "Mobiles",
+        "TVs"
+      ]
     },
     {
       "id": "nokia",
       "name": "Nokia",
-      "logo": "https://cdn.brandfetch.io/nokia.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/nokia",
       "color": "#124191",
-      "category": "Budget"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "honor",
       "name": "Honor",
       "logo": "https://cdn.simpleicons.org/honor/00B0E9",
       "color": "#00B0E9",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "asus",
       "name": "Asus",
-      "logo": "https://cdn.brandfetch.io/asus.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/asus",
       "color": "#000000",
-      "category": "Gaming"
+      "category": "Electronics",
+      "sub_categories": [
+        "Laptops",
+        "Mobiles"
+      ]
     },
     {
       "id": "huawei",
       "name": "Huawei",
-      "logo": "https://cdn.brandfetch.io/huawei.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/huawei",
       "color": "#C7000B",
-      "category": "Value"
+      "category": "Mobiles",
+      "sub_categories": [
+        "Electronics",
+        "Laptops"
+      ]
     },
     {
       "id": "medion",
       "name": "Medion",
       "logo": "https://cdn.brandfetch.io/medion.com/w/400/h/400",
       "color": "#0066CC",
-      "category": "Budget"
+      "category": "Laptops"
     },
     {
       "id": "zenith",
@@ -122,37 +176,45 @@
     {
       "id": "toshiba",
       "name": "Toshiba",
-      "logo": "https://cdn.brandfetch.io/toshiba.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/toshiba",
       "color": "#FF0000",
-      "category": "Value"
+      "category": "Laptops",
+      "sub_categories": [
+        "TVs",
+        "Computers"
+      ]
     },
     {
       "id": "compaq",
       "name": "Compaq",
       "logo": "https://cdn.brandfetch.io/compaq.com/w/400/h/400",
       "color": "#0066CC",
-      "category": "Value"
+      "category": "Laptops"
     },
     {
       "id": "lenovo",
       "name": "Lenovo",
-      "logo": "https://cdn.brandfetch.io/lenovo.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/lenovo",
       "color": "#E2231A",
-      "category": "Value"
+      "category": "Laptops",
+      "sub_categories": [
+        "Mobiles",
+        "Computers"
+      ]
     },
     {
       "id": "ibm",
       "name": "IBM",
       "logo": "https://cdn.brandfetch.io/ibm.com/w/400/h/400",
       "color": "#006699",
-      "category": "Premium"
+      "category": "Computers"
     },
     {
       "id": "pine64",
       "name": "Pine64",
       "logo": "https://cdn.simpleicons.org/pine64/000000",
       "color": "#000000",
-      "category": "Budget"
+      "category": "Computers"
     },
     {
       "id": "tandy",
@@ -171,37 +233,49 @@
     {
       "id": "acer",
       "name": "Acer",
-      "logo": "https://cdn.brandfetch.io/acer.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/acer",
       "color": "#83B81A",
-      "category": "Value"
+      "category": "Laptops",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "dell",
       "name": "Dell",
-      "logo": "https://cdn.brandfetch.io/dell.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/dell",
       "color": "#007DB8",
-      "category": "Premium"
+      "category": "Laptops",
+      "sub_categories": [
+        "Computers"
+      ]
     },
     {
       "id": "garmin",
       "name": "Garmin",
-      "logo": "https://cdn.brandfetch.io/garmin.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/garmin",
       "color": "#000000",
-      "category": "Value"
+      "category": "Electronics",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "withings",
       "name": "Withings",
       "logo": "https://cdn.brandfetch.io/withings.com/w/400/h/400",
       "color": "#000000",
-      "category": "Value"
+      "category": "Electronics"
     },
     {
       "id": "tcl",
       "name": "TCL",
       "logo": "https://cdn.brandfetch.io/tcl.com/w/400/h/400",
       "color": "#0071BC",
-      "category": "Budget"
+      "category": "Mobiles",
+      "sub_categories": [
+        "TVs"
+      ]
     },
     {
       "id": "sinclair",
@@ -215,47 +289,51 @@
       "name": "Magnavox",
       "logo": "https://cdn.simpleicons.org/magnavox/000000",
       "color": "#000000",
-      "category": "Other"
+      "category": "TVs"
     },
     {
       "id": "sega",
       "name": "Sega",
-      "logo": "https://cdn.brandfetch.io/sega.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/sega",
       "color": "#003399",
-      "category": "Other"
+      "category": "Electronics"
     },
     {
       "id": "lg",
       "name": "LG",
-      "logo": "https://cdn.brandfetch.io/lg.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/lg",
       "color": "#A50034",
-      "category": "Value"
+      "category": "TVs",
+      "sub_categories": [
+        "Electronics",
+        "Appliances"
+      ]
     },
     {
       "id": "rca",
       "name": "RCA",
       "logo": "https://cdn.brandfetch.io/rca.com/w/400/h/400",
       "color": "#000000",
-      "category": "Other"
+      "category": "TVs"
     },
     {
       "id": "videoton",
       "name": "Videoton",
       "logo": "https://cdn.brandfetch.io/videoton.hu/w/400/h/400",
       "color": "#003399",
-      "category": "Other"
+      "category": "Electronics"
     },
     {
       "id": "brionvega",
       "name": "Brionvega",
       "logo": "https://cdn.brandfetch.io/brionvega.com/w/400/h/400",
       "color": "#000000",
-      "category": "Other"
+      "category": "Electronics"
     },
     {
       "id": "tesla",
       "name": "Tesla",
-      "logo": "https://cdn.brandfetch.io/tesla.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/tesla",
       "color": "#CC0000",
       "category": "Auto"
     },
@@ -271,21 +349,31 @@
       "name": "Koninklijke",
       "logo": "https://cdn.brandfetch.io/philips.com/w/400/h/400",
       "color": "#000000",
-      "category": "Other"
+      "category": "TVs",
+      "sub_categories": [
+        "Electronics",
+        "Appliances"
+      ]
     },
     {
       "id": "fujifilm",
       "name": "Fujifilm",
-      "logo": "https://cdn.brandfetch.io/fujifilm.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/fujifilm",
       "color": "#ED1C24",
-      "category": "Value"
+      "category": "Electronics",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "logitech",
       "name": "Logitech",
       "logo": "https://cdn.brandfetch.io/logitech.com/w/400/h/400",
       "color": "#00B8FC",
-      "category": "Mid-Range"
+      "category": "Computers",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "leaf",
@@ -297,7 +385,7 @@
     {
       "id": "renault",
       "name": "Renault",
-      "logo": "https://cdn.brandfetch.io/renault.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/renault",
       "color": "#FFCC00",
       "category": "Auto"
     },
@@ -311,14 +399,14 @@
     {
       "id": "volkswagen",
       "name": "Volkswagen",
-      "logo": "https://cdn.brandfetch.io/volkswagen.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/volkswagen",
       "color": "#001E50",
       "category": "Auto"
     },
     {
       "id": "rolls-royce",
       "name": "Rolls-Royce",
-      "logo": "https://cdn.brandfetch.io/rolls-royce.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/rollsroyce",
       "color": "#000000",
       "category": "Auto"
     },
@@ -332,7 +420,7 @@
     {
       "id": "ferrari",
       "name": "Ferrari",
-      "logo": "https://cdn.brandfetch.io/ferrari.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/ferrari",
       "color": "#FF2800",
       "category": "Auto"
     },
@@ -346,14 +434,14 @@
     {
       "id": "peugeot",
       "name": "Peugeot",
-      "logo": "https://cdn.brandfetch.io/peugeot.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/peugeot",
       "color": "#000000",
       "category": "Auto"
     },
     {
       "id": "mitsubishi",
       "name": "Mitsubishi",
-      "logo": "https://cdn.brandfetch.io/mitsubishi.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/mitsubishi",
       "color": "#E2001A",
       "category": "Auto"
     },
@@ -374,21 +462,21 @@
     {
       "id": "subaru",
       "name": "Subaru",
-      "logo": "https://cdn.brandfetch.io/subaru.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/subaru",
       "color": "#013C7A",
       "category": "Auto"
     },
     {
       "id": "toyota",
       "name": "Toyota",
-      "logo": "https://cdn.brandfetch.io/toyota.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/toyota",
       "color": "#D31017",
       "category": "Auto"
     },
     {
       "id": "porsche",
       "name": "Porsche",
-      "logo": "https://cdn.brandfetch.io/porsche.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/porsche",
       "color": "#000000",
       "category": "Auto"
     },
@@ -409,7 +497,7 @@
     {
       "id": "mazda",
       "name": "Mazda",
-      "logo": "https://cdn.brandfetch.io/mazda.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/mazda",
       "color": "#101010",
       "category": "Auto"
     },
@@ -423,7 +511,7 @@
     {
       "id": "honda",
       "name": "Honda",
-      "logo": "https://cdn.brandfetch.io/honda.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/honda",
       "color": "#E1001A",
       "category": "Auto"
     },
@@ -465,7 +553,7 @@
     {
       "id": "fiat",
       "name": "Fiat",
-      "logo": "https://cdn.brandfetch.io/fiat.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/fiat",
       "color": "#AA001C",
       "category": "Auto"
     },
@@ -479,7 +567,7 @@
     {
       "id": "ford",
       "name": "Ford",
-      "logo": "https://cdn.brandfetch.io/ford.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/ford",
       "color": "#003D79",
       "category": "Auto"
     },
@@ -493,14 +581,14 @@
     {
       "id": "audi",
       "name": "Audi",
-      "logo": "https://cdn.brandfetch.io/audi.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/audi",
       "color": "#000000",
       "category": "Auto"
     },
     {
       "id": "bugatti",
       "name": "Bugatti",
-      "logo": "https://cdn.brandfetch.io/bugatti.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/bugatti",
       "color": "#000000",
       "category": "Auto"
     },
@@ -521,21 +609,21 @@
     {
       "id": "nissan",
       "name": "Nissan",
-      "logo": "https://cdn.brandfetch.io/nissan.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/nissan",
       "color": "#C3002F",
       "category": "Auto"
     },
     {
       "id": "bmw",
       "name": "BMW",
-      "logo": "https://cdn.brandfetch.io/bmw.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/bmw",
       "color": "#0066B1",
       "category": "Auto"
     },
     {
       "id": "opel",
       "name": "Opel",
-      "logo": "https://cdn.brandfetch.io/opel.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/opel",
       "color": "#000000",
       "category": "Auto"
     },
@@ -556,7 +644,7 @@
     {
       "id": "aston",
       "name": "Aston",
-      "logo": "https://cdn.brandfetch.io/astonmartin.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/astonmartin",
       "color": "#00665E",
       "category": "Auto"
     },
@@ -593,28 +681,34 @@
       "name": "Microsoft",
       "logo": "https://cdn.brandfetch.io/microsoft.com/w/400/h/400",
       "color": "#00A4EF",
-      "category": "Premium"
+      "category": "Laptops",
+      "sub_categories": [
+        "Laptops"
+      ]
     },
     {
       "id": "hewlett-packard",
       "name": "Hewlett-Packard",
-      "logo": "https://cdn.brandfetch.io/hp.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/hp",
       "color": "#0096D6",
-      "category": "Value"
+      "category": "Laptops",
+      "sub_categories": [
+        "Computers"
+      ]
     },
     {
       "id": "suunto",
       "name": "Suunto",
       "logo": "https://cdn.brandfetch.io/suunto.com/w/400/h/400",
       "color": "#000000",
-      "category": "Value"
+      "category": "Electronics"
     },
     {
       "id": "polar",
       "name": "Polar",
       "logo": "https://cdn.brandfetch.io/polar.com/w/400/h/400",
       "color": "#000000",
-      "category": "Value"
+      "category": "Electronics"
     },
     {
       "id": "facel",
@@ -668,7 +762,7 @@
     {
       "id": "cadillac",
       "name": "Cadillac",
-      "logo": "https://cdn.brandfetch.io/cadillac.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/cadillac",
       "color": "#000000",
       "category": "Auto"
     },
@@ -710,7 +804,7 @@
     {
       "id": "volvo",
       "name": "Volvo",
-      "logo": "https://cdn.brandfetch.io/volvo.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/volvo",
       "color": "#003057",
       "category": "Auto"
     },
@@ -731,7 +825,7 @@
     {
       "id": "coda",
       "name": "Coda",
-      "logo": "https://cdn.brandfetch.io/codaautomotive.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/coda",
       "color": "#000000",
       "category": "Auto"
     },
@@ -745,14 +839,14 @@
     {
       "id": "seat",
       "name": "SEAT",
-      "logo": "https://cdn.brandfetch.io/seat.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/seat",
       "color": "#000000",
       "category": "Auto"
     },
     {
       "id": "maserati",
       "name": "Maserati",
-      "logo": "https://cdn.brandfetch.io/maserati.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/maserati",
       "color": "#000000",
       "category": "Auto"
     },
@@ -766,14 +860,14 @@
     {
       "id": "kia",
       "name": "Kia",
-      "logo": "https://cdn.brandfetch.io/kia.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/kia",
       "color": "#05141F",
       "category": "Auto"
     },
     {
       "id": "mg",
       "name": "MG",
-      "logo": "https://cdn.brandfetch.io/mg.co.uk/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/mg",
       "color": "#CC0000",
       "category": "Auto"
     },
@@ -794,7 +888,7 @@
     {
       "id": "hyundai",
       "name": "Hyundai",
-      "logo": "https://cdn.brandfetch.io/hyundai.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/hyundai",
       "color": "#002C5F",
       "category": "Auto"
     },
@@ -829,7 +923,7 @@
     {
       "id": "lamborghini",
       "name": "Lamborghini",
-      "logo": "https://cdn.brandfetch.io/lamborghini.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/lamborghini",
       "color": "#DDB321",
       "category": "Auto"
     },
@@ -913,7 +1007,7 @@
     {
       "id": "citroën",
       "name": "Citroën",
-      "logo": "https://cdn.brandfetch.io/citroen.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/citroen",
       "color": "#000000",
       "category": "Auto"
     },
@@ -1144,9 +1238,12 @@
     {
       "id": "sharp-s",
       "name": "Sharp's",
-      "logo": "https://cdn.brandfetch.io/sharp.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/sharp",
       "color": "#000000",
-      "category": "Other"
+      "category": "TVs",
+      "sub_categories": [
+        "Electronics"
+      ]
     },
     {
       "id": "rimac",
@@ -1165,7 +1262,7 @@
     {
       "id": "tata",
       "name": "Tata",
-      "logo": "https://cdn.brandfetch.io/tata.com/w/400/h/400",
+      "logo": "https://cdn.simpleicons.org/tata",
       "color": "#4860A0",
       "category": "Auto"
     },
@@ -96543,454 +96640,664 @@
   ],
   "news": [
     {
-      "id": "n7094180353",
-      "title": "Meeting Insights is leaving Outlook in August, but only Copilot subscribers get the replacement",
-      "excerpt": "You'll need to pay up for more.",
+      "id": "n9839302439",
+      "title": "Facebook Down",
+      "excerpt": "Facebook Down",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://downdetector.co.uk/status/facebook/",
+      "source": "Hacker News",
+      "image": "https://picsum.photos/seed/53540/600/340"
+    },
+    {
+      "id": "n2923682926",
+      "title": "The Dimplex FlexBlade Multi-Directional Bladeless Fan looks like it's part of a plane, but despite its propeller-like design it may struggle",
+      "excerpt": "The FlexBlade is clever and very flexible, but it's best experienced fairly close –especially in bi-directional mode.",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.techradar.com/home/air-quality/dimplex-flexblade-review",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/kcvjcZQx6Y9yqS2EjgKoUo-1280-80.png"
+    },
+    {
+      "id": "n9941122446",
+      "title": "LibreOffice once again slams Microsoft for using \"lock-in\" with Office files",
+      "excerpt": "It wants to keep things as open as possible.",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/libreoffice-once-again-slams-microsoft-for-using-lock-in-with-office-files/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2025/12/libreoffice-header.jpg"
+    },
+    {
+      "id": "n5619313622",
+      "title": "This GTA: San Andreas mod lets CJ play GTA 3 and Vice City on an in-game television",
+      "excerpt": "Because why not?",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.xda-developers.com/this-gta-san-andreas-mod-lets-you-play-gta-3-and-vice-city-on-an-in-game-television/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/gta-sa-iii-vice-city-featured.jpg"
+    },
+    {
+      "id": "n7343331002",
+      "title": "This awesome ESP32 project simulates an entire ecosystem on your hardware at 60FPS",
+      "excerpt": "It's also very hypnotic to watch.",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/this-awesome-esp32-project-simulates-an-entire-ecosystem-on-your-hardware-at-60fps/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/esp32-ecosystem-featured.jpg"
+    },
+    {
+      "id": "n4376103796",
+      "title": "Best Smart Speakers for 2026: Big Sound and So Much More",
+      "excerpt": "We tested smart speaker audio, voice assistants and sensors to find the best for your home.",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "electronics",
+      "url": "https://www.cnet.com/home/smart-home/best-smart-speaker/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/7be4477e6d9bdbb3cfa6951f4a726b8f53a728a6/hub/2026/06/23/e31bb896-6aa5-4715-980c-d3ccf060146e/google-home-speaker-lit-2.jpg?auto=webp&fit=crop&height=614&width=1092"
+    },
+    {
+      "id": "n9863595879",
+      "title": "I've used foldable phones for years — here's how the Galaxy Z Fold 8 and iPhone Ultra are fixing the form factor in 2026",
+      "excerpt": "Both Samsung and Apple are rumored to be launching 'wide' foldables this year, and I think I know why.",
+      "date": "2026-07-19",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://www.techradar.com/phones/ive-used-foldable-phones-for-years-heres-how-the-galaxy-z-fold-8-and-iphone-ultra-are-fixing-the-form-factor-in-2026",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/Cn3UtGctkgfw3zYAqgu7Rh-1280-80.jpg"
+    },
+    {
+      "id": "n2861316713",
+      "title": "Quordle hints and answers for Sunday, July 19 (game #1637)",
+      "excerpt": "Looking for Quordle clues? We can help. Plus get the answers to Quordle today and past solutions.",
       "date": "2026-07-18",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/meeting-insights-is-leaving-outlook-in-august-but-only-copilot-subscribers-get-the-replacement/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/05/outlook-is-microsoft-neglected-masterpiece.jpg"
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/computing/websites-apps/quordle-today-answers-clues-19-july-2026",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/4XP9iNbdvkijJyZnzx3WoL-1280-80.jpg"
     },
     {
-      "id": "n2208226469",
-      "title": "Most of Flathub's AI-generated apps were abandoned within months",
-      "excerpt": "Some were deleted entirely.",
+      "id": "n6278388357",
+      "title": "NYT Connections hints and answers for Sunday, July 19 (game #1134)",
+      "excerpt": "Looking for NYT Connections answers and hints? Here's all you need to know to solve today's game, plus my commentary on the puzzles.",
       "date": "2026-07-18",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/most-of-flathubs-ai-generated-apps-were-abandoned-within-months-study-finds/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/img_4838.png"
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/gaming/nyt-connections-today-answers-hints-19-july-2026",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/RCGfdf3yhQ9W3MHbTRT6yk-1280-80.jpg"
     },
     {
-      "id": "n3214631392",
-      "title": "Neil Rimer thinks the AI money is coming back out",
-      "excerpt": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or inv…",
+      "id": "n4035535423",
+      "title": "NYT Strands hints and answers for Sunday, July 19 (game #868)",
+      "excerpt": "Looking for NYT Strands answers and hints? Here's all you need to know to solve today's game, including the spangram.",
       "date": "2026-07-18",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-17-at-9.20.56-PM.png?resize=1200,739"
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/computing/websites-apps/nyt-strands-today-answers-hints-19-july-2026",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/XrpFgcngWrtXQscKdLLAZB-1280-80.jpg"
     },
     {
-      "id": "n4053826298",
-      "title": "The Asus ROG Ally X has everything the Steam Deck doesn't, except the one thing that actually matters",
-      "excerpt": "Software is so much more important than might think when it comes to a handheld",
+      "id": "n2881108898",
+      "title": "Even Microsoft couldn't make Windows 11 work well on 8GB of RAM",
+      "excerpt": "Even Microsoft couldn't make Windows 11 work well on 8GB of RAM",
       "date": "2026-07-18",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/i-tried-to-make-my-asus-rog-ally-x-feel-like-a-steam-deck-and-windows-undermined-every-attempt/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/06/whatsapp-image-2026-06-02-at-12-32-57-2-1.jpeg"
-    },
-    {
-      "id": "n158526433",
-      "title": "Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield",
-      "excerpt": "The window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One start…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/stripe-x-battlefield_eventImage-site-crop.jpg?resize=1200,900"
-    },
-    {
-      "id": "n1251106567",
-      "title": "Your flagship SSD might be running at half speed, and your motherboard manual knows why",
-      "excerpt": "Make sure your motherboard is not the unexpected bottleneck!",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/your-flagship-ssd-might-be-running-at-half-speed-and-your-motherboard-manual-knows-why/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2025/10/crucial-nvme-ssd.jpg"
-    },
-    {
-      "id": "n839300175",
-      "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
-      "excerpt": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/vertu-alphafold-unfold.jpg?resize=1200,800"
-    },
-    {
-      "id": "n4846038769",
-      "title": "Ask HN: What Is Happening to Messenger.com?",
-      "excerpt": "In ~February 2026 Facebook announced that messenger.com would not be available starting in April. Starting April 2026, messenger.com will no longer be available for messaging. The…",
-      "date": "2026-07-17",
-      "tag": "Laptops",
-      "url": "https://news.ycombinator.com/item?id=48952992",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
       "source": "Hacker News",
-      "image": "https://picsum.photos/seed/83345/600/340"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268655_Microsoft_Surface_Laptop_13-inch_8GB_2026_review_ADiBenedetto_0001.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
     },
     {
-      "id": "n4555425235",
-      "title": "Facebook Anonymous",
-      "excerpt": "Chris molti",
-      "date": "2026-07-17",
-      "tag": "Laptops",
-      "url": "https://news.ycombinator.com/item?id=48952852",
-      "source": "Hacker News",
-      "image": "https://picsum.photos/seed/87054/600/340"
-    },
-    {
-      "id": "n4484581442",
-      "title": "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
-      "excerpt": "Food producer Taylor Farms released a statement on the Cyclospora outbreak Friday, confirming that it's \"voluntarily removing all iceberg lettuce sourced from central Mexico from …",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
-      "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2139547139.jpg?quality=90&amp;strip=all&amp;crop=0%2C32.036370664711%2C100%2C35.927258670578&amp;w=1200"
-    },
-    {
-      "id": "n9387960747",
-      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-      "excerpt": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024"
-    },
-    {
-      "id": "n6411396797",
-      "title": "There's now an API for mainlining Trump's Truth Social posts",
-      "excerpt": "The API is supposed to deliver posts from the highest-ranking Truth Social accounts.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217943/there-s-now-an-api-for-mainlining-trump-s-truth-social-posts/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/theres-now-an-api-for-mainlining-trumps-truth-social-posts/l-intro-1784325711.jpg"
-    },
-    {
-      "id": "n7897424892",
-      "title": "I used Perplexity Computer to run my Mac and PC workflows — here’s what actually changed",
-      "excerpt": "Perplexity makes workflows easier by connecting devices.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/used-perplexity-computer-to-run-mac-pc-workflows-what-changed/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/11/prompting-perplexity-on-desktop-pc-lamp-and-albums-in-view.jpeg"
-    },
-    {
-      "id": "n98393801",
-      "title": "Gboard could soon stop adding spaces when you don’t want them",
-      "excerpt": "Our APK teardown revealed a new toggle that could save you from deleting unwanted spaces after tapping suggestions.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/gboard-spaces-after-autocorrect-suggestions-apk-teardown-3689011/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/07/Gboard-stock-photo-5.jpg"
-    },
-    {
-      "id": "n7825213121",
-      "title": "I stopped paying for ChatGPT after putting my local LLM on Tailscale",
-      "excerpt": "My phone finally reaches my home server the same way it reaches ChatGPT.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/local-llm-home-server-tailscale-replace-chatgpt/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/05/tailscale-home-lab-hero.jpg"
-    },
-    {
-      "id": "n2448246194",
-      "title": "The Zoom hack that says, ‘Don’t record me’",
-      "excerpt": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1392897289.jpg?resize=1200,806"
-    },
-    {
-      "id": "n6867290737",
-      "title": "Texas spent $4.5M in Spy SUVs that scan phones in 3 minutes",
-      "excerpt": "Texas spent $4.5M in Spy SUVs that scan phones in 3 minutes",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://letsaddresstexas.substack.com/p/texas-spent-45-million-on-israeli",
-      "source": "Hacker News",
-      "image": "https://picsum.photos/seed/95621/600/340"
-    },
-    {
-      "id": "n9549158220",
-      "title": "I replaced five automation scripts with one local AI agent, and it broke things I didn't expect",
-      "excerpt": "It was a bad idea.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/replaced-five-automation-scripts-local-ai-agent-broke-unexpected-things/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/agent-command-hero.jpg"
-    },
-    {
-      "id": "n8613518506",
-      "title": "Got money to burn? Check out this Messi-themed Galaxy Z Fold 8 Ultra",
-      "excerpt": "Only 19 people will own this Messi-themed Galaxy Z Fold 8 Ultra.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/messi-themed-galaxy-z-fold-8-ultra-3688966/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Galaxy-Z-Fold-8-Ultra-Lionel-Messi-edition.jpg"
-    },
-    {
-      "id": "n4463370605",
-      "title": "Meta is reportedly considering a multibillion-dollar data center deal with Anthropic",
-      "excerpt": "It would open up a completely new business for the Facebook and Instagram maker.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217904/meta-is-reportedly-considering-a-multibillion-dollar-data-center-deal-with-anthropic/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/meta-is-reportedly-considering-a-multibillion-dollar-data-center-deal-with-anthropic/l-intro-1784321407.jpg"
-    },
-    {
-      "id": "n8002439747",
-      "title": "This $80 motherboard is the heart of your next budget gaming PC",
-      "excerpt": "It's time for a new summer build on the cheap",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.xda-developers.com/build-yourself-a-powerful-budget-gaming-rig-with-this-asus-motherboard/",
-      "source": "Xda-Developers",
-      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/07/copy-of-169-1-3.jpg"
-    },
-    {
-      "id": "n8626108115",
-      "title": "Gboard could soon be able to understand sign language with your phone’s camera",
-      "excerpt": "Get ready for maybe Gboard's biggest accessibility feature ever: Sign-to-Text.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/gboard-sign-to-text-3688910/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2022/07/Gboard-stock-photo-4.jpg"
-    },
-    {
-      "id": "n2764672218",
-      "title": "Apple Music just quietly raised its prices",
-      "excerpt": "The service now costs between $1 and $3 more per month.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/apple-music-price-increases-3688951/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2023/04/Info-tab-in-Apple-Music-Classical-.jpg"
-    },
-    {
-      "id": "n1472148434",
-      "title": "Spotify could be about to fix one long-standing security omission",
-      "excerpt": "Our APK teardown suggests the streaming platform is finally working on passkeys.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/spotify-passkey-login-apk-teardown-3688948/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2025/09/spotify-default-local-recommendations.jpg"
-    },
-    {
-      "id": "n14994957",
-      "title": "Agility Robotics plants its flag in Tesla’s backyard",
-      "excerpt": "Agility is opening a new training center for its Digit robots in Fremont, California.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/1P1A6479.jpg?resize=800,1200"
-    },
-    {
-      "id": "n3957981876",
-      "title": "Shark s versatile ChillPill cooling system is back to its best price",
-      "excerpt": "Portable fans are one of the easiest ways to stay cool during the summer, and you don t have to spend much to find a decent one. If you re looking for something more versatile, th…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale",
-      "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/shark_chillpill3.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
-    },
-    {
-      "id": "n7741831048",
-      "title": "AI-driven memory crunch jolts India’s smartphone market",
-      "excerpt": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/07/samsung-india-tariffs-2227140805.jpg?resize=1200,800"
-    },
-    {
-      "id": "n6224689019",
-      "title": "There's no evidence that mobile phones will give you brain cancer",
-      "excerpt": "There's no evidence that mobile phones will give you brain cancer",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.rnz.co.nz/life/wellbeing/no-evidence-mobile-phones-cause-brain-cancer-new-study",
-      "source": "Hacker News",
-      "image": "https://media.rnztools.nz/rnz/image/upload/s--6gJJda0o--/t_tohu-badge-facebook/f_auto/q_auto/4JLCP25_hessam_nabavi_vTQbhYfZZ5s_unsplash_jpg"
-    },
-    {
-      "id": "n5290579461",
-      "title": "Apple and Google ordered to purge ‘nudify’ apps from App Stores",
-      "excerpt": "In letters sent to Apple and Google, San Francisco City Attorney David Chiu said that both companies have long been aware that they are hosting apps in violation of state law.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
-      "source": "Techcrunch",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2255009714.jpg?resize=1200,800"
-    },
-    {
-      "id": "n671124110",
-      "title": "Galaxy Z Fold 8 shows up on video as BTS joins Samsung’s hype train",
-      "excerpt": "BTS star J-Hope was just spotted with the unreleased Galaxy Z Fold 8.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/bts-member-holding-galaxy-z-fold-8-3688932/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Galaxy-Z-Fold-8-dummy.jpg"
-    },
-    {
-      "id": "n248422498",
-      "title": "TikTok is testing an AI likeness detection tool",
-      "excerpt": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool i…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951408/STK051_VRG_Illo_N_Barclay_4_tiktok.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
-    },
-    {
-      "id": "n7767184853",
-      "title": "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust",
-      "excerpt": "Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they're signing up for and trust Pebble to make things right if they run into issues, d…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview",
-      "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/11/258119_Pebble_Core_2_Duo_Review_AKrales_0093.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
-    },
-    {
-      "id": "n3699464543",
-      "title": "Zoox issues software recall because its robotaxis may be confused by smoke",
-      "excerpt": "The NHTSA recently called for autonomous vehicle companies to improve how cars respond in emergency situations.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke/l-intro-1784315369.jpg"
-    },
-    {
-      "id": "n9554069789",
-      "title": "The Odyssey in IMAX is worth a long journey of your own",
-      "excerpt": "The Odyssey in IMAX is worth a long journey of your own.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217775/the-odyssey-in-imax-is-worth-a-long-journey-of-your-own/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/the-odyssey-in-imax-is-worth-a-long-journey-of-your-own/l-intro-1784314353.jpg"
-    },
-    {
-      "id": "n2294508624",
-      "title": "Samsung just made outdoor movie nights easier with the Freestyle Plus projector",
-      "excerpt": "This projector is made for viewers who don't want to be stuck on their couch.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/samsung-freestyle-plus-projector-3688901/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/07/Samsung-Freestyle-projector.jpg"
-    },
-    {
-      "id": "n5882979968",
-      "title": "Show HN: Docket (system for active note-taking) now self-hosted after HN asked",
-      "excerpt": "6 months ago [0] I did a Show HN for Docket - it’s a system for active note taking in regular meetings like 1-1s, stands, all-hands, etc. On that thread a few of you asked for a s…",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://withdocket.com/self-hosted",
-      "source": "Hacker News",
-      "image": "https://picsum.photos/seed/17885/600/340"
-    },
-    {
-      "id": "n637940122",
-      "title": "Google Pixel 11a key specs might have just leaked",
-      "excerpt": "This is the first substantial info we've seen about the Pixel 11a.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://www.androidauthority.com/pixel-11a-spec-leak-3688924/",
-      "source": "Androidauthority",
-      "image": "https://www.androidauthority.com/wp-content/uploads/2026/06/Google-Pixel-10a-Berry-against-tree-scaled.jpg"
-    },
-    {
-      "id": "n5912507465",
-      "title": "Pixel 11 reportedly getting ‘improved’ face unlock as 11a said to use Tensor G6",
-      "excerpt": "While we wait for the Pixel 11 launch, rumors about the Pixel 11a and even 12a are already emerging.",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://9to5google.com/2026/07/17/pixel-11-face-unlock-11a-tensor-g6/",
+      "id": "n1409950657",
+      "title": "Galaxy Watch 9 is ‘Powered by Snapdragon Wear Elite,’ leaked images confirm [Gallery]",
+      "excerpt": "As expected, Samsung is switching its new Galaxy Watch 9 over to a Qualcomm chip, the Snapdragon Wear Elite, as some new images confirm.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://9to5google.com/2026/07/18/galaxy-watch-9-is-powered-by-snapdragon-wear-elite-leaked-images-confirm-gallery/",
       "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/pixel-4-face-unlock-1.jpg?quality=82&#038;strip=all&#038;w=1600"
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/galaxy-watch-9-snapdragon-2.jpg?quality=82&#038;strip=all&#038;w=1200"
     },
     {
-      "id": "n3898048356",
-      "title": "Apple Music and Apple One prices rise for the first time in years",
-      "excerpt": "Apple is blaming an Apple Music price hike on rising licensing costs.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217745/apple-music-and-apple-one-new-price-increase/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/apple-music-and-apple-one-prices-rise-for-the-first-time-in-years/l-intro-1784313217.jpg"
+      "id": "n4800652570",
+      "title": "Ukraine set to get its own 'Starlink' satellite constellation with SpaceX starting in 2027 as $1bn project powers on despite CEO death",
+      "excerpt": "Ukraine’s Stetman plans a 360-satellite constellation by 2027, using SpaceX launches and European partnerships despite leadership changes.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/pro/ukraine-set-to-get-its-own-starlink-satellite-constellation-with-spacex-starting-in-2027-as-usd1bn-project-powers-on-despite-ceo-death",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/9Km7ky9AU7NcrTGcdP5ZTe-1280-80.jpg"
     },
     {
-      "id": "n6107196338",
-      "title": "Is the Apple TV 4K still worth buying after the price hike?",
-      "excerpt": "Apple s streaming box is now much more expensive than comparable alternatives. Should you opt for a Fire TV or Roku instead?",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2212812/is-apple-tv-4k-worth-after-price-hike/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/is-the-apple-tv-4k-still-worth-buying-after-the-price-hike/l-intro-1783691703.jpg"
+      "id": "n1499239420",
+      "title": "Quote of the day by Steve Jobs: 'I'm willing to go thermonuclear war on this' — giving a bitter rival both barrels",
+      "excerpt": "The late Apple co-founder was furious with Google's work developing Android, claiming it was a stolen product",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://www.techradar.com/pro/quote-of-the-day-by-steve-jobs-im-willing-to-go-thermonuclear-war-on-this-giving-a-bitter-rival-both-barrels",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/cPHjxuFAYEEA8s96aSmUiK-1280-80.jpg"
     },
     {
-      "id": "n6656320965",
-      "title": "Apple Music is getting a price hike",
-      "excerpt": "Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month,…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/tech/967379/apple-music-price-increase",
+      "id": "n5001133411",
+      "title": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+      "excerpt": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McS…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
       "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23925978/acastro_STK046_02.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2157758001.jpg?quality=90&amp;strip=all&amp;crop=0%2C2.5961195218394%2C100%2C43.073649479563&amp;w=1200"
     },
     {
-      "id": "n811220731",
-      "title": "Here are the Samsung Galaxy Z Flip 8 and Z Fold 8 camera and battery specs, apparently",
-      "excerpt": "Camera upgrades in the Z Flip 8, Fold 8 and Fold 8 Ultra appear to be slim.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217717/here-are-the-samsung-galaxy-z-flip-8-and-z-fold-8-camera-and-battery-specs/",
-      "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/here-are-the-samsung-galaxy-z-flip-8-and-z-fold-8-camera-and-battery-specs-apparently/l-intro-1784311802.jpg"
+      "id": "n6272053521",
+      "title": "USAF's Autonomous AI fighter drone just fired a 'real' AMRAAM air-to-air missile in a world first",
+      "excerpt": "The US Air Force tested an autonomous drone firing an AMRAAM missile, advancing plans for future human-controlled combat aircraft.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/pro/usafs-autonomous-ai-fighter-drone-just-fired-a-real-amraam-air-to-air-missile-in-a-world-first",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/iYQ9fHQkgKEtffDUfqfYXY-1280-80.png"
     },
     {
-      "id": "n5021278415",
-      "title": "Friday’s Android app deals and freebies: Final Fantasy VII, Serial Cleaner, Parabellum, more",
-      "excerpt": "Your Friday afternoon lineup of the best Android game and app deals has arrived, including titles like Foretales, Looking for Aliens, Serial Cleaner, Parabellum: Siege of Legends,…",
-      "date": "2026-07-17",
-      "tag": "Phones",
-      "url": "https://9to5toys.com/2026/07/17/fridays-android-app-deals-and-freebies-final-fantasy-vii-serial-cleaner-parabellum-more/",
+      "id": "n1934753924",
+      "title": "YouTube picture-in-picture (PiP) mode is broken on iPhone, Android",
+      "excerpt": "YouTube is aware of an issue on Android and iPhone where picture-in-picture (PiP) mode does not activate when closing the app.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://9to5google.com/2026/07/18/youtube-pip-broken/",
       "source": "9To5Google",
-      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/Google-Play-Jul-17.webp?w=1600"
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/01/YouTube-Logo-App-3.jpg?quality=82&#038;strip=all&#038;w=1600"
     },
     {
-      "id": "n1117887220",
-      "title": "Apple’s plot to crush OpenAI",
-      "excerpt": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are don…",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "source": "Theverge",
-      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/VRG_VST_071626_Site.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200"
+      "id": "n4035842765",
+      "title": "Today's NYT Connections Hints, Answers and Help for July 19, #1134",
+      "excerpt": "Here are some hints and the answers for the NYT Connections puzzle for July 19, No. 1,134.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.cnet.com/tech/gaming/todays-nyt-connections-hints-answers-and-help-for-july-19-1134/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/3986ca4ac5b498c6114118e0dfa25b2a05ae6531/hub/2025/03/26/c70b0a32-884a-4379-b77b-de75776952ba/nyt-word-games-connections-2798.jpg?auto=webp&fit=crop&height=614&width=1092"
     },
     {
-      "id": "n319835839",
-      "title": "A bug in AWS has caused some customers' bills to spike from a few cents to billions of dollars",
-      "excerpt": "\"The displayed billing estimates do not reflect actual usage and charges,\" Amazon said.",
-      "date": "2026-07-17",
-      "tag": "Tech",
-      "url": "https://www.engadget.com/2217648/a-bug-in-aws-has-caused-some-customer-bills-to-spike-from-a-few-cents-to-billions-of-dollars/",
+      "id": "n3244045631",
+      "title": "Today's Wordle Hints, Answer and Help for July 19, #1856",
+      "excerpt": "Here are hints and the answer for today's Wordle for July 19, No. 1,856.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.cnet.com/tech/gaming/todays-wordle-hints-answer-and-help-for-july-19-1856/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/837b400de41f50a97b52a8c799b193be01cea440/hub/2024/05/28/20480816-214e-4fcc-a9b4-b02f0ac71e7c/wordle-word-game-hints-puzzle-8667.jpg?auto=webp&fit=crop&height=614&width=1092"
+    },
+    {
+      "id": "n8223702791",
+      "title": "Today's NYT Strands Hints, Answers and Help for July 19 #868",
+      "excerpt": "Here are hints and answers for the NYT Strands puzzle for July 19 No. 868.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.cnet.com/tech/gaming/todays-nyt-strands-hints-answers-and-help-for-july-19-868/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/166e67238a28ef7d82e62fe8aec7185a7cc23eda/hub/2024/05/15/859c9110-e596-432b-8690-95e6102759c9/nyt-new-york-times-strands-2054.jpg?auto=webp&fit=crop&height=614&width=1092"
+    },
+    {
+      "id": "n3750187330",
+      "title": "France doubles down on restricting access to Polymarket",
+      "excerpt": "The country's gambling authority ordered ISPs to block access to the prediction market's website.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.engadget.com/2218130/france-doubles-down-on-restricting-access-to-polymarket/",
       "source": "Engadget",
-      "image": "https://www.engadget.com/img/gallery/a-bug-in-aws-has-caused-some-customers-bills-to-spike-from-a-few-cents-to-billions-of-dollars/l-intro-1784307994.jpg"
+      "image": "https://www.engadget.com/img/gallery/france-doubles-down-on-restricting-access-to-polymarket/l-intro-1784402768.jpg"
+    },
+    {
+      "id": "n7196026102",
+      "title": "Waymo says San Francisco service has resumed after one-hour pause",
+      "excerpt": "This isn’t the first time power outages have caused issues for Waymo.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/waymo-SF-getty.jpg?resize=1200,800"
+    },
+    {
+      "id": "n2770086117",
+      "title": "Show HN: Firedeck – Firebase Console for iPhone and iPad",
+      "excerpt": "Show HN: Firedeck – Firebase Console for iPhone and iPad",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://firedeck.net/",
+      "source": "Hacker News",
+      "image": "https://firedeck.net/og/firedeck-og.png"
+    },
+    {
+      "id": "n5639690929",
+      "title": "All Android backup data now counts toward your Google Account storage [Update: Email]",
+      "excerpt": "Google is making a policy change to Android backups that adjusts what counts toward your Google Account storage.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://9to5google.com/2026/07/18/android-backup-data-update/",
+      "source": "9To5Google",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2024/05/Pixel-8a-Settings-screen.jpg?quality=82&#038;strip=all&#038;w=1600"
+    },
+    {
+      "id": "n8392854580",
+      "title": "I replayed Firewatch a decade on — and its storytelling is still some of the best I’ve ever experienced",
+      "excerpt": "We come back to the emotional storytelling of Firewatch a decade after release.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.techradar.com/gaming/i-replayed-firewatch-a-decade-on-and-its-storytelling-is-still-some-of-the-best-ive-ever-experienced",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/vqfacgWr87ah9rzBQUbzs-1280-80.jpg"
+    },
+    {
+      "id": "n664706256",
+      "title": "I breathed new life into my vinyl with Fluance's RT87 turntable and while setup was finicky, it's well worth it for seasoned record collecto",
+      "excerpt": "The Fluance RT87 sounds as great as it is finicky to set up — but then again, if you're a seasoned hi-fi tinkerer, you may actually enjoy the process…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.techradar.com/audio/turntables/fluance-rt87-turntable-review",
+      "source": "Techradar",
+      "image": "https://cdn.mos.cms.futurecdn.net/5cUVxKrWFRU7Q7mCFrWVDM-1280-80.jpg"
+    },
+    {
+      "id": "n2458341049",
+      "title": "JustinGamer191/Holo - turn your desk into a MacBook touch pad",
+      "excerpt": "JustinGamer191/Holo - turn your desk into a MacBook touch pad",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "laptops",
+      "url": "https://github.com/JustinGamer191/Holo",
+      "source": "Hacker News",
+      "image": "https://opengraph.githubassets.com/5ed715e74d7dd9d861b6ca49c01a840c8396be76e719d230b9acbfa3d5195eca/JustinGamer191/Holo"
+    },
+    {
+      "id": "n6758552081",
+      "title": "Ask HN: What percentage do images take up in your computer?",
+      "excerpt": "Hi HN! Hope your weekend is going great.I spent the last few months building a nice frontend (https:&#x2F;&#x2F;oimg.org | https:&#x2F;&#x2F;github.com&#x2F;yunho-c&#x2F;OIMG) to …",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://news.ycombinator.com/item?id=48961047",
+      "source": "Hacker News",
+      "image": "https://picsum.photos/seed/29876/600/340"
+    },
+    {
+      "id": "n1641244735",
+      "title": "Kimi: Threat or menace?",
+      "excerpt": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2254580342.jpg?w=1024"
+    },
+    {
+      "id": "n8934512361",
+      "title": "Apple has banned home service content on upcoming Maps ads",
+      "excerpt": "The company may be trying to save ad space for local businesses.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.engadget.com/2217915/apple-banned-home-service-content-on-upcoming-maps-ads/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/apple-has-banned-home-service-content-on-upcoming-maps-ads/l-intro-1784322336.jpg"
+    },
+    {
+      "id": "n6751009266",
+      "title": "Google might not kneecap the Pixel 11a with an old processor",
+      "excerpt": "Mystic Leaks suggests that the Pixel 11a will return to featuring a flagship-grade processor with the Tensor G6. Rather than the Tensor G5 found in the Pixel 10 and 10 Pro, the Pi…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "source": "Theverge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/google-pixel-10a-7.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.741906587151%2C100%2C78.516186825698&amp;w=1200"
+    },
+    {
+      "id": "n8232289695",
+      "title": "The Linux community's next big fight isn't about Wayland anymore; it's about whether AI belongs in your distro",
+      "excerpt": "Where do you stand?",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/the-next-big-linux-fight-ai/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/linux-battery.jpg"
+    },
+    {
+      "id": "n5199606960",
+      "title": "The Perfect First Car Is a Truck",
+      "excerpt": "The Ford Maverick is versatile, safe, and—dare I say—cool. It's the perfect first car, and used ones get cheaper every day.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.caranddriver.com/features/a72591225/the-perfect-first-car-is-a-truck/",
+      "source": "Caranddriver",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/5db5c591-3a98-47e8-a16f-5a0b1a8d02d3.jpg"
+    },
+    {
+      "id": "n3946669247",
+      "title": "People's Picks TV Winners: Upgrading Your TV Soon? CNET Readers Have a Favorite Brand",
+      "excerpt": "Two brands win readers over, but for different reasons.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tvs",
+      "url": "https://www.cnet.com/tech/home-entertainment/peoples-picks-2026-tvs/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/00d9cf8399c12a21ccf6903073a724710568bff7/hub/2026/07/14/eb12c5b3-63dd-41f1-90b3-e1f9daf5a159/image-6.png?auto=webp&fit=crop&height=614&width=1092"
+    },
+    {
+      "id": "n9016648878",
+      "title": "ZA/UM announces layoffs two months after the launch of Zero Parades",
+      "excerpt": "Up to 32 employees were affected by the studio's recent decision.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.engadget.com/2218116/disco-elysium-studio-za-um-layoffs-after-launch-zero-parades/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/zaum-announces-layoffs-two-months-after-the-launch-of-zero-parades/l-intro-1784396866.jpg"
+    },
+    {
+      "id": "n9827474834",
+      "title": "GTA 3 and Vice City are now playable inside San Andreas — a mod lets you revisit Liberty City and Vice City without leaving San Andreas",
+      "excerpt": "A GTA modder has embedded GTA 3 and Vice City within San Andreas, even nesting Vice City within GTA 3, with all three games continuing to run simultaneously.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/gta-3-and-vice-city-are-now-playable-inside-san-andreas-a-mod-lets-you-revisit-liberty-city-and-vice-city-without-leaving-san-andreas",
+      "source": "Tomshardware",
+      "image": "https://cdn.mos.cms.futurecdn.net/37Jn8zQGmP8oWez3ZDkZ7C-1280-80.jpg"
+    },
+    {
+      "id": "n9656623845",
+      "title": "AMD’s new Ryzen 7 7700X3D plummets to $279 days after launch — the X3D chip rules the mid-range at its discounted price",
+      "excerpt": "The Ryzen 7 7700X3D has suddenly become a solid value thanks to a $50 promo code, knocking its price down from $329 to just $279 on Newegg.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.tomshardware.com/pc-components/cpus/amds-new-ryzen-7-7700x3d-plummets-to-usd279-days-after-launch-the-x3d-chip-rules-the-mid-range-at-its-discounted-price",
+      "source": "Tomshardware",
+      "image": "https://cdn.mos.cms.futurecdn.net/Xd378i3ZkEmbM7A7Tzt59S-1280-80.jpg"
+    },
+    {
+      "id": "n2280165183",
+      "title": "Strapping 11 fans and a 360mm AIO to an RTX 3080 sounds crazy until you see the 30°C temp drop — modded GPU delivered less than 5 FPS uplift",
+      "excerpt": "TrashBench recently decided to test whether adding more and more fans to a powerful GPU would improve its performance.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.tomshardware.com/pc-components/cooling/strapping-11-fans-and-a-360mm-aio-to-an-rtx-3080-sounds-crazy-until-you-see-the-30-c-temp-drop-modded-gpu-delivered-less-than-5-fps-uplift",
+      "source": "Tomshardware",
+      "image": "https://cdn.mos.cms.futurecdn.net/DynHcZZfQG3XYCoT35qQ6-1280-80.jpg"
+    },
+    {
+      "id": "n2159328470",
+      "title": "Jurassic Park packed $4 million of legit 1993 computer hardware — a software engineer detailed every single piece of hardware in the film",
+      "excerpt": "Google software engineer Fabien Sanglard meticulously listed the computer hardware and software used in the first Jurassic Park film. He even added details for each device, turnin…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.tomshardware.com/desktops/jurassic-park-packed-usd4-million-of-legit-1993-computer-hardware-a-software-engineer-detailed-every-single-piece-of-hardware-in-the-film",
+      "source": "Tomshardware",
+      "image": "https://cdn.mos.cms.futurecdn.net/4nnN9JAxYocoRVKJPPVJ6E-1280-80.jpg"
+    },
+    {
+      "id": "n4193655703",
+      "title": "I ditched half my subscriptions, all because of one hobby",
+      "excerpt": "I never planned to reduce my software subscriptions, but self-hosting made many of them completely unnecessary.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.xda-developers.com/ditched-half-my-subscriptions-all-because-of-one-hobby/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2025/06/home-lab-server-cabinet.jpg"
+    },
+    {
+      "id": "n6229503419",
+      "title": "Bentley's EV Will Swap Faux Engine Noise for an Onboard Drum Track",
+      "excerpt": "Crewe measured its most famous combustion engines and determined that the way to replace that soundtrack was old-fashioned percussion.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.caranddriver.com/news/a73172900/bentley-torcal-ev-sound-drum-track/",
+      "source": "Caranddriver",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/bentleyurbansuv-ev10-kgp-68d2bf2033e80.jpg"
+    },
+    {
+      "id": "n6699358134",
+      "title": "Toyota Exec Says Japanese Automakers Need to Increase Cooperation",
+      "excerpt": "Seeing the threat of looming Chinese competition on the horizon, Japan braces for the storm.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.caranddriver.com/news/a73173127/toyota-exec-says-japanese-automakers-need-to-increase-cooperation/",
+      "source": "Caranddriver",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/7e62cc7b-06ee-4647-b956-8189e131390e.jpg"
+    },
+    {
+      "id": "n2598151604",
+      "title": "X and music publishers quietly settle opposing lawsuits",
+      "excerpt": "The original lawsuit was filed in 2023 and claimed Twitter hosted thousands of cases of copyright infringement.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://www.engadget.com/2218101/x-music-publishers-quietly-settle-opposing-lawsuits/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/x-and-music-publishers-quietly-settle-opposing-lawsuits/l-intro-1784392202.jpg"
+    },
+    {
+      "id": "n6388014895",
+      "title": "Google is open-sourcing its 3D emoji",
+      "excerpt": "Now, if you want to, you can use Google's 3D emoji in your own creations. The company shared some details about how it went about designing the little pictograms and why, as part …",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
+      "source": "Theverge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/videoframe_212.png?quality=90&amp;strip=all&amp;crop=0%2C7.7704522439834%2C100%2C84.459095512033&amp;w=1200"
+    },
+    {
+      "id": "n1497843896",
+      "title": "All the EVs that were discontinued or killed off in the U.S. this year",
+      "excerpt": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Honda-Prologue-at-Tesla-Supercharger1.jpg?resize=1200,801"
+    },
+    {
+      "id": "n6061223685",
+      "title": "I cloned my voice with 5 seconds of audio and no GPU, and I understand the panic now",
+      "excerpt": "As a former banker, this terrifies me beyond measure",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/i-cloned-my-voice-with-5-seconds-of-audio-and-no-gpu-and-i-understand-the-panic-now/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/kyutai-pocket-tts.jpg"
+    },
+    {
+      "id": "n3346821571",
+      "title": "The Top Continuous Glucose Monitors That Doctors Recommend",
+      "excerpt": "If you need to track your glucose, these are the CGM monitors to consider.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tvs",
+      "url": "https://www.cnet.com/health/medical/best-continuous-glucose-monitors/",
+      "source": "Cnet",
+      "image": "https://www.cnet.com/a/img/resize/a6dd4cedca73e7913e491e0522828fca12de087a/hub/2024/11/15/23597f21-f1fa-4f1e-b86e-913155e10c0c/img-8138-1.jpg?auto=webp&fit=crop&height=614&width=1092"
+    },
+    {
+      "id": "n16034579",
+      "title": "Federal employees can download TikTok on their work phones again",
+      "excerpt": "The Department of Justice says that federal employees can now download TikTok on their government devices.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-1821998528.jpg?resize=1200,800"
+    },
+    {
+      "id": "n3906695532",
+      "title": "Denote Notes on the iPhone",
+      "excerpt": "Denote Notes on the iPhone",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://en.andros.dev/blog/9abcdcfe/your-denote-notes-on-the-iphone/",
+      "source": "Hacker News",
+      "image": "https://img.andros.dev/6cmUzkL494kzbOGKoZIeb_GHXDU=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/nathalia-rosa-P1SdQAhcJz8-unsplash.jpg"
+    },
+    {
+      "id": "n4885695122",
+      "title": "I stopped downloading VirtualBox after discovering Windows 11's built-in sandbox",
+      "excerpt": "A desktop within my desktop comes in handy a surprising amount of times",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/windows-11-has-a-built-in-vm-tool-most-people-replace-with-third-party-software/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/windows-sandbox-on-a-pc.jpg"
+    },
+    {
+      "id": "n9106966044",
+      "title": "How does the Apple Watch water lock feature actually work?",
+      "excerpt": "The water lock feature on Apple Watches automatically activates when you re swimming, but what does it do?",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.engadget.com/2213629/how-apple-watch-water-lock-feature-works/",
+      "source": "Engadget",
+      "image": "https://www.engadget.com/img/gallery/how-does-the-apple-watch-water-lock-feature-actually-work/l-intro-1783628068.jpg"
+    },
+    {
+      "id": "n9951926926",
+      "title": "Grab AMD’s Ryzen 7 5800X3D 10th Anniversary CPU with motherboard and 16GB RAM for just $529 — save over $100 on this epic AMD gaming bundle",
+      "excerpt": "Newegg has a great combo bundle on sale with over $100 in savings for the fastest DDR4 gaming system you can build today. It pairs a Ryzen 7 5800X3D with 16GB of CL16 DDR4-3200 RA…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.tomshardware.com/pc-components/cpus/grab-amds-ryzen-7-5800x3d-10th-anniversary-cpu-with-motherboard-and-16gb-ram-for-just-usd529-save-over-usd100-on-this-epic-amd-gaming-bundle",
+      "source": "Tomshardware",
+      "image": "https://cdn.mos.cms.futurecdn.net/oKunzKLo3D6PPpT5Jt8ajj-1280-80.png"
+    },
+    {
+      "id": "n8475845237",
+      "title": "Show HN: Teya – Open‑source AI family agent on a wall‑mounted Android phone",
+      "excerpt": "Show HN: Teya – Open‑source AI family agent on a wall‑mounted Android phone",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "mobiles",
+      "url": "https://github.com/adgapar/teya",
+      "source": "Hacker News",
+      "image": "https://opengraph.githubassets.com/e5cec974f96966f856f7b390050a13138b07795b09b9a965d12ae3b556a6336c/adgapar/teya"
+    },
+    {
+      "id": "n1500047950",
+      "title": "My morning news routine used to be five apps showing the same story — until I self-hosted MuckScraper",
+      "excerpt": "The news didn't change. My mornings did.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.xda-developers.com/news-routine-used-apps-showing-same-story-until-self-hosted-muckscraper/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/muckscraper-dashboard-hero.jpeg"
+    },
+    {
+      "id": "n7017160491",
+      "title": "Head-Turning 1948 Mercury Woody 4x4 Wagon Is up for Sale on Bring a Trailer",
+      "excerpt": "This four-wheel-drive wagon was a precursor to the modern SUV.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.caranddriver.com/news/a72630404/1948-mercury-woody-4x4-bring-a-trailer-auction/",
+      "source": "Caranddriver",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/8f01fc8b-0640-44dc-8c22-a03570c2944e.png"
+    },
+    {
+      "id": "n8735371842",
+      "title": "A 600-mile road trip (and data) proves EV charging doesn’t suck anymore",
+      "excerpt": "A recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S.",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
+      "source": "Techcrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1239983684.jpeg?resize=1200,800"
+    },
+    {
+      "id": "n886988597",
+      "title": "These Fire TV settings made my aging streaming stick feel brand new, no hardware upgrade needed",
+      "excerpt": "I'm not buying those new VegaOS sticks just yet, thank you",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tvs",
+      "url": "https://www.xda-developers.com/simple-settings-that-gave-my-fire-tv-stick-a-free-upgrade/",
+      "source": "Xda-Developers",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/07/amazon-fire-tv-stick.jpg"
+    },
+    {
+      "id": "n5295013665",
+      "title": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
+      "excerpt": "Carter Sherman has been covering sex, gender, and the complex personal and national politics that accompany them for years. She was a senior reporter for Vice and has written for …",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "auto",
+      "url": "https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
+      "source": "Theverge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/CARTER-FNL-9816-EV3.jpg?quality=90&amp;strip=all&amp;crop=0%2C29.057591623037%2C100%2C41.884816753927&amp;w=1200"
+    },
+    {
+      "id": "n6717066028",
+      "title": "Surprise! Facial recognition smart locks are actually good",
+      "excerpt": "Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "tech",
+      "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+      "source": "Theverge",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/IMG_7964-1.jpeg?quality=90&amp;strip=all&amp;crop=0%2C15.095986038394%2C100%2C69.808027923211&amp;w=1200"
+    },
+    {
+      "id": "n8503430783",
+      "title": "LG ThinQ Terms of Use",
+      "excerpt": "Some of my kitchen appliances are LG and I installed the LG ThinQ app on my phone.Sometimes I like to leave a cold dish in the oven before I go out then remotely start it when I’m…",
+      "date": "2026-07-18",
+      "dateLabel": "Today",
+      "tag": "appliances",
+      "url": "https://news.ycombinator.com/item?id=48958273",
+      "source": "Hacker News",
+      "image": "https://picsum.photos/seed/14402/600/340"
     }
   ]
 }

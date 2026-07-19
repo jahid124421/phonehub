@@ -1,0 +1,6 @@
+--- RESULT ---
+The report above is complete. Here is a summary of the most critical finding:
+
+The core bug is that **`wikidata_seed.py`** seeded automobile products and brands into the same `specs.json` data structures used for phones, and the downstream pipeline (`build.py`, `brands.html`, `prerender.py`) has **no category-based filtering** at any stage. Car brands (120+ entries in `BRAND_DATABASE`, lines 183-560 of `ph_common.py`) are enriched with logos and included in `window.BRANDS`, while car products (category "auto") flow into `window.PHONES`. The brands page counts all products per brand indiscriminately, so car brands display phone counts based on automobile data.
+
+The highest-impact single fix is adding a `category == "phone"` filter in `build.py` (around line 64) before appending to the merged list, which would prevent car products from reaching `js/data.js` entirely.

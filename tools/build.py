@@ -20,6 +20,26 @@ import ph_common as C
 # drop lifestyle / in-hand / review images; keep clean product shots only
 _BAD_IMG = re.compile(r"/reviews/|lifestyle|gsmarena_\d|in-hand|hands-on|-hand", re.I)
 
+# Category-aware display labels for product counts
+CATEGORY_LABELS = {
+    'phone': 'phones',
+    'auto': 'vehicles',
+    'laptop': 'laptops',
+    'tv': 'TVs',
+    'tablet': 'tablets',
+    'smartwatch': 'smartwatches',
+    'camera': 'cameras',
+    'electronic': 'electronics',
+    'appliance': 'appliances',
+    'accessory': 'accessories',
+    'computer': 'computers',
+}
+
+
+def category_label(cat):
+    """Return the plural display label for a product category."""
+    return CATEGORY_LABELS.get((cat or 'phone').lower(), 'products')
+
 
 def product_images(imgs):
     return [u for u in (imgs or []) if u and not _BAD_IMG.search(u)]
@@ -43,6 +63,9 @@ def enrich_brands(brands):
             "color": brand_data.get("color", "#5b8cff"),
             "category": brand_data.get("category", "Other")
         }
+        # Pass through sub_categories if present
+        if "sub_categories" in brand_data:
+            enriched_brand["sub_categories"] = brand_data["sub_categories"]
         enriched.append(enriched_brand)
     
     return enriched
@@ -136,8 +159,19 @@ def main():
 
     priced = sum(1 for m in merged if m["basePrice"])
     reviewed = sum(1 for m in merged if m["rating"])
-    print(f"[build] wrote js/data.js — {len(merged)} phones "
+
+    # Category-aware count summary
+    cat_counts = {}
+    for m in merged:
+        cat = (m.get("category") or "phone").lower()
+        cat_counts[cat] = cat_counts.get(cat, 0) + 1
+    cat_summary = ", ".join(
+        f"{count} {category_label(cat)}" for cat, count in sorted(cat_counts.items(), key=lambda x: -x[1])
+    )
+
+    print(f"[build] wrote js/data.js — {len(merged)} products "
           f"({reviewed} with AI reviews, {priced} with live prices)")
+    print(f"[build] breakdown: {cat_summary}")
     print(f"[build] wrote data/*.json — {len(merged)} products, "
           f"{len(enriched_brands)} brands, {len(stores)} stores, "
           f"{len(news)} news items")
