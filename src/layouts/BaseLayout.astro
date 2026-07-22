@@ -22,6 +22,9 @@ const {
 const siteUrl = 'https://jahid124421.github.io/phonehub';
 const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 const fullCanonical = canonical || Astro.url.href;
+
+// GA4 measurement ID — set via env var at build time, falls back to placeholder
+const GA_MEASUREMENT_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX';
 ---
 
 <html lang="en" data-theme="phonehub">
@@ -65,6 +68,34 @@ const fullCanonical = canonical || Astro.url.href;
 
     <!-- View Transitions -->
     <ViewTransitions />
+
+    <!-- Google Analytics 4 (cookie-consent aware) -->
+    <script is:inline define:vars={{ GA_ID: GA_MEASUREMENT_ID }}>
+      (function() {
+        var COOKIE_KEY = 'phonehub_cookie_consent';
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        window.gtag = gtag;
+
+        // Default: deny analytics until user consents
+        gtag('consent', 'default', { analytics_storage: 'denied' });
+
+        var consent = null;
+        try { consent = localStorage.getItem(COOKIE_KEY); } catch(e) {}
+
+        if (consent === 'accepted') {
+          gtag('consent', 'update', { analytics_storage: 'granted' });
+          var s = document.createElement('script');
+          s.async = true;
+          s.id = 'ga4-script';
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+          document.head.appendChild(s);
+          gtag('js', new Date());
+          gtag('config', GA_ID);
+        }
+        // If not yet decided, common.js will call PH.loadGA4Script() on accept
+      })();
+    </script>
   </head>
   <body class="min-h-screen flex flex-col">
     <Header />

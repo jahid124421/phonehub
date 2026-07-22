@@ -52,6 +52,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: pages
@@ -138,8 +139,9 @@ jobs:
 
       # ── 6. Install npm dependencies (cached) ──────────────────────────
       # Uses npm ci for reproducible installs from package-lock.json.
-      - name: Install npm dependencies
-        run: npm ci
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
       # ── 7. Data pipeline (all steps use continue-on-error) ────────────
       # Each pipeline stage is fault-tolerant: if one fails, the build

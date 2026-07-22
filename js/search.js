@@ -1,10 +1,13 @@
-/* Catalog: search + category + brand + rating filters + sort */
+/* Catalog: search + category + brand + rating filters + sort + pagination */
 (function () {
   const grid = document.getElementById("resultsGrid");
   const countEl = document.getElementById("resultCount");
   const priceRange = document.getElementById("priceRange");
   const priceLabel = document.getElementById("priceLabel");
   const sortSelect = document.getElementById("sortSelect");
+  const paginationEl = document.getElementById("pagination");
+
+  const PER_PAGE = 20;
 
   const CAT_LABELS = { phone: "Phones", tablet: "Tablets", laptop: "Laptops",
     tv: "TVs", smartwatch: "Watches", earbuds: "Earbuds", headphones: "Headphones",
@@ -16,7 +19,8 @@
     brands: new Set(PH.param("brand") ? [PH.param("brand")] : []),
     maxPrice: Number(priceRange.max),
     minRating: 0,
-    sort: PH.param("sort") || "popularity"
+    sort: PH.param("sort") || "popularity",
+    page: 1
   };
   sortSelect.value = ["popularity", "newest", "priceLow", "priceHigh", "rating"].includes(state.sort) ? state.sort : "popularity";
 
@@ -34,7 +38,7 @@
       const b = e.target.closest("[data-cat]"); if (!b) return;
       state.cat = b.getAttribute("data-cat");
       catBar.querySelectorAll(".news-chip").forEach((x) => x.classList.toggle("active", x === b));
-      apply();
+      state.page = 1; apply();
     });
   }
 
@@ -46,6 +50,73 @@
   const crumb = document.getElementById("crumbLabel");
   if (state.q && crumb) crumb.textContent = `Search: "${state.q}"`;
   else if (state.cat !== "all" && crumb) crumb.textContent = CAT_LABELS[state.cat] || state.cat;
+
+  /* ---- helpers ---- */
+  function renderPagination(totalItems) {
+    const totalPages = Math.ceil(totalItems / PER_PAGE);
+    if (totalPages <= 1) { paginationEl.innerHTML = ""; return; }
+
+    let html = "";
+    // Previous
+    html += `<button data-page="prev" ${state.page === 1 ? "disabled" : ""}>← Prev</button>`;
+
+    // Page numbers with ellipsis
+    const pages = buildPageNumbers(state.page, totalPages);
+    pages.forEach((p) => {
+      if (p === "…") {
+        html += `<span class="pg-ellipsis">…</span>`;
+      } else {
+        html += `<button data-page="${p}" ${p === state.page ? 'class="active"' : ""}>${p}</button>`;
+      }
+    });
+
+    // Next
+    html += `<button data-page="next" ${state.page === totalPages ? "disabled" : ""}>Next →</button>`;
+
+    paginationEl.innerHTML = html;
+  }
+
+  function buildPageNumbers(current, total) {
+    // Show first, last, and up to 2 neighbours around current
+    const delta = 2;
+    const range = [];
+    const rangeWithDots = [];
+    let l;
+    for (let i = 1; i <= total; i++) {
+      if (i === 1 || i === total || (i >= current - delta && i <= current + delta)) {
+        range.push(i);
+      }
+    }
+    range.forEach((i) => {
+      if (l) {
+        if (i - l === 2) rangeWithDots.push(l + 1);
+        else if (i - l > 2) rangeWithDots.push("…");
+      }
+      rangeWithDots.push(i);
+      l = i;
+    });
+    return rangeWithDots;
+  }
+
+  function goToPage(p, totalPages) {
+    if (p === "prev") state.page = Math.max(1, state.page - 1);
+    else if (p === "next") state.page = Math.min(totalPages, state.page + 1);
+    else state.page = Number(p);
+    renderPage();
+    // scroll to top of results
+    const top = grid.closest(".layout") || grid;
+    top.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  paginationEl.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-page]");
+    if (!btn || btn.disabled) return;
+    const totalPages = Math.ceil(filteredCache.length / PER_PAGE);
+    goToPage(btn.getAttribute("data-page"), totalPages);
+  });
+
+  /* ---- filter + sort + render ---- */
+  let filteredCache = []; // keep reference for pagination clicks
 
   function apply() {
     let list = PH.getPhones().filter((p) => {
@@ -70,27 +141,51 @@
     };
     list.sort(sorters[state.sort] || sorters.popularity);
 
-    countEl.textContent = `${list.length} ${list.length !== 1 ? "products" : "product"}`;
-    grid.innerHTML = list.length
-      ? list.map(PH.phoneCard).join("")
-      : `<div class="empty">Nothing matches your filters. Try widening them.</div>`;
+    filteredCache = list;
+    renderPage();
   }
 
+  function renderPage() {
+    const list = filteredCache;
+    const total = list.length;
+    const totalPages = Math.ceil(total / PER_PAGE);
+    if (state.page > totalPages) state.page = Math.max(1, totalPages);
+
+    const start = (state.page - 1) * PER_PAGE;
+    const pageItems = list.slice(start, start + PER_PAGE);
+
+    // Update count label: "Showing 1-20 of 347 products"
+    if (total === 0) {
+      countEl.textContent = "0 products";
+    } else {
+      const from = start + 1;
+      const to = Math.min(start + PER_PAGE, total);
+      countEl.textContent = `Showing ${from}–${to} of ${total} ${total !== 1 ? "products" : "product"}`;
+    }
+
+    grid.innerHTML = pageItems.length
+      ? pageItems.map(PH.phoneCard).join("")
+      : `<div class="empty">Nothing matches your filters. Try widening them.</div>`;
+
+    renderPagination(total);
+  }
+
+  /* ---- event listeners (reset page to 1 on filter change) ---- */
   document.getElementById("brandFilters").addEventListener("change", (e) => {
     const v = e.target.value;
     if (e.target.checked) state.brands.add(v); else state.brands.delete(v);
-    apply();
+    state.page = 1; apply();
   });
   priceRange.addEventListener("input", () => {
     state.maxPrice = Number(priceRange.value);
     priceLabel.textContent = PH.formatPrice(state.maxPrice);
-    apply();
+    state.page = 1; apply();
   });
   document.querySelectorAll("input[name=rating]").forEach((r) =>
-    r.addEventListener("change", () => { state.minRating = Number(r.value); apply(); }));
-  sortSelect.addEventListener("change", () => { state.sort = sortSelect.value; apply(); });
+    r.addEventListener("change", () => { state.minRating = Number(r.value); state.page = 1; apply(); }));
+  sortSelect.addEventListener("change", () => { state.sort = sortSelect.value; state.page = 1; apply(); });
   document.getElementById("resetFilters").addEventListener("click", () => {
-    state.brands.clear(); state.maxPrice = Number(priceRange.max); state.minRating = 0; state.q = ""; state.cat = "all";
+    state.brands.clear(); state.maxPrice = Number(priceRange.max); state.minRating = 0; state.q = ""; state.cat = "all"; state.page = 1;
     priceRange.value = priceRange.max; priceLabel.textContent = PH.formatPrice(state.maxPrice);
     document.querySelectorAll("#brandFilters input").forEach((c) => (c.checked = false));
     document.querySelector("input[name=rating][value='0']").checked = true;

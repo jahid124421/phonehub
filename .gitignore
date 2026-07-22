@@ -57,7 +57,6 @@ UNIFIED_SERVER.bat
 key_result.txt
 models.json
 omniroute_key.txt
-package-lock.json
 session-key-guide.html
 skills-lock.json
 test*.txt

@@ -329,7 +329,7 @@ section { padding: 34px 0; }
 @keyframes phFadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 .grid .card { animation: phFadeUp .35s ease both; }
 
-/* ---------- cookie consent banner ---------- */
+/* ---------- cookie consent banner (legacy) ---------- */
 .cookie-banner {
   position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 80;
   background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
@@ -341,8 +341,112 @@ section { padding: 34px 0; }
 .cookie-banner p a { color: var(--primary); }
 .cookie-banner .cookie-actions { display: flex; gap: 8px; }
 
+/* ---------- cookie consent panel (GDPR) ---------- */
+.cookie-overlay {
+  position: fixed; inset: 0; z-index: 998; background: rgba(0,0,0,.55);
+  display: none;
+}
+.cookie-overlay.show { display: block; }
+.cookie-panel {
+  position: fixed; left: 50%; top: 50%; z-index: 999;
+  transform: translate(-50%, -50%);
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.35); padding: 24px 28px;
+  max-width: 480px; width: 92%; display: none;
+}
+.cookie-panel.show { display: block; }
+.cookie-panel h3 { font-size: 1.15rem; }
+.cookie-panel p a { color: var(--primary); }
+.cookie-category {
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 14px; margin-bottom: 10px;
+}
+.cookie-cat-row {
+  display: flex; align-items: flex-start; gap: 10px; cursor: pointer;
+}
+.cookie-cat-row input[type="checkbox"] {
+  margin-top: 3px; flex-shrink: 0; width: 16px; height: 16px;
+}
+.cookie-cat-row div { flex: 1; }
+.cookie-panel .cookie-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
 /* ---------- empty ---------- */
 .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+
+/* ---------- trending carousel ---------- */
+.trending-scroll {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding-bottom: 10px; -webkit-overflow-scrolling: touch;
+}
+.trending-scroll::-webkit-scrollbar { height: 6px; }
+.trending-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.trending-scroll .card { min-width: 220px; max-width: 220px; scroll-snap-align: start; flex: none; }
+
+/* ---------- buying guides ---------- */
+.guides-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.guide-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  overflow: hidden; transition: .15s;
+}
+.guide-card:hover { border-color: var(--primary); transform: translateY(-3px); box-shadow: var(--shadow); }
+.guide-header {
+  padding: 16px 18px; background: linear-gradient(135deg, var(--surface-2), var(--surface));
+  border-bottom: 1px solid var(--border);
+}
+.guide-header h3 { margin: 0 0 4px; font-size: 16px; }
+.guide-header p { margin: 0; font-size: 13px; color: var(--muted); }
+.guide-list { padding: 8px 14px; }
+.guide-item {
+  display: flex; align-items: center; gap: 12px; padding: 10px 4px;
+  border-bottom: 1px solid var(--border); text-decoration: none; color: inherit;
+}
+.guide-item:last-child { border-bottom: none; }
+.guide-item:hover { background: var(--surface-2); border-radius: 8px; }
+.guide-item img {
+  width: 48px; height: 48px; object-fit: contain; border-radius: 8px;
+  background: var(--card-img-bg); flex: none; padding: 4px;
+}
+.guide-item-info { flex: 1; min-width: 0; }
+.guide-item-name { font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.guide-item-meta { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.guide-item-why {
+  font-size: 11px; color: var(--primary); font-weight: 600; margin-top: 3px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* ---------- video reviews section ---------- */
+.video-section {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 24px; text-align: center;
+}
+.video-section h2 { margin: 0 0 8px; }
+.video-section p { color: var(--muted); margin: 0 0 16px; font-size: 14px; }
+.video-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 24px; border-radius: 10px; font-weight: 700;
+  background: #ff0000; color: #fff; text-decoration: none; font-size: 15px;
+  transition: .15s;
+}
+.video-btn:hover { background: #cc0000; transform: translateY(-2px); box-shadow: var(--shadow); }
+.video-btn svg { width: 20px; height: 20px; fill: currentColor; }
+
+/* ---------- recently viewed ---------- */
+.recently-viewed-scroll {
+  display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px;
+  -webkit-overflow-scrolling: touch;
+}
+.recently-viewed-scroll::-webkit-scrollbar { height: 6px; }
+.recently-viewed-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+.recently-viewed-scroll .card { min-width: 200px; max-width: 200px; flex: none; }
+
+/* ---------- enhanced price comparison ---------- */
+.price-table .store-logo {
+  display: inline-flex; align-items: center; gap: 8px; font-weight: 600;
+}
+.price-table .store-dot {
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+}
+.price-table tr:hover { background: var(--surface-2); }
 
 /* ---------- responsive ---------- */
 @media (max-width: 860px) {
@@ -356,4 +460,6 @@ section { padding: 34px 0; }
   .search-form { order: 4; max-width: none; flex-basis: 100%; }
   .header-inner { flex-wrap: wrap; height: auto; padding: 10px 0; gap: 10px; }
   .proscons { grid-template-columns: 1fr; }
+  .guides-grid { grid-template-columns: 1fr; }
+  .trending-scroll .card { min-width: 180px; max-width: 180px; }
 }

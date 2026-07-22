@@ -6,6 +6,58 @@
 
   const PH = {};
 
+  /* ---------- cookie consent key (shared) ---------- */
+  const COOKIE_KEY = "phonehub_cookie_consent";
+
+  /* ---------- Google Analytics 4 ---------- */
+  const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX';
+
+  PH.initGA4 = () => {
+    // Set default consent to denied until user explicitly accepts
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { window.dataLayer.push(arguments); }
+    window.gtag = gtag;
+    gtag('consent', 'default', {
+      analytics_storage: 'denied'
+    });
+
+    const raw = localStorage.getItem(COOKIE_KEY);
+    let accepted = false;
+    if (raw) {
+      try {
+        const parsed = JSON.parse(raw);
+        accepted = parsed && parsed.analytics;
+      } catch (_) {
+        // Legacy format: simple "accepted" / "declined" string
+        accepted = raw === 'accepted';
+      }
+    }
+    if (accepted) {
+      PH.loadGA4Script();
+    }
+    // If no choice yet, GA4 will be loaded when user accepts via cookie banner
+  };
+
+  PH.loadGA4Script = () => {
+    if (document.getElementById('ga4-script')) return; // already loaded
+
+    // Update consent to granted
+    window.gtag('consent', 'update', {
+      analytics_storage: 'granted'
+    });
+
+    // Inject gtag.js script
+    const script = document.createElement('script');
+    script.id = 'ga4-script';
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    document.head.appendChild(script);
+
+    // Configure GA4
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID);
+  };
+
   /* ---------- image fallback (shown if a phone image fails to load) ---------- */
   PH.IMG_FALLBACK =
     "data:image/svg+xml;charset=UTF-8," +
@@ -173,6 +225,18 @@
   };
   PH.inCompare = (id) => PH.getCompare().includes(id);
 
+  /* ---------- recently viewed (localStorage, last 5) ---------- */
+  const VK = "phonehub_viewed";
+  PH.getViewed = () => {
+    try { return JSON.parse(localStorage.getItem(VK)) || []; }
+    catch (e) { return []; }
+  };
+  PH.trackViewed = (id) => {
+    let list = PH.getViewed().filter((x) => x !== id);
+    list.unshift(id);
+    localStorage.setItem(VK, JSON.stringify(list.slice(0, 5)));
+  };
+
   /* ---------- reusable phone card ---------- */
   PH.hasSpecs = (phone) => Object.values(phone.quickSpecs || {}).some((v) => v);
   PH.phoneCard = (phone) => {
@@ -299,23 +363,97 @@
     });
   };
 
-  /* ---------- cookie consent (required for AdSense / GDPR) ---------- */
-  const COOKIE_KEY = "phonehub_cookie_consent";
+  /* ---------- cookie consent (GDPR-compliant with categories) ---------- */
   PH.renderCookieBanner = () => {
-    if (localStorage.getItem(COOKIE_KEY)) return;
+    const saved = localStorage.getItem(COOKIE_KEY);
+    if (saved) return;
     const p = PH.linkPrefix();
-    const bar = document.createElement("div");
-    bar.className = "cookie-banner show";
-    bar.innerHTML =
-      `<p>We use cookies for functionality, analytics and ads. See our ` +
-      `<a href="${p}privacy.html">Privacy Policy</a>.</p>` +
-      `<div class="cookie-actions">` +
-      `<button class="btn btn-ghost" id="cookieDecline">Decline</button>` +
-      `<button class="btn btn-primary" id="cookieAccept">Accept</button></div>`;
-    document.body.appendChild(bar);
-    const close = (v) => { localStorage.setItem(COOKIE_KEY, v); bar.remove(); };
-    bar.querySelector("#cookieAccept").addEventListener("click", () => close("accepted"));
-    bar.querySelector("#cookieDecline").addEventListener("click", () => close("declined"));
+
+    /* Overlay + panel */
+    const overlay = document.createElement("div");
+    overlay.className = "cookie-overlay show";
+
+    const panel = document.createElement("div");
+    panel.className = "cookie-panel show";
+    panel.setAttribute("role", "dialog");
+    panel.setAttribute("aria-label", "Cookie preferences");
+
+    /* Main view */
+    const mainView = document.createElement("div");
+    mainView.className = "cookie-main-view";
+    mainView.innerHTML =
+      `<h3 style="margin:0 0 8px">We value your privacy</h3>` +
+      `<p style="margin:0 0 14px;font-size:14px;color:var(--muted)">We use cookies to improve your experience, measure traffic, and show relevant ads. Choose your preferences below. See our <a href="${p}privacy.html">Privacy Policy</a>.</p>` +
+      `<div class="cookie-actions" style="display:flex;gap:8px;flex-wrap:wrap">` +
+        `<button class="btn btn-ghost" id="cookieRejectAll" style="font-size:13px">Reject All</button>` +
+        `<button class="btn btn-ghost" id="cookieCustomize" style="font-size:13px">Customize</button>` +
+        `<button class="btn btn-primary" id="cookieAcceptAll" style="font-size:13px">Accept All</button>` +
+      `</div>`;
+
+    /* Preferences view (hidden initially) */
+    const prefsView = document.createElement("div");
+    prefsView.className = "cookie-prefs-view";
+    prefsView.style.display = "none";
+    prefsView.innerHTML =
+      `<h3 style="margin:0 0 12px">Cookie Preferences</h3>` +
+      `<div class="cookie-category">` +
+        `<label class="cookie-cat-row"><input type="checkbox" id="ckFunctional" checked disabled>` +
+        `<div><strong>Functional</strong><br><span style="font-size:12px;color:var(--muted)">Required for site features like compare lists and theme. Cannot be disabled.</span></div></label>` +
+      `</div>` +
+      `<div class="cookie-category">` +
+        `<label class="cookie-cat-row"><input type="checkbox" id="ckAnalytics">` +
+        `<div><strong>Analytics</strong><br><span style="font-size:12px;color:var(--muted)">Help us understand how visitors use the site (e.g. Google Analytics).</span></div></label>` +
+      `</div>` +
+      `<div class="cookie-category">` +
+        `<label class="cookie-cat-row"><input type="checkbox" id="ckAdvertising">` +
+        `<div><strong>Advertising</strong><br><span style="font-size:12px;color:var(--muted)">Allow personalized ads from partners like Google AdSense.</span></div></label>` +
+      `</div>` +
+      `<div class="cookie-actions" style="display:flex;gap:8px;margin-top:14px">` +
+        `<button class="btn btn-ghost" id="cookieBackMain" style="font-size:13px">Back</button>` +
+        `<button class="btn btn-primary" id="cookieSavePrefs" style="font-size:13px">Save Preferences</button>` +
+      `</div>`;
+
+    panel.appendChild(mainView);
+    panel.appendChild(prefsView);
+    document.body.appendChild(overlay);
+    document.body.appendChild(panel);
+
+    const storePrefs = (analytics, advertising) => {
+      const val = JSON.stringify({ functional: true, analytics, advertising });
+      localStorage.setItem(COOKIE_KEY, val);
+      // Also set the simple key for backward compat with GA4 init
+      if (analytics || advertising) {
+        localStorage.setItem(COOKIE_KEY + "_simple", "accepted");
+      } else {
+        localStorage.setItem(COOKIE_KEY + "_simple", "declined");
+      }
+      overlay.remove();
+      panel.remove();
+      if (analytics && typeof PH.loadGA4Script === "function") {
+        PH.loadGA4Script();
+      }
+    };
+
+    /* Accept All */
+    mainView.querySelector("#cookieAcceptAll").addEventListener("click", () => storePrefs(true, true));
+    /* Reject All */
+    mainView.querySelector("#cookieRejectAll").addEventListener("click", () => storePrefs(false, false));
+    /* Customize */
+    mainView.querySelector("#cookieCustomize").addEventListener("click", () => {
+      mainView.style.display = "none";
+      prefsView.style.display = "block";
+    });
+    /* Back */
+    prefsView.querySelector("#cookieBackMain").addEventListener("click", () => {
+      prefsView.style.display = "none";
+      mainView.style.display = "block";
+    });
+    /* Save Preferences */
+    prefsView.querySelector("#cookieSavePrefs").addEventListener("click", () => {
+      const analytics = prefsView.querySelector("#ckAnalytics").checked;
+      const advertising = prefsView.querySelector("#ckAdvertising").checked;
+      storePrefs(analytics, advertising);
+    });
   };
 
   /* ---------- light / dark theme toggle ---------- */
@@ -379,6 +517,7 @@
     PH.renderCompareBar();
     PH.wireSearch();
     PH.renderFooterLegal();
+    PH.initGA4();
     PH.renderCookieBanner();
     // mobile nav toggle
     const t = document.getElementById("navToggle");

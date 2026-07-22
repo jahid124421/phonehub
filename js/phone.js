@@ -21,6 +21,9 @@
   const b = PH.getBrand(phone.brand);
   const lowest = PH.lowestPrice(phone);
 
+  // Track recently viewed
+  PH.trackViewed(phone.id);
+
   // quick specs
   const qs = Object.entries(phone.quickSpecs).map(([k, v]) =>
     `<div class="qs"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
@@ -59,6 +62,18 @@
     .sort((a, b) => Math.abs(PH.lowestPrice(a) - lowest) - Math.abs(PH.lowestPrice(b) - lowest))
     .slice(0, 4);
 
+  // recently viewed
+  const viewedIds = PH.getViewed();
+  const recentlyViewed = viewedIds
+    .filter((id) => id !== phone.id)
+    .map((id) => PH.getPhone(id))
+    .filter(Boolean)
+    .slice(0, 5);
+
+  // video reviews
+  const ytQuery = encodeURIComponent(phone.name + " review");
+  const ytUrl = `https://www.youtube.com/results?search_query=${ytQuery}`;
+
   main.innerHTML = `
     <p class="crumb"><a href="index.html">Home</a> / <a href="search.html?brand=${phone.brand}">${b.name}</a> / ${phone.name}</p>
 
@@ -92,9 +107,26 @@
     </section>
 
     <section>
+      <div class="video-section">
+        <h2>🎬 Video reviews</h2>
+        <p>Watch hands-on reviews and unboxing videos for the ${phone.name} on YouTube.</p>
+        <a class="video-btn" href="${ytUrl}" target="_blank" rel="noopener nofollow">
+          <svg viewBox="0 0 24 24"><path d="M23.5 6.2c-.3-1-1-1.8-2-2.1C19.7 3.5 12 3.5 12 3.5s-7.7 0-9.5.6c-1 .3-1.7 1.1-2 2.1C0 8.1 0 12 0 12s0 3.9.5 5.8c.3 1 1 1.8 2 2.1 1.8.6 9.5.6 9.5.6s7.7 0 9.5-.6c1-.3 1.7-1.1 2-2.1.5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg>
+          Watch reviews on YouTube
+        </a>
+      </div>
+    </section>
+
+    <section>
       <h2>Full specifications</h2>
       ${specBlocks}
     </section>
+
+    ${recentlyViewed.length ? `
+    <section>
+      <div class="section-head"><h2>🕐 Recently viewed</h2></div>
+      <div class="recently-viewed-scroll">${recentlyViewed.map(PH.phoneCard).join("")}</div>
+    </section>` : ""}
 
     <section>
       <div class="section-head"><h2>Similar phones</h2></div>
