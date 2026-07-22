@@ -1,6 +1,0 @@
-# DEPRECATED — This workflow has been merged into deploy.yml.
-# All functionality (data pipeline, Wikidata seeding, price fetching,
-# AI content generation, news fetching, and deployment) now runs
-# from the consolidated deploy.yml workflow.
-#
-# This file is kept as a placeholder for reference. Safe to delete.

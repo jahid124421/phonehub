@@ -190,7 +190,7 @@ def main():
         raise SystemExit(f"Unknown provider '{provider}'. Options: {list(PROVIDERS)}")
 
     env_path = os.path.join(C.HERE, llm.get("keys_env_path", "../../ai-bots-package/my-keys.env"))
-    keys = C.load_envkeys(env_path)
+    keys = C.load_env_keys(env_path)
     key_name = PROVIDERS[provider][1]
     key = keys.get(key_name) or os.environ.get(key_name)
     if not key:

@@ -154,7 +154,7 @@ jobs:
       - name: Run data pipeline (content_agent → price_job → news_fetch → build)
         working-directory: tools
         continue-on-error: true    # LLM/pricing APIs may be unreachable; keep last good data
-        run: python run_all.py --no-import
+        run: python run_all.py --no-import --detect-new --enrich-brands --limit ${{ github.event.inputs.limit || '100' }}
 
       # ── 8. Commit refreshed data back to repo ─────────────────────────
       # Persists generated specs, AI content cache, and price data so that
@@ -205,3 +205,22 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # ━━━ Post-deploy monitor (scheduled runs only) ━━━━━━━━━━━━━━━━━━━━━━━━
+  monitor:
+    needs: deploy
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run site monitor
+        working-directory: tools
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python site_monitor.py
