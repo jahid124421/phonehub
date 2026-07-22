@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-domain.example/sitemap.xml
+Sitemap: https://jahid124421.github.io/phonehub/sitemap.xml

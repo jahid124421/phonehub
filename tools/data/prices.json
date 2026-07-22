@@ -24313,5 +24313,1055 @@
         "url": "https://www.flipkart.com/search?q=Oldsmobile%20Cutlass"
       }
     ]
+  },
+  "auto-nw-t": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=NW%20T"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=NW%20T"
+      }
+    ]
+  },
+  "auto-volvo-ycc": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volvo%20YCC"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volvo%20YCC"
+      }
+    ]
+  },
+  "auto-oldsmobile-model-43": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oldsmobile%20Model%2043"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oldsmobile%20Model%2043"
+      }
+    ]
+  },
+  "auto-honda-logo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honda%20Logo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honda%20Logo"
+      }
+    ]
+  },
+  "auto-alfa-romeo-g1": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Alfa%20Romeo%20G1"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Alfa%20Romeo%20G1"
+      }
+    ]
+  },
+  "auto-toyota-regius": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20Regius"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20Regius"
+      }
+    ]
+  },
+  "auto-nissan-rasheen": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Rasheen"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Rasheen"
+      }
+    ]
+  },
+  "auto-nissan-bassara": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Bassara"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Bassara"
+      }
+    ]
+  },
+  "auto-opel-monza": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%20Monza"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%20Monza"
+      }
+    ]
+  },
+  "auto-mercedes-benz-w11": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mercedes-Benz%20W11"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mercedes-Benz%20W11"
+      }
+    ]
+  },
+  "auto-morris-six-ms": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Morris%20Six%20MS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Morris%20Six%20MS"
+      }
+    ]
+  },
+  "auto-opel-10-30-ps": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%2010/30%20PS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%2010/30%20PS"
+      }
+    ]
+  },
+  "auto-renault-be-bop": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Renault%20Be%20Bop"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Renault%20Be%20Bop"
+      }
+    ]
+  },
+  "auto-honda-accord--first-generation": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Honda%20Accord%20%28first%20generation%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Honda%20Accord%20%28first%20generation%29"
+      }
+    ]
+  },
+  "auto-gumpert-tornante": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Gumpert%20Tornante"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Gumpert%20Tornante"
+      }
+    ]
+  },
+  "auto-weller-four-seat-tourer": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Weller%20Four%20Seat%20Tourer"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Weller%20Four%20Seat%20Tourer"
+      }
+    ]
+  },
+  "auto-pontiac-torpedo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pontiac%20Torpedo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pontiac%20Torpedo"
+      }
+    ]
+  },
+  "auto-fiat-mephistopheles": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Fiat%20Mephistopheles"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Fiat%20Mephistopheles"
+      }
+    ]
+  },
+  "auto-maserati-3200-gt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Maserati%203200%20GT"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Maserati%203200%20GT"
+      }
+    ]
+  },
+  "auto-maserati-coupé": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Maserati%20Coup%C3%A9"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Maserati%20Coup%C3%A9"
+      }
+    ]
+  },
+  "auto-lister-storm": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lister%20Storm"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lister%20Storm"
+      }
+    ]
+  },
+  "auto-rambler-rebel": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Rambler%20Rebel"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Rambler%20Rebel"
+      }
+    ]
+  },
+  "auto-reliant-tw9": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Reliant%20TW9"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Reliant%20TW9"
+      }
+    ]
+  },
+  "auto-toyota-succeed": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20Succeed"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20Succeed"
+      }
+    ]
+  },
+  "auto-nissan-bluebird": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Bluebird"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Bluebird"
+      }
+    ]
+  },
+  "auto-saturn-sky": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Saturn%20Sky"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Saturn%20Sky"
+      }
+    ]
+  },
+  "auto-ferrari-550": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ferrari%20550"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ferrari%20550"
+      }
+    ]
+  },
+  "auto-subaru-forester": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Subaru%20Forester"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Subaru%20Forester"
+      }
+    ]
+  },
+  "auto-toyota-2000gt": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%202000GT"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%202000GT"
+      }
+    ]
+  },
+  "auto-ford-excursion": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20Excursion"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20Excursion"
+      }
+    ]
+  },
+  "auto-morris-commercial-j4": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Morris%20Commercial%20J4"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Morris%20Commercial%20J4"
+      }
+    ]
+  },
+  "auto-elektrische-viktoria": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Elektrische%20Viktoria"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Elektrische%20Viktoria"
+      }
+    ]
+  },
+  "auto-mitsubishi-carisma": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mitsubishi%20Carisma"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mitsubishi%20Carisma"
+      }
+    ]
+  },
+  "auto-fiat-1300-1500": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Fiat%201300/1500"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Fiat%201300/1500"
+      }
+    ]
+  },
+  "auto-smart-forfour": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Smart%20Forfour"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Smart%20Forfour"
+      }
+    ]
+  },
+  "auto-nissan-pivo": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Nissan%20Pivo"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Nissan%20Pivo"
+      }
+    ]
+  },
+  "auto-russo-balt-vehicles": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Russo-Balt%20vehicles"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Russo-Balt%20vehicles"
+      }
+    ]
+  },
+  "auto-maserati-tipo-151": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Maserati%20Tipo%20151"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Maserati%20Tipo%20151"
+      }
+    ]
+  },
+  "auto-volvo-c70": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volvo%20C70"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volvo%20C70"
+      }
+    ]
+  },
+  "auto-opel-astra-g": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%20Astra%20G"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%20Astra%20G"
+      }
+    ]
+  },
+  "auto-datsun-type-12": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Datsun%20Type%2012"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Datsun%20Type%2012"
+      }
+    ]
+  },
+  "auto-lotus-17": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lotus%2017"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lotus%2017"
+      }
+    ]
+  },
+  "auto-renault-fuego": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Renault%20Fuego"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Renault%20Fuego"
+      }
+    ]
+  },
+  "auto-seat-alhambra": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=SEAT%20Alhambra"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=SEAT%20Alhambra"
+      }
+    ]
+  },
+  "auto-emgrand-ec8": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Emgrand%20EC8"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Emgrand%20EC8"
+      }
+    ]
+  },
+  "auto-lincoln-ls": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lincoln%20LS"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lincoln%20LS"
+      }
+    ]
+  },
+  "auto-holden-hurricane": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Holden%20Hurricane"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Holden%20Hurricane"
+      }
+    ]
+  },
+  "auto-jensen-541": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Jensen%20541"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Jensen%20541"
+      }
+    ]
+  },
+  "auto-renault-6": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Renault%206"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Renault%206"
+      }
+    ]
+  },
+  "auto-porsche-997": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Porsche%20997"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Porsche%20997"
+      }
+    ]
+  },
+  "auto-emme": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Emme"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Emme"
+      }
+    ]
+  },
+  "auto-peugeot-408": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20408"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20408"
+      }
+    ]
+  },
+  "auto-pontiac-gto": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Pontiac%20GTO"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Pontiac%20GTO"
+      }
+    ]
+  },
+  "auto-plymouth-deluxe": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Plymouth%20Deluxe"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Plymouth%20Deluxe"
+      }
+    ]
+  },
+  "auto-oldsmobile-series-40": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Oldsmobile%20Series%2040"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Oldsmobile%20Series%2040"
+      }
+    ]
+  },
+  "auto-volkswagen-type-2--t3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volkswagen%20Type%202%20%28T3%29"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volkswagen%20Type%202%20%28T3%29"
+      }
+    ]
+  },
+  "auto-gmc-syclone": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=GMC%20Syclone"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=GMC%20Syclone"
+      }
+    ]
+  },
+  "auto-volvo-200-series": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Volvo%20200%20Series"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Volvo%20200%20Series"
+      }
+    ]
+  },
+  "auto-lexus-lfa": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Lexus%20LFA"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Lexus%20LFA"
+      }
+    ]
+  },
+  "auto-toyota-4runner": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%204Runner"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%204Runner"
+      }
+    ]
+  },
+  "auto-triumph-spitfire": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Triumph%20Spitfire"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Triumph%20Spitfire"
+      }
+    ]
+  },
+  "auto-toyota-fj-cruiser": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Toyota%20FJ%20Cruiser"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Toyota%20FJ%20Cruiser"
+      }
+    ]
+  },
+  "auto-mercedes-benz-x166": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Mercedes-Benz%20X166"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Mercedes-Benz%20X166"
+      }
+    ]
+  },
+  "auto-porsche-914": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Porsche%20914"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Porsche%20914"
+      }
+    ]
+  },
+  "auto-opel-antara": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Opel%20Antara"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Opel%20Antara"
+      }
+    ]
+  },
+  "auto-hsv-vxr": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=HSV%20VXR"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=HSV%20VXR"
+      }
+    ]
+  },
+  "auto-ford-rs200": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Ford%20RS200"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Ford%20RS200"
+      }
+    ]
+  },
+  "auto-peugeot-type-159": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20Type%20159"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20Type%20159"
+      }
+    ]
+  },
+  "auto-peugeot-vlv": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Peugeot%20VLV"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Peugeot%20VLV"
+      }
+    ]
+  },
+  "auto-brilliance-bc3": {
+    "basePrice": 0,
+    "prices": [
+      {
+        "store": "Amazon",
+        "price": null,
+        "url": "https://www.amazon.in/s?k=Brilliance%20BC3"
+      },
+      {
+        "store": "Flipkart",
+        "price": null,
+        "url": "https://www.flipkart.com/search?q=Brilliance%20BC3"
+      }
+    ]
   }
 }
